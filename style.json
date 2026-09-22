@@ -1,0 +1,149 @@
+{
+  "version": 8,
+  "name": "shenandoah-outdoors-basemap",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "tiles": ["https://sashalawrence13.github.io/shenandoah-outdoors-basemap/tiles/{z}/{x}/{y}.pbf"],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "attribution": "© OpenMapTiles © OpenStreetMap contributors"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#f2f3f0" }
+    },
+    {
+      "id": "landcover-wood",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["==", ["get", "class"], "wood"],
+      "paint": { "fill-color": "#e2e8dc", "fill-opacity": 0.7 }
+    },
+    {
+      "id": "landcover-grass",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["in", ["get", "class"], ["literal", ["grass", "wetland"]]],
+      "paint": { "fill-color": "#e6ebdd", "fill-opacity": 0.6 }
+    },
+    {
+      "id": "landuse-residential",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["==", ["get", "class"], "residential"],
+      "paint": { "fill-color": "#e9e8e4", "fill-opacity": 0.5 }
+    },
+    {
+      "id": "park",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "park",
+      "paint": { "fill-color": "#d9e6d3", "fill-opacity": 0.55 }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": { "fill-color": "#aecbdd" }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "paint": {
+        "line-color": "#aecbdd",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.5, 14, 1.6]
+      }
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 13,
+      "paint": { "fill-color": "#e4e2dc", "fill-opacity": 0.6 }
+    },
+    {
+      "id": "boundary-admin",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "filter": ["<=", ["get", "admin_level"], 4],
+      "paint": {
+        "line-color": "#b7b3a8",
+        "line-width": 0.8,
+        "line-dasharray": [3, 2]
+      }
+    },
+    {
+      "id": "road-path",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", ["get", "class"], ["literal", ["path", "track"]]],
+      "minzoom": 12,
+      "paint": {
+        "line-color": "#c9a679",
+        "line-width": 0.8,
+        "line-dasharray": [2, 1.5]
+      }
+    },
+    {
+      "id": "road-minor",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", ["get", "class"], ["literal", ["minor", "service"]]],
+      "minzoom": 11,
+      "paint": {
+        "line-color": "#d8d4c8",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 11, 0.5, 16, 2]
+      }
+    },
+    {
+      "id": "road-secondary",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", ["get", "class"], ["literal", ["tertiary", "secondary"]]],
+      "minzoom": 8,
+      "paint": {
+        "line-color": "#d3ccb8",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.6, 16, 3]
+      }
+    },
+    {
+      "id": "road-primary",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["in", ["get", "class"], ["literal", ["primary", "trunk"]]],
+      "minzoom": 6,
+      "paint": {
+        "line-color": "#cbb989",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 6, 0.8, 16, 4]
+      }
+    },
+    {
+      "id": "road-motorway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["==", ["get", "class"], "motorway"],
+      "minzoom": 4,
+      "paint": {
+        "line-color": "#c6a76a",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.8, 16, 5]
+      }
+    }
+  ]
+}
