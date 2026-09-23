@@ -16,7 +16,7 @@ on this repo's Pages (the keys stay in this repo's Actions secrets):
   precipitation. Key: VDOT_TOKEN (the owner's SmarterRoads token).
 Run by .github/workflows/alerts.yml with the alerts.
 """
-import csv, io, json, os, sys, urllib.request
+import csv, io, json, os, sys, urllib.error, urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 UA = "Mossback conditions (github.com/SashaLawrence13/shenandoah-outdoors-basemap)"
@@ -326,7 +326,11 @@ def pollen():
                            "startTime": "now", "endTime": "nowPlus4d"}).encode()
         req = urllib.request.Request(f"https://api.tomorrow.io/v4/timelines?apikey={key}", data=body,
                                      headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
-        data = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        try:
+            data = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        except urllib.error.HTTPError as e:
+            # Tomorrow.io explains refusals in the body (e.g. a field not on the plan); keep it, not the URL.
+            return {"status": f"error: HTTP {e.code}", "detail": e.read()[:300].decode("utf-8", "ignore")}
         days = []
         for t in data["data"]["timelines"][0]["intervals"]:
             v = t.get("values", {})
