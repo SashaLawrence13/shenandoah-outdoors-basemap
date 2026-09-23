@@ -8,9 +8,10 @@ download pack is allowed to cache and redistribute this data.
 ## What this is
 
 - **Source data**: OpenStreetMap, via a [Geofabrik](https://download.geofabrik.de/)
-  Virginia extract, clipped to a box covering Shenandoah National Park
-  plus a buffer (roads/towns near trailheads, and the Charlottesville
-  area) with [osmium-tool](https://osmcode.org/osmium-tool/).
+  Virginia and West Virginia extracts, clipped to a box covering
+  Shenandoah National Park and George Washington National Forest's Lee,
+  North River and Glenwood-Pedlar districts, plus the roads and towns
+  around them, with [osmium-tool](https://osmcode.org/osmium-tool/).
 - **Tile generation**: [Planetiler](https://github.com/onthegomap/planetiler)
   with its default OpenMapTiles-schema profile, producing standard
   `{z}/{x}/{y}.pbf` vector tiles, zoom 0–14.
@@ -57,15 +58,19 @@ pip3 install mbutil
 
 curl -L -o virginia-latest.osm.pbf \
   https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf
+curl -L -o west-virginia-latest.osm.pbf \
+  https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf
 
-# Bounding box: Shenandoah NP's own bounds (see src/config/parks/shenandoah.ts)
-# plus a buffer for trailhead access roads and the Charlottesville area.
-osmium extract -b -79.05,37.9,-77.75,39.15 \
-  virginia-latest.osm.pbf -o shenandoah-region.osm.pbf --overwrite
+# Bounding box: Shenandoah NP plus George Washington National Forest's
+# Lee, North River and Glenwood-Pedlar districts (widened 2026-09-23).
+# Lee and North River reach into West Virginia, hence the second extract.
+osmium extract -b -80.1,37.3,-77.75,39.2 virginia-latest.osm.pbf -o va.osm.pbf --overwrite
+osmium extract -b -80.1,37.3,-77.75,39.2 west-virginia-latest.osm.pbf -o wv.osm.pbf --overwrite
+osmium merge va.osm.pbf wv.osm.pbf -o region.osm.pbf --overwrite
 
 curl -L -o planetiler.jar \
   https://github.com/onthegomap/planetiler/releases/latest/download/planetiler.jar
-java -jar planetiler.jar --osm-path=shenandoah-region.osm.pbf \
+java -jar planetiler.jar --osm-path=region.osm.pbf \
   --output=shenandoah.mbtiles --force --download
 
 mb-util --image_format=pbf shenandoah.mbtiles tiles/
@@ -87,6 +92,9 @@ python3 scripts/trim_glyphs.py fonts glyphs   # see the script's docstring
 python3 scripts/make_styles.py https://sashalawrence13.github.io/shenandoah-outdoors-basemap .
 ```
 
-Re-run this whenever the app expands to a new region (e.g. George
-Washington National Forest) — widen the `osmium extract` bounding box
-and regenerate rather than maintaining a second tileset.
+Re-run this whenever the app expands to a new region — widen the
+`osmium extract` bounding box and regenerate rather than maintaining a
+second tileset. The contour and elevation tiles (`contours/`, `dem/`)
+are built by `scripts/make_elevation.sh`; since the forest extension
+they cover the park and the three forest districts plus about 3 km, not
+the whole box.
