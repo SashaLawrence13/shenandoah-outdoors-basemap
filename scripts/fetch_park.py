@@ -25,17 +25,21 @@ STILLS = [
     {"id": "big-meadows", "title": "Big Meadows", "park": "shen",
      "image": "https://www.nps.gov/webcams-shen/bvc2_800.jpg",
      "page": "https://www.nps.gov/shen/learn/photosmultimedia/bm_webcam.htm",
-     "credit": "National Park Service", "latitude": 38.5312, "longitude": -78.4381},
+     "credit": "National Park Service", "latitude": 38.5312, "longitude": -78.4381,
+     "npsId": "81B46B99-1DD8-B71B-0B124A40CC3384CE"},
     {"id": "phenocam", "title": "Forest canopy (PhenoCam)", "park": "shen",
      "image": "https://phenocam.nau.edu/data/latest/shenandoah.jpg",
      "page": "https://phenocam.nau.edu/webcam/sites/shenandoah/",
-     "credit": "PhenoCam Network (CC BY 4.0)", "latitude": 38.6178, "longitude": -78.3503},
+     "credit": "PhenoCam Network (CC BY 4.0)", "latitude": 38.6178, "longitude": -78.3503,
+     "npsId": "81B46B71-1DD8-B71B-0B55074571E08B1E"},
 ]
 STREAMS = [
     {"id": "big-meadows-live", "title": "Big Meadows (live video)", "park": "shen",
-     "page": "https://www.nps.gov/shen/learn/photosmultimedia/bigmeadows_livecam.htm"},
+     "page": "https://www.nps.gov/shen/learn/photosmultimedia/bigmeadows_livecam.htm",
+     "npsId": "5BA652A1-979D-4485-F22E9F780981BD17"},
     {"id": "valley-live", "title": "Shenandoah Valley (live video)", "park": "shen",
-     "page": "https://www.nps.gov/shen/learn/photosmultimedia/shenvalleycam.htm"},
+     "page": "https://www.nps.gov/shen/learn/photosmultimedia/shenvalleycam.htm",
+     "npsId": "2BB1FF1F-BF6C-9F10-BFAFCCEFC8F0D861"},
 ]
 
 
@@ -91,9 +95,9 @@ def main():
         out["status"] = "ok"
         try:
             # Webcams the API knows that aren't already listed above.
-            known = {c["page"] for c in STILLS + STREAMS}
+            known = {c["npsId"] for c in STILLS + STREAMS}
             for w in api("webcams"):
-                if w.get("url") in known:
+                if w.get("id") in known:
                     continue
                 out["webcams"].append({"id": w.get("id"), "title": w.get("title"), "park": (w.get("relatedParks") or [{}])[0].get("parkCode"),
                                        "page": w.get("url"), "kind": "stream" if w.get("isStreaming") else "page",
