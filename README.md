@@ -19,6 +19,20 @@ download pack is allowed to cache and redistribute this data.
   names, POI markers and labels as native UI on top of the map; the
   basemap's job is background context (water, land cover, roads), not
   text, so there was nothing worth generating a font/glyph pipeline for.
+- **More styles** (added 2026-09-22), all static files here:
+  - `topo.json` — Topo: the same vector tiles plus hillshading
+    (`dem/`, terrarium-encoded elevation tiles, z8–12) and 40 ft contour
+    lines (`contours/`, vector tiles z10–14, index lines every 200 ft),
+    both generated from the USGS 3DEP 1/3 arc-second DEM (public domain),
+    with peak, place, stream and road names.
+  - `satellite.json` — USGS National Map imagery (USDA NAIP, public
+    domain), served by `basemap.nationalmap.gov`, with our names on top.
+  - `usgs-topo.json` — the USGS National Map's own topo map, served by
+    `basemap.nationalmap.gov` (public domain).
+  - `glyphs/` — a Latin-only cut of Noto Sans (SIL Open Font License,
+    `glyphs/OFL.txt`) for those labels. Every range a style could ask for
+    exists (the unneeded ones are empty), so an offline download is ~1 MB
+    of fonts rather than ~100 MB.
 - **Hosting**: static files, served via GitHub Pages. No tile server,
   no backend — matches the main app's own "no custom backend" default.
 
@@ -61,6 +75,16 @@ mb-util --image_format=pbf shenandoah.mbtiles tiles/
 # Content-Encoding header needed).
 find tiles -name "*.pbf" -print0 | \
   xargs -0 -I{} sh -c 'gunzip -c "{}" > "{}.tmp" && mv "{}.tmp" "{}"'
+```
+
+The Topo additions:
+
+```bash
+brew install gdal tippecanoe
+pip3 install rasterio numpy scipy mercantile pillow
+scripts/make_elevation.sh            # contours/ and dem/ from USGS 3DEP
+python3 scripts/trim_glyphs.py fonts glyphs   # see the script's docstring
+python3 scripts/make_styles.py https://sashalawrence13.github.io/shenandoah-outdoors-basemap .
 ```
 
 Re-run this whenever the app expands to a new region (e.g. George
