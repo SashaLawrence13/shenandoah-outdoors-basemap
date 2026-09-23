@@ -193,14 +193,81 @@ def roads():
     return {"status": "ok" if out else "error: no stations", "stations": out}
 
 
+VDOT_BASE = "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads"
+# Each SmarterRoads dataset has its own token; each feed comes filtered and unfiltered.
+VDOT_FEEDS = {
+    "incidents": ("VDOT_INCIDENTS_TOKEN", ["/incidentFiltered/incidentFilteredGEORSS/current/incidentFiltered_georss.xml",
+                                           "/incidentUnfiltered/incidentUnfilteredGEORSS/current/incidentUnfiltered_georss.xml"]),
+    "events": ("VDOT_EVENTS_TOKEN", ["/eventFiltered/eventFilteredGEORSS/current/eventFiltered_georss.xml",
+                                     "/eventUnfiltered/eventUnfilteredGEORSS/current/eventUnfiltered_georss.xml"]),
+    "roadConditions": ("VDOT_ROAD_CONDITION_TOKEN", ["/roadCondition/weatherLongGeorss/current/weather_long_georss.xml"]),
+}
+
+
+def vdot_items(xml_bytes):
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(xml_bytes)
+    out = []
+    for it in root.iter("item"):
+        pt, line = None, None
+        for child in it:
+            tag = child.tag.split("}")[-1]
+            if tag == "point" and child.text:
+                pt = [float(v) for v in child.text.split()[:2]]
+            elif tag == "line" and child.text:
+                vals = [float(v) for v in child.text.split()]
+                line = [vals[i:i + 2] for i in range(0, len(vals) - 1, 2)]
+        if pt is None and line:
+            pt = line[0]
+        if pt is None:
+            continue
+        lat, lon = pt
+        if not (BOX[1] <= lat <= BOX[3] and BOX[0] <= lon <= BOX[2]):
+            continue
+        out.append({"title": (it.findtext("title") or "").strip(), "description": (it.findtext("description") or "").strip()[:800],
+                     "lat": round(lat, 5), "lon": round(lon, 5), "line": line[:60] if line else None,
+                     "published": (it.findtext("pubDate") or "").strip() or None,
+                     "tags": sorted({c.tag.split("}")[-1] for c in it})})
+    return out
+
+
+def vdot():
+    import urllib.parse
+    res = {}
+    for name, (secret, paths) in VDOT_FEEDS.items():
+        token = os.environ.get(secret, "").strip()
+        if not token:
+            res[name] = {"status": "no-key"}
+            continue
+        tried = {}
+        for path in paths:
+            try:
+                data = get(f"{VDOT_BASE}{path}?token={urllib.parse.quote(token, safe='')}")
+                items = vdot_items(data)
+                res[name] = {"status": "ok", "feed": path.split("/")[1], "items": items}
+                break
+            except Exception as e:
+                tried[path.split("/")[1]] = type(e).__name__
+        else:
+            res[name] = {"status": "error", "tried": tried}
+    return res
+
+
 def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
+    out["traffic"] = safe(vdot)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
     print(summary)
     print("fire sources:", out["fires"].get("sources"))
+    for k, v in (out.get("traffic") or {}).items():
+        if isinstance(v, dict):
+            items = v.get("items") or []
+            print("traffic", k, v.get("status"), v.get("feed"), v.get("tried"), len(items), "in area")
+            for it in items[:2]:
+                print("   ", it["tags"], "|", it["title"][:80], "|", it["description"][:300])
 
 
 if __name__ == "__main__":

@@ -49,6 +49,9 @@ jobs:
           AIRNOW_API_KEY: ${{ secrets.AIRNOW_API_KEY }}
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
           VDOT_TOKEN: ${{ secrets.VDOT_TOKEN }}
+          VDOT_INCIDENTS_TOKEN: ${{ secrets.VDOT_INCIDENTS_TOKEN }}
+          VDOT_EVENTS_TOKEN: ${{ secrets.VDOT_EVENTS_TOKEN }}
+          VDOT_ROAD_CONDITION_TOKEN: ${{ secrets.VDOT_ROAD_CONDITION_TOKEN }}
         run: python3 scripts/fetch_conditions.py
       - name: Publish if changed (or once a day, so "checked" stays fresh)
         run: |
