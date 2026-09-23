@@ -32,6 +32,7 @@ jobs:
             alerts
             park
             conditions
+            ridb
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -52,7 +53,13 @@ jobs:
           VDOT_INCIDENTS_TOKEN: ${{ secrets.VDOT_INCIDENTS_TOKEN }}
           VDOT_EVENTS_TOKEN: ${{ secrets.VDOT_EVENTS_TOKEN }}
           VDOT_ROAD_CONDITION_TOKEN: ${{ secrets.VDOT_ROAD_CONDITION_TOKEN }}
+          VDOT_WEATHER_SHORT_TOKEN: ${{ secrets.VDOT_WEATHER_SHORT_TOKEN }}
+          VDOT_WEATHER_LONG_TOKEN: ${{ secrets.VDOT_WEATHER_LONG_TOKEN }}
         run: python3 scripts/fetch_conditions.py
+      - name: Fetch Recreation.gov facilities (forest campgrounds)
+        env:
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+        run: python3 scripts/fetch_ridb.py
       - name: Publish if changed (or once a day, so "checked" stays fresh)
         run: |
           publish=$(python3 - <<'PY'
@@ -63,7 +70,7 @@ jobs:
                   w.pop("updated", None)
               return d
           changed = False
-          for path in ("alerts/alerts.json", "park/park.json", "conditions/conditions.json"):
+          for path in ("alerts/alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json"):
               new = json.load(open(path))
               try:
                   old = json.loads(subprocess.run(["git", "show", f"HEAD:{path}"], capture_output=True, text=True).stdout)
@@ -71,14 +78,14 @@ jobs:
                   changed = True
                   continue
               changed = changed or strip(old) != strip(new)
-          last = int(subprocess.run(["git", "log", "-1", "--format=%ct", "--", "alerts", "park", "conditions"],
+          last = int(subprocess.run(["git", "log", "-1", "--format=%ct", "--", "alerts", "park", "conditions", "ridb"],
                                     capture_output=True, text=True).stdout.strip() or 0)
           print("yes" if changed or time.time() - last > 86400 else "no")
           PY
           )
-          if [ "$publish" != "yes" ]; then git checkout -- alerts park conditions 2>/dev/null || true; exit 0; fi
+          if [ "$publish" != "yes" ]; then git checkout -- alerts park conditions ridb 2>/dev/null || true; exit 0; fi
           git config user.name "Mossback alerts bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add alerts/alerts.json park/park.json conditions/conditions.json
+          git add alerts/alerts.json park/park.json conditions/conditions.json ridb/ridb.json
           git commit -m "Alerts, park data and conditions: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

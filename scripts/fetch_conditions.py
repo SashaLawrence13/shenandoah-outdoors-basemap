@@ -201,6 +201,8 @@ VDOT_FEEDS = {
     "events": ("VDOT_EVENTS_TOKEN", ["/eventFiltered/eventFilteredGEORSS/current/eventFiltered_georss.xml",
                                      "/eventUnfiltered/eventUnfilteredGEORSS/current/eventUnfiltered_georss.xml"]),
     "roadConditions": ("VDOT_ROAD_CONDITION_TOKEN", ["/roadCondition/weatherLongGeorss/current/weather_long_georss.xml"]),
+    "weatherShort": ("VDOT_WEATHER_SHORT_TOKEN", ["/incidentUnfiltered/weatherShortGeorss/current/weather_short_georss.xml"]),
+    "weatherAll": ("VDOT_WEATHER_LONG_TOKEN", ["/roadCondition/weatherAllGeorss/current/weather_all_georss.xml"]),
 }
 
 
