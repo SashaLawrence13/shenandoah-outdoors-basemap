@@ -89,10 +89,16 @@ def air():
         return {"status": "no-key"}
     obs, fc, areas = [], [], set()
     today = date.today()
+    failures = 0
     for c in CENTERS:
         base = f"latitude={c['lat']}&longitude={c['lng']}&distance=50&format=application/json&API_KEY={key}"
         fbase = base.replace("distance=50", "distance=150")  # forecasts cover fewer, larger areas
-        for o in json.loads(get(f"https://www.airnowapi.org/aq/observation/latLong/current/?{base}")):
+        try:
+            current = json.loads(get(f"https://www.airnowapi.org/aq/observation/latLong/current/?{base}"))
+        except Exception:
+            failures += 1
+            continue
+        for o in current:
             k = (o["ReportingArea"], o["ParameterName"])
             if k in areas:
                 continue
@@ -102,7 +108,11 @@ def air():
                         "level": o["Category"]["Number"], "observed": f"{o['DateObserved'].strip()} {o['HourObserved']}:00 {o['LocalTimeZone']}",
                         "near": c["id"], "side": c["side"]})
         for d in (today, today + timedelta(days=1)):
-            for f in json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{fbase}&date={d.isoformat()}")):
+            try:
+                forecasts = json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{fbase}&date={d.isoformat()}"))
+            except Exception:
+                forecasts = []
+            for f in forecasts:
                 fc.append({"area": f["ReportingArea"], "date": f["DateForecast"].strip(), "pollutant": f["ParameterName"],
                            "aqi": f["AQI"], "category": f["Category"]["Name"], "level": f["Category"]["Number"],
                            "actionDay": bool(f.get("ActionDay")), "discussion": (f.get("Discussion") or "")[:600],
@@ -110,6 +120,8 @@ def air():
     uniq = {}
     for f in fc:
         uniq[(f["area"], f["date"], f["pollutant"])] = f
+    if not obs:
+        return {"status": f"error: all {failures} requests failed" if failures else "ok", "observations": [], "forecasts": []}
     return {"status": "ok", "observations": obs, "forecasts": list(uniq.values())}
 
 
@@ -305,6 +317,14 @@ def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     out["traffic"] = safe(vdot)
+    if os.path.exists(OUT):
+        try:
+            old = json.load(open(OUT))
+        except ValueError:
+            old = {}
+        for k in ("fires", "air", "birds", "roads"):
+            if str(out.get(k, {}).get("status", "")).startswith("error") and old.get(k, {}).get("status") in ("ok", "stale"):
+                out[k] = {**old[k], "status": "stale", "staleSince": out["fetchedAt"]}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
