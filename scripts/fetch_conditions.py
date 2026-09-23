@@ -49,14 +49,18 @@ def fires():
     if not key:
         return {"status": "no-key"}
     area = ",".join(str(v) for v in BOX)
-    out, seen = [], set()
+    out, seen, sources = [], set(), {}
     for source in ("VIIRS_SNPP_NRT", "VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT", "MODIS_NRT"):
         try:
             text = get(f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{key}/{source}/{area}/2").decode()
-        except Exception:
+        except Exception as e:
+            sources[source] = f"error: {type(e).__name__}"
             continue
         if not text.startswith("latitude"):
+            # FIRMS answers a bad key or a busy server with a short text message.
+            sources[source] = "bad-response: " + text.strip()[:60].replace(key, "…")
             continue
+        sources[source] = f"ok ({max(0, text.count(chr(10)) - 1)} rows)"
         for r in csv.DictReader(io.StringIO(text)):
             conf = (r.get("confidence") or "").strip().lower()
             if conf in ("l", "low") or (conf.isdigit() and int(conf) < 30):
@@ -72,7 +76,8 @@ def fires():
                         "confidence": conf, "frp": float(r["frp"]) if r.get("frp") else None,
                         "day": r.get("daynight") == "D"})
     out.sort(key=lambda d: d["detected"], reverse=True)
-    return {"status": "ok", "detections": out}
+    good = sum(1 for v in sources.values() if v.startswith("ok"))
+    return {"status": "ok" if good else "error: no source answered", "sources": sources, "detections": out}
 
 
 def air():
@@ -83,6 +88,7 @@ def air():
     today = date.today()
     for c in CENTERS:
         base = f"latitude={c['lat']}&longitude={c['lng']}&distance=50&format=application/json&API_KEY={key}"
+        fbase = base.replace("distance=50", "distance=150")  # forecasts cover fewer, larger areas
         for o in json.loads(get(f"https://www.airnowapi.org/aq/observation/latLong/current/?{base}")):
             k = (o["ReportingArea"], o["ParameterName"])
             if k in areas:
@@ -93,7 +99,7 @@ def air():
                         "level": o["Category"]["Number"], "observed": f"{o['DateObserved'].strip()} {o['HourObserved']}:00 {o['LocalTimeZone']}",
                         "near": c["id"], "side": c["side"]})
         for d in (today, today + timedelta(days=1)):
-            for f in json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{base}&date={d.isoformat()}")):
+            for f in json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{fbase}&date={d.isoformat()}")):
                 fc.append({"area": f["ReportingArea"], "date": f["DateForecast"].strip(), "pollutant": f["ParameterName"],
                            "aqi": f["AQI"], "category": f["Category"]["Name"], "level": f["Category"]["Number"],
                            "actionDay": bool(f.get("ActionDay")), "discussion": (f.get("Discussion") or "")[:600],
@@ -135,6 +141,7 @@ def main():
     json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
     print(summary)
+    print("fire sources:", out["fires"].get("sources"))
 
 
 if __name__ == "__main__":
