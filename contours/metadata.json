@@ -1,0 +1,15 @@
+{
+"name": "contour-tiles",
+"description": "contour-tiles",
+"version": "2",
+"minzoom": "10",
+"maxzoom": "14",
+"center": "-78.365479,38.470793,14",
+"bounds": "-78.950000,38.000000,-77.850000,39.000000",
+"antimeridian_adjusted_bounds": "-78.950000,38.000000,-77.850000,39.000000",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.79.0",
+"generator_options": "tippecanoe -q -e contour-tiles -l contour -Z10 -z14 --no-tile-compression '--simplification=4' --no-feature-limit --no-tile-size-limit -P contours_tagged.geojsons",
+"json": "{\"vector_layers\":[{\"id\":\"contour\",\"description\":\"\",\"minzoom\":10,\"maxzoom\":14,\"fields\":{\"ele_ft\":\"Number\",\"idx\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"contour\",\"count\":17396,\"geometry\":\"LineString\",\"attributeCount\":2,\"attributes\":[{\"attribute\":\"ele_ft\",\"count\":98,\"type\":\"number\",\"values\":[1000,1040,1080,1120,1160,120,1200,1240,1280,1320,1360,1400,1440,1480,1520,1560,160,1600,1640,1680,1720,1760,1800,1840,1880,1920,1960,200,2000,2040,2080,2120,2160,2200,2240,2280,2320,2360,240,2400,2440,2480,2520,2560,2600,2640,2680,2720,2760,280,2800,2840,2880,2920,2960,3000,3040,3080,3120,3160,320,3200,3240,3280,3320,3360,3400,3440,3480,3520,3560,360,3600,3640,3680,3720,3760,3800,3840,3880,3920,3960,400,4000,440,480,520,560,600,640,680,720,760,800,840,880,920,960],\"min\":120,\"max\":4000},{\"attribute\":\"idx\",\"count\":2,\"type\":\"number\",\"values\":[0,1],\"min\":0,\"max\":1}]}]}}"
+}
