@@ -1,0 +1,61 @@
+name: Park and forest alerts
+
+# Every 3 hours: fetch Shenandoah NP / Blue Ridge Parkway / A.T. alerts from
+# the NPS API (key in the NPS_API_KEY secret) and the George Washington &
+# Jefferson NF alerts page, and publish alerts/alerts.json on Pages for the
+# Mossback app. Commits only when something changed.
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alerts
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history (without file contents) so the daily check can see
+          # when alerts.json last changed; sparse so the tiles aren't checked out.
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            scripts
+            alerts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch alerts
+        env:
+          NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+        run: python3 scripts/fetch_alerts.py
+      - name: Publish if changed (or once a day, so "checked" stays fresh)
+        run: |
+          publish=$(python3 - <<'PY'
+          import json, subprocess, time
+          new = json.load(open("alerts/alerts.json"))
+          try:
+              old = json.loads(subprocess.run(["git", "show", "HEAD:alerts/alerts.json"],
+                                              capture_output=True, text=True).stdout)
+          except ValueError:
+              print("yes"); raise SystemExit
+          strip = lambda d: {k: v for k, v in d.items() if k != "fetchedAt"}
+          last = int(subprocess.run(["git", "log", "-1", "--format=%ct", "--", "alerts/alerts.json"],
+                                    capture_output=True, text=True).stdout.strip() or 0)
+          print("yes" if strip(old) != strip(new) or time.time() - last > 86400 else "no")
+          PY
+          )
+          if [ "$publish" != "yes" ]; then git checkout -- alerts/alerts.json; exit 0; fi
+          git config user.name "Mossback alerts bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alerts/alerts.json
+          git commit -m "Alerts: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
