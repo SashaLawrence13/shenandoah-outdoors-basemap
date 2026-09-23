@@ -85,6 +85,32 @@ def hours(oh):
     return out
 
 
+def windy_webcams():
+    """Webcams near the park and the forest from Windy's Webcams API (free tier;
+    key WINDY_WEBCAMS_KEY). Free-tier picture links expire after 10 minutes, so
+    only permanent facts are kept: name, place, last update and the live-view link."""
+    key = os.environ.get("WINDY_WEBCAMS_KEY", "").strip()
+    if not key:
+        return {"status": "no-key", "webcams": []}
+    seen = {}
+    for lat, lon in ((38.62, -78.35), (38.35, -78.95), (37.75, -79.25)):
+        url = (f"https://api.windy.com/webcams/api/v3/webcams?nearby={lat},{lon},60&limit=50"
+               "&include=location,urls,player,images&lang=en")
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "x-windy-api-key": key})
+        data = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        for w in data.get("webcams", []):
+            loc = w.get("location") or {}
+            wid = str(w.get("webcamId"))
+            seen[wid] = {"id": wid, "title": w.get("title"), "status": w.get("status"),
+                         "lastUpdated": w.get("lastUpdatedOn"), "viewCount": w.get("viewCount"),
+                         "city": loc.get("city"), "region": loc.get("region"),
+                         "latitude": loc.get("latitude"), "longitude": loc.get("longitude"),
+                         "detail": (w.get("urls") or {}).get("detail"),
+                         "player": {k: v for k, v in (w.get("player") or {}).items() if isinstance(v, str)},
+                         "imageKeys": sorted(((w.get("images") or {}).get("current") or {}).keys())}
+    return {"status": "ok", "webcams": sorted(seen.values(), key=lambda x: -(x.get("viewCount") or 0))}
+
+
 def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
     out["webcams"] = [{**c, **still_status(c), "kind": "still"} for c in STILLS] + \
@@ -143,8 +169,16 @@ def main():
                     old["status"] = "stale"
                     old["staleSince"] = out["fetchedAt"]
                     out = old
+    try:
+        out["windy"] = windy_webcams()
+    except Exception as e:
+        out["windy"] = {"status": f"error: {type(e).__name__}", "webcams": []}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
+    w = out["windy"]
+    print("windy", w["status"], len(w["webcams"]))
+    for c in w["webcams"][:25]:
+        print("   ", c["status"], "|", c["title"], "|", c["city"], "|", c["lastUpdated"], "|", c["detail"], "|", list(c["player"].keys()), c["imageKeys"])
     print({k: (len(v) if isinstance(v, list) else v) for k, v in out.items()})
 
 

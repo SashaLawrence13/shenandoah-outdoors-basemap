@@ -43,6 +43,7 @@ jobs:
       - name: Fetch park details (webcams, events, campgrounds, visitor centers)
         env:
           NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+          WINDY_WEBCAMS_KEY: ${{ secrets.WINDY_WEBCAMS_KEY }}
         run: python3 scripts/fetch_park.py
       - name: Fetch conditions (fires, air quality, recent birds)
         env:
@@ -55,6 +56,7 @@ jobs:
           VDOT_ROAD_CONDITION_TOKEN: ${{ secrets.VDOT_ROAD_CONDITION_TOKEN }}
           VDOT_WEATHER_SHORT_TOKEN: ${{ secrets.VDOT_WEATHER_SHORT_TOKEN }}
           VDOT_WEATHER_LONG_TOKEN: ${{ secrets.VDOT_WEATHER_LONG_TOKEN }}
+          TOMORROW_API_KEY: ${{ secrets.TOMORROW_API_KEY }}
         run: python3 scripts/fetch_conditions.py
       - name: Fetch Recreation.gov facilities (forest campgrounds)
         env:

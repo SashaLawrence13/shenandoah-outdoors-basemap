@@ -313,16 +313,39 @@ def vdot():
     return res
 
 
+def pollen():
+    """Tree, grass and weed pollen indexes (0 none … 5 very high) for today and
+    the next days from Tomorrow.io (free plan; key TOMORROW_API_KEY)."""
+    key = os.environ.get("TOMORROW_API_KEY", "").strip()
+    if not key:
+        return {"status": "no-key"}
+    out = []
+    for c in (CENTERS[1], CENTERS[4]):  # the park's middle and North River
+        body = json.dumps({"location": f"{c['lat']},{c['lng']}", "fields": ["treeIndex", "grassIndex", "weedIndex"],
+                           "timesteps": ["1d"], "units": "imperial", "timezone": "America/New_York",
+                           "startTime": "now", "endTime": "nowPlus4d"}).encode()
+        req = urllib.request.Request(f"https://api.tomorrow.io/v4/timelines?apikey={key}", data=body,
+                                     headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
+        data = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        days = []
+        for t in data["data"]["timelines"][0]["intervals"]:
+            v = t.get("values", {})
+            days.append({"date": t["startTime"][:10], "tree": v.get("treeIndex"), "grass": v.get("grassIndex"), "weed": v.get("weedIndex")})
+        out.append({"near": c["id"], "side": c["side"], "days": days})
+    return {"status": "ok", "places": out}
+
+
 def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     out["traffic"] = safe(vdot)
+    out["pollen"] = safe(pollen)
     if os.path.exists(OUT):
         try:
             old = json.load(open(OUT))
         except ValueError:
             old = {}
-        for k in ("fires", "air", "birds", "roads"):
+        for k in ("fires", "air", "birds", "roads", "pollen"):
             if str(out.get(k, {}).get("status", "")).startswith("error") and old.get(k, {}).get("status") in ("ok", "stale"):
                 out[k] = {**old[k], "status": "stale", "staleSince": out["fetchedAt"]}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
@@ -330,6 +353,7 @@ def main():
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
     print(summary)
     print("fire sources:", out["fires"].get("sources"))
+    print("pollen:", json.dumps(out.get("pollen"))[:600])
     for k, v in (out.get("traffic") or {}).items():
         if isinstance(v, dict):
             items = v.get("items") or []
