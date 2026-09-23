@@ -253,6 +253,16 @@ def vdot_items(xml_bytes):
     return out
 
 
+def event_window(text):
+    """(start, end) from VDOT's "from 09/25/26 at 9:00 AM until 09/25/26 at 3:30 PM", Eastern local time."""
+    import re
+    m = re.search(r"from (\d{2}/\d{2}/\d{2}) at (\d{1,2}:\d{2} [AP]M) until (\d{2}/\d{2}/\d{2}) at (\d{1,2}:\d{2} [AP]M)", text)
+    if not m:
+        return None, None
+    f = "%m/%d/%y %I:%M %p"
+    return datetime.strptime(f"{m.group(1)} {m.group(2)}", f), datetime.strptime(f"{m.group(3)} {m.group(4)}", f)
+
+
 def vdot():
     import urllib.parse
     res = {}
@@ -266,6 +276,20 @@ def vdot():
             try:
                 data = get(f"{VDOT_BASE}{path}?token={urllib.parse.quote(token, safe='')}")
                 items = vdot_items(data)
+                if name == "events":
+                    # Only what's on now or within 3 days (VDOT's times are Eastern; the runner is UTC).
+                    from zoneinfo import ZoneInfo
+                    now = datetime.now(ZoneInfo("America/New_York")).replace(tzinfo=None)
+                    keep = []
+                    for it in items:
+                        start, end = event_window(it["description"])
+                        if start and end and end >= now and start <= now + timedelta(days=3):
+                            it["start"], it["end"] = start.isoformat(), end.isoformat()
+                            it["allLanesClosed"] = "All north lanes are closed" in it["description"] and "south lanes are closed" in it["description"] \
+                                or "All east lanes are closed" in it["description"] and "west lanes are closed" in it["description"] \
+                                or "road is closed" in it["description"].lower()
+                            keep.append(it)
+                    items = keep
                 res[name] = {"status": "ok", "feed": path.split("/")[1], "items": items}
                 break
             except Exception as e:
