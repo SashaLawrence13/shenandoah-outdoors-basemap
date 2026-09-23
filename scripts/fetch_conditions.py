@@ -343,7 +343,8 @@ def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     out["traffic"] = safe(vdot)
-    out["pollen"] = safe(pollen)
+    # Pollen: Tomorrow.io's free plan refuses the pollen fields (HTTP 403 "fields are not
+    # allowed", 2026-09-23), so pollen() stays unused until there's a plan that includes them.
     if os.path.exists(OUT):
         try:
             old = json.load(open(OUT))
@@ -357,7 +358,6 @@ def main():
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
     print(summary)
     print("fire sources:", out["fires"].get("sources"))
-    print("pollen:", json.dumps(out.get("pollen"))[:600])
     for k, v in (out.get("traffic") or {}).items():
         if isinstance(v, dict):
             items = v.get("items") or []
