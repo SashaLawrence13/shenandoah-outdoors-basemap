@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-23T22:37:31Z",
+ "fetchedAt": "2026-09-23T22:38:28Z",
  "fires": {
   "status": "ok",
   "sources": {
@@ -2633,8 +2633,8 @@
     "visibilityM": 2000.0,
     "precipRate": 0.0,
     "humidity": 98.0,
-    "windKph": 0.7,
-    "updated": "2026-09-23T18:35:41-04:00"
+    "windKph": 0.6,
+    "updated": "2026-09-23T18:36:53-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -2643,12 +2643,12 @@
     "lat": 38.752109,
     "lon": -78.915896,
     "airC": 12.2,
-    "surfaceC": 13.9,
+    "surfaceC": 14.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
     "humidity": 92.0,
-    "windKph": 0.2,
-    "updated": "2026-09-23T18:35:41-04:00"
+    "windKph": 0.3,
+    "updated": "2026-09-23T18:36:53-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -2656,13 +2656,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 10.3,
+    "airC": 10.2,
     "surfaceC": 11.4,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
     "humidity": 100.0,
-    "windKph": 7.6,
-    "updated": "2026-09-23T18:35:05-04:00"
+    "windKph": 7.7,
+    "updated": "2026-09-23T18:36:17-04:00"
    }
   ]
  },
@@ -14327,6 +14327,7 @@
   }
  },
  "pollen": {
-  "status": "error: HTTPError"
+  "status": "error: HTTP 403",
+  "detail": "{\"code\":403003,\"type\":\"Forbidden Action\",\"message\":\"The plan is restricted and cannot perform this action. Adjust action and try again: All requested fields are not allowed\"}"
  }
 }
