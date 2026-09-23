@@ -11,6 +11,9 @@ on this repo's Pages (the keys stay in this repo's Actions secrets):
 - birds: eBird recent (last 7 days) and notable sightings around the park
   and the forest's districts. Key: EBIRD_API_KEY. Observations at private
   locations are left out; eBird already hides sensitive species.
+- roads: VDOT SmarterRoads road-weather stations (RWIS) on the passes up to
+  the park and the forest: air and pavement temperature, visibility (fog),
+  precipitation. Key: VDOT_TOKEN (the owner's SmarterRoads token).
 Run by .github/workflows/alerts.yml with the alerts.
 """
 import csv, io, json, os, sys, urllib.request
@@ -134,9 +137,65 @@ def birds():
     return {"status": "ok", **{k: sorted(v.values(), key=lambda x: (not x["notable"], x["name"])) for k, v in sides.items()}}
 
 
+# VDOT road-weather stations on the way up to the park and the forest.
+PASSES = {
+    "NWRO-ESS-US211-E-00043": ("Thornton Gap (US 211)", "park"),
+    "NWRO-ESS-US33-W-00455": ("Swift Run Gap (US 33)", "park"),
+    "NWRO-ESS-I64-W-01011": ("Afton Mountain (I-64, Rockfish Gap)", "park"),
+    "NWRO-ESS-I66-W-00149": ("Front Royal approach (I-66)", "park"),
+    "NWRO-ESS-US211-E-00042": ("New Market Gap (US 211)", "forest"),
+    "NWRO-ESS-SR259-Bergton": ("Bergton (VA 259)", "forest"),
+    "NWRO-ESS-I64-E-00450": ("North Mountain (I-64)", "forest"),
+    "NWRO-ESS-I81-N-01830": ("Natural Bridge (I-81)", "forest"),
+}
+
+
+def num(pattern, text, missing_at=1000):
+    """A number from VDOT's description text. Missing sensors read 1001 (or
+    1000001 for visibility, whose real range tops out at 2000 m); callers
+    also treat an exact 0.0 temperature or visibility as missing."""
+    import re
+    m = re.search(pattern + r":?\s*(-?[\d.]+)", text)
+    if not m:
+        return None
+    v = float(m.group(1))
+    return None if v >= missing_at else v
+
+
+def roads():
+    token = os.environ.get("VDOT_TOKEN", "").strip()
+    if not token:
+        return {"status": "no-key"}
+    import re, urllib.parse
+    import xml.etree.ElementTree as ET
+    url = ("https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/weather/rwisGEORSS/current/rwis_georss.xml?token="
+           + urllib.parse.quote(token, safe=""))
+    root = ET.fromstring(get(url))
+    out = []
+    for it in root.iter("item"):
+        sid = (it.findtext("title") or "").strip()
+        if sid not in PASSES:
+            continue
+        d = it.findtext("description") or ""
+        lat, lon = (float(v) for v in (it.findtext("{http://www.georss.org/georss}point") or "0 0").split())
+        air, surf = num("Air Temperature", d), num("Surface Temperature", d)
+        vis = num("Visibility", d, missing_at=1000000)
+        up = re.search(r"Updated At:\s*(\S+)", d)
+        name, side = PASSES[sid]
+        out.append({"id": sid, "name": name, "side": side, "lat": lat, "lon": lon,
+                    "airC": None if air in (None, 0.0) else air,
+                    "surfaceC": None if surf in (None, 0.0) else surf,
+                    "visibilityM": None if vis in (None, 0.0) else vis,
+                    "precipRate": num("Precipitation Rate", d),
+                    "humidity": num("Relative Humidity", d),
+                    "windKph": num("Average Wind Speed", d),
+                    "updated": up.group(1) if up else None})
+    return {"status": "ok" if out else "error: no stations", "stations": out}
+
+
 def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "fires": safe(fires), "air": safe(air), "birds": safe(birds)}
+           "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}

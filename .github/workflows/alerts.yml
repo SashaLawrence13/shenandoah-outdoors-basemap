@@ -48,6 +48,7 @@ jobs:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           AIRNOW_API_KEY: ${{ secrets.AIRNOW_API_KEY }}
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+          VDOT_TOKEN: ${{ secrets.VDOT_TOKEN }}
         run: python3 scripts/fetch_conditions.py
       - name: Publish if changed (or once a day, so "checked" stays fresh)
         run: |
