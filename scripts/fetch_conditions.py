@@ -204,6 +204,21 @@ VDOT_FEEDS = {
 }
 
 
+ANCHORS = json.load(open(os.path.join(os.path.dirname(__file__), "..", "conditions", "anchors.json")))["points"]
+NEAR_MILES = 3.0
+
+
+def near_anchor(lat, lon):
+    """(miles, side) to the nearest trailhead/parking anchor, or None beyond NEAR_MILES."""
+    import math
+    best = None
+    for x, y, side in ANCHORS:
+        d = math.hypot((x - lon) * 54.6, (y - lat) * 69.0)
+        if best is None or d < best[0]:
+            best = (d, side)
+    return best if best and best[0] <= NEAR_MILES else None
+
+
 def vdot_items(xml_bytes):
     import xml.etree.ElementTree as ET
     root = ET.fromstring(xml_bytes)
@@ -224,9 +239,16 @@ def vdot_items(xml_bytes):
         lat, lon = pt
         if not (BOX[1] <= lat <= BOX[3] and BOX[0] <= lon <= BOX[2]):
             continue
+        # Keep only what's near a trailhead or park/Parkway parking (any vertex of a closure line).
+        hits = [h for h in (near_anchor(la, lo) for la, lo in ([pt] + (line or []))) if h]
+        if not hits:
+            continue
+        miles, side = min(hits)
         out.append({"title": (it.findtext("title") or "").strip(), "description": (it.findtext("description") or "").strip()[:800],
                      "lat": round(lat, 5), "lon": round(lon, 5), "line": line[:60] if line else None,
                      "published": (it.findtext("pubDate") or "").strip() or None,
+                     "side": side, "milesFromTrailhead": round(miles, 1),
+                     "id": (it.findtext("guid") or "").strip() or None, "link": (it.findtext("link") or "").strip() or None,
                      "tags": sorted({c.tag.split("}")[-1] for c in it})})
     return out
 
