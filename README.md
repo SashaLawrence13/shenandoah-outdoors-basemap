@@ -98,3 +98,15 @@ second tileset. The contour and elevation tiles (`contours/`, `dem/`)
 are built by `scripts/make_elevation.sh`; since the forest extension
 they cover the park and the three forest districts plus about 3 km, not
 the whole box.
+
+## Cloudflare Pages (the app's map host since 2026-09-24)
+
+Mossback's builds from 2026-09-24 load maps from Cloudflare Pages instead of
+this GitHub Pages site: `https://mossback-tiles.pages.dev` (the `tiles/`
+folder) and `https://mossback-maps.pages.dev` (contours, elevation tiles,
+glyphs and the four style files, rewritten to point at both). GitHub Pages
+has a 100 GB/month soft limit and throttles heavy clients with HTTP 429;
+Cloudflare Pages' free plan has no bandwidth cap but holds 20,000 files per
+site, hence two sites. `scripts/deploy_cloudflare.sh` rebuilds and uploads
+both from this repo. This site keeps serving older builds and the live data
+files (alerts, park, conditions, ridb), which the scheduled job rewrites.
