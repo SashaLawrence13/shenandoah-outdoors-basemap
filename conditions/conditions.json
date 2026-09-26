@@ -1,9 +1,9 @@
 {
- "fetchedAt": "2026-09-26T11:33:13Z",
+ "fetchedAt": "2026-09-26T16:29:56Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (3 rows)",
+   "VIIRS_SNPP_NRT": "ok (8 rows)",
    "VIIRS_NOAA20_NRT": "ok (8 rows)",
    "VIIRS_NOAA21_NRT": "ok (7 rows)",
    "MODIS_NRT": "ok (0 rows)"
@@ -28,24 +28,6 @@
     "day": false
    },
    {
-    "lat": 38.4673,
-    "lon": -79.0498,
-    "detected": "2026-09-26T07:35:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.51,
-    "day": false
-   },
-   {
-    "lat": 38.5166,
-    "lon": -77.8216,
-    "detected": "2026-09-26T07:35:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.57,
-    "day": false
-   },
-   {
     "lat": 38.6057,
     "lon": -77.9155,
     "detected": "2026-09-26T07:35:00Z",
@@ -55,21 +37,57 @@
     "day": false
    },
    {
-    "lat": 38.7776,
-    "lon": -79.393,
-    "detected": "2026-09-26T07:35:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 1.09,
-    "day": false
-   },
-   {
     "lat": 38.7799,
     "lon": -79.3965,
     "detected": "2026-09-26T07:35:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
     "frp": 0.64,
+    "day": false
+   },
+   {
+    "lat": 37.8944,
+    "lon": -78.0849,
+    "detected": "2026-09-26T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.01,
+    "day": false
+   },
+   {
+    "lat": 38.466,
+    "lon": -79.0486,
+    "detected": "2026-09-26T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.52,
+    "day": false
+   },
+   {
+    "lat": 38.5155,
+    "lon": -77.8209,
+    "detected": "2026-09-26T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.78,
+    "day": false
+   },
+   {
+    "lat": 38.6082,
+    "lon": -77.913,
+    "detected": "2026-09-26T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.55,
+    "day": false
+   },
+   {
+    "lat": 38.7796,
+    "lon": -79.3949,
+    "detected": "2026-09-26T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.35,
     "day": false
    },
    {
@@ -88,15 +106,6 @@
     "source": "VIIRS_NOAA21",
     "confidence": "n",
     "frp": 1.01,
-    "day": false
-   },
-   {
-    "lat": 38.6068,
-    "lon": -77.9121,
-    "detected": "2026-09-26T06:40:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.69,
     "day": false
    },
    {
@@ -168,15 +177,28 @@
   "status": "ok",
   "observations": [
    {
+    "area": "Shenandoah National Park",
+    "state": "VA",
+    "lat": 38.5231,
+    "lon": -78.4347,
+    "pollutant": "O3",
+    "aqi": 23,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-09-26 11:00 EST",
+    "near": "park-north",
+    "side": "park"
+   },
+   {
     "area": "Harrisonburg",
     "state": "VA",
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "O3",
-    "aqi": 4,
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 6:00 EST",
+    "observed": "2026-09-26 11:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -186,10 +208,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 6:00 EST",
+    "observed": "2026-09-26 11:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -199,10 +221,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM10",
-    "aqi": 8,
+    "aqi": 14,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 6:00 EST",
+    "observed": "2026-09-26 11:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -212,10 +234,10 @@
     "lat": 37.63,
     "lon": -79.54,
     "pollutant": "O3",
-    "aqi": 6,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 6:00 EST",
+    "observed": "2026-09-26 11:00 EST",
     "near": "glenwood-pedlar",
     "side": "forest"
    }
@@ -225,18 +247,6 @@
  "birds": {
   "status": "ok",
   "park": [
-   {
-    "code": "aldfly",
-    "name": "Alder Flycatcher",
-    "sci": "Empidonax alnorum",
-    "count": 1,
-    "seen": "2026-09-22 12:21",
-    "place": "Big Gem Park",
-    "lat": 38.482,
-    "lon": -78.617,
-    "notable": true,
-    "near": "Shenandoah NP central"
-   },
    {
     "code": "bkcchi",
     "name": "Black-capped Chickadee",
@@ -248,6 +258,18 @@
     "lon": -78.617,
     "notable": true,
     "near": "Shenandoah NP central"
+   },
+   {
+    "code": "buggna",
+    "name": "Blue-gray Gnatcatcher",
+    "sci": "Polioptila caerulea",
+    "count": 1,
+    "seen": "2026-09-26 09:18",
+    "place": "Coyner Springs Park",
+    "lat": 38.052,
+    "lon": -78.931,
+    "notable": true,
+    "near": "Shenandoah NP south"
    },
    {
     "code": "cliswa",
@@ -346,6 +368,18 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "redcro",
+    "name": "Red Crossbill",
+    "sci": "Loxia curvirostra",
+    "count": 3,
+    "seen": "2026-09-26 07:40",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
+    "notable": true,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "whtspa",
     "name": "White-throated Sparrow",
     "sci": "Zonotrichia albicollis",
@@ -373,18 +407,6 @@
     "code": "yebsap",
     "name": "Yellow-bellied Sapsucker",
     "sci": "Sphyrapicus varius",
-    "count": 1,
-    "seen": "2026-09-19 14:22",
-    "place": "Big Gem Park",
-    "lat": 38.482,
-    "lon": -78.617,
-    "notable": true,
-    "near": "Shenandoah NP central"
-   },
-   {
-    "code": "yetwar",
-    "name": "Yellow-throated Warbler",
-    "sci": "Setophaga dominica",
     "count": 1,
     "seen": "2026-09-19 14:22",
     "place": "Big Gem Park",
@@ -644,18 +666,6 @@
     "lon": -78.486,
     "notable": false,
     "near": "Shenandoah NP north"
-   },
-   {
-    "code": "buggna",
-    "name": "Blue-gray Gnatcatcher",
-    "sci": "Polioptila caerulea",
-    "count": 2,
-    "seen": "2026-09-23 07:55",
-    "place": "Lickinghole Creek",
-    "lat": 38.06,
-    "lon": -78.668,
-    "notable": false,
-    "near": "Shenandoah NP south"
    },
    {
     "code": "buhvir",
@@ -1330,18 +1340,6 @@
     "near": "Shenandoah NP south"
    },
    {
-    "code": "palwar",
-    "name": "Palm Warbler",
-    "sci": "Setophaga palmarum",
-    "count": 2,
-    "seen": "2026-09-19 07:53",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
-    "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
     "code": "pecsan",
     "name": "Pectoral Sandpiper",
     "sci": "Calidris melanotos",
@@ -1700,6 +1698,18 @@
     "lon": -78.205,
     "notable": false,
     "near": "Shenandoah NP north"
+   },
+   {
+    "code": "yetwar",
+    "name": "Yellow-throated Warbler",
+    "sci": "Setophaga dominica",
+    "count": 1,
+    "seen": "2026-09-19 14:22",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
+    "notable": false,
+    "near": "Shenandoah NP central"
    }
   ],
   "forest": [
@@ -1954,18 +1964,6 @@
     "lon": -78.486,
     "notable": false,
     "near": "Lee district"
-   },
-   {
-    "code": "buggna",
-    "name": "Blue-gray Gnatcatcher",
-    "sci": "Polioptila caerulea",
-    "count": null,
-    "seen": "2026-09-19 10:10",
-    "place": "Switzer Lake Area",
-    "lat": 38.572,
-    "lon": -79.145,
-    "notable": false,
-    "near": "North River district"
    },
    {
     "code": "buhvir",
@@ -2448,18 +2446,6 @@
     "near": "North River district"
    },
    {
-    "code": "norwat",
-    "name": "Northern Waterthrush",
-    "sci": "Parkesia noveboracensis",
-    "count": 1,
-    "seen": "2026-09-19 10:10",
-    "place": "Switzer Lake Area",
-    "lat": 38.572,
-    "lon": -79.145,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "ovenbi1",
     "name": "Ovenbird",
     "sci": "Seiurus aurocapilla",
@@ -2468,18 +2454,6 @@
     "place": "George Washington NF--Ramseys Draft",
     "lat": 38.318,
     "lon": -79.351,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
-    "code": "palwar",
-    "name": "Palm Warbler",
-    "sci": "Setophaga palmarum",
-    "count": 1,
-    "seen": "2026-09-19 10:10",
-    "place": "Switzer Lake Area",
-    "lat": 38.572,
-    "lon": -79.145,
     "notable": false,
     "near": "North River district"
    },
@@ -2532,18 +2506,6 @@
     "near": "North River district"
    },
    {
-    "code": "redcro",
-    "name": "Red Crossbill",
-    "sci": "Loxia curvirostra",
-    "count": null,
-    "seen": "2026-09-19 10:10",
-    "place": "Switzer Lake Area",
-    "lat": 38.572,
-    "lon": -79.145,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "rebwoo",
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
@@ -2554,18 +2516,6 @@
     "lon": -78.486,
     "notable": false,
     "near": "Lee district"
-   },
-   {
-    "code": "rebnut",
-    "name": "Red-breasted Nuthatch",
-    "sci": "Sitta canadensis",
-    "count": null,
-    "seen": "2026-09-19 10:10",
-    "place": "Switzer Lake Area",
-    "lat": 38.572,
-    "lon": -79.145,
-    "notable": false,
-    "near": "North River district"
    },
    {
     "code": "rehwoo",
@@ -2811,8 +2761,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 2.6,
-    "updated": "2026-09-26T07:31:54-04:00"
+    "windKph": 3.3,
+    "updated": "2026-09-26T12:28:18-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -2820,13 +2770,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 9.8,
-    "surfaceC": 10.1,
+    "airC": 19.8,
+    "surfaceC": 27.4,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 90.0,
-    "windKph": 0.0,
-    "updated": "2026-09-26T07:29:52-04:00"
+    "humidity": 52.0,
+    "windKph": 5.4,
+    "updated": "2026-09-26T12:26:16-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -2834,13 +2784,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 3.3,
-    "surfaceC": 6.6,
+    "airC": 24.8,
+    "surfaceC": 29.7,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 94.0,
+    "humidity": 28.0,
     "windKph": 0.0,
-    "updated": "2026-09-26T07:29:52-04:00"
+    "updated": "2026-09-26T12:26:16-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -2862,13 +2812,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 9.2,
-    "surfaceC": 11.4,
-    "visibilityM": 1142.0,
+    "airC": 22.2,
+    "surfaceC": 29.4,
+    "visibilityM": 317.0,
     "precipRate": 0.0,
-    "humidity": 98.0,
+    "humidity": 41.0,
     "windKph": 0.0,
-    "updated": "2026-09-26T07:31:53-04:00"
+    "updated": "2026-09-26T12:28:18-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -2876,13 +2826,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 11.7,
-    "surfaceC": 13.2,
-    "visibilityM": null,
+    "airC": 21.2,
+    "surfaceC": 29.1,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 69.0,
-    "windKph": 1.4,
-    "updated": "2026-09-26T07:31:40-04:00"
+    "humidity": 41.0,
+    "windKph": 2.8,
+    "updated": "2026-09-26T12:28:40-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -2890,13 +2840,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 4.5,
-    "surfaceC": 8.7,
+    "airC": 22.0,
+    "surfaceC": 29.5,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 99.0,
-    "windKph": 0.0,
-    "updated": "2026-09-26T07:31:53-04:00"
+    "humidity": 37.0,
+    "windKph": 5.3,
+    "updated": "2026-09-26T12:28:17-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -2904,13 +2854,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 10.3,
-    "surfaceC": 10.6,
+    "airC": 19.0,
+    "surfaceC": 28.8,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 71.0,
-    "windKph": 3.2,
-    "updated": "2026-09-26T07:31:04-04:00"
+    "humidity": 44.0,
+    "windKph": 4.6,
+    "updated": "2026-09-26T12:28:28-04:00"
    }
   ]
  },
@@ -2918,12 +2868,151 @@
   "incidents": {
    "status": "ok",
    "feed": "incidentFiltered",
-   "items": []
+   "items": [
+    {
+     "title": "Incident INSW11675901760-09262026 updated",
+     "description": "On I-81 at mile marker 167.9 in Botetourt County, motorists can expect delays due to a vehicle crash. The north left shoulder is closed.",
+     "lat": 37.54772,
+     "lon": -79.66641,
+     "line": null,
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-INSW11675901760-09262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-INSW11675901760-09262026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ]
+    }
+   ]
   },
   "events": {
    "status": "ok",
    "feed": "eventFiltered",
    "items": [
+    {
+     "title": "Planned Event WZSW4669484-08302026-3 updated",
+     "description": "On VA-151 South (Critzer Shop Rd) in the County of Nelson from Afton Mountain Rd; Avon Rd; VA-6E/W; Rt. 638N/S (Nelson County) to Tanbark Dr; Rt. 840N/S (Nelson County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities.",
+     "lat": 37.99993,
+     "lon": -78.82694,
+     "line": [
+      [
+       37.999928,
+       -78.826941
+      ],
+      [
+       37.999816,
+       -78.827038
+      ],
+      [
+       37.999721,
+       -78.827132
+      ],
+      [
+       37.999507,
+       -78.827365
+      ],
+      [
+       37.999027,
+       -78.827921
+      ],
+      [
+       37.998098,
+       -78.829025
+      ],
+      [
+       37.997298,
+       -78.829991
+      ],
+      [
+       37.996652,
+       -78.83079
+      ],
+      [
+       37.996172,
+       -78.831364
+      ],
+      [
+       37.994244,
+       -78.833736
+      ],
+      [
+       37.993761,
+       -78.834312
+      ],
+      [
+       37.99274,
+       -78.835562
+      ],
+      [
+       37.99188,
+       -78.836626
+      ],
+      [
+       37.991601,
+       -78.836942
+      ],
+      [
+       37.991313,
+       -78.837233
+      ],
+      [
+       37.991065,
+       -78.837458
+      ],
+      [
+       37.990892,
+       -78.837596
+      ],
+      [
+       37.990678,
+       -78.837755
+      ],
+      [
+       37.990426,
+       -78.837924
+      ],
+      [
+       37.990164,
+       -78.838068
+      ],
+      [
+       37.989893,
+       -78.838192
+      ],
+      [
+       37.989525,
+       -78.838332
+      ],
+      [
+       37.989215,
+       -78.838431
+      ],
+      [
+       37.989081,
+       -78.838464
+      ]
+     ],
+     "published": null,
+     "side": "parkway",
+     "milesFromTrailhead": 2.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4669484-08302026-3.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4669484-08302026-3.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
+     "allLanesClosed": false
+    },
     {
      "title": "Planned Event WZNW4673368-09102026-1 updated",
      "description": "On Rt. 608 (Wilson Burke Rd) in the County of Warren from Indian Hollow Rd; Panhandle Rd; Rt. 613N/S (Warren County) to Mountain Rd; Rt. 619N/S (Warren County), motorists can expect potential delays in this area from 09/28/26 at 8:00 AM until 09/30/26 at 4:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
@@ -4788,6 +4877,169 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4675288-09152026-2 updated",
+     "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from County/City/Town Line: PAGE CL/WARREN CL to Bentonville Rd; Rt. 613N/S (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.80761,
+     "lon": -78.34807,
+     "line": [
+      [
+       38.807613,
+       -78.348068
+      ],
+      [
+       38.808821,
+       -78.347208
+      ],
+      [
+       38.810372,
+       -78.345928
+      ],
+      [
+       38.810774,
+       -78.345608
+      ],
+      [
+       38.811596,
+       -78.344982
+      ],
+      [
+       38.8145,
+       -78.342941
+      ],
+      [
+       38.81549,
+       -78.342229
+      ],
+      [
+       38.815848,
+       -78.341927
+      ],
+      [
+       38.816269,
+       -78.341506
+      ],
+      [
+       38.816663,
+       -78.341068
+      ],
+      [
+       38.817158,
+       -78.340441
+      ],
+      [
+       38.817745,
+       -78.33962
+      ],
+      [
+       38.818296,
+       -78.338826
+      ],
+      [
+       38.819005,
+       -78.337767
+      ],
+      [
+       38.819142,
+       -78.337546
+      ],
+      [
+       38.820146,
+       -78.335758
+      ],
+      [
+       38.820691,
+       -78.334813
+      ],
+      [
+       38.821169,
+       -78.333964
+      ],
+      [
+       38.82135,
+       -78.333623
+      ],
+      [
+       38.82214,
+       -78.332248
+      ],
+      [
+       38.82332,
+       -78.330153
+      ],
+      [
+       38.823812,
+       -78.329233
+      ],
+      [
+       38.823964,
+       -78.328974
+      ],
+      [
+       38.824165,
+       -78.328661
+      ],
+      [
+       38.824554,
+       -78.328128
+      ],
+      [
+       38.827171,
+       -78.32508
+      ],
+      [
+       38.828314,
+       -78.323697
+      ],
+      [
+       38.828702,
+       -78.323125
+      ],
+      [
+       38.829215,
+       -78.32233
+      ],
+      [
+       38.829474,
+       -78.321903
+      ],
+      [
+       38.829656,
+       -78.32158
+      ],
+      [
+       38.829837,
+       -78.321248
+      ],
+      [
+       38.830103,
+       -78.320722
+      ],
+      [
+       38.830419,
+       -78.320078
+      ],
+      [
+       38.831719,
+       -78.317277
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 1.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4675288-09152026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4675288-09152026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4679231-09242026-4 updated",
      "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 09/29/26 at 7:00 AM until 09/29/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.65086,
@@ -5048,6 +5300,771 @@
      ],
      "start": "2026-09-29T07:00:00",
      "end": "2026-09-29T18:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4654786-07272026-1 updated",
+     "description": "On VA-55 (Strasburg Rd) in the County of Warren from County/City/Town Line: WARREN CL/SHEN CL to County/City/Town Line: FRONT ROYAL, motorists can expect potential delays in this area from 09/29/26 at 9:00 AM until 09/29/26 at 9:00 PM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
+     "lat": 38.909,
+     "lon": -78.1515,
+     "line": [
+      [
+       38.909001,
+       -78.151504
+      ],
+      [
+       38.909082,
+       -78.153137
+      ],
+      [
+       38.909121,
+       -78.153769
+      ],
+      [
+       38.909179,
+       -78.154527
+      ],
+      [
+       38.909384,
+       -78.156839
+      ],
+      [
+       38.909488,
+       -78.158127
+      ],
+      [
+       38.909529,
+       -78.158829
+      ],
+      [
+       38.909549,
+       -78.159505
+      ],
+      [
+       38.90955,
+       -78.160362
+      ],
+      [
+       38.909544,
+       -78.160743
+      ],
+      [
+       38.909521,
+       -78.161262
+      ],
+      [
+       38.909464,
+       -78.162168
+      ],
+      [
+       38.909224,
+       -78.165375
+      ],
+      [
+       38.909127,
+       -78.166847
+      ],
+      [
+       38.909128,
+       -78.167377
+      ],
+      [
+       38.909153,
+       -78.16813
+      ],
+      [
+       38.909236,
+       -78.169739
+      ],
+      [
+       38.909268,
+       -78.170127
+      ],
+      [
+       38.909315,
+       -78.171039
+      ],
+      [
+       38.909355,
+       -78.171554
+      ],
+      [
+       38.909365,
+       -78.171785
+      ],
+      [
+       38.909378,
+       -78.173087
+      ],
+      [
+       38.909375,
+       -78.173596
+      ],
+      [
+       38.909318,
+       -78.176526
+      ],
+      [
+       38.909319,
+       -78.176922
+      ],
+      [
+       38.909343,
+       -78.177371
+      ],
+      [
+       38.909382,
+       -78.177752
+      ],
+      [
+       38.909448,
+       -78.178184
+      ],
+      [
+       38.909865,
+       -78.180387
+      ],
+      [
+       38.910274,
+       -78.182608
+      ],
+      [
+       38.91074,
+       -78.18498
+      ],
+      [
+       38.910853,
+       -78.185638
+      ],
+      [
+       38.910916,
+       -78.185926
+      ],
+      [
+       38.911048,
+       -78.186439
+      ],
+      [
+       38.911166,
+       -78.186942
+      ],
+      [
+       38.911486,
+       -78.188162
+      ],
+      [
+       38.911579,
+       -78.188604
+      ],
+      [
+       38.911643,
+       -78.188965
+      ],
+      [
+       38.911699,
+       -78.189403
+      ],
+      [
+       38.911727,
+       -78.189768
+      ],
+      [
+       38.911973,
+       -78.194471
+      ],
+      [
+       38.912742,
+       -78.19423
+      ],
+      [
+       38.914389,
+       -78.193609
+      ],
+      [
+       38.914494,
+       -78.193596
+      ],
+      [
+       38.914933,
+       -78.193582
+      ],
+      [
+       38.9159,
+       -78.193571
+      ],
+      [
+       38.916793,
+       -78.193544
+      ],
+      [
+       38.917741,
+       -78.193536
+      ],
+      [
+       38.918211,
+       -78.193554
+      ],
+      [
+       38.918565,
+       -78.193594
+      ],
+      [
+       38.919748,
+       -78.193699
+      ],
+      [
+       38.924833,
+       -78.193923
+      ],
+      [
+       38.926224,
+       -78.193989
+      ],
+      [
+       38.926454,
+       -78.194016
+      ],
+      [
+       38.926636,
+       -78.194024
+      ],
+      [
+       38.928205,
+       -78.194068
+      ],
+      [
+       38.92943,
+       -78.194138
+      ],
+      [
+       38.930854,
+       -78.194204
+      ],
+      [
+       38.93156,
+       -78.19426
+      ],
+      [
+       38.933169,
+       -78.194457
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.4,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654786-07272026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654786-07272026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T09:00:00",
+     "end": "2026-09-29T21:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4675285-09152026-2 updated",
+     "description": "On Rt. 629 (Acorn Hill Rd) in the County of Warren from Acorn Hill Rd; Dead End to Stonewall Jackson Hwy; US-340N/S, motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.83118,
+     "lon": -78.34445,
+     "line": [
+      [
+       38.831175,
+       -78.344449
+      ],
+      [
+       38.830683,
+       -78.343735
+      ],
+      [
+       38.830571,
+       -78.343505
+      ],
+      [
+       38.830542,
+       -78.343398
+      ],
+      [
+       38.830522,
+       -78.343179
+      ],
+      [
+       38.830579,
+       -78.342756
+      ],
+      [
+       38.830584,
+       -78.342423
+      ],
+      [
+       38.830602,
+       -78.342302
+      ],
+      [
+       38.830637,
+       -78.342185
+      ],
+      [
+       38.830737,
+       -78.341999
+      ],
+      [
+       38.830944,
+       -78.341708
+      ],
+      [
+       38.831099,
+       -78.341543
+      ],
+      [
+       38.831336,
+       -78.341195
+      ],
+      [
+       38.831491,
+       -78.341052
+      ],
+      [
+       38.831682,
+       -78.340959
+      ],
+      [
+       38.831772,
+       -78.340881
+      ],
+      [
+       38.83194,
+       -78.340542
+      ],
+      [
+       38.8325,
+       -78.339879
+      ],
+      [
+       38.832168,
+       -78.339464
+      ],
+      [
+       38.8317,
+       -78.339027
+      ],
+      [
+       38.83138,
+       -78.338805
+      ],
+      [
+       38.831106,
+       -78.338722
+      ],
+      [
+       38.830857,
+       -78.338687
+      ],
+      [
+       38.830748,
+       -78.338683
+      ],
+      [
+       38.830462,
+       -78.338741
+      ],
+      [
+       38.83026,
+       -78.338725
+      ],
+      [
+       38.829965,
+       -78.338656
+      ],
+      [
+       38.829556,
+       -78.338455
+      ],
+      [
+       38.82922,
+       -78.338367
+      ],
+      [
+       38.829634,
+       -78.337903
+      ],
+      [
+       38.830099,
+       -78.337329
+      ],
+      [
+       38.831506,
+       -78.335465
+      ],
+      [
+       38.831956,
+       -78.334824
+      ],
+      [
+       38.83228,
+       -78.333301
+      ],
+      [
+       38.832508,
+       -78.332339
+      ],
+      [
+       38.832754,
+       -78.331502
+      ],
+      [
+       38.832786,
+       -78.33122
+      ],
+      [
+       38.832773,
+       -78.330713
+      ],
+      [
+       38.832715,
+       -78.330468
+      ],
+      [
+       38.832489,
+       -78.329892
+      ],
+      [
+       38.83244,
+       -78.329713
+      ],
+      [
+       38.832378,
+       -78.329391
+      ],
+      [
+       38.83232,
+       -78.328862
+      ],
+      [
+       38.832283,
+       -78.328704
+      ],
+      [
+       38.832133,
+       -78.328376
+      ],
+      [
+       38.831599,
+       -78.327392
+      ],
+      [
+       38.831084,
+       -78.326288
+      ],
+      [
+       38.830915,
+       -78.326067
+      ],
+      [
+       38.83055,
+       -78.325681
+      ],
+      [
+       38.830442,
+       -78.325576
+      ],
+      [
+       38.830185,
+       -78.325408
+      ],
+      [
+       38.829931,
+       -78.325193
+      ],
+      [
+       38.829226,
+       -78.324489
+      ],
+      [
+       38.828387,
+       -78.323592
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 1.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4675285-09152026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4675285-09152026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4673339-09102026-2 updated",
+     "description": "On Rt. 628 (Rocky Hollow Rd) in the County of Warren from Stonewall Jackson Hwy; US-340N/S to Indian Hollow Rd; Panhandle Rd; Rt. 613N/S (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.81989,
+     "lon": -78.33621,
+     "line": [
+      [
+       38.819894,
+       -78.336215
+      ],
+      [
+       38.820053,
+       -78.336781
+      ],
+      [
+       38.820121,
+       -78.336975
+      ],
+      [
+       38.820156,
+       -78.337017
+      ],
+      [
+       38.8202,
+       -78.337044
+      ],
+      [
+       38.820265,
+       -78.337053
+      ],
+      [
+       38.820319,
+       -78.337047
+      ],
+      [
+       38.820444,
+       -78.336991
+      ],
+      [
+       38.820542,
+       -78.336909
+      ],
+      [
+       38.820665,
+       -78.336756
+      ],
+      [
+       38.820952,
+       -78.336342
+      ],
+      [
+       38.820986,
+       -78.336325
+      ],
+      [
+       38.821088,
+       -78.336311
+      ],
+      [
+       38.821175,
+       -78.336278
+      ],
+      [
+       38.821556,
+       -78.335966
+      ],
+      [
+       38.821682,
+       -78.335872
+      ],
+      [
+       38.821787,
+       -78.335809
+      ],
+      [
+       38.821876,
+       -78.335771
+      ],
+      [
+       38.822185,
+       -78.33569
+      ],
+      [
+       38.822462,
+       -78.335638
+      ],
+      [
+       38.822624,
+       -78.335627
+      ],
+      [
+       38.822874,
+       -78.335632
+      ],
+      [
+       38.823114,
+       -78.335602
+      ],
+      [
+       38.823291,
+       -78.335546
+      ],
+      [
+       38.823922,
+       -78.335271
+      ],
+      [
+       38.824064,
+       -78.335227
+      ],
+      [
+       38.824155,
+       -78.335213
+      ],
+      [
+       38.82423,
+       -78.335212
+      ],
+      [
+       38.824457,
+       -78.335262
+      ],
+      [
+       38.824551,
+       -78.335272
+      ],
+      [
+       38.824646,
+       -78.33527
+      ],
+      [
+       38.825009,
+       -78.335206
+      ],
+      [
+       38.825586,
+       -78.335035
+      ],
+      [
+       38.825701,
+       -78.335023
+      ],
+      [
+       38.825807,
+       -78.335036
+      ],
+      [
+       38.825893,
+       -78.335068
+      ],
+      [
+       38.826268,
+       -78.335332
+      ],
+      [
+       38.826719,
+       -78.335717
+      ],
+      [
+       38.82677,
+       -78.335774
+      ],
+      [
+       38.826912,
+       -78.33596
+      ],
+      [
+       38.82738,
+       -78.336689
+      ],
+      [
+       38.827459,
+       -78.336848
+      ],
+      [
+       38.827544,
+       -78.337043
+      ],
+      [
+       38.827656,
+       -78.337229
+      ],
+      [
+       38.828144,
+       -78.337807
+      ],
+      [
+       38.82836,
+       -78.337991
+      ],
+      [
+       38.82858,
+       -78.338136
+      ],
+      [
+       38.828755,
+       -78.33822
+      ],
+      [
+       38.829128,
+       -78.338346
+      ],
+      [
+       38.829556,
+       -78.338455
+      ],
+      [
+       38.829727,
+       -78.33853
+      ],
+      [
+       38.829906,
+       -78.338632
+      ],
+      [
+       38.829985,
+       -78.338662
+      ],
+      [
+       38.83026,
+       -78.338725
+      ],
+      [
+       38.830386,
+       -78.338741
+      ],
+      [
+       38.830512,
+       -78.338736
+      ],
+      [
+       38.830748,
+       -78.338683
+      ],
+      [
+       38.830929,
+       -78.338693
+      ],
+      [
+       38.831158,
+       -78.338734
+      ],
+      [
+       38.83138,
+       -78.338805
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 1.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673339-09102026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673339-09102026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
      "allLanesClosed": false
     },
     {
@@ -6372,6 +7389,269 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4654766-07272026-1 updated",
+     "description": "On VA-55 (Front Royal Rd) in the County of Shenandoah from County/City/Town Line: WARREN CL/SHEN CL to Old Grade Rd; Rt. 628N/S (Shenandoah County), motorists can expect potential delays in this area from 09/29/26 at 9:00 AM until 09/29/26 at 9:00 PM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
+     "lat": 38.97635,
+     "lon": -78.33777,
+     "line": [
+      [
+       38.976354,
+       -78.33777
+      ],
+      [
+       38.976185,
+       -78.337976
+      ],
+      [
+       38.976024,
+       -78.338135
+      ],
+      [
+       38.975765,
+       -78.338357
+      ],
+      [
+       38.975083,
+       -78.338862
+      ],
+      [
+       38.974888,
+       -78.339021
+      ],
+      [
+       38.973689,
+       -78.340093
+      ],
+      [
+       38.973404,
+       -78.34036
+      ],
+      [
+       38.973213,
+       -78.340571
+      ],
+      [
+       38.973014,
+       -78.340841
+      ],
+      [
+       38.972871,
+       -78.341071
+      ],
+      [
+       38.972759,
+       -78.341287
+      ],
+      [
+       38.972661,
+       -78.341515
+      ],
+      [
+       38.972594,
+       -78.341706
+      ],
+      [
+       38.972522,
+       -78.341956
+      ],
+      [
+       38.972464,
+       -78.342211
+      ],
+      [
+       38.972421,
+       -78.342466
+      ],
+      [
+       38.972394,
+       -78.342707
+      ],
+      [
+       38.972381,
+       -78.342998
+      ],
+      [
+       38.972386,
+       -78.343241
+      ],
+      [
+       38.972402,
+       -78.343451
+      ],
+      [
+       38.97244,
+       -78.343733
+      ],
+      [
+       38.972493,
+       -78.344011
+      ],
+      [
+       38.972541,
+       -78.344202
+      ],
+      [
+       38.972613,
+       -78.344424
+      ],
+      [
+       38.972698,
+       -78.344638
+      ],
+      [
+       38.972805,
+       -78.344865
+      ],
+      [
+       38.972938,
+       -78.345114
+      ],
+      [
+       38.973369,
+       -78.345806
+      ],
+      [
+       38.973726,
+       -78.346302
+      ],
+      [
+       38.973983,
+       -78.346596
+      ],
+      [
+       38.974233,
+       -78.346838
+      ],
+      [
+       38.974519,
+       -78.347068
+      ],
+      [
+       38.974751,
+       -78.347225
+      ],
+      [
+       38.974941,
+       -78.347338
+      ],
+      [
+       38.975516,
+       -78.34763
+      ],
+      [
+       38.976119,
+       -78.347901
+      ],
+      [
+       38.976441,
+       -78.348028
+      ],
+      [
+       38.976813,
+       -78.348142
+      ],
+      [
+       38.977269,
+       -78.34825
+      ],
+      [
+       38.981203,
+       -78.349077
+      ],
+      [
+       38.981403,
+       -78.34911
+      ],
+      [
+       38.981688,
+       -78.349132
+      ],
+      [
+       38.981937,
+       -78.349131
+      ],
+      [
+       38.982237,
+       -78.349102
+      ],
+      [
+       38.982644,
+       -78.349014
+      ],
+      [
+       38.98305,
+       -78.348879
+      ],
+      [
+       38.984313,
+       -78.348309
+      ],
+      [
+       38.984415,
+       -78.348274
+      ],
+      [
+       38.984519,
+       -78.348251
+      ],
+      [
+       38.984729,
+       -78.348237
+      ],
+      [
+       38.984857,
+       -78.348248
+      ],
+      [
+       38.984971,
+       -78.348271
+      ],
+      [
+       38.985085,
+       -78.348314
+      ],
+      [
+       38.985196,
+       -78.348368
+      ],
+      [
+       38.985276,
+       -78.348417
+      ],
+      [
+       38.985396,
+       -78.348508
+      ],
+      [
+       38.98554,
+       -78.348658
+      ],
+      [
+       38.985647,
+       -78.348809
+      ],
+      [
+       38.985735,
+       -78.348981
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654766-07272026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654766-07272026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T09:00:00",
+     "end": "2026-09-29T21:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4663023-08142026-2 updated",
      "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from Limeton Church Rd; Rt. 674N/S (Warren County) to Poor House Rd; Rt. 605E/W (Warren County), motorists can expect potential delays in this area from 09/27/26 at 8:00 PM until 09/28/26 at 5:00 AM due to maintenance activities. All north lanes are mobile, alternating closures. All south lanes are mobile, alternating closures.",
      "lat": 38.85024,
@@ -6770,6 +8050,269 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4654791-07272026-6 updated",
+     "description": "On US-522 (Remount Rd) in the County of Warren from County/City/Town Line: WARREN CL/RAPP CL to County/City/Town Line: WARREN - CLARK CO LINE, motorists can expect potential delays in this area from 09/29/26 at 9:00 AM until 09/29/26 at 9:00 PM due to maintenance activities. All north lanes are mobile, alternating closures. All south lanes are mobile, alternating closures.",
+     "lat": 38.86205,
+     "lon": -78.13133,
+     "line": [
+      [
+       38.862048,
+       -78.131333
+      ],
+      [
+       38.862415,
+       -78.131495
+      ],
+      [
+       38.862868,
+       -78.131714
+      ],
+      [
+       38.863447,
+       -78.132035
+      ],
+      [
+       38.863663,
+       -78.132173
+      ],
+      [
+       38.863972,
+       -78.132387
+      ],
+      [
+       38.864772,
+       -78.132994
+      ],
+      [
+       38.867562,
+       -78.135167
+      ],
+      [
+       38.868179,
+       -78.135667
+      ],
+      [
+       38.868501,
+       -78.135962
+      ],
+      [
+       38.868755,
+       -78.13624
+      ],
+      [
+       38.868988,
+       -78.136528
+      ],
+      [
+       38.869268,
+       -78.136923
+      ],
+      [
+       38.869393,
+       -78.137116
+      ],
+      [
+       38.869534,
+       -78.137358
+      ],
+      [
+       38.869757,
+       -78.137798
+      ],
+      [
+       38.869985,
+       -78.138269
+      ],
+      [
+       38.870848,
+       -78.140117
+      ],
+      [
+       38.87113,
+       -78.140699
+      ],
+      [
+       38.871331,
+       -78.141081
+      ],
+      [
+       38.871505,
+       -78.141381
+      ],
+      [
+       38.87166,
+       -78.141628
+      ],
+      [
+       38.871841,
+       -78.141897
+      ],
+      [
+       38.872076,
+       -78.142221
+      ],
+      [
+       38.872476,
+       -78.142722
+      ],
+      [
+       38.875167,
+       -78.145808
+      ],
+      [
+       38.875496,
+       -78.146202
+      ],
+      [
+       38.875775,
+       -78.146567
+      ],
+      [
+       38.87596,
+       -78.146834
+      ],
+      [
+       38.876355,
+       -78.147494
+      ],
+      [
+       38.877079,
+       -78.1488
+      ],
+      [
+       38.87822,
+       -78.150908
+      ],
+      [
+       38.878413,
+       -78.151319
+      ],
+      [
+       38.878585,
+       -78.151742
+      ],
+      [
+       38.878671,
+       -78.151991
+      ],
+      [
+       38.87877,
+       -78.152321
+      ],
+      [
+       38.878856,
+       -78.152655
+      ],
+      [
+       38.878966,
+       -78.153255
+      ],
+      [
+       38.87918,
+       -78.154914
+      ],
+      [
+       38.879224,
+       -78.155199
+      ],
+      [
+       38.879351,
+       -78.155767
+      ],
+      [
+       38.879416,
+       -78.156007
+      ],
+      [
+       38.87955,
+       -78.156421
+      ],
+      [
+       38.879709,
+       -78.156846
+      ],
+      [
+       38.879935,
+       -78.157379
+      ],
+      [
+       38.881325,
+       -78.160605
+      ],
+      [
+       38.881627,
+       -78.161239
+      ],
+      [
+       38.881868,
+       -78.161681
+      ],
+      [
+       38.882061,
+       -78.161993
+      ],
+      [
+       38.882393,
+       -78.162481
+      ],
+      [
+       38.8834,
+       -78.163816
+      ],
+      [
+       38.883731,
+       -78.164295
+      ],
+      [
+       38.884046,
+       -78.16481
+      ],
+      [
+       38.885072,
+       -78.166592
+      ],
+      [
+       38.885309,
+       -78.16695
+      ],
+      [
+       38.88555,
+       -78.167265
+      ],
+      [
+       38.885693,
+       -78.167437
+      ],
+      [
+       38.885927,
+       -78.167687
+      ],
+      [
+       38.886114,
+       -78.167865
+      ],
+      [
+       38.886289,
+       -78.168016
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654791-07272026-6.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654791-07272026-6.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T09:00:00",
+     "end": "2026-09-29T21:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4679231-09242026-3 updated",
      "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 09/28/26 at 7:00 AM until 09/28/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.65086,
@@ -7030,6 +8573,269 @@
      ],
      "start": "2026-09-28T07:00:00",
      "end": "2026-09-28T18:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4673387-09102026-2 updated",
+     "description": "On Rt. 619 (Mountain Rd) in the County of Warren from Panhandle Rd; Rt. 613N/S (Warren County) to Stonewall Jackson Hwy; /S; US-340N; US-340S, motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.90332,
+     "lon": -78.21084,
+     "line": [
+      [
+       38.903317,
+       -78.210835
+      ],
+      [
+       38.903364,
+       -78.210902
+      ],
+      [
+       38.903396,
+       -78.210969
+      ],
+      [
+       38.903417,
+       -78.211036
+      ],
+      [
+       38.906189,
+       -78.221759
+      ],
+      [
+       38.908864,
+       -78.232184
+      ],
+      [
+       38.909009,
+       -78.232693
+      ],
+      [
+       38.909133,
+       -78.233061
+      ],
+      [
+       38.909313,
+       -78.233515
+      ],
+      [
+       38.909571,
+       -78.234037
+      ],
+      [
+       38.909674,
+       -78.234219
+      ],
+      [
+       38.909863,
+       -78.234524
+      ],
+      [
+       38.910076,
+       -78.23483
+      ],
+      [
+       38.910247,
+       -78.23505
+      ],
+      [
+       38.910542,
+       -78.235384
+      ],
+      [
+       38.910829,
+       -78.235666
+      ],
+      [
+       38.911692,
+       -78.236411
+      ],
+      [
+       38.911965,
+       -78.236657
+      ],
+      [
+       38.913318,
+       -78.237822
+      ],
+      [
+       38.913712,
+       -78.238216
+      ],
+      [
+       38.913974,
+       -78.238529
+      ],
+      [
+       38.914273,
+       -78.23894
+      ],
+      [
+       38.914515,
+       -78.239326
+      ],
+      [
+       38.914725,
+       -78.239727
+      ],
+      [
+       38.914831,
+       -78.23995
+      ],
+      [
+       38.914949,
+       -78.240228
+      ],
+      [
+       38.915047,
+       -78.240483
+      ],
+      [
+       38.915154,
+       -78.240797
+      ],
+      [
+       38.915228,
+       -78.241047
+      ],
+      [
+       38.915295,
+       -78.24131
+      ],
+      [
+       38.91541,
+       -78.241866
+      ],
+      [
+       38.915548,
+       -78.242786
+      ],
+      [
+       38.915847,
+       -78.244921
+      ],
+      [
+       38.915913,
+       -78.245444
+      ],
+      [
+       38.915946,
+       -78.245819
+      ],
+      [
+       38.915959,
+       -78.246124
+      ],
+      [
+       38.915956,
+       -78.246425
+      ],
+      [
+       38.915934,
+       -78.246779
+      ],
+      [
+       38.915888,
+       -78.247138
+      ],
+      [
+       38.915802,
+       -78.247608
+      ],
+      [
+       38.915325,
+       -78.249802
+      ],
+      [
+       38.914645,
+       -78.253102
+      ],
+      [
+       38.914585,
+       -78.253308
+      ],
+      [
+       38.914509,
+       -78.253474
+      ],
+      [
+       38.914443,
+       -78.253574
+      ],
+      [
+       38.914378,
+       -78.253651
+      ],
+      [
+       38.914199,
+       -78.253803
+      ],
+      [
+       38.913056,
+       -78.254647
+      ],
+      [
+       38.912783,
+       -78.254867
+      ],
+      [
+       38.912682,
+       -78.254959
+      ],
+      [
+       38.911656,
+       -78.256029
+      ],
+      [
+       38.911426,
+       -78.256256
+      ],
+      [
+       38.911046,
+       -78.256607
+      ],
+      [
+       38.910909,
+       -78.25676
+      ],
+      [
+       38.91081,
+       -78.256897
+      ],
+      [
+       38.910722,
+       -78.257064
+      ],
+      [
+       38.910647,
+       -78.257254
+      ],
+      [
+       38.910299,
+       -78.258257
+      ],
+      [
+       38.909779,
+       -78.2597
+      ],
+      [
+       38.909644,
+       -78.260008
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673387-09102026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673387-09102026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
      "allLanesClosed": false
     },
     {
@@ -7431,6 +9237,269 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4673345-09102026-2 updated",
+     "description": "On Rt. 613 (Bentonville Rd) in the County of Warren from Stonewall Jackson Hwy; US-340N/S to Wilson Burke Rd; Rt. 608E/W (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.83165,
+     "lon": -78.31744,
+     "line": [
+      [
+       38.831645,
+       -78.317438
+      ],
+      [
+       38.830419,
+       -78.320078
+      ],
+      [
+       38.830197,
+       -78.32053
+      ],
+      [
+       38.831169,
+       -78.321566
+      ],
+      [
+       38.831566,
+       -78.322004
+      ],
+      [
+       38.831777,
+       -78.322273
+      ],
+      [
+       38.831863,
+       -78.322398
+      ],
+      [
+       38.831927,
+       -78.322514
+      ],
+      [
+       38.831987,
+       -78.322667
+      ],
+      [
+       38.83203,
+       -78.322833
+      ],
+      [
+       38.832076,
+       -78.323045
+      ],
+      [
+       38.832102,
+       -78.323218
+      ],
+      [
+       38.83212,
+       -78.323393
+      ],
+      [
+       38.832155,
+       -78.324596
+      ],
+      [
+       38.832174,
+       -78.324709
+      ],
+      [
+       38.83222,
+       -78.324829
+      ],
+      [
+       38.832299,
+       -78.324943
+      ],
+      [
+       38.832383,
+       -78.325004
+      ],
+      [
+       38.832449,
+       -78.325025
+      ],
+      [
+       38.832709,
+       -78.325058
+      ],
+      [
+       38.832815,
+       -78.325102
+      ],
+      [
+       38.832867,
+       -78.325147
+      ],
+      [
+       38.832929,
+       -78.325247
+      ],
+      [
+       38.833119,
+       -78.325777
+      ],
+      [
+       38.833186,
+       -78.325895
+      ],
+      [
+       38.833253,
+       -78.32598
+      ],
+      [
+       38.833369,
+       -78.326045
+      ],
+      [
+       38.833694,
+       -78.326144
+      ],
+      [
+       38.83394,
+       -78.326258
+      ],
+      [
+       38.834452,
+       -78.326579
+      ],
+      [
+       38.834668,
+       -78.326683
+      ],
+      [
+       38.834815,
+       -78.326772
+      ],
+      [
+       38.834977,
+       -78.326884
+      ],
+      [
+       38.83512,
+       -78.32702
+      ],
+      [
+       38.83536,
+       -78.327302
+      ],
+      [
+       38.835656,
+       -78.327682
+      ],
+      [
+       38.836048,
+       -78.328268
+      ],
+      [
+       38.836454,
+       -78.328828
+      ],
+      [
+       38.836536,
+       -78.328955
+      ],
+      [
+       38.836619,
+       -78.32912
+      ],
+      [
+       38.836681,
+       -78.329309
+      ],
+      [
+       38.836726,
+       -78.329554
+      ],
+      [
+       38.836758,
+       -78.329673
+      ],
+      [
+       38.836975,
+       -78.330217
+      ],
+      [
+       38.837043,
+       -78.330337
+      ],
+      [
+       38.837144,
+       -78.330452
+      ],
+      [
+       38.837226,
+       -78.330495
+      ],
+      [
+       38.837312,
+       -78.330521
+      ],
+      [
+       38.837571,
+       -78.330564
+      ],
+      [
+       38.837815,
+       -78.330591
+      ],
+      [
+       38.837898,
+       -78.330591
+      ],
+      [
+       38.837939,
+       -78.330586
+      ],
+      [
+       38.838731,
+       -78.330335
+      ],
+      [
+       38.838731,
+       -78.330335
+      ],
+      [
+       38.839231,
+       -78.33016
+      ],
+      [
+       38.839335,
+       -78.330144
+      ],
+      [
+       38.839409,
+       -78.330155
+      ],
+      [
+       38.840092,
+       -78.330365
+      ],
+      [
+       38.840157,
+       -78.330369
+      ],
+      [
+       38.840199,
+       -78.330358
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 2.0,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673345-09102026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4673345-09102026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4673345-09102026-1 updated",
      "description": "On Rt. 613 (Bentonville Rd) in the County of Warren from Stonewall Jackson Hwy; US-340N/S to Wilson Burke Rd; Rt. 608E/W (Warren County), motorists can expect potential delays in this area from 09/28/26 at 8:00 AM until 09/28/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.83165,
@@ -7694,6 +9763,269 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4654791-07272026-1 updated",
+     "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from County/City/Town Line: PAGE CL/WARREN CL to Lord Fairfax Hwy; Stonewall Jackson Hwy; US-522N; VA-277E/W, US-340S; County/City/Town Line,RT 522 WARREN/FREDRK MAINT BK, motorists can expect potential delays in this area from 09/29/26 at 9:00 AM until 09/29/26 at 9:00 PM due to maintenance activities. All north lanes are mobile, alternating closures. All south lanes are mobile, alternating closures.",
+     "lat": 38.80761,
+     "lon": -78.34807,
+     "line": [
+      [
+       38.807613,
+       -78.348068
+      ],
+      [
+       38.808821,
+       -78.347208
+      ],
+      [
+       38.809674,
+       -78.346496
+      ],
+      [
+       38.810372,
+       -78.345928
+      ],
+      [
+       38.810774,
+       -78.345608
+      ],
+      [
+       38.811596,
+       -78.344982
+      ],
+      [
+       38.8145,
+       -78.342941
+      ],
+      [
+       38.81549,
+       -78.342229
+      ],
+      [
+       38.815848,
+       -78.341927
+      ],
+      [
+       38.816269,
+       -78.341506
+      ],
+      [
+       38.816663,
+       -78.341068
+      ],
+      [
+       38.817158,
+       -78.340441
+      ],
+      [
+       38.817745,
+       -78.33962
+      ],
+      [
+       38.818296,
+       -78.338826
+      ],
+      [
+       38.819005,
+       -78.337767
+      ],
+      [
+       38.819142,
+       -78.337546
+      ],
+      [
+       38.820146,
+       -78.335758
+      ],
+      [
+       38.820256,
+       -78.335579
+      ],
+      [
+       38.820691,
+       -78.334813
+      ],
+      [
+       38.821169,
+       -78.333964
+      ],
+      [
+       38.82135,
+       -78.333623
+      ],
+      [
+       38.82214,
+       -78.332248
+      ],
+      [
+       38.82332,
+       -78.330153
+      ],
+      [
+       38.823531,
+       -78.329772
+      ],
+      [
+       38.823812,
+       -78.329233
+      ],
+      [
+       38.824124,
+       -78.328723
+      ],
+      [
+       38.824334,
+       -78.328419
+      ],
+      [
+       38.824554,
+       -78.328128
+      ],
+      [
+       38.825726,
+       -78.326773
+      ],
+      [
+       38.827171,
+       -78.32508
+      ],
+      [
+       38.827597,
+       -78.324576
+      ],
+      [
+       38.828314,
+       -78.323697
+      ],
+      [
+       38.828625,
+       -78.32324
+      ],
+      [
+       38.829102,
+       -78.322509
+      ],
+      [
+       38.829474,
+       -78.321903
+      ],
+      [
+       38.829837,
+       -78.321248
+      ],
+      [
+       38.830419,
+       -78.320078
+      ],
+      [
+       38.832503,
+       -78.315585
+      ],
+      [
+       38.833491,
+       -78.313336
+      ],
+      [
+       38.834462,
+       -78.311072
+      ],
+      [
+       38.834842,
+       -78.31021
+      ],
+      [
+       38.835848,
+       -78.30788
+      ],
+      [
+       38.836016,
+       -78.307539
+      ],
+      [
+       38.836229,
+       -78.307143
+      ],
+      [
+       38.836591,
+       -78.306549
+      ],
+      [
+       38.837005,
+       -78.305971
+      ],
+      [
+       38.837811,
+       -78.305003
+      ],
+      [
+       38.838682,
+       -78.303994
+      ],
+      [
+       38.839844,
+       -78.302673
+      ],
+      [
+       38.841026,
+       -78.301286
+      ],
+      [
+       38.841818,
+       -78.300329
+      ],
+      [
+       38.84403,
+       -78.297755
+      ],
+      [
+       38.845039,
+       -78.296565
+      ],
+      [
+       38.845489,
+       -78.29598
+      ],
+      [
+       38.845849,
+       -78.295491
+      ],
+      [
+       38.846275,
+       -78.294856
+      ],
+      [
+       38.84655,
+       -78.294419
+      ],
+      [
+       38.846815,
+       -78.293971
+      ],
+      [
+       38.847196,
+       -78.293283
+      ],
+      [
+       38.847416,
+       -78.292848
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.2,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654791-07272026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4654791-07272026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T09:00:00",
+     "end": "2026-09-29T21:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4672013-09052026-3 updated",
      "description": "On Rt. 660 in the County of Warren from Hall Rd; Wakeman Mill Rd; Rt. 615N/S (Warren County) to Esteppe Rd; Rt. 646N/S (Warren County), motorists can expect potential delays in this area from 09/26/26 at 7:00 AM until 09/26/26 at 5:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
      "lat": 38.9409,
@@ -7946,6 +10278,269 @@
      ],
      "start": "2026-09-26T07:00:00",
      "end": "2026-09-26T17:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4674284-09122026-2 updated",
+     "description": "On VA-55 in the County of Warren from E Strasburg Rd; N Shenandoah Ave; US-340N/S, US-522N/S to Fiery Run Rd; Freezeland Rd; Rt. 638N/S (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.9467,
+     "lon": -78.19968,
+     "line": [
+      [
+       38.946699,
+       -78.199677
+      ],
+      [
+       38.945917,
+       -78.199566
+      ],
+      [
+       38.944442,
+       -78.199481
+      ],
+      [
+       38.943011,
+       -78.199374
+      ],
+      [
+       38.940235,
+       -78.199261
+      ],
+      [
+       38.939286,
+       -78.199312
+      ],
+      [
+       38.938336,
+       -78.199278
+      ],
+      [
+       38.936424,
+       -78.199186
+      ],
+      [
+       38.935797,
+       -78.199172
+      ],
+      [
+       38.935136,
+       -78.199122
+      ],
+      [
+       38.935164,
+       -78.198291
+      ],
+      [
+       38.935132,
+       -78.197955
+      ],
+      [
+       38.935175,
+       -78.196373
+      ],
+      [
+       38.935195,
+       -78.195354
+      ],
+      [
+       38.935193,
+       -78.195143
+      ],
+      [
+       38.935181,
+       -78.195058
+      ],
+      [
+       38.935158,
+       -78.194973
+      ],
+      [
+       38.935127,
+       -78.19489
+      ],
+      [
+       38.935078,
+       -78.194796
+      ],
+      [
+       38.935023,
+       -78.194733
+      ],
+      [
+       38.934954,
+       -78.194675
+      ],
+      [
+       38.934723,
+       -78.194528
+      ],
+      [
+       38.933169,
+       -78.194457
+      ],
+      [
+       38.93156,
+       -78.19426
+      ],
+      [
+       38.930854,
+       -78.194204
+      ],
+      [
+       38.92943,
+       -78.194138
+      ],
+      [
+       38.928205,
+       -78.194068
+      ],
+      [
+       38.926636,
+       -78.194024
+      ],
+      [
+       38.926454,
+       -78.194016
+      ],
+      [
+       38.926224,
+       -78.193989
+      ],
+      [
+       38.924833,
+       -78.193923
+      ],
+      [
+       38.919748,
+       -78.193699
+      ],
+      [
+       38.919474,
+       -78.193668
+      ],
+      [
+       38.918565,
+       -78.193594
+      ],
+      [
+       38.918211,
+       -78.193554
+      ],
+      [
+       38.917741,
+       -78.193536
+      ],
+      [
+       38.916793,
+       -78.193544
+      ],
+      [
+       38.9159,
+       -78.193571
+      ],
+      [
+       38.914933,
+       -78.193582
+      ],
+      [
+       38.914494,
+       -78.193596
+      ],
+      [
+       38.914389,
+       -78.193609
+      ],
+      [
+       38.91431,
+       -78.193632
+      ],
+      [
+       38.912742,
+       -78.19423
+      ],
+      [
+       38.911973,
+       -78.194471
+      ],
+      [
+       38.911727,
+       -78.189768
+      ],
+      [
+       38.911699,
+       -78.189403
+      ],
+      [
+       38.911643,
+       -78.188965
+      ],
+      [
+       38.911579,
+       -78.188604
+      ],
+      [
+       38.911486,
+       -78.188162
+      ],
+      [
+       38.911166,
+       -78.186942
+      ],
+      [
+       38.911048,
+       -78.186439
+      ],
+      [
+       38.910916,
+       -78.185926
+      ],
+      [
+       38.910853,
+       -78.185638
+      ],
+      [
+       38.910793,
+       -78.185316
+      ],
+      [
+       38.91074,
+       -78.18498
+      ],
+      [
+       38.910655,
+       -78.184573
+      ],
+      [
+       38.910515,
+       -78.183812
+      ],
+      [
+       38.910274,
+       -78.182608
+      ],
+      [
+       38.910042,
+       -78.181375
+      ],
+      [
+       38.909865,
+       -78.180387
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.4,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4674284-09122026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4674284-09122026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T08:00:00",
+     "end": "2026-09-29T16:00:00",
      "allLanesClosed": false
     },
     {
