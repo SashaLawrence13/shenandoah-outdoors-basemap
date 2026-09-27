@@ -1,11 +1,11 @@
 {
- "fetchedAt": "2026-09-26T23:41:20Z",
+ "fetchedAt": "2026-09-27T05:25:47Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (9 rows)",
-   "VIIRS_NOAA20_NRT": "ok (8 rows)",
-   "VIIRS_NOAA21_NRT": "ok (8 rows)",
+   "VIIRS_SNPP_NRT": "ok (5 rows)",
+   "VIIRS_NOAA20_NRT": "ok (6 rows)",
+   "VIIRS_NOAA21_NRT": "ok (7 rows)",
    "MODIS_NRT": "ok (0 rows)"
   },
   "detections": [
@@ -116,69 +116,6 @@
     "confidence": "n",
     "frp": 1.01,
     "day": false
-   },
-   {
-    "lat": 38.3477,
-    "lon": -79.0801,
-    "detected": "2026-09-25T20:23:00Z",
-    "source": "MODIS",
-    "confidence": "62",
-    "frp": 6.16,
-    "day": true
-   },
-   {
-    "lat": 38.5147,
-    "lon": -77.8161,
-    "detected": "2026-09-25T17:34:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 6.95,
-    "day": true
-   },
-   {
-    "lat": 38.5172,
-    "lon": -77.8212,
-    "detected": "2026-09-25T17:15:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 4.82,
-    "day": true
-   },
-   {
-    "lat": 37.3211,
-    "lon": -78.1046,
-    "detected": "2026-09-25T07:35:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 1.0,
-    "day": false
-   },
-   {
-    "lat": 37.4608,
-    "lon": -79.9945,
-    "detected": "2026-09-25T07:35:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.84,
-    "day": false
-   },
-   {
-    "lat": 37.3216,
-    "lon": -78.1061,
-    "detected": "2026-09-25T07:01:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.76,
-    "day": false
-   },
-   {
-    "lat": 38.7812,
-    "lon": -79.3986,
-    "detected": "2026-09-25T06:14:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.87,
-    "day": false
    }
   ]
  },
@@ -191,10 +128,10 @@
     "lat": 38.5231,
     "lon": -78.4347,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 18:00 EST",
+    "observed": "2026-09-27 0:00 EST",
     "near": "park-north",
     "side": "park"
    },
@@ -204,10 +141,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 6,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 18:00 EST",
+    "observed": "2026-09-27 0:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -217,10 +154,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM2.5",
-    "aqi": 23,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 18:00 EST",
+    "observed": "2026-09-27 0:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -230,10 +167,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM10",
-    "aqi": 13,
+    "aqi": 11,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 18:00 EST",
+    "observed": "2026-09-27 0:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -243,10 +180,10 @@
     "lat": 37.63,
     "lon": -79.54,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-26 18:00 EST",
+    "observed": "2026-09-27 0:00 EST",
     "near": "glenwood-pedlar",
     "side": "forest"
    }
@@ -353,6 +290,18 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "nswowl",
+    "name": "Northern Saw-whet Owl",
+    "sci": "Aegolius acadicus",
+    "count": 1,
+    "seen": "2026-09-24 11:55",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
+    "notable": true,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "olsfly",
     "name": "Olive-sided Flycatcher",
     "sci": "Contopus cooperi",
@@ -393,12 +342,12 @@
     "name": "White-throated Sparrow",
     "sci": "Zonotrichia albicollis",
     "count": 1,
-    "seen": "2026-09-25 17:42",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": true,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "yebfly",
@@ -428,11 +377,11 @@
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 3,
-    "seen": "2026-09-26 09:27",
-    "place": "Blue Ridge Parkway--Shenandoah Valley View Overlook",
-    "lat": 38.005,
-    "lon": -78.888,
+    "count": 1,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -453,36 +402,36 @@
     "name": "American Kestrel",
     "sci": "Falco sparverius",
     "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "seen": "2026-09-26 08:37",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "amered",
     "name": "American Redstart",
     "sci": "Setophaga ruticilla",
-    "count": 3,
-    "seen": "2026-09-25 08:33",
-    "place": "Shenandoah NP--Dickey Ridge Visitor Center",
-    "lat": 38.871,
-    "lon": -78.205,
+    "count": 2,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
     "count": 3,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "baleag",
@@ -537,24 +486,24 @@
     "name": "Bay-breasted Warbler",
     "sci": "Setophaga castanea",
     "count": 1,
-    "seen": "2026-09-26 10:19",
-    "place": "Shenandoah NP--Compton Gap",
-    "lat": 38.824,
-    "lon": -78.17,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "belkin1",
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
     "count": 1,
-    "seen": "2026-09-26 07:09",
-    "place": "Lake Arrowhead",
-    "lat": 38.64,
-    "lon": -78.387,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "blkvul",
@@ -656,11 +605,11 @@
     "code": "blujay",
     "name": "Blue Jay",
     "sci": "Cyanocitta cristata",
-    "count": 1,
-    "seen": "2026-09-26 10:59",
-    "place": "Black Rock Gap Trail",
-    "lat": 38.196,
-    "lon": -78.739,
+    "count": 3,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -728,11 +677,11 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 30,
-    "seen": "2026-09-26 11:49",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
+    "count": 90,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -764,25 +713,13 @@
     "code": "carchi",
     "name": "Carolina Chickadee",
     "sci": "Poecile carolinensis",
-    "count": 1,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "count": 4,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "carwre",
-    "name": "Carolina Wren",
-    "sci": "Thryothorus ludovicianus",
-    "count": 3,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
-    "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "cedwax",
@@ -801,24 +738,24 @@
     "name": "Chestnut-sided Warbler",
     "sci": "Setophaga pensylvanica",
     "count": 1,
-    "seen": "2026-09-25 08:33",
-    "place": "Shenandoah NP--Dickey Ridge Visitor Center",
-    "lat": 38.871,
-    "lon": -78.205,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "chiswi",
     "name": "Chimney Swift",
     "sci": "Chaetura pelagica",
-    "count": 5,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 187,
+    "seen": "2026-09-26 08:37",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "chispa",
@@ -849,12 +786,12 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-09-26 10:59",
-    "place": "Black Rock Gap Trail",
-    "lat": 38.196,
-    "lon": -78.739,
+    "seen": "2026-09-26 07:40",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "comyel",
@@ -908,37 +845,25 @@
     "code": "easpho",
     "name": "Eastern Phoebe",
     "sci": "Sayornis phoebe",
-    "count": 1,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "count": 2,
+    "seen": "2026-09-26 09:27",
+    "place": "Fosters Boat Ramp",
+    "lat": 38.77,
+    "lon": -78.423,
     "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "easowl1",
-    "name": "Eastern Screech-Owl",
-    "sci": "Megascops asio",
-    "count": 1,
-    "seen": "2026-09-24 23:11",
-    "place": "Big Gem Park",
-    "lat": 38.482,
-    "lon": -78.617,
-    "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "eastow",
     "name": "Eastern Towhee",
     "sci": "Pipilo erythrophthalmus",
-    "count": 2,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "count": 1,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "eawvir1",
@@ -968,13 +893,13 @@
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": 55,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 1,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "fiespa",
@@ -1028,13 +953,13 @@
     "code": "grbher3",
     "name": "Great Blue Heron",
     "sci": "Ardea herodias",
-    "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 2,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "grcfly",
@@ -1169,26 +1094,38 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "linspa",
+    "name": "Lincoln's Sparrow",
+    "sci": "Melospiza lincolnii",
+    "count": 1,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
+    "notable": false,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "magwar",
     "name": "Magnolia Warbler",
     "sci": "Setophaga magnolia",
-    "count": 2,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "count": 1,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
     "count": 8,
-    "seen": "2026-09-26 11:49",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -1197,7 +1134,7 @@
     "name": "Merlin",
     "sci": "Falco columbarius",
     "count": 1,
-    "seen": "2026-09-25 11:50",
+    "seen": "2026-09-26 08:37",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -1221,36 +1158,24 @@
     "name": "Nashville Warbler",
     "sci": "Leiothlypis ruficapilla",
     "count": 1,
-    "seen": "2026-09-20 10:31",
-    "place": "Shenandoah NP--Pocosin Cabin",
-    "lat": 38.41,
-    "lon": -78.489,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "norcar",
-    "name": "Northern Cardinal",
-    "sci": "Cardinalis cardinalis",
-    "count": 1,
-    "seen": "2026-09-26 12:13",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
-    "notable": false,
-    "near": "Shenandoah NP north"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 2,
-    "seen": "2026-09-26 09:18",
-    "place": "Coyner Springs Park",
-    "lat": 38.052,
-    "lon": -78.931,
+    "count": 4,
+    "seen": "2026-09-26 07:13",
+    "place": "Strasburg River Walk",
+    "lat": 38.98,
+    "lon": -78.36,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "norhar2",
@@ -1273,18 +1198,6 @@
     "place": "Seven Bends State Park",
     "lat": 38.866,
     "lon": -78.486,
-    "notable": false,
-    "near": "Shenandoah NP north"
-   },
-   {
-    "code": "normoc",
-    "name": "Northern Mockingbird",
-    "sci": "Mimus polyglottos",
-    "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
     "notable": false,
     "near": "Shenandoah NP north"
    },
@@ -1413,12 +1326,12 @@
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
     "count": 1,
-    "seen": "2026-09-26 12:13",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "seen": "2026-09-26 18:29",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "rebnut",
@@ -1448,13 +1361,13 @@
     "code": "rehwoo",
     "name": "Red-headed Woodpecker",
     "sci": "Melanerpes erythrocephalus",
-    "count": 2,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 16,
+    "seen": "2026-09-26 08:37",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "rethaw",
@@ -1472,13 +1385,13 @@
     "code": "rewbla",
     "name": "Red-winged Blackbird",
     "sci": "Agelaius phoeniceus",
-    "count": 1,
-    "seen": "2026-09-24 17:25",
-    "place": "Cedar Creek & Belle Grove National Historical Park",
-    "lat": 39.022,
-    "lon": -78.304,
+    "count": 26,
+    "seen": "2026-09-26 17:06",
+    "place": "Target Shopping Center Pond",
+    "lat": 38.054,
+    "lon": -78.944,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "rocpig",
@@ -1544,8 +1457,8 @@
     "code": "shshaw",
     "name": "Sharp-shinned Hawk",
     "sci": "Accipiter striatus",
-    "count": 6,
-    "seen": "2026-09-25 13:25",
+    "count": 30,
+    "seen": "2026-09-26 08:37",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -1628,13 +1541,13 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 2,
-    "seen": "2026-09-26 10:19",
-    "place": "Shenandoah NP--Compton Gap",
-    "lat": 38.824,
-    "lon": -78.17,
+    "count": 3,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "turvul",
@@ -1652,13 +1565,13 @@
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
-    "count": 1,
-    "seen": "2026-09-26 10:19",
-    "place": "Shenandoah NP--Compton Gap",
-    "lat": 38.824,
-    "lon": -78.17,
+    "count": 2,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "wooduc",
@@ -1697,16 +1610,28 @@
     "near": "Shenandoah NP central"
    },
    {
-    "code": "yerwar",
-    "name": "Yellow-rumped Warbler",
-    "sci": "Setophaga coronata",
+    "code": "yebsap",
+    "name": "Yellow-bellied Sapsucker",
+    "sci": "Sphyrapicus varius",
     "count": 1,
-    "seen": "2026-09-25 08:33",
-    "place": "Shenandoah NP--Dickey Ridge Visitor Center",
-    "lat": 38.871,
-    "lon": -78.205,
+    "seen": "2026-09-26 08:37",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "yetvir",
+    "name": "Yellow-throated Vireo",
+    "sci": "Vireo flavifrons",
+    "count": 1,
+    "seen": "2026-09-26 11:19",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
+    "notable": false,
+    "near": "Shenandoah NP central"
    }
   ],
   "forest": [
@@ -1774,13 +1699,13 @@
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 12,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 2,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "Lee district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "amegfi",
@@ -1799,12 +1724,12 @@
     "name": "American Kestrel",
     "sci": "Falco sparverius",
     "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "seen": "2026-09-25 09:44",
+    "place": "Weavers Road Pond",
+    "lat": 38.474,
+    "lon": -78.925,
     "notable": false,
-    "near": "Lee district"
+    "near": "North River district"
    },
    {
     "code": "amered",
@@ -1823,10 +1748,10 @@
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
     "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "seen": "2026-09-26 09:27",
+    "place": "Fosters Boat Ramp",
+    "lat": 38.77,
+    "lon": -78.423,
     "notable": false,
     "near": "Lee district"
    },
@@ -1858,25 +1783,13 @@
     "code": "blkvul",
     "name": "Black Vulture",
     "sci": "Coragyps atratus",
-    "count": 15,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
-    "code": "bawwar",
-    "name": "Black-and-white Warbler",
-    "sci": "Mniotilta varia",
     "count": 1,
-    "seen": "2026-09-24 08:34",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "bkcchi",
@@ -1943,12 +1856,12 @@
     "name": "Blue Jay",
     "sci": "Cyanocitta cristata",
     "count": 1,
-    "seen": "2026-09-26 08:40",
-    "place": "Shenandoah Valley Produce Auction",
-    "lat": 38.441,
-    "lon": -79.001,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "buhvir",
@@ -1975,18 +1888,6 @@
     "near": "North River district"
    },
    {
-    "code": "brwhaw",
-    "name": "Broad-winged Hawk",
-    "sci": "Buteo platypterus",
-    "count": 6,
-    "seen": "2026-09-24 08:34",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "brnthr",
     "name": "Brown Thrasher",
     "sci": "Toxostoma rufum",
@@ -2002,13 +1903,13 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 30,
-    "seen": "2026-09-26 11:49",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
+    "count": 1,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "camwar",
@@ -2033,6 +1934,18 @@
     "lon": -78.36,
     "notable": false,
     "near": "Lee district"
+   },
+   {
+    "code": "carwre",
+    "name": "Carolina Wren",
+    "sci": "Thryothorus ludovicianus",
+    "count": 1,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
+    "notable": false,
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "cedwax",
@@ -2123,24 +2036,12 @@
     "name": "Downy Woodpecker",
     "sci": "Dryobates pubescens",
     "count": 1,
-    "seen": "2026-09-26 12:13",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "Lee district"
-   },
-   {
-    "code": "easblu",
-    "name": "Eastern Bluebird",
-    "sci": "Sialia sialis",
-    "count": 3,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "easmea",
@@ -2158,37 +2059,13 @@
     "code": "easpho",
     "name": "Eastern Phoebe",
     "sci": "Sayornis phoebe",
-    "count": 3,
-    "seen": "2026-09-26 07:25",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
-    "code": "eastow",
-    "name": "Eastern Towhee",
-    "sci": "Pipilo erythrophthalmus",
-    "count": 1,
-    "seen": "2026-09-26 07:25",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
-    "code": "eawpew",
-    "name": "Eastern Wood-Pewee",
-    "sci": "Contopus virens",
     "count": 2,
-    "seen": "2026-09-26 07:25",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
+    "seen": "2026-09-26 09:27",
+    "place": "Fosters Boat Ramp",
+    "lat": 38.77,
+    "lon": -78.423,
     "notable": false,
-    "near": "North River district"
+    "near": "Lee district"
    },
    {
     "code": "eursta",
@@ -2230,35 +2107,23 @@
     "code": "grycat",
     "name": "Gray Catbird",
     "sci": "Dumetella carolinensis",
-    "count": 4,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
-    "code": "gycthr",
-    "name": "Gray-cheeked Thrush",
-    "sci": "Catharus minimus",
     "count": 1,
-    "seen": "2026-09-20 09:33",
-    "place": "George Washington NF--Ramseys Draft",
-    "lat": 38.318,
-    "lon": -79.351,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "grbher3",
     "name": "Great Blue Heron",
     "sci": "Ardea herodias",
     "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "seen": "2026-09-26 09:27",
+    "place": "Fosters Boat Ramp",
+    "lat": 38.77,
+    "lon": -78.423,
     "notable": false,
     "near": "Lee district"
    },
@@ -2267,12 +2132,12 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "Lee district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "hoowar",
@@ -2383,18 +2248,6 @@
     "near": "North River district"
    },
    {
-    "code": "moudov",
-    "name": "Mourning Dove",
-    "sci": "Zenaida macroura",
-    "count": 2,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
     "code": "mutswa",
     "name": "Mute Swan",
     "sci": "Cygnus olor",
@@ -2422,13 +2275,13 @@
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 1,
-    "seen": "2026-09-26 12:13",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "count": 2,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "Lee district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "houwre",
@@ -2439,18 +2292,6 @@
     "place": "Seven Bends State Park",
     "lat": 38.866,
     "lon": -78.486,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
-    "code": "normoc",
-    "name": "Northern Mockingbird",
-    "sci": "Mimus polyglottos",
-    "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
     "notable": false,
     "near": "Lee district"
    },
@@ -2539,18 +2380,6 @@
     "near": "North River district"
    },
    {
-    "code": "pilwoo",
-    "name": "Pileated Woodpecker",
-    "sci": "Dryocopus pileatus",
-    "count": 2,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
     "code": "pinwar",
     "name": "Pine Warbler",
     "sci": "Setophaga pinus",
@@ -2583,30 +2412,6 @@
     "place": "Strasburg River Walk",
     "lat": 38.98,
     "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
-    "code": "reshaw",
-    "name": "Red-shouldered Hawk",
-    "sci": "Buteo lineatus",
-    "count": 1,
-    "seen": "2026-09-25 09:14",
-    "place": "Crist Farm Walking Trails",
-    "lat": 38.386,
-    "lon": -78.964,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
-    "code": "rethaw",
-    "name": "Red-tailed Hawk",
-    "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-09-25 17:42",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
     "notable": false,
     "near": "Lee district"
    },
@@ -2659,18 +2464,6 @@
     "near": "North River district"
    },
    {
-    "code": "rthhum",
-    "name": "Ruby-throated Hummingbird",
-    "sci": "Archilochus colubris",
-    "count": 1,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
     "code": "savspa",
     "name": "Savannah Sparrow",
     "sci": "Passerculus sandwichensis",
@@ -2693,18 +2486,6 @@
     "lon": -78.36,
     "notable": false,
     "near": "Lee district"
-   },
-   {
-    "code": "shshaw",
-    "name": "Sharp-shinned Hawk",
-    "sci": "Accipiter striatus",
-    "count": 1,
-    "seen": "2026-09-20 09:33",
-    "place": "George Washington NF--Ramseys Draft",
-    "lat": 38.318,
-    "lon": -79.351,
-    "notable": false,
-    "near": "North River district"
    },
    {
     "code": "solsan",
@@ -2783,24 +2564,24 @@
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
     "count": 1,
-    "seen": "2026-09-26 07:25",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
     "count": 2,
-    "seen": "2026-09-26 12:13",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "Lee district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "veery",
@@ -2813,18 +2594,6 @@
     "lon": -79.351,
     "notable": false,
     "near": "North River district"
-   },
-   {
-    "code": "whbnut",
-    "name": "White-breasted Nuthatch",
-    "sci": "Sitta carolinensis",
-    "count": 2,
-    "seen": "2026-09-26 07:13",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
-    "notable": false,
-    "near": "Lee district"
    },
    {
     "code": "wilsni1",
@@ -2855,12 +2624,12 @@
     "name": "Yellow-billed Cuckoo",
     "sci": "Coccyzus americanus",
     "count": 2,
-    "seen": "2026-09-26 07:00",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
+    "seen": "2026-09-26 14:27",
+    "place": "Furrs Mill Road Boat Ramp",
+    "lat": 37.813,
+    "lon": -79.448,
     "notable": false,
-    "near": "North River district"
+    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "yerwar",
@@ -2903,7 +2672,7 @@
     "precipRate": 0.0,
     "humidity": 0.0,
     "windKph": 2.5,
-    "updated": "2026-09-26T19:39:53-04:00"
+    "updated": "2026-09-27T01:23:04-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -2911,13 +2680,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 14.2,
-    "surfaceC": 17.4,
+    "airC": 13.8,
+    "surfaceC": 15.5,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 93.0,
-    "windKph": 0.0,
-    "updated": "2026-09-26T19:37:52-04:00"
+    "humidity": 80.0,
+    "windKph": 1.7,
+    "updated": "2026-09-27T01:21:04-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -2925,13 +2694,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 21.0,
-    "surfaceC": 22.5,
+    "airC": 14.8,
+    "surfaceC": 16.5,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 42.0,
+    "humidity": 90.0,
     "windKph": 0.0,
-    "updated": "2026-09-26T19:37:52-04:00"
+    "updated": "2026-09-27T01:21:04-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -2953,13 +2722,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 13.0,
-    "surfaceC": 14.8,
-    "visibilityM": 1431.0,
+    "airC": 13.4,
+    "surfaceC": 14.9,
+    "visibilityM": 692.0,
     "precipRate": 0.0,
-    "humidity": 0.0,
+    "humidity": 88.0,
     "windKph": 0.0,
-    "updated": "2026-09-26T19:39:53-04:00"
+    "updated": "2026-09-27T01:23:05-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -2967,13 +2736,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 17.7,
-    "surfaceC": 22.0,
+    "airC": 12.9,
+    "surfaceC": 15.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 56.0,
-    "windKph": 0.6,
-    "updated": "2026-09-26T19:39:04-04:00"
+    "humidity": 97.0,
+    "windKph": 0.7,
+    "updated": "2026-09-27T01:24:28-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -2981,13 +2750,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 15.5,
-    "surfaceC": 18.9,
-    "visibilityM": 1805.0,
+    "airC": 15.3,
+    "surfaceC": 17.5,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 83.0,
-    "windKph": 0.2,
-    "updated": "2026-09-26T19:39:04-04:00"
+    "humidity": 58.0,
+    "windKph": 2.8,
+    "updated": "2026-09-27T01:24:28-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -2995,13 +2764,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 12.1,
-    "surfaceC": 16.7,
+    "airC": 12.4,
+    "surfaceC": 14.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 83.0,
-    "windKph": 1.9,
-    "updated": "2026-09-26T19:39:04-04:00"
+    "humidity": 73.0,
+    "windKph": 5.8,
+    "updated": "2026-09-27T01:24:28-04:00"
    }
   ]
  },
@@ -3015,6 +2784,141 @@
    "status": "ok",
    "feed": "eventFiltered",
    "items": [
+    {
+     "title": "Planned Event WZNW4663023-08142026-4 updated",
+     "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from Limeton Church Rd; Rt. 674N/S (Warren County) to Poor House Rd; Rt. 605E/W (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 PM until 09/30/26 at 5:00 AM due to maintenance activities. All north lanes are mobile, alternating closures. All south lanes are mobile, alternating closures.",
+     "lat": 38.85024,
+     "lon": -78.28668,
+     "line": [
+      [
+       38.85024,
+       -78.286679
+      ],
+      [
+       38.855101,
+       -78.275947
+      ],
+      [
+       38.856052,
+       -78.273872
+      ],
+      [
+       38.859185,
+       -78.266932
+      ],
+      [
+       38.859842,
+       -78.265533
+      ],
+      [
+       38.861389,
+       -78.262304
+      ],
+      [
+       38.861673,
+       -78.26173
+      ],
+      [
+       38.862016,
+       -78.261004
+      ],
+      [
+       38.863951,
+       -78.257008
+      ],
+      [
+       38.864374,
+       -78.25611
+      ],
+      [
+       38.864585,
+       -78.255677
+      ],
+      [
+       38.864886,
+       -78.255027
+      ],
+      [
+       38.86509,
+       -78.254656
+      ],
+      [
+       38.865271,
+       -78.254358
+      ],
+      [
+       38.865503,
+       -78.254015
+      ],
+      [
+       38.866212,
+       -78.253058
+      ],
+      [
+       38.866572,
+       -78.252624
+      ],
+      [
+       38.866766,
+       -78.252415
+      ],
+      [
+       38.866963,
+       -78.252219
+      ],
+      [
+       38.867852,
+       -78.251421
+      ],
+      [
+       38.86836,
+       -78.250952
+      ],
+      [
+       38.868987,
+       -78.250405
+      ],
+      [
+       38.870983,
+       -78.248597
+      ],
+      [
+       38.871832,
+       -78.247856
+      ],
+      [
+       38.872191,
+       -78.247601
+      ],
+      [
+       38.872451,
+       -78.247443
+      ],
+      [
+       38.872708,
+       -78.247312
+      ],
+      [
+       38.873035,
+       -78.247167
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 2.3,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4663023-08142026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4663023-08142026-4.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T20:00:00",
+     "end": "2026-09-30T05:00:00",
+     "allLanesClosed": false
+    },
     {
      "title": "Planned Event WZSW4669484-08302026-3 updated",
      "description": "On VA-151 South (Critzer Shop Rd) in the County of Nelson from Afton Mountain Rd; Avon Rd; VA-6E/W; Rt. 638N/S (Nelson County) to Tanbark Dr; Rt. 840N/S (Nelson County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities.",
@@ -3382,269 +3286,6 @@
      ],
      "start": "2026-09-28T19:00:00",
      "end": "2026-09-29T05:00:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZNW4658062-08032026-4 updated",
-     "description": "On VA-55 (N Massanutten St) in the County of Shenandoah from E King St; S Massanutten St; US-11N/S to County/City/Town Line: WARREN CL/SHEN CL, motorists can expect potential delays in this area from 09/26/26 at 8:00 PM until 09/27/26 at 5:00 AM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
-     "lat": 38.98876,
-     "lon": -78.35876,
-     "line": [
-      [
-       38.988764,
-       -78.358757
-      ],
-      [
-       38.988487,
-       -78.358878
-      ],
-      [
-       38.988227,
-       -78.357926
-      ],
-      [
-       38.98746,
-       -78.355242
-      ],
-      [
-       38.986999,
-       -78.353533
-      ],
-      [
-       38.985804,
-       -78.349168
-      ],
-      [
-       38.985735,
-       -78.348981
-      ],
-      [
-       38.985647,
-       -78.348809
-      ],
-      [
-       38.98554,
-       -78.348658
-      ],
-      [
-       38.985396,
-       -78.348508
-      ],
-      [
-       38.985276,
-       -78.348417
-      ],
-      [
-       38.985196,
-       -78.348368
-      ],
-      [
-       38.984971,
-       -78.348271
-      ],
-      [
-       38.984857,
-       -78.348248
-      ],
-      [
-       38.984729,
-       -78.348237
-      ],
-      [
-       38.984519,
-       -78.348251
-      ],
-      [
-       38.984313,
-       -78.348309
-      ],
-      [
-       38.98305,
-       -78.348879
-      ],
-      [
-       38.982644,
-       -78.349014
-      ],
-      [
-       38.982237,
-       -78.349102
-      ],
-      [
-       38.981937,
-       -78.349131
-      ],
-      [
-       38.981688,
-       -78.349132
-      ],
-      [
-       38.981403,
-       -78.34911
-      ],
-      [
-       38.981203,
-       -78.349077
-      ],
-      [
-       38.977269,
-       -78.34825
-      ],
-      [
-       38.976813,
-       -78.348142
-      ],
-      [
-       38.976441,
-       -78.348028
-      ],
-      [
-       38.976119,
-       -78.347901
-      ],
-      [
-       38.975516,
-       -78.34763
-      ],
-      [
-       38.974941,
-       -78.347338
-      ],
-      [
-       38.974751,
-       -78.347225
-      ],
-      [
-       38.974519,
-       -78.347068
-      ],
-      [
-       38.974233,
-       -78.346838
-      ],
-      [
-       38.973983,
-       -78.346596
-      ],
-      [
-       38.973726,
-       -78.346302
-      ],
-      [
-       38.973369,
-       -78.345806
-      ],
-      [
-       38.972967,
-       -78.345162
-      ],
-      [
-       38.97283,
-       -78.344916
-      ],
-      [
-       38.972717,
-       -78.34468
-      ],
-      [
-       38.972629,
-       -78.344468
-      ],
-      [
-       38.972555,
-       -78.344247
-      ],
-      [
-       38.972505,
-       -78.344066
-      ],
-      [
-       38.97245,
-       -78.343789
-      ],
-      [
-       38.972409,
-       -78.343508
-      ],
-      [
-       38.972388,
-       -78.343289
-      ],
-      [
-       38.972381,
-       -78.342998
-      ],
-      [
-       38.97239,
-       -78.342768
-      ],
-      [
-       38.972408,
-       -78.342562
-      ],
-      [
-       38.972445,
-       -78.342314
-      ],
-      [
-       38.972486,
-       -78.342108
-      ],
-      [
-       38.972563,
-       -78.341805
-      ],
-      [
-       38.972643,
-       -78.341561
-      ],
-      [
-       38.972738,
-       -78.341332
-      ],
-      [
-       38.972871,
-       -78.341071
-      ],
-      [
-       38.973014,
-       -78.340841
-      ],
-      [
-       38.973213,
-       -78.340571
-      ],
-      [
-       38.973404,
-       -78.34036
-      ],
-      [
-       38.973689,
-       -78.340093
-      ],
-      [
-       38.974888,
-       -78.339021
-      ],
-      [
-       38.975083,
-       -78.338862
-      ]
-     ],
-     "published": null,
-     "side": "forest",
-     "milesFromTrailhead": 2.9,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4658062-08032026-4.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4658062-08032026-4.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-09-26T20:00:00",
-     "end": "2026-09-27T05:00:00",
      "allLanesClosed": false
     },
     {
@@ -4998,141 +4639,6 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4663023-08142026-1 updated",
-     "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from Limeton Church Rd; Rt. 674N/S (Warren County) to Poor House Rd; Rt. 605E/W (Warren County), motorists can expect potential delays in this area from 09/26/26 at 8:00 PM until 09/27/26 at 5:00 AM due to maintenance activities. All north lanes are mobile, alternating closures. All south lanes are mobile, alternating closures.",
-     "lat": 38.85024,
-     "lon": -78.28668,
-     "line": [
-      [
-       38.85024,
-       -78.286679
-      ],
-      [
-       38.855101,
-       -78.275947
-      ],
-      [
-       38.856052,
-       -78.273872
-      ],
-      [
-       38.859185,
-       -78.266932
-      ],
-      [
-       38.859842,
-       -78.265533
-      ],
-      [
-       38.861389,
-       -78.262304
-      ],
-      [
-       38.861673,
-       -78.26173
-      ],
-      [
-       38.862016,
-       -78.261004
-      ],
-      [
-       38.863951,
-       -78.257008
-      ],
-      [
-       38.864374,
-       -78.25611
-      ],
-      [
-       38.864585,
-       -78.255677
-      ],
-      [
-       38.864886,
-       -78.255027
-      ],
-      [
-       38.86509,
-       -78.254656
-      ],
-      [
-       38.865271,
-       -78.254358
-      ],
-      [
-       38.865503,
-       -78.254015
-      ],
-      [
-       38.866212,
-       -78.253058
-      ],
-      [
-       38.866572,
-       -78.252624
-      ],
-      [
-       38.866766,
-       -78.252415
-      ],
-      [
-       38.866963,
-       -78.252219
-      ],
-      [
-       38.867852,
-       -78.251421
-      ],
-      [
-       38.86836,
-       -78.250952
-      ],
-      [
-       38.868987,
-       -78.250405
-      ],
-      [
-       38.870983,
-       -78.248597
-      ],
-      [
-       38.871832,
-       -78.247856
-      ],
-      [
-       38.872191,
-       -78.247601
-      ],
-      [
-       38.872451,
-       -78.247443
-      ],
-      [
-       38.872708,
-       -78.247312
-      ],
-      [
-       38.873035,
-       -78.247167
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 2.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4663023-08142026-1.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4663023-08142026-1.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-09-26T20:00:00",
-     "end": "2026-09-27T05:00:00",
-     "allLanesClosed": false
-    },
-    {
      "title": "Planned Event WZNW4675288-09152026-2 updated",
      "description": "On US-340 (Stonewall Jackson Hwy) in the County of Warren from County/City/Town Line: PAGE CL/WARREN CL to Bentonville Rd; Rt. 613N/S (Warren County), motorists can expect potential delays in this area from 09/29/26 at 8:00 AM until 09/29/26 at 4:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.80761,
@@ -5556,6 +5062,269 @@
      ],
      "start": "2026-09-29T07:00:00",
      "end": "2026-09-29T18:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4658062-08032026-2 updated",
+     "description": "On VA-55 (N Massanutten St) in the County of Shenandoah from E King St; S Massanutten St; US-11N/S to County/City/Town Line: WARREN CL/SHEN CL, motorists can expect potential delays in this area from 09/29/26 at 8:00 PM until 09/30/26 at 5:00 AM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
+     "lat": 38.98876,
+     "lon": -78.35876,
+     "line": [
+      [
+       38.988764,
+       -78.358757
+      ],
+      [
+       38.988487,
+       -78.358878
+      ],
+      [
+       38.988227,
+       -78.357926
+      ],
+      [
+       38.98746,
+       -78.355242
+      ],
+      [
+       38.986999,
+       -78.353533
+      ],
+      [
+       38.985804,
+       -78.349168
+      ],
+      [
+       38.985735,
+       -78.348981
+      ],
+      [
+       38.985647,
+       -78.348809
+      ],
+      [
+       38.98554,
+       -78.348658
+      ],
+      [
+       38.985396,
+       -78.348508
+      ],
+      [
+       38.985276,
+       -78.348417
+      ],
+      [
+       38.985196,
+       -78.348368
+      ],
+      [
+       38.984971,
+       -78.348271
+      ],
+      [
+       38.984857,
+       -78.348248
+      ],
+      [
+       38.984729,
+       -78.348237
+      ],
+      [
+       38.984519,
+       -78.348251
+      ],
+      [
+       38.984313,
+       -78.348309
+      ],
+      [
+       38.98305,
+       -78.348879
+      ],
+      [
+       38.982644,
+       -78.349014
+      ],
+      [
+       38.982237,
+       -78.349102
+      ],
+      [
+       38.981937,
+       -78.349131
+      ],
+      [
+       38.981688,
+       -78.349132
+      ],
+      [
+       38.981403,
+       -78.34911
+      ],
+      [
+       38.981203,
+       -78.349077
+      ],
+      [
+       38.977269,
+       -78.34825
+      ],
+      [
+       38.976813,
+       -78.348142
+      ],
+      [
+       38.976441,
+       -78.348028
+      ],
+      [
+       38.976119,
+       -78.347901
+      ],
+      [
+       38.975516,
+       -78.34763
+      ],
+      [
+       38.974941,
+       -78.347338
+      ],
+      [
+       38.974751,
+       -78.347225
+      ],
+      [
+       38.974519,
+       -78.347068
+      ],
+      [
+       38.974233,
+       -78.346838
+      ],
+      [
+       38.973983,
+       -78.346596
+      ],
+      [
+       38.973726,
+       -78.346302
+      ],
+      [
+       38.973369,
+       -78.345806
+      ],
+      [
+       38.972967,
+       -78.345162
+      ],
+      [
+       38.97283,
+       -78.344916
+      ],
+      [
+       38.972717,
+       -78.34468
+      ],
+      [
+       38.972629,
+       -78.344468
+      ],
+      [
+       38.972555,
+       -78.344247
+      ],
+      [
+       38.972505,
+       -78.344066
+      ],
+      [
+       38.97245,
+       -78.343789
+      ],
+      [
+       38.972409,
+       -78.343508
+      ],
+      [
+       38.972388,
+       -78.343289
+      ],
+      [
+       38.972381,
+       -78.342998
+      ],
+      [
+       38.97239,
+       -78.342768
+      ],
+      [
+       38.972408,
+       -78.342562
+      ],
+      [
+       38.972445,
+       -78.342314
+      ],
+      [
+       38.972486,
+       -78.342108
+      ],
+      [
+       38.972563,
+       -78.341805
+      ],
+      [
+       38.972643,
+       -78.341561
+      ],
+      [
+       38.972738,
+       -78.341332
+      ],
+      [
+       38.972871,
+       -78.341071
+      ],
+      [
+       38.973014,
+       -78.340841
+      ],
+      [
+       38.973213,
+       -78.340571
+      ],
+      [
+       38.973404,
+       -78.34036
+      ],
+      [
+       38.973689,
+       -78.340093
+      ],
+      [
+       38.974888,
+       -78.339021
+      ],
+      [
+       38.975083,
+       -78.338862
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4658062-08032026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4658062-08032026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-09-29T20:00:00",
+     "end": "2026-09-30T05:00:00",
      "allLanesClosed": false
     },
     {
