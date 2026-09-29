@@ -1,14 +1,23 @@
 {
- "fetchedAt": "2026-09-29T01:04:13Z",
+ "fetchedAt": "2026-09-29T09:57:41Z",
  "fires": {
   "status": "ok",
   "sources": {
    "VIIRS_SNPP_NRT": "ok (0 rows)",
-   "VIIRS_NOAA20_NRT": "ok (0 rows)",
+   "VIIRS_NOAA20_NRT": "ok (2 rows)",
    "VIIRS_NOAA21_NRT": "ok (0 rows)",
    "MODIS_NRT": "ok (0 rows)"
   },
   "detections": [
+   {
+    "lat": 38.9255,
+    "lon": -77.9617,
+    "detected": "2026-09-29T08:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.09,
+    "day": false
+   },
    {
     "lat": 38.7773,
     "lon": -79.3925,
@@ -29,10 +38,10 @@
     "lat": 38.5231,
     "lon": -78.4347,
     "pollutant": "O3",
-    "aqi": 24,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-28 19:00 EST",
+    "observed": "2026-09-29 4:00 EST",
     "near": "park-north",
     "side": "park"
    },
@@ -42,10 +51,10 @@
     "lat": 38.5231,
     "lon": -78.4347,
     "pollutant": "PM2.5",
-    "aqi": 22,
+    "aqi": 12,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-28 19:00 EST",
+    "observed": "2026-09-29 4:00 EST",
     "near": "park-north",
     "side": "park"
    },
@@ -55,10 +64,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 3,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-28 19:00 EST",
+    "observed": "2026-09-29 4:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -68,10 +77,10 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM2.5",
-    "aqi": 15,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-28 19:00 EST",
+    "observed": "2026-09-29 4:00 EST",
     "near": "park-south",
     "side": "park"
    },
@@ -81,12 +90,25 @@
     "lat": 38.45,
     "lon": -78.87,
     "pollutant": "PM10",
-    "aqi": 6,
+    "aqi": 10,
     "category": "Good",
     "level": 1,
-    "observed": "2026-09-28 19:00 EST",
+    "observed": "2026-09-29 4:00 EST",
     "near": "park-south",
     "side": "park"
+   },
+   {
+    "area": "Natural Bridge",
+    "state": "VA",
+    "lat": 37.63,
+    "lon": -79.54,
+    "pollutant": "O3",
+    "aqi": 18,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-09-29 4:00 EST",
+    "near": "glenwood-pedlar",
+    "side": "forest"
    }
   ],
   "forecasts": []
@@ -171,7 +193,7 @@
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
     "count": 1,
-    "seen": "2026-09-27 13:15",
+    "seen": "2026-09-28 16:00",
     "place": "Big Gem Park",
     "lat": 38.482,
     "lon": -78.617,
@@ -207,12 +229,12 @@
     "name": "Mississippi Kite",
     "sci": "Ictinia mississippiensis",
     "count": 1,
-    "seen": "2026-09-24 14:10",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
+    "seen": "2026-09-28 16:00",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": true,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "mouwar",
@@ -1119,12 +1141,12 @@
     "name": "Northern House Wren",
     "sci": "Troglodytes aedon",
     "count": 1,
-    "seen": "2026-09-25 17:42",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "seen": "2026-09-28 16:00",
+    "place": "Big Gem Park",
+    "lat": 38.482,
+    "lon": -78.617,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "normoc",
@@ -1575,7 +1597,7 @@
     "name": "Winter Wren",
     "sci": "Troglodytes hiemalis",
     "count": 1,
-    "seen": "2026-09-28 16:00",
+    "seen": "2026-09-27 13:15",
     "place": "Big Gem Park",
     "lat": 38.482,
     "lon": -78.617,
@@ -1729,18 +1751,6 @@
     "near": "Lee district"
    },
    {
-    "code": "amecro",
-    "name": "American Crow",
-    "sci": "Corvus brachyrhynchos",
-    "count": 5,
-    "seen": "2026-09-28 14:05",
-    "place": "Low Bridge Lane",
-    "lat": 37.848,
-    "lon": -79.449,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
     "code": "amegfi",
     "name": "American Goldfinch",
     "sci": "Spinus tristis",
@@ -1763,6 +1773,18 @@
     "lon": -79.449,
     "notable": false,
     "near": "Glenwood-Pedlar district"
+   },
+   {
+    "code": "amered",
+    "name": "American Redstart",
+    "sci": "Setophaga ruticilla",
+    "count": 2,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
+    "notable": false,
+    "near": "North River district"
    },
    {
     "code": "amerob",
@@ -1804,13 +1826,13 @@
     "code": "belkin1",
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
-    "count": 3,
-    "seen": "2026-09-28 12:53",
-    "place": "Mill Creek Lake Park",
-    "lat": 37.661,
-    "lon": -79.082,
+    "count": 1,
+    "seen": "2026-09-25 17:42",
+    "place": "Seven Bends State Park",
+    "lat": 38.866,
+    "lon": -78.486,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "Lee district"
    },
    {
     "code": "blkvul",
@@ -1864,13 +1886,13 @@
     "code": "btnwar",
     "name": "Black-throated Green Warbler",
     "sci": "Setophaga virens",
-    "count": 2,
-    "seen": "2026-09-28 07:03",
-    "place": "Cold Mountain",
-    "lat": 37.753,
-    "lon": -79.2,
+    "count": 1,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "bkbwar",
@@ -1913,12 +1935,12 @@
     "name": "Blue-headed Vireo",
     "sci": "Vireo solitarius",
     "count": 1,
-    "seen": "2026-09-24 17:25",
-    "place": "Cedar Creek & Belle Grove National Historical Park",
-    "lat": 39.022,
-    "lon": -78.304,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Lee district"
+    "near": "North River district"
    },
    {
     "code": "brnthr",
@@ -1948,37 +1970,25 @@
     "code": "camwar",
     "name": "Cape May Warbler",
     "sci": "Setophaga tigrina",
-    "count": 4,
-    "seen": "2026-09-28 07:03",
-    "place": "Cold Mountain",
-    "lat": 37.753,
-    "lon": -79.2,
+    "count": 3,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "carchi",
     "name": "Carolina Chickadee",
     "sci": "Poecile carolinensis",
-    "count": 1,
-    "seen": "2026-09-28 14:05",
-    "place": "Low Bridge Lane",
-    "lat": 37.848,
-    "lon": -79.449,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
-    "code": "carwre",
-    "name": "Carolina Wren",
-    "sci": "Thryothorus ludovicianus",
-    "count": 1,
-    "seen": "2026-09-28 14:05",
-    "place": "Low Bridge Lane",
-    "lat": 37.848,
-    "lon": -79.449,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "cedwax",
@@ -2077,18 +2087,6 @@
     "near": "Glenwood-Pedlar district"
    },
    {
-    "code": "dowwoo",
-    "name": "Downy Woodpecker",
-    "sci": "Dryobates pubescens",
-    "count": 3,
-    "seen": "2026-09-28 07:03",
-    "place": "Cold Mountain",
-    "lat": 37.753,
-    "lon": -79.2,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
@@ -2104,18 +2102,6 @@
     "code": "easmea",
     "name": "Eastern Meadowlark",
     "sci": "Sturnella magna",
-    "count": 1,
-    "seen": "2026-09-28 14:05",
-    "place": "Low Bridge Lane",
-    "lat": 37.848,
-    "lon": -79.449,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
-    "code": "easpho",
-    "name": "Eastern Phoebe",
-    "sci": "Sayornis phoebe",
     "count": 1,
     "seen": "2026-09-28 14:05",
     "place": "Low Bridge Lane",
@@ -2236,11 +2222,11 @@
     "code": "haiwoo",
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
-    "count": 1,
-    "seen": "2026-09-28 10:22",
-    "place": "Crist Farm Walking Trails",
-    "lat": 38.386,
-    "lon": -78.964,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
     "near": "North River district"
    },
@@ -2267,18 +2253,6 @@
     "lon": -79.001,
     "notable": false,
     "near": "North River district"
-   },
-   {
-    "code": "houfin",
-    "name": "House Finch",
-    "sci": "Haemorhous mexicanus",
-    "count": 8,
-    "seen": "2026-09-27 11:36",
-    "place": "McCormick's Mills",
-    "lat": 37.931,
-    "lon": -79.213,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
    },
    {
     "code": "indbun",
@@ -2333,7 +2307,7 @@
     "name": "Magnolia Warbler",
     "sci": "Setophaga magnolia",
     "count": 1,
-    "seen": "2026-09-28 11:29",
+    "seen": "2026-09-28 16:50",
     "place": "Hillandale Park",
     "lat": 38.442,
     "lon": -78.896,
@@ -2353,18 +2327,6 @@
     "near": "North River district"
    },
    {
-    "code": "moudov",
-    "name": "Mourning Dove",
-    "sci": "Zenaida macroura",
-    "count": 3,
-    "seen": "2026-09-27 11:36",
-    "place": "McCormick's Mills",
-    "lat": 37.931,
-    "lon": -79.213,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
     "code": "mutswa",
     "name": "Mute Swan",
     "sci": "Cygnus olor",
@@ -2377,26 +2339,14 @@
     "near": "North River district"
    },
    {
-    "code": "norcar",
-    "name": "Northern Cardinal",
-    "sci": "Cardinalis cardinalis",
-    "count": 2,
-    "seen": "2026-09-28 14:05",
-    "place": "Low Bridge Lane",
-    "lat": 37.848,
-    "lon": -79.449,
-    "notable": false,
-    "near": "Glenwood-Pedlar district"
-   },
-   {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 1,
-    "seen": "2026-09-28 14:46",
-    "place": "VMRC - The Farm at Willow Run",
-    "lat": 38.482,
-    "lon": -78.878,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
     "near": "North River district"
    },
@@ -2428,13 +2378,13 @@
     "code": "norpar",
     "name": "Northern Parula",
     "sci": "Setophaga americana",
-    "count": 5,
-    "seen": "2026-09-28 12:53",
-    "place": "Mill Creek Lake Park",
-    "lat": 37.661,
-    "lon": -79.082,
+    "count": 1,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "nrwswa",
@@ -2512,11 +2462,11 @@
     "code": "pilwoo",
     "name": "Pileated Woodpecker",
     "sci": "Dryocopus pileatus",
-    "count": 1,
-    "seen": "2026-09-28 08:27",
-    "place": "Baldrock Bluffs",
-    "lat": 38.231,
-    "lon": -79.006,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
     "near": "North River district"
    },
@@ -2548,13 +2498,13 @@
     "code": "rebwoo",
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
-    "count": 2,
-    "seen": "2026-09-28 12:53",
-    "place": "Mill Creek Lake Park",
-    "lat": 37.661,
-    "lon": -79.082,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "rebnut",
@@ -2620,13 +2570,13 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-09-28 07:03",
-    "place": "Cold Mountain",
-    "lat": 37.753,
-    "lon": -79.2,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "savspa",
@@ -2740,23 +2690,35 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 3,
-    "seen": "2026-09-28 12:53",
-    "place": "Mill Creek Lake Park",
-    "lat": 37.661,
-    "lon": -79.082,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
-    "count": 16,
-    "seen": "2026-09-28 14:46",
-    "place": "VMRC - The Farm at Willow Run",
-    "lat": 38.482,
-    "lon": -78.878,
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
+    "notable": false,
+    "near": "North River district"
+   },
+   {
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": null,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
     "near": "North River district"
    },
@@ -2801,12 +2763,12 @@
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
     "count": 1,
-    "seen": "2026-09-27 11:36",
-    "place": "McCormick's Mills",
-    "lat": 37.931,
-    "lon": -79.213,
+    "seen": "2026-09-28 16:50",
+    "place": "Hillandale Park",
+    "lat": 38.442,
+    "lon": -78.896,
     "notable": false,
-    "near": "Glenwood-Pedlar district"
+    "near": "North River district"
    },
    {
     "code": "yetvir",
@@ -2836,8 +2798,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 3.4,
-    "updated": "2026-09-28T21:05:00-04:00"
+    "windKph": 0.0,
+    "updated": "2026-09-29T05:52:00-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -2845,13 +2807,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 16.4,
-    "surfaceC": 18.8,
+    "airC": 15.0,
+    "surfaceC": 16.6,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 88.0,
+    "humidity": 95.0,
     "windKph": 0.0,
-    "updated": "2026-09-28T21:04:59-04:00"
+    "updated": "2026-09-29T05:51:59-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -2859,13 +2821,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 20.6,
-    "surfaceC": 22.2,
+    "airC": 16.1,
+    "surfaceC": 18.2,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 64.0,
+    "humidity": 93.0,
     "windKph": 0.0,
-    "updated": "2026-09-28T21:04:58-04:00"
+    "updated": "2026-09-29T05:51:59-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -2887,13 +2849,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 16.8,
-    "surfaceC": 18.7,
-    "visibilityM": 780.0,
+    "airC": 14.5,
+    "surfaceC": 15.9,
+    "visibilityM": 1088.0,
     "precipRate": 0.0,
-    "humidity": 87.0,
+    "humidity": 0.0,
     "windKph": 0.0,
-    "updated": "2026-09-28T21:05:01-04:00"
+    "updated": "2026-09-29T05:52:00-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -2901,13 +2863,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 19.4,
-    "surfaceC": 22.1,
-    "visibilityM": null,
+    "airC": 16.8,
+    "surfaceC": 19.1,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 73.0,
-    "windKph": 0.6,
-    "updated": "2026-09-28T21:06:09-04:00"
+    "humidity": 85.0,
+    "windKph": 0.8,
+    "updated": "2026-09-29T05:55:58-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -2915,13 +2877,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 16.9,
-    "surfaceC": 21.1,
-    "visibilityM": 1995.0,
+    "airC": 14.9,
+    "surfaceC": 17.9,
+    "visibilityM": 1952.0,
     "precipRate": 0.0,
-    "humidity": 80.0,
-    "windKph": 0.1,
-    "updated": "2026-09-28T21:06:09-04:00"
+    "humidity": 93.0,
+    "windKph": 0.4,
+    "updated": "2026-09-29T05:55:58-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -2929,13 +2891,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 14.7,
-    "surfaceC": 17.7,
+    "airC": 13.5,
+    "surfaceC": 15.2,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 85.0,
-    "windKph": 2.7,
-    "updated": "2026-09-28T21:06:09-04:00"
+    "humidity": 100.0,
+    "windKph": 2.1,
+    "updated": "2026-09-29T05:55:58-04:00"
    }
   ]
  },
@@ -4370,141 +4332,6 @@
      ],
      "start": "2026-09-29T08:00:00",
      "end": "2026-09-30T16:00:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZNW4678271-09222026-2 updated",
-     "description": "On I-64 in the County of Albemarle from mile marker 103 to mile marker 107, motorists can expect potential delays in this area from 09/28/26 at 7:00 PM until 09/29/26 at 5:00 AM due to maintenance activities. The east left shoulder and left lane are closed.",
-     "lat": 38.0429,
-     "lon": -78.80565,
-     "line": [
-      [
-       38.042903,
-       -78.805648
-      ],
-      [
-       38.042929,
-       -78.803811
-      ],
-      [
-       38.043061,
-       -78.801917
-      ],
-      [
-       38.043223,
-       -78.80056
-      ],
-      [
-       38.043518,
-       -78.798773
-      ],
-      [
-       38.044158,
-       -78.796102
-      ],
-      [
-       38.044462,
-       -78.795105
-      ],
-      [
-       38.045944,
-       -78.79093
-      ],
-      [
-       38.046391,
-       -78.789255
-      ],
-      [
-       38.04673,
-       -78.786746
-      ],
-      [
-       38.047176,
-       -78.78255
-      ],
-      [
-       38.047327,
-       -78.780546
-      ],
-      [
-       38.047409,
-       -78.777845
-      ],
-      [
-       38.047363,
-       -78.775628
-      ],
-      [
-       38.047152,
-       -78.772709
-      ],
-      [
-       38.046943,
-       -78.771094
-      ],
-      [
-       38.046566,
-       -78.768647
-      ],
-      [
-       38.044207,
-       -78.757592
-      ],
-      [
-       38.044077,
-       -78.756757
-      ],
-      [
-       38.044018,
-       -78.755857
-      ],
-      [
-       38.04404,
-       -78.754746
-      ],
-      [
-       38.044202,
-       -78.753511
-      ],
-      [
-       38.046612,
-       -78.741576
-      ],
-      [
-       38.046879,
-       -78.739873
-      ],
-      [
-       38.04703,
-       -78.737973
-      ],
-      [
-       38.047049,
-       -78.736896
-      ],
-      [
-       38.046999,
-       -78.735342
-      ],
-      [
-       38.046911,
-       -78.734283
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 1.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4678271-09222026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4678271-09222026-2.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-09-28T19:00:00",
-     "end": "2026-09-29T05:00:00",
      "allLanesClosed": false
     },
     {
@@ -10154,57 +9981,6 @@
      ],
      "start": "2026-09-30T08:00:00",
      "end": "2026-09-30T16:00:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZNW4680712-09282026-1 updated",
-     "description": "On I-64 in the County of Albemarle from mile marker 103 to mile marker 104, motorists can expect potential delays in this area from 09/28/26 at 8:00 PM until 09/29/26 at 5:00 AM due to maintenance activities. The east left shoulder and left lane are closed.",
-     "lat": 38.0429,
-     "lon": -78.80565,
-     "line": [
-      [
-       38.042903,
-       -78.805648
-      ],
-      [
-       38.043061,
-       -78.801917
-      ],
-      [
-       38.043518,
-       -78.798773
-      ],
-      [
-       38.044462,
-       -78.795105
-      ],
-      [
-       38.045944,
-       -78.79093
-      ],
-      [
-       38.046391,
-       -78.789255
-      ],
-      [
-       38.04658,
-       -78.78801
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 1.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4680712-09282026-1.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4680712-09282026-1.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-09-28T20:00:00",
-     "end": "2026-09-29T05:00:00",
      "allLanesClosed": false
     },
     {
