@@ -144,10 +144,16 @@ region, restore `contours/` from git and pass `--force`.
 
 Regions so far: Shenandoah NP and the GW districts (original box), and
 the Jefferson NF Eastern Divide district (2026-10-05, 2,032 tiles added,
-2 regenerated, about 24 MB).
+2 regenerated, about 24 MB); later the Blue Ridge Parkway corridor, Warm Springs, James River and
+Mount Rogers; and (2026-10-05) the Potomac cluster (C&O Canal, Great Falls,
+Harpers Ferry, Catoctin, Prince William Forest, Sky Meadows, Manassas: 1,562
+tiles added) and the Monongahela highlands (1,826 tiles added), both masked
+to the app's trails + 3.3 km. Big regions need many GB of scratch space: use
+a RAM disk for `--work` if the disk is tight (`--dem` takes an existing
+DEM, and the script now deletes big intermediates as it goes).
 
 File budget: a free Cloudflare Pages site holds 20,000 files and 25 MiB
-per file. mossback-maps had about 9,980 files after Eastern Divide
+per file. mossback-maps had about 9,980 files after Eastern Divide (16,230 after Potomac and Monongahela)
 (contours, dem, glyphs, styles). Count before deploying
 (`find contours dem glyphs -type f | wc -l`). When mossback-maps nears
 about 18,000 files, start a second Pages project for the new region

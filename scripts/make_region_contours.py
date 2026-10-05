@@ -164,6 +164,9 @@ def contour_lines(work, dem):
     if os.path.exists(raw):
         os.remove(raw)
     run("gdal_contour", "-q", "-a", "ele_ft", "-i", 40, "-snodata", -9999, "-f", "GeoJSONSeq", ftp, raw)
+    for f in (ftp, ftp[:-4] + ".hdr", dem, dem[:-4] + ".hdr", dem + ".aux.xml"):
+        if os.path.exists(f):
+            os.remove(f)  # not needed again; the lines are in raw
     return raw
 
 
@@ -258,12 +261,16 @@ def main():
                        or r["dem_bbox"][3] <= box[1] or r["dem_bbox"][1] >= box[3])]
     full_in = os.path.join(work, "tagged_full.geojsons")
     print("lines", tag(raw, full_in, []), flush=True)
-    tippecanoe(full_in, os.path.join(work, "out_full"))
     clip_dir = os.path.join(work, "out_clip")
     shutil.rmtree(clip_dir, ignore_errors=True)
     if protect:
         clip_in = os.path.join(work, "tagged_clip.geojsons")
-        print("lines outside earlier regions", tag(raw, clip_in, protect), flush=True)
+        n_clip = tag(raw, clip_in, protect)
+        print("lines outside earlier regions", n_clip, flush=True)
+    os.remove(raw)
+    tippecanoe(full_in, os.path.join(work, "out_full"))
+    os.remove(full_in)
+    if protect and n_clip:  # none when earlier DEM boxes already cover this one
         tippecanoe(clip_in, clip_dir)
 
     dst_root = os.path.join(a.repo, "contours")
