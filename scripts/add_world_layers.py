@@ -23,6 +23,17 @@ WORLD = {
 # extract, -79.05,37.9,-77.75,39.15, sits inside it).
 W, S, E, N = -80.1, 37.3, -77.75, 39.2
 OURS = "openmaptiles"
+# Terrain shading everywhere: AWS Open Data terrain tiles (Tilezen,
+# terrarium encoding; free, no key; US data is USGS 3DEP).
+WORLD_DEM = {
+    "type": "raster-dem",
+    "tiles": ["https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"],
+    "encoding": "terrarium",
+    "tileSize": 256,
+    "maxzoom": 13,
+    "attribution": "Terrain: Tilezen (USGS 3DEP, SRTM, GMTED)",
+}
+COPIED = {OURS: "world", "dem": "world-dem"}
 
 
 def apply(path):
@@ -30,19 +41,26 @@ def apply(path):
     layers = [l for l in style["layers"]
               if not l["id"].startswith("world-") and l["id"] != "ours-cover"]
     style["sources"] = {k: v for k, v in style["sources"].items()
-                        if k not in ("world", "ours-cover")}
+                        if k not in ("world", "world-dem", "ours-cover")}
     style["sources"]["world"] = WORLD
+    if "dem" in style["sources"]:
+        style["sources"]["world-dem"] = WORLD_DEM
     # Ours never asks for tiles it doesn't have.
     style["sources"][OURS]["bounds"] = [W, S, E, N]
+    # Ours draw above the cover, so they must stop at the box too, or the
+    # padded elevation tiles would shade twice in a band around it.
+    for k in ("dem", "contours"):
+        if k in style["sources"]:
+            style["sources"][k]["bounds"] = [W, S, E, N]
     bg = next((l for l in layers if l["type"] == "background"), None)
     has_raster_base = any(l["type"] == "raster" for l in layers)
     world = []
     for l in layers:
-        if l.get("source") != OURS:
+        if l.get("source") not in COPIED:
             continue
         w = copy.deepcopy(l)
         w["id"] = f"world-{l['id']}"
-        w["source"] = "world"
+        w["source"] = COPIED[l["source"]]
         world.append(w)
     out = []
     head = [l for l in layers if l["type"] in ("background", "raster")]

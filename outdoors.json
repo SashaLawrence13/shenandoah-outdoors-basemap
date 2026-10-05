@@ -25,7 +25,13 @@
       ],
       "minzoom": 10,
       "maxzoom": 14,
-      "attribution": "Contours: USGS 3DEP"
+      "attribution": "Contours: USGS 3DEP",
+      "bounds": [
+        -80.1,
+        37.3,
+        -77.75,
+        39.2
+      ]
     },
     "dem": {
       "type": "raster-dem",
@@ -36,12 +42,28 @@
       "tileSize": 256,
       "minzoom": 8,
       "maxzoom": 12,
-      "attribution": "Elevation: USGS 3DEP"
+      "attribution": "Elevation: USGS 3DEP",
+      "bounds": [
+        -80.1,
+        37.3,
+        -77.75,
+        39.2
+      ]
     },
     "world": {
       "type": "vector",
       "url": "https://tiles.openfreemap.org/planet",
       "attribution": "OpenFreeMap © OpenMapTiles Data from OpenStreetMap"
+    },
+    "world-dem": {
+      "type": "raster-dem",
+      "tiles": [
+        "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"
+      ],
+      "encoding": "terrarium",
+      "tileSize": 256,
+      "maxzoom": 13,
+      "attribution": "Terrain: Tilezen (USGS 3DEP, SRTM, GMTED)"
     },
     "ours-cover": {
       "type": "geojson",
@@ -160,6 +182,34 @@
       ],
       "paint": {
         "fill-color": "#ebe5d8"
+      }
+    },
+    {
+      "id": "world-hillshade",
+      "type": "hillshade",
+      "source": "world-dem",
+      "paint": {
+        "hillshade-exaggeration": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          0.7,
+          10,
+          0.6,
+          13,
+          0.55,
+          15,
+          0.5
+        ],
+        "hillshade-shadow-color": "#26301f",
+        "hillshade-highlight-color": "rgba(255,255,236,0.55)",
+        "hillshade-accent-color": "#3a4630",
+        "hillshade-illumination-anchor": "map"
       }
     },
     {
