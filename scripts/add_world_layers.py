@@ -62,6 +62,45 @@ def apply(path):
         w["id"] = f"world-{l['id']}"
         w["source"] = COPIED[l["source"]]
         world.append(w)
+    # Outside our box nothing draws trails on top (in the park the app's
+    # own trail lines do), so the world's hiking paths need to read as
+    # trails: a firm brown dash, and their names. Footways in towns and
+    # dirt tracks stay faint.
+    # OpenMapTiles has no sidewalk flag, and named hiking trails often come
+    # as subclass "footway" (Cranberry's Middle Fork Trail), so every path
+    # counts; only dirt tracks stay faint.
+    trailish = ["==", ["get", "class"], "path"]
+    for w in list(world):
+        if w["id"] != "world-road-path":
+            continue
+        faint = copy.deepcopy(w)
+        faint["id"] = "world-road-path-other"
+        faint["filter"] = ["all", w["filter"], ["!", trailish]]
+        w["id"] = "world-trail"
+        w["filter"] = trailish
+        w["minzoom"] = 11
+        w["paint"] = {
+            "line-color": "#9a4a1f",
+            "line-width": ["interpolate", ["linear"], ["zoom"],
+                           11, 1, 13, 1.6, 15, 2.4, 17, 3.2],
+            "line-dasharray": [3, 1.6],
+            "line-opacity": 0.95,
+        }
+        world.insert(world.index(w), faint)
+        label = {
+            "id": "world-label-trail", "type": "symbol",
+            "source": "world", "source-layer": "transportation_name",
+            "minzoom": 13,
+            "filter": ["==", ["get", "class"], "path"],
+            "layout": {"symbol-placement": "line",
+                       "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]],
+                       "text-font": ["Noto Sans Regular"], "text-size": 10.5,
+                       "symbol-spacing": 300},
+            "paint": {"text-color": "#7a3a15",
+                      "text-halo-color": "rgba(255,255,255,0.9)",
+                      "text-halo-width": 1.4},
+        }
+        world.append(label)
     out = []
     head = [l for l in layers if l["type"] in ("background", "raster")]
     rest = [l for l in layers if l not in head]

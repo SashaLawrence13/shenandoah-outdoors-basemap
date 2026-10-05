@@ -262,21 +262,35 @@
       }
     },
     {
-      "id": "world-road-path",
+      "id": "world-road-path-other",
       "type": "line",
       "source": "world",
       "source-layer": "transportation",
       "filter": [
-        "in",
+        "all",
         [
-          "get",
-          "class"
+          "in",
+          [
+            "get",
+            "class"
+          ],
+          [
+            "literal",
+            [
+              "path",
+              "track"
+            ]
+          ]
         ],
         [
-          "literal",
+          "!",
           [
-            "path",
-            "track"
+            "==",
+            [
+              "get",
+              "class"
+            ],
+            "path"
           ]
         ]
       ],
@@ -288,6 +302,46 @@
           2,
           1.5
         ]
+      }
+    },
+    {
+      "id": "world-trail",
+      "type": "line",
+      "source": "world",
+      "source-layer": "transportation",
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "path"
+      ],
+      "minzoom": 11,
+      "paint": {
+        "line-color": "#9a4a1f",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          1,
+          13,
+          1.6,
+          15,
+          2.4,
+          17,
+          3.2
+        ],
+        "line-dasharray": [
+          3,
+          1.6
+        ],
+        "line-opacity": 0.95
       }
     },
     {
@@ -678,6 +732,45 @@
         "text-color": "#3d3a33",
         "text-halo-color": "rgba(255,255,255,0.9)",
         "text-halo-width": 1.6
+      }
+    },
+    {
+      "id": "world-label-trail",
+      "type": "symbol",
+      "source": "world",
+      "source-layer": "transportation_name",
+      "minzoom": 13,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "path"
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "coalesce",
+          [
+            "get",
+            "name_en"
+          ],
+          [
+            "get",
+            "name"
+          ]
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 10.5,
+        "symbol-spacing": 300
+      },
+      "paint": {
+        "text-color": "#7a3a15",
+        "text-halo-color": "rgba(255,255,255,0.9)",
+        "text-halo-width": 1.4
       }
     },
     {
