@@ -8,8 +8,8 @@ them without an API key.
   domain). Without a key this part is skipped and marked so.
 - George Washington & Jefferson NF: its alerts page
   (fs.usda.gov/r08/gwj/alerts), which has no feed. Each alert is tagged
-  "ours" (names a place in the app's Lee, North River, Glenwood-Pedlar or
-  Eastern Divide districts or the A.T.), "forestwide" (a rule for the whole forest) or
+  "ours" (names a place in the app's Lee, North River, Glenwood-Pedlar,
+  Eastern Divide, Warm Springs, James River or Mount Rogers districts or the A.T.), "forestwide" (a rule for the whole forest) or
   "elsewhere".
 Run by .github/workflows/alerts.yml every 3 hours.
 """
@@ -32,10 +32,21 @@ OURS = ["lee ranger", "north river", "glenwood", "pedlar", "massanutten", "eliza
         "brush mountain", "audie murphy", "barney's wall", "barneys wall", "pandapas", "dismal falls",
         "dismal creek", "wind rock", "kelly knob", "angels rest", "sinking creek", "war spur", "keffer oak",
         "fenwick mines", "roaring run", "craig creek", "andy layne", "sugar run", "rice field", "chestnut knob",
-        "hay rock", "catawba"]
+        "hay rock", "catawba",
+        # Warm Springs, James River and Mount Rogers districts (in the app since 2026-10-05).
+        "warm springs ranger", "james river ranger", "mount rogers", "massie gap", "grayson highlands",
+        "wilburn ridge", "rhododendron gap", "elk garden", "whitetop", "buzzard rock", "fox creek", "beartree",
+        "hurricane campground", "hurricane creek", "comers rock", "comers creek", "virginia creeper",
+        "iron mountain trail", "konnarock", "lewis fork", "little wilson creek", "little dry run",
+        "raccoon branch", "straight branch", "trimpi", "partnership shelter", "saunders shelter", "damascus",
+        "dickey gap", "dickey knob", "teas road", "grindstone", "lake moomaw", "bolar", "moomaw",
+        "jackson river", "back creek", "blowing springs", "laurel fork", "locust springs", "poor farm",
+        "rough mountain", "greenwood point", "lost woman", "walton tract", "beards mountain", "rich hole",
+        "dolly ann", "longdale", "green pastures", "coles point", "morris hill", "fortney", "kelly bridge",
+        "cocks comb", "white rock tower", "pete's cave", "allegheny trail", "covington", "clifton forge",
+        "children's forest", "fore mountain", "mcallister", "gathright"]
 # Places in the forest's other districts; these win over a bare "Appalachian Trail".
-ELSEWHERE = ["mount rogers", "clinch", "creeper",
-             "grindstone", "powell mountain", "bolar", "moomaw", "warm springs", "james river ranger"]
+ELSEWHERE = ["clinch", "powell mountain"]
 FORESTWIDE = ["general prohibitions", "food storage", "wilderness areas", "target shooting", "shooting ranges",
               "controlled substances", "designated recreation sites", "motor vehicle operators", "fire restrictions",
               "fire danger", "burn ban"]
