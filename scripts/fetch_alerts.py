@@ -8,8 +8,8 @@ them without an API key.
   domain). Without a key this part is skipped and marked so.
 - George Washington & Jefferson NF: its alerts page
   (fs.usda.gov/r08/gwj/alerts), which has no feed. Each alert is tagged
-  "ours" (names a place in the app's Lee, North River or Glenwood-Pedlar
-  districts or the A.T.), "forestwide" (a rule for the whole forest) or
+  "ours" (names a place in the app's Lee, North River, Glenwood-Pedlar or
+  Eastern Divide districts or the A.T.), "forestwide" (a rule for the whole forest) or
   "elsewhere".
 Run by .github/workflows/alerts.yml every 3 hours.
 """
@@ -25,9 +25,16 @@ OURS = ["lee ranger", "north river", "glenwood", "pedlar", "massanutten", "eliza
         "elkhorn", "hearthstone", "blue hole", "ramsey", "wild oak", "shenandoah mountain", "reddish knob",
         "sherando", "crabtree", "saint mary", "st. mary", "st mary", "mount pleasant", "cave mountain lake",
         "oronoco", "james river footbridge", "appalachian trail", "three ridges", "priest", "spy rock",
-        "lynchburg reservoir", "pedlar river", "hidden valley", "bald mountain", "high knob", "fridley"]
+        "lynchburg reservoir", "pedlar river", "hidden valley", "bald mountain", "high knob", "fridley",
+        # Jefferson NF, Eastern Divide district (in the app since 2026-10-05).
+        "eastern divide", "mcafee", "dragons tooth", "dragon's tooth", "tinker cliffs", "little stony",
+        "cascades recreation", "the cascades", "mountain lake", "peters mountain", "peter's mountain",
+        "brush mountain", "audie murphy", "barney's wall", "barneys wall", "pandapas", "dismal falls",
+        "dismal creek", "wind rock", "kelly knob", "angels rest", "sinking creek", "war spur", "keffer oak",
+        "fenwick mines", "roaring run", "craig creek", "andy layne", "sugar run", "rice field", "chestnut knob",
+        "hay rock", "catawba"]
 # Places in the forest's other districts; these win over a bare "Appalachian Trail".
-ELSEWHERE = ["peters mountain", "peter's mountain", "mount rogers", "clinch", "creeper", "eastern divide",
+ELSEWHERE = ["mount rogers", "clinch", "creeper",
              "grindstone", "powell mountain", "bolar", "moomaw", "warm springs", "james river ranger"]
 FORESTWIDE = ["general prohibitions", "food storage", "wilderness areas", "target shooting", "shooting ranges",
               "controlled substances", "designated recreation sites", "motor vehicle operators", "fire restrictions",
