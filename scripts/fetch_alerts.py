@@ -61,17 +61,24 @@ def text(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s))).strip()
 
 
+# Shenandoah, the Parkway, the A.T., and the Potomac & DC area (C&O Canal,
+# Harpers Ferry, Catoctin, Prince William Forest; Great Falls Park VA files
+# under the George Washington Memorial Parkway). The app shows a region's
+# "no alerts" only when its code is in `parks` below.
+NPS_PARKS = ["shen", "blri", "appa", "choh", "hafe", "cato", "prwi", "gwmp"]
+
+
 def nps(key):
     if not key:
         return {"status": "no-key", "alerts": []}
-    data = json.loads(get("https://developer.nps.gov/api/v1/alerts?parkCode=shen,blri,appa&limit=200",
+    data = json.loads(get(f"https://developer.nps.gov/api/v1/alerts?parkCode={','.join(NPS_PARKS)}&limit=200",
                           {"X-Api-Key": key}))
     alerts = []
     for a in data.get("data", []):
         alerts.append({"id": a.get("id"), "park": a.get("parkCode"), "title": a.get("title", "").strip(),
                        "category": a.get("category"), "description": a.get("description", "").strip(),
                        "url": a.get("url") or None, "updated": a.get("lastIndexedDate")})
-    return {"status": "ok", "alerts": alerts}
+    return {"status": "ok", "parks": NPS_PARKS, "alerts": alerts}
 
 
 def forest():

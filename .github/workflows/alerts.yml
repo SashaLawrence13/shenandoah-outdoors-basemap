@@ -40,6 +40,12 @@ jobs:
         env:
           NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
         run: python3 scripts/fetch_alerts.py
+      - name: Fetch Blue Ridge Parkway closures (NPS page, no key)
+        continue-on-error: true
+        run: python3 scripts/fetch_blri_closures.py
+      - name: Fetch Monongahela NF alerts (Forest Service page, no key)
+        continue-on-error: true
+        run: python3 scripts/fetch_alerts_monongahela.py
       - name: Fetch park details (webcams, events, campgrounds, visitor centers)
         env:
           NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
@@ -65,14 +71,16 @@ jobs:
       - name: Publish if changed (or once a day, so "checked" stays fresh)
         run: |
           publish=$(python3 - <<'PY'
-          import json, subprocess, time
+          import json, os, subprocess, time
           def strip(d):
               d = {k: v for k, v in d.items() if k != "fetchedAt"}
               for w in d.get("webcams", []):
                   w.pop("updated", None)
               return d
           changed = False
-          for path in ("alerts/alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json"):
+          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json"):
+              if not os.path.exists(path):
+                  continue
               new = json.load(open(path))
               try:
                   old = json.loads(subprocess.run(["git", "show", f"HEAD:{path}"], capture_output=True, text=True).stdout)
@@ -88,6 +96,6 @@ jobs:
           if [ "$publish" != "yes" ]; then git checkout -- alerts park conditions ridb 2>/dev/null || true; exit 0; fi
           git config user.name "Mossback alerts bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add alerts/alerts.json park/park.json conditions/conditions.json ridb/ridb.json
+          git add alerts park conditions ridb
           git commit -m "Alerts, park data and conditions: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
