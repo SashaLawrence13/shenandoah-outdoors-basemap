@@ -110,3 +110,47 @@ Cloudflare Pages' free plan has no bandwidth cap but holds 20,000 files per
 site, hence two sites. `scripts/deploy_cloudflare.sh` rebuilds and uploads
 both from this repo. This site keeps serving older builds and the live data
 files (alerts, park, conditions, ridb), which the scheduled job rewrites.
+
+## Adding contours for a new region
+
+Outside the original box the styles draw OpenFreeMap and AWS terrain, but
+contours only exist where we have built them. To add a region (a park,
+a forest district):
+
+```bash
+brew install gdal tippecanoe
+pip3 install numpy scipy pillow shapely mapbox-vector-tile
+python3 scripts/make_region_contours.py --name jnf-eastern-divide \
+  --region district.geojson --work ~/contours-work/eastern-divide
+# or --bbox=W,S,E,N instead of --region
+python3 scripts/add_world_layers.py outdoors.json topo.json satellite.json
+sh scripts/deploy_cloudflare.sh /path/to/wrangler
+```
+
+The script downloads USGS 3DEP 1/3 arc-second tiles (1 arc-second where
+there is no 1/3; `--res 1` for 1 arc-second only) into the working
+directory, never the repo, and makes the same lines as the rest of
+`contours/`: 40 ft interval, index lines every 200 ft (`idx` = 1) from
+z10, the rest from z12, z10 to 14, source-layer `contour`, properties
+`ele_ft` and `idx`. It writes only tiles that touch the region plus
+`--buffer-km` (3.3 by default, as for the GW districts). Tiles already in
+`contours/` that an earlier region fully covers are left alone; tiles
+the new DEM fully covers are regenerated (same source and method);
+other overlapping tiles keep their old lines and gain the new ones from
+outside the earlier regions' DEM boxes. Each run is recorded in
+`scripts/contour_regions.json`, and `add_world_layers.py` sets the
+styles' `contours` bounds to one bbox over every region there. To redo a
+region, restore `contours/` from git and pass `--force`.
+
+Regions so far: Shenandoah NP and the GW districts (original box), and
+the Jefferson NF Eastern Divide district (2026-10-05, 2,032 tiles added,
+2 regenerated, about 24 MB).
+
+File budget: a free Cloudflare Pages site holds 20,000 files and 25 MiB
+per file. mossback-maps had about 9,980 files after Eastern Divide
+(contours, dem, glyphs, styles). Count before deploying
+(`find contours dem glyphs -type f | wc -l`). When mossback-maps nears
+about 18,000 files, start a second Pages project for the new region
+(one free Pages site per region, decided 2026-09-24) and point a second
+contours source at it rather than adding more files here.
+mossback-tiles is already near its cap; don't add files there.

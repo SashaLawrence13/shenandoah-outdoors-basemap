@@ -12,7 +12,7 @@ copies (roads, labels) without a cover. Idempotent: rerunning replaces.
 
   python3 scripts/add_world_layers.py outdoors.json topo.json satellite.json
 """
-import copy, json, sys
+import copy, json, os, sys
 
 WORLD = {
     "type": "vector",
@@ -34,6 +34,15 @@ WORLD_DEM = {
     "attribution": "Terrain: Tilezen (USGS 3DEP, SRTM, GMTED)",
 }
 COPIED = {OURS: "world", "dem": "world-dem"}
+# Contours reach past the box: every region in contour_regions.json
+# (scripts/make_region_contours.py). One bbox over all of them; tiles
+# that don't exist inside it just 404.
+REGIONS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "contour_regions.json")
+CONTOUR_BOUNDS = [W, S, E, N]
+for r in json.load(open(REGIONS)) if os.path.exists(REGIONS) else []:
+    b = r["dem_bbox"]
+    CONTOUR_BOUNDS = [min(CONTOUR_BOUNDS[0], b[0]), min(CONTOUR_BOUNDS[1], b[1]),
+                      max(CONTOUR_BOUNDS[2], b[2]), max(CONTOUR_BOUNDS[3], b[3])]
 
 
 def apply(path):
@@ -49,9 +58,12 @@ def apply(path):
     style["sources"][OURS]["bounds"] = [W, S, E, N]
     # Ours draw above the cover, so they must stop at the box too, or the
     # padded elevation tiles would shade twice in a band around it.
-    for k in ("dem", "contours"):
-        if k in style["sources"]:
-            style["sources"][k]["bounds"] = [W, S, E, N]
+    # Contours have no world copy, so they can reach further (no double
+    # drawing); they sit above the cover and draw over the world map.
+    if "dem" in style["sources"]:
+        style["sources"]["dem"]["bounds"] = [W, S, E, N]
+    if "contours" in style["sources"]:
+        style["sources"]["contours"]["bounds"] = CONTOUR_BOUNDS
     bg = next((l for l in layers if l["type"] == "background"), None)
     has_raster_base = any(l["type"] == "raster" for l in layers)
     world = []
