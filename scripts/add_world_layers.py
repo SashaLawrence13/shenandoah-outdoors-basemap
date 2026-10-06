@@ -48,8 +48,15 @@ EXTRA = []
 for r in json.load(open(REGIONS)) if os.path.exists(REGIONS) else []:
     b = r["dem_bbox"]
     if r.get("host", "maps") != "maps":
-        EXTRA.append({"name": r["name"], "bounds": b,
-                      "url": f"https://mossback-{r['host']}.pages.dev/contours/{{z}}/{{x}}/{{y}}.pbf"})
+        # one source per host: bounds = the box over its regions' DEM boxes
+        # (tiles outside the regions 404 harmlessly, as in the main source)
+        x = next((e for e in EXTRA if e["name"] == r["host"]), None)
+        if x is None:
+            EXTRA.append({"name": r["host"], "bounds": list(b),
+                          "url": f"https://mossback-{r['host']}.pages.dev/contours/{{z}}/{{x}}/{{y}}.pbf"})
+        else:
+            x["bounds"] = [min(x["bounds"][0], b[0]), min(x["bounds"][1], b[1]),
+                           max(x["bounds"][2], b[2]), max(x["bounds"][3], b[3])]
         continue
     CONTOUR_BOUNDS = [min(CONTOUR_BOUNDS[0], b[0]), min(CONTOUR_BOUNDS[1], b[1]),
                       max(CONTOUR_BOUNDS[2], b[2]), max(CONTOUR_BOUNDS[3], b[3])]
