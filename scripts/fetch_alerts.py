@@ -65,7 +65,7 @@ def text(s):
 # Harpers Ferry, Catoctin, Prince William Forest; Great Falls Park VA files
 # under the George Washington Memorial Parkway). The app shows a region's
 # "no alerts" only when its code is in `parks` below.
-NPS_PARKS = ["shen", "blri", "appa", "choh", "hafe", "cato", "prwi", "gwmp"]
+NPS_PARKS = ["shen", "blri", "appa", "choh", "hafe", "cato", "prwi", "gwmp", "grsm", "neri", "gari", "blue"]
 
 
 def nps(key):

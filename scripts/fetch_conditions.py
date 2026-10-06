@@ -21,7 +21,10 @@ from datetime import date, datetime, timedelta, timezone
 
 UA = "Mossback conditions (github.com/SashaLawrence13/shenandoah-outdoors-basemap)"
 OUT = os.path.join(os.path.dirname(__file__), "..", "conditions", "conditions.json")
-BOX = (-80.2, 37.3, -77.8, 39.2)  # west, south, east, north: the park, the three districts, the Parkway
+# west, south, east, north. Every region the app covers: Shenandoah, the forest districts, the Parkway,
+# Potomac and DC, Monongahela, New River Gorge and the Great Smokies (widened 2026-10-05; it used to
+# stop at Virginia's -80.2 / 37.3, which let the app read "no fires" for places the feed never looked).
+BOX = (-84.2, 35.3, -76.2, 40.0)
 
 # Where people are, for air and birds.
 CENTERS = [
@@ -80,7 +83,7 @@ def fires():
                         "day": r.get("daynight") == "D"})
     out.sort(key=lambda d: d["detected"], reverse=True)
     good = sum(1 for v in sources.values() if v.startswith("ok"))
-    return {"status": "ok" if good else "error: no source answered", "sources": sources, "detections": out}
+    return {"status": "ok" if good else "error: no source answered", "sources": sources, "detections": out, "box": list(BOX)}
 
 
 def air():
