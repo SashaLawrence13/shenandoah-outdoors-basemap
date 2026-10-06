@@ -117,13 +117,15 @@ def air():
     obs, fc, areas = [], [], set()
     today = date.today()
     failures = 0
+    why = ""
     for c in CENTERS:
         base = f"latitude={c['lat']}&longitude={c['lng']}&distance=50&format=application/json&API_KEY={key}"
         fbase = base.replace("distance=50", "distance=150")  # forecasts cover fewer, larger areas
         try:
             current = json.loads(get(f"https://www.airnowapi.org/aq/observation/latLong/current/?{base}"))
-        except Exception:
+        except Exception as e:
             failures += 1
+            why = type(e).__name__ + " " + str(e)[:80].replace(key, "…")
             continue
         for o in current:
             k = (o["ReportingArea"], o["ParameterName"])
@@ -148,7 +150,7 @@ def air():
     for f in fc:
         uniq[(f["area"], f["date"], f["pollutant"])] = f
     if not obs:
-        return {"status": f"error: all {failures} requests failed" if failures else "ok", "observations": [], "forecasts": []}
+        return {"status": f"error: all {failures} requests failed ({why})" if failures else "ok", "observations": [], "forecasts": []}
     return {"status": "ok", "observations": obs, "forecasts": list(uniq.values())}
 
 
