@@ -385,6 +385,8 @@ def main():
     out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     out["traffic"] = safe(vdot)
+    for k in ("fires", "air", "birds", "roads"):
+        print("fetched", k, str(out[k].get("status"))[:200])
     # Pollen: Tomorrow.io's free plan refuses the pollen fields (HTTP 403 "fields are not
     # allowed", 2026-09-23), so pollen() stays unused until there's a plan that includes them.
     failed_birds = out["birds"].pop("failedRegions", []) if isinstance(out["birds"], dict) else []
