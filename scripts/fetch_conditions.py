@@ -8,6 +8,9 @@ on this repo's Pages (the keys stay in this repo's Actions secrets):
 - air: EPA AirNow current observations and today's/tomorrow's forecasts
   for reporting areas near the park and the forest's districts. Key:
   AIRNOW_API_KEY. AirNow data is preliminary; attribution to AirNow.
+  Where AirNow does not answer (its key was refused with HTTP 410 on
+  2026-10-05) Open-Meteo's modeled US AQI (Copernicus CAMS, CC BY 4.0, no
+  key) fills in, marked source "open-meteo" on each reading.
 - birds: eBird recent (last 7 days) and notable sightings around the park
   and the forest's districts (birds.park, birds.forest), and around the
   Potomac, Monongahela, Smokies and New River areas (birds.byRegion.<id>).
@@ -30,32 +33,40 @@ BOX = (-84.2, 35.3, -76.2, 40.0)
 
 # Where people are, for air and birds.
 CENTERS = [
-    {"id": "park-north", "region": "shen", "side": "park", "name": "Shenandoah NP north", "lat": 38.80, "lng": -78.28},
-    {"id": "park-central", "region": "shen", "side": "park", "name": "Shenandoah NP central", "lat": 38.53, "lng": -78.44},
-    {"id": "park-south", "region": "shen", "side": "park", "name": "Shenandoah NP south", "lat": 38.20, "lng": -78.75},
-    {"id": "lee", "region": "gwnf", "side": "forest", "name": "Lee district", "lat": 38.88, "lng": -78.50},
-    {"id": "north-river", "region": "gwnf", "side": "forest", "name": "North River district", "lat": 38.40, "lng": -79.12},
-    {"id": "glenwood-pedlar", "region": "gwnf", "side": "forest", "name": "Glenwood-Pedlar district", "lat": 37.75, "lng": -79.25},
+    {"id": "park-north", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP north", "lat": 38.80, "lng": -78.28},
+    {"id": "park-central", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP central", "lat": 38.53, "lng": -78.44},
+    {"id": "park-south", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP south", "lat": 38.20, "lng": -78.75},
+    {"id": "lee", "state": "VA", "region": "gwnf", "side": "forest", "name": "Lee district", "lat": 38.88, "lng": -78.50},
+    {"id": "north-river", "state": "VA", "region": "gwnf", "side": "forest", "name": "North River district", "lat": 38.40, "lng": -79.12},
+    {"id": "glenwood-pedlar", "state": "VA", "region": "gwnf", "side": "forest", "name": "Glenwood-Pedlar district", "lat": 37.75, "lng": -79.25},
     # Added 2026-10-05 for the four newer regions. `side` is "forest" for all of them (the app's
     # old two-way split; their birds do NOT go in birds.forest, they go in birds.byRegion[region]).
     # A few points per region, spread over its extent; AirNow looks 50 mi round each, eBird 25 km.
-    {"id": "pot-great-falls", "region": "pot", "side": "forest", "name": "Great Falls and Washington", "lat": 38.998, "lng": -77.249},
-    {"id": "pot-harpers-ferry", "region": "pot", "side": "forest", "name": "Harpers Ferry", "lat": 39.325, "lng": -77.739},
-    {"id": "pot-catoctin", "region": "pot", "side": "forest", "name": "Catoctin Mountain", "lat": 39.654, "lng": -77.442},
-    {"id": "pot-prince-william", "region": "pot", "side": "forest", "name": "Prince William Forest", "lat": 38.576, "lng": -77.343},
-    {"id": "pot-hancock", "region": "pot", "side": "forest", "name": "C&O Canal at Hancock", "lat": 39.70, "lng": -78.18},
-    {"id": "pot-cumberland", "region": "pot", "side": "forest", "name": "C&O Canal at Cumberland", "lat": 39.65, "lng": -78.76},
-    {"id": "mon-dolly-sods", "region": "mon", "side": "forest", "name": "Dolly Sods and Canaan", "lat": 39.07, "lng": -79.38},
-    {"id": "mon-spruce-knob", "region": "mon", "side": "forest", "name": "Spruce Knob", "lat": 38.70, "lng": -79.53},
-    {"id": "mon-cranberry", "region": "mon", "side": "forest", "name": "Cranberry and Greenbrier", "lat": 38.22, "lng": -80.26},
-    {"id": "mon-greenbrier-south", "region": "mon", "side": "forest", "name": "Southern Monongahela", "lat": 37.95, "lng": -80.25},
-    {"id": "gs-sugarlands", "region": "gs", "side": "forest", "name": "Sugarlands and Newfound Gap", "lat": 35.69, "lng": -83.45},
-    {"id": "gs-deep-creek", "region": "gs", "side": "forest", "name": "Deep Creek and Fontana", "lat": 35.46, "lng": -83.44},
-    {"id": "gs-cades-cove", "region": "gs", "side": "forest", "name": "Cades Cove", "lat": 35.60, "lng": -83.81},
-    {"id": "gs-cataloochee", "region": "gs", "side": "forest", "name": "Cataloochee and Big Creek", "lat": 35.68, "lng": -83.10},
-    {"id": "nr-north", "region": "nr", "side": "forest", "name": "New River Gorge north", "lat": 38.12, "lng": -81.00},
-    {"id": "nr-middle", "region": "nr", "side": "forest", "name": "New River Gorge middle", "lat": 37.90, "lng": -80.95},
-    {"id": "nr-south", "region": "nr", "side": "forest", "name": "New River Gorge south", "lat": 37.62, "lng": -81.00},
+    {"id": "pot-great-falls", "state": "VA", "region": "pot", "side": "forest", "name": "Great Falls and Washington", "lat": 38.998, "lng": -77.249},
+    {"id": "pot-harpers-ferry", "state": "WV", "region": "pot", "side": "forest", "name": "Harpers Ferry", "lat": 39.325, "lng": -77.739},
+    {"id": "pot-catoctin", "state": "MD", "region": "pot", "side": "forest", "name": "Catoctin Mountain", "lat": 39.654, "lng": -77.442},
+    {"id": "pot-prince-william", "state": "VA", "region": "pot", "side": "forest", "name": "Prince William Forest", "lat": 38.576, "lng": -77.343},
+    {"id": "pot-hancock", "state": "MD", "region": "pot", "side": "forest", "name": "C&O Canal at Hancock", "lat": 39.70, "lng": -78.18},
+    {"id": "pot-cumberland", "state": "MD", "region": "pot", "side": "forest", "name": "C&O Canal at Cumberland", "lat": 39.65, "lng": -78.76},
+    {"id": "mon-dolly-sods", "state": "WV", "region": "mon", "side": "forest", "name": "Dolly Sods and Canaan", "lat": 39.07, "lng": -79.38},
+    {"id": "mon-spruce-knob", "state": "WV", "region": "mon", "side": "forest", "name": "Spruce Knob", "lat": 38.70, "lng": -79.53},
+    {"id": "mon-cranberry", "state": "WV", "region": "mon", "side": "forest", "name": "Cranberry and Greenbrier", "lat": 38.22, "lng": -80.26},
+    {"id": "mon-greenbrier-south", "state": "WV", "region": "mon", "side": "forest", "name": "Southern Monongahela", "lat": 37.95, "lng": -80.25},
+    {"id": "gs-sugarlands", "state": "TN", "region": "gs", "side": "forest", "name": "Sugarlands and Newfound Gap", "lat": 35.69, "lng": -83.45},
+    {"id": "gs-deep-creek", "state": "NC", "region": "gs", "side": "forest", "name": "Deep Creek and Fontana", "lat": 35.46, "lng": -83.44},
+    {"id": "gs-cades-cove", "state": "TN", "region": "gs", "side": "forest", "name": "Cades Cove", "lat": 35.60, "lng": -83.81},
+    {"id": "gs-cataloochee", "state": "NC", "region": "gs", "side": "forest", "name": "Cataloochee and Big Creek", "lat": 35.68, "lng": -83.10},
+    {"id": "nr-north", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge north", "lat": 38.12, "lng": -81.00},
+    {"id": "nr-middle", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge middle", "lat": 37.90, "lng": -80.95},
+    {"id": "nr-south", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge south", "lat": 37.62, "lng": -81.00},
+    # Added 2026-10-05 for the western forest districts and the Parkway south of Roanoke. air_only:
+    # air quality reads them, eBird does not (birds.forest stays the old three centers' list).
+    {"id": "gwnf-eastern-divide", "state": "VA", "region": "gwnf", "side": "forest", "name": "Eastern Divide (Roanoke and Blacksburg)", "lat": 37.27, "lng": -80.05, "air_only": True},
+    {"id": "gwnf-warm-springs", "state": "VA", "region": "gwnf", "side": "forest", "name": "Warm Springs district", "lat": 38.05, "lng": -79.83, "air_only": True},
+    {"id": "gwnf-james-river", "state": "VA", "region": "gwnf", "side": "forest", "name": "James River district", "lat": 37.78, "lng": -79.95, "air_only": True},
+    {"id": "gwnf-mount-rogers", "state": "VA", "region": "gwnf", "side": "forest", "name": "Mount Rogers and Grayson Highlands", "lat": 36.66, "lng": -81.50, "air_only": True},
+    {"id": "blri-rocky-knob", "state": "VA", "region": "blri", "side": "park", "name": "Blue Ridge Parkway, Rocky Knob", "lat": 36.80, "lng": -80.30, "air_only": True},
+    {"id": "blri-fancy-gap", "state": "VA", "region": "blri", "side": "park", "name": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob", "lat": 36.62, "lng": -80.80, "air_only": True},
 ]
 # Regions whose birds keep the old park/forest keys; every other region's go in birds.byRegion.
 LEGACY_BIRD_REGIONS = ("shen", "gwnf")
@@ -110,24 +121,42 @@ def fires():
     return {"status": "ok" if good else "error: no source answered", "sources": sources, "detections": out, "box": list(BOX)}
 
 
-def air():
+AQI_BANDS = [(50, "Good", 1), (100, "Moderate", 2), (150, "Unhealthy for Sensitive Groups", 3),
+             (200, "Unhealthy", 4), (300, "Very Unhealthy", 5), (10**6, "Hazardous", 6)]
+
+
+def aqi_category(aqi):
+    for top, name, level in AQI_BANDS:
+        if aqi <= top:
+            return name, level
+
+
+def airnow():
+    """EPA AirNow web services (key AIRNOW_API_KEY). Returns (obs, forecasts, covered center ids, note).
+    A refusal of the key itself (HTTP 401, 403, 410) stops the run at once instead of repeating it 90 times."""
     key = os.environ.get("AIRNOW_API_KEY", "").strip()
     if not key:
-        return {"status": "no-key"}
-    obs, fc, areas = [], [], set()
+        return [], [], set(), "no-key"
+    obs, fc, areas, covered = [], [], set(), set()
     today = date.today()
-    failures = 0
-    why = ""
+    failures, why = 0, ""
     for c in CENTERS:
         base = f"latitude={c['lat']}&longitude={c['lng']}&distance=50&format=application/json&API_KEY={key}"
         fbase = base.replace("distance=50", "distance=150")  # forecasts cover fewer, larger areas
         try:
             current = json.loads(get(f"https://www.airnowapi.org/aq/observation/latLong/current/?{base}"))
+        except urllib.error.HTTPError as e:
+            failures += 1
+            why = f"HTTP {e.code}"
+            if e.code in (401, 403, 410):
+                return obs, fc, covered, f"key refused ({why}), stopped"
+            continue
         except Exception as e:
             failures += 1
-            why = type(e).__name__ + " " + str(e)[:80].replace(key, "…")
+            why = type(e).__name__
             continue
         for o in current:
+            covered.add(c["id"])
             k = (o["ReportingArea"], o["ParameterName"])
             if k in areas:
                 continue
@@ -135,7 +164,7 @@ def air():
             obs.append({"area": o["ReportingArea"], "state": o["StateCode"], "lat": o["Latitude"], "lon": o["Longitude"],
                         "pollutant": o["ParameterName"], "aqi": o["AQI"], "category": o["Category"]["Name"],
                         "level": o["Category"]["Number"], "observed": f"{o['DateObserved'].strip()} {o['HourObserved']}:00 {o['LocalTimeZone']}",
-                        "near": c["id"], "side": c["side"], "region": c["region"]})
+                        "near": c["id"], "side": c["side"], "region": c["region"], "source": "airnow"})
         for d in (today, today + timedelta(days=1)):
             try:
                 forecasts = json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{fbase}&date={d.isoformat()}"))
@@ -145,13 +174,74 @@ def air():
                 fc.append({"area": f["ReportingArea"], "date": f["DateForecast"].strip(), "pollutant": f["ParameterName"],
                            "aqi": f["AQI"], "category": f["Category"]["Name"], "level": f["Category"]["Number"],
                            "actionDay": bool(f.get("ActionDay")), "discussion": (f.get("Discussion") or "")[:600],
-                           "near": c["id"], "side": c["side"], "region": c["region"]})
+                           "near": c["id"], "side": c["side"], "region": c["region"], "source": "airnow"})
+    return obs, fc, covered, (f"{failures} requests failed ({why})" if failures else "ok")
+
+
+OM_POLLUTANTS = (("us_aqi_pm2_5", "PM2.5"), ("us_aqi_ozone", "O3"), ("us_aqi_pm10", "PM10"))
+
+
+def open_meteo(centers):
+    """Modeled US AQI (Open-Meteo, from Copernicus CAMS; free, no key) for centers AirNow did not answer.
+    One reading per center (area = the center's name) and its worst pollutant, plus the daily worst for
+    today and tomorrow. These are model estimates, not monitor readings, and are marked source open-meteo."""
+    if not centers:
+        return [], []
+    import urllib.parse
+    q = urllib.parse.urlencode({
+        "latitude": ",".join(str(c["lat"]) for c in centers), "longitude": ",".join(str(c["lng"]) for c in centers),
+        "current": "us_aqi," + ",".join(k for k, _ in OM_POLLUTANTS),
+        "hourly": "us_aqi," + ",".join(k for k, _ in OM_POLLUTANTS),
+        "forecast_days": 2, "timezone": "auto"})
+    data = json.loads(get(f"https://air-quality-api.open-meteo.com/v1/air-quality?{q}"))
+    if isinstance(data, dict):
+        data = [data]
+    obs, fc = [], []
+    for c, r in zip(centers, data):
+        cur = r.get("current") or {}
+        if cur.get("us_aqi") is None:
+            continue
+        subs = [(cur.get(k), name) for k, name in OM_POLLUTANTS if cur.get(k) is not None]
+        aqi = int(round(cur["us_aqi"]))
+        pol = max(subs)[1] if subs else "PM2.5"
+        cat, lvl = aqi_category(aqi)
+        day, hour = cur["time"].split("T")
+        tag = {"area": c["name"], "state": c["state"], "near": c["id"], "side": c["side"], "region": c["region"], "source": "open-meteo"}
+        obs.append({**tag, "lat": c["lat"], "lon": c["lng"], "pollutant": pol, "aqi": aqi, "category": cat, "level": lvl,
+                    "observed": f"{day} {int(hour[:2])}:00 local"})
+        h = r.get("hourly") or {}
+        for d in sorted({t[:10] for t in h.get("time", [])}):
+            idx = [i for i, t in enumerate(h["time"]) if t.startswith(d) and h["us_aqi"][i] is not None]
+            if not idx:
+                continue
+            top = max(idx, key=lambda i: h["us_aqi"][i])
+            faqi = int(round(h["us_aqi"][top]))
+            fsubs = [(h[k][top], name) for k, name in OM_POLLUTANTS if h.get(k) and h[k][top] is not None]
+            fcat, flvl = aqi_category(faqi)
+            fc.append({**tag, "date": d, "pollutant": max(fsubs)[1] if fsubs else pol, "aqi": faqi, "category": fcat,
+                       "level": flvl, "actionDay": False, "discussion": ""})
+    return obs, fc
+
+
+def air():
+    """AirNow first (official monitors and state forecasts); Open-Meteo's modeled AQI for every center AirNow
+    did not answer. AirNow's key was refused with HTTP 410 on 2026-10-05, which is why the fallback exists."""
+    obs, fc, covered, note = airnow()
+    sources = {"airnow": f"{note} ({len(obs)} readings)"}
+    missing = [c for c in CENTERS if c["id"] not in covered]
+    try:
+        o2, f2 = open_meteo(missing)
+        obs += o2
+        fc += f2
+        sources["open-meteo"] = f"ok ({len(o2)} of {len(missing)} centers)"
+    except Exception as e:
+        sources["open-meteo"] = f"error: {type(e).__name__}"
     uniq = {}
     for f in fc:
         uniq[(f["area"], f["date"], f["pollutant"])] = f
     if not obs:
-        return {"status": f"error: all {failures} requests failed ({why})" if failures else "ok", "observations": [], "forecasts": []}
-    return {"status": "ok", "observations": obs, "forecasts": list(uniq.values())}
+        return {"status": "error: no air source answered", "sources": sources, "observations": [], "forecasts": []}
+    return {"status": "ok", "sources": sources, "observations": obs, "forecasts": list(uniq.values())}
 
 
 def birds():
@@ -162,6 +252,8 @@ def birds():
     sides = {"park": {}, "forest": {}}
     by_region, failed = {}, set()
     for c in CENTERS:
+        if c.get("air_only"):
+            continue
         legacy = c["region"] in LEGACY_BIRD_REGIONS
         q = f"lat={c['lat']}&lng={c['lng']}&dist=25&back=7"
         try:
