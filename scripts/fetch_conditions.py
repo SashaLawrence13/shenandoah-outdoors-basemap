@@ -9,7 +9,9 @@ on this repo's Pages (the keys stay in this repo's Actions secrets):
   for reporting areas near the park and the forest's districts. Key:
   AIRNOW_API_KEY. AirNow data is preliminary; attribution to AirNow.
 - birds: eBird recent (last 7 days) and notable sightings around the park
-  and the forest's districts. Key: EBIRD_API_KEY. Observations at private
+  and the forest's districts (birds.park, birds.forest), and around the
+  Potomac, Monongahela, Smokies and New River areas (birds.byRegion.<id>).
+  Key: EBIRD_API_KEY. Observations at private
   locations are left out; eBird already hides sensitive species.
 - roads: VDOT SmarterRoads road-weather stations (RWIS) on the passes up to
   the park and the forest: air and pavement temperature, visibility (fog),
@@ -28,13 +30,35 @@ BOX = (-84.2, 35.3, -76.2, 40.0)
 
 # Where people are, for air and birds.
 CENTERS = [
-    {"id": "park-north", "side": "park", "name": "Shenandoah NP north", "lat": 38.80, "lng": -78.28},
-    {"id": "park-central", "side": "park", "name": "Shenandoah NP central", "lat": 38.53, "lng": -78.44},
-    {"id": "park-south", "side": "park", "name": "Shenandoah NP south", "lat": 38.20, "lng": -78.75},
-    {"id": "lee", "side": "forest", "name": "Lee district", "lat": 38.88, "lng": -78.50},
-    {"id": "north-river", "side": "forest", "name": "North River district", "lat": 38.40, "lng": -79.12},
-    {"id": "glenwood-pedlar", "side": "forest", "name": "Glenwood-Pedlar district", "lat": 37.75, "lng": -79.25},
+    {"id": "park-north", "region": "shen", "side": "park", "name": "Shenandoah NP north", "lat": 38.80, "lng": -78.28},
+    {"id": "park-central", "region": "shen", "side": "park", "name": "Shenandoah NP central", "lat": 38.53, "lng": -78.44},
+    {"id": "park-south", "region": "shen", "side": "park", "name": "Shenandoah NP south", "lat": 38.20, "lng": -78.75},
+    {"id": "lee", "region": "gwnf", "side": "forest", "name": "Lee district", "lat": 38.88, "lng": -78.50},
+    {"id": "north-river", "region": "gwnf", "side": "forest", "name": "North River district", "lat": 38.40, "lng": -79.12},
+    {"id": "glenwood-pedlar", "region": "gwnf", "side": "forest", "name": "Glenwood-Pedlar district", "lat": 37.75, "lng": -79.25},
+    # Added 2026-10-05 for the four newer regions. `side` is "forest" for all of them (the app's
+    # old two-way split; their birds do NOT go in birds.forest, they go in birds.byRegion[region]).
+    # A few points per region, spread over its extent; AirNow looks 50 mi round each, eBird 25 km.
+    {"id": "pot-great-falls", "region": "pot", "side": "forest", "name": "Great Falls and Washington", "lat": 38.998, "lng": -77.249},
+    {"id": "pot-harpers-ferry", "region": "pot", "side": "forest", "name": "Harpers Ferry", "lat": 39.325, "lng": -77.739},
+    {"id": "pot-catoctin", "region": "pot", "side": "forest", "name": "Catoctin Mountain", "lat": 39.654, "lng": -77.442},
+    {"id": "pot-prince-william", "region": "pot", "side": "forest", "name": "Prince William Forest", "lat": 38.576, "lng": -77.343},
+    {"id": "pot-hancock", "region": "pot", "side": "forest", "name": "C&O Canal at Hancock", "lat": 39.70, "lng": -78.18},
+    {"id": "pot-cumberland", "region": "pot", "side": "forest", "name": "C&O Canal at Cumberland", "lat": 39.65, "lng": -78.76},
+    {"id": "mon-dolly-sods", "region": "mon", "side": "forest", "name": "Dolly Sods and Canaan", "lat": 39.07, "lng": -79.38},
+    {"id": "mon-spruce-knob", "region": "mon", "side": "forest", "name": "Spruce Knob", "lat": 38.70, "lng": -79.53},
+    {"id": "mon-cranberry", "region": "mon", "side": "forest", "name": "Cranberry and Greenbrier", "lat": 38.22, "lng": -80.26},
+    {"id": "mon-greenbrier-south", "region": "mon", "side": "forest", "name": "Southern Monongahela", "lat": 37.95, "lng": -80.25},
+    {"id": "gs-sugarlands", "region": "gs", "side": "forest", "name": "Sugarlands and Newfound Gap", "lat": 35.69, "lng": -83.45},
+    {"id": "gs-deep-creek", "region": "gs", "side": "forest", "name": "Deep Creek and Fontana", "lat": 35.46, "lng": -83.44},
+    {"id": "gs-cades-cove", "region": "gs", "side": "forest", "name": "Cades Cove", "lat": 35.60, "lng": -83.81},
+    {"id": "gs-cataloochee", "region": "gs", "side": "forest", "name": "Cataloochee and Big Creek", "lat": 35.68, "lng": -83.10},
+    {"id": "nr-north", "region": "nr", "side": "forest", "name": "New River Gorge north", "lat": 38.12, "lng": -81.00},
+    {"id": "nr-middle", "region": "nr", "side": "forest", "name": "New River Gorge middle", "lat": 37.90, "lng": -80.95},
+    {"id": "nr-south", "region": "nr", "side": "forest", "name": "New River Gorge south", "lat": 37.62, "lng": -81.00},
 ]
+# Regions whose birds keep the old park/forest keys; every other region's go in birds.byRegion.
+LEGACY_BIRD_REGIONS = ("shen", "gwnf")
 
 
 def get(url, headers=None, timeout=60):
@@ -109,7 +133,7 @@ def air():
             obs.append({"area": o["ReportingArea"], "state": o["StateCode"], "lat": o["Latitude"], "lon": o["Longitude"],
                         "pollutant": o["ParameterName"], "aqi": o["AQI"], "category": o["Category"]["Name"],
                         "level": o["Category"]["Number"], "observed": f"{o['DateObserved'].strip()} {o['HourObserved']}:00 {o['LocalTimeZone']}",
-                        "near": c["id"], "side": c["side"]})
+                        "near": c["id"], "side": c["side"], "region": c["region"]})
         for d in (today, today + timedelta(days=1)):
             try:
                 forecasts = json.loads(get(f"https://www.airnowapi.org/aq/forecast/latLong/?{fbase}&date={d.isoformat()}"))
@@ -119,7 +143,7 @@ def air():
                 fc.append({"area": f["ReportingArea"], "date": f["DateForecast"].strip(), "pollutant": f["ParameterName"],
                            "aqi": f["AQI"], "category": f["Category"]["Name"], "level": f["Category"]["Number"],
                            "actionDay": bool(f.get("ActionDay")), "discussion": (f.get("Discussion") or "")[:600],
-                           "near": c["id"], "side": c["side"]})
+                           "near": c["id"], "side": c["side"], "region": c["region"]})
     uniq = {}
     for f in fc:
         uniq[(f["area"], f["date"], f["pollutant"])] = f
@@ -134,22 +158,35 @@ def birds():
         return {"status": "no-key"}
     h = {"X-eBirdApiToken": key}
     sides = {"park": {}, "forest": {}}
+    by_region, failed = {}, set()
     for c in CENTERS:
+        legacy = c["region"] in LEGACY_BIRD_REGIONS
         q = f"lat={c['lat']}&lng={c['lng']}&dist=25&back=7"
-        recent = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent?{q}&maxResults=400", h))
-        notable = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent/notable?{q}&detail=simple", h))
+        try:
+            recent = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent?{q}&maxResults=400", h))
+            notable = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent/notable?{q}&detail=simple", h))
+        except Exception:
+            if legacy:
+                raise  # unchanged: any failure for park/forest makes the whole source stale
+            failed.add(c["region"])  # a newer region: keep its last list, do not lose the others
+            continue
         rare = {o["speciesCode"] for o in notable}
         for o in recent + notable:
             if o.get("locationPrivate"):
                 continue
-            s = sides[c["side"]]
+            s = sides[c["side"]] if legacy else by_region.setdefault(c["region"], {})
             prev = s.get(o["speciesCode"])
             item = {"code": o["speciesCode"], "name": o["comName"], "sci": o["sciName"], "count": o.get("howMany"),
                     "seen": o["obsDt"], "place": o["locName"], "lat": round(o["lat"], 3), "lon": round(o["lng"], 3),
                     "notable": o["speciesCode"] in rare, "near": c["name"]}
             if prev is None or item["seen"] > prev["seen"]:
                 s[o["speciesCode"]] = {**item, "notable": item["notable"] or (prev or {}).get("notable", False)}
-    return {"status": "ok", **{k: sorted(v.values(), key=lambda x: (not x["notable"], x["name"])) for k, v in sides.items()}}
+    order = lambda v: sorted(v.values(), key=lambda x: (not x["notable"], x["name"]))
+    out = {"status": "ok", **{k: order(v) for k, v in sides.items()},
+           "byRegion": {r: order(v) for r, v in by_region.items()}}
+    if failed:
+        out["failedRegions"] = sorted(failed)  # main() fills these from the last good copy
+    return out
 
 
 # VDOT road-weather stations on the way up to the park and the forest.
@@ -348,11 +385,17 @@ def main():
     out["traffic"] = safe(vdot)
     # Pollen: Tomorrow.io's free plan refuses the pollen fields (HTTP 403 "fields are not
     # allowed", 2026-09-23), so pollen() stays unused until there's a plan that includes them.
+    failed_birds = out["birds"].pop("failedRegions", []) if isinstance(out["birds"], dict) else []
     if os.path.exists(OUT):
         try:
             old = json.load(open(OUT))
         except ValueError:
             old = {}
+        # Some newer regions' eBird calls failed: keep their last list rather than publish none.
+        for r in failed_birds:
+            prev_list = (old.get("birds", {}).get("byRegion") or {}).get(r)
+            if prev_list:
+                out["birds"].setdefault("byRegion", {})[r] = prev_list
         for k in ("fires", "air", "birds", "roads", "pollen"):
             if str(out.get(k, {}).get("status", "")).startswith("error") and old.get(k, {}).get("status") in ("ok", "stale"):
                 out[k] = {**old[k], "status": "stale", "staleSince": out["fetchedAt"]}
