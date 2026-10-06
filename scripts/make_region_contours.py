@@ -230,6 +230,12 @@ def main():
     ap.add_argument("--dem", help="use this DEM instead of downloading")
     ap.add_argument("--repo", default=REPO, help="basemap repo (default: this one)")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--out", help="write the tiles here instead of contours/ (a second Pages project: "
+                    "files that contours/ already holds are never touched, only read; tiles it holds "
+                    "that this region overlaps get just the lines outside earlier regions)")
+    ap.add_argument("--host", default="maps", help="which Pages project serves the tiles "
+                    "(recorded in contour_regions.json; add_world_layers.py gives each non-default "
+                    "host its own source). Default maps = mossback-maps")
     a = ap.parse_args()
 
     work = os.path.abspath(os.path.expanduser(a.work)); os.makedirs(work, exist_ok=True)
@@ -273,7 +279,8 @@ def main():
     if protect and n_clip:  # none when earlier DEM boxes already cover this one
         tippecanoe(clip_in, clip_dir)
 
-    dst_root = os.path.join(a.repo, "contours")
+    main_root = os.path.join(a.repo, "contours")
+    dst_root = os.path.abspath(os.path.expanduser(a.out)) if a.out else main_root
     added = merged = replaced = kept = skipped = 0
     full_dir = os.path.join(work, "out_full")
     for root, _, files in os.walk(full_dir):
@@ -285,6 +292,15 @@ def main():
             if not in_mask(mask, MW, MN, z, x, y):
                 skipped += 1; continue
             dst = os.path.join(dst_root, rel)
+            if a.out and os.path.exists(os.path.join(main_root, rel)):
+                w, s, e, n = tile_bounds_ll(z, x, y)
+                clip = os.path.join(clip_dir, rel)
+                if (any(w >= b[0] + EDGE and s >= b[1] + EDGE and e <= b[2] - EDGE and n <= b[3] - EDGE
+                        for b in protect) or not os.path.exists(clip)):
+                    kept += 1; continue  # contours/ already has it complete
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                shutil.copyfile(clip, dst); merged += 1  # only the lines outside earlier regions
+                continue
             if os.path.exists(dst):
                 w, s, e, n = tile_bounds_ll(z, x, y)
                 if any(w >= b[0] + EDGE and s >= b[1] + EDGE and e <= b[2] - EDGE and n <= b[3] - EDGE
@@ -308,6 +324,8 @@ def main():
                     "buffer_km": a.buffer_km, "source": "USGS 3DEP", "added": str(datetime.date.today()),
                     "tiles_added": added, "tiles_merged": merged,
                     "tiles_regenerated": replaced})
+    if a.host != "maps":
+        regions[-1]["host"] = a.host
     json.dump(regions, open(registry, "w"), indent=2); open(registry, "a").write("\n")
     print("registry", registry, "now", len(regions), "regions; rerun scripts/add_world_layers.py")
 

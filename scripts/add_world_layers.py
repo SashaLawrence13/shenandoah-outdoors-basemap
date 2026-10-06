@@ -39,8 +39,18 @@ COPIED = {OURS: "world", "dem": "world-dem"}
 # that don't exist inside it just 404.
 REGIONS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "contour_regions.json")
 CONTOUR_BOUNDS = [W, S, E, N]
+# Regions whose tiles live on another Pages project (mossback-maps is near
+# the 20,000-file cap): "host": "maps-2" in contour_regions.json means
+# https://mossback-maps-2.pages.dev/contours/. Each gets its own tight
+# source (contours-<name>) and a copy of the contour layers, so the main
+# source's bounds stay where its tiles are.
+EXTRA = []
 for r in json.load(open(REGIONS)) if os.path.exists(REGIONS) else []:
     b = r["dem_bbox"]
+    if r.get("host", "maps") != "maps":
+        EXTRA.append({"name": r["name"], "bounds": b,
+                      "url": f"https://mossback-{r['host']}.pages.dev/contours/{{z}}/{{x}}/{{y}}.pbf"})
+        continue
     CONTOUR_BOUNDS = [min(CONTOUR_BOUNDS[0], b[0]), min(CONTOUR_BOUNDS[1], b[1]),
                       max(CONTOUR_BOUNDS[2], b[2]), max(CONTOUR_BOUNDS[3], b[3])]
 
@@ -48,9 +58,11 @@ for r in json.load(open(REGIONS)) if os.path.exists(REGIONS) else []:
 def apply(path):
     style = json.load(open(path))
     layers = [l for l in style["layers"]
-              if not l["id"].startswith("world-") and l["id"] != "ours-cover"]
+              if not l["id"].startswith("world-") and l["id"] != "ours-cover"
+              and not str(l.get("source", "")).startswith("contours-")]
     style["sources"] = {k: v for k, v in style["sources"].items()
-                        if k not in ("world", "world-dem", "ours-cover")}
+                        if k not in ("world", "world-dem", "ours-cover")
+                        and not k.startswith("contours-")}
     style["sources"]["world"] = WORLD
     if "dem" in style["sources"]:
         style["sources"]["world-dem"] = WORLD_DEM
@@ -64,6 +76,10 @@ def apply(path):
         style["sources"]["dem"]["bounds"] = [W, S, E, N]
     if "contours" in style["sources"]:
         style["sources"]["contours"]["bounds"] = CONTOUR_BOUNDS
+        for x in EXTRA:
+            style["sources"]["contours-" + x["name"]] = {
+                **{k: v for k, v in style["sources"]["contours"].items() if k != "tiles"},
+                "tiles": [x["url"]], "bounds": x["bounds"]}
     bg = next((l for l in layers if l["type"] == "background"), None)
     has_raster_base = any(l["type"] == "raster" for l in layers)
     world = []
@@ -129,7 +145,14 @@ def apply(path):
             "paint": {"fill-color": bg["paint"]["background-color"],
                       "fill-antialias": False},
         })
-    out += rest
+    for l in rest:
+        out.append(l)
+        if l.get("source") == "contours":
+            for x in EXTRA:
+                c = copy.deepcopy(l)
+                c["id"] = f"{l['id']}-{x['name']}"
+                c["source"] = "contours-" + x["name"]
+                out.append(c)
     style["layers"] = out
     json.dump(style, open(path, "w"), indent=2, ensure_ascii=False)
     open(path, "a").write("\n")

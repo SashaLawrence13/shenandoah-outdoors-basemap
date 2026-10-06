@@ -142,6 +142,8 @@ outside the earlier regions' DEM boxes. Each run is recorded in
 styles' `contours` bounds to one bbox over every region there. To redo a
 region, restore `contours/` from git and pass `--force`.
 
+When mossback-maps nears Cloudflare's 20,000-file cap, pass `--out DIR --host maps-2`: the tiles go to DIR (deploy it with `wrangler pages deploy DIR --project-name mossback-maps-2`), `contours/` is only read, and `add_world_layers.py` gives that region its own style source `contours-<name>` and contour layer copies. The Smokies (`gs-smokies`) and New River (`nr-gorge`) are built this way.
+
 Regions so far: Shenandoah NP and the GW districts (original box), and
 the Jefferson NF Eastern Divide district (2026-10-05, 2,032 tiles added,
 2 regenerated, about 24 MB); later the Blue Ridge Parkway corridor, Warm Springs, James River and

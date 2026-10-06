@@ -65,6 +65,36 @@
       "maxzoom": 13,
       "attribution": "Terrain: Tilezen (USGS 3DEP, SRTM, GMTED)"
     },
+    "contours-gs-smokies": {
+      "type": "vector",
+      "minzoom": 10,
+      "maxzoom": 14,
+      "attribution": "Contours: USGS 3DEP",
+      "bounds": [
+        -84.12,
+        35.28,
+        -82.83,
+        35.9
+      ],
+      "tiles": [
+        "https://mossback-maps-2.pages.dev/contours/{z}/{x}/{y}.pbf"
+      ]
+    },
+    "contours-nr-gorge": {
+      "type": "vector",
+      "minzoom": 10,
+      "maxzoom": 14,
+      "attribution": "Contours: USGS 3DEP",
+      "bounds": [
+        -81.27,
+        37.4,
+        -80.73,
+        38.32
+      ],
+      "tiles": [
+        "https://mossback-maps-2.pages.dev/contours/{z}/{x}/{y}.pbf"
+      ]
+    },
     "ours-cover": {
       "type": "geojson",
       "data": {
@@ -949,9 +979,187 @@
       }
     },
     {
+      "id": "contour-minor-gs-smokies",
+      "type": "line",
+      "source": "contours-gs-smokies",
+      "source-layer": "contour",
+      "minzoom": 12.5,
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        0
+      ],
+      "paint": {
+        "line-color": "#a88660",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0.4,
+          16,
+          0.8
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0.25,
+          13,
+          0.5,
+          15,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "contour-minor-nr-gorge",
+      "type": "line",
+      "source": "contours-nr-gorge",
+      "source-layer": "contour",
+      "minzoom": 12.5,
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        0
+      ],
+      "paint": {
+        "line-color": "#a88660",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0.4,
+          16,
+          0.8
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0.25,
+          13,
+          0.5,
+          15,
+          0.6
+        ]
+      }
+    },
+    {
       "id": "contour-index",
       "type": "line",
       "source": "contours",
+      "source-layer": "contour",
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        1
+      ],
+      "paint": {
+        "line-color": "#8f6a42",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.6,
+          16,
+          1.4
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.45,
+          13,
+          0.75
+        ]
+      }
+    },
+    {
+      "id": "contour-index-gs-smokies",
+      "type": "line",
+      "source": "contours-gs-smokies",
+      "source-layer": "contour",
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        1
+      ],
+      "paint": {
+        "line-color": "#8f6a42",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.6,
+          16,
+          1.4
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0.45,
+          13,
+          0.75
+        ]
+      }
+    },
+    {
+      "id": "contour-index-nr-gorge",
+      "type": "line",
+      "source": "contours-nr-gorge",
       "source-layer": "contour",
       "filter": [
         "==",
@@ -1199,6 +1407,80 @@
       "id": "label-contour",
       "type": "symbol",
       "source": "contours",
+      "source-layer": "contour",
+      "minzoom": 12.5,
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        1
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "to-string",
+          [
+            "get",
+            "ele_ft"
+          ]
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 9.5,
+        "symbol-spacing": 320,
+        "text-max-angle": 25,
+        "text-padding": 2
+      },
+      "paint": {
+        "text-color": "#7e5b35",
+        "text-halo-color": "#f4f1e8",
+        "text-halo-width": 1.6
+      }
+    },
+    {
+      "id": "label-contour-gs-smokies",
+      "type": "symbol",
+      "source": "contours-gs-smokies",
+      "source-layer": "contour",
+      "minzoom": 12.5,
+      "filter": [
+        "==",
+        [
+          "get",
+          "idx"
+        ],
+        1
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "to-string",
+          [
+            "get",
+            "ele_ft"
+          ]
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 9.5,
+        "symbol-spacing": 320,
+        "text-max-angle": 25,
+        "text-padding": 2
+      },
+      "paint": {
+        "text-color": "#7e5b35",
+        "text-halo-color": "#f4f1e8",
+        "text-halo-width": 1.6
+      }
+    },
+    {
+      "id": "label-contour-nr-gorge",
+      "type": "symbol",
+      "source": "contours-nr-gorge",
       "source-layer": "contour",
       "minzoom": 12.5,
       "filter": [
