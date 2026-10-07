@@ -33,11 +33,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "alerts", "alerts.json")
 REGIONS_OUT = os.path.join(HERE, "..", "alerts", "regions")
 REGIONS_FILE = os.path.join(HERE, "conditions_regions.json")
-# The park codes whose alerts stay in the main alerts.json. None: every code (the feed is additive while
-# builds that read only the main file are out). Set it to NPS_PARKS (the twelve old codes) once build 11,
-# which folds in the per-region files, is on the App Store; the other parks' alerts then live only in
-# alerts/regions/<id>.json and the main file shrinks (lead's rule, 2026-10-07).
-MAIN_FILE_PARKS = None
+# The park codes whose alerts stay in the main alerts.json: set below NPS_PARKS (see there).
 
 OURS = ["lee ranger", "north river", "glenwood", "pedlar", "massanutten", "elizabeth furnace", "signal knob",
         "powells fort", "powell's fort", "taskers gap", "peters mill", "edinburg gap", "camp roosevelt", "wolf gap",
@@ -84,6 +80,11 @@ def text(s):
 # The codes the job fetched before the registry's export drove it (Shenandoah, the Parkway, the A.T., the
 # Potomac & DC units, the Smokies, New River): the fallback when conditions_regions.json is missing.
 NPS_PARKS = ["shen", "blri", "appa", "choh", "hafe", "cato", "prwi", "gwmp", "grsm", "neri", "gari", "blue"]
+# The park codes whose alerts stay in the main alerts.json. None meant every code, while builds that read
+# only the main file were out. Build 11, which folds in the per-region files, was approved on the App Store
+# 2026-10-07, so the main file keeps only the twelve old codes builds 10 and earlier know; the newer parks'
+# alerts live only in alerts/regions/<id>.json (lead's rule, 2026-10-07). None restores the additive feed.
+MAIN_FILE_PARKS = list(NPS_PARKS)
 # Not a region of its own, but Shenandoah's and the forest's Appalachian Trail hikes read its alerts.
 EXTRA_NPS_PARKS = ["appa"]
 NPS_BATCH = 10  # park codes per request
