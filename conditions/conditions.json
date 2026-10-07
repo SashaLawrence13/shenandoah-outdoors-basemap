@@ -1,12 +1,12 @@
 {
- "fetchedAt": "2026-10-07T18:20:35Z",
+ "fetchedAt": "2026-10-07T18:28:00Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (83 rows); ok (200 rows); ok (112 rows); ok (880 rows)",
-   "VIIRS_NOAA20_NRT": "ok (1 rows); ok (0 rows); ok (97 rows); ok (179 rows); ok (132 rows); ok (749 rows)",
-   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (91 rows); ok (195 rows); ok (111 rows); ok (1066 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (6 rows); ok (42 rows); ok (34 rows); ok (124 rows)"
+   "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (200 rows); ok (880 rows); ok (310 rows)",
+   "VIIRS_NOAA20_NRT": "ok (1 rows); ok (0 rows); ok (0 rows); ok (179 rows); ok (749 rows); ok (363 rows)",
+   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (195 rows); ok (1066 rows); ok (364 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (42 rows); ok (124 rows); ok (87 rows)"
   },
   "detections": [
    {
@@ -1748,6 +1748,16 @@
     "frp": 0.77,
     "day": false,
     "region": "romo"
+   },
+   {
+    "lat": 26.2795,
+    "lon": -80.1568,
+    "detected": "2026-10-07T07:33:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.87,
+    "day": false,
+    "region": "ever"
    },
    {
     "lat": 42.4806,
@@ -7430,6 +7440,12 @@
     30.737
    ],
    [
+    -82.654,
+    23.913,
+    -79.046,
+    27.087
+   ],
+   [
     -84.2,
     35.3,
     -76.2,
@@ -7450,10 +7466,10 @@
     30.737
    ],
    [
-    -121.326,
-    32.513,
-    -114.29,
-    39.337
+    -82.654,
+    23.913,
+    -79.046,
+    27.087
    ],
    [
     -126.468,
@@ -7462,16 +7478,16 @@
     50.137
    ],
    [
-    -114.394,
-    34.763,
-    -104.164,
-    46.287
-   ],
-   [
     -94.185,
     33.62,
     -75.854,
     42.62
+   ],
+   [
+    -121.326,
+    32.513,
+    -104.164,
+    46.287
    ]
   ],
   "thinned": [],
@@ -7480,8 +7496,8 @@
  "air": {
   "status": "ok",
   "sources": {
-   "airnow": "key refused (HTTP 410), stopped (0 readings; 38 of 119 centers due this run)",
-   "open-meteo": "ok (119 of 119 centers)"
+   "airnow": "key refused (HTTP 410), stopped (0 readings; 38 of 123 centers due this run)",
+   "open-meteo": "ok (123 of 123 centers)"
   },
   "observations": [
    {
@@ -18909,8 +18925,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 1.2,
-    "updated": "2026-10-07T14:18:31-04:00"
+    "windKph": 1.1,
+    "updated": "2026-10-07T14:23:43-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -18918,13 +18934,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 20.3,
-    "surfaceC": 26.0,
+    "airC": 20.6,
+    "surfaceC": 25.7,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 61.0,
+    "humidity": 59.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T14:17:18-04:00"
+    "updated": "2026-10-07T14:27:42-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -18932,13 +18948,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 24.0,
+    "airC": 24.2,
     "surfaceC": 29.9,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
     "humidity": 42.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T14:20:05-04:00"
+    "updated": "2026-10-07T14:25:17-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -18960,13 +18976,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 21.2,
-    "surfaceC": 27.8,
-    "visibilityM": 22.0,
+    "airC": 21.5,
+    "surfaceC": 28.9,
+    "visibilityM": 19.0,
     "precipRate": 0.0,
-    "humidity": 53.0,
+    "humidity": 54.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T14:16:55-04:00"
+    "updated": "2026-10-07T14:27:18-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -18974,13 +18990,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 22.7,
-    "surfaceC": 31.5,
+    "airC": 21.7,
+    "surfaceC": 30.2,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 46.0,
-    "windKph": 1.4,
-    "updated": "2026-10-07T14:19:42-04:00"
+    "humidity": 50.0,
+    "windKph": 0.8,
+    "updated": "2026-10-07T14:28:05-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -18988,13 +19004,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 26.8,
-    "surfaceC": 31.1,
+    "airC": 25.8,
+    "surfaceC": 31.5,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 34.0,
-    "windKph": 0.5,
-    "updated": "2026-10-07T14:19:42-04:00"
+    "humidity": 36.0,
+    "windKph": 1.9,
+    "updated": "2026-10-07T14:28:06-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -19002,13 +19018,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 19.5,
-    "surfaceC": 28.9,
+    "airC": 19.9,
+    "surfaceC": 28.7,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 57.0,
-    "windKph": 2.8,
-    "updated": "2026-10-07T14:19:41-04:00"
+    "humidity": 55.0,
+    "windKph": 2.1,
+    "updated": "2026-10-07T14:28:05-04:00"
    }
   ]
  },
@@ -22446,6 +22462,7 @@
   "cany",
   "care",
   "cuva",
+  "ever",
   "glac",
   "grca",
   "grte",
