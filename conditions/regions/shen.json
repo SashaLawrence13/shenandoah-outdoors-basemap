@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-07T07:50:49Z",
+ "fetchedAt": "2026-10-07T13:35:34Z",
  "region": "shen",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.8,
     "lon": -78.28,
     "pollutant": "O3",
-    "aqi": 24,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-07 3:00 local"
+    "observed": "2026-10-07 9:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -32,7 +32,7 @@
     "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-07 3:00 local"
+    "observed": "2026-10-07 9:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -47,7 +47,7 @@
     "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-07 3:00 local"
+    "observed": "2026-10-07 9:00 local"
    }
   ],
   "forecasts": [
@@ -60,7 +60,7 @@
     "source": "open-meteo",
     "date": "2026-10-07",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-08",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -89,6 +89,21 @@
     "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-07",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP central",
+    "state": "VA",
+    "near": "park-central",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-08",
     "pollutant": "O3",
     "aqi": 44,
     "category": "Good",
@@ -97,21 +112,6 @@
     "discussion": ""
    },
    {
-    "area": "Shenandoah NP central",
-    "state": "VA",
-    "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-08",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
     "area": "Shenandoah NP south",
     "state": "VA",
     "near": "park-south",
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-07",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +135,7 @@
     "source": "open-meteo",
     "date": "2026-10-08",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -279,6 +279,18 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "brdowl",
+    "name": "Barred Owl",
+    "sci": "Strix varia",
+    "count": 1,
+    "seen": "2026-10-07 02:29",
+    "place": "Shenandoah NP--Swift Run Overlook",
+    "lat": 38.34,
+    "lon": -78.559,
+    "notable": false,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "babwar",
     "name": "Bay-breasted Warbler",
     "sci": "Setophaga castanea",
@@ -373,18 +385,6 @@
     "lon": -78.617,
     "notable": false,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "blugrb1",
-    "name": "Blue Grosbeak",
-    "sci": "Passerina caerulea",
-    "count": 1,
-    "seen": "2026-09-30 08:30",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
-    "notable": false,
-    "near": "Shenandoah NP south"
    },
    {
     "code": "blujay",
@@ -1035,18 +1035,6 @@
     "near": "Shenandoah NP south"
    },
    {
-    "code": "yelwar1",
-    "name": "Northern Yellow Warbler",
-    "sci": "Setophaga aestiva",
-    "count": 1,
-    "seen": "2026-09-30 08:01",
-    "place": "Lickinghole Creek",
-    "lat": 38.06,
-    "lon": -78.668,
-    "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
     "code": "osprey",
     "name": "Osprey",
     "sci": "Pandion haliaetus",
@@ -1501,18 +1489,6 @@
     "lon": -78.457,
     "notable": false,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "yetvir",
-    "name": "Yellow-throated Vireo",
-    "sci": "Vireo flavifrons",
-    "count": 1,
-    "seen": "2026-09-30 08:01",
-    "place": "Lickinghole Creek",
-    "lat": 38.06,
-    "lon": -78.668,
-    "notable": false,
-    "near": "Shenandoah NP south"
    }
   ]
  }
