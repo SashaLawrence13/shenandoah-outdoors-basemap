@@ -97,11 +97,19 @@ jobs:
           if [ "$publish" != "yes" ]; then git checkout -- alerts park conditions ridb 2>/dev/null || true; exit 0; fi
           git config user.name "Mossback alerts bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add alerts park conditions ridb
-          git commit -m "Alerts, park data and conditions: $(date -u +%Y-%m-%dT%H:%MZ)"
-          # Other pushes (contours, scripts) can land during the 3-hourly run: rebase and retry.
-          for attempt in 1 2 3 4; do
-            git pull --rebase -q origin main && git push && exit 0
+          # The generated files are always this run's and are never merged: if another push (contours, scripts,
+          # an overlapping run) landed meanwhile, start again from the new tip and put this run's files on top.
+          # (A rebase of the old commit onto a new bot commit conflicted in the generated JSON, 2026-10-07.)
+          gen=$(mktemp -d)
+          for dir in alerts park conditions ridb; do cp -R "$dir" "$gen/"; done
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            for dir in alerts park conditions ridb; do mkdir -p "$dir" && cp -R "$gen/$dir/." "$dir/"; done
+            git add alerts park conditions ridb
+            if git diff --cached --quiet; then echo "already published by another run"; exit 0; fi
+            git commit -q -m "Alerts, park data and conditions: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push -q origin HEAD:main && exit 0
             sleep $((attempt * 5))
           done
           exit 1
