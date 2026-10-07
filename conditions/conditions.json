@@ -1,12 +1,12 @@
 {
- "fetchedAt": "2026-10-07T17:16:21Z",
+ "fetchedAt": "2026-10-07T17:27:45Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (3 rows); ok (0 rows); ok (112 rows); ok (621 rows); ok (135 rows); ok (59 rows)",
-   "VIIRS_NOAA20_NRT": "ok (10 rows); ok (1 rows); ok (142 rows); ok (476 rows); ok (119 rows); ok (66 rows)",
-   "VIIRS_NOAA21_NRT": "ok (13 rows); ok (0 rows); ok (115 rows); ok (575 rows); ok (127 rows); ok (61 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (24 rows); ok (51 rows); ok (31 rows); ok (15 rows)"
+   "VIIRS_SNPP_NRT": "ok (3 rows); ok (0 rows); ok (621 rows); ok (135 rows); ok (83 rows); ok (112 rows)",
+   "VIIRS_NOAA20_NRT": "ok (10 rows); ok (1 rows); ok (476 rows); ok (119 rows); ok (97 rows); ok (132 rows)",
+   "VIIRS_NOAA21_NRT": "ok (13 rows); ok (0 rows); ok (575 rows); ok (127 rows); ok (91 rows); ok (111 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (51 rows); ok (31 rows); ok (6 rows); ok (34 rows)"
   },
   "detections": [
    {
@@ -6220,6 +6220,12 @@
     50.137
    ],
    [
+    -111.173,
+    37.433,
+    -107.987,
+    39.987
+   ],
+   [
     -84.2,
     35.3,
     -76.2,
@@ -6240,12 +6246,6 @@
     45.33
    ],
    [
-    -121.326,
-    32.513,
-    -110.401,
-    39.337
-   ],
-   [
     -88.713,
     34.005,
     -75.854,
@@ -6258,8 +6258,14 @@
     50.137
    ],
    [
-    -112.777,
-    39.138,
+    -121.326,
+    32.513,
+    -114.29,
+    39.337
+   ],
+   [
+    -114.394,
+    34.763,
     -104.164,
     46.287
    ]
@@ -6270,8 +6276,8 @@
  "air": {
   "status": "ok",
   "sources": {
-   "airnow": "key refused (HTTP 410), stopped (0 readings; 39 of 99 centers due this run)",
-   "open-meteo": "ok (99 of 99 centers)"
+   "airnow": "key refused (HTTP 410), stopped (0 readings; 39 of 103 centers due this run)",
+   "open-meteo": "ok (103 of 103 centers)"
   },
   "observations": [
    {
@@ -17891,8 +17897,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 0.8,
-    "updated": "2026-10-07T13:16:07-04:00"
+    "windKph": 1.7,
+    "updated": "2026-10-07T13:26:31-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -17900,13 +17906,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 20.3,
-    "surfaceC": 25.9,
+    "airC": 20.0,
+    "surfaceC": 28.3,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 62.0,
+    "humidity": 68.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T13:14:54-04:00"
+    "updated": "2026-10-07T13:25:18-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -17914,13 +17920,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 22.7,
-    "surfaceC": 27.8,
+    "airC": 23.1,
+    "surfaceC": 28.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 49.0,
+    "humidity": 47.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T13:12:30-04:00"
+    "updated": "2026-10-07T13:22:53-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -17942,13 +17948,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 20.3,
-    "surfaceC": 26.7,
-    "visibilityM": 18.0,
+    "airC": 20.4,
+    "surfaceC": 27.3,
+    "visibilityM": 15.0,
     "precipRate": 0.0,
-    "humidity": 56.0,
+    "humidity": 57.0,
     "windKph": 0.0,
-    "updated": "2026-10-07T13:14:30-04:00"
+    "updated": "2026-10-07T13:24:55-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -17956,13 +17962,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 20.0,
-    "surfaceC": 29.1,
+    "airC": 21.4,
+    "surfaceC": 30.8,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 54.0,
-    "windKph": 1.4,
-    "updated": "2026-10-07T13:16:06-04:00"
+    "humidity": 50.0,
+    "windKph": 0.7,
+    "updated": "2026-10-07T13:26:53-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -17970,13 +17976,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 24.6,
-    "surfaceC": 29.4,
+    "airC": 24.3,
+    "surfaceC": 29.9,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 37.0,
-    "windKph": 2.4,
-    "updated": "2026-10-07T13:16:06-04:00"
+    "humidity": 38.0,
+    "windKph": 2.2,
+    "updated": "2026-10-07T13:26:54-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -17985,12 +17991,12 @@
     "lat": 38.660684,
     "lon": -78.318726,
     "airC": 19.3,
-    "surfaceC": 27.6,
+    "surfaceC": 28.4,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 57.0,
-    "windKph": 2.4,
-    "updated": "2026-10-07T13:16:06-04:00"
+    "humidity": 59.0,
+    "windKph": 2.6,
+    "updated": "2026-10-07T13:26:53-04:00"
    }
   ]
  },
@@ -21422,6 +21428,7 @@
  },
  "regionFiles": [
   "acad",
+  "arch",
   "brca",
   "cuva",
   "glac",
