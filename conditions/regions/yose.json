@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-07T18:28:00Z",
+ "fetchedAt": "2026-10-07T19:38:19Z",
  "region": "yose",
  "air": {
   "status": "ok",
@@ -17,7 +17,7 @@
     "aqi": 89,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-07 11:00 local"
+    "observed": "2026-10-07 12:00 local"
    },
    {
     "area": "Glacier Point",
@@ -32,7 +32,7 @@
     "aqi": 89,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-07 11:00 local"
+    "observed": "2026-10-07 12:00 local"
    },
    {
     "area": "Tuolumne Meadows",
@@ -44,10 +44,10 @@
     "lat": 37.8745,
     "lon": -119.3586,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-07 11:00 local"
+    "observed": "2026-10-07 12:00 local"
    },
    {
     "area": "Wawona and Mariposa Grove",
@@ -62,7 +62,7 @@
     "aqi": 89,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-07 11:00 local"
+    "observed": "2026-10-07 12:00 local"
    },
    {
     "area": "Hetch Hetchy",
@@ -77,7 +77,7 @@
     "aqi": 58,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-07 11:00 local"
+    "observed": "2026-10-07 12:00 local"
    }
   ],
   "forecasts": [
@@ -234,7 +234,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "gocspa",
@@ -245,6 +245,18 @@
     "place": "Mono Lake--Old Marina",
     "lat": 37.977,
     "lon": -119.134,
+    "notable": true,
+    "near": "Tuolumne Meadows"
+   },
+   {
+    "code": "horgre",
+    "name": "Horned Grebe",
+    "sci": "Podiceps auritus",
+    "count": 2,
+    "seen": "2026-10-07 10:40",
+    "place": "Grant Lake",
+    "lat": 37.855,
+    "lon": -119.107,
     "notable": true,
     "near": "Tuolumne Meadows"
    },
@@ -276,11 +288,11 @@
     "code": "acowoo",
     "name": "Acorn Woodpecker",
     "sci": "Melanerpes formicivorus",
-    "count": 5,
-    "seen": "2026-10-06 11:13",
-    "place": "Yosemite NP--Mirror Lake Trail",
-    "lat": 37.744,
-    "lon": -119.553,
+    "count": 2,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -348,11 +360,11 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 18,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "count": 8,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -453,14 +465,26 @@
     "near": "Glacier Point"
    },
    {
+    "code": "bkbmag1",
+    "name": "Black-billed Magpie",
+    "sci": "Pica hudsonia",
+    "count": 1,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
+    "notable": false,
+    "near": "Tuolumne Meadows"
+   },
+   {
     "code": "brebla",
     "name": "Brewer's Blackbird",
     "sci": "Euphagus cyanocephalus",
-    "count": 2,
-    "seen": "2026-10-06 11:44",
-    "place": "MLC Field Station",
-    "lat": 37.957,
-    "lon": -119.121,
+    "count": 50,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -589,10 +613,10 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -612,11 +636,11 @@
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 2,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "count": 3,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -624,11 +648,11 @@
     "code": "eargre",
     "name": "Eared Grebe",
     "sci": "Podiceps nigricollis",
-    "count": null,
-    "seen": "2026-10-06 14:25",
-    "place": "Mono Lake County Park",
-    "lat": 38.015,
-    "lon": -119.149,
+    "count": 500,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -648,11 +672,11 @@
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": null,
-    "seen": "2026-10-06 11:44",
-    "place": "MLC Field Station",
-    "lat": 37.957,
-    "lon": -119.121,
+    "count": 25,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -756,13 +780,13 @@
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
-    "count": 1,
-    "seen": "2026-10-04 09:34",
-    "place": "Mono Lake County Park",
-    "lat": 38.015,
-    "lon": -119.149,
+    "count": 3,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
-    "near": "Tuolumne Meadows"
+    "near": "Yosemite Valley"
    },
    {
     "code": "houfin",
@@ -789,26 +813,26 @@
     "near": "Tuolumne Meadows"
    },
    {
+    "code": "killde",
+    "name": "Killdeer",
+    "sci": "Charadrius vociferus",
+    "count": 1,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
+    "notable": false,
+    "near": "Tuolumne Meadows"
+   },
+   {
     "code": "lesgol",
     "name": "Lesser Goldfinch",
     "sci": "Spinus psaltria",
-    "count": 4,
-    "seen": "2026-10-04 07:34",
-    "place": "Sweetwater Campground",
-    "lat": 37.824,
-    "lon": -120.004,
-    "notable": false,
-    "near": "Hetch Hetchy"
-   },
-   {
-    "code": "lewwoo",
-    "name": "Lewis's Woodpecker",
-    "sci": "Melanerpes lewis",
-    "count": 1,
-    "seen": "2026-10-05 11:16",
-    "place": "Mono Lake County Park",
-    "lat": 38.015,
-    "lon": -119.149,
+    "count": 3,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -828,13 +852,13 @@
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
-    "count": 2,
-    "seen": "2026-10-04 17:46",
-    "place": "Yosemite NP--Cathedral Beach",
-    "lat": 37.724,
-    "lon": -119.625,
+    "count": 1,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "marwre",
@@ -913,24 +937,36 @@
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
     "count": 1,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "norhar2",
     "name": "Northern Harrier",
     "sci": "Circus hudsonius",
     "count": 1,
-    "seen": "2026-10-04 16:14",
+    "seen": "2026-10-07 08:03",
     "place": "Mono Lake--Old Marina",
     "lat": 37.977,
     "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
+   },
+   {
+    "code": "nopowl",
+    "name": "Northern Pygmy-Owl",
+    "sci": "Glaucidium gnoma",
+    "count": 1,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
+    "notable": false,
+    "near": "Yosemite Valley"
    },
    {
     "code": "norsho",
@@ -941,6 +977,18 @@
     "place": "Mono Lake County Park",
     "lat": 38.015,
     "lon": -119.149,
+    "notable": false,
+    "near": "Tuolumne Meadows"
+   },
+   {
+    "code": "orcwar",
+    "name": "Orange-crowned Warbler",
+    "sci": "Leiothlypis celata",
+    "count": 2,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -1056,8 +1104,8 @@
     "code": "rewbla",
     "name": "Red-winged Blackbird",
     "sci": "Agelaius phoeniceus",
-    "count": 5,
-    "seen": "2026-10-04 16:14",
+    "count": 2,
+    "seen": "2026-10-07 08:03",
     "place": "Mono Lake--Old Marina",
     "lat": 37.977,
     "lon": -119.134,
@@ -1080,8 +1128,8 @@
     "code": "rudduc",
     "name": "Ruddy Duck",
     "sci": "Oxyura jamaicensis",
-    "count": 1,
-    "seen": "2026-10-04 16:14",
+    "count": 500,
+    "seen": "2026-10-07 08:03",
     "place": "Mono Lake--Old Marina",
     "lat": 37.977,
     "lon": -119.134,
@@ -1165,10 +1213,10 @@
     "name": "Steller's Jay",
     "sci": "Cyanocitta stelleri",
     "count": 1,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "seen": "2026-10-07 07:26",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -1272,13 +1320,13 @@
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 17,
-    "seen": "2026-10-06 17:53",
-    "place": "Yosemite NP--The Ahwahnee",
-    "lat": 37.746,
-    "lon": -119.574,
+    "count": 7,
+    "seen": "2026-10-07 08:03",
+    "place": "Mono Lake--Old Marina",
+    "lat": 37.977,
+    "lon": -119.134,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "whhwoo",
@@ -1317,18 +1365,6 @@
     "near": "Yosemite Valley"
    },
    {
-    "code": "wooscj2",
-    "name": "Woodhouse's Scrub-Jay",
-    "sci": "Aphelocoma woodhouseii",
-    "count": 1,
-    "seen": "2026-09-30 14:40",
-    "place": "Lee Vining--Hess Park",
-    "lat": 37.96,
-    "lon": -119.12,
-    "notable": false,
-    "near": "Tuolumne Meadows"
-   },
-   {
     "code": "wrenti",
     "name": "Wrentit",
     "sci": "Chamaea fasciata",
@@ -1352,7 +1388,6 @@
     "notable": false,
     "near": "Wawona and Mariposa Grove"
    }
-  ],
-  "staleSince": "2026-10-07T18:28:00Z"
+  ]
  }
 }
