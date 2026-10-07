@@ -1,0 +1,750 @@
+{
+  "note": "Exported from src/config/regions.ts by src/features/conditions/conditionsRegions.test.ts (running it rewrites this file); do not edit by hand. Read by fetch_conditions.py.",
+  "firePadMiles": 60,
+  "regions": [
+    {
+      "id": "shen",
+      "name": "Shenandoah NP",
+      "states": ["VA"],
+      "side": "park",
+      "fireMiles": 30,
+      "box": [-78.9, 38.03, -77.9, 39],
+      "padMiles": 60,
+      "fireBox": [-80.011, 37.16, -76.789, 39.87],
+      "centers": [
+        {
+          "id": "park-north",
+          "name": "Shenandoah NP north",
+          "state": "VA",
+          "lat": 38.8,
+          "lng": -78.28,
+          "side": "park"
+        },
+        {
+          "id": "park-central",
+          "name": "Shenandoah NP central",
+          "state": "VA",
+          "lat": 38.53,
+          "lng": -78.44,
+          "side": "park"
+        },
+        {
+          "id": "park-south",
+          "name": "Shenandoah NP south",
+          "state": "VA",
+          "lat": 38.2,
+          "lng": -78.75,
+          "side": "park"
+        }
+      ],
+      "legacyBirds": "park",
+      "mainFile": true
+    },
+    {
+      "id": "gwnf",
+      "name": "GW & Jefferson NF",
+      "states": ["VA", "WV"],
+      "side": "forest",
+      "fireMiles": 45,
+      "box": [-83.063, 36.57, -78.276, 39.169],
+      "padMiles": 60,
+      "fireBox": [-84.165, 35.7, -77.174, 40.039],
+      "centers": [
+        {
+          "id": "lee",
+          "name": "Lee district",
+          "state": "VA",
+          "lat": 38.88,
+          "lng": -78.5,
+          "side": "forest"
+        },
+        {
+          "id": "north-river",
+          "name": "North River district",
+          "state": "VA",
+          "lat": 38.4,
+          "lng": -79.12,
+          "side": "forest"
+        },
+        {
+          "id": "glenwood-pedlar",
+          "name": "Glenwood-Pedlar district",
+          "state": "VA",
+          "lat": 37.75,
+          "lng": -79.25,
+          "side": "forest"
+        },
+        {
+          "id": "gwnf-eastern-divide",
+          "name": "Eastern Divide (Roanoke and Blacksburg)",
+          "state": "VA",
+          "lat": 37.27,
+          "lng": -80.05,
+          "side": "forest",
+          "airOnly": true
+        },
+        {
+          "id": "gwnf-warm-springs",
+          "name": "Warm Springs district",
+          "state": "VA",
+          "lat": 38.05,
+          "lng": -79.83,
+          "side": "forest",
+          "airOnly": true
+        },
+        {
+          "id": "gwnf-james-river",
+          "name": "James River district",
+          "state": "VA",
+          "lat": 37.78,
+          "lng": -79.95,
+          "side": "forest",
+          "airOnly": true
+        },
+        {
+          "id": "gwnf-mount-rogers",
+          "name": "Mount Rogers and Grayson Highlands",
+          "state": "VA",
+          "lat": 36.66,
+          "lng": -81.5,
+          "side": "forest",
+          "airOnly": true
+        }
+      ],
+      "legacyBirds": "forest",
+      "mainFile": true
+    },
+    {
+      "id": "blri",
+      "name": "Blue Ridge Parkway",
+      "states": ["VA"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-81.025, 36.425, -78.7, 38.15],
+      "padMiles": 60,
+      "fireBox": [-82.118, 35.555, -77.607, 39.02],
+      "centers": [
+        {
+          "id": "blri-rocky-knob",
+          "name": "Blue Ridge Parkway, Rocky Knob",
+          "state": "VA",
+          "lat": 36.8,
+          "lng": -80.3,
+          "side": "park",
+          "airOnly": true
+        },
+        {
+          "id": "blri-fancy-gap",
+          "name": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+          "state": "VA",
+          "lat": 36.62,
+          "lng": -80.8,
+          "side": "park",
+          "airOnly": true
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "pot",
+      "name": "Potomac & DC area",
+      "states": ["MD", "VA", "WV", "DC"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-78.85, 38.5, -76.975, 39.775],
+      "padMiles": 60,
+      "fireBox": [-79.971, 37.63, -75.854, 40.645],
+      "centers": [
+        {
+          "id": "pot-great-falls",
+          "name": "Great Falls and Washington",
+          "state": "VA",
+          "lat": 38.998,
+          "lng": -77.249,
+          "side": "forest"
+        },
+        {
+          "id": "pot-harpers-ferry",
+          "name": "Harpers Ferry",
+          "state": "WV",
+          "lat": 39.325,
+          "lng": -77.739,
+          "side": "forest"
+        },
+        {
+          "id": "pot-catoctin",
+          "name": "Catoctin Mountain",
+          "state": "MD",
+          "lat": 39.654,
+          "lng": -77.442,
+          "side": "forest"
+        },
+        {
+          "id": "pot-prince-william",
+          "name": "Prince William Forest",
+          "state": "VA",
+          "lat": 38.576,
+          "lng": -77.343,
+          "side": "forest"
+        },
+        {
+          "id": "pot-hancock",
+          "name": "C&O Canal at Hancock",
+          "state": "MD",
+          "lat": 39.7,
+          "lng": -78.18,
+          "side": "forest"
+        },
+        {
+          "id": "pot-cumberland",
+          "name": "C&O Canal at Cumberland",
+          "state": "MD",
+          "lat": 39.65,
+          "lng": -78.76,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "mon",
+      "name": "Monongahela NF",
+      "states": ["WV"],
+      "side": "forest",
+      "fireMiles": 45,
+      "box": [-80.7, 37.75, -79.2, 39.325],
+      "padMiles": 60,
+      "fireBox": [-81.812, 36.88, -78.088, 40.195],
+      "centers": [
+        {
+          "id": "mon-dolly-sods",
+          "name": "Dolly Sods and Canaan",
+          "state": "WV",
+          "lat": 39.07,
+          "lng": -79.38,
+          "side": "forest"
+        },
+        {
+          "id": "mon-spruce-knob",
+          "name": "Spruce Knob",
+          "state": "WV",
+          "lat": 38.7,
+          "lng": -79.53,
+          "side": "forest"
+        },
+        {
+          "id": "mon-cranberry",
+          "name": "Cranberry and Greenbrier",
+          "state": "WV",
+          "lat": 38.22,
+          "lng": -80.26,
+          "side": "forest"
+        },
+        {
+          "id": "mon-greenbrier-south",
+          "name": "Southern Monongahela",
+          "state": "WV",
+          "lat": 37.95,
+          "lng": -80.25,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "gs",
+      "name": "Great Smoky Mountains",
+      "states": ["TN", "NC"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-84.075, 35.325, -82.875, 35.85],
+      "padMiles": 60,
+      "fireBox": [-85.144, 34.455, -81.806, 36.72],
+      "centers": [
+        {
+          "id": "gs-sugarlands",
+          "name": "Sugarlands and Newfound Gap",
+          "state": "TN",
+          "lat": 35.69,
+          "lng": -83.45,
+          "side": "forest"
+        },
+        {
+          "id": "gs-deep-creek",
+          "name": "Deep Creek and Fontana",
+          "state": "NC",
+          "lat": 35.46,
+          "lng": -83.44,
+          "side": "forest"
+        },
+        {
+          "id": "gs-cades-cove",
+          "name": "Cades Cove",
+          "state": "TN",
+          "lat": 35.6,
+          "lng": -83.81,
+          "side": "forest"
+        },
+        {
+          "id": "gs-cataloochee",
+          "name": "Cataloochee and Big Creek",
+          "state": "NC",
+          "lat": 35.68,
+          "lng": -83.1,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "nr",
+      "name": "New River Gorge",
+      "states": ["WV"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-81.225, 37.45, -80.7, 38.275],
+      "padMiles": 60,
+      "fireBox": [-82.326, 36.58, -79.599, 39.145],
+      "centers": [
+        {
+          "id": "nr-north",
+          "name": "New River Gorge north",
+          "state": "WV",
+          "lat": 38.12,
+          "lng": -81,
+          "side": "forest"
+        },
+        {
+          "id": "nr-middle",
+          "name": "New River Gorge middle",
+          "state": "WV",
+          "lat": 37.9,
+          "lng": -80.95,
+          "side": "forest"
+        },
+        {
+          "id": "nr-south",
+          "name": "New River Gorge south",
+          "state": "WV",
+          "lat": 37.62,
+          "lng": -81,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "pn",
+      "name": "Pisgah and Nantahala NF",
+      "states": ["NC"],
+      "side": "forest",
+      "fireMiles": 45,
+      "box": [-84.375, 34.875, -81.45, 36.3],
+      "padMiles": 60,
+      "fireBox": [-85.444, 34.005, -80.381, 37.17],
+      "centers": [
+        {
+          "id": "brevard",
+          "name": "Pisgah district near Brevard",
+          "state": "NC",
+          "lat": 35.28,
+          "lng": -82.75,
+          "side": "forest"
+        },
+        {
+          "id": "black-balsam",
+          "name": "Black Balsam and Shining Rock",
+          "state": "NC",
+          "lat": 35.325,
+          "lng": -82.875,
+          "side": "forest"
+        },
+        {
+          "id": "asheville",
+          "name": "Parkway near Asheville",
+          "state": "NC",
+          "lat": 35.62,
+          "lng": -82.5,
+          "side": "forest"
+        },
+        {
+          "id": "craggy",
+          "name": "Craggy Gardens",
+          "state": "NC",
+          "lat": 35.7,
+          "lng": -82.38,
+          "side": "forest"
+        },
+        {
+          "id": "mitchell",
+          "name": "Mount Mitchell and the Black Mountains",
+          "state": "NC",
+          "lat": 35.765,
+          "lng": -82.265,
+          "side": "forest"
+        },
+        {
+          "id": "roan",
+          "name": "Roan Highlands at Carvers Gap",
+          "state": "NC",
+          "lat": 36.106,
+          "lng": -82.109,
+          "side": "forest"
+        },
+        {
+          "id": "linville",
+          "name": "Linville Gorge and Grandfather",
+          "state": "NC",
+          "lat": 35.9,
+          "lng": -81.9,
+          "side": "forest"
+        },
+        {
+          "id": "madison",
+          "name": "Hot Springs and Max Patch",
+          "state": "NC",
+          "lat": 35.89,
+          "lng": -82.82,
+          "side": "forest"
+        },
+        {
+          "id": "panthertown",
+          "name": "Panthertown and Highlands",
+          "state": "NC",
+          "lat": 35.19,
+          "lng": -83,
+          "side": "forest"
+        },
+        {
+          "id": "wayah",
+          "name": "Wayah Bald and Standing Indian",
+          "state": "NC",
+          "lat": 35.15,
+          "lng": -83.55,
+          "side": "forest"
+        },
+        {
+          "id": "cheoah",
+          "name": "Joyce Kilmer and the Cheoah district",
+          "state": "NC",
+          "lat": 35.37,
+          "lng": -83.95,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": true
+    },
+    {
+      "id": "zion",
+      "name": "Zion",
+      "states": ["UT"],
+      "side": "forest",
+      "fireMiles": 40,
+      "box": [-113.3, 37.1, -112.8, 37.55],
+      "padMiles": 60,
+      "fireBox": [-114.394, 36.23, -111.706, 38.42],
+      "centers": [
+        {
+          "id": "zion-springdale",
+          "name": "Springdale",
+          "state": "UT",
+          "lat": 37.1889,
+          "lng": -112.9986,
+          "side": "forest"
+        },
+        {
+          "id": "zion-canyon",
+          "name": "Zion Canyon (The Grotto)",
+          "state": "UT",
+          "lat": 37.259,
+          "lng": -112.9482,
+          "side": "forest"
+        },
+        {
+          "id": "zion-kolob-terrace",
+          "name": "Kolob Terrace (Lava Point)",
+          "state": "UT",
+          "lat": 37.385,
+          "lng": -113.039,
+          "side": "forest"
+        },
+        {
+          "id": "zion-kolob-canyons",
+          "name": "Kolob Canyons",
+          "state": "UT",
+          "lat": 37.4575,
+          "lng": -113.224,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "brca",
+      "name": "Bryce Canyon",
+      "states": ["UT"],
+      "side": "forest",
+      "fireMiles": 40,
+      "box": [-112.35, 37.4, -112.05, 37.75],
+      "padMiles": 60,
+      "fireBox": [-113.447, 36.53, -110.953, 38.62],
+      "centers": [
+        {
+          "id": "brca-bryce-point",
+          "name": "Bryce Amphitheater (Sunset Point)",
+          "state": "UT",
+          "lat": 37.6283,
+          "lng": -112.1667,
+          "side": "forest"
+        },
+        {
+          "id": "brca-rainbow-point",
+          "name": "Rainbow Point",
+          "state": "UT",
+          "lat": 37.467,
+          "lng": -112.2486,
+          "side": "forest"
+        },
+        {
+          "id": "brca-mossy-cave",
+          "name": "Mossy Cave (Highway 12)",
+          "state": "UT",
+          "lat": 37.7219,
+          "lng": -112.1141,
+          "side": "forest"
+        },
+        {
+          "id": "brca-fairyland",
+          "name": "Fairyland Point",
+          "state": "UT",
+          "lat": 37.649,
+          "lng": -112.133,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "jotr",
+      "name": "Joshua Tree",
+      "states": ["CA"],
+      "side": "forest",
+      "fireMiles": 60,
+      "box": [-116.45, 33.6, -115.6, 34.2],
+      "padMiles": 75,
+      "fireBox": [-117.76, 32.513, -114.29, 35.287],
+      "centers": [
+        {
+          "id": "jotr-twentynine-palms",
+          "name": "Twentynine Palms (Oasis of Mara)",
+          "state": "CA",
+          "lat": 34.1283,
+          "lng": -116.0369,
+          "side": "forest"
+        },
+        {
+          "id": "jotr-hidden-valley",
+          "name": "Hidden Valley",
+          "state": "CA",
+          "lat": 34.0126,
+          "lng": -116.1685,
+          "side": "forest"
+        },
+        {
+          "id": "jotr-keys-view",
+          "name": "Keys View",
+          "state": "CA",
+          "lat": 33.9268,
+          "lng": -116.1874,
+          "side": "forest"
+        },
+        {
+          "id": "jotr-cottonwood",
+          "name": "Cottonwood Spring",
+          "state": "CA",
+          "lat": 33.7375,
+          "lng": -115.8106,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "hosp",
+      "name": "Hot Springs",
+      "states": ["AR"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-93.13, 34.49, -93, 34.565],
+      "padMiles": 60,
+      "fireBox": [-94.185, 33.62, -91.945, 35.435],
+      "centers": [
+        {
+          "id": "hosp-bathhouse-row",
+          "name": "Bathhouse Row",
+          "state": "AR",
+          "lat": 34.5133,
+          "lng": -93.0553,
+          "side": "forest"
+        },
+        {
+          "id": "hosp-mountain-tower",
+          "name": "Hot Springs Mountain Tower",
+          "state": "AR",
+          "lat": 34.5172,
+          "lng": -93.0462,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "acad",
+      "name": "Acadia",
+      "states": ["ME"],
+      "side": "forest",
+      "fireMiles": 40,
+      "box": [-68.7, 43.99, -68, 44.46],
+      "padMiles": 60,
+      "fireBox": [-69.913, 43.12, -66.787, 45.33],
+      "centers": [
+        {
+          "id": "acad-bar-harbor",
+          "name": "Bar Harbor",
+          "state": "ME",
+          "lat": 44.3876,
+          "lng": -68.2039,
+          "side": "forest"
+        },
+        {
+          "id": "acad-cadillac-summit",
+          "name": "Cadillac Mountain summit",
+          "state": "ME",
+          "lat": 44.3526,
+          "lng": -68.2256,
+          "side": "forest"
+        },
+        {
+          "id": "acad-seawall",
+          "name": "Seawall and Southwest Harbor (west side)",
+          "state": "ME",
+          "lat": 44.2397,
+          "lng": -68.3043,
+          "side": "forest"
+        },
+        {
+          "id": "acad-schoodic",
+          "name": "Schoodic Point",
+          "state": "ME",
+          "lat": 44.3339,
+          "lng": -68.0603,
+          "side": "forest"
+        },
+        {
+          "id": "acad-isle-au-haut",
+          "name": "Duck Harbor, Isle au Haut",
+          "state": "ME",
+          "lat": 44.0431,
+          "lng": -68.6464,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "cuva",
+      "name": "Cuyahoga Valley",
+      "states": ["OH"],
+      "side": "forest",
+      "fireMiles": 30,
+      "box": [-81.7, 41.05, -81.45, 41.45],
+      "padMiles": 60,
+      "fireBox": [-82.857, 40.18, -80.293, 42.32],
+      "centers": [
+        {
+          "id": "cuva-boston-mill",
+          "name": "Boston Mill and Brandywine",
+          "state": "OH",
+          "lat": 41.2646,
+          "lng": -81.5461,
+          "side": "forest"
+        },
+        {
+          "id": "cuva-brecksville",
+          "name": "Brecksville and Station Road",
+          "state": "OH",
+          "lat": 41.317,
+          "lng": -81.624,
+          "side": "forest"
+        },
+        {
+          "id": "cuva-ledges",
+          "name": "Virginia Kendall and the Ledges",
+          "state": "OH",
+          "lat": 41.229,
+          "lng": -81.526,
+          "side": "forest"
+        },
+        {
+          "id": "cuva-hale",
+          "name": "Hale Farm and the south end",
+          "state": "OH",
+          "lat": 41.17,
+          "lng": -81.545,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    },
+    {
+      "id": "indu",
+      "name": "Indiana Dunes",
+      "states": ["IN"],
+      "side": "forest",
+      "fireMiles": 40,
+      "box": [-87.55, 41.5, -86.8, 41.75],
+      "padMiles": 60,
+      "fireBox": [-88.713, 40.63, -85.637, 42.62],
+      "centers": [
+        {
+          "id": "indu-visitor-center",
+          "name": "Dunes Visitor Center and Kemil Beach",
+          "state": "IN",
+          "lat": 41.6475,
+          "lng": -87.0519,
+          "side": "forest"
+        },
+        {
+          "id": "indu-west-beach",
+          "name": "West Beach",
+          "state": "IN",
+          "lat": 41.62,
+          "lng": -87.21,
+          "side": "forest"
+        },
+        {
+          "id": "indu-mount-baldy",
+          "name": "Mount Baldy",
+          "state": "IN",
+          "lat": 41.699,
+          "lng": -86.935,
+          "side": "forest"
+        }
+      ],
+      "legacyBirds": null,
+      "mainFile": false
+    }
+  ]
+}

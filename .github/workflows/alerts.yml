@@ -51,7 +51,7 @@ jobs:
           NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
           WINDY_WEBCAMS_KEY: ${{ secrets.WINDY_WEBCAMS_KEY }}
         run: python3 scripts/fetch_park.py
-      - name: Fetch conditions (fires, air quality, recent birds)
+      - name: Fetch conditions (fires, air quality, recent birds; per-region files from scripts/conditions_regions.json)
         env:
           FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
           AIRNOW_API_KEY: ${{ secrets.AIRNOW_API_KEY }}
@@ -71,14 +71,15 @@ jobs:
       - name: Publish if changed (or once a day, so "checked" stays fresh)
         run: |
           publish=$(python3 - <<'PY'
-          import json, os, subprocess, time
+          import glob, json, os, subprocess, time
           def strip(d):
               d = {k: v for k, v in d.items() if k != "fetchedAt"}
               for w in d.get("webcams", []):
                   w.pop("updated", None)
               return d
           changed = False
-          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json"):
+          # conditions/regions/<id>.json: one small file per region (air and birds), written by fetch_conditions.py.
+          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json"))):
               if not os.path.exists(path):
                   continue
               new = json.load(open(path))

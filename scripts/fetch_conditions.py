@@ -1,75 +1,88 @@
 #!/usr/bin/env python3
-"""Live conditions for the Mossback app, published as conditions/conditions.json
-on this repo's Pages (the keys stay in this repo's Actions secrets):
+"""Live conditions for the Mossback app, published on this repo's Pages (the keys stay in this
+repo's Actions secrets):
 
-- fires: NASA FIRMS active-fire detections (VIIRS on Suomi NPP, NOAA-20 and
-  NOAA-21, and MODIS) in the park and forest box, last 2 days. Key: FIRMS_MAP_KEY.
-  Public domain (NASA). Low-confidence detections are dropped.
-- air: EPA AirNow current observations and today's/tomorrow's forecasts
-  for reporting areas near the park and the forest's districts. Key:
-  AIRNOW_API_KEY. AirNow data is preliminary; attribution to AirNow.
-  Where AirNow does not answer (its key was refused with HTTP 410 on
-  2026-10-05) Open-Meteo's modeled US AQI (Copernicus CAMS, CC BY 4.0, no
-  key) fills in, marked source "open-meteo" on each reading.
-- birds: eBird recent (last 7 days) and notable sightings around the park
-  and the forest's districts (birds.park, birds.forest), and around the
-  Potomac, Monongahela, Smokies and New River areas (birds.byRegion.<id>).
-  Key: EBIRD_API_KEY. Observations at private
-  locations are left out; eBird already hides sensitive species.
-- roads: VDOT SmarterRoads road-weather stations (RWIS) on the passes up to
-  the park and the forest: air and pavement temperature, visibility (fog),
-  precipitation. Key: VDOT_TOKEN (the owner's SmarterRoads token).
-Run by .github/workflows/alerts.yml with the alerts.
+- conditions/conditions.json: satellite fire detections for every region; air quality and
+  recent birds for the regions the app's older builds read from this file (the `mainFile`
+  regions: Shenandoah, the forest, the Parkway, Potomac, Monongahela, Smokies, New River and
+  the Pisgah); VDOT road-weather stations and traffic.
+- conditions/regions/<id>.json: one small file per region with its air readings and forecasts
+  and its eBird list, so a phone downloads only the area it shows. The main file's
+  `regionFiles` lists the regions whose air and birds are ONLY in their own file.
+
+Which regions there are, their boxes, where their centers are (air and birds are read there)
+and how far the fire check reaches around each come from conditions_regions.json beside this
+script, exported from the app's registry (src/config/regions.ts) by
+src/features/conditions/conditionsRegions.test.ts (plan 3.5, 2026-10-07): there is no
+hand-written list of places here any more. Add a region to the registry, copy the new JSON
+here, and the job covers it on its next run.
+
+- fires: NASA FIRMS active-fire detections (VIIRS on Suomi NPP, NOAA-20 and NOAA-21, and
+  MODIS), last 2 days, queried as a few rectangles that together cover every region's fire
+  box (its data box padded by 60 miles or more) and the one box older builds read
+  (`fires.box`). Kept: detections inside any of those boxes, each tagged with its nearest
+  region. `fires.boxes` lists the boxes a query answered for, which is the only ground the app
+  may call "no fires". A region with more than FIRE_CAP detections is thinned to one per
+  0.05-degree cell and day and then to the nearest to its data box (`thinned`, `truncated`).
+  Key: FIRMS_MAP_KEY. Public domain (NASA). Low-confidence detections are dropped.
+- air: EPA AirNow current observations and today's/tomorrow's forecasts near each center.
+  AirNow allows about 500 requests an hour per key and a center costs 3, so each run reads a
+  third of the regions (md5(id) % 3 == run % 3, 8 runs a day). Key: AIRNOW_API_KEY. AirNow
+  data is preliminary; attribution to AirNow. Where AirNow does not answer (its key was
+  refused with HTTP 410 on 2026-10-05, so that is every center today) Open-Meteo's modeled
+  US AQI (Copernicus CAMS, CC BY 4.0, no key; one batched call per 40 centers) fills in,
+  marked source "open-meteo" on each reading.
+- birds: eBird recent (last 7 days) and notable sightings around each region's centers.
+  Shenandoah's and the forest's keep the old birds.park and birds.forest keys; every other
+  region's list is birds.byRegion.<id> in the main file (mainFile regions only) and
+  birds.list in the region's file. Key: EBIRD_API_KEY. Observations at private locations are
+  left out; eBird already hides sensitive species.
+- roads: VDOT SmarterRoads road-weather stations (RWIS) on the passes up to the park and the
+  forest: air and pavement temperature, visibility (fog), precipitation. Key: VDOT_TOKEN
+  (the owner's SmarterRoads token).
+Run by .github/workflows/alerts.yml with the alerts. Tests: python3 -m unittest test_fetch_conditions
+(in this folder, in the app repo's data-pipeline/alerts/).
 """
-import csv, io, json, os, sys, urllib.error, urllib.request
+import csv, hashlib, io, json, math, os, sys, time, urllib.error, urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 UA = "Mossback conditions (github.com/SashaLawrence13/shenandoah-outdoors-basemap)"
-OUT = os.path.join(os.path.dirname(__file__), "..", "conditions", "conditions.json")
-# west, south, east, north. Every region the app covers: Shenandoah, the forest districts, the Parkway,
-# Potomac and DC, Monongahela, New River Gorge and the Great Smokies (widened 2026-10-05; it used to
-# stop at Virginia's -80.2 / 37.3, which let the app read "no fires" for places the feed never looked).
-BOX = (-84.2, 35.3, -76.2, 40.0)
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "..", "conditions", "conditions.json")
+REGIONS_OUT = os.path.join(HERE, "..", "conditions", "regions")
+REGIONS_FILE = os.path.join(HERE, "conditions_regions.json")
 
-# Where people are, for air and birds.
-CENTERS = [
-    {"id": "park-north", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP north", "lat": 38.80, "lng": -78.28},
-    {"id": "park-central", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP central", "lat": 38.53, "lng": -78.44},
-    {"id": "park-south", "state": "VA", "region": "shen", "side": "park", "name": "Shenandoah NP south", "lat": 38.20, "lng": -78.75},
-    {"id": "lee", "state": "VA", "region": "gwnf", "side": "forest", "name": "Lee district", "lat": 38.88, "lng": -78.50},
-    {"id": "north-river", "state": "VA", "region": "gwnf", "side": "forest", "name": "North River district", "lat": 38.40, "lng": -79.12},
-    {"id": "glenwood-pedlar", "state": "VA", "region": "gwnf", "side": "forest", "name": "Glenwood-Pedlar district", "lat": 37.75, "lng": -79.25},
-    # Added 2026-10-05 for the four newer regions. `side` is "forest" for all of them (the app's
-    # old two-way split; their birds do NOT go in birds.forest, they go in birds.byRegion[region]).
-    # A few points per region, spread over its extent; AirNow looks 50 mi round each, eBird 25 km.
-    {"id": "pot-great-falls", "state": "VA", "region": "pot", "side": "forest", "name": "Great Falls and Washington", "lat": 38.998, "lng": -77.249},
-    {"id": "pot-harpers-ferry", "state": "WV", "region": "pot", "side": "forest", "name": "Harpers Ferry", "lat": 39.325, "lng": -77.739},
-    {"id": "pot-catoctin", "state": "MD", "region": "pot", "side": "forest", "name": "Catoctin Mountain", "lat": 39.654, "lng": -77.442},
-    {"id": "pot-prince-william", "state": "VA", "region": "pot", "side": "forest", "name": "Prince William Forest", "lat": 38.576, "lng": -77.343},
-    {"id": "pot-hancock", "state": "MD", "region": "pot", "side": "forest", "name": "C&O Canal at Hancock", "lat": 39.70, "lng": -78.18},
-    {"id": "pot-cumberland", "state": "MD", "region": "pot", "side": "forest", "name": "C&O Canal at Cumberland", "lat": 39.65, "lng": -78.76},
-    {"id": "mon-dolly-sods", "state": "WV", "region": "mon", "side": "forest", "name": "Dolly Sods and Canaan", "lat": 39.07, "lng": -79.38},
-    {"id": "mon-spruce-knob", "state": "WV", "region": "mon", "side": "forest", "name": "Spruce Knob", "lat": 38.70, "lng": -79.53},
-    {"id": "mon-cranberry", "state": "WV", "region": "mon", "side": "forest", "name": "Cranberry and Greenbrier", "lat": 38.22, "lng": -80.26},
-    {"id": "mon-greenbrier-south", "state": "WV", "region": "mon", "side": "forest", "name": "Southern Monongahela", "lat": 37.95, "lng": -80.25},
-    {"id": "gs-sugarlands", "state": "TN", "region": "gs", "side": "forest", "name": "Sugarlands and Newfound Gap", "lat": 35.69, "lng": -83.45},
-    {"id": "gs-deep-creek", "state": "NC", "region": "gs", "side": "forest", "name": "Deep Creek and Fontana", "lat": 35.46, "lng": -83.44},
-    {"id": "gs-cades-cove", "state": "TN", "region": "gs", "side": "forest", "name": "Cades Cove", "lat": 35.60, "lng": -83.81},
-    {"id": "gs-cataloochee", "state": "NC", "region": "gs", "side": "forest", "name": "Cataloochee and Big Creek", "lat": 35.68, "lng": -83.10},
-    {"id": "nr-north", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge north", "lat": 38.12, "lng": -81.00},
-    {"id": "nr-middle", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge middle", "lat": 37.90, "lng": -80.95},
-    {"id": "nr-south", "state": "WV", "region": "nr", "side": "forest", "name": "New River Gorge south", "lat": 37.62, "lng": -81.00},
-    # Added 2026-10-05 for the western forest districts and the Parkway south of Roanoke. air_only:
-    # air quality reads them, eBird does not (birds.forest stays the old three centers' list).
-    {"id": "gwnf-eastern-divide", "state": "VA", "region": "gwnf", "side": "forest", "name": "Eastern Divide (Roanoke and Blacksburg)", "lat": 37.27, "lng": -80.05, "air_only": True},
-    {"id": "gwnf-warm-springs", "state": "VA", "region": "gwnf", "side": "forest", "name": "Warm Springs district", "lat": 38.05, "lng": -79.83, "air_only": True},
-    {"id": "gwnf-james-river", "state": "VA", "region": "gwnf", "side": "forest", "name": "James River district", "lat": 37.78, "lng": -79.95, "air_only": True},
-    {"id": "gwnf-mount-rogers", "state": "VA", "region": "gwnf", "side": "forest", "name": "Mount Rogers and Grayson Highlands", "lat": 36.66, "lng": -81.50, "air_only": True},
-    {"id": "blri-rocky-knob", "state": "VA", "region": "blri", "side": "park", "name": "Blue Ridge Parkway, Rocky Knob", "lat": 36.80, "lng": -80.30, "air_only": True},
-    {"id": "blri-fancy-gap", "state": "VA", "region": "blri", "side": "park", "name": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob", "lat": 36.62, "lng": -80.80, "air_only": True},
-]
-# Regions whose birds keep the old park/forest keys; every other region's go in birds.byRegion.
-LEGACY_BIRD_REGIONS = ("shen", "gwnf")
+# The one box the job queried from 2026-10-05 to 2026-10-07 (the Smokies to the Potomac). App builds
+# from those days read `fires.box` as the checked ground, so it is still queried, kept and published.
+LEGACY_BOX = (-84.2, 35.3, -76.2, 40.0)
+BOX = LEGACY_BOX  # the traffic feeds (Virginia only) still filter by it
+FIRE_SOURCES = ("VIIRS_SNPP_NRT", "VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT", "MODIS_NRT")
+FIRE_QUERIES_MAX = 6  # the fire boxes are merged into at most this many rectangles (per source)
+FIRE_CAP = 300  # detections kept per region
+AIRNOW_SLICES = 3  # each run asks AirNow about one slice of the regions
+OPEN_METEO_BATCH = 40  # centers per Open-Meteo call
+EBIRD_PAUSE = 0.15  # seconds between centers (two eBird calls each)
+
+
+def load_regions(path=REGIONS_FILE):
+    """The registry's regions: id, name, states, side, fireMiles, box, fireBox, centers, legacyBirds, mainFile."""
+    with open(path) as f:
+        return json.load(f)["regions"]
+
+
+def centers_of(regions):
+    """Every center with its region and side; air reads all of them, eBird skips the air-only ones."""
+    out = []
+    for r in regions:
+        for c in r["centers"]:
+            out.append({"id": c["id"], "region": r["id"], "side": c["side"], "name": c["name"],
+                        "state": c.get("state", ""), "lat": c["lat"], "lng": c["lng"],
+                        "air_only": bool(c.get("airOnly"))})
+    return out
+
+
+REGIONS = load_regions() if os.path.exists(REGIONS_FILE) else []
+CENTERS = centers_of(REGIONS)
 
 
 def get(url, headers=None, timeout=60):
@@ -85,40 +98,143 @@ def safe(fn):
         return {"status": f"error: {type(e).__name__}"}
 
 
-def fires():
+def read_json(path):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+# Boxes are (west, south, east, north).
+def box_area(b):
+    return max(0.0, b[2] - b[0]) * max(0.0, b[3] - b[1])
+
+
+def box_union(a, b):
+    return (min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3]))
+
+
+def box_contains(outer, inner):
+    return outer[0] <= inner[0] and outer[1] <= inner[1] and outer[2] >= inner[2] and outer[3] >= inner[3]
+
+
+def in_box(lat, lon, b):
+    return b[1] <= lat <= b[3] and b[0] <= lon <= b[2]
+
+
+def box_miles(lat, lon, b):
+    """Miles from a point to the nearest edge of a box (0 inside it)."""
+    dlat = max(b[1] - lat, 0.0, lat - b[3])
+    dlon = max(b[0] - lon, 0.0, lon - b[2])
+    return math.hypot(dlat * 69.0, dlon * 69.0 * math.cos(math.radians(lat)))
+
+
+def merge_boxes(boxes, max_n):
+    """Merge boxes pairwise, the cheapest union first, until at most max_n are left; the result covers every input."""
+    boxes = [tuple(b) for b in boxes]
+    while len(boxes) > max_n:
+        best = None
+        for i in range(len(boxes)):
+            for j in range(i + 1, len(boxes)):
+                u = box_union(boxes[i], boxes[j])
+                cost = box_area(u) - box_area(boxes[i]) - box_area(boxes[j])
+                if best is None or cost < best[0]:
+                    best = (cost, i, j, u)
+        _, i, j, u = best
+        boxes = [b for k, b in enumerate(boxes) if k not in (i, j)] + [u]
+    return boxes
+
+
+def nearest_region(lat, lon, regions):
+    """The region whose data box the point is in or nearest to."""
+    best = None
+    for r in regions:
+        d = box_miles(lat, lon, r["box"])
+        if best is None or d < best[0]:
+            best = (d, r["id"])
+    return best[1] if best else None
+
+
+def firms_csv(key, source, box):
+    area = ",".join(str(round(v, 3)) for v in box)
+    return get(f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{key}/{source}/{area}/2").decode()
+
+
+def cap_fires(detections, regions, cap=FIRE_CAP):
+    """Keep each region's list under `cap`: a big fire is hundreds of pixels, so first one per
+    0.05-degree cell and day (the newest), then the nearest to the region's data box.
+    Returns (kept, thinned region ids, truncated region ids)."""
+    by_region = {}
+    for d in detections:
+        by_region.setdefault(d.get("region"), []).append(d)
+    boxes = {r["id"]: r["box"] for r in regions}
+    kept, thinned, truncated = [], [], []
+    for rid, items in by_region.items():
+        if len(items) > cap:
+            cells = {}
+            for d in items:
+                k = (round(d["lat"] / 0.05), round(d["lon"] / 0.05), d["detected"][:10])
+                if k not in cells or d["detected"] > cells[k]["detected"]:
+                    cells[k] = d
+            items = list(cells.values())
+            thinned.append(rid)
+        if len(items) > cap:
+            box = boxes.get(rid, LEGACY_BOX)
+            items.sort(key=lambda d: box_miles(d["lat"], d["lon"], box))
+            items = items[:cap]
+            truncated.append(rid)
+        kept.extend(items)
+    kept.sort(key=lambda d: d["detected"], reverse=True)
+    return kept, sorted(x for x in thinned if x), sorted(x for x in truncated if x)
+
+
+def fires(regions=None):
+    regions = REGIONS if regions is None else regions
     key = os.environ.get("FIRMS_MAP_KEY", "").strip()
     if not key:
         return {"status": "no-key"}
-    area = ",".join(str(v) for v in BOX)
-    out, seen, sources = [], set(), {}
-    for source in ("VIIRS_SNPP_NRT", "VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT", "MODIS_NRT"):
-        try:
-            text = get(f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{key}/{source}/{area}/2").decode()
-        except Exception as e:
-            sources[source] = f"error: {type(e).__name__}"
-            continue
-        if not text.startswith("latitude"):
-            # FIRMS answers a bad key or a busy server with a short text message.
-            sources[source] = "bad-response: " + text.strip()[:60].replace(key, "…")
-            continue
-        sources[source] = f"ok ({max(0, text.count(chr(10)) - 1)} rows)"
-        for r in csv.DictReader(io.StringIO(text)):
-            conf = (r.get("confidence") or "").strip().lower()
-            if conf in ("l", "low") or (conf.isdigit() and int(conf) < 30):
+    cover = [tuple(r["fireBox"]) for r in regions] + [LEGACY_BOX]
+    queries = merge_boxes(cover, FIRE_QUERIES_MAX)
+    out, seen, sources, answered = [], set(), {}, [False] * len(queries)
+    for source in FIRE_SOURCES:
+        notes = []
+        for qi, q in enumerate(queries):
+            try:
+                text = firms_csv(key, source, q)
+            except Exception as e:
+                notes.append(f"error: {type(e).__name__}")
                 continue
-            lat, lon = round(float(r["latitude"]), 4), round(float(r["longitude"]), 4)
-            t = (r.get("acq_time") or "0000").zfill(4)
-            when = f"{r['acq_date']}T{t[:2]}:{t[2:]}:00Z"
-            k = (round(lat, 2), round(lon, 2), r["acq_date"])
-            if k in seen:
+            if not text.startswith("latitude"):
+                # FIRMS answers a bad key or a busy server with a short text message.
+                notes.append("bad-response: " + text.strip()[:60].replace(key, "…"))
                 continue
-            seen.add(k)
-            out.append({"lat": lat, "lon": lon, "detected": when, "source": source.split("_NRT")[0],
-                        "confidence": conf, "frp": float(r["frp"]) if r.get("frp") else None,
-                        "day": r.get("daynight") == "D"})
+            answered[qi] = True
+            notes.append(f"ok ({max(0, text.count(chr(10)) - 1)} rows)")
+            for r in csv.DictReader(io.StringIO(text)):
+                conf = (r.get("confidence") or "").strip().lower()
+                if conf in ("l", "low") or (conf.isdigit() and int(conf) < 30):
+                    continue
+                lat, lon = round(float(r["latitude"]), 4), round(float(r["longitude"]), 4)
+                if not any(in_box(lat, lon, b) for b in cover):
+                    continue
+                t = (r.get("acq_time") or "0000").zfill(4)
+                when = f"{r['acq_date']}T{t[:2]}:{t[2:]}:00Z"
+                k = (round(lat, 2), round(lon, 2), r["acq_date"])
+                if k in seen:
+                    continue
+                seen.add(k)
+                out.append({"lat": lat, "lon": lon, "detected": when, "source": source.split("_NRT")[0],
+                            "confidence": conf, "frp": float(r["frp"]) if r.get("frp") else None,
+                            "day": r.get("daynight") == "D", "region": nearest_region(lat, lon, regions)})
+        sources[source] = "; ".join(notes)
     out.sort(key=lambda d: d["detected"], reverse=True)
-    good = sum(1 for v in sources.values() if v.startswith("ok"))
-    return {"status": "ok" if good else "error: no source answered", "sources": sources, "detections": out, "box": list(BOX)}
+    out, thinned, truncated = cap_fires(out, regions)
+    # A box counts as checked only when some source answered the rectangle that holds it.
+    checked = [list(b) for b in cover if any(ok and box_contains(q, b) for ok, q in zip(answered, queries))]
+    status = "ok" if any(answered) else "error: no source answered"
+    return {"status": status, "sources": sources, "detections": out, "box": list(LEGACY_BOX), "boxes": checked,
+            "queried": [list(q) for q in queries], "thinned": thinned, "truncated": truncated}
 
 
 AQI_BANDS = [(50, "Good", 1), (100, "Moderate", 2), (150, "Unhealthy for Sensitive Groups", 3),
@@ -131,16 +247,24 @@ def aqi_category(aqi):
             return name, level
 
 
-def airnow():
+def airnow_due(region_id, run=None):
+    """Whether AirNow reads this region on this run: a third of the regions each run, by a stable
+    hash of the id, so a key's hourly limit holds at 40 parks (8 runs a day, 3 slices)."""
+    run = datetime.now(timezone.utc).hour // 3 if run is None else run
+    # md5, not hash(): the same slice on every machine and run, and well mixed for short ids
+    return int(hashlib.md5(region_id.encode()).hexdigest(), 16) % AIRNOW_SLICES == run % AIRNOW_SLICES
+
+
+def airnow(centers):
     """EPA AirNow web services (key AIRNOW_API_KEY). Returns (obs, forecasts, covered center ids, note).
-    A refusal of the key itself (HTTP 401, 403, 410) stops the run at once instead of repeating it 90 times."""
+    A refusal of the key itself (HTTP 401, 403, 410) stops the run at once instead of repeating it per center."""
     key = os.environ.get("AIRNOW_API_KEY", "").strip()
     if not key:
         return [], [], set(), "no-key"
     obs, fc, areas, covered = [], [], set(), set()
     today = date.today()
     failures, why = 0, ""
-    for c in CENTERS:
+    for c in centers:
         base = f"latitude={c['lat']}&longitude={c['lng']}&distance=50&format=application/json&API_KEY={key}"
         fbase = base.replace("distance=50", "distance=150")  # forecasts cover fewer, larger areas
         try:
@@ -181,12 +305,7 @@ def airnow():
 OM_POLLUTANTS = (("us_aqi_pm2_5", "PM2.5"), ("us_aqi_ozone", "O3"), ("us_aqi_pm10", "PM10"))
 
 
-def open_meteo(centers):
-    """Modeled US AQI (Open-Meteo, from Copernicus CAMS; free, no key) for centers AirNow did not answer.
-    One reading per center (area = the center's name) and its worst pollutant, plus the daily worst for
-    today and tomorrow. These are model estimates, not monitor readings, and are marked source open-meteo."""
-    if not centers:
-        return [], []
+def open_meteo_batch(centers):
     import urllib.parse
     q = urllib.parse.urlencode({
         "latitude": ",".join(str(c["lat"]) for c in centers), "longitude": ",".join(str(c["lng"]) for c in centers),
@@ -196,39 +315,55 @@ def open_meteo(centers):
     data = json.loads(get(f"https://air-quality-api.open-meteo.com/v1/air-quality?{q}"))
     if isinstance(data, dict):
         data = [data]
+    return data
+
+
+def open_meteo(centers):
+    """Modeled US AQI (Open-Meteo, from Copernicus CAMS; free, no key) for centers AirNow did not answer,
+    OPEN_METEO_BATCH centers per call. One reading per center (area = the center's name) and its worst
+    pollutant, plus the daily worst for today and tomorrow. These are model estimates, not monitor
+    readings, and are marked source open-meteo."""
+    if not centers:
+        return [], []
     obs, fc = [], []
-    for c, r in zip(centers, data):
-        cur = r.get("current") or {}
-        if cur.get("us_aqi") is None:
-            continue
-        subs = [(cur.get(k), name) for k, name in OM_POLLUTANTS if cur.get(k) is not None]
-        aqi = int(round(cur["us_aqi"]))
-        pol = max(subs)[1] if subs else "PM2.5"
-        cat, lvl = aqi_category(aqi)
-        day, hour = cur["time"].split("T")
-        tag = {"area": c["name"], "state": c["state"], "near": c["id"], "side": c["side"], "region": c["region"], "source": "open-meteo"}
-        obs.append({**tag, "lat": c["lat"], "lon": c["lng"], "pollutant": pol, "aqi": aqi, "category": cat, "level": lvl,
-                    "observed": f"{day} {int(hour[:2])}:00 local"})
-        h = r.get("hourly") or {}
-        for d in sorted({t[:10] for t in h.get("time", [])}):
-            idx = [i for i, t in enumerate(h["time"]) if t.startswith(d) and h["us_aqi"][i] is not None]
-            if not idx:
+    for start in range(0, len(centers), OPEN_METEO_BATCH):
+        batch = centers[start:start + OPEN_METEO_BATCH]
+        data = open_meteo_batch(batch)
+        for c, r in zip(batch, data):
+            cur = r.get("current") or {}
+            if cur.get("us_aqi") is None:
                 continue
-            top = max(idx, key=lambda i: h["us_aqi"][i])
-            faqi = int(round(h["us_aqi"][top]))
-            fsubs = [(h[k][top], name) for k, name in OM_POLLUTANTS if h.get(k) and h[k][top] is not None]
-            fcat, flvl = aqi_category(faqi)
-            fc.append({**tag, "date": d, "pollutant": max(fsubs)[1] if fsubs else pol, "aqi": faqi, "category": fcat,
-                       "level": flvl, "actionDay": False, "discussion": ""})
+            subs = [(cur.get(k), name) for k, name in OM_POLLUTANTS if cur.get(k) is not None]
+            aqi = int(round(cur["us_aqi"]))
+            pol = max(subs)[1] if subs else "PM2.5"
+            cat, lvl = aqi_category(aqi)
+            day, hour = cur["time"].split("T")
+            tag = {"area": c["name"], "state": c["state"], "near": c["id"], "side": c["side"], "region": c["region"], "source": "open-meteo"}
+            obs.append({**tag, "lat": c["lat"], "lon": c["lng"], "pollutant": pol, "aqi": aqi, "category": cat, "level": lvl,
+                        "observed": f"{day} {int(hour[:2])}:00 local"})
+            h = r.get("hourly") or {}
+            for d in sorted({t[:10] for t in h.get("time", [])}):
+                idx = [i for i, t in enumerate(h["time"]) if t.startswith(d) and h["us_aqi"][i] is not None]
+                if not idx:
+                    continue
+                top = max(idx, key=lambda i: h["us_aqi"][i])
+                faqi = int(round(h["us_aqi"][top]))
+                fsubs = [(h[k][top], name) for k, name in OM_POLLUTANTS if h.get(k) and h[k][top] is not None]
+                fcat, flvl = aqi_category(faqi)
+                fc.append({**tag, "date": d, "pollutant": max(fsubs)[1] if fsubs else pol, "aqi": faqi, "category": fcat,
+                           "level": flvl, "actionDay": False, "discussion": ""})
     return obs, fc
 
 
-def air():
-    """AirNow first (official monitors and state forecasts); Open-Meteo's modeled AQI for every center AirNow
-    did not answer. AirNow's key was refused with HTTP 410 on 2026-10-05, which is why the fallback exists."""
-    obs, fc, covered, note = airnow()
-    sources = {"airnow": f"{note} ({len(obs)} readings)"}
-    missing = [c for c in CENTERS if c["id"] not in covered]
+def air(centers=None, run=None):
+    """AirNow first (official monitors and state forecasts) for this run's slice of the regions;
+    Open-Meteo's modeled AQI for every center AirNow did not answer. AirNow's key was refused
+    with HTTP 410 on 2026-10-05, which is why the fallback exists."""
+    centers = CENTERS if centers is None else centers
+    due = [c for c in centers if airnow_due(c["region"], run)]
+    obs, fc, covered, note = airnow(due)
+    sources = {"airnow": f"{note} ({len(obs)} readings; {len(due)} of {len(centers)} centers due this run)"}
+    missing = [c for c in centers if c["id"] not in covered]
     try:
         o2, f2 = open_meteo(missing)
         obs += o2
@@ -244,31 +379,38 @@ def air():
     return {"status": "ok", "sources": sources, "observations": obs, "forecasts": list(uniq.values())}
 
 
-def birds():
+def birds(centers=None, regions=None):
+    centers = CENTERS if centers is None else centers
+    regions = REGIONS if regions is None else regions
     key = os.environ.get("EBIRD_API_KEY", "").strip()
     if not key:
         return {"status": "no-key"}
     h = {"X-eBirdApiToken": key}
+    # Shenandoah's and the forest's lists keep the old park/forest keys; any failure there makes the whole
+    # source stale, as before. Every other region's list is its own, and a failure loses only that region.
+    legacy = {r["id"]: r.get("legacyBirds") for r in regions if r.get("legacyBirds")}
     sides = {"park": {}, "forest": {}}
     by_region, failed = {}, set()
-    for c in CENTERS:
+    for c in centers:
         if c.get("air_only"):
             continue
-        legacy = c["region"] in LEGACY_BIRD_REGIONS
+        side = legacy.get(c["region"])
         q = f"lat={c['lat']}&lng={c['lng']}&dist=25&back=7"
         try:
             recent = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent?{q}&maxResults=400", h))
             notable = json.loads(get(f"https://api.ebird.org/v2/data/obs/geo/recent/notable?{q}&detail=simple", h))
         except Exception:
-            if legacy:
-                raise  # unchanged: any failure for park/forest makes the whole source stale
-            failed.add(c["region"])  # a newer region: keep its last list, do not lose the others
+            if side:
+                raise
+            failed.add(c["region"])
             continue
+        if EBIRD_PAUSE:
+            time.sleep(EBIRD_PAUSE)
         rare = {o["speciesCode"] for o in notable}
         for o in recent + notable:
             if o.get("locationPrivate"):
                 continue
-            s = sides[c["side"]] if legacy else by_region.setdefault(c["region"], {})
+            s = sides[side] if side else by_region.setdefault(c["region"], {})
             prev = s.get(o["speciesCode"])
             item = {"code": o["speciesCode"], "name": o["comName"], "sci": o["sciName"], "count": o.get("howMany"),
                     "seen": o["obsDt"], "place": o["locName"], "lat": round(o["lat"], 3), "lon": round(o["lng"], 3),
@@ -279,7 +421,7 @@ def birds():
     out = {"status": "ok", **{k: order(v) for k, v in sides.items()},
            "byRegion": {r: order(v) for r, v in by_region.items()}}
     if failed:
-        out["failedRegions"] = sorted(failed)  # main() fills these from the last good copy
+        out["failedRegions"] = sorted(failed)  # assemble() fills these from the last good copies
     return out
 
 
@@ -352,7 +494,8 @@ VDOT_FEEDS = {
 }
 
 
-ANCHORS = json.load(open(os.path.join(os.path.dirname(__file__), "..", "conditions", "anchors.json")))["points"]
+ANCHORS = (read_json(os.path.join(HERE, "..", "conditions", "anchors.json"))
+           or read_json(os.path.join(HERE, "anchors.json")) or {"points": []})["points"]
 NEAR_MILES = 3.0
 
 
@@ -473,33 +616,85 @@ def pollen():
     return {"status": "ok", "places": out}
 
 
+def stale_parts(new, old, keys):
+    """Where a part failed this run but the last file had it, keep the old one marked stale."""
+    old = old or {}
+    for k in keys:
+        if str((new.get(k) or {}).get("status", "")).startswith("error") and (old.get(k) or {}).get("status") in ("ok", "stale"):
+            new[k] = {**old[k], "status": "stale", "staleSince": new["fetchedAt"]}
+    return new
+
+
+def region_file(now, region, air_out, birds_out):
+    """One region's file: its air readings and forecasts and its bird list."""
+    rid = region["id"]
+    obs = [o for o in (air_out.get("observations") or []) if o.get("region") == rid]
+    fc = [f for f in (air_out.get("forecasts") or []) if f.get("region") == rid]
+    a_status = str(air_out.get("status", "error"))
+    if a_status == "ok" and not obs:
+        a_status = "error: no reading for the region"  # the sources answered, but not for these centers
+    side = region.get("legacyBirds")
+    b_list = birds_out.get(side) if side else (birds_out.get("byRegion") or {}).get(rid)
+    b_status = str(birds_out.get("status", "error"))
+    if b_status == "ok" and b_list is None:
+        b_status = "error: no list for the region"
+    return {"fetchedAt": now, "region": rid,
+            "air": {"status": a_status, "observations": obs, "forecasts": fc},
+            "birds": {"status": b_status, "list": b_list or []}}
+
+
+def assemble(now, parts, regions, old_main=None, old_region=None):
+    """The main file and every region's file from one run's parts (fires, air, birds, roads, traffic).
+    `old_main` is the last main file; `old_region(id)` the last file of a region (for stale fallbacks)."""
+    old_main = old_main or {}
+    old_region = old_region or (lambda rid: None)
+    main_ids = {r["id"] for r in regions if r.get("mainFile")}
+    air_out = parts["air"] if isinstance(parts.get("air"), dict) else {"status": "error"}
+    birds_out = dict(parts["birds"]) if isinstance(parts.get("birds"), dict) else {"status": "error"}
+    failed_birds = birds_out.pop("failedRegions", [])
+    files = {}
+    for r in regions:
+        files[r["id"]] = stale_parts(region_file(now, r, air_out, birds_out), old_region(r["id"]), ("air", "birds"))
+    main_air = {**air_out, "observations": [o for o in (air_out.get("observations") or []) if o.get("region") in main_ids],
+                "forecasts": [f for f in (air_out.get("forecasts") or []) if f.get("region") in main_ids]}
+    by_region = {k: v for k, v in (birds_out.get("byRegion") or {}).items() if k in main_ids}
+    # Some main-file regions' eBird calls failed: keep their last list rather than publish none.
+    for rid in failed_birds:
+        if rid in main_ids:
+            prev = ((old_main.get("birds") or {}).get("byRegion") or {}).get(rid)
+            if prev:
+                by_region[rid] = prev
+    main_birds = {**birds_out, "byRegion": by_region} if birds_out.get("status") == "ok" else birds_out
+    main = {"fetchedAt": now, "fires": parts["fires"], "air": main_air, "birds": main_birds, "roads": parts["roads"],
+            "traffic": parts.get("traffic"), "regionFiles": sorted(r["id"] for r in regions if r["id"] not in main_ids)}
+    return stale_parts(main, old_main, ("fires", "air", "birds", "roads")), files
+
+
 def main():
-    out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
-    out["traffic"] = safe(vdot)
+    if not REGIONS:
+        print("no regions: conditions_regions.json is missing beside this script", file=sys.stderr)
+        return 1
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    parts = {"fires": safe(fires), "air": safe(air), "birds": safe(birds), "roads": safe(roads)}
     for k in ("fires", "air", "birds", "roads"):
-        print("fetched", k, str(out[k].get("status"))[:200])
+        print("fetched", k, str(parts[k].get("status"))[:200])
+    parts["traffic"] = safe(vdot)
     # Pollen: Tomorrow.io's free plan refuses the pollen fields (HTTP 403 "fields are not
     # allowed", 2026-09-23), so pollen() stays unused until there's a plan that includes them.
-    failed_birds = out["birds"].pop("failedRegions", []) if isinstance(out["birds"], dict) else []
-    if os.path.exists(OUT):
-        try:
-            old = json.load(open(OUT))
-        except ValueError:
-            old = {}
-        # Some newer regions' eBird calls failed: keep their last list rather than publish none.
-        for r in failed_birds:
-            prev_list = (old.get("birds", {}).get("byRegion") or {}).get(r)
-            if prev_list:
-                out["birds"].setdefault("byRegion", {})[r] = prev_list
-        for k in ("fires", "air", "birds", "roads", "pollen"):
-            if str(out.get(k, {}).get("status", "")).startswith("error") and old.get(k, {}).get("status") in ("ok", "stale"):
-                out[k] = {**old[k], "status": "stale", "staleSince": out["fetchedAt"]}
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
+    out, files = assemble(now, parts, REGIONS, read_json(OUT),
+                          lambda rid: read_json(os.path.join(REGIONS_OUT, f"{rid}.json")))
+    os.makedirs(REGIONS_OUT, exist_ok=True)
+    with open(OUT, "w") as f:
+        json.dump(out, f, indent=1, ensure_ascii=False)
+    for rid, data in files.items():
+        with open(os.path.join(REGIONS_OUT, f"{rid}.json"), "w") as f:
+            json.dump(data, f, indent=1, ensure_ascii=False)
     summary = {k: (v.get("status"), {kk: len(vv) for kk, vv in v.items() if isinstance(vv, list)}) for k, v in out.items() if isinstance(v, dict)}
     print(summary)
-    print("fire sources:", out["fires"].get("sources"))
+    print("fire sources:", out["fires"].get("sources"), "boxes:", len(out["fires"].get("boxes") or []),
+          "thinned:", out["fires"].get("thinned"), "truncated:", out["fires"].get("truncated"))
+    print("region files:", {rid: (d["air"]["status"], len(d["air"]["observations"]), d["birds"]["status"], len(d["birds"]["list"]))
+                            for rid, d in files.items()})
     for k, v in (out.get("traffic") or {}).items():
         if isinstance(v, dict):
             items = v.get("items") or []
