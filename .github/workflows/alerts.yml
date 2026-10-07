@@ -78,8 +78,8 @@ jobs:
                   w.pop("updated", None)
               return d
           changed = False
-          # conditions/regions/<id>.json: one small file per region (air and birds), written by fetch_conditions.py.
-          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json"))):
+          # conditions/regions/<id>.json (air and birds) and alerts/regions/<id>.json (park alerts): one small file per region.
+          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json") + glob.glob("alerts/regions/*.json"))):
               if not os.path.exists(path):
                   continue
               new = json.load(open(path))

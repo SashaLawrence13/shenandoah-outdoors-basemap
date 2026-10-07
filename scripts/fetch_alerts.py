@@ -13,7 +13,11 @@ them without an API key.
   entry and a copy of the export, never a code change here. `nps.parks`
   lists the codes that answered (the app says "not connected yet" for a
   region whose code is missing), `nps.errors` the batches that did not.
-  Without a key this part is skipped and marked so.
+  Beside the main file, alerts/regions/<id>.json carries each region's own
+  park alerts (`{fetchedAt, region, nps: {status, parks, alerts}}`), listed
+  in the main file's `regionFiles`; the app prefers a region's file for its
+  parks when present, and the main file keeps every code until
+  MAIN_FILE_PARKS narrows it. Without a key this part is skipped and marked so.
 - George Washington & Jefferson NF: its alerts page
   (fs.usda.gov/r08/gwj/alerts), which has no feed. Each alert is tagged
   "ours" (names a place in the app's Lee, North River, Glenwood-Pedlar,
@@ -27,7 +31,13 @@ from datetime import datetime, timezone
 UA = "Mossback alerts (github.com/SashaLawrence13/shenandoah-outdoors-basemap)"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "alerts", "alerts.json")
+REGIONS_OUT = os.path.join(HERE, "..", "alerts", "regions")
 REGIONS_FILE = os.path.join(HERE, "conditions_regions.json")
+# The park codes whose alerts stay in the main alerts.json. None: every code (the feed is additive while
+# builds that read only the main file are out). Set it to NPS_PARKS (the twelve old codes) once build 11,
+# which folds in the per-region files, is on the App Store; the other parks' alerts then live only in
+# alerts/regions/<id>.json and the main file shrinks (lead's rule, 2026-10-07).
+MAIN_FILE_PARKS = None
 
 OURS = ["lee ranger", "north river", "glenwood", "pedlar", "massanutten", "elizabeth furnace", "signal knob",
         "powells fort", "powell's fort", "taskers gap", "peters mill", "edinburg gap", "camp roosevelt", "wolf gap",
@@ -161,22 +171,81 @@ def forest():
     return {"status": "ok" if alerts else "empty", "alerts": alerts}
 
 
+def read_json(path):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+def stale_part(new, old, key, now):
+    """Keep the last good copy of a part that failed this time, marked stale."""
+    if str(new.get(key, {}).get("status", "")).startswith("error") and (old or {}).get(key, {}).get("status") in ("ok", "stale"):
+        new[key] = {**old[key], "status": "stale", "staleSince": now}
+    return new
+
+
+def region_file(now, region, nps_out):
+    """One region's alerts file: the NPS alerts of its park codes, and which of its codes answered.
+    The app prefers it to the main file for those parks when it is present (plan 3.4, per-region files)."""
+    codes = (region.get("alerts") or {}).get("npsParks") or []
+    status = str(nps_out.get("status", "error"))
+    answered = [c for c in codes if c in (nps_out.get("parks") or [])]
+    if status == "ok" and codes and not answered:
+        status = "error: none of %s answered" % ",".join(codes)
+    return {"fetchedAt": now, "region": region["id"],
+            "nps": {"status": status, "parks": answered,
+                    "alerts": [a for a in (nps_out.get("alerts") or []) if a.get("park") in answered]}}
+
+
+def assemble(now, parts, regions, old_main=None, old_region=None):
+    """The main file (every source, every code unless MAIN_FILE_PARKS narrows it) and one file per region
+    that has park codes; `old_main` and `old_region(id)` are the last published copies, for stale fallbacks."""
+    old_region = old_region or (lambda rid: None)
+    nps_out = parts.get("nps") or {"status": "error", "alerts": []}
+    files = {}
+    for r in regions:
+        if not (r.get("alerts") or {}).get("npsParks"):
+            continue
+        files[r["id"]] = stale_part(region_file(now, r, nps_out), old_region(r["id"]), "nps", now)
+    main_nps = nps_out
+    if MAIN_FILE_PARKS is not None and nps_out.get("status") == "ok":
+        keep = [c for c in nps_out.get("parks") or [] if c in MAIN_FILE_PARKS]
+        main_nps = {**nps_out, "parks": keep, "alerts": [a for a in nps_out.get("alerts") or [] if a.get("park") in keep]}
+    out = {"fetchedAt": now, "nps": main_nps, "forest": parts.get("forest") or {"status": "error", "alerts": []},
+           "regionFiles": sorted(files)}
+    for key in ("nps", "forest"):
+        stale_part(out, old_main, key, now)
+    return out, files
+
+
 def main():
-    out = {"fetchedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    parts = {}
     for name, fn in (("nps", lambda: nps(os.environ.get("NPS_API_KEY", "").strip())), ("forest", forest)):
         try:
-            out[name] = fn()
+            parts[name] = fn()
         except Exception as e:  # keep the other half if one source fails
-            out[name] = {"status": f"error: {type(e).__name__}", "alerts": []}
-    # Keep the last good copy of a source that failed this time.
-    if os.path.exists(OUT):
-        old = json.load(open(OUT))
-        for name in ("nps", "forest"):
-            if out[name]["status"].startswith("error") and old.get(name, {}).get("status") == "ok":
-                out[name] = {**old[name], "status": "stale", "staleSince": out["fetchedAt"]}
+            parts[name] = {"status": f"error: {type(e).__name__}", "alerts": []}
+    regions = []
+    try:
+        with open(REGIONS_FILE) as f:
+            regions = json.load(f)["regions"]
+    except (OSError, ValueError, KeyError):
+        print("no conditions_regions.json beside the script: main file only", file=sys.stderr)
+    out, files = assemble(now, parts, regions, read_json(OUT),
+                          lambda rid: read_json(os.path.join(REGIONS_OUT, f"{rid}.json")))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    json.dump(out, open(OUT, "w"), indent=1, ensure_ascii=False)
+    with open(OUT, "w") as f:
+        json.dump(out, f, indent=1, ensure_ascii=False)
+    if files:
+        os.makedirs(REGIONS_OUT, exist_ok=True)
+        for rid, data in files.items():
+            with open(os.path.join(REGIONS_OUT, f"{rid}.json"), "w") as f:
+                json.dump(data, f, indent=1, ensure_ascii=False)
     print({k: (v["status"], len(v["alerts"])) for k, v in out.items() if isinstance(v, dict)})
+    print("region files:", {rid: (d["nps"]["status"], len(d["nps"]["parks"]), len(d["nps"]["alerts"])) for rid, d in files.items()})
 
 
 if __name__ == "__main__":
