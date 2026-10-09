@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-09T10:43:03Z",
+ "fetchedAt": "2026-10-09T18:25:28Z",
  "region": "jotr",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 34.1283,
     "lon": -116.0369,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-09 3:00 local"
+    "observed": "2026-10-09 11:00 local"
    },
    {
     "area": "Hidden Valley",
@@ -29,10 +29,10 @@
     "lat": 34.0126,
     "lon": -116.1685,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-09 3:00 local"
+    "observed": "2026-10-09 11:00 local"
    },
    {
     "area": "Keys View",
@@ -44,10 +44,10 @@
     "lat": 33.9268,
     "lon": -116.1874,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-09 3:00 local"
+    "observed": "2026-10-09 11:00 local"
    },
    {
     "area": "Cottonwood Spring",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 33.7375,
     "lon": -115.8106,
-    "pollutant": "O3",
-    "aqi": 32,
+    "pollutant": "PM2.5",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-09 3:00 local"
+    "observed": "2026-10-09 11:00 local"
    }
   ],
   "forecasts": [
@@ -556,12 +556,12 @@
     "name": "Black-throated Sparrow",
     "sci": "Amphispiza bilineata",
     "count": 1,
-    "seen": "2026-10-08 10:24",
-    "place": "Joshua Tree NP--Barker Dam area",
-    "lat": 34.031,
-    "lon": -116.146,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "brebla",
@@ -580,12 +580,12 @@
     "name": "Brewer's Sparrow",
     "sci": "Spizella breweri",
     "count": 1,
-    "seen": "2026-10-08 09:40",
-    "place": "Roadrunner Dunes Golf Course",
-    "lat": 34.17,
-    "lon": -116.04,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "bnhcow",
@@ -603,11 +603,11 @@
     "code": "cacwre",
     "name": "Cactus Wren",
     "sci": "Campylorhynchus brunneicapillus",
-    "count": 2,
-    "seen": "2026-10-04 17:30",
-    "place": "Joshua Tree NP--Cottonwood Spring",
-    "lat": 33.737,
-    "lon": -115.81,
+    "count": 3,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
     "near": "Cottonwood Spring"
    },
@@ -759,11 +759,11 @@
     "code": "gamqua",
     "name": "Gambel's Quail",
     "sci": "Callipepla gambelii",
-    "count": 1,
-    "seen": "2026-10-08 14:25",
-    "place": "Joshua Tree NP--Cottonwood Spring",
-    "lat": 33.737,
-    "lon": -115.81,
+    "count": 15,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
     "near": "Cottonwood Spring"
    },
@@ -788,6 +788,18 @@
     "place": "Roadrunner Dunes Golf Course",
     "lat": 34.17,
     "lon": -116.04,
+    "notable": false,
+    "near": "Twentynine Palms (Oasis of Mara)"
+   },
+   {
+    "code": "greegr",
+    "name": "Great Egret",
+    "sci": "Ardea alba",
+    "count": 3,
+    "seen": "2026-10-08 09:20",
+    "place": "Twentynine Palms WTP",
+    "lat": 34.163,
+    "lon": -116.041,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
    },
@@ -828,18 +840,6 @@
     "near": "Hidden Valley"
    },
    {
-    "code": "grnher",
-    "name": "Green Heron",
-    "sci": "Butorides virescens",
-    "count": 1,
-    "seen": "2026-10-02 08:36",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
-    "notable": false,
-    "near": "Hidden Valley"
-   },
-   {
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
@@ -867,13 +867,13 @@
     "code": "houfin",
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
-    "count": 3,
-    "seen": "2026-10-08 12:42",
-    "place": "Knott Sky Park",
-    "lat": 34.128,
-    "lon": -116.083,
+    "count": 5,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "houspa",
@@ -964,7 +964,7 @@
     "name": "Loggerhead Shrike",
     "sci": "Lanius ludovicianus",
     "count": 1,
-    "seen": "2026-10-05 18:17",
+    "seen": "2026-10-09 07:57",
     "place": "Joshua Tree NP--Cottonwood Campground",
     "lat": 33.745,
     "lon": -115.813,
@@ -1395,13 +1395,13 @@
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 5,
-    "seen": "2026-10-08 11:07",
-    "place": "29 Palms Inn",
-    "lat": 34.13,
-    "lon": -116.049,
+    "count": 3,
+    "seen": "2026-10-09 07:57",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "whwdov",
