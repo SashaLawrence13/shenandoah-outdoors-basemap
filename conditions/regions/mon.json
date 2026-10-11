@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-11T05:59:24Z",
+ "fetchedAt": "2026-10-11T13:04:07Z",
  "region": "mon",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "PM2.5",
-    "aqi": 60,
+    "aqi": 52,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-11 1:00 local"
+    "observed": "2026-10-11 9:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 38.7,
     "lon": -79.53,
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-11 1:00 local"
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-11 9:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 38.22,
     "lon": -80.26,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 1:00 local"
+    "observed": "2026-10-11 9:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 37.95,
     "lon": -80.25,
-    "pollutant": "PM2.5",
-    "aqi": 48,
+    "pollutant": "O3",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 1:00 local"
+    "observed": "2026-10-11 9:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-11",
     "pollutant": "PM2.5",
-    "aqi": 60,
+    "aqi": 58,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-10-11",
     "pollutant": "PM2.5",
-    "aqi": 54,
+    "aqi": 52,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 28,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -134,8 +134,8 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 46,
+    "pollutant": "O3",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-10-11",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -324,18 +324,6 @@
     "near": "Spruce Knob"
    },
    {
-    "code": "bkcchi",
-    "name": "Black-capped Chickadee",
-    "sci": "Poecile atricapillus",
-    "count": 1,
-    "seen": "2026-10-09 17:23",
-    "place": "Beartown SP",
-    "lat": 38.061,
-    "lon": -80.283,
-    "notable": false,
-    "near": "Cranberry and Greenbrier"
-   },
-   {
     "code": "btnwar",
     "name": "Black-throated Green Warbler",
     "sci": "Setophaga virens",
@@ -358,6 +346,18 @@
     "lon": -79.313,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "blujay",
+    "name": "Blue Jay",
+    "sci": "Cyanocitta cristata",
+    "count": 1,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
+    "notable": false,
+    "near": "Spruce Knob"
    },
    {
     "code": "buwtea",
@@ -408,28 +408,28 @@
     "near": "Dolly Sods and Canaan"
    },
    {
+    "code": "carchi",
+    "name": "Carolina Chickadee",
+    "sci": "Poecile carolinensis",
+    "count": 2,
+    "seen": "2026-10-10 09:51",
+    "place": "Monongahela NF--Cranberry Glades Boardwalk",
+    "lat": 38.199,
+    "lon": -80.273,
+    "notable": false,
+    "near": "Cranberry and Greenbrier"
+   },
+   {
     "code": "cedwax",
     "name": "Cedar Waxwing",
     "sci": "Bombycilla cedrorum",
-    "count": 13,
-    "seen": "2026-10-07 07:02",
-    "place": "Allegheny Front Migration Observatory--Red Creek CG",
-    "lat": 39.034,
-    "lon": -79.313,
+    "count": 6,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
     "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "chispa",
-    "name": "Chipping Sparrow",
-    "sci": "Spizella passerina",
-    "count": 3,
-    "seen": "2026-10-10 07:45",
-    "place": "Humpback Bridge Wayside",
-    "lat": 37.8,
-    "lon": -80.047,
-    "notable": false,
-    "near": "Southern Monongahela"
+    "near": "Spruce Knob"
    },
    {
     "code": "commer",
@@ -442,6 +442,18 @@
     "lon": -79.126,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "comrav",
+    "name": "Common Raven",
+    "sci": "Corvus corax",
+    "count": 1,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
+    "notable": false,
+    "near": "Spruce Knob"
    },
    {
     "code": "coohaw",
@@ -490,6 +502,18 @@
     "lon": -79.418,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "eastow",
+    "name": "Eastern Towhee",
+    "sci": "Pipilo erythrophthalmus",
+    "count": 1,
+    "seen": "2026-10-10 09:51",
+    "place": "Monongahela NF--Cranberry Glades Boardwalk",
+    "lat": 38.199,
+    "lon": -80.273,
+    "notable": false,
+    "near": "Cranberry and Greenbrier"
    },
    {
     "code": "eawpew",
@@ -544,12 +568,12 @@
     "name": "Gray Catbird",
     "sci": "Dumetella carolinensis",
     "count": 1,
-    "seen": "2026-10-07 07:02",
-    "place": "Allegheny Front Migration Observatory--Red Creek CG",
-    "lat": 39.034,
-    "lon": -79.313,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
     "notable": false,
-    "near": "Dolly Sods and Canaan"
+    "near": "Spruce Knob"
    },
    {
     "code": "gycthr",
@@ -670,6 +694,18 @@
     "lon": -79.313,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "norcar",
+    "name": "Northern Cardinal",
+    "sci": "Cardinalis cardinalis",
+    "count": 1,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
+    "notable": false,
+    "near": "Spruce Knob"
    },
    {
     "code": "norfli",
@@ -816,6 +852,18 @@
     "near": "Spruce Knob"
    },
    {
+    "code": "rebwoo",
+    "name": "Red-bellied Woodpecker",
+    "sci": "Melanerpes carolinus",
+    "count": 1,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
+    "notable": false,
+    "near": "Spruce Knob"
+   },
+   {
     "code": "rebnut",
     "name": "Red-breasted Nuthatch",
     "sci": "Sitta canadensis",
@@ -850,6 +898,18 @@
     "lon": -79.313,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "reshaw",
+    "name": "Red-shouldered Hawk",
+    "sci": "Buteo lineatus",
+    "count": 1,
+    "seen": "2026-10-10 09:51",
+    "place": "Monongahela NF--Cranberry Glades Boardwalk",
+    "lat": 38.199,
+    "lon": -80.273,
+    "notable": false,
+    "near": "Cranberry and Greenbrier"
    },
    {
     "code": "rethaw",
@@ -891,8 +951,8 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-10-08 16:33",
+    "count": 3,
+    "seen": "2026-10-10 09:51",
     "place": "Monongahela NF--Cranberry Glades Boardwalk",
     "lat": 38.199,
     "lon": -80.273,
@@ -948,16 +1008,28 @@
     "near": "Dolly Sods and Canaan"
    },
    {
+    "code": "tuftit",
+    "name": "Tufted Titmouse",
+    "sci": "Baeolophus bicolor",
+    "count": 2,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
+    "notable": false,
+    "near": "Spruce Knob"
+   },
+   {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
-    "count": 2,
-    "seen": "2026-10-09 14:58",
-    "place": "Canaan Valley NWR--Beall Tract (south of Beall Loop)",
-    "lat": 39.06,
-    "lon": -79.418,
+    "count": 7,
+    "seen": "2026-10-10 16:12",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
     "notable": false,
-    "near": "Dolly Sods and Canaan"
+    "near": "Spruce Knob"
    },
    {
     "code": "whcspa",
@@ -970,6 +1042,18 @@
     "lon": -79.454,
     "notable": false,
     "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "whtspa",
+    "name": "White-throated Sparrow",
+    "sci": "Zonotrichia albicollis",
+    "count": 2,
+    "seen": "2026-10-10 09:51",
+    "place": "Monongahela NF--Cranberry Glades Boardwalk",
+    "lat": 38.199,
+    "lon": -80.273,
+    "notable": false,
+    "near": "Cranberry and Greenbrier"
    },
    {
     "code": "winwre3",
