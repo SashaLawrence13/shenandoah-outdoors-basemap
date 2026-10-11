@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-11T13:04:07Z",
+ "fetchedAt": "2026-10-11T19:36:05Z",
  "region": "yose",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.7459,
     "lon": -119.5936,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 6:00 local"
+    "observed": "2026-10-11 12:00 local"
    },
    {
     "area": "Glacier Point",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 37.7305,
     "lon": -119.5742,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 6:00 local"
+    "observed": "2026-10-11 12:00 local"
    },
    {
     "area": "Tuolumne Meadows",
@@ -44,10 +44,10 @@
     "lat": 37.8745,
     "lon": -119.3586,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 6:00 local"
+    "observed": "2026-10-11 12:00 local"
    },
    {
     "area": "Wawona and Mariposa Grove",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 37.5372,
     "lon": -119.6548,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 6:00 local"
+    "observed": "2026-10-11 12:00 local"
    },
    {
     "area": "Hetch Hetchy",
@@ -74,10 +74,10 @@
     "lat": 37.9475,
     "lon": -119.787,
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 6:00 local"
+    "observed": "2026-10-11 12:00 local"
    }
   ],
   "forecasts": [
@@ -237,6 +237,18 @@
   "status": "ok",
   "list": [
    {
+    "code": "gocspa",
+    "name": "Golden-crowned Sparrow",
+    "sci": "Zonotrichia atricapilla",
+    "count": 3,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
+    "notable": true,
+    "near": "Tuolumne Meadows"
+   },
+   {
     "code": "horgre",
     "name": "Horned Grebe",
     "sci": "Podiceps auritus",
@@ -276,23 +288,23 @@
     "code": "acowoo",
     "name": "Acorn Woodpecker",
     "sci": "Melanerpes formicivorus",
-    "count": 6,
-    "seen": "2026-10-10 17:46",
-    "place": "Yosemite NP--El Capitan Meadow",
-    "lat": 37.724,
-    "lon": -119.635,
+    "count": 4,
+    "seen": "2026-10-09 08:30",
+    "place": "Yosemite NP--Mirror Lake Trail",
+    "lat": 37.744,
+    "lon": -119.553,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "ameavo",
     "name": "American Avocet",
     "sci": "Recurvirostra americana",
-    "count": null,
-    "seen": "2026-10-09 13:30",
-    "place": "Mono Lake--Old Marina",
-    "lat": 37.977,
-    "lon": -119.134,
+    "count": 3,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -319,18 +331,6 @@
     "lon": -119.468,
     "notable": false,
     "near": "Yosemite Valley"
-   },
-   {
-    "code": "amedip",
-    "name": "American Dipper",
-    "sci": "Cinclus mexicanus",
-    "count": 1,
-    "seen": "2026-10-09 06:48",
-    "place": "Yosemite NP--Wawona-Swinging Bridge",
-    "lat": 37.541,
-    "lon": -119.623,
-    "notable": false,
-    "near": "Wawona and Mariposa Grove"
    },
    {
     "code": "amegfi",
@@ -438,7 +438,7 @@
     "lat": 37.835,
     "lon": -119.847,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "bkbwoo",
@@ -457,10 +457,10 @@
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
     "count": 1,
-    "seen": "2026-10-07 08:03",
-    "place": "Mono Lake--Old Marina",
-    "lat": 37.977,
-    "lon": -119.134,
+    "seen": "2026-10-11 09:55",
+    "place": "Cain Ranch (restricted access)",
+    "lat": 37.893,
+    "lon": -119.098,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -498,7 +498,7 @@
     "lat": 37.822,
     "lon": -119.85,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "calgul",
@@ -523,30 +523,6 @@
     "lon": -119.149,
     "notable": false,
     "near": "Tuolumne Meadows"
-   },
-   {
-    "code": "cowscj1",
-    "name": "California Scrub-Jay",
-    "sci": "Aphelocoma californica",
-    "count": 2,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
-    "notable": false,
-    "near": "Wawona and Mariposa Grove"
-   },
-   {
-    "code": "caltow",
-    "name": "California Towhee",
-    "sci": "Melozone crissalis",
-    "count": 1,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
-    "notable": false,
-    "near": "Wawona and Mariposa Grove"
    },
    {
     "code": "canwre",
@@ -636,13 +612,13 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-10-10 17:46",
-    "place": "Yosemite NP--El Capitan Meadow",
-    "lat": 37.724,
-    "lon": -119.635,
+    "count": 4,
+    "seen": "2026-10-10 15:34",
+    "place": "Ackerson Meadow",
+    "lat": 37.835,
+    "lon": -119.847,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "coohaw",
@@ -684,11 +660,11 @@
     "code": "eargre",
     "name": "Eared Grebe",
     "sci": "Podiceps nigricollis",
-    "count": 1,
-    "seen": "2026-10-10 13:35",
-    "place": "Saddlebag Lake Trail",
-    "lat": 37.982,
-    "lon": -119.284,
+    "count": null,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -708,13 +684,13 @@
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": 1,
-    "seen": "2026-10-10 17:37",
-    "place": "El Portal vicinity",
-    "lat": 37.674,
-    "lon": -119.786,
+    "count": null,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "evegro",
@@ -765,18 +741,6 @@
     "near": "Yosemite Valley"
    },
    {
-    "code": "gocspa",
-    "name": "Golden-crowned Sparrow",
-    "sci": "Zonotrichia atricapilla",
-    "count": 4,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
-    "notable": false,
-    "near": "Wawona and Mariposa Grove"
-   },
-   {
     "code": "grbher3",
     "name": "Great Blue Heron",
     "sci": "Ardea herodias",
@@ -786,7 +750,7 @@
     "lat": 37.835,
     "lon": -119.847,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "grhowl",
@@ -833,6 +797,18 @@
     "place": "Yosemite NP--Mirror Lake Trail",
     "lat": 37.744,
     "lon": -119.553,
+    "notable": false,
+    "near": "Tuolumne Meadows"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 5,
+    "seen": "2026-10-11 09:55",
+    "place": "Cain Ranch (restricted access)",
+    "lat": 37.893,
+    "lon": -119.098,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -966,7 +942,7 @@
     "lat": 37.822,
     "lon": -119.85,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "moudov",
@@ -984,13 +960,13 @@
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 3,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
+    "count": 2,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
-    "near": "Wawona and Mariposa Grove"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "nopowl",
@@ -1125,18 +1101,6 @@
     "near": "Yosemite Valley"
    },
    {
-    "code": "pygnut",
-    "name": "Pygmy Nuthatch",
-    "sci": "Sitta pygmaea",
-    "count": 2,
-    "seen": "2026-10-04 09:57",
-    "place": "Yosemite NP--Mariposa Grove",
-    "lat": 37.51,
-    "lon": -119.603,
-    "notable": false,
-    "near": "Glacier Point"
-   },
-   {
     "code": "redcro",
     "name": "Red Crossbill",
     "sci": "Loxia curvirostra",
@@ -1164,11 +1128,11 @@
     "code": "renpha",
     "name": "Red-necked Phalarope",
     "sci": "Phalaropus lobatus",
-    "count": null,
-    "seen": "2026-10-10 11:43",
-    "place": "Mono Lake--Old Marina",
-    "lat": 37.977,
-    "lon": -119.134,
+    "count": 3,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -1200,13 +1164,13 @@
     "code": "rewbla",
     "name": "Red-winged Blackbird",
     "sci": "Agelaius phoeniceus",
-    "count": 1,
-    "seen": "2026-10-10 15:34",
-    "place": "Ackerson Meadow",
-    "lat": 37.835,
-    "lon": -119.847,
+    "count": null,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "redhea",
@@ -1260,23 +1224,23 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
+    "count": 2,
+    "seen": "2026-10-10 17:32",
+    "place": "Aspen Valley Rd.",
+    "lat": 37.822,
+    "lon": -119.85,
     "notable": false,
-    "near": "Wawona and Mariposa Grove"
+    "near": "Hetch Hetchy"
    },
    {
     "code": "rudduc",
     "name": "Ruddy Duck",
     "sci": "Oxyura jamaicensis",
-    "count": 1,
-    "seen": "2026-10-10 10:43",
-    "place": "Grant Lake--Rush Creek inlet",
-    "lat": 37.816,
-    "lon": -119.112,
+    "count": null,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
     "near": "Tuolumne Meadows"
    },
@@ -1284,13 +1248,13 @@
     "code": "savspa",
     "name": "Savannah Sparrow",
     "sci": "Passerculus sandwichensis",
-    "count": 6,
-    "seen": "2026-10-10 15:34",
-    "place": "Ackerson Meadow",
-    "lat": 37.835,
-    "lon": -119.847,
+    "count": 2,
+    "seen": "2026-10-11 09:55",
+    "place": "Cain Ranch (restricted access)",
+    "lat": 37.893,
+    "lon": -119.098,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "shshaw",
@@ -1333,12 +1297,12 @@
     "name": "Spotted Towhee",
     "sci": "Pipilo maculatus",
     "count": 1,
-    "seen": "2026-10-10 17:46",
-    "place": "Yosemite NP--El Capitan Meadow",
-    "lat": 37.724,
-    "lon": -119.635,
+    "seen": "2026-10-09 11:17",
+    "place": "Trumbull Lake",
+    "lat": 38.052,
+    "lon": -119.258,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "stejay",
@@ -1404,13 +1368,13 @@
     "code": "wesmea",
     "name": "Western Meadowlark",
     "sci": "Sturnella neglecta",
-    "count": 2,
-    "seen": "2026-10-10 15:34",
-    "place": "Ackerson Meadow",
-    "lat": 37.835,
-    "lon": -119.847,
+    "count": 1,
+    "seen": "2026-10-11 08:16",
+    "place": "Mono Lake--Ice Box Tufa Trail",
+    "lat": 37.973,
+    "lon": -119.124,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "westan",
@@ -1423,18 +1387,6 @@
     "lon": -119.627,
     "notable": false,
     "near": "Wawona and Mariposa Grove"
-   },
-   {
-    "code": "wewvir2",
-    "name": "Western Warbling Vireo",
-    "sci": "Vireo swainsoni",
-    "count": 1,
-    "seen": "2026-10-04 14:35",
-    "place": "Mono Lake County Park",
-    "lat": 38.015,
-    "lon": -119.149,
-    "notable": false,
-    "near": "Tuolumne Meadows"
    },
    {
     "code": "wewpew",
@@ -1464,13 +1416,13 @@
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 10,
-    "seen": "2026-10-10 17:42",
-    "place": "Jerseydale Fire Station & Campground",
-    "lat": 37.545,
-    "lon": -119.838,
+    "count": 2,
+    "seen": "2026-10-11 09:55",
+    "place": "Cain Ranch (restricted access)",
+    "lat": 37.893,
+    "lon": -119.098,
     "notable": false,
-    "near": "Wawona and Mariposa Grove"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "whhwoo",
