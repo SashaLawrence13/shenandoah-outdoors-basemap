@@ -1,21 +1,951 @@
 {
- "fetchedAt": "2026-10-12T00:37:21Z",
+ "fetchedAt": "2026-10-12T11:03:25Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (14 rows); ok (103 rows); ok (16 rows)",
-   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (32 rows); ok (122 rows); ok (43 rows)",
-   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (7 rows); ok (161 rows); ok (24 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (1 rows); ok (16 rows); ok (0 rows)"
+   "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (19 rows); ok (241 rows); ok (62 rows)",
+   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (48 rows); ok (263 rows); ok (68 rows)",
+   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (1 rows); ok (11 rows); ok (299 rows); ok (64 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (2 rows); ok (17 rows); ok (10 rows)"
   },
   "detections": [
    {
+    "lat": 42.3829,
+    "lon": -122.7753,
+    "detected": "2026-10-12T10:38:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.58,
+    "day": false,
+    "region": "crla"
+   },
+   {
+    "lat": 44.0622,
+    "lon": -122.9833,
+    "detected": "2026-10-12T10:38:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.87,
+    "day": false,
+    "region": "crla"
+   },
+   {
+    "lat": 46.1739,
+    "lon": -123.1752,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.7,
+    "day": false,
+    "region": "mora"
+   },
+   {
+    "lat": 46.9744,
+    "lon": -122.2903,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.16,
+    "day": false,
+    "region": "mora"
+   },
+   {
+    "lat": 47.5701,
+    "lon": -122.3669,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.07,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 48.8854,
+    "lon": -122.7317,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.75,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 48.8857,
+    "lon": -122.7395,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.54,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 49.0983,
+    "lon": -123.018,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.6,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 49.1374,
+    "lon": -123.8575,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.83,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 49.1445,
+    "lon": -123.022,
+    "detected": "2026-10-12T10:37:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.95,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 37.8816,
+    "lon": -121.1859,
+    "detected": "2026-10-12T10:03:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.03,
+    "day": false,
+    "region": "yose"
+   },
+   {
+    "lat": 42.3835,
+    "lon": -122.7733,
+    "detected": "2026-10-12T10:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.83,
+    "day": false,
+    "region": "crla"
+   },
+   {
+    "lat": 46.976,
+    "lon": -122.2892,
+    "detected": "2026-10-12T10:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.68,
+    "day": false,
+    "region": "mora"
+   },
+   {
+    "lat": 47.2206,
+    "lon": -123.0181,
+    "detected": "2026-10-12T10:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.82,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 48.8636,
+    "lon": -122.7613,
+    "detected": "2026-10-12T10:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.25,
+    "day": false,
+    "region": "olym"
+   },
+   {
+    "lat": 27.8379,
+    "lon": -102.7135,
+    "detected": "2026-10-12T09:21:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.11,
+    "day": false,
+    "region": "bibe"
+   },
+   {
+    "lat": 33.2798,
+    "lon": -111.591,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.58,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.4123,
+    "lon": -110.8611,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.36,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.413,
+    "lon": -110.8652,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.36,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.4156,
+    "lon": -110.8604,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.36,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.4169,
+    "lon": -110.8686,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.39,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.4261,
+    "lon": -110.8622,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.47,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 34.6221,
+    "lon": -117.0996,
+    "detected": "2026-10-12T09:20:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.66,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 39.6551,
+    "lon": -104.7027,
+    "detected": "2026-10-12T09:18:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.05,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 39.803,
+    "lon": -104.9475,
+    "detected": "2026-10-12T09:18:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.08,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 40.865,
+    "lon": -105.021,
+    "detected": "2026-10-12T09:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.23,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 35.4128,
+    "lon": -93.775,
+    "detected": "2026-10-12T08:59:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.67,
+    "day": false,
+    "region": "hosp"
+   },
+   {
+    "lat": 39.6515,
+    "lon": -104.7045,
+    "detected": "2026-10-12T08:58:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.5,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 39.8464,
+    "lon": -105.2292,
+    "detected": "2026-10-12T08:58:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.49,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 39.8492,
+    "lon": -104.7703,
+    "detected": "2026-10-12T08:58:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.63,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 40.5831,
+    "lon": -104.8302,
+    "detected": "2026-10-12T08:58:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.69,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 40.8627,
+    "lon": -105.0202,
+    "detected": "2026-10-12T08:58:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.04,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 39.6518,
+    "lon": -104.7066,
+    "detected": "2026-10-12T08:22:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.2,
+    "day": false,
+    "region": "romo"
+   },
+   {
+    "lat": 35.9763,
+    "lon": -83.9561,
+    "detected": "2026-10-12T08:22:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.45,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 41.6753,
+    "lon": -87.4601,
+    "detected": "2026-10-12T08:20:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.54,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 26.281,
+    "lon": -80.1573,
+    "detected": "2026-10-12T07:39:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.53,
+    "day": false,
+    "region": "ever"
+   },
+   {
+    "lat": 35.0487,
+    "lon": -85.1929,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.21,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.3441,
+    "lon": -80.6663,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.63,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.4274,
+    "lon": -81.0344,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.56,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.5059,
+    "lon": -80.3304,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.02,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 36.4496,
+    "lon": -85.2109,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.3,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 36.355,
+    "lon": -76.8141,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.34,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 37.4397,
+    "lon": -79.671,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.71,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 37.4622,
+    "lon": -79.9955,
+    "detected": "2026-10-12T07:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.16,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 40.9271,
+    "lon": -87.3447,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.97,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 40.937,
+    "lon": -87.337,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.82,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6141,
+    "lon": -87.3361,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.0,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.648,
+    "lon": -88.0533,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.82,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.665,
+    "lon": -87.4823,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.49,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.674,
+    "lon": -87.4352,
+    "detected": "2026-10-12T07:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 3.61,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 26.2812,
+    "lon": -80.1548,
+    "detected": "2026-10-12T07:20:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.73,
+    "day": false,
+    "region": "ever"
+   },
+   {
+    "lat": 34.2392,
+    "lon": -84.7986,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.79,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 34.5754,
+    "lon": -82.1335,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.0,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 34.6513,
+    "lon": -82.9557,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.83,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 34.8831,
+    "lon": -82.2653,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.12,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.0506,
+    "lon": -81.898,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.45,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.3453,
+    "lon": -80.6655,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.83,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.4668,
+    "lon": -82.5414,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.65,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.5031,
+    "lon": -80.3312,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.95,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 36.2072,
+    "lon": -84.9941,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.44,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 36.3563,
+    "lon": -76.8035,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.6,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 36.3571,
+    "lon": -76.8079,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.6,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 36.6154,
+    "lon": -81.1871,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.6,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 36.8339,
+    "lon": -78.3115,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.01,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 35.7114,
+    "lon": -78.8357,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.5,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 35.7746,
+    "lon": -80.134,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.52,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 35.8707,
+    "lon": -78.2127,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.04,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 40.7346,
+    "lon": -86.4375,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 40.7349,
+    "lon": -86.4314,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.85,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.1813,
+    "lon": -87.8564,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.91,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.4162,
+    "lon": -88.1861,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.59,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6146,
+    "lon": -87.3323,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.31,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6149,
+    "lon": -87.3495,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.32,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6156,
+    "lon": -87.3474,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.35,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.619,
+    "lon": -87.3337,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 4.63,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6201,
+    "lon": -87.3392,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.98,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6263,
+    "lon": -87.371,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.19,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6268,
+    "lon": -87.1433,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.3,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6362,
+    "lon": -87.129,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 7.75,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6372,
+    "lon": -87.1438,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.03,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6386,
+    "lon": -87.4078,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.31,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6651,
+    "lon": -87.4276,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.6,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6716,
+    "lon": -87.45,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.55,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6721,
+    "lon": -87.4576,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.12,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6726,
+    "lon": -87.4653,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 2.12,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6797,
+    "lon": -87.4182,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 4.24,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6807,
+    "lon": -87.4335,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 3.2,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6852,
+    "lon": -87.4253,
+    "detected": "2026-10-12T07:16:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 3.2,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 40.7366,
+    "lon": -86.4365,
+    "detected": "2026-10-12T06:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.02,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6274,
+    "lon": -87.3798,
+    "detected": "2026-10-12T06:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.47,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6339,
+    "lon": -87.1323,
+    "detected": "2026-10-12T06:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 6.3,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.6746,
+    "lon": -87.418,
+    "detected": "2026-10-12T06:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.01,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 35.5506,
+    "lon": -76.2256,
+    "detected": "2026-10-12T06:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.06,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
     "lat": 43.198,
     "lon": -123.2595,
-    "detected": "2026-10-11T22:21:00Z",
+    "detected": "2026-10-11T22:22:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "h",
-    "frp": 22.06,
+    "frp": 22.07,
     "day": true,
     "region": "crla"
    },
@@ -25,7 +955,7 @@
     "detected": "2026-10-11T22:20:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 6.04,
+    "frp": 6.05,
     "day": true,
     "region": "yose"
    },
@@ -50,16 +980,6 @@
     "region": "yose"
    },
    {
-    "lat": 36.8266,
-    "lon": -78.3106,
-    "detected": "2026-10-11T20:42:00Z",
-    "source": "MODIS",
-    "confidence": "64",
-    "frp": 7.31,
-    "day": true,
-    "region": "gwnf"
-   },
-   {
     "lat": 41.6305,
     "lon": -87.1356,
     "detected": "2026-10-11T20:42:00Z",
@@ -68,6 +988,16 @@
     "frp": 21.7,
     "day": true,
     "region": "indu"
+   },
+   {
+    "lat": 36.8266,
+    "lon": -78.3106,
+    "detected": "2026-10-11T20:42:00Z",
+    "source": "MODIS",
+    "confidence": "64",
+    "frp": 7.31,
+    "day": true,
+    "region": "gwnf"
    },
    {
     "lat": 42.6459,
@@ -110,6 +1040,26 @@
     "region": "meve"
    },
    {
+    "lat": 35.4101,
+    "lon": -93.7744,
+    "detected": "2026-10-11T19:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.76,
+    "day": true,
+    "region": "hosp"
+   },
+   {
+    "lat": 34.5746,
+    "lon": -82.1322,
+    "detected": "2026-10-11T19:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.44,
+    "day": true,
+    "region": "pn"
+   },
+   {
     "lat": 41.6343,
     "lon": -87.1339,
     "detected": "2026-10-11T19:17:00Z",
@@ -138,26 +1088,6 @@
     "frp": 8.86,
     "day": true,
     "region": "indu"
-   },
-   {
-    "lat": 34.5746,
-    "lon": -82.1322,
-    "detected": "2026-10-11T19:17:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 1.44,
-    "day": true,
-    "region": "pn"
-   },
-   {
-    "lat": 35.4101,
-    "lon": -93.7744,
-    "detected": "2026-10-11T19:17:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 1.76,
-    "day": true,
-    "region": "hosp"
    },
    {
     "lat": 41.1803,
@@ -440,16 +1370,6 @@
     "region": "olym"
    },
    {
-    "lat": 33.9998,
-    "lon": -92.955,
-    "detected": "2026-10-11T08:41:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.73,
-    "day": false,
-    "region": "hosp"
-   },
-   {
     "lat": 33.416,
     "lon": -110.8633,
     "detected": "2026-10-11T08:41:00Z",
@@ -468,6 +1388,16 @@
     "frp": 3.5,
     "day": false,
     "region": "sagu"
+   },
+   {
+    "lat": 33.9998,
+    "lon": -92.955,
+    "detected": "2026-10-11T08:41:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.73,
+    "day": false,
+    "region": "hosp"
    },
    {
     "lat": 34.0015,
@@ -540,6 +1470,26 @@
     "region": "pn"
    },
    {
+    "lat": 40.9305,
+    "lon": -88.6531,
+    "detected": "2026-10-11T07:35:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.3,
+    "day": false,
+    "region": "indu"
+   },
+   {
+    "lat": 41.4128,
+    "lon": -88.1856,
+    "detected": "2026-10-11T07:35:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.23,
+    "day": false,
+    "region": "indu"
+   },
+   {
     "lat": 37.2175,
     "lon": -83.7541,
     "detected": "2026-10-11T07:35:00Z",
@@ -560,24 +1510,14 @@
     "region": "gwnf"
    },
    {
-    "lat": 40.9305,
-    "lon": -88.6531,
-    "detected": "2026-10-11T07:35:00Z",
-    "source": "VIIRS_SNPP",
+    "lat": 35.9781,
+    "lon": -83.9573,
+    "detected": "2026-10-11T06:59:00Z",
+    "source": "VIIRS_NOAA21",
     "confidence": "n",
-    "frp": 0.3,
+    "frp": 0.62,
     "day": false,
-    "region": "indu"
-   },
-   {
-    "lat": 41.4128,
-    "lon": -88.1856,
-    "detected": "2026-10-11T07:35:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 1.23,
-    "day": false,
-    "region": "indu"
+    "region": "pn"
    },
    {
     "lat": 41.4155,
@@ -628,16 +1568,6 @@
     "frp": 2.79,
     "day": false,
     "region": "indu"
-   },
-   {
-    "lat": 35.9781,
-    "lon": -83.9573,
-    "detected": "2026-10-11T06:59:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.62,
-    "day": false,
-    "region": "pn"
    }
   ],
   "box": [
@@ -903,11 +1833,11 @@
     "source": "open-meteo",
     "lat": 38.8,
     "lon": -78.28,
-    "pollutant": "PM2.5",
-    "aqi": 34,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -919,10 +1849,10 @@
     "lat": 38.53,
     "lon": -78.44,
     "pollutant": "PM2.5",
-    "aqi": 32,
+    "aqi": 16,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -934,10 +1864,10 @@
     "lat": 38.2,
     "lon": -78.75,
     "pollutant": "PM2.5",
-    "aqi": 33,
+    "aqi": 18,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Lee district",
@@ -948,11 +1878,11 @@
     "source": "open-meteo",
     "lat": 38.88,
     "lon": -78.5,
-    "pollutant": "PM2.5",
-    "aqi": 34,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "North River district",
@@ -964,10 +1894,10 @@
     "lat": 38.4,
     "lon": -79.12,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Glenwood-Pedlar district",
@@ -979,10 +1909,10 @@
     "lat": 37.75,
     "lon": -79.25,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Eastern Divide (Roanoke and Blacksburg)",
@@ -994,10 +1924,10 @@
     "lat": 37.27,
     "lon": -80.05,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Warm Springs district",
@@ -1009,10 +1939,10 @@
     "lat": 38.05,
     "lon": -79.83,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "James River district",
@@ -1024,10 +1954,10 @@
     "lat": 37.78,
     "lon": -79.95,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Mount Rogers and Grayson Highlands",
@@ -1039,10 +1969,10 @@
     "lat": 36.66,
     "lon": -81.5,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Blue Ridge Parkway, Rocky Knob",
@@ -1054,10 +1984,10 @@
     "lat": 36.8,
     "lon": -80.3,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
@@ -1069,10 +1999,10 @@
     "lat": 36.62,
     "lon": -80.8,
     "pollutant": "O3",
-    "aqi": 28,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Great Falls and Washington",
@@ -1084,10 +2014,10 @@
     "lat": 38.998,
     "lon": -77.249,
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-11 20:00 local"
+    "aqi": 27,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Harpers Ferry",
@@ -1098,11 +2028,11 @@
     "source": "open-meteo",
     "lat": 39.325,
     "lon": -77.739,
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "pollutant": "O3",
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Catoctin Mountain",
@@ -1113,11 +2043,11 @@
     "source": "open-meteo",
     "lat": 39.654,
     "lon": -77.442,
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Prince William Forest",
@@ -1128,11 +2058,11 @@
     "source": "open-meteo",
     "lat": 38.576,
     "lon": -77.343,
-    "pollutant": "PM2.5",
-    "aqi": 37,
+    "pollutant": "O3",
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "C&O Canal at Hancock",
@@ -1143,11 +2073,11 @@
     "source": "open-meteo",
     "lat": 39.7,
     "lon": -78.18,
-    "pollutant": "PM2.5",
-    "aqi": 38,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "C&O Canal at Cumberland",
@@ -1158,11 +2088,11 @@
     "source": "open-meteo",
     "lat": 39.65,
     "lon": -78.76,
-    "pollutant": "PM2.5",
-    "aqi": 31,
+    "pollutant": "O3",
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Dolly Sods and Canaan",
@@ -1174,10 +2104,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -1189,10 +2119,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -1204,10 +2134,10 @@
     "lat": 38.22,
     "lon": -80.26,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -1219,10 +2149,10 @@
     "lat": 37.95,
     "lon": -80.25,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Sugarlands and Newfound Gap",
@@ -1233,11 +2163,11 @@
     "source": "open-meteo",
     "lat": 35.69,
     "lon": -83.45,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Deep Creek and Fontana",
@@ -1248,11 +2178,11 @@
     "source": "open-meteo",
     "lat": 35.46,
     "lon": -83.44,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Cades Cove",
@@ -1263,11 +2193,11 @@
     "source": "open-meteo",
     "lat": 35.6,
     "lon": -83.81,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Cataloochee and Big Creek",
@@ -1279,10 +2209,10 @@
     "lat": 35.68,
     "lon": -83.1,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "New River Gorge north",
@@ -1294,10 +2224,10 @@
     "lat": 38.12,
     "lon": -81,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "New River Gorge middle",
@@ -1309,10 +2239,10 @@
     "lat": 37.9,
     "lon": -80.95,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "New River Gorge south",
@@ -1324,10 +2254,10 @@
     "lat": 37.62,
     "lon": -81,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Pisgah district near Brevard",
@@ -1339,10 +2269,10 @@
     "lat": 35.28,
     "lon": -82.75,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Black Balsam and Shining Rock",
@@ -1354,10 +2284,10 @@
     "lat": 35.325,
     "lon": -82.875,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Parkway near Asheville",
@@ -1369,10 +2299,10 @@
     "lat": 35.62,
     "lon": -82.5,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Craggy Gardens",
@@ -1384,10 +2314,10 @@
     "lat": 35.7,
     "lon": -82.38,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Mount Mitchell and the Black Mountains",
@@ -1399,10 +2329,10 @@
     "lat": 35.765,
     "lon": -82.265,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Roan Highlands at Carvers Gap",
@@ -1414,10 +2344,10 @@
     "lat": 36.106,
     "lon": -82.109,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Linville Gorge and Grandfather",
@@ -1429,10 +2359,10 @@
     "lat": 35.9,
     "lon": -81.9,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Hot Springs and Max Patch",
@@ -1443,11 +2373,11 @@
     "source": "open-meteo",
     "lat": 35.89,
     "lon": -82.82,
-    "pollutant": "O3",
-    "aqi": 30,
+    "pollutant": "PM2.5",
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Panthertown and Highlands",
@@ -1459,10 +2389,10 @@
     "lat": 35.19,
     "lon": -83,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Wayah Bald and Standing Indian",
@@ -1474,10 +2404,10 @@
     "lat": 35.15,
     "lon": -83.55,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    },
    {
     "area": "Joyce Kilmer and the Cheoah district",
@@ -1488,11 +2418,11 @@
     "source": "open-meteo",
     "lat": 35.37,
     "lon": -83.95,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-11 20:00 local"
+    "observed": "2026-10-12 7:00 local"
    }
   ],
   "forecasts": [
@@ -1503,11 +2433,11 @@
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 66,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -1518,9 +2448,9 @@
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -1530,51 +2460,6 @@
     "area": "Shenandoah NP central",
     "state": "VA",
     "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 61,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP central",
-    "state": "VA",
-    "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP south",
-    "state": "VA",
-    "near": "park-south",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 72,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP south",
-    "state": "VA",
-    "near": "park-south",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
@@ -1587,56 +2472,26 @@
     "discussion": ""
    },
    {
-    "area": "Lee district",
+    "area": "Shenandoah NP central",
     "state": "VA",
-    "near": "lee",
-    "side": "forest",
-    "region": "gwnf",
+    "near": "park-central",
+    "side": "park",
+    "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 66,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lee district",
-    "state": "VA",
-    "near": "lee",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "North River district",
+    "area": "Shenandoah NP south",
     "state": "VA",
-    "near": "north-river",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North River district",
-    "state": "VA",
-    "near": "north-river",
-    "side": "forest",
-    "region": "gwnf",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
@@ -1647,17 +2502,77 @@
     "discussion": ""
    },
    {
-    "area": "Glenwood-Pedlar district",
+    "area": "Shenandoah NP south",
     "state": "VA",
-    "near": "glenwood-pedlar",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lee district",
+    "state": "VA",
+    "near": "lee",
     "side": "forest",
     "region": "gwnf",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 54,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lee district",
+    "state": "VA",
+    "near": "lee",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North River district",
+    "state": "VA",
+    "near": "north-river",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North River district",
+    "state": "VA",
+    "near": "north-river",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -1677,14 +2592,14 @@
     "discussion": ""
    },
    {
-    "area": "Eastern Divide (Roanoke and Blacksburg)",
+    "area": "Glenwood-Pedlar district",
     "state": "VA",
-    "near": "gwnf-eastern-divide",
+    "near": "glenwood-pedlar",
     "side": "forest",
     "region": "gwnf",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
+    "date": "2026-10-13",
+    "pollutant": "O3",
     "aqi": 52,
     "category": "Moderate",
     "level": 2,
@@ -1700,6 +2615,36 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Eastern Divide (Roanoke and Blacksburg)",
+    "state": "VA",
+    "near": "gwnf-eastern-divide",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Warm Springs district",
+    "state": "VA",
+    "near": "gwnf-warm-springs",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
     "aqi": 32,
     "category": "Good",
     "level": 1,
@@ -1713,39 +2658,9 @@
     "side": "forest",
     "region": "gwnf",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Warm Springs district",
-    "state": "VA",
-    "near": "gwnf-warm-springs",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "James River district",
-    "state": "VA",
-    "near": "gwnf-james-river",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 54,
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -1757,66 +2672,6 @@
     "near": "gwnf-james-river",
     "side": "forest",
     "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mount Rogers and Grayson Highlands",
-    "state": "VA",
-    "near": "gwnf-mount-rogers",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mount Rogers and Grayson Highlands",
-    "state": "VA",
-    "near": "gwnf-mount-rogers",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Blue Ridge Parkway, Rocky Knob",
-    "state": "VA",
-    "near": "blri-rocky-knob",
-    "side": "park",
-    "region": "blri",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Blue Ridge Parkway, Rocky Knob",
-    "state": "VA",
-    "near": "blri-rocky-knob",
-    "side": "park",
-    "region": "blri",
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
@@ -1827,51 +2682,111 @@
     "discussion": ""
    },
    {
-    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+    "area": "James River district",
     "state": "VA",
-    "near": "blri-fancy-gap",
-    "side": "park",
-    "region": "blri",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
-    "state": "VA",
-    "near": "blri-fancy-gap",
-    "side": "park",
-    "region": "blri",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Great Falls and Washington",
-    "state": "VA",
-    "near": "pot-great-falls",
+    "near": "gwnf-james-river",
     "side": "forest",
-    "region": "pot",
+    "region": "gwnf",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 79,
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
     "discussion": ""
    },
    {
+    "area": "Mount Rogers and Grayson Highlands",
+    "state": "VA",
+    "near": "gwnf-mount-rogers",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Rogers and Grayson Highlands",
+    "state": "VA",
+    "near": "gwnf-mount-rogers",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Rocky Knob",
+    "state": "VA",
+    "near": "blri-rocky-knob",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 34,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Rocky Knob",
+    "state": "VA",
+    "near": "blri-rocky-knob",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+    "state": "VA",
+    "near": "blri-fancy-gap",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+    "state": "VA",
+    "near": "blri-fancy-gap",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Great Falls and Washington",
     "state": "VA",
     "near": "pot-great-falls",
@@ -1880,21 +2795,21 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "PM2.5",
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Harpers Ferry",
-    "state": "WV",
-    "near": "pot-harpers-ferry",
+    "area": "Great Falls and Washington",
+    "state": "VA",
+    "near": "pot-great-falls",
     "side": "forest",
     "region": "pot",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
+    "date": "2026-10-13",
+    "pollutant": "O3",
     "aqi": 60,
     "category": "Moderate",
     "level": 2,
@@ -1917,134 +2832,134 @@
     "discussion": ""
    },
    {
-    "area": "Catoctin Mountain",
-    "state": "MD",
-    "near": "pot-catoctin",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 54,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Catoctin Mountain",
-    "state": "MD",
-    "near": "pot-catoctin",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "PM2.5",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Prince William Forest",
-    "state": "VA",
-    "near": "pot-prince-william",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 62,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Prince William Forest",
-    "state": "VA",
-    "near": "pot-prince-william",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "C&O Canal at Hancock",
-    "state": "MD",
-    "near": "pot-hancock",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 57,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "C&O Canal at Hancock",
-    "state": "MD",
-    "near": "pot-hancock",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "C&O Canal at Cumberland",
-    "state": "MD",
-    "near": "pot-cumberland",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "C&O Canal at Cumberland",
-    "state": "MD",
-    "near": "pot-cumberland",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Dolly Sods and Canaan",
+    "area": "Harpers Ferry",
     "state": "WV",
-    "near": "mon-dolly-sods",
+    "near": "pot-harpers-ferry",
     "side": "forest",
-    "region": "mon",
+    "region": "pot",
     "source": "open-meteo",
-    "date": "2026-10-11",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Catoctin Mountain",
+    "state": "MD",
+    "near": "pot-catoctin",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-12",
     "pollutant": "PM2.5",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Catoctin Mountain",
+    "state": "MD",
+    "near": "pot-catoctin",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Prince William Forest",
+    "state": "VA",
+    "near": "pot-prince-william",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 34,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Prince William Forest",
+    "state": "VA",
+    "near": "pot-prince-william",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "C&O Canal at Hancock",
+    "state": "MD",
+    "near": "pot-hancock",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "PM2.5",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "C&O Canal at Hancock",
+    "state": "MD",
+    "near": "pot-hancock",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "C&O Canal at Cumberland",
+    "state": "MD",
+    "near": "pot-cumberland",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "C&O Canal at Cumberland",
+    "state": "MD",
+    "near": "pot-cumberland",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
     "aqi": 58,
     "category": "Moderate",
     "level": 2,
@@ -2060,22 +2975,22 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Spruce Knob",
+    "area": "Dolly Sods and Canaan",
     "state": "WV",
-    "near": "mon-spruce-knob",
+    "near": "mon-dolly-sods",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 52,
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -2090,141 +3005,6 @@
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cranberry and Greenbrier",
-    "state": "WV",
-    "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cranberry and Greenbrier",
-    "state": "WV",
-    "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sugarlands and Newfound Gap",
-    "state": "TN",
-    "near": "gs-sugarlands",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sugarlands and Newfound Gap",
-    "state": "TN",
-    "near": "gs-sugarlands",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Deep Creek and Fontana",
-    "state": "NC",
-    "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Deep Creek and Fontana",
-    "state": "NC",
-    "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
     "aqi": 30,
     "category": "Good",
     "level": 1,
@@ -2232,28 +3012,28 @@
     "discussion": ""
    },
    {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
+    "area": "Spruce Knob",
+    "state": "WV",
+    "near": "mon-spruce-knob",
     "side": "forest",
-    "region": "gs",
+    "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "aqi": 56,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Cataloochee and Big Creek",
-    "state": "NC",
-    "near": "gs-cataloochee",
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
     "side": "forest",
-    "region": "gs",
+    "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "pollutant": "O3",
     "aqi": 33,
     "category": "Good",
@@ -2262,9 +3042,54 @@
     "discussion": ""
    },
    {
-    "area": "Cataloochee and Big Creek",
-    "state": "NC",
-    "near": "gs-cataloochee",
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sugarlands and Newfound Gap",
+    "state": "TN",
+    "near": "gs-sugarlands",
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
@@ -2277,386 +3102,26 @@
     "discussion": ""
    },
    {
-    "area": "New River Gorge north",
-    "state": "WV",
-    "near": "nr-north",
+    "area": "Sugarlands and Newfound Gap",
+    "state": "TN",
+    "near": "gs-sugarlands",
     "side": "forest",
-    "region": "nr",
+    "region": "gs",
     "source": "open-meteo",
-    "date": "2026-10-11",
+    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "New River Gorge north",
-    "state": "WV",
-    "near": "nr-north",
-    "side": "forest",
-    "region": "nr",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "New River Gorge middle",
-    "state": "WV",
-    "near": "nr-middle",
-    "side": "forest",
-    "region": "nr",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "New River Gorge middle",
-    "state": "WV",
-    "near": "nr-middle",
-    "side": "forest",
-    "region": "nr",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "New River Gorge south",
-    "state": "WV",
-    "near": "nr-south",
-    "side": "forest",
-    "region": "nr",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "PM2.5",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "New River Gorge south",
-    "state": "WV",
-    "near": "nr-south",
-    "side": "forest",
-    "region": "nr",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Pisgah district near Brevard",
+    "area": "Deep Creek and Fontana",
     "state": "NC",
-    "near": "brevard",
+    "near": "gs-deep-creek",
     "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Pisgah district near Brevard",
-    "state": "NC",
-    "near": "brevard",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Black Balsam and Shining Rock",
-    "state": "NC",
-    "near": "black-balsam",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Black Balsam and Shining Rock",
-    "state": "NC",
-    "near": "black-balsam",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Parkway near Asheville",
-    "state": "NC",
-    "near": "asheville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Parkway near Asheville",
-    "state": "NC",
-    "near": "asheville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Craggy Gardens",
-    "state": "NC",
-    "near": "craggy",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Craggy Gardens",
-    "state": "NC",
-    "near": "craggy",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mount Mitchell and the Black Mountains",
-    "state": "NC",
-    "near": "mitchell",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mount Mitchell and the Black Mountains",
-    "state": "NC",
-    "near": "mitchell",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Roan Highlands at Carvers Gap",
-    "state": "NC",
-    "near": "roan",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Roan Highlands at Carvers Gap",
-    "state": "NC",
-    "near": "roan",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Linville Gorge and Grandfather",
-    "state": "NC",
-    "near": "linville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Linville Gorge and Grandfather",
-    "state": "NC",
-    "near": "linville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hot Springs and Max Patch",
-    "state": "NC",
-    "near": "madison",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hot Springs and Max Patch",
-    "state": "NC",
-    "near": "madison",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Panthertown and Highlands",
-    "state": "NC",
-    "near": "panthertown",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Panthertown and Highlands",
-    "state": "NC",
-    "near": "panthertown",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-12",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Wayah Bald and Standing Indian",
-    "state": "NC",
-    "near": "wayah",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-11",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Wayah Bald and Standing Indian",
-    "state": "NC",
-    "near": "wayah",
-    "side": "forest",
-    "region": "pn",
+    "region": "gs",
     "source": "open-meteo",
     "date": "2026-10-12",
     "pollutant": "O3",
@@ -2667,15 +3132,465 @@
     "discussion": ""
    },
    {
-    "area": "Joyce Kilmer and the Cheoah district",
+    "area": "Deep Creek and Fontana",
     "state": "NC",
-    "near": "cheoah",
+    "near": "gs-deep-creek",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cataloochee and Big Creek",
+    "state": "NC",
+    "near": "gs-cataloochee",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cataloochee and Big Creek",
+    "state": "NC",
+    "near": "gs-cataloochee",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge north",
+    "state": "WV",
+    "near": "nr-north",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge north",
+    "state": "WV",
+    "near": "nr-north",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge middle",
+    "state": "WV",
+    "near": "nr-middle",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge middle",
+    "state": "WV",
+    "near": "nr-middle",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge south",
+    "state": "WV",
+    "near": "nr-south",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "New River Gorge south",
+    "state": "WV",
+    "near": "nr-south",
+    "side": "forest",
+    "region": "nr",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pisgah district near Brevard",
+    "state": "NC",
+    "near": "brevard",
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pisgah district near Brevard",
+    "state": "NC",
+    "near": "brevard",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Black Balsam and Shining Rock",
+    "state": "NC",
+    "near": "black-balsam",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Black Balsam and Shining Rock",
+    "state": "NC",
+    "near": "black-balsam",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Parkway near Asheville",
+    "state": "NC",
+    "near": "asheville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Parkway near Asheville",
+    "state": "NC",
+    "near": "asheville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Craggy Gardens",
+    "state": "NC",
+    "near": "craggy",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Craggy Gardens",
+    "state": "NC",
+    "near": "craggy",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Mitchell and the Black Mountains",
+    "state": "NC",
+    "near": "mitchell",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Mitchell and the Black Mountains",
+    "state": "NC",
+    "near": "mitchell",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Roan Highlands at Carvers Gap",
+    "state": "NC",
+    "near": "roan",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Roan Highlands at Carvers Gap",
+    "state": "NC",
+    "near": "roan",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Linville Gorge and Grandfather",
+    "state": "NC",
+    "near": "linville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Linville Gorge and Grandfather",
+    "state": "NC",
+    "near": "linville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hot Springs and Max Patch",
+    "state": "NC",
+    "near": "madison",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hot Springs and Max Patch",
+    "state": "NC",
+    "near": "madison",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Panthertown and Highlands",
+    "state": "NC",
+    "near": "panthertown",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Panthertown and Highlands",
+    "state": "NC",
+    "near": "panthertown",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Wayah Bald and Standing Indian",
+    "state": "NC",
+    "near": "wayah",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Wayah Bald and Standing Indian",
+    "state": "NC",
+    "near": "wayah",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2689,6 +3604,21 @@
     "region": "pn",
     "source": "open-meteo",
     "date": "2026-10-12",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Joyce Kilmer and the Cheoah district",
+    "state": "NC",
+    "near": "cheoah",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
     "pollutant": "O3",
     "aqi": 48,
     "category": "Good",
@@ -2774,6 +3704,18 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "yebfly",
+    "name": "Yellow-bellied Flycatcher",
+    "sci": "Empidonax flaviventris",
+    "count": 1,
+    "seen": "2026-10-10 13:00",
+    "place": "Martins Bottom Trail",
+    "lat": 38.489,
+    "lon": -78.678,
+    "notable": true,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
@@ -2850,12 +3792,12 @@
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
     "count": 1,
-    "seen": "2026-10-11 11:20",
-    "place": "Martins Bottom Trail",
-    "lat": 38.489,
-    "lon": -78.678,
+    "seen": "2026-10-08 10:30",
+    "place": "Shenandoah NP--Stony Man Trail",
+    "lat": 38.593,
+    "lon": -78.376,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "barswa",
@@ -3228,6 +4170,18 @@
     "lon": -78.164,
     "notable": false,
     "near": "Shenandoah NP north"
+   },
+   {
+    "code": "eucdov",
+    "name": "Eurasian Collared-Dove",
+    "sci": "Streptopelia decaocto",
+    "count": 1,
+    "seen": "2026-10-10 13:00",
+    "place": "Martins Bottom Trail",
+    "lat": 38.489,
+    "lon": -78.678,
+    "notable": false,
+    "near": "Shenandoah NP central"
    },
    {
     "code": "eursta",
@@ -4240,18 +5194,6 @@
     "near": "Lee district"
    },
    {
-    "code": "brnthr",
-    "name": "Brown Thrasher",
-    "sci": "Toxostoma rufum",
-    "count": 1,
-    "seen": "2026-10-11 14:23",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "bnhcow",
     "name": "Brown-headed Cowbird",
     "sci": "Molothrus ater",
@@ -4447,13 +5389,13 @@
     "code": "eastow",
     "name": "Eastern Towhee",
     "sci": "Pipilo erythrophthalmus",
-    "count": 6,
-    "seen": "2026-10-11 14:58",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
+    "count": 1,
+    "seen": "2026-10-10 15:11",
+    "place": "Seven Bends State Park",
+    "lat": 38.866,
+    "lon": -78.486,
     "notable": false,
-    "near": "North River district"
+    "near": "Lee district"
    },
    {
     "code": "eawpew",
@@ -5275,18 +6217,6 @@
      "near": "Great Falls and Washington"
     },
     {
-     "code": "miskit",
-     "name": "Mississippi Kite",
-     "sci": "Ictinia mississippiensis",
-     "count": 2,
-     "seen": "2026-10-11 09:35",
-     "place": "Fountainhead Regional Park",
-     "lat": 38.721,
-     "lon": -77.334,
-     "notable": true,
-     "near": "Prince William Forest"
-    },
-    {
      "code": "mutswa",
      "name": "Mute Swan",
      "sci": "Cygnus olor",
@@ -5578,13 +6508,13 @@
      "code": "amhgul1",
      "name": "American Herring Gull",
      "sci": "Larus smithsonianus",
-     "count": 2,
-     "seen": "2026-10-11 07:37",
-     "place": "Accotink Bay Wildlife Refuge",
-     "lat": 38.686,
-     "lon": -77.155,
+     "count": 1,
+     "seen": "2026-10-11 10:30",
+     "place": "East Potomac Park--Hains Pt.",
+     "lat": 38.873,
+     "lon": -77.026,
      "notable": false,
-     "near": "Prince William Forest"
+     "near": "Great Falls and Washington"
     },
     {
      "code": "amekes",
@@ -5843,10 +6773,10 @@
      "name": "Brown Creeper",
      "sci": "Certhia americana",
      "count": 1,
-     "seen": "2026-10-11 12:42",
-     "place": "Bazil Newman Riverfront Park",
-     "lat": 39.087,
-     "lon": -77.474,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -5974,11 +6904,11 @@
      "code": "chispa",
      "name": "Chipping Sparrow",
      "sci": "Spizella passerina",
-     "count": 1,
-     "seen": "2026-10-11 15:03",
-     "place": "The Turquoise Trail",
-     "lat": 38.924,
-     "lon": -77.332,
+     "count": 2,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -5999,10 +6929,10 @@
      "name": "Common Loon",
      "sci": "Gavia immer",
      "count": 1,
-     "seen": "2026-10-10 12:25",
-     "place": "Pohick Bay Regional Park--Boat Ramp",
-     "lat": 38.677,
-     "lon": -77.169,
+     "seen": "2026-10-11 17:00",
+     "place": "Pohick Bay Regional Park",
+     "lat": 38.674,
+     "lon": -77.171,
      "notable": false,
      "near": "Prince William Forest"
     },
@@ -6131,10 +7061,10 @@
      "name": "Eastern Screech-Owl",
      "sci": "Megascops asio",
      "count": 1,
-     "seen": "2026-10-10 10:51",
-     "place": "Indian Springs WMA--Blairs Valley Rd. north of Blairs Valley Lake",
-     "lat": 39.71,
-     "lon": -77.941,
+     "seen": "2026-10-11 19:17",
+     "place": "C&O Canal--Woodmont",
+     "lat": 39.632,
+     "lon": -78.309,
      "notable": false,
      "near": "C&O Canal at Hancock"
     },
@@ -6166,13 +7096,13 @@
      "code": "eursta",
      "name": "European Starling",
      "sci": "Sturnus vulgaris",
-     "count": 20,
-     "seen": "2026-10-11 17:08",
-     "place": "Senate Parks and Taft Memorial",
-     "lat": 38.894,
-     "lon": -77.008,
+     "count": 1,
+     "seen": "2026-10-11 16:59",
+     "place": "Middletown Park",
+     "lat": 39.447,
+     "lon": -77.528,
      "notable": false,
-     "near": "Great Falls and Washington"
+     "near": "Harpers Ferry"
     },
     {
      "code": "fiespa",
@@ -6203,10 +7133,10 @@
      "name": "Forster's Tern",
      "sci": "Sterna forsteri",
      "count": 1,
-     "seen": "2026-10-10 16:24",
-     "place": "Accotink Bay Wildlife Refuge",
-     "lat": 38.686,
-     "lon": -77.155,
+     "seen": "2026-10-11 16:00",
+     "place": "Belmont Bay Marina",
+     "lat": 38.657,
+     "lon": -77.234,
      "notable": false,
      "near": "Prince William Forest"
     },
@@ -6286,11 +7216,11 @@
      "code": "grbher3",
      "name": "Great Blue Heron",
      "sci": "Ardea herodias",
-     "count": 3,
-     "seen": "2026-10-11 15:03",
-     "place": "Lake Whetstone",
-     "lat": 39.163,
-     "lon": -77.201,
+     "count": 1,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -6310,13 +7240,13 @@
      "code": "grhowl",
      "name": "Great Horned Owl",
      "sci": "Bubo virginianus",
-     "count": 1,
-     "seen": "2026-10-10 06:40",
-     "place": "Crow's Nest Research Center (access by request)",
-     "lat": 38.363,
-     "lon": -77.3,
+     "count": null,
+     "seen": "2026-10-11 22:14",
+     "place": "Gambrill SP--picnic area & campground",
+     "lat": 39.456,
+     "lon": -77.494,
      "notable": false,
-     "near": "Prince William Forest"
+     "near": "Catoctin Mountain"
     },
     {
      "code": "greyel",
@@ -6514,11 +7444,11 @@
      "code": "mallar3",
      "name": "Mallard",
      "sci": "Anas platyrhynchos",
-     "count": 6,
-     "seen": "2026-10-11 15:03",
-     "place": "Lake Whetstone",
-     "lat": 39.163,
-     "lon": -77.201,
+     "count": 13,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -6586,13 +7516,13 @@
      "code": "norcar",
      "name": "Northern Cardinal",
      "sci": "Cardinalis cardinalis",
-     "count": 1,
-     "seen": "2026-10-11 17:49",
-     "place": "Zachary Taylor Nature Area",
-     "lat": 38.909,
-     "lon": -77.114,
+     "count": 3,
+     "seen": "2026-10-11 16:59",
+     "place": "Middletown Park",
+     "lat": 39.447,
+     "lon": -77.528,
      "notable": false,
-     "near": "Great Falls and Washington"
+     "near": "Harpers Ferry"
     },
     {
      "code": "norfli",
@@ -6647,10 +7577,10 @@
      "name": "Northern Parula",
      "sci": "Setophaga americana",
      "count": 1,
-     "seen": "2026-10-11 15:03",
-     "place": "Lake Whetstone",
-     "lat": 39.163,
-     "lon": -77.201,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -6707,12 +7637,12 @@
      "name": "Palm Warbler",
      "sci": "Setophaga palmarum",
      "count": 2,
-     "seen": "2026-10-10 16:27",
-     "place": "Mason Neck SP--Visitors Center",
-     "lat": 38.644,
-     "lon": -77.199,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
-     "near": "Prince William Forest"
+     "near": "Great Falls and Washington"
     },
     {
      "code": "perfal",
@@ -6730,11 +7660,11 @@
      "code": "pibgre",
      "name": "Pied-billed Grebe",
      "sci": "Podilymbus podiceps",
-     "count": 3,
-     "seen": "2026-10-10 17:36",
-     "place": "Elizabeth Hartwell Mason Neck NWR--Great Marsh Trail",
-     "lat": 38.64,
-     "lon": -77.156,
+     "count": 12,
+     "seen": "2026-10-11 16:00",
+     "place": "Belmont Bay Marina",
+     "lat": 38.657,
+     "lon": -77.234,
      "notable": false,
      "near": "Prince William Forest"
     },
@@ -7042,11 +7972,11 @@
      "code": "swaspa",
      "name": "Swamp Sparrow",
      "sci": "Melospiza georgiana",
-     "count": 2,
-     "seen": "2026-10-11 14:45",
-     "place": "The Turquoise Trail",
-     "lat": 38.924,
-     "lon": -77.332,
+     "count": 1,
+     "seen": "2026-10-11 15:04",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -8330,13 +9260,13 @@
      "code": "amecro",
      "name": "American Crow",
      "sci": "Corvus brachyrhynchos",
-     "count": 12,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 14,
+     "seen": "2026-10-11 12:24",
+     "place": "Great Smoky Mountains NP--Cades Cove Scenic Loop",
+     "lat": 35.607,
+     "lon": -83.774,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "amegfi",
@@ -8378,8 +9308,8 @@
      "code": "amerob",
      "name": "American Robin",
      "sci": "Turdus migratorius",
-     "count": 20,
-     "seen": "2026-10-11 08:49",
+     "count": 2,
+     "seen": "2026-10-11 19:27",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -8535,12 +9465,12 @@
      "name": "Brown Thrasher",
      "sci": "Toxostoma rufum",
      "count": 1,
-     "seen": "2026-10-07 07:21",
-     "place": "Ferguson Fields (Kituwah Farm)",
-     "lat": 35.438,
-     "lon": -83.402,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Deep Creek and Fontana"
+     "near": "Cades Cove"
     },
     {
      "code": "bnhcow",
@@ -8594,25 +9524,25 @@
      "code": "carchi",
      "name": "Carolina Chickadee",
      "sci": "Poecile carolinensis",
-     "count": null,
-     "seen": "2026-10-11 14:23",
-     "place": "Nantahala Outdoor Center",
-     "lat": 35.331,
-     "lon": -83.592,
+     "count": 1,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Deep Creek and Fontana"
+     "near": "Cades Cove"
     },
     {
      "code": "carwre",
      "name": "Carolina Wren",
      "sci": "Thryothorus ludovicianus",
-     "count": 4,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 1,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "cedwax",
@@ -8630,11 +9560,11 @@
      "code": "chiswi",
      "name": "Chimney Swift",
      "sci": "Chaetura pelagica",
-     "count": 3,
-     "seen": "2026-10-10 18:27",
-     "place": "Jarvis Park",
-     "lat": 35.739,
-     "lon": -83.956,
+     "count": 40,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
      "near": "Cades Cove"
     },
@@ -8675,6 +9605,18 @@
      "near": "Deep Creek and Fontana"
     },
     {
+     "code": "comnig",
+     "name": "Common Nighthawk",
+     "sci": "Chordeiles minor",
+     "count": 1,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
+     "notable": false,
+     "near": "Cades Cove"
+    },
+    {
      "code": "comyel",
      "name": "Common Yellowthroat",
      "sci": "Geothlypis trichas",
@@ -8702,13 +9644,13 @@
      "code": "doccor",
      "name": "Double-crested Cormorant",
      "sci": "Nannopterum auritum",
-     "count": 8,
-     "seen": "2026-10-11 13:28",
-     "place": "Lake Junaluska--Boat Ramp",
-     "lat": 35.523,
-     "lon": -82.981,
+     "count": 1,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "dowwoo",
@@ -8726,13 +9668,13 @@
      "code": "easblu",
      "name": "Eastern Bluebird",
      "sci": "Sialia sialis",
-     "count": 2,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 1,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "easmea",
@@ -8751,12 +9693,12 @@
      "name": "Eastern Phoebe",
      "sci": "Sayornis phoebe",
      "count": 2,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "eastow",
@@ -8775,12 +9717,12 @@
      "name": "Eastern Wood-Pewee",
      "sci": "Contopus virens",
      "count": 1,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "eucdov",
@@ -8823,7 +9765,7 @@
      "name": "Gray Catbird",
      "sci": "Dumetella carolinensis",
      "count": 1,
-     "seen": "2026-10-11 08:49",
+     "seen": "2026-10-11 18:25",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -8846,8 +9788,8 @@
      "code": "grbher3",
      "name": "Great Blue Heron",
      "sci": "Ardea herodias",
-     "count": 3,
-     "seen": "2026-10-11 08:49",
+     "count": 1,
+     "seen": "2026-10-11 19:27",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -8883,19 +9825,19 @@
      "name": "House Finch",
      "sci": "Haemorhous mexicanus",
      "count": 2,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "houspa",
      "name": "House Sparrow",
      "sci": "Passer domesticus",
-     "count": 10,
-     "seen": "2026-10-11 08:49",
+     "count": 5,
+     "seen": "2026-10-11 18:25",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -8942,13 +9884,13 @@
      "code": "mallar3",
      "name": "Mallard",
      "sci": "Anas platyrhynchos",
-     "count": 8,
-     "seen": "2026-10-11 13:28",
-     "place": "Lake Junaluska--Boat Ramp",
-     "lat": 35.523,
-     "lon": -82.981,
+     "count": 50,
+     "seen": "2026-10-11 19:27",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "marwre",
@@ -8978,20 +9920,20 @@
      "code": "moudov",
      "name": "Mourning Dove",
      "sci": "Zenaida macroura",
-     "count": 2,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 3,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "musduc",
      "name": "Muscovy Duck",
      "sci": "Cairina moschata",
      "count": 1,
-     "seen": "2026-10-11 08:49",
+     "seen": "2026-10-11 19:27",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -9026,13 +9968,13 @@
      "code": "norcar",
      "name": "Northern Cardinal",
      "sci": "Cardinalis cardinalis",
-     "count": 2,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 9,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "norfli",
@@ -9074,13 +10016,13 @@
      "code": "normoc",
      "name": "Northern Mockingbird",
      "sci": "Mimus polyglottos",
-     "count": 5,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 3,
+     "seen": "2026-10-11 19:27",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "norwat",
@@ -9219,10 +10161,10 @@
      "name": "Red-shouldered Hawk",
      "sci": "Buteo lineatus",
      "count": 1,
-     "seen": "2026-10-11 08:49",
-     "place": "Maryville-Alcoa Greenway--Maryville Section",
-     "lat": 35.758,
-     "lon": -83.967,
+     "seen": "2026-10-11 12:24",
+     "place": "Great Smoky Mountains NP--Cades Cove Scenic Loop",
+     "lat": 35.607,
+     "lon": -83.774,
      "notable": false,
      "near": "Cades Cove"
     },
@@ -9338,13 +10280,13 @@
      "code": "sonspa",
      "name": "Song Sparrow",
      "sci": "Melospiza melodia",
-     "count": 9,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 1,
+     "seen": "2026-10-11 19:27",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "sumtan",
@@ -9386,13 +10328,13 @@
      "code": "tenwar",
      "name": "Tennessee Warbler",
      "sci": "Leiothlypis peregrina",
-     "count": 1,
-     "seen": "2026-10-11 11:38",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
+     "count": 2,
+     "seen": "2026-10-11 18:25",
+     "place": "Maryville-Alcoa Greenway--Maryville Section",
+     "lat": 35.758,
+     "lon": -83.967,
      "notable": false,
-     "near": "Cataloochee and Big Creek"
+     "near": "Cades Cove"
     },
     {
      "code": "treswa",
@@ -9447,7 +10389,7 @@
      "name": "White-throated Sparrow",
      "sci": "Zonotrichia albicollis",
      "count": 2,
-     "seen": "2026-10-11 08:49",
+     "seen": "2026-10-11 18:25",
      "place": "Maryville-Alcoa Greenway--Maryville Section",
      "lat": 35.758,
      "lon": -83.967,
@@ -9458,11 +10400,11 @@
      "code": "wiltur",
      "name": "Wild Turkey",
      "sci": "Meleagris gallopavo",
-     "count": 7,
-     "seen": "2026-10-09 17:26",
-     "place": "Great Smoky Mountains NP--Abrams Creek--Rabbit Creek Loop",
-     "lat": 35.608,
-     "lon": -83.934,
+     "count": 6,
+     "seen": "2026-10-11 12:24",
+     "place": "Great Smoky Mountains NP--Cades Cove Scenic Loop",
+     "lat": 35.607,
+     "lon": -83.774,
      "notable": false,
      "near": "Cades Cove"
     },
@@ -10626,11 +11568,11 @@
      "code": "amecro",
      "name": "American Crow",
      "sci": "Corvus brachyrhynchos",
-     "count": 10,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 6,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate--The Lagoon",
+     "lat": 35.54,
+     "lon": -82.561,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10638,11 +11580,11 @@
      "code": "amegfi",
      "name": "American Goldfinch",
      "sci": "Spinus tristis",
-     "count": 20,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 8,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10770,11 +11712,11 @@
      "code": "babwar",
      "name": "Bay-breasted Warbler",
      "sci": "Setophaga castanea",
-     "count": 3,
-     "seen": "2026-10-11 11:44",
-     "place": "Lake Julian Park",
-     "lat": 35.479,
-     "lon": -82.538,
+     "count": 2,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10783,12 +11725,12 @@
      "name": "Belted Kingfisher",
      "sci": "Megaceryle alcyon",
      "count": 1,
-     "seen": "2026-10-11 08:20",
-     "place": "Warren Wilson College--Farm Fields",
-     "lat": 35.607,
-     "lon": -82.435,
+     "seen": "2026-10-11 15:50",
+     "place": "Lake Powhatan",
+     "lat": 35.482,
+     "lon": -82.626,
      "notable": false,
-     "near": "Mount Mitchell and the Black Mountains"
+     "near": "Parkway near Asheville"
     },
     {
      "code": "blkvul",
@@ -10831,10 +11773,10 @@
      "name": "Black-throated Green Warbler",
      "sci": "Setophaga virens",
      "count": 1,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10878,11 +11820,11 @@
      "code": "blujay",
      "name": "Blue Jay",
      "sci": "Cyanocitta cristata",
-     "count": 14,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10951,10 +11893,10 @@
      "name": "Brown Creeper",
      "sci": "Certhia americana",
      "count": 1,
-     "seen": "2026-10-11 09:13",
-     "place": "Beaver Lake Bird Sanctuary",
-     "lat": 35.633,
-     "lon": -82.558,
+     "seen": "2026-10-11 15:50",
+     "place": "Lake Powhatan",
+     "lat": 35.482,
+     "lon": -82.626,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -10998,11 +11940,11 @@
      "code": "cangoo",
      "name": "Canada Goose",
      "sci": "Branta canadensis",
-     "count": 20,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 170,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Craggy Gardens"
     },
@@ -11034,11 +11976,11 @@
      "code": "carchi",
      "name": "Carolina Chickadee",
      "sci": "Poecile carolinensis",
-     "count": 2,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate--The Lagoon",
+     "lat": 35.54,
+     "lon": -82.561,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11071,22 +12013,22 @@
      "name": "Chestnut-sided Warbler",
      "sci": "Setophaga pensylvanica",
      "count": 1,
-     "seen": "2026-10-09 11:24",
-     "place": "Warren Wilson College--Farm Fields",
-     "lat": 35.607,
-     "lon": -82.435,
+     "seen": "2026-10-11 15:23",
+     "place": "Tessentee Bottomland Preserve",
+     "lat": 35.069,
+     "lon": -83.38,
      "notable": false,
-     "near": "Mount Mitchell and the Black Mountains"
+     "near": "Wayah Bald and Standing Indian"
     },
     {
      "code": "chiswi",
      "name": "Chimney Swift",
      "sci": "Chaetura pelagica",
-     "count": 4,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 8,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11115,16 +12057,28 @@
      "near": "Pisgah district near Brevard"
     },
     {
+     "code": "commer",
+     "name": "Common Merganser",
+     "sci": "Mergus merganser",
+     "count": 2,
+     "seen": "2026-10-06 18:30",
+     "place": "Historic Welch Farm",
+     "lat": 35.183,
+     "lon": -83.89,
+     "notable": false,
+     "near": "Joyce Kilmer and the Cheoah district"
+    },
+    {
      "code": "comrav",
      "name": "Common Raven",
      "sci": "Corvus corax",
      "count": 1,
-     "seen": "2026-10-09 15:25",
-     "place": "Blue Ridge Pkwy--Balsam Gap",
-     "lat": 35.748,
-     "lon": -82.334,
+     "seen": "2026-10-11 15:23",
+     "place": "Tessentee Bottomland Preserve",
+     "lat": 35.069,
+     "lon": -83.38,
      "notable": false,
-     "near": "Parkway near Asheville"
+     "near": "Wayah Bald and Standing Indian"
     },
     {
      "code": "comyel",
@@ -11178,11 +12132,11 @@
      "code": "doccor",
      "name": "Double-crested Cormorant",
      "sci": "Nannopterum auritum",
-     "count": 2,
-     "seen": "2026-10-11 13:57",
-     "place": "Biltmore Estate--The Lagoon",
+     "count": 5,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
      "lat": 35.54,
-     "lon": -82.561,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11202,11 +12156,11 @@
      "code": "easblu",
      "name": "Eastern Bluebird",
      "sci": "Sialia sialis",
-     "count": 4,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 3,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11226,11 +12180,11 @@
      "code": "easpho",
      "name": "Eastern Phoebe",
      "sci": "Sayornis phoebe",
-     "count": 4,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 6,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11371,10 +12325,10 @@
      "name": "Great Egret",
      "sci": "Ardea alba",
      "count": 1,
-     "seen": "2026-10-11 13:57",
-     "place": "Biltmore Estate--The Lagoon",
-     "lat": 35.54,
-     "lon": -82.561,
+     "seen": "2026-10-11 21:14",
+     "place": "Biltmore Estate--Deer Park River Trail",
+     "lat": 35.553,
+     "lon": -82.587,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11439,6 +12393,18 @@
      "near": "Parkway near Asheville"
     },
     {
+     "code": "hoowar",
+     "name": "Hooded Warbler",
+     "sci": "Setophaga citrina",
+     "count": 1,
+     "seen": "2026-10-11 15:23",
+     "place": "Tessentee Bottomland Preserve",
+     "lat": 35.069,
+     "lon": -83.38,
+     "notable": false,
+     "near": "Wayah Bald and Standing Indian"
+    },
+    {
      "code": "houfin",
      "name": "House Finch",
      "sci": "Haemorhous mexicanus",
@@ -11466,13 +12432,13 @@
      "code": "indbun",
      "name": "Indigo Bunting",
      "sci": "Passerina cyanea",
-     "count": 1,
-     "seen": "2026-10-11 14:49",
-     "place": "Hooper Lane",
-     "lat": 35.398,
-     "lon": -82.544,
+     "count": 2,
+     "seen": "2026-10-11 15:23",
+     "place": "Tessentee Bottomland Preserve",
+     "lat": 35.069,
+     "lon": -83.38,
      "notable": false,
-     "near": "Pisgah district near Brevard"
+     "near": "Wayah Bald and Standing Indian"
     },
     {
      "code": "killde",
@@ -11514,13 +12480,13 @@
      "code": "magwar",
      "name": "Magnolia Warbler",
      "sci": "Setophaga magnolia",
-     "count": 2,
-     "seen": "2026-10-11 08:20",
-     "place": "Warren Wilson College--Farm Fields",
-     "lat": 35.607,
-     "lon": -82.435,
+     "count": 4,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
-     "near": "Mount Mitchell and the Black Mountains"
+     "near": "Parkway near Asheville"
     },
     {
      "code": "mallar3",
@@ -11562,11 +12528,11 @@
      "code": "moudov",
      "name": "Mourning Dove",
      "sci": "Zenaida macroura",
-     "count": 17,
-     "seen": "2026-10-11 15:14",
-     "place": "Biltmore Estate--Deer Park River Trail",
-     "lat": 35.553,
-     "lon": -82.587,
+     "count": 2,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11610,11 +12576,11 @@
      "code": "norcar",
      "name": "Northern Cardinal",
      "sci": "Cardinalis cardinalis",
-     "count": 7,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate--The Lagoon",
+     "lat": 35.54,
+     "lon": -82.561,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11658,11 +12624,11 @@
      "code": "normoc",
      "name": "Northern Mockingbird",
      "sci": "Mimus polyglottos",
-     "count": 9,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11671,10 +12637,10 @@
      "name": "Northern Parula",
      "sci": "Setophaga americana",
      "count": 3,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11754,11 +12720,11 @@
      "code": "palwar",
      "name": "Palm Warbler",
      "sci": "Setophaga palmarum",
-     "count": 15,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -11790,13 +12756,13 @@
      "code": "pilwoo",
      "name": "Pileated Woodpecker",
      "sci": "Dryocopus pileatus",
-     "count": 1,
-     "seen": "2026-10-11 11:00",
-     "place": "Catawba River Greenway--Greenlee Ford Access",
-     "lat": 35.741,
-     "lon": -81.716,
+     "count": 2,
+     "seen": "2026-10-11 15:50",
+     "place": "Lake Powhatan",
+     "lat": 35.482,
+     "lon": -82.626,
      "notable": false,
-     "near": "Linville Gorge and Grandfather"
+     "near": "Parkway near Asheville"
     },
     {
      "code": "pinsis",
@@ -11862,13 +12828,13 @@
      "code": "rebnut",
      "name": "Red-breasted Nuthatch",
      "sci": "Sitta canadensis",
-     "count": 5,
-     "seen": "2026-10-11 15:26",
-     "place": "Grandfather Mountain--Nature Museum",
-     "lat": 36.09,
-     "lon": -81.835,
+     "count": 1,
+     "seen": "2026-10-11 15:50",
+     "place": "Lake Powhatan",
+     "lat": 35.482,
+     "lon": -82.626,
      "notable": false,
-     "near": "Roan Highlands at Carvers Gap"
+     "near": "Parkway near Asheville"
     },
     {
      "code": "rehwoo",
@@ -12042,11 +13008,11 @@
      "code": "sonspa",
      "name": "Song Sparrow",
      "sci": "Melospiza melodia",
-     "count": 6,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -12090,11 +13056,11 @@
      "code": "tenwar",
      "name": "Tennessee Warbler",
      "sci": "Leiothlypis peregrina",
-     "count": 12,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 1,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -12114,11 +13080,11 @@
      "code": "tuftit",
      "name": "Tufted Titmouse",
      "sci": "Baeolophus bicolor",
-     "count": 4,
-     "seen": "2026-10-11 16:51",
-     "place": "Carrier Park",
-     "lat": 35.565,
-     "lon": -82.577,
+     "count": 3,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -12198,11 +13164,11 @@
      "code": "wiltur",
      "name": "Wild Turkey",
      "sci": "Meleagris gallopavo",
-     "count": 7,
-     "seen": "2026-10-11 15:14",
-     "place": "Biltmore Estate--Deer Park River Trail",
-     "lat": 35.553,
-     "lon": -82.587,
+     "count": 25,
+     "seen": "2026-10-11 17:30",
+     "place": "Biltmore Estate",
+     "lat": 35.54,
+     "lon": -82.551,
      "notable": false,
      "near": "Parkway near Asheville"
     },
@@ -12331,8 +13297,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 0.3,
-    "updated": "2026-10-11T20:33:01-04:00"
+    "windKph": 4.1,
+    "updated": "2026-10-12T07:01:49-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -12340,13 +13306,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 13.3,
-    "surfaceC": 13.6,
+    "airC": 14.4,
+    "surfaceC": 14.3,
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
     "windKph": 0.0,
-    "updated": "2026-10-11T20:32:24-04:00"
+    "updated": "2026-10-12T07:01:25-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -12354,13 +13320,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 15.5,
-    "surfaceC": 15.3,
+    "airC": 14.4,
+    "surfaceC": 14.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 97.0,
+    "humidity": 99.0,
     "windKph": 0.0,
-    "updated": "2026-10-11T20:36:13-04:00"
+    "updated": "2026-10-12T07:04:37-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -12382,13 +13348,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 13.8,
-    "surfaceC": 14.5,
-    "visibilityM": 9.0,
+    "airC": 15.4,
+    "surfaceC": 15.6,
+    "visibilityM": 187.0,
     "precipRate": 0.0,
-    "humidity": 0.0,
+    "humidity": 99.0,
     "windKph": 0.0,
-    "updated": "2026-10-11T20:32:26-04:00"
+    "updated": "2026-10-12T07:01:26-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -12396,13 +13362,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 13.9,
-    "surfaceC": 15.3,
-    "visibilityM": null,
+    "airC": 14.4,
+    "surfaceC": 14.5,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
     "humidity": 98.0,
-    "windKph": 0.7,
-    "updated": "2026-10-11T20:36:36-04:00"
+    "windKph": 2.6,
+    "updated": "2026-10-12T07:04:01-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -12410,13 +13376,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 14.1,
-    "surfaceC": 15.2,
+    "airC": 14.4,
+    "surfaceC": 14.3,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 98.0,
-    "windKph": 0.5,
-    "updated": "2026-10-11T20:36:12-04:00"
+    "humidity": 97.0,
+    "windKph": 0.2,
+    "updated": "2026-10-12T07:05:01-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -12424,13 +13390,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 12.6,
-    "surfaceC": 13.6,
-    "visibilityM": 601.0,
+    "airC": 13.3,
+    "surfaceC": 13.4,
+    "visibilityM": 681.0,
     "precipRate": 0.0,
     "humidity": 100.0,
-    "windKph": 2.7,
-    "updated": "2026-10-11T20:36:12-04:00"
+    "windKph": 8.1,
+    "updated": "2026-10-12T07:05:01-04:00"
    }
   ]
  },
@@ -12459,25 +13425,6 @@
      ]
     },
     {
-     "title": "Incident WXSW11735452378-10112026 updated",
-     "description": "On Rt. 807 East in Botetourt County, in the vicinity of Hastings Ln, Healing Springs Rd, Rte 805, motorists can expect delays due to weather. Lane closures exist.",
-     "lat": 37.37451,
-     "lon": -79.80257,
-     "line": null,
-     "published": null,
-     "side": "parkway",
-     "milesFromTrailhead": 2.2,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXSW11735452378-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXSW11735452378-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
-    {
      "title": "Incident WXNW11731876761-10102026 updated",
      "description": "On I-64 East at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
      "lat": 38.03244,
@@ -12488,6 +13435,25 @@
      "milesFromTrailhead": 0.1,
      "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11731876761-10102026.xml",
      "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11731876761-10102026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ]
+    },
+    {
+     "title": "Incident WXSW11736953251-10122026 updated",
+     "description": "On VA-43 North in Bedford County, in the vicinity of Karnes Rd, Rte 641, motorists can expect delays due to weather. Lane closures exist.",
+     "lat": 37.42784,
+     "lon": -79.57503,
+     "line": null,
+     "published": null,
+     "side": "parkway",
+     "milesFromTrailhead": 1.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXSW11736953251-10122026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXSW11736953251-10122026.xml",
      "tags": [
       "description",
       "guid",
@@ -12534,6 +13500,28 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4684860-10122026-2 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/13/26 at 7:00 AM until 10/13/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-13T07:00:00",
+     "end": "2026-10-13T15:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4684700-10092026-2 updated",
      "description": "On Rt. 619 (Rivermont Dr) in the County of Warren from Stonewall Jackson Hwy; /S; US-340N; US-340S to Catlett Mountain Rd; S River Rd; Rt. 679E/W (Warren County); Rt. 679E (Warren County), motorists can expect potential delays in this area from 10/13/26 at 6:00 AM until 10/13/26 at 5:00 PM due to bridge work. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.90332,
@@ -12562,6 +13550,105 @@
      ],
      "start": "2026-10-13T06:00:00",
      "end": "2026-10-13T17:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4676602-09172026-4 updated",
+     "description": "On US-522 (Sperryville Park) in the County of Rappahannock from Fletchers Mill Rd; Rt. 620E/W (Rappahannock County) to Main St; Rt. 1001E/W (Rappahannock County), motorists can expect potential delays in this area from 10/15/26 at 7:00 AM until 10/15/26 at 5:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.64693,
+     "lon": -78.20872,
+     "line": [
+      [
+       38.646927,
+       -78.20872
+      ],
+      [
+       38.64738,
+       -78.209715
+      ],
+      [
+       38.647656,
+       -78.210291
+      ],
+      [
+       38.648,
+       -78.211039
+      ],
+      [
+       38.648214,
+       -78.211483
+      ],
+      [
+       38.648381,
+       -78.211857
+      ],
+      [
+       38.648905,
+       -78.21293
+      ],
+      [
+       38.649115,
+       -78.213321
+      ],
+      [
+       38.649387,
+       -78.213807
+      ],
+      [
+       38.649617,
+       -78.214184
+      ],
+      [
+       38.650809,
+       -78.216084
+      ],
+      [
+       38.651383,
+       -78.21703
+      ],
+      [
+       38.651549,
+       -78.217261
+      ],
+      [
+       38.653235,
+       -78.219916
+      ],
+      [
+       38.654166,
+       -78.221408
+      ],
+      [
+       38.656265,
+       -78.224737
+      ],
+      [
+       38.656584,
+       -78.225254
+      ],
+      [
+       38.656993,
+       -78.225886
+      ],
+      [
+       38.6572,
+       -78.226242
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-4.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-15T07:00:00",
+     "end": "2026-10-15T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -14395,8 +15482,30 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4684860-10122026-4 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/15/26 at 7:00 AM until 10/15/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-4.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-15T07:00:00",
+     "end": "2026-10-15T15:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4681130-09292026-2 updated",
-     "description": "On VA-55 in the County of Warren from E Strasburg Rd; N Shenandoah Ave; US-340N/S, US-522N/S to Snow Hill Ln; County/City/Town Line: FAUQUIER CL/WARREN CO, motorists can expect potential delays in this area from 10/11/26 at 8:00 PM until 10/12/26 at 5:00 AM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
+     "description": "On VA-55 in the County of Warren from E Strasburg Rd; N Shenandoah Ave; US-340N/S, US-522N/S to Snow Hill Ln; County/City/Town Line: FAUQUIER CL/WARREN CO, motorists can expect potential delays in this area from 10/13/26 at 8:00 PM until 10/14/26 at 5:00 AM due to maintenance activities. All east lanes are mobile, alternating closures. All west lanes are mobile, alternating closures.",
      "lat": 38.9467,
      "lon": -78.19968,
      "line": [
@@ -14653,8 +15762,8 @@
       "link",
       "title"
      ],
-     "start": "2026-10-11T20:00:00",
-     "end": "2026-10-12T05:00:00",
+     "start": "2026-10-13T20:00:00",
+     "end": "2026-10-14T05:00:00",
      "allLanesClosed": false
     },
     {
@@ -15812,6 +16921,50 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZNW4684860-10122026-3 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/14/26 at 7:00 AM until 10/14/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-14T07:00:00",
+     "end": "2026-10-14T15:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4684860-10122026-1 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/12/26 at 7:00 AM until 10/12/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-12T07:00:00",
+     "end": "2026-10-12T15:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZSW4669484-08302026-2 updated",
      "description": "On VA-151 South (Critzer Shop Rd) in the County of Nelson from Afton Mountain Rd; Avon Rd; VA-6E/W; Rt. 638N/S (Nelson County) to Rockfish School Ln; Rt. 635N/S (Nelson County), motorists can expect potential delays in this area from 10/12/26 at 8:00 AM until 10/12/26 at 4:00 PM due to maintenance activities.",
      "lat": 37.99993,
@@ -16072,6 +17225,89 @@
      ],
      "start": "2026-10-12T08:00:00",
      "end": "2026-10-12T16:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZSW4672744-09092026-1 updated",
+     "description": "On I-81 North in the County of Botetourt from mile marker 166 to mile marker 168, motorists can expect potential delays in this area from 10/12/26 at 8:09 PM until 10/13/26 at 5:08 AM due to paving operations.",
+     "lat": 37.52944,
+     "lon": -79.69274,
+     "line": [
+      [
+       37.529444,
+       -79.692741
+      ],
+      [
+       37.530436,
+       -79.690391
+      ],
+      [
+       37.53119,
+       -79.68901
+      ],
+      [
+       37.531895,
+       -79.687907
+      ],
+      [
+       37.532838,
+       -79.686656
+      ],
+      [
+       37.536177,
+       -79.682718
+      ],
+      [
+       37.537404,
+       -79.681123
+      ],
+      [
+       37.540599,
+       -79.676369
+      ],
+      [
+       37.541552,
+       -79.674635
+      ],
+      [
+       37.543553,
+       -79.670475
+      ],
+      [
+       37.544267,
+       -79.669289
+      ],
+      [
+       37.545323,
+       -79.668039
+      ],
+      [
+       37.546592,
+       -79.667014
+      ],
+      [
+       37.547493,
+       -79.666518
+      ],
+      [
+       37.54919,
+       -79.665855
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 1.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-12T20:09:00",
+     "end": "2026-10-13T05:08:00",
      "allLanesClosed": false
     },
     {
@@ -16864,6 +18100,89 @@
      "allLanesClosed": false
     },
     {
+     "title": "Planned Event WZSW4672744-09092026-3 updated",
+     "description": "On I-81 North in the County of Botetourt from mile marker 166 to mile marker 168, motorists can expect potential delays in this area from 10/14/26 at 8:00 PM until 10/15/26 at 7:00 AM due to paving operations.",
+     "lat": 37.52944,
+     "lon": -79.69274,
+     "line": [
+      [
+       37.529444,
+       -79.692741
+      ],
+      [
+       37.530436,
+       -79.690391
+      ],
+      [
+       37.53119,
+       -79.68901
+      ],
+      [
+       37.531895,
+       -79.687907
+      ],
+      [
+       37.532838,
+       -79.686656
+      ],
+      [
+       37.536177,
+       -79.682718
+      ],
+      [
+       37.537404,
+       -79.681123
+      ],
+      [
+       37.540599,
+       -79.676369
+      ],
+      [
+       37.541552,
+       -79.674635
+      ],
+      [
+       37.543553,
+       -79.670475
+      ],
+      [
+       37.544267,
+       -79.669289
+      ],
+      [
+       37.545323,
+       -79.668039
+      ],
+      [
+       37.546592,
+       -79.667014
+      ],
+      [
+       37.547493,
+       -79.666518
+      ],
+      [
+       37.54919,
+       -79.665855
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 1.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-3.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-3.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-14T20:00:00",
+     "end": "2026-10-15T07:00:00",
+     "allLanesClosed": false
+    },
+    {
      "title": "Planned Event WZNW4679231-09242026-3 updated",
      "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 10/12/26 at 7:00 AM until 10/12/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
      "lat": 38.65086,
@@ -17305,45 +18624,73 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZSW4672744-09092026-4 updated",
-     "description": "On I-81 North in the County of Botetourt from mile marker 166.5 to mile marker 167.4, motorists can expect potential delays in this area from 10/11/26 at 8:00 PM until 10/12/26 at 6:00 AM due to paving operations.",
-     "lat": 37.53384,
-     "lon": -79.68547,
+     "title": "Planned Event WZNW4684701-10092026-4 updated",
+     "description": "On Rt. 619 (Rivermont Dr) in the County of Warren from Stonewall Jackson Hwy; /S; US-340N; US-340S to S River Rd; Rt. 679E/W (Warren County), motorists can expect potential delays in this area from 10/15/26 at 6:00 AM until 10/15/26 at 5:00 PM due to bridge work. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.90332,
+     "lon": -78.21084,
      "line": [
       [
-       37.53384,
-       -79.68547
+       38.903317,
+       -78.210835
       ],
       [
-       37.536482,
-       -79.682337
+       38.903364,
+       -78.210902
       ],
       [
-       37.537404,
-       -79.681123
+       38.903396,
+       -78.210969
       ],
       [
-       37.538218,
-       -79.67996
+       38.903417,
+       -78.211036
       ],
       [
-       37.540165,
-       -79.677048
+       38.90477,
+       -78.21625
       ],
       [
-       37.541012,
-       -79.675668
+       38.906189,
+       -78.221759
       ],
       [
-       37.542449,
-       -79.672762
+       38.907274,
+       -78.226001
+      ],
+      [
+       38.908864,
+       -78.232184
+      ],
+      [
+       38.909009,
+       -78.232693
+      ],
+      [
+       38.909133,
+       -78.233061
+      ],
+      [
+       38.909219,
+       -78.233289
+      ],
+      [
+       38.909313,
+       -78.233515
+      ],
+      [
+       38.909493,
+       -78.233888
+      ],
+      [
+       38.909683,
+       -78.234234
       ]
      ],
      "published": null,
-     "side": "forest",
-     "milesFromTrailhead": 1.9,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-4.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-4.xml",
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684701-10092026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684701-10092026-4.xml",
      "tags": [
       "description",
       "guid",
@@ -17351,8 +18698,8 @@
       "link",
       "title"
      ],
-     "start": "2026-10-11T20:00:00",
-     "end": "2026-10-12T06:00:00",
+     "start": "2026-10-15T06:00:00",
+     "end": "2026-10-15T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -17543,45 +18890,25 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZSW4672744-09092026-5 updated",
-     "description": "On I-81 North in the County of Botetourt from mile marker 166.5 to mile marker 167.4, motorists can expect potential delays in this area from 10/12/26 at 8:00 PM until 10/13/26 at 6:00 AM due to paving operations.",
-     "lat": 37.53384,
-     "lon": -79.68547,
+     "title": "Planned Event WZNW4684700-10092026-4 updated",
+     "description": "On Rt. 619 (Rivermont Dr) in the County of Warren from Stonewall Jackson Hwy; /S; US-340N; US-340S to Catlett Mountain Rd; S River Rd; Rt. 679E/W (Warren County); Rt. 679E (Warren County), motorists can expect potential delays in this area from 10/15/26 at 6:00 AM until 10/15/26 at 5:00 PM due to bridge work. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.90332,
+     "lon": -78.21084,
      "line": [
       [
-       37.53384,
-       -79.68547
+       38.903317,
+       -78.210835
       ],
       [
-       37.536482,
-       -79.682337
-      ],
-      [
-       37.537404,
-       -79.681123
-      ],
-      [
-       37.538218,
-       -79.67996
-      ],
-      [
-       37.540165,
-       -79.677048
-      ],
-      [
-       37.541012,
-       -79.675668
-      ],
-      [
-       37.542449,
-       -79.672762
+       38.904766,
+       -78.216237
       ]
      ],
      "published": null,
-     "side": "forest",
-     "milesFromTrailhead": 1.9,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-5.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-5.xml",
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684700-10092026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684700-10092026-4.xml",
      "tags": [
       "description",
       "guid",
@@ -17589,8 +18916,8 @@
       "link",
       "title"
      ],
-     "start": "2026-10-12T20:00:00",
-     "end": "2026-10-13T06:00:00",
+     "start": "2026-10-15T06:00:00",
+     "end": "2026-10-15T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -17690,6 +19017,269 @@
      ],
      "start": "2026-10-14T07:00:00",
      "end": "2026-10-14T17:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4679231-09242026-1 updated",
+     "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 10/15/26 at 7:00 AM until 10/15/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.65086,
+     "lon": -78.21764,
+     "line": [
+      [
+       38.650861,
+       -78.21764
+      ],
+      [
+       38.650313,
+       -78.218177
+      ],
+      [
+       38.648835,
+       -78.21959
+      ],
+      [
+       38.645208,
+       -78.223116
+      ],
+      [
+       38.644624,
+       -78.223661
+      ],
+      [
+       38.644261,
+       -78.223974
+      ],
+      [
+       38.644012,
+       -78.224168
+      ],
+      [
+       38.642993,
+       -78.22484
+      ],
+      [
+       38.642505,
+       -78.225182
+      ],
+      [
+       38.642218,
+       -78.225417
+      ],
+      [
+       38.641922,
+       -78.225695
+      ],
+      [
+       38.641648,
+       -78.225997
+      ],
+      [
+       38.641233,
+       -78.226521
+      ],
+      [
+       38.640375,
+       -78.227686
+      ],
+      [
+       38.640142,
+       -78.227985
+      ],
+      [
+       38.63992,
+       -78.228297
+      ],
+      [
+       38.639415,
+       -78.228957
+      ],
+      [
+       38.639224,
+       -78.229168
+      ],
+      [
+       38.639055,
+       -78.22933
+      ],
+      [
+       38.638515,
+       -78.229752
+      ],
+      [
+       38.637961,
+       -78.230135
+      ],
+      [
+       38.633315,
+       -78.2335
+      ],
+      [
+       38.633057,
+       -78.233669
+      ],
+      [
+       38.632692,
+       -78.23388
+      ],
+      [
+       38.632437,
+       -78.233989
+      ],
+      [
+       38.63224,
+       -78.234043
+      ],
+      [
+       38.631031,
+       -78.234243
+      ],
+      [
+       38.629724,
+       -78.234441
+      ],
+      [
+       38.62612,
+       -78.235021
+      ],
+      [
+       38.625727,
+       -78.235054
+      ],
+      [
+       38.625447,
+       -78.235051
+      ],
+      [
+       38.625054,
+       -78.235021
+      ],
+      [
+       38.624887,
+       -78.234994
+      ],
+      [
+       38.624189,
+       -78.23493
+      ],
+      [
+       38.622907,
+       -78.234784
+      ],
+      [
+       38.622033,
+       -78.234672
+      ],
+      [
+       38.621575,
+       -78.234635
+      ],
+      [
+       38.620878,
+       -78.23462
+      ],
+      [
+       38.620482,
+       -78.234622
+      ],
+      [
+       38.620101,
+       -78.234637
+      ],
+      [
+       38.618653,
+       -78.234726
+      ],
+      [
+       38.61804,
+       -78.234781
+      ],
+      [
+       38.616251,
+       -78.234984
+      ],
+      [
+       38.615533,
+       -78.235056
+      ],
+      [
+       38.615016,
+       -78.235156
+      ],
+      [
+       38.614754,
+       -78.23522
+      ],
+      [
+       38.614356,
+       -78.235334
+      ],
+      [
+       38.612921,
+       -78.235801
+      ],
+      [
+       38.612173,
+       -78.236024
+      ],
+      [
+       38.610064,
+       -78.236704
+      ],
+      [
+       38.609094,
+       -78.236998
+      ],
+      [
+       38.60757,
+       -78.23749
+      ],
+      [
+       38.607042,
+       -78.23767
+      ],
+      [
+       38.606604,
+       -78.23777
+      ],
+      [
+       38.606468,
+       -78.237791
+      ],
+      [
+       38.606192,
+       -78.23782
+      ],
+      [
+       38.605914,
+       -78.237828
+      ],
+      [
+       38.60578,
+       -78.237815
+      ],
+      [
+       38.6055,
+       -78.23776
+      ],
+      [
+       38.605318,
+       -78.237708
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 1.1,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-15T07:00:00",
+     "end": "2026-10-15T18:00:00",
      "allLanesClosed": false
     },
     {
@@ -17988,6 +19578,89 @@
      ],
      "start": "2026-05-18T07:00:00",
      "end": "2026-12-31T19:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZSW4672744-09092026-2 updated",
+     "description": "On I-81 North in the County of Botetourt from mile marker 166 to mile marker 168, motorists can expect potential delays in this area from 10/13/26 at 8:00 PM until 10/14/26 at 6:00 AM due to paving operations.",
+     "lat": 37.52944,
+     "lon": -79.69274,
+     "line": [
+      [
+       37.529444,
+       -79.692741
+      ],
+      [
+       37.530436,
+       -79.690391
+      ],
+      [
+       37.53119,
+       -79.68901
+      ],
+      [
+       37.531895,
+       -79.687907
+      ],
+      [
+       37.532838,
+       -79.686656
+      ],
+      [
+       37.536177,
+       -79.682718
+      ],
+      [
+       37.537404,
+       -79.681123
+      ],
+      [
+       37.540599,
+       -79.676369
+      ],
+      [
+       37.541552,
+       -79.674635
+      ],
+      [
+       37.543553,
+       -79.670475
+      ],
+      [
+       37.544267,
+       -79.669289
+      ],
+      [
+       37.545323,
+       -79.668039
+      ],
+      [
+       37.546592,
+       -79.667014
+      ],
+      [
+       37.547493,
+       -79.666518
+      ],
+      [
+       37.54919,
+       -79.665855
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 1.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-13T20:00:00",
+     "end": "2026-10-14T06:00:00",
      "allLanesClosed": false
     },
     {
@@ -19944,25 +21617,6 @@
      ]
     },
     {
-     "title": "Road Condition WXSW11735452378-10112026 updated",
-     "description": "On Rt. 807 East in Botetourt County, in the vicinity of Hastings Ln, Healing Springs Rd, Rte 805, motorists can expect delays due to weather. Lane closures exist.",
-     "lat": 37.37451,
-     "lon": -79.80257,
-     "line": null,
-     "published": null,
-     "side": "parkway",
-     "milesFromTrailhead": 2.2,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXSW11735452378-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXSW11735452378-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
-    {
      "title": "Road Condition WXNW11731876761-10102026 updated",
      "description": "On I-64 East at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
      "lat": 38.03244,
@@ -19973,6 +21627,25 @@
      "milesFromTrailhead": 0.1,
      "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11731876761-10102026.xml",
      "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11731876761-10102026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ]
+    },
+    {
+     "title": "Road Condition WXSW11736953251-10122026 updated",
+     "description": "On VA-43 North in Bedford County, in the vicinity of Karnes Rd, Rte 641, motorists can expect delays due to weather. Lane closures exist.",
+     "lat": 37.42784,
+     "lon": -79.57503,
+     "line": null,
+     "published": null,
+     "side": "parkway",
+     "milesFromTrailhead": 1.7,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXSW11736953251-10122026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXSW11736953251-10122026.xml",
      "tags": [
       "description",
       "guid",
