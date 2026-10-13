@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-12T21:19:09Z",
+ "fetchedAt": "2026-10-13T06:53:02Z",
  "region": "crla",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 42.8975,
     "lon": -122.1397,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-12 14:00 local"
+    "observed": "2026-10-12 23:00 local"
    },
    {
     "area": "Cleetwood Cove",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 42.9567,
     "lon": -122.0925,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-12 14:00 local"
+    "observed": "2026-10-12 23:00 local"
    },
    {
     "area": "Mazama Village",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 42.8676,
     "lon": -122.1685,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-12 14:00 local"
+    "observed": "2026-10-12 23:00 local"
    },
    {
     "area": "Pinnacles and Lost Creek",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 42.8186,
     "lon": -122.0958,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-12 14:00 local"
+    "observed": "2026-10-12 23:00 local"
    }
   ],
   "forecasts": [
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,7 +150,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "brwhaw",
@@ -200,6 +200,18 @@
     "place": "Wood River Day Use Area",
     "lat": 42.709,
     "lon": -121.991,
+    "notable": true,
+    "near": "Rim Village"
+   },
+   {
+    "code": "gcrfin",
+    "name": "Gray-crowned Rosy-Finch",
+    "sci": "Leucosticte tephrocotis",
+    "count": 18,
+    "seen": "2026-10-07 07:22",
+    "place": "Crater Lake NP--The Watchman",
+    "lat": 42.942,
+    "lon": -122.171,
     "notable": true,
     "near": "Rim Village"
    },
@@ -219,11 +231,11 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 6,
-    "seen": "2026-10-10 13:34",
-    "place": "Wood River Day Use Area",
-    "lat": 42.709,
-    "lon": -121.991,
+    "count": 1,
+    "seen": "2026-10-12 12:30",
+    "place": "Crater Lake NP--The Watchman",
+    "lat": 42.942,
+    "lon": -122.171,
     "notable": false,
     "near": "Rim Village"
    },
@@ -300,18 +312,6 @@
     "near": "Rim Village"
    },
    {
-    "code": "gryjay",
-    "name": "Canada Jay",
-    "sci": "Perisoreus canadensis",
-    "count": 2,
-    "seen": "2026-10-09 17:15",
-    "place": "Diamond Lake",
-    "lat": 43.156,
-    "lon": -122.151,
-    "notable": false,
-    "near": "Cleetwood Cove"
-   },
-   {
     "code": "casfin",
     "name": "Cassin's Finch",
     "sci": "Haemorhous cassinii",
@@ -322,18 +322,6 @@
     "lon": -122.171,
     "notable": false,
     "near": "Rim Village"
-   },
-   {
-    "code": "chbchi",
-    "name": "Chestnut-backed Chickadee",
-    "sci": "Poecile rufescens",
-    "count": 1,
-    "seen": "2026-10-09 17:15",
-    "place": "Diamond Lake",
-    "lat": 43.156,
-    "lon": -122.151,
-    "notable": false,
-    "near": "Cleetwood Cove"
    },
    {
     "code": "clanut",
@@ -351,11 +339,11 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-10-10 14:04",
-    "place": "Crater Lake NP--Cloudcap Viewpoint and Picnic Area",
-    "lat": 42.936,
-    "lon": -122.047,
+    "count": 5,
+    "seen": "2026-10-12 12:30",
+    "place": "Crater Lake NP--The Watchman",
+    "lat": 42.942,
+    "lon": -122.171,
     "notable": false,
     "near": "Rim Village"
    },
@@ -687,11 +675,11 @@
     "code": "varthr",
     "name": "Varied Thrush",
     "sci": "Ixoreus naevius",
-    "count": 3,
-    "seen": "2026-10-10 13:34",
-    "place": "Wood River Day Use Area",
-    "lat": 42.709,
-    "lon": -121.991,
+    "count": 1,
+    "seen": "2026-10-12 12:30",
+    "place": "Crater Lake NP--The Watchman",
+    "lat": 42.942,
+    "lon": -122.171,
     "notable": false,
     "near": "Rim Village"
    },
@@ -755,7 +743,6 @@
     "notable": false,
     "near": "Rim Village"
    }
-  ],
-  "staleSince": "2026-10-12T21:19:09Z"
+  ]
  }
 }
