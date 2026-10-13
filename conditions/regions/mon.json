@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-13T06:53:02Z",
+ "fetchedAt": "2026-10-13T17:00:10Z",
  "region": "mon",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 39.07,
     "lon": -79.38,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -29,10 +29,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 38.22,
     "lon": -80.26,
-    "pollutant": "O3",
-    "aqi": 30,
+    "pollutant": "PM2.5",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 37.95,
     "lon": -80.25,
-    "pollutant": "O3",
-    "aqi": 28,
+    "pollutant": "PM2.5",
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 53,
+    "aqi": 55,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -90,36 +90,6 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Spruce Knob",
-    "state": "WV",
-    "near": "mon-spruce-knob",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Spruce Knob",
-    "state": "WV",
-    "near": "mon-spruce-knob",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
     "aqi": 47,
     "category": "Good",
     "level": 1,
@@ -127,6 +97,36 @@
     "discussion": ""
    },
    {
+    "area": "Spruce Knob",
+    "state": "WV",
+    "near": "mon-spruce-knob",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 57,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Spruce Knob",
+    "state": "WV",
+    "near": "mon-spruce-knob",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Cranberry and Greenbrier",
     "state": "WV",
     "near": "mon-cranberry",
@@ -135,7 +135,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 54,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -149,8 +149,8 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 48,
+    "pollutant": "O3",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -179,8 +179,8 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 46,
+    "pollutant": "O3",
+    "aqi": 43,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -814,18 +814,6 @@
     "lon": -80.047,
     "notable": false,
     "near": "Southern Monongahela"
-   },
-   {
-    "code": "robgro",
-    "name": "Rose-breasted Grosbeak",
-    "sci": "Pheucticus ludovicianus",
-    "count": 2,
-    "seen": "2026-10-06 07:01",
-    "place": "Allegheny Front Migration Observatory--Red Creek CG",
-    "lat": 39.034,
-    "lon": -79.313,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "ruckin",

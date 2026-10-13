@@ -1,14 +1,64 @@
 {
- "fetchedAt": "2026-10-13T06:53:02Z",
+ "fetchedAt": "2026-10-13T17:00:10Z",
  "fires": {
   "status": "ok",
   "sources": {
    "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (3 rows); ok (137 rows); ok (10 rows)",
-   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (20 rows); ok (141 rows); ok (33 rows)",
-   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (3 rows); ok (137 rows); ok (39 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (1 rows); ok (31 rows); ok (6 rows)"
+   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (20 rows); ok (142 rows); ok (33 rows)",
+   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (3 rows); ok (137 rows); ok (41 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (1 rows); ok (57 rows); ok (6 rows)"
   },
   "detections": [
+   {
+    "lat": 38.6255,
+    "lon": -76.0965,
+    "detected": "2026-10-13T16:59:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.84,
+    "day": true,
+    "region": "pot"
+   },
+   {
+    "lat": 36.9601,
+    "lon": -84.6601,
+    "detected": "2026-10-13T15:22:00Z",
+    "source": "MODIS",
+    "confidence": "46",
+    "frp": 35.54,
+    "day": true,
+    "region": "pn"
+   },
+   {
+    "lat": 40.9419,
+    "lon": -86.8496,
+    "detected": "2026-10-13T15:22:00Z",
+    "source": "MODIS",
+    "confidence": "40",
+    "frp": 5.73,
+    "day": true,
+    "region": "indu"
+   },
+   {
+    "lat": 36.3536,
+    "lon": -76.8044,
+    "detected": "2026-10-13T09:20:00Z",
+    "source": "MODIS",
+    "confidence": "42",
+    "frp": 6.48,
+    "day": false,
+    "region": "gwnf"
+   },
+   {
+    "lat": 40.3962,
+    "lon": -79.851,
+    "detected": "2026-10-13T09:17:00Z",
+    "source": "MODIS",
+    "confidence": "66",
+    "frp": 12.95,
+    "day": false,
+    "region": "pot"
+   },
    {
     "lat": 33.42,
     "lon": -110.8635,
@@ -80,26 +130,6 @@
     "region": "glac"
    },
    {
-    "lat": 35.6611,
-    "lon": -78.9969,
-    "detected": "2026-10-12T14:44:00Z",
-    "source": "MODIS",
-    "confidence": "52",
-    "frp": 11.56,
-    "day": true,
-    "region": "blri"
-   },
-   {
-    "lat": 35.6655,
-    "lon": -79.0182,
-    "detected": "2026-10-12T14:44:00Z",
-    "source": "MODIS",
-    "confidence": "64",
-    "frp": 17.56,
-    "day": true,
-    "region": "blri"
-   },
-   {
     "lat": 34.1752,
     "lon": -82.108,
     "detected": "2026-10-12T14:44:00Z",
@@ -118,6 +148,26 @@
     "frp": 7.12,
     "day": true,
     "region": "pn"
+   },
+   {
+    "lat": 35.6611,
+    "lon": -78.9969,
+    "detected": "2026-10-12T14:44:00Z",
+    "source": "MODIS",
+    "confidence": "52",
+    "frp": 11.56,
+    "day": true,
+    "region": "blri"
+   },
+   {
+    "lat": 35.6655,
+    "lon": -79.0182,
+    "detected": "2026-10-12T14:44:00Z",
+    "source": "MODIS",
+    "confidence": "64",
+    "frp": 17.56,
+    "day": true,
+    "region": "blri"
    },
    {
     "lat": 41.4644,
@@ -370,16 +420,6 @@
     "region": "hosp"
    },
    {
-    "lat": 39.6518,
-    "lon": -104.7066,
-    "detected": "2026-10-12T08:22:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 1.2,
-    "day": false,
-    "region": "romo"
-   },
-   {
     "lat": 35.9763,
     "lon": -83.9561,
     "detected": "2026-10-12T08:22:00Z",
@@ -388,6 +428,16 @@
     "frp": 1.45,
     "day": false,
     "region": "pn"
+   },
+   {
+    "lat": 39.6518,
+    "lon": -104.7066,
+    "detected": "2026-10-12T08:22:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.2,
+    "day": false,
+    "region": "romo"
    },
    {
     "lat": 41.6753,
@@ -560,36 +610,6 @@
     "region": "ever"
    },
    {
-    "lat": 35.7114,
-    "lon": -78.8357,
-    "detected": "2026-10-12T07:18:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.5,
-    "day": false,
-    "region": "blri"
-   },
-   {
-    "lat": 35.7746,
-    "lon": -80.134,
-    "detected": "2026-10-12T07:18:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.52,
-    "day": false,
-    "region": "blri"
-   },
-   {
-    "lat": 35.8707,
-    "lon": -78.2127,
-    "detected": "2026-10-12T07:18:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 1.04,
-    "day": false,
-    "region": "blri"
-   },
-   {
     "lat": 34.2392,
     "lon": -84.7986,
     "detected": "2026-10-12T07:18:00Z",
@@ -718,6 +738,36 @@
     "frp": 1.01,
     "day": false,
     "region": "gwnf"
+   },
+   {
+    "lat": 35.7114,
+    "lon": -78.8357,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.5,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 35.7746,
+    "lon": -80.134,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.52,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 35.8707,
+    "lon": -78.2127,
+    "detected": "2026-10-12T07:18:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.04,
+    "day": false,
+    "region": "blri"
    },
    {
     "lat": 40.7346,
@@ -1243,11 +1293,11 @@
     "source": "open-meteo",
     "lat": 38.8,
     "lon": -78.28,
-    "pollutant": "O3",
-    "aqi": 21,
+    "pollutant": "PM2.5",
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -1259,10 +1309,10 @@
     "lat": 38.53,
     "lon": -78.44,
     "pollutant": "PM2.5",
-    "aqi": 18,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -1274,10 +1324,10 @@
     "lat": 38.2,
     "lon": -78.75,
     "pollutant": "PM2.5",
-    "aqi": 22,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Lee district",
@@ -1288,11 +1338,11 @@
     "source": "open-meteo",
     "lat": 38.88,
     "lon": -78.5,
-    "pollutant": "O3",
-    "aqi": 21,
+    "pollutant": "PM2.5",
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "North River district",
@@ -1303,11 +1353,11 @@
     "source": "open-meteo",
     "lat": 38.4,
     "lon": -79.12,
-    "pollutant": "O3",
-    "aqi": 18,
+    "pollutant": "PM2.5",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Glenwood-Pedlar district",
@@ -1318,11 +1368,11 @@
     "source": "open-meteo",
     "lat": 37.75,
     "lon": -79.25,
-    "pollutant": "O3",
-    "aqi": 17,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Eastern Divide (Roanoke and Blacksburg)",
@@ -1333,11 +1383,11 @@
     "source": "open-meteo",
     "lat": 37.27,
     "lon": -80.05,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Warm Springs district",
@@ -1348,11 +1398,11 @@
     "source": "open-meteo",
     "lat": 38.05,
     "lon": -79.83,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "James River district",
@@ -1363,11 +1413,11 @@
     "source": "open-meteo",
     "lat": 37.78,
     "lon": -79.95,
-    "pollutant": "O3",
-    "aqi": 24,
+    "pollutant": "PM2.5",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Mount Rogers and Grayson Highlands",
@@ -1379,10 +1429,10 @@
     "lat": 36.66,
     "lon": -81.5,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Blue Ridge Parkway, Rocky Knob",
@@ -1394,10 +1444,10 @@
     "lat": 36.8,
     "lon": -80.3,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
@@ -1412,7 +1462,7 @@
     "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Great Falls and Washington",
@@ -1424,10 +1474,10 @@
     "lat": 38.998,
     "lon": -77.249,
     "pollutant": "PM2.5",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "aqi": 63,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Harpers Ferry",
@@ -1438,11 +1488,11 @@
     "source": "open-meteo",
     "lat": 39.325,
     "lon": -77.739,
-    "pollutant": "O3",
-    "aqi": 21,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Catoctin Mountain",
@@ -1453,11 +1503,11 @@
     "source": "open-meteo",
     "lat": 39.654,
     "lon": -77.442,
-    "pollutant": "O3",
-    "aqi": 20,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "pollutant": "PM2.5",
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Prince William Forest",
@@ -1468,11 +1518,11 @@
     "source": "open-meteo",
     "lat": 38.576,
     "lon": -77.343,
-    "pollutant": "O3",
-    "aqi": 21,
+    "pollutant": "PM2.5",
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "C&O Canal at Hancock",
@@ -1483,11 +1533,11 @@
     "source": "open-meteo",
     "lat": 39.7,
     "lon": -78.18,
-    "pollutant": "O3",
-    "aqi": 26,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "C&O Canal at Cumberland",
@@ -1498,11 +1548,11 @@
     "source": "open-meteo",
     "lat": 39.65,
     "lon": -78.76,
-    "pollutant": "O3",
-    "aqi": 26,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Dolly Sods and Canaan",
@@ -1513,11 +1563,11 @@
     "source": "open-meteo",
     "lat": 39.07,
     "lon": -79.38,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -1529,10 +1579,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -1543,11 +1593,11 @@
     "source": "open-meteo",
     "lat": 38.22,
     "lon": -80.26,
-    "pollutant": "O3",
-    "aqi": 30,
+    "pollutant": "PM2.5",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -1558,11 +1608,11 @@
     "source": "open-meteo",
     "lat": 37.95,
     "lon": -80.25,
-    "pollutant": "O3",
-    "aqi": 28,
+    "pollutant": "PM2.5",
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Sugarlands and Newfound Gap",
@@ -1573,11 +1623,11 @@
     "source": "open-meteo",
     "lat": 35.69,
     "lon": -83.45,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Deep Creek and Fontana",
@@ -1588,11 +1638,11 @@
     "source": "open-meteo",
     "lat": 35.46,
     "lon": -83.44,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Cades Cove",
@@ -1603,11 +1653,11 @@
     "source": "open-meteo",
     "lat": 35.6,
     "lon": -83.81,
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Cataloochee and Big Creek",
@@ -1619,10 +1669,10 @@
     "lat": 35.68,
     "lon": -83.1,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "New River Gorge north",
@@ -1633,11 +1683,11 @@
     "source": "open-meteo",
     "lat": 38.12,
     "lon": -81,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "New River Gorge middle",
@@ -1648,11 +1698,11 @@
     "source": "open-meteo",
     "lat": 37.9,
     "lon": -80.95,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "New River Gorge south",
@@ -1664,10 +1714,10 @@
     "lat": 37.62,
     "lon": -81,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Pisgah district near Brevard",
@@ -1679,10 +1729,10 @@
     "lat": 35.28,
     "lon": -82.75,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Black Balsam and Shining Rock",
@@ -1694,10 +1744,10 @@
     "lat": 35.325,
     "lon": -82.875,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Parkway near Asheville",
@@ -1709,10 +1759,10 @@
     "lat": 35.62,
     "lon": -82.5,
     "pollutant": "PM2.5",
-    "aqi": 25,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Craggy Gardens",
@@ -1724,10 +1774,10 @@
     "lat": 35.7,
     "lon": -82.38,
     "pollutant": "PM2.5",
-    "aqi": 25,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Mount Mitchell and the Black Mountains",
@@ -1739,10 +1789,10 @@
     "lat": 35.765,
     "lon": -82.265,
     "pollutant": "PM2.5",
-    "aqi": 25,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Roan Highlands at Carvers Gap",
@@ -1754,10 +1804,10 @@
     "lat": 36.106,
     "lon": -82.109,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Linville Gorge and Grandfather",
@@ -1769,10 +1819,10 @@
     "lat": 35.9,
     "lon": -81.9,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Hot Springs and Max Patch",
@@ -1784,10 +1834,10 @@
     "lat": 35.89,
     "lon": -82.82,
     "pollutant": "PM2.5",
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Panthertown and Highlands",
@@ -1799,10 +1849,10 @@
     "lat": 35.19,
     "lon": -83,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Wayah Bald and Standing Indian",
@@ -1814,10 +1864,10 @@
     "lat": 35.15,
     "lon": -83.55,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    },
    {
     "area": "Joyce Kilmer and the Cheoah district",
@@ -1828,11 +1878,11 @@
     "source": "open-meteo",
     "lat": 35.37,
     "lon": -83.95,
-    "pollutant": "PM2.5",
-    "aqi": 43,
+    "pollutant": "O3",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-13 2:00 local"
+    "observed": "2026-10-13 13:00 local"
    }
   ],
   "forecasts": [
@@ -1844,8 +1894,8 @@
     "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 46,
+    "pollutant": "PM2.5",
+    "aqi": 50,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -1859,187 +1909,7 @@
     "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP central",
-    "state": "VA",
-    "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP central",
-    "state": "VA",
-    "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP south",
-    "state": "VA",
-    "near": "park-south",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP south",
-    "state": "VA",
-    "near": "park-south",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lee district",
-    "state": "VA",
-    "near": "lee",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lee district",
-    "state": "VA",
-    "near": "lee",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North River district",
-    "state": "VA",
-    "near": "north-river",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North River district",
-    "state": "VA",
-    "near": "north-river",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Glenwood-Pedlar district",
-    "state": "VA",
-    "near": "glenwood-pedlar",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Glenwood-Pedlar district",
-    "state": "VA",
-    "near": "glenwood-pedlar",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Eastern Divide (Roanoke and Blacksburg)",
-    "state": "VA",
-    "near": "gwnf-eastern-divide",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Eastern Divide (Roanoke and Blacksburg)",
-    "state": "VA",
-    "near": "gwnf-eastern-divide",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
     "aqi": 45,
     "category": "Good",
     "level": 1,
@@ -2047,74 +1917,29 @@
     "discussion": ""
    },
    {
-    "area": "Warm Springs district",
+    "area": "Shenandoah NP central",
     "state": "VA",
-    "near": "gwnf-warm-springs",
-    "side": "forest",
-    "region": "gwnf",
+    "near": "park-central",
+    "side": "park",
+    "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Warm Springs district",
+    "area": "Shenandoah NP central",
     "state": "VA",
-    "near": "gwnf-warm-springs",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "James River district",
-    "state": "VA",
-    "near": "gwnf-james-river",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "James River district",
-    "state": "VA",
-    "near": "gwnf-james-river",
-    "side": "forest",
-    "region": "gwnf",
+    "near": "park-central",
+    "side": "park",
+    "region": "shen",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "PM2.5",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mount Rogers and Grayson Highlands",
-    "state": "VA",
-    "near": "gwnf-mount-rogers",
-    "side": "forest",
-    "region": "gwnf",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
     "aqi": 51,
     "category": "Moderate",
     "level": 2,
@@ -2122,26 +1947,71 @@
     "discussion": ""
    },
    {
-    "area": "Mount Rogers and Grayson Highlands",
+    "area": "Shenandoah NP south",
     "state": "VA",
-    "near": "gwnf-mount-rogers",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP south",
+    "state": "VA",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lee district",
+    "state": "VA",
+    "near": "lee",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lee district",
+    "state": "VA",
+    "near": "lee",
     "side": "forest",
     "region": "gwnf",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Blue Ridge Parkway, Rocky Knob",
+    "area": "North River district",
     "state": "VA",
-    "near": "blri-rocky-knob",
-    "side": "park",
-    "region": "blri",
+    "near": "north-river",
+    "side": "forest",
+    "region": "gwnf",
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
@@ -2152,44 +2022,14 @@
     "discussion": ""
    },
    {
-    "area": "Blue Ridge Parkway, Rocky Knob",
+    "area": "North River district",
     "state": "VA",
-    "near": "blri-rocky-knob",
-    "side": "park",
-    "region": "blri",
+    "near": "north-river",
+    "side": "forest",
+    "region": "gwnf",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
-    "state": "VA",
-    "near": "blri-fancy-gap",
-    "side": "park",
-    "region": "blri",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
-    "state": "VA",
-    "near": "blri-fancy-gap",
-    "side": "park",
-    "region": "blri",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
     "aqi": 42,
     "category": "Good",
     "level": 1,
@@ -2197,101 +2037,11 @@
     "discussion": ""
    },
    {
-    "area": "Great Falls and Washington",
+    "area": "Glenwood-Pedlar district",
     "state": "VA",
-    "near": "pot-great-falls",
+    "near": "glenwood-pedlar",
     "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 57,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Great Falls and Washington",
-    "state": "VA",
-    "near": "pot-great-falls",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 59,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Harpers Ferry",
-    "state": "WV",
-    "near": "pot-harpers-ferry",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Harpers Ferry",
-    "state": "WV",
-    "near": "pot-harpers-ferry",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Catoctin Mountain",
-    "state": "MD",
-    "near": "pot-catoctin",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Catoctin Mountain",
-    "state": "MD",
-    "near": "pot-catoctin",
-    "side": "forest",
-    "region": "pot",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Prince William Forest",
-    "state": "VA",
-    "near": "pot-prince-william",
-    "side": "forest",
-    "region": "pot",
+    "region": "gwnf",
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
@@ -2302,6 +2052,306 @@
     "discussion": ""
    },
    {
+    "area": "Glenwood-Pedlar district",
+    "state": "VA",
+    "near": "glenwood-pedlar",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Eastern Divide (Roanoke and Blacksburg)",
+    "state": "VA",
+    "near": "gwnf-eastern-divide",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Eastern Divide (Roanoke and Blacksburg)",
+    "state": "VA",
+    "near": "gwnf-eastern-divide",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Warm Springs district",
+    "state": "VA",
+    "near": "gwnf-warm-springs",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Warm Springs district",
+    "state": "VA",
+    "near": "gwnf-warm-springs",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "James River district",
+    "state": "VA",
+    "near": "gwnf-james-river",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "James River district",
+    "state": "VA",
+    "near": "gwnf-james-river",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Rogers and Grayson Highlands",
+    "state": "VA",
+    "near": "gwnf-mount-rogers",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Rogers and Grayson Highlands",
+    "state": "VA",
+    "near": "gwnf-mount-rogers",
+    "side": "forest",
+    "region": "gwnf",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Rocky Knob",
+    "state": "VA",
+    "near": "blri-rocky-knob",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Rocky Knob",
+    "state": "VA",
+    "near": "blri-rocky-knob",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+    "state": "VA",
+    "near": "blri-fancy-gap",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Blue Ridge Parkway, Fancy Gap and Cumberland Knob",
+    "state": "VA",
+    "near": "blri-fancy-gap",
+    "side": "park",
+    "region": "blri",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Great Falls and Washington",
+    "state": "VA",
+    "near": "pot-great-falls",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 65,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Great Falls and Washington",
+    "state": "VA",
+    "near": "pot-great-falls",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 65,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Harpers Ferry",
+    "state": "WV",
+    "near": "pot-harpers-ferry",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Harpers Ferry",
+    "state": "WV",
+    "near": "pot-harpers-ferry",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "PM2.5",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Catoctin Mountain",
+    "state": "MD",
+    "near": "pot-catoctin",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 57,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Catoctin Mountain",
+    "state": "MD",
+    "near": "pot-catoctin",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "PM2.5",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Prince William Forest",
+    "state": "VA",
+    "near": "pot-prince-william",
+    "side": "forest",
+    "region": "pot",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Prince William Forest",
     "state": "VA",
     "near": "pot-prince-william",
@@ -2310,9 +2360,9 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -2325,9 +2375,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -2355,7 +2405,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 57,
+    "aqi": 60,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -2370,7 +2420,7 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2380,36 +2430,6 @@
     "area": "Dolly Sods and Canaan",
     "state": "WV",
     "near": "mon-dolly-sods",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Dolly Sods and Canaan",
-    "state": "WV",
-    "near": "mon-dolly-sods",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Spruce Knob",
-    "state": "WV",
-    "near": "mon-spruce-knob",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
@@ -2422,6 +2442,36 @@
     "discussion": ""
    },
    {
+    "area": "Dolly Sods and Canaan",
+    "state": "WV",
+    "near": "mon-dolly-sods",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Spruce Knob",
+    "state": "WV",
+    "near": "mon-spruce-knob",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 57,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Spruce Knob",
     "state": "WV",
     "near": "mon-spruce-knob",
@@ -2430,66 +2480,6 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cranberry and Greenbrier",
-    "state": "WV",
-    "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 54,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cranberry and Greenbrier",
-    "state": "WV",
-    "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
     "aqi": 46,
     "category": "Good",
     "level": 1,
@@ -2497,89 +2487,14 @@
     "discussion": ""
    },
    {
-    "area": "Sugarlands and Newfound Gap",
-    "state": "TN",
-    "near": "gs-sugarlands",
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
     "side": "forest",
-    "region": "gs",
+    "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sugarlands and Newfound Gap",
-    "state": "TN",
-    "near": "gs-sugarlands",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Deep Creek and Fontana",
-    "state": "NC",
-    "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Deep Creek and Fontana",
-    "state": "NC",
-    "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
     "aqi": 51,
     "category": "Moderate",
     "level": 2,
@@ -2587,26 +2502,11 @@
     "discussion": ""
    },
    {
-    "area": "Cataloochee and Big Creek",
-    "state": "NC",
-    "near": "gs-cataloochee",
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
     "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cataloochee and Big Creek",
-    "state": "NC",
-    "near": "gs-cataloochee",
-    "side": "forest",
-    "region": "gs",
+    "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
@@ -2617,6 +2517,156 @@
     "discussion": ""
    },
    {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 43,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sugarlands and Newfound Gap",
+    "state": "TN",
+    "near": "gs-sugarlands",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sugarlands and Newfound Gap",
+    "state": "TN",
+    "near": "gs-sugarlands",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Deep Creek and Fontana",
+    "state": "NC",
+    "near": "gs-deep-creek",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Deep Creek and Fontana",
+    "state": "NC",
+    "near": "gs-deep-creek",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cataloochee and Big Creek",
+    "state": "NC",
+    "near": "gs-cataloochee",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cataloochee and Big Creek",
+    "state": "NC",
+    "near": "gs-cataloochee",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "New River Gorge north",
     "state": "WV",
     "near": "nr-north",
@@ -2625,9 +2675,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -2639,10 +2689,10 @@
     "region": "nr",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -2655,9 +2705,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -2669,10 +2719,10 @@
     "region": "nr",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -2685,9 +2735,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -2699,8 +2749,8 @@
     "region": "nr",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 47,
+    "pollutant": "O3",
+    "aqi": 43,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2715,9 +2765,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -2730,7 +2780,7 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2745,9 +2795,9 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -2760,7 +2810,7 @@
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2775,7 +2825,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 52,
+    "aqi": 56,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -2789,21 +2839,6 @@
     "region": "pn",
     "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Craggy Gardens",
-    "state": "NC",
-    "near": "craggy",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-13",
     "pollutant": "O3",
     "aqi": 52,
     "category": "Moderate",
@@ -2818,22 +2853,22 @@
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 53,
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 56,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Mount Mitchell and the Black Mountains",
+    "area": "Craggy Gardens",
     "state": "NC",
-    "near": "mitchell",
+    "near": "craggy",
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "pollutant": "O3",
     "aqi": 52,
     "category": "Moderate",
@@ -2848,9 +2883,24 @@
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 56,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mount Mitchell and the Black Mountains",
+    "state": "NC",
+    "near": "mitchell",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
     "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 53,
+    "pollutant": "O3",
+    "aqi": 52,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -2865,7 +2915,7 @@
     "source": "open-meteo",
     "date": "2026-10-13",
     "pollutant": "O3",
-    "aqi": 51,
+    "aqi": 55,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -2875,102 +2925,102 @@
     "area": "Roan Highlands at Carvers Gap",
     "state": "NC",
     "near": "roan",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Linville Gorge and Grandfather",
-    "state": "NC",
-    "near": "linville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Linville Gorge and Grandfather",
-    "state": "NC",
-    "near": "linville",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hot Springs and Max Patch",
-    "state": "NC",
-    "near": "madison",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hot Springs and Max Patch",
-    "state": "NC",
-    "near": "madison",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Panthertown and Highlands",
-    "state": "NC",
-    "near": "panthertown",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Panthertown and Highlands",
-    "state": "NC",
-    "near": "panthertown",
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
     "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Linville Gorge and Grandfather",
+    "state": "NC",
+    "near": "linville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Linville Gorge and Grandfather",
+    "state": "NC",
+    "near": "linville",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hot Springs and Max Patch",
+    "state": "NC",
+    "near": "madison",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hot Springs and Max Patch",
+    "state": "NC",
+    "near": "madison",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Panthertown and Highlands",
+    "state": "NC",
+    "near": "panthertown",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Panthertown and Highlands",
+    "state": "NC",
+    "near": "panthertown",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 50,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -2980,6 +3030,36 @@
     "area": "Wayah Bald and Standing Indian",
     "state": "NC",
     "near": "wayah",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-13",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Wayah Bald and Standing Indian",
+    "state": "NC",
+    "near": "wayah",
+    "side": "forest",
+    "region": "pn",
+    "source": "open-meteo",
+    "date": "2026-10-14",
+    "pollutant": "O3",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Joyce Kilmer and the Cheoah district",
+    "state": "NC",
+    "near": "cheoah",
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
@@ -2992,45 +3072,15 @@
     "discussion": ""
    },
    {
-    "area": "Wayah Bald and Standing Indian",
+    "area": "Joyce Kilmer and the Cheoah district",
     "state": "NC",
-    "near": "wayah",
+    "near": "cheoah",
     "side": "forest",
     "region": "pn",
     "source": "open-meteo",
     "date": "2026-10-14",
     "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Joyce Kilmer and the Cheoah district",
-    "state": "NC",
-    "near": "cheoah",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-13",
-    "pollutant": "PM2.5",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Joyce Kilmer and the Cheoah district",
-    "state": "NC",
-    "near": "cheoah",
-    "side": "forest",
-    "region": "pn",
-    "source": "open-meteo",
-    "date": "2026-10-14",
-    "pollutant": "PM2.5",
-    "aqi": 49,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -3047,18 +3097,6 @@
     "sci": "Anas rubripes",
     "count": 2,
     "seen": "2026-10-07 10:11",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
-    "notable": true,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "norgos",
-    "name": "American Goshawk",
-    "sci": "Astur atricapillus",
-    "count": 2,
-    "seen": "2026-10-06 12:20",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -3086,18 +3124,6 @@
     "place": "Sentara RMH Medical Center Ponds",
     "lat": 38.407,
     "lon": -78.855,
-    "notable": true,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "goleag",
-    "name": "Golden Eagle",
-    "sci": "Aquila chrysaetos",
-    "count": 1,
-    "seen": "2026-10-06 09:03",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
     "notable": true,
     "near": "Shenandoah NP south"
    },
@@ -4520,18 +4546,6 @@
     "near": "North River district"
    },
    {
-    "code": "barswa",
-    "name": "Barn Swallow",
-    "sci": "Hirundo rustica",
-    "count": 1,
-    "seen": "2026-10-06 10:20",
-    "place": "Hone Quarry Reservoir",
-    "lat": 38.472,
-    "lon": -79.143,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "babwar",
     "name": "Bay-breasted Warbler",
     "sci": "Setophaga castanea",
@@ -4564,18 +4578,6 @@
     "place": "Sentara RMH Medical Center Ponds",
     "lat": 38.407,
     "lon": -78.855,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
-    "code": "bawwar",
-    "name": "Black-and-white Warbler",
-    "sci": "Mniotilta varia",
-    "count": 1,
-    "seen": "2026-10-06 09:02",
-    "place": "VMRC - The Farm at Willow Run",
-    "lat": 38.482,
-    "lon": -78.878,
     "notable": false,
     "near": "North River district"
    },
@@ -4916,18 +4918,6 @@
     "near": "Glenwood-Pedlar district"
    },
    {
-    "code": "eawpew",
-    "name": "Eastern Wood-Pewee",
-    "sci": "Contopus virens",
-    "count": null,
-    "seen": "2026-10-08 16:57",
-    "place": "Hillandale Park",
-    "lat": 38.442,
-    "lon": -78.896,
-    "notable": false,
-    "near": "North River district"
-   },
-   {
     "code": "egygoo",
     "name": "Egyptian Goose",
     "sci": "Alopochen aegyptiaca",
@@ -5022,6 +5012,18 @@
     "lon": -79.082,
     "notable": false,
     "near": "Glenwood-Pedlar district"
+   },
+   {
+    "code": "grhowl",
+    "name": "Great Horned Owl",
+    "sci": "Bubo virginianus",
+    "count": 1,
+    "seen": "2026-10-12 17:58",
+    "place": "Edith J. Carrier Arboretum",
+    "lat": 38.43,
+    "lon": -78.862,
+    "notable": false,
+    "near": "North River district"
    },
    {
     "code": "gnwtea",
@@ -5120,18 +5122,6 @@
     "near": "North River district"
    },
    {
-    "code": "linspa",
-    "name": "Lincoln's Sparrow",
-    "sci": "Melospiza lincolnii",
-    "count": 1,
-    "seen": "2026-10-06 12:30",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
-    "notable": false,
-    "near": "Lee district"
-   },
-   {
     "code": "magwar",
     "name": "Magnolia Warbler",
     "sci": "Setophaga magnolia",
@@ -5190,18 +5180,6 @@
     "lon": -78.855,
     "notable": false,
     "near": "North River district"
-   },
-   {
-    "code": "houwre",
-    "name": "Northern House Wren",
-    "sci": "Troglodytes aedon",
-    "count": 1,
-    "seen": "2026-10-06 12:30",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
-    "notable": false,
-    "near": "Lee district"
    },
    {
     "code": "normoc",
@@ -5603,6 +5581,18 @@
      "near": "Prince William Forest"
     },
     {
+     "code": "amered",
+     "name": "American Redstart",
+     "sci": "Setophaga ruticilla",
+     "count": 1,
+     "seen": "2026-10-13 09:06",
+     "place": "The Turquoise Trail",
+     "lat": 38.924,
+     "lon": -77.332,
+     "notable": true,
+     "near": "Great Falls and Washington"
+    },
+    {
      "code": "amewig",
      "name": "American Wigeon",
      "sci": "Mareca americana",
@@ -5619,12 +5609,12 @@
      "name": "Bay-breasted Warbler",
      "sci": "Setophaga castanea",
      "count": 1,
-     "seen": "2026-10-12 13:00",
-     "place": "Burke Lake Park",
-     "lat": 38.761,
-     "lon": -77.302,
+     "seen": "2026-10-13 07:06",
+     "place": "Dan's Rock",
+     "lat": 39.582,
+     "lon": -78.898,
      "notable": true,
-     "near": "Prince William Forest"
+     "near": "C&O Canal at Cumberland"
     },
     {
      "code": "bkbwar",
@@ -5637,18 +5627,6 @@
      "lon": -77.449,
      "notable": true,
      "near": "Great Falls and Washington"
-    },
-    {
-     "code": "buggna",
-     "name": "Blue-gray Gnatcatcher",
-     "sci": "Polioptila caerulea",
-     "count": 1,
-     "seen": "2026-10-12 08:01",
-     "place": "Hidden Pond Trail",
-     "lat": 38.665,
-     "lon": -77.208,
-     "notable": true,
-     "near": "Prince William Forest"
     },
     {
      "code": "comnig",
@@ -5685,18 +5663,6 @@
      "lon": -77.379,
      "notable": true,
      "near": "Great Falls and Washington"
-    },
-    {
-     "code": "eawvir1",
-     "name": "Eastern Warbling Vireo",
-     "sci": "Vireo gilvus",
-     "count": 1,
-     "seen": "2026-10-06 10:05",
-     "place": "Accotink Bay Wildlife Refuge",
-     "lat": 38.686,
-     "lon": -77.155,
-     "notable": true,
-     "near": "Prince William Forest"
     },
     {
      "code": "goleag",
@@ -5819,14 +5785,14 @@
      "near": "Prince William Forest"
     },
     {
-     "code": "yelwar1",
-     "name": "Northern Yellow Warbler",
-     "sci": "Setophaga aestiva",
+     "code": "norwat",
+     "name": "Northern Waterthrush",
+     "sci": "Parkesia noveboracensis",
      "count": 1,
-     "seen": "2026-10-06 10:04",
-     "place": "Algonkian Regional Park",
-     "lat": 39.062,
-     "lon": -77.379,
+     "seen": "2026-10-13 08:07",
+     "place": "Arrowbrook Park",
+     "lat": 38.952,
+     "lon": -77.412,
      "notable": true,
      "near": "Great Falls and Washington"
     },
@@ -5835,12 +5801,12 @@
      "name": "Orange-crowned Warbler",
      "sci": "Leiothlypis celata",
      "count": 1,
-     "seen": "2026-10-11 16:03",
-     "place": "Frostburg Cross Country Trail",
-     "lat": 39.672,
-     "lon": -78.934,
+     "seen": "2026-10-12 07:59",
+     "place": "Occoquan Bay NWR",
+     "lat": 38.646,
+     "lon": -77.236,
      "notable": true,
-     "near": "C&O Canal at Cumberland"
+     "near": "Prince William Forest"
     },
     {
      "code": "palwar4",
@@ -5859,10 +5825,10 @@
      "name": "Ruby-throated Hummingbird",
      "sci": "Archilochus colubris",
      "count": 1,
-     "seen": "2026-10-11 17:00",
-     "place": "Garrett Park (town)",
-     "lat": 39.038,
-     "lon": -77.094,
+     "seen": "2026-10-13 08:08",
+     "place": "Hillwood Estate (entry fee)",
+     "lat": 38.943,
+     "lon": -77.053,
      "notable": true,
      "near": "Great Falls and Washington"
     },
@@ -5931,10 +5897,10 @@
      "name": "Wilson's Warbler",
      "sci": "Cardellina pusilla",
      "count": 1,
-     "seen": "2026-10-12 14:23",
-     "place": "Woodglen Lake",
-     "lat": 38.805,
-     "lon": -77.314,
+     "seen": "2026-10-13 07:33",
+     "place": "Four Mile Run Park",
+     "lat": 38.84,
+     "lon": -77.058,
      "notable": true,
      "near": "Great Falls and Washington"
     },
@@ -5949,18 +5915,6 @@
      "lon": -77.725,
      "notable": true,
      "near": "Harpers Ferry"
-    },
-    {
-     "code": "yebfly",
-     "name": "Yellow-bellied Flycatcher",
-     "sci": "Empidonax flaviventris",
-     "count": 1,
-     "seen": "2026-10-06 10:13",
-     "place": "Burke Lake Park",
-     "lat": 38.761,
-     "lon": -77.302,
-     "notable": true,
-     "near": "Prince William Forest"
     },
     {
      "code": "yebcuc",
@@ -6069,18 +6023,6 @@
      "lon": -77.252,
      "notable": false,
      "near": "Catoctin Mountain"
-    },
-    {
-     "code": "amered",
-     "name": "American Redstart",
-     "sci": "Setophaga ruticilla",
-     "count": 1,
-     "seen": "2026-10-12 14:23",
-     "place": "Woodglen Lake",
-     "lat": 38.805,
-     "lon": -77.314,
-     "notable": false,
-     "near": "Great Falls and Washington"
     },
     {
      "code": "amerob",
@@ -6237,6 +6179,18 @@
      "lon": -77.415,
      "notable": false,
      "near": "Great Falls and Washington"
+    },
+    {
+     "code": "buggna",
+     "name": "Blue-gray Gnatcatcher",
+     "sci": "Polioptila caerulea",
+     "count": 1,
+     "seen": "2026-10-12 08:01",
+     "place": "Hidden Pond Trail",
+     "lat": 38.665,
+     "lon": -77.208,
+     "notable": false,
+     "near": "Prince William Forest"
     },
     {
      "code": "buhvir",
@@ -8329,18 +8283,6 @@
      "near": "Southern Monongahela"
     },
     {
-     "code": "robgro",
-     "name": "Rose-breasted Grosbeak",
-     "sci": "Pheucticus ludovicianus",
-     "count": 2,
-     "seen": "2026-10-06 07:01",
-     "place": "Allegheny Front Migration Observatory--Red Creek CG",
-     "lat": 39.034,
-     "lon": -79.313,
-     "notable": false,
-     "near": "Dolly Sods and Canaan"
-    },
-    {
      "code": "ruckin",
      "name": "Ruby-crowned Kinglet",
      "sci": "Corthylio calendula",
@@ -9337,18 +9279,6 @@
      "lon": -83.973,
      "notable": false,
      "near": "Cades Cove"
-    },
-    {
-     "code": "osprey",
-     "name": "Osprey",
-     "sci": "Pandion haliaetus",
-     "count": 1,
-     "seen": "2026-10-06 10:15",
-     "place": "Lake Junaluska",
-     "lat": 35.528,
-     "lon": -82.975,
-     "notable": false,
-     "near": "Cataloochee and Big Creek"
     },
     {
      "code": "ovenbi1",
@@ -10787,7 +10717,7 @@
      "name": "Red-necked Phalarope",
      "sci": "Phalaropus lobatus",
      "count": 1,
-     "seen": "2026-10-12 18:50",
+     "seen": "2026-10-13 06:49",
      "place": "Hooper Lane",
      "lat": 35.398,
      "lon": -82.544,
@@ -11707,18 +11637,6 @@
      "near": "Pisgah district near Brevard"
     },
     {
-     "code": "leafly",
-     "name": "Least Flycatcher",
-     "sci": "Empidonax minimus",
-     "count": 1,
-     "seen": "2026-10-06 12:51",
-     "place": "West Asheville Park",
-     "lat": 35.571,
-     "lon": -82.599,
-     "notable": false,
-     "near": "Parkway near Asheville"
-    },
-    {
      "code": "leasan",
      "name": "Least Sandpiper",
      "sci": "Calidris minutilla",
@@ -12379,18 +12297,6 @@
      "near": "Mount Mitchell and the Black Mountains"
     },
     {
-     "code": "veery",
-     "name": "Veery",
-     "sci": "Catharus fuscescens",
-     "count": 1,
-     "seen": "2026-10-06 07:39",
-     "place": "Nantahala NF--Panthertown Valley Trail",
-     "lat": 35.156,
-     "lon": -83.031,
-     "notable": false,
-     "near": "Black Balsam and Shining Rock"
-    },
-    {
      "code": "whcspa",
      "name": "White-crowned Sparrow",
      "sci": "Zonotrichia leucophrys",
@@ -12551,8 +12457,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 1.7,
-    "updated": "2026-10-13T02:52:03-04:00"
+    "windKph": 1.4,
+    "updated": "2026-10-13T13:00:15-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -12560,13 +12466,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 15.3,
-    "surfaceC": 15.4,
+    "airC": 24.4,
+    "surfaceC": 26.4,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 79.0,
+    "humidity": 69.0,
     "windKph": 0.0,
-    "updated": "2026-10-13T02:51:37-04:00"
+    "updated": "2026-10-13T12:59:49-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -12574,13 +12480,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 11.9,
-    "surfaceC": 14.5,
+    "airC": 26.6,
+    "surfaceC": 26.3,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 97.0,
+    "humidity": 54.0,
     "windKph": 0.0,
-    "updated": "2026-10-13T02:49:14-04:00"
+    "updated": "2026-10-13T12:57:37-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -12602,13 +12508,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 12.0,
-    "surfaceC": 13.7,
-    "visibilityM": 6.0,
+    "airC": 28.2,
+    "surfaceC": 31.7,
+    "visibilityM": 405.0,
     "precipRate": 0.0,
-    "humidity": 0.0,
+    "humidity": 51.0,
     "windKph": 0.0,
-    "updated": "2026-10-13T02:52:02-04:00"
+    "updated": "2026-10-13T13:00:15-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -12616,13 +12522,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 16.6,
-    "surfaceC": 16.8,
+    "airC": 27.2,
+    "surfaceC": 33.4,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 78.0,
-    "windKph": 0.6,
-    "updated": "2026-10-13T02:52:49-04:00"
+    "humidity": 44.0,
+    "windKph": 1.1,
+    "updated": "2026-10-13T13:00:37-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -12630,13 +12536,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 8.5,
-    "surfaceC": 12.6,
-    "visibilityM": 2000.0,
+    "airC": 28.9,
+    "surfaceC": 29.9,
+    "visibilityM": 1701.0,
     "precipRate": 0.0,
-    "humidity": 98.0,
-    "windKph": 0.0,
-    "updated": "2026-10-13T02:52:01-04:00"
+    "humidity": 44.0,
+    "windKph": 2.7,
+    "updated": "2026-10-13T13:00:37-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -12644,13 +12550,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 14.8,
-    "surfaceC": 13.3,
+    "airC": 25.5,
+    "surfaceC": 30.1,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 65.0,
-    "windKph": 5.5,
-    "updated": "2026-10-13T02:52:01-04:00"
+    "humidity": 51.0,
+    "windKph": 3.3,
+    "updated": "2026-10-13T13:00:37-04:00"
    }
   ]
  },
@@ -12665,25 +12571,170 @@
    "feed": "eventFiltered",
    "items": [
     {
-     "title": "Planned Event WZNW4684860-10122026-2 updated",
-     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/13/26 at 7:00 AM until 10/13/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
-     "lat": 38.03863,
-     "lon": -78.87166,
-     "line": null,
+     "title": "Planned Event WZNW4685246-10132026-2 updated",
+     "description": "On VA-55 (Front Royal Rd) in the County of Shenandoah from County/City/Town Line: STRASBURG to County/City/Town Line: WARREN CL/SHEN CL, motorists can expect potential delays in this area from 10/15/26 at 7:00 AM until 10/15/26 at 5:00 PM due to bridge work. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.97738,
+     "lon": -78.34827,
+     "line": [
+      [
+       38.977379,
+       -78.348273
+      ],
+      [
+       38.976813,
+       -78.348142
+      ],
+      [
+       38.976441,
+       -78.348028
+      ],
+      [
+       38.976119,
+       -78.347901
+      ],
+      [
+       38.975356,
+       -78.347553
+      ],
+      [
+       38.974941,
+       -78.347338
+      ],
+      [
+       38.974611,
+       -78.347133
+      ],
+      [
+       38.974233,
+       -78.346838
+      ],
+      [
+       38.973983,
+       -78.346596
+      ],
+      [
+       38.973685,
+       -78.34625
+      ],
+      [
+       38.973369,
+       -78.345806
+      ],
+      [
+       38.972967,
+       -78.345162
+      ],
+      [
+       38.972805,
+       -78.344865
+      ],
+      [
+       38.972646,
+       -78.344511
+      ],
+      [
+       38.972583,
+       -78.344336
+      ],
+      [
+       38.972529,
+       -78.344157
+      ],
+      [
+       38.97245,
+       -78.343789
+      ],
+      [
+       38.972397,
+       -78.343394
+      ],
+      [
+       38.972381,
+       -78.343095
+      ],
+      [
+       38.972383,
+       -78.342901
+      ],
+      [
+       38.972394,
+       -78.342707
+      ],
+      [
+       38.972436,
+       -78.342366
+      ],
+      [
+       38.97251,
+       -78.342006
+      ],
+      [
+       38.972626,
+       -78.341608
+      ],
+      [
+       38.972718,
+       -78.341377
+      ],
+      [
+       38.972871,
+       -78.341071
+      ],
+      [
+       38.973039,
+       -78.340805
+      ],
+      [
+       38.973213,
+       -78.340571
+      ],
+      [
+       38.973321,
+       -78.340445
+      ],
+      [
+       38.973689,
+       -78.340093
+      ],
+      [
+       38.974719,
+       -78.339166
+      ],
+      [
+       38.974973,
+       -78.338949
+      ],
+      [
+       38.975765,
+       -78.338357
+      ],
+      [
+       38.976024,
+       -78.338135
+      ],
+      [
+       38.976185,
+       -78.337976
+      ],
+      [
+       38.976354,
+       -78.33777
+      ]
+     ],
      "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.8,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-2.xml",
+     "side": "forest",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685246-10132026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685246-10132026-2.xml",
      "tags": [
       "description",
       "guid",
+      "line",
       "link",
-      "point",
       "title"
      ],
-     "start": "2026-10-13T07:00:00",
-     "end": "2026-10-13T15:00:00",
+     "start": "2026-10-15T07:00:00",
+     "end": "2026-10-15T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -12783,6 +12834,173 @@
      ],
      "start": "2026-10-15T07:00:00",
      "end": "2026-10-15T17:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4685246-10132026-1 updated",
+     "description": "On VA-55 (Front Royal Rd) in the County of Shenandoah from County/City/Town Line: STRASBURG to County/City/Town Line: WARREN CL/SHEN CL, motorists can expect potential delays in this area from 10/14/26 at 7:00 AM until 10/14/26 at 5:00 PM due to bridge work. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.97738,
+     "lon": -78.34827,
+     "line": [
+      [
+       38.977379,
+       -78.348273
+      ],
+      [
+       38.976813,
+       -78.348142
+      ],
+      [
+       38.976441,
+       -78.348028
+      ],
+      [
+       38.976119,
+       -78.347901
+      ],
+      [
+       38.975356,
+       -78.347553
+      ],
+      [
+       38.974941,
+       -78.347338
+      ],
+      [
+       38.974611,
+       -78.347133
+      ],
+      [
+       38.974233,
+       -78.346838
+      ],
+      [
+       38.973983,
+       -78.346596
+      ],
+      [
+       38.973685,
+       -78.34625
+      ],
+      [
+       38.973369,
+       -78.345806
+      ],
+      [
+       38.972967,
+       -78.345162
+      ],
+      [
+       38.972805,
+       -78.344865
+      ],
+      [
+       38.972646,
+       -78.344511
+      ],
+      [
+       38.972583,
+       -78.344336
+      ],
+      [
+       38.972529,
+       -78.344157
+      ],
+      [
+       38.97245,
+       -78.343789
+      ],
+      [
+       38.972397,
+       -78.343394
+      ],
+      [
+       38.972381,
+       -78.343095
+      ],
+      [
+       38.972383,
+       -78.342901
+      ],
+      [
+       38.972394,
+       -78.342707
+      ],
+      [
+       38.972436,
+       -78.342366
+      ],
+      [
+       38.97251,
+       -78.342006
+      ],
+      [
+       38.972626,
+       -78.341608
+      ],
+      [
+       38.972718,
+       -78.341377
+      ],
+      [
+       38.972871,
+       -78.341071
+      ],
+      [
+       38.973039,
+       -78.340805
+      ],
+      [
+       38.973213,
+       -78.340571
+      ],
+      [
+       38.973321,
+       -78.340445
+      ],
+      [
+       38.973689,
+       -78.340093
+      ],
+      [
+       38.974719,
+       -78.339166
+      ],
+      [
+       38.974973,
+       -78.338949
+      ],
+      [
+       38.975765,
+       -78.338357
+      ],
+      [
+       38.976024,
+       -78.338135
+      ],
+      [
+       38.976185,
+       -78.337976
+      ],
+      [
+       38.976354,
+       -78.33777
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685246-10132026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685246-10132026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-14T07:00:00",
+     "end": "2026-10-14T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -12970,6 +13188,28 @@
      ],
      "start": "2026-10-15T09:00:00",
      "end": "2026-10-15T15:30:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4685316-10132026-1 updated",
+     "description": "On Rt. 612 (Rocky Branch Rd) in the County of Page at Rocky Branch Rd; Shenk Hollow Rd; Rt. 658E/W (Page County), motorists can expect potential delays in this area from 10/13/26 at 11:04 AM until 10/13/26 at 5:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.67353,
+     "lon": -78.37498,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685316-10132026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685316-10132026-1.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-13T11:04:00",
+     "end": "2026-10-13T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -13236,192 +13476,279 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZSW4669484-08302026-3 updated",
-     "description": "On VA-151 South (Critzer Shop Rd) in the County of Nelson from Afton Mountain Rd; Avon Rd; VA-6E/W; Rt. 638N/S (Nelson County) to Tanbark Dr; Rt. 840N/S (Nelson County), motorists can expect potential delays in this area from 10/13/26 at 8:00 AM until 10/13/26 at 4:00 PM due to maintenance activities.",
-     "lat": 37.99993,
-     "lon": -78.82694,
-     "line": [
-      [
-       37.999928,
-       -78.826941
-      ],
-      [
-       37.999816,
-       -78.827038
-      ],
-      [
-       37.999721,
-       -78.827132
-      ],
-      [
-       37.999507,
-       -78.827365
-      ],
-      [
-       37.999027,
-       -78.827921
-      ],
-      [
-       37.998098,
-       -78.829025
-      ],
-      [
-       37.997298,
-       -78.829991
-      ],
-      [
-       37.996652,
-       -78.83079
-      ],
-      [
-       37.996172,
-       -78.831364
-      ],
-      [
-       37.994244,
-       -78.833736
-      ],
-      [
-       37.993761,
-       -78.834312
-      ],
-      [
-       37.99274,
-       -78.835562
-      ],
-      [
-       37.99188,
-       -78.836626
-      ],
-      [
-       37.991601,
-       -78.836942
-      ],
-      [
-       37.991313,
-       -78.837233
-      ],
-      [
-       37.991065,
-       -78.837458
-      ],
-      [
-       37.990892,
-       -78.837596
-      ],
-      [
-       37.990678,
-       -78.837755
-      ],
-      [
-       37.990426,
-       -78.837924
-      ],
-      [
-       37.990164,
-       -78.838068
-      ],
-      [
-       37.989893,
-       -78.838192
-      ],
-      [
-       37.989525,
-       -78.838332
-      ],
-      [
-       37.989215,
-       -78.838431
-      ],
-      [
-       37.989081,
-       -78.838464
-      ]
-     ],
+     "title": "Planned Event WZNW4685330-10132026-1 updated",
+     "description": "On Rt. 611 (Jarmans Gap Rd) in the County of Albemarle at Greenwood Rd; Jarmans Gap Rd; Rt. 691N/S (Albemarle County), motorists can expect potential delays in this area from 10/13/26 at 11:51 AM until 10/13/26 at 3:00 PM due to roadside maintenance. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.07012,
+     "lon": -78.74604,
+     "line": null,
      "published": null,
-     "side": "parkway",
-     "milesFromTrailhead": 2.7,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4669484-08302026-3.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4669484-08302026-3.xml",
+     "side": "park",
+     "milesFromTrailhead": 2.4,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685330-10132026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685330-10132026-1.xml",
      "tags": [
       "description",
       "guid",
-      "line",
       "link",
+      "point",
       "title"
      ],
-     "start": "2026-10-13T08:00:00",
-     "end": "2026-10-13T16:00:00",
+     "start": "2026-10-13T11:51:00",
+     "end": "2026-10-13T15:00:00",
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4684701-10092026-2 updated",
-     "description": "On Rt. 619 (Rivermont Dr) in the County of Warren from Stonewall Jackson Hwy; /S; US-340N; US-340S to S River Rd; Rt. 679E/W (Warren County), motorists can expect potential delays in this area from 10/13/26 at 6:00 AM until 10/13/26 at 5:00 PM due to bridge work. All north lanes are alternating closures. All south lanes are alternating closures.",
-     "lat": 38.90332,
-     "lon": -78.21084,
+     "title": "Planned Event WZNW4672014-09052026-1 updated",
+     "description": "On US-340 (Us Hwy 340 N) in the County of Page from Sandy Hook Rd; Rt. 648N/S (Page County) to Overall Rd; Rt. 665E/W (Page County), motorists can expect potential delays in this area from 10/16/26 at 7:00 AM until 10/16/26 at 7:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.6928,
+     "lon": -78.45066,
      "line": [
       [
-       38.903317,
-       -78.210835
+       38.692798,
+       -78.450663
       ],
       [
-       38.903364,
-       -78.210902
+       38.696639,
+       -78.446684
       ],
       [
-       38.903396,
-       -78.210969
+       38.697114,
+       -78.446214
       ],
       [
-       38.903417,
-       -78.211036
+       38.69753,
+       -78.445842
       ],
       [
-       38.90477,
-       -78.21625
+       38.698203,
+       -78.445327
       ],
       [
-       38.906189,
-       -78.221759
+       38.700559,
+       -78.443636
       ],
       [
-       38.907274,
-       -78.226001
+       38.704464,
+       -78.440798
       ],
       [
-       38.908864,
-       -78.232184
+       38.704727,
+       -78.440594
       ],
       [
-       38.909009,
-       -78.232693
+       38.705112,
+       -78.440261
       ],
       [
-       38.909133,
-       -78.233061
+       38.705554,
+       -78.439823
       ],
       [
-       38.909219,
-       -78.233289
+       38.706172,
+       -78.439132
       ],
       [
-       38.909313,
-       -78.233515
+       38.71141,
+       -78.433128
       ],
       [
-       38.909493,
-       -78.233888
+       38.711925,
+       -78.432581
       ],
       [
-       38.909683,
-       -78.234234
+       38.712215,
+       -78.432303
+      ],
+      [
+       38.712622,
+       -78.431977
+      ],
+      [
+       38.712852,
+       -78.431816
+      ],
+      [
+       38.719956,
+       -78.42713
+      ],
+      [
+       38.720716,
+       -78.426649
+      ],
+      [
+       38.721751,
+       -78.42602
+      ],
+      [
+       38.725561,
+       -78.423766
+      ],
+      [
+       38.725937,
+       -78.423527
+      ],
+      [
+       38.7263,
+       -78.423222
+      ],
+      [
+       38.726795,
+       -78.422745
+      ],
+      [
+       38.727114,
+       -78.422383
+      ],
+      [
+       38.727816,
+       -78.421492
+      ],
+      [
+       38.729747,
+       -78.418952
+      ],
+      [
+       38.730643,
+       -78.417805
+      ],
+      [
+       38.731225,
+       -78.417107
+      ],
+      [
+       38.731532,
+       -78.416759
+      ],
+      [
+       38.732889,
+       -78.415299
+      ],
+      [
+       38.735169,
+       -78.41292
+      ],
+      [
+       38.736281,
+       -78.411779
+      ],
+      [
+       38.737293,
+       -78.410789
+      ],
+      [
+       38.737699,
+       -78.410424
+      ],
+      [
+       38.737966,
+       -78.410199
+      ],
+      [
+       38.73837,
+       -78.40989
+      ],
+      [
+       38.739935,
+       -78.408777
+      ],
+      [
+       38.740185,
+       -78.408615
+      ],
+      [
+       38.743226,
+       -78.406525
+      ],
+      [
+       38.746884,
+       -78.403996
+      ],
+      [
+       38.747562,
+       -78.403539
+      ],
+      [
+       38.747847,
+       -78.40336
+      ],
+      [
+       38.748426,
+       -78.403037
+      ],
+      [
+       38.748852,
+       -78.402854
+      ],
+      [
+       38.749309,
+       -78.402688
+      ],
+      [
+       38.752033,
+       -78.401854
+      ],
+      [
+       38.75349,
+       -78.401427
+      ],
+      [
+       38.754535,
+       -78.4011
+      ],
+      [
+       38.758038,
+       -78.400054
+      ],
+      [
+       38.758385,
+       -78.399941
+      ],
+      [
+       38.758816,
+       -78.399782
+      ],
+      [
+       38.759076,
+       -78.399656
+      ],
+      [
+       38.759372,
+       -78.399473
+      ],
+      [
+       38.75959,
+       -78.399297
+      ],
+      [
+       38.759873,
+       -78.399016
+      ],
+      [
+       38.760098,
+       -78.398746
+      ],
+      [
+       38.761125,
+       -78.397203
+      ],
+      [
+       38.761399,
+       -78.396816
+      ],
+      [
+       38.761718,
+       -78.396394
+      ],
+      [
+       38.7622,
+       -78.395847
       ]
      ],
      "published": null,
      "side": "park",
-     "milesFromTrailhead": 0.8,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684701-10092026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684701-10092026-2.xml",
+     "milesFromTrailhead": 0.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-1.xml",
      "tags": [
       "description",
       "guid",
@@ -13429,98 +13756,98 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T06:00:00",
-     "end": "2026-10-13T17:00:00",
+     "start": "2026-10-16T07:00:00",
+     "end": "2026-10-16T19:00:00",
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4683633-10072026-1 updated",
-     "description": "On Rt. 631 (Old Buena Vista Rd) in the County of Rockbridge from Middle Rd; Rt. 704N/S (Rockbridge County) to Jordan Rd; Rt. 733E/W (Rockbridge County), motorists can expect potential delays in this area from 10/13/26 at 7:30 AM until 10/13/26 at 4:00 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
-     "lat": 37.77543,
-     "lon": -79.3532,
+     "title": "Planned Event WZNW4676602-09172026-5 updated",
+     "description": "On US-522 (Sperryville Park) in the County of Rappahannock from Fletchers Mill Rd; Rt. 620E/W (Rappahannock County) to Main St; Rt. 1001E/W (Rappahannock County), motorists can expect potential delays in this area from 10/16/26 at 7:00 AM until 10/16/26 at 5:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.64693,
+     "lon": -78.20872,
      "line": [
       [
-       37.775432,
-       -79.3532
+       38.646927,
+       -78.20872
       ],
       [
-       37.774962,
-       -79.352427
+       38.64738,
+       -78.209715
       ],
       [
-       37.774913,
-       -79.35223
+       38.647656,
+       -78.210291
       ],
       [
-       37.774934,
-       -79.351746
+       38.648,
+       -78.211039
       ],
       [
-       37.774895,
-       -79.351493
+       38.648214,
+       -78.211483
       ],
       [
-       37.774705,
-       -79.351007
+       38.648381,
+       -78.211857
       ],
       [
-       37.774388,
-       -79.350386
+       38.648905,
+       -78.21293
       ],
       [
-       37.773937,
-       -79.349104
+       38.649115,
+       -78.213321
       ],
       [
-       37.77238,
-       -79.345855
+       38.649387,
+       -78.213807
       ],
       [
-       37.772191,
-       -79.345555
+       38.649617,
+       -78.214184
       ],
       [
-       37.771176,
-       -79.344411
+       38.650809,
+       -78.216084
       ],
       [
-       37.770855,
-       -79.343875
+       38.651383,
+       -78.21703
       ],
       [
-       37.770689,
-       -79.343125
+       38.651549,
+       -78.217261
       ],
       [
-       37.770396,
-       -79.340864
+       38.653235,
+       -78.219916
       ],
       [
-       37.770247,
-       -79.340405
+       38.654166,
+       -78.221408
       ],
       [
-       37.769701,
-       -79.339327
+       38.656265,
+       -78.224737
       ],
       [
-       37.769532,
-       -79.339076
+       38.656584,
+       -78.225254
       ],
       [
-       37.76931,
-       -79.338914
+       38.656993,
+       -78.225886
       ],
       [
-       37.769038,
-       -79.338928
+       38.6572,
+       -78.226242
       ]
      ],
      "published": null,
-     "side": "parkway",
-     "milesFromTrailhead": 2.5,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683633-10072026-1.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683633-10072026-1.xml",
+     "side": "park",
+     "milesFromTrailhead": 2.9,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-5.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-5.xml",
      "tags": [
       "description",
       "guid",
@@ -13528,8 +13855,8 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T07:30:00",
-     "end": "2026-10-13T16:00:00",
+     "start": "2026-10-16T07:00:00",
+     "end": "2026-10-16T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -13796,181 +14123,257 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4683078-10062026-4 updated",
-     "description": "On Rt. 610 (Chester Gap Rd) in the County of Rappahannock from Chester Gap Rd; Mountain Ln; Zachary Taylor Hwy; Rt. 665N/S (Rappahannock County) to Waterfall Rd; Rt. 660N/S (Rappahannock County), motorists can expect potential delays in this area from 10/13/26 at 9:00 AM until 10/13/26 at 3:30 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
-     "lat": 38.85346,
-     "lon": -78.13495,
+     "title": "Planned Event WZNW4672014-09052026-4 updated",
+     "description": "On US-340 (Us Hwy 340 N) in the County of Page from Sandy Hook Rd; Rt. 648N/S (Page County) to Overall Rd; Rt. 665E/W (Page County), motorists can expect potential delays in this area from 10/15/26 at 7:00 AM until 10/15/26 at 7:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.6928,
+     "lon": -78.45066,
      "line": [
       [
-       38.853463,
-       -78.134949
+       38.692798,
+       -78.450663
       ],
       [
-       38.853562,
-       -78.134897
+       38.696639,
+       -78.446684
       ],
       [
-       38.853665,
-       -78.134865
+       38.697114,
+       -78.446214
       ],
       [
-       38.853834,
-       -78.13485
+       38.69753,
+       -78.445842
       ],
       [
-       38.85396,
-       -78.13487
+       38.698203,
+       -78.445327
       ],
       [
-       38.854647,
-       -78.135109
+       38.700559,
+       -78.443636
       ],
       [
-       38.85484,
-       -78.135199
+       38.704464,
+       -78.440798
       ],
       [
-       38.854994,
-       -78.135315
+       38.704727,
+       -78.440594
       ],
       [
-       38.855425,
-       -78.135779
+       38.705112,
+       -78.440261
       ],
       [
-       38.855483,
-       -78.135835
+       38.705554,
+       -78.439823
       ],
       [
-       38.855563,
-       -78.135895
+       38.706172,
+       -78.439132
       ],
       [
-       38.855666,
-       -78.135943
+       38.71141,
+       -78.433128
       ],
       [
-       38.855792,
-       -78.135967
+       38.711925,
+       -78.432581
       ],
       [
-       38.855857,
-       -78.135963
+       38.712215,
+       -78.432303
       ],
       [
-       38.856082,
-       -78.135895
+       38.712622,
+       -78.431977
       ],
       [
-       38.856217,
-       -78.135828
+       38.712852,
+       -78.431816
       ],
       [
-       38.856401,
-       -78.135711
+       38.719956,
+       -78.42713
       ],
       [
-       38.856452,
-       -78.135676
+       38.720716,
+       -78.426649
       ],
       [
-       38.856597,
-       -78.135545
+       38.721751,
+       -78.42602
       ],
       [
-       38.856709,
-       -78.135425
+       38.725561,
+       -78.423766
       ],
       [
-       38.856928,
-       -78.135126
+       38.725937,
+       -78.423527
       ],
       [
-       38.857117,
-       -78.134896
+       38.7263,
+       -78.423222
       ],
       [
-       38.857285,
-       -78.134723
+       38.726795,
+       -78.422745
       ],
       [
-       38.857916,
-       -78.134172
+       38.727114,
+       -78.422383
       ],
       [
-       38.85808,
-       -78.133989
+       38.727816,
+       -78.421492
       ],
       [
-       38.858236,
-       -78.133784
+       38.729747,
+       -78.418952
       ],
       [
-       38.858378,
-       -78.133622
+       38.730643,
+       -78.417805
       ],
       [
-       38.858541,
-       -78.133505
+       38.731225,
+       -78.417107
       ],
       [
-       38.858737,
-       -78.13342
+       38.731532,
+       -78.416759
       ],
       [
-       38.858921,
-       -78.133314
+       38.732889,
+       -78.415299
       ],
       [
-       38.859094,
-       -78.133183
+       38.735169,
+       -78.41292
       ],
       [
-       38.859399,
-       -78.132922
+       38.736281,
+       -78.411779
       ],
       [
-       38.859813,
-       -78.132642
+       38.737293,
+       -78.410789
       ],
       [
-       38.860376,
-       -78.132204
+       38.737699,
+       -78.410424
       ],
       [
-       38.860552,
-       -78.13209
+       38.737966,
+       -78.410199
       ],
       [
-       38.860699,
-       -78.132016
+       38.73837,
+       -78.40989
       ],
       [
-       38.860837,
-       -78.131931
+       38.739935,
+       -78.408777
       ],
       [
-       38.861002,
-       -78.131807
+       38.740185,
+       -78.408615
       ],
       [
-       38.861174,
-       -78.131638
+       38.743226,
+       -78.406525
       ],
       [
-       38.861219,
-       -78.131585
+       38.746884,
+       -78.403996
       ],
       [
-       38.861193,
-       -78.131563
+       38.747562,
+       -78.403539
+      ],
+      [
+       38.747847,
+       -78.40336
+      ],
+      [
+       38.748426,
+       -78.403037
+      ],
+      [
+       38.748852,
+       -78.402854
+      ],
+      [
+       38.749309,
+       -78.402688
+      ],
+      [
+       38.752033,
+       -78.401854
+      ],
+      [
+       38.75349,
+       -78.401427
+      ],
+      [
+       38.754535,
+       -78.4011
+      ],
+      [
+       38.758038,
+       -78.400054
+      ],
+      [
+       38.758385,
+       -78.399941
+      ],
+      [
+       38.758816,
+       -78.399782
+      ],
+      [
+       38.759076,
+       -78.399656
+      ],
+      [
+       38.759372,
+       -78.399473
+      ],
+      [
+       38.75959,
+       -78.399297
+      ],
+      [
+       38.759873,
+       -78.399016
+      ],
+      [
+       38.760098,
+       -78.398746
+      ],
+      [
+       38.761125,
+       -78.397203
+      ],
+      [
+       38.761399,
+       -78.396816
+      ],
+      [
+       38.761718,
+       -78.396394
+      ],
+      [
+       38.7622,
+       -78.395847
       ]
      ],
      "published": null,
      "side": "park",
-     "milesFromTrailhead": 1.0,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-4.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-4.xml",
+     "milesFromTrailhead": 0.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-4.xml",
      "tags": [
       "description",
       "guid",
@@ -13978,262 +14381,262 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T09:00:00",
-     "end": "2026-10-13T15:30:00",
+     "start": "2026-10-15T07:00:00",
+     "end": "2026-10-15T19:00:00",
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4679231-09242026-4 updated",
-     "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 10/13/26 at 7:00 AM until 10/13/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
-     "lat": 38.65086,
-     "lon": -78.21764,
+     "title": "Planned Event WZSW4685211-10132026-1 updated",
+     "description": "On VA-122 (Big Island Hwy) in the County of Bedford from Charlemont Rd; Rt. 638E/W (Bedford County); / CHARLEMONT RD to Lee Jackson Hwy; US-501N/S, motorists can expect potential delays in this area from 10/13/26 at 7:52 AM until 10/13/26 at 3:00 PM due to mowing operations. The north left shoulder and right shoulder are mobile, alternating closures.",
+     "lat": 37.48844,
+     "lon": -79.44108,
      "line": [
       [
-       38.650861,
-       -78.21764
+       37.488445,
+       -79.441083
       ],
       [
-       38.650313,
-       -78.218177
+       37.488773,
+       -79.440978
       ],
       [
-       38.648835,
-       -78.21959
+       37.48909,
+       -79.440862
       ],
       [
-       38.645208,
-       -78.223116
+       37.489451,
+       -79.440715
       ],
       [
-       38.644624,
-       -78.223661
+       37.491893,
+       -79.439694
       ],
       [
-       38.644261,
-       -78.223974
+       37.492373,
+       -79.439507
       ],
       [
-       38.644012,
-       -78.224168
+       37.494379,
+       -79.438663
       ],
       [
-       38.642993,
-       -78.22484
+       37.49574,
+       -79.438108
       ],
       [
-       38.642505,
-       -78.225182
+       37.49619,
+       -79.437893
       ],
       [
-       38.642218,
-       -78.225417
+       37.496894,
+       -79.437474
       ],
       [
-       38.641922,
-       -78.225695
+       37.497216,
+       -79.437247
       ],
       [
-       38.641648,
-       -78.225997
+       37.497578,
+       -79.436948
       ],
       [
-       38.641233,
-       -78.226521
+       37.497922,
+       -79.436643
       ],
       [
-       38.640375,
-       -78.227686
+       37.498096,
+       -79.436472
       ],
       [
-       38.640142,
-       -78.227985
+       37.498484,
+       -79.436053
       ],
       [
-       38.63992,
-       -78.228297
+       37.498999,
+       -79.435397
       ],
       [
-       38.639415,
-       -78.228957
+       37.499352,
+       -79.434872
       ],
       [
-       38.639224,
-       -78.229168
+       37.499606,
+       -79.434449
       ],
       [
-       38.639055,
-       -78.22933
+       37.49983,
+       -79.434027
       ],
       [
-       38.638515,
-       -78.229752
+       37.501003,
+       -79.431516
       ],
       [
-       38.637961,
-       -78.230135
+       37.501231,
+       -79.431099
       ],
       [
-       38.633315,
-       -78.2335
+       37.5014,
+       -79.430844
       ],
       [
-       38.633057,
-       -78.233669
+       37.501495,
+       -79.430715
       ],
       [
-       38.632692,
-       -78.23388
+       37.501781,
+       -79.430363
       ],
       [
-       38.632437,
-       -78.233989
+       37.502439,
+       -79.429628
       ],
       [
-       38.63224,
-       -78.234043
+       37.503977,
+       -79.427834
       ],
       [
-       38.631031,
-       -78.234243
+       37.504318,
+       -79.427452
       ],
       [
-       38.629724,
-       -78.234441
+       37.50446,
+       -79.427302
       ],
       [
-       38.62612,
-       -78.235021
+       37.504634,
+       -79.427142
       ],
       [
-       38.625727,
-       -78.235054
+       37.504893,
+       -79.426938
       ],
       [
-       38.625447,
-       -78.235051
+       37.505121,
+       -79.4268
       ],
       [
-       38.625054,
-       -78.235021
+       37.505563,
+       -79.426591
       ],
       [
-       38.624887,
-       -78.234994
+       37.509575,
+       -79.425027
       ],
       [
-       38.624189,
-       -78.23493
+       37.509966,
+       -79.424846
       ],
       [
-       38.622907,
-       -78.234784
+       37.510147,
+       -79.424748
       ],
       [
-       38.622033,
-       -78.234672
+       37.510412,
+       -79.424579
       ],
       [
-       38.621575,
-       -78.234635
+       37.510887,
+       -79.424223
       ],
       [
-       38.620878,
-       -78.23462
+       37.514094,
+       -79.421635
       ],
       [
-       38.620482,
-       -78.234622
+       37.514337,
+       -79.421424
       ],
       [
-       38.620101,
-       -78.234637
+       37.514991,
+       -79.420901
       ],
       [
-       38.618653,
-       -78.234726
+       37.515327,
+       -79.420667
       ],
       [
-       38.61804,
-       -78.234781
+       37.515487,
+       -79.420583
       ],
       [
-       38.616251,
-       -78.234984
+       37.515624,
+       -79.420526
       ],
       [
-       38.615533,
-       -78.235056
+       37.515822,
+       -79.420456
       ],
       [
-       38.615016,
-       -78.235156
+       37.515984,
+       -79.420413
       ],
       [
-       38.614754,
-       -78.23522
+       37.516712,
+       -79.420267
       ],
       [
-       38.614356,
-       -78.235334
+       37.518439,
+       -79.41995
       ],
       [
-       38.612921,
-       -78.235801
+       37.519473,
+       -79.419742
       ],
       [
-       38.612173,
-       -78.236024
+       37.519842,
+       -79.419681
       ],
       [
-       38.610064,
-       -78.236704
+       37.520304,
+       -79.419632
       ],
       [
-       38.609094,
-       -78.236998
+       37.52072,
+       -79.419602
       ],
       [
-       38.60757,
-       -78.23749
+       37.522948,
+       -79.419468
       ],
       [
-       38.607042,
-       -78.23767
+       37.523063,
+       -79.419452
       ],
       [
-       38.606604,
-       -78.23777
+       37.523252,
+       -79.419406
       ],
       [
-       38.606468,
-       -78.237791
+       37.523338,
+       -79.419379
       ],
       [
-       38.606192,
-       -78.23782
+       37.523522,
+       -79.419302
       ],
       [
-       38.605914,
-       -78.237828
+       37.523729,
+       -79.419174
       ],
       [
-       38.60578,
-       -78.237815
+       37.523854,
+       -79.419068
       ],
       [
-       38.6055,
-       -78.23776
+       37.52401,
+       -79.418901
       ],
       [
-       38.605318,
-       -78.237708
+       37.524175,
+       -79.418655
       ]
      ],
      "published": null,
-     "side": "park",
-     "milesFromTrailhead": 1.1,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-4.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-4.xml",
+     "side": "parkway",
+     "milesFromTrailhead": 1.3,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4685211-10132026-1.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4685211-10132026-1.xml",
      "tags": [
       "description",
       "guid",
@@ -14241,8 +14644,271 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T07:00:00",
-     "end": "2026-10-13T18:00:00",
+     "start": "2026-10-13T07:52:00",
+     "end": "2026-10-13T15:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4685321-10132026-2 updated",
+     "description": "On US-33 (Spotswood Trl) in the County of Rockingham from County/City/Town Line: HARRISONBURG to County/City/Town Line: ROCKINGHAM CL/GREENE CL, motorists can expect potential delays in this area from 10/13/26 at 11:52 AM until 10/13/26 at 5:00 PM due to maintenance activities. The east left shoulder and left lane are mobile closures.",
+     "lat": 38.41734,
+     "lon": -78.83696,
+     "line": [
+      [
+       38.417343,
+       -78.83696
+      ],
+      [
+       38.417096,
+       -78.836789
+      ],
+      [
+       38.416861,
+       -78.836603
+      ],
+      [
+       38.416399,
+       -78.83621
+      ],
+      [
+       38.414612,
+       -78.834652
+      ],
+      [
+       38.412109,
+       -78.832501
+      ],
+      [
+       38.411141,
+       -78.831606
+      ],
+      [
+       38.410366,
+       -78.830849
+      ],
+      [
+       38.410049,
+       -78.830509
+      ],
+      [
+       38.409731,
+       -78.830159
+      ],
+      [
+       38.408924,
+       -78.829216
+      ],
+      [
+       38.408203,
+       -78.828225
+      ],
+      [
+       38.405794,
+       -78.82506
+      ],
+      [
+       38.404286,
+       -78.823088
+      ],
+      [
+       38.403613,
+       -78.822248
+      ],
+      [
+       38.403419,
+       -78.821961
+      ],
+      [
+       38.402872,
+       -78.821236
+      ],
+      [
+       38.399338,
+       -78.8166
+      ],
+      [
+       38.398932,
+       -78.816089
+      ],
+      [
+       38.398628,
+       -78.815739
+      ],
+      [
+       38.398139,
+       -78.815234
+      ],
+      [
+       38.397519,
+       -78.814683
+      ],
+      [
+       38.39268,
+       -78.81066
+      ],
+      [
+       38.392162,
+       -78.810201
+      ],
+      [
+       38.391736,
+       -78.80978
+      ],
+      [
+       38.391324,
+       -78.809322
+      ],
+      [
+       38.390866,
+       -78.80874
+      ],
+      [
+       38.388994,
+       -78.806113
+      ],
+      [
+       38.388295,
+       -78.805153
+      ],
+      [
+       38.387942,
+       -78.804719
+      ],
+      [
+       38.387674,
+       -78.804429
+      ],
+      [
+       38.387337,
+       -78.804106
+      ],
+      [
+       38.3871,
+       -78.803906
+      ],
+      [
+       38.386814,
+       -78.803692
+      ],
+      [
+       38.386412,
+       -78.803429
+      ],
+      [
+       38.385846,
+       -78.803092
+      ],
+      [
+       38.38249,
+       -78.801159
+      ],
+      [
+       38.38153,
+       -78.800583
+      ],
+      [
+       38.381103,
+       -78.80027
+      ],
+      [
+       38.38054,
+       -78.799787
+      ],
+      [
+       38.380251,
+       -78.799503
+      ],
+      [
+       38.379818,
+       -78.799023
+      ],
+      [
+       38.379446,
+       -78.798558
+      ],
+      [
+       38.379197,
+       -78.798215
+      ],
+      [
+       38.375271,
+       -78.792457
+      ],
+      [
+       38.374949,
+       -78.792009
+      ],
+      [
+       38.373746,
+       -78.790442
+      ],
+      [
+       38.373325,
+       -78.789871
+      ],
+      [
+       38.373087,
+       -78.789504
+      ],
+      [
+       38.372863,
+       -78.789102
+      ],
+      [
+       38.37265,
+       -78.788634
+      ],
+      [
+       38.372508,
+       -78.788288
+      ],
+      [
+       38.370494,
+       -78.783152
+      ],
+      [
+       38.37027,
+       -78.782496
+      ],
+      [
+       38.370126,
+       -78.782024
+      ],
+      [
+       38.369969,
+       -78.781459
+      ],
+      [
+       38.369795,
+       -78.780753
+      ],
+      [
+       38.369634,
+       -78.779937
+      ],
+      [
+       38.369557,
+       -78.779458
+      ],
+      [
+       38.369439,
+       -78.778555
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.0,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685321-10132026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4685321-10132026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-13T11:52:00",
+     "end": "2026-10-13T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -14794,269 +15460,6 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4672014-09052026-2 updated",
-     "description": "On US-340 (Us Hwy 340 N) in the County of Page from Sandy Hook Rd; Rt. 648N/S (Page County) to Overall Rd; Rt. 665E/W (Page County), motorists can expect potential delays in this area from 10/13/26 at 7:00 AM until 10/13/26 at 7:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
-     "lat": 38.6928,
-     "lon": -78.45066,
-     "line": [
-      [
-       38.692798,
-       -78.450663
-      ],
-      [
-       38.696639,
-       -78.446684
-      ],
-      [
-       38.697114,
-       -78.446214
-      ],
-      [
-       38.69753,
-       -78.445842
-      ],
-      [
-       38.698203,
-       -78.445327
-      ],
-      [
-       38.700559,
-       -78.443636
-      ],
-      [
-       38.704464,
-       -78.440798
-      ],
-      [
-       38.704727,
-       -78.440594
-      ],
-      [
-       38.705112,
-       -78.440261
-      ],
-      [
-       38.705554,
-       -78.439823
-      ],
-      [
-       38.706172,
-       -78.439132
-      ],
-      [
-       38.71141,
-       -78.433128
-      ],
-      [
-       38.711925,
-       -78.432581
-      ],
-      [
-       38.712215,
-       -78.432303
-      ],
-      [
-       38.712622,
-       -78.431977
-      ],
-      [
-       38.712852,
-       -78.431816
-      ],
-      [
-       38.719956,
-       -78.42713
-      ],
-      [
-       38.720716,
-       -78.426649
-      ],
-      [
-       38.721751,
-       -78.42602
-      ],
-      [
-       38.725561,
-       -78.423766
-      ],
-      [
-       38.725937,
-       -78.423527
-      ],
-      [
-       38.7263,
-       -78.423222
-      ],
-      [
-       38.726795,
-       -78.422745
-      ],
-      [
-       38.727114,
-       -78.422383
-      ],
-      [
-       38.727816,
-       -78.421492
-      ],
-      [
-       38.729747,
-       -78.418952
-      ],
-      [
-       38.730643,
-       -78.417805
-      ],
-      [
-       38.731225,
-       -78.417107
-      ],
-      [
-       38.731532,
-       -78.416759
-      ],
-      [
-       38.732889,
-       -78.415299
-      ],
-      [
-       38.735169,
-       -78.41292
-      ],
-      [
-       38.736281,
-       -78.411779
-      ],
-      [
-       38.737293,
-       -78.410789
-      ],
-      [
-       38.737699,
-       -78.410424
-      ],
-      [
-       38.737966,
-       -78.410199
-      ],
-      [
-       38.73837,
-       -78.40989
-      ],
-      [
-       38.739935,
-       -78.408777
-      ],
-      [
-       38.740185,
-       -78.408615
-      ],
-      [
-       38.743226,
-       -78.406525
-      ],
-      [
-       38.746884,
-       -78.403996
-      ],
-      [
-       38.747562,
-       -78.403539
-      ],
-      [
-       38.747847,
-       -78.40336
-      ],
-      [
-       38.748426,
-       -78.403037
-      ],
-      [
-       38.748852,
-       -78.402854
-      ],
-      [
-       38.749309,
-       -78.402688
-      ],
-      [
-       38.752033,
-       -78.401854
-      ],
-      [
-       38.75349,
-       -78.401427
-      ],
-      [
-       38.754535,
-       -78.4011
-      ],
-      [
-       38.758038,
-       -78.400054
-      ],
-      [
-       38.758385,
-       -78.399941
-      ],
-      [
-       38.758816,
-       -78.399782
-      ],
-      [
-       38.759076,
-       -78.399656
-      ],
-      [
-       38.759372,
-       -78.399473
-      ],
-      [
-       38.75959,
-       -78.399297
-      ],
-      [
-       38.759873,
-       -78.399016
-      ],
-      [
-       38.760098,
-       -78.398746
-      ],
-      [
-       38.761125,
-       -78.397203
-      ],
-      [
-       38.761399,
-       -78.396816
-      ],
-      [
-       38.761718,
-       -78.396394
-      ],
-      [
-       38.7622,
-       -78.395847
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.6,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4672014-09052026-2.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-10-13T07:00:00",
-     "end": "2026-10-13T19:00:00",
-     "allLanesClosed": false
-    },
-    {
      "title": "Planned Event WZSW4669484-08302026-4 updated",
      "description": "On VA-151 South (Critzer Shop Rd) in the County of Nelson from Afton Mountain Rd; Avon Rd; VA-6E/W; Rt. 638N/S (Nelson County) to Rockfish School Ln; Rt. 635N/S (Nelson County), motorists can expect potential delays in this area from 10/14/26 at 8:00 AM until 10/14/26 at 4:00 PM due to maintenance activities.",
      "lat": 37.99993,
@@ -15320,93 +15723,181 @@
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4676602-09172026-2 updated",
-     "description": "On US-522 (Sperryville Park) in the County of Rappahannock from Fletchers Mill Rd; Rt. 620E/W (Rappahannock County) to Main St; Rt. 1001E/W (Rappahannock County), motorists can expect potential delays in this area from 10/13/26 at 7:00 AM until 10/13/26 at 5:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
-     "lat": 38.64693,
-     "lon": -78.20872,
+     "title": "Planned Event WZNW4683078-10062026-5 updated",
+     "description": "On Rt. 610 (Chester Gap Rd) in the County of Rappahannock from Chester Gap Rd; Mountain Ln; Zachary Taylor Hwy; Rt. 665N/S (Rappahannock County) to Waterfall Rd; Rt. 660N/S (Rappahannock County), motorists can expect potential delays in this area from 10/14/26 at 9:00 AM until 10/14/26 at 3:30 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
+     "lat": 38.85346,
+     "lon": -78.13495,
      "line": [
       [
-       38.646927,
-       -78.20872
+       38.853463,
+       -78.134949
       ],
       [
-       38.64738,
-       -78.209715
+       38.853562,
+       -78.134897
       ],
       [
-       38.647656,
-       -78.210291
+       38.853665,
+       -78.134865
       ],
       [
-       38.648,
-       -78.211039
+       38.853834,
+       -78.13485
       ],
       [
-       38.648214,
-       -78.211483
+       38.85396,
+       -78.13487
       ],
       [
-       38.648381,
-       -78.211857
+       38.854647,
+       -78.135109
       ],
       [
-       38.648905,
-       -78.21293
+       38.85484,
+       -78.135199
       ],
       [
-       38.649115,
-       -78.213321
+       38.854994,
+       -78.135315
       ],
       [
-       38.649387,
-       -78.213807
+       38.855425,
+       -78.135779
       ],
       [
-       38.649617,
-       -78.214184
+       38.855483,
+       -78.135835
       ],
       [
-       38.650809,
-       -78.216084
+       38.855563,
+       -78.135895
       ],
       [
-       38.651383,
-       -78.21703
+       38.855666,
+       -78.135943
       ],
       [
-       38.651549,
-       -78.217261
+       38.855792,
+       -78.135967
       ],
       [
-       38.653235,
-       -78.219916
+       38.855857,
+       -78.135963
       ],
       [
-       38.654166,
-       -78.221408
+       38.856082,
+       -78.135895
       ],
       [
-       38.656265,
-       -78.224737
+       38.856217,
+       -78.135828
       ],
       [
-       38.656584,
-       -78.225254
+       38.856401,
+       -78.135711
       ],
       [
-       38.656993,
-       -78.225886
+       38.856452,
+       -78.135676
       ],
       [
-       38.6572,
-       -78.226242
+       38.856597,
+       -78.135545
+      ],
+      [
+       38.856709,
+       -78.135425
+      ],
+      [
+       38.856928,
+       -78.135126
+      ],
+      [
+       38.857117,
+       -78.134896
+      ],
+      [
+       38.857285,
+       -78.134723
+      ],
+      [
+       38.857916,
+       -78.134172
+      ],
+      [
+       38.85808,
+       -78.133989
+      ],
+      [
+       38.858236,
+       -78.133784
+      ],
+      [
+       38.858378,
+       -78.133622
+      ],
+      [
+       38.858541,
+       -78.133505
+      ],
+      [
+       38.858737,
+       -78.13342
+      ],
+      [
+       38.858921,
+       -78.133314
+      ],
+      [
+       38.859094,
+       -78.133183
+      ],
+      [
+       38.859399,
+       -78.132922
+      ],
+      [
+       38.859813,
+       -78.132642
+      ],
+      [
+       38.860376,
+       -78.132204
+      ],
+      [
+       38.860552,
+       -78.13209
+      ],
+      [
+       38.860699,
+       -78.132016
+      ],
+      [
+       38.860837,
+       -78.131931
+      ],
+      [
+       38.861002,
+       -78.131807
+      ],
+      [
+       38.861174,
+       -78.131638
+      ],
+      [
+       38.861219,
+       -78.131585
+      ],
+      [
+       38.861193,
+       -78.131563
       ]
      ],
      "published": null,
      "side": "park",
-     "milesFromTrailhead": 2.9,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4676602-09172026-2.xml",
+     "milesFromTrailhead": 1.0,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-5.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-5.xml",
      "tags": [
       "description",
       "guid",
@@ -15414,13 +15905,320 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T07:00:00",
-     "end": "2026-10-13T17:00:00",
+     "start": "2026-10-14T09:00:00",
+     "end": "2026-10-14T15:30:00",
      "allLanesClosed": false
     },
     {
-     "title": "Planned Event WZNW4681593-09302026-2 updated",
-     "description": "On US-211 (Lee Hwy) in the County of Rappahannock from County/City/Town Line: PAGE CL/RAPPAHANNOCK CL to County/City/Town Line: FAUQUIER CL/CULPEPER CL, motorists can expect potential delays in this area from 10/13/26 at 8:00 AM until 10/13/26 at 5:00 PM due to mowing operations. The east left shoulder and right shoulder are alternating closures. The west left shoulder and right shoulder are alternating closures.",
+     "title": "Planned Event WZNW4684860-10122026-5 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/16/26 at 7:00 AM until 10/16/26 at 3:00 PM due to construction activities. The east left shoulder is closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-5.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-5.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-16T07:00:00",
+     "end": "2026-10-16T15:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4684860-10122026-3 updated",
+     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/14/26 at 7:00 AM until 10/14/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
+     "lat": 38.03863,
+     "lon": -78.87166,
+     "line": null,
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.8,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
+     "tags": [
+      "description",
+      "guid",
+      "link",
+      "point",
+      "title"
+     ],
+     "start": "2026-10-14T07:00:00",
+     "end": "2026-10-14T15:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4679231-09242026-2 updated",
+     "description": "On VA-231 (F T Valley Rd) in the County of Rappahannock from Oaks Ln; VA-231N to Hawlin Rd; Rt. 618E/W (Rappahannock County), motorists can expect potential delays in this area from 10/16/26 at 7:00 AM until 10/16/26 at 6:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "lat": 38.65086,
+     "lon": -78.21764,
+     "line": [
+      [
+       38.650861,
+       -78.21764
+      ],
+      [
+       38.650313,
+       -78.218177
+      ],
+      [
+       38.648835,
+       -78.21959
+      ],
+      [
+       38.645208,
+       -78.223116
+      ],
+      [
+       38.644624,
+       -78.223661
+      ],
+      [
+       38.644261,
+       -78.223974
+      ],
+      [
+       38.644012,
+       -78.224168
+      ],
+      [
+       38.642993,
+       -78.22484
+      ],
+      [
+       38.642505,
+       -78.225182
+      ],
+      [
+       38.642218,
+       -78.225417
+      ],
+      [
+       38.641922,
+       -78.225695
+      ],
+      [
+       38.641648,
+       -78.225997
+      ],
+      [
+       38.641233,
+       -78.226521
+      ],
+      [
+       38.640375,
+       -78.227686
+      ],
+      [
+       38.640142,
+       -78.227985
+      ],
+      [
+       38.63992,
+       -78.228297
+      ],
+      [
+       38.639415,
+       -78.228957
+      ],
+      [
+       38.639224,
+       -78.229168
+      ],
+      [
+       38.639055,
+       -78.22933
+      ],
+      [
+       38.638515,
+       -78.229752
+      ],
+      [
+       38.637961,
+       -78.230135
+      ],
+      [
+       38.633315,
+       -78.2335
+      ],
+      [
+       38.633057,
+       -78.233669
+      ],
+      [
+       38.632692,
+       -78.23388
+      ],
+      [
+       38.632437,
+       -78.233989
+      ],
+      [
+       38.63224,
+       -78.234043
+      ],
+      [
+       38.631031,
+       -78.234243
+      ],
+      [
+       38.629724,
+       -78.234441
+      ],
+      [
+       38.62612,
+       -78.235021
+      ],
+      [
+       38.625727,
+       -78.235054
+      ],
+      [
+       38.625447,
+       -78.235051
+      ],
+      [
+       38.625054,
+       -78.235021
+      ],
+      [
+       38.624887,
+       -78.234994
+      ],
+      [
+       38.624189,
+       -78.23493
+      ],
+      [
+       38.622907,
+       -78.234784
+      ],
+      [
+       38.622033,
+       -78.234672
+      ],
+      [
+       38.621575,
+       -78.234635
+      ],
+      [
+       38.620878,
+       -78.23462
+      ],
+      [
+       38.620482,
+       -78.234622
+      ],
+      [
+       38.620101,
+       -78.234637
+      ],
+      [
+       38.618653,
+       -78.234726
+      ],
+      [
+       38.61804,
+       -78.234781
+      ],
+      [
+       38.616251,
+       -78.234984
+      ],
+      [
+       38.615533,
+       -78.235056
+      ],
+      [
+       38.615016,
+       -78.235156
+      ],
+      [
+       38.614754,
+       -78.23522
+      ],
+      [
+       38.614356,
+       -78.235334
+      ],
+      [
+       38.612921,
+       -78.235801
+      ],
+      [
+       38.612173,
+       -78.236024
+      ],
+      [
+       38.610064,
+       -78.236704
+      ],
+      [
+       38.609094,
+       -78.236998
+      ],
+      [
+       38.60757,
+       -78.23749
+      ],
+      [
+       38.607042,
+       -78.23767
+      ],
+      [
+       38.606604,
+       -78.23777
+      ],
+      [
+       38.606468,
+       -78.237791
+      ],
+      [
+       38.606192,
+       -78.23782
+      ],
+      [
+       38.605914,
+       -78.237828
+      ],
+      [
+       38.60578,
+       -78.237815
+      ],
+      [
+       38.6055,
+       -78.23776
+      ],
+      [
+       38.605318,
+       -78.237708
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 1.1,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-2.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4679231-09242026-2.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-16T07:00:00",
+     "end": "2026-10-16T18:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4681593-09302026-5 updated",
+     "description": "On US-211 (Lee Hwy) in the County of Rappahannock from County/City/Town Line: PAGE CL/RAPPAHANNOCK CL to County/City/Town Line: FAUQUIER CL/CULPEPER CL, motorists can expect potential delays in this area from 10/16/26 at 8:00 AM until 10/16/26 at 5:00 PM due to mowing operations. The east left shoulder and right shoulder are alternating closures. The west left shoulder and right shoulder are alternating closures.",
      "lat": 38.66064,
      "lon": -78.31967,
      "line": [
@@ -15668,8 +16466,8 @@
      "published": null,
      "side": "park",
      "milesFromTrailhead": 0.0,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-2.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-2.xml",
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-5.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-5.xml",
      "tags": [
       "description",
       "guid",
@@ -15677,300 +16475,8 @@
       "link",
       "title"
      ],
-     "start": "2026-10-13T08:00:00",
-     "end": "2026-10-13T17:00:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZNW4683078-10062026-5 updated",
-     "description": "On Rt. 610 (Chester Gap Rd) in the County of Rappahannock from Chester Gap Rd; Mountain Ln; Zachary Taylor Hwy; Rt. 665N/S (Rappahannock County) to Waterfall Rd; Rt. 660N/S (Rappahannock County), motorists can expect potential delays in this area from 10/14/26 at 9:00 AM until 10/14/26 at 3:30 PM due to maintenance activities. All east lanes are alternating closures. All west lanes are alternating closures.",
-     "lat": 38.85346,
-     "lon": -78.13495,
-     "line": [
-      [
-       38.853463,
-       -78.134949
-      ],
-      [
-       38.853562,
-       -78.134897
-      ],
-      [
-       38.853665,
-       -78.134865
-      ],
-      [
-       38.853834,
-       -78.13485
-      ],
-      [
-       38.85396,
-       -78.13487
-      ],
-      [
-       38.854647,
-       -78.135109
-      ],
-      [
-       38.85484,
-       -78.135199
-      ],
-      [
-       38.854994,
-       -78.135315
-      ],
-      [
-       38.855425,
-       -78.135779
-      ],
-      [
-       38.855483,
-       -78.135835
-      ],
-      [
-       38.855563,
-       -78.135895
-      ],
-      [
-       38.855666,
-       -78.135943
-      ],
-      [
-       38.855792,
-       -78.135967
-      ],
-      [
-       38.855857,
-       -78.135963
-      ],
-      [
-       38.856082,
-       -78.135895
-      ],
-      [
-       38.856217,
-       -78.135828
-      ],
-      [
-       38.856401,
-       -78.135711
-      ],
-      [
-       38.856452,
-       -78.135676
-      ],
-      [
-       38.856597,
-       -78.135545
-      ],
-      [
-       38.856709,
-       -78.135425
-      ],
-      [
-       38.856928,
-       -78.135126
-      ],
-      [
-       38.857117,
-       -78.134896
-      ],
-      [
-       38.857285,
-       -78.134723
-      ],
-      [
-       38.857916,
-       -78.134172
-      ],
-      [
-       38.85808,
-       -78.133989
-      ],
-      [
-       38.858236,
-       -78.133784
-      ],
-      [
-       38.858378,
-       -78.133622
-      ],
-      [
-       38.858541,
-       -78.133505
-      ],
-      [
-       38.858737,
-       -78.13342
-      ],
-      [
-       38.858921,
-       -78.133314
-      ],
-      [
-       38.859094,
-       -78.133183
-      ],
-      [
-       38.859399,
-       -78.132922
-      ],
-      [
-       38.859813,
-       -78.132642
-      ],
-      [
-       38.860376,
-       -78.132204
-      ],
-      [
-       38.860552,
-       -78.13209
-      ],
-      [
-       38.860699,
-       -78.132016
-      ],
-      [
-       38.860837,
-       -78.131931
-      ],
-      [
-       38.861002,
-       -78.131807
-      ],
-      [
-       38.861174,
-       -78.131638
-      ],
-      [
-       38.861219,
-       -78.131585
-      ],
-      [
-       38.861193,
-       -78.131563
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 1.0,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-5.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4683078-10062026-5.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-10-14T09:00:00",
-     "end": "2026-10-14T15:30:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZNW4684860-10122026-3 updated",
-     "description": "On I-64 in the County of Augusta at mile marker 99, motorists can expect potential delays in this area from 10/14/26 at 7:00 AM until 10/14/26 at 3:00 PM due to construction activities. The east left shoulder and right shoulder are closed. The west left shoulder and right shoulder are closed.",
-     "lat": 38.03863,
-     "lon": -78.87166,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.8,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4684860-10122026-3.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ],
-     "start": "2026-10-14T07:00:00",
-     "end": "2026-10-14T15:00:00",
-     "allLanesClosed": false
-    },
-    {
-     "title": "Planned Event WZSW4672744-09092026-1 updated",
-     "description": "On I-81 in the County of Botetourt from mile marker 166 to mile marker 168, motorists can expect potential delays in this area from 10/12/26 at 7:35 PM until 10/13/26 at 7:00 AM due to paving operations. The north left shoulder and left lane are closed.",
-     "lat": 37.52944,
-     "lon": -79.69274,
-     "line": [
-      [
-       37.529444,
-       -79.692741
-      ],
-      [
-       37.530436,
-       -79.690391
-      ],
-      [
-       37.53119,
-       -79.68901
-      ],
-      [
-       37.531895,
-       -79.687907
-      ],
-      [
-       37.532838,
-       -79.686656
-      ],
-      [
-       37.536177,
-       -79.682718
-      ],
-      [
-       37.537404,
-       -79.681123
-      ],
-      [
-       37.540599,
-       -79.676369
-      ],
-      [
-       37.541552,
-       -79.674635
-      ],
-      [
-       37.543553,
-       -79.670475
-      ],
-      [
-       37.544267,
-       -79.669289
-      ],
-      [
-       37.545323,
-       -79.668039
-      ],
-      [
-       37.546592,
-       -79.667014
-      ],
-      [
-       37.547493,
-       -79.666518
-      ],
-      [
-       37.54919,
-       -79.665855
-      ]
-     ],
-     "published": null,
-     "side": "forest",
-     "milesFromTrailhead": 1.8,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-1.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZSW4672744-09092026-1.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ],
-     "start": "2026-10-12T19:35:00",
-     "end": "2026-10-13T07:00:00",
+     "start": "2026-10-16T08:00:00",
+     "end": "2026-10-16T17:00:00",
      "allLanesClosed": false
     },
     {
@@ -18429,770 +18935,250 @@
    "feed": "roadCondition",
    "items": [
     {
-     "title": "Road Condition WXNW4684812-10112026-1 updated",
-     "description": "county: Rappahannock (County)\n                    route: Rt. 618W (Rappahannock County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.64939,
-     "lon": -78.07442,
-     "line": [
-      [
-       38.649393,
-       -78.074419
-      ],
-      [
-       38.649209,
-       -78.074856
-      ],
-      [
-       38.649132,
-       -78.075084
-      ],
-      [
-       38.64908,
-       -78.07527
-      ],
-      [
-       38.649058,
-       -78.075364
-      ],
-      [
-       38.648947,
-       -78.076198
-      ],
-      [
-       38.64893,
-       -78.076398
-      ],
-      [
-       38.648914,
-       -78.076734
-      ],
-      [
-       38.648911,
-       -78.07707
-      ],
-      [
-       38.648927,
-       -78.077865
-      ],
-      [
-       38.648973,
-       -78.078656
-      ],
-      [
-       38.648969,
-       -78.079097
-      ],
-      [
-       38.648935,
-       -78.079511
-      ],
-      [
-       38.64887,
-       -78.080548
-      ],
-      [
-       38.648792,
-       -78.081476
-      ],
-      [
-       38.648718,
-       -78.082705
-      ],
-      [
-       38.648652,
-       -78.083462
-      ],
-      [
-       38.648513,
-       -78.085574
-      ],
-      [
-       38.648441,
-       -78.086492
-      ],
-      [
-       38.648385,
-       -78.087893
-      ],
-      [
-       38.648383,
-       -78.088366
-      ],
-      [
-       38.648371,
-       -78.088695
-      ],
-      [
-       38.648351,
-       -78.08907
-      ],
-      [
-       38.648329,
-       -78.089158
-      ],
-      [
-       38.648302,
-       -78.089228
-      ],
-      [
-       38.648247,
-       -78.089316
-      ],
-      [
-       38.648215,
-       -78.089354
-      ],
-      [
-       38.648139,
-       -78.089414
-      ],
-      [
-       38.647899,
-       -78.089542
-      ],
-      [
-       38.647498,
-       -78.089719
-      ],
-      [
-       38.64724,
-       -78.089847
-      ],
-      [
-       38.647032,
-       -78.089977
-      ],
-      [
-       38.646885,
-       -78.090104
-      ],
-      [
-       38.646729,
-       -78.090277
-      ],
-      [
-       38.646631,
-       -78.090417
-      ],
-      [
-       38.645955,
-       -78.091503
-      ],
-      [
-       38.645851,
-       -78.091654
-      ],
-      [
-       38.645761,
-       -78.091763
-      ],
-      [
-       38.645386,
-       -78.092122
-      ],
-      [
-       38.644182,
-       -78.093215
-      ],
-      [
-       38.643911,
-       -78.093479
-      ],
-      [
-       38.643579,
-       -78.093838
-      ],
-      [
-       38.643469,
-       -78.093979
-      ],
-      [
-       38.643352,
-       -78.094165
-      ],
-      [
-       38.643222,
-       -78.094435
-      ],
-      [
-       38.643183,
-       -78.094544
-      ],
-      [
-       38.642968,
-       -78.095483
-      ],
-      [
-       38.642881,
-       -78.095764
-      ],
-      [
-       38.642743,
-       -78.096076
-      ],
-      [
-       38.642623,
-       -78.096273
-      ],
-      [
-       38.642504,
-       -78.096424
-      ],
-      [
-       38.642287,
-       -78.096625
-      ],
-      [
-       38.642111,
-       -78.096749
-      ],
-      [
-       38.641989,
-       -78.096819
-      ],
-      [
-       38.641895,
-       -78.096862
-      ],
-      [
-       38.641745,
-       -78.096912
-      ],
-      [
-       38.6415,
-       -78.096941
-      ],
-      [
-       38.641184,
-       -78.096918
-      ],
-      [
-       38.640673,
-       -78.096858
-      ],
-      [
-       38.640461,
-       -78.096859
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 2.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
-     "title": "Road Condition WXNW4684812-10112026-2 updated",
-     "description": "county: Rappahannock (County)\n                    route: Rt. 618E (Rappahannock County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.58542,
-     "lon": -78.23156,
-     "line": [
-      [
-       38.585418,
-       -78.231558
-      ],
-      [
-       38.584948,
-       -78.229704
-      ],
-      [
-       38.584897,
-       -78.229477
-      ],
-      [
-       38.584776,
-       -78.228816
-      ],
-      [
-       38.584719,
-       -78.228631
-      ],
-      [
-       38.584657,
-       -78.228484
-      ],
-      [
-       38.584598,
-       -78.228376
-      ],
-      [
-       38.584536,
-       -78.228289
-      ],
-      [
-       38.584377,
-       -78.228104
-      ],
-      [
-       38.583695,
-       -78.227467
-      ],
-      [
-       38.583289,
-       -78.227069
-      ],
-      [
-       38.583136,
-       -78.22694
-      ],
-      [
-       38.582456,
-       -78.226282
-      ],
-      [
-       38.582345,
-       -78.226146
-      ],
-      [
-       38.582291,
-       -78.226059
-      ],
-      [
-       38.582244,
-       -78.225961
-      ],
-      [
-       38.58208,
-       -78.225479
-      ],
-      [
-       38.58194,
-       -78.225164
-      ],
-      [
-       38.581508,
-       -78.22405
-      ],
-      [
-       38.581408,
-       -78.223834
-      ],
-      [
-       38.581397,
-       -78.223771
-      ],
-      [
-       38.581414,
-       -78.223708
-      ],
-      [
-       38.581544,
-       -78.223511
-      ],
-      [
-       38.581879,
-       -78.22309
-      ],
-      [
-       38.582268,
-       -78.222641
-      ],
-      [
-       38.582564,
-       -78.222279
-      ],
-      [
-       38.58293,
-       -78.221809
-      ],
-      [
-       38.583573,
-       -78.221051
-      ],
-      [
-       38.58424,
-       -78.220163
-      ],
-      [
-       38.584428,
-       -78.219837
-      ],
-      [
-       38.584596,
-       -78.219522
-      ],
-      [
-       38.584705,
-       -78.219346
-      ],
-      [
-       38.585332,
-       -78.218459
-      ],
-      [
-       38.585522,
-       -78.218164
-      ],
-      [
-       38.585994,
-       -78.217487
-      ],
-      [
-       38.58661,
-       -78.216645
-      ],
-      [
-       38.586808,
-       -78.216406
-      ],
-      [
-       38.587359,
-       -78.215796
-      ],
-      [
-       38.587504,
-       -78.21562
-      ],
-      [
-       38.587794,
-       -78.215318
-      ],
-      [
-       38.587898,
-       -78.215241
-      ],
-      [
-       38.58801,
-       -78.215177
-      ],
-      [
-       38.588101,
-       -78.215138
-      ],
-      [
-       38.588244,
-       -78.215103
-      ],
-      [
-       38.589036,
-       -78.21503
-      ],
-      [
-       38.590198,
-       -78.21498
-      ],
-      [
-       38.590369,
-       -78.214944
-      ],
-      [
-       38.590446,
-       -78.214912
-      ],
-      [
-       38.590595,
-       -78.214824
-      ],
-      [
-       38.590712,
-       -78.214733
-      ],
-      [
-       38.59082,
-       -78.214627
-      ],
-      [
-       38.590966,
-       -78.214452
-      ],
-      [
-       38.591083,
-       -78.214329
-      ],
-      [
-       38.591206,
-       -78.214216
-      ],
-      [
-       38.591365,
-       -78.21409
-      ],
-      [
-       38.592066,
-       -78.213636
-      ],
-      [
-       38.592783,
-       -78.213196
-      ],
-      [
-       38.593528,
-       -78.212675
-      ],
-      [
-       38.593878,
-       -78.2124
-      ],
-      [
-       38.593943,
-       -78.21233
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 2.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
      "title": "Road Condition WXNW4684804-10112026-1 updated",
      "description": "county: Madison (County)\n                    route: Rt. 642N (Madison County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.47239,
-     "lon": -78.25387,
+     "lat": 38.45808,
+     "lon": -78.30131,
      "line": [
       [
-       38.47239,
-       -78.253874
+       38.458085,
+       -78.301308
       ],
       [
-       38.472484,
-       -78.253909
+       38.458015,
+       -78.301352
       ],
       [
-       38.472565,
-       -78.253951
+       38.457897,
+       -78.301443
       ],
       [
-       38.472863,
-       -78.254173
+       38.457546,
+       -78.30173
       ],
       [
-       38.472932,
-       -78.254236
+       38.457454,
+       -78.301783
       ],
       [
-       38.473026,
-       -78.254344
+       38.457188,
+       -78.301902
       ],
       [
-       38.473224,
-       -78.254672
+       38.45708,
+       -78.301966
       ],
       [
-       38.473286,
-       -78.254752
+       38.45691,
+       -78.30212
       ],
       [
-       38.473396,
-       -78.254874
+       38.456801,
+       -78.302246
       ],
       [
-       38.473616,
-       -78.255054
+       38.45674,
+       -78.30233
       ],
       [
-       38.473803,
-       -78.255159
+       38.456069,
+       -78.303344
       ],
       [
-       38.473971,
-       -78.255221
+       38.455777,
+       -78.303806
       ],
       [
-       38.474142,
-       -78.255259
+       38.455632,
+       -78.304065
       ],
       [
-       38.474607,
-       -78.255292
+       38.455391,
+       -78.30454
       ],
       [
-       38.47469,
-       -78.255334
+       38.455105,
+       -78.305034
       ],
       [
-       38.474751,
-       -78.255393
+       38.455053,
+       -78.305138
       ],
       [
-       38.474783,
-       -78.255445
+       38.455,
+       -78.305278
       ],
       [
-       38.474845,
-       -78.255627
+       38.454967,
+       -78.305394
       ],
       [
-       38.474961,
-       -78.256087
+       38.454918,
+       -78.305649
       ],
       [
-       38.475014,
-       -78.256419
+       38.454903,
+       -78.305701
       ],
       [
-       38.475039,
-       -78.256758
+       38.454858,
+       -78.305827
       ],
       [
-       38.475041,
-       -78.257505
+       38.454799,
+       -78.305942
       ],
       [
-       38.475056,
-       -78.258253
+       38.454624,
+       -78.306131
       ],
       [
-       38.475077,
-       -78.258438
+       38.454396,
+       -78.306349
       ],
       [
-       38.475133,
-       -78.258686
+       38.454263,
+       -78.306492
       ],
       [
-       38.475164,
-       -78.258766
+       38.45414,
+       -78.30665
       ],
       [
-       38.475243,
-       -78.258909
+       38.453907,
+       -78.306992
       ],
       [
-       38.475836,
-       -78.259644
+       38.453836,
+       -78.307104
       ],
       [
-       38.47592,
-       -78.259734
+       38.453624,
+       -78.307489
       ],
       [
-       38.476202,
-       -78.259947
+       38.453418,
+       -78.30793
       ],
       [
-       38.47651,
-       -78.260232
+       38.453117,
+       -78.308506
       ],
       [
-       38.477085,
-       -78.260796
+       38.452902,
+       -78.30886
       ],
       [
-       38.477909,
-       -78.261548
+       38.452493,
+       -78.309444
       ],
       [
-       38.478223,
-       -78.261805
+       38.452449,
+       -78.309514
       ],
       [
-       38.478309,
-       -78.261885
+       38.452378,
+       -78.30965
       ],
       [
-       38.478484,
-       -78.26208
+       38.45235,
+       -78.309804
       ],
       [
-       38.478934,
-       -78.262782
+       38.452345,
+       -78.309909
       ],
       [
-       38.47898,
-       -78.262876
+       38.452349,
+       -78.310014
       ],
       [
-       38.479012,
-       -78.262975
+       38.452487,
+       -78.311026
       ],
       [
-       38.479031,
-       -78.263078
+       38.452569,
+       -78.311459
       ],
       [
-       38.479044,
-       -78.263396
+       38.452661,
+       -78.311888
       ],
       [
-       38.479085,
-       -78.263632
+       38.452826,
+       -78.312603
       ],
       [
-       38.479118,
-       -78.263748
+       38.453029,
+       -78.313413
       ],
       [
-       38.479221,
-       -78.263985
+       38.453054,
+       -78.313549
       ],
       [
-       38.479384,
-       -78.264313
+       38.453101,
+       -78.313919
       ],
       [
-       38.479699,
-       -78.264878
+       38.453147,
+       -78.314481
       ],
       [
-       38.479856,
-       -78.26515
+       38.453178,
+       -78.314771
       ],
       [
-       38.48006,
-       -78.26546
+       38.453186,
+       -78.314802
       ],
       [
-       38.480168,
-       -78.26561
+       38.453252,
+       -78.314865
       ],
       [
-       38.480226,
-       -78.265676
+       38.453283,
+       -78.314879
       ],
       [
-       38.480419,
-       -78.265828
+       38.453383,
+       -78.314903
       ],
       [
-       38.480737,
-       -78.266144
+       38.453275,
+       -78.315022
       ],
       [
-       38.481081,
-       -78.266453
+       38.453172,
+       -78.315166
       ],
       [
-       38.481252,
-       -78.266632
+       38.452602,
+       -78.316138
       ],
       [
-       38.481353,
-       -78.266759
+       38.45228,
+       -78.316645
       ],
       [
-       38.481508,
-       -78.266993
+       38.452001,
+       -78.316984
       ],
       [
-       38.481669,
-       -78.267287
+       38.451416,
+       -78.317587
       ],
       [
-       38.48214,
-       -78.268099
+       38.451048,
+       -78.318007
       ],
       [
-       38.482236,
-       -78.268241
+       38.450589,
+       -78.318612
       ],
       [
-       38.482406,
-       -78.268458
+       38.450362,
+       -78.318878
       ]
      ],
      "published": null,
@@ -19211,773 +19197,253 @@
     {
      "title": "Road Condition WXNW4684804-10112026-2 updated",
      "description": "county: Madison (County)\n                    route: Rt. 642S (Madison County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.47239,
-     "lon": -78.25387,
+     "lat": 38.45808,
+     "lon": -78.30131,
      "line": [
       [
-       38.47239,
-       -78.253874
+       38.458085,
+       -78.301308
       ],
       [
-       38.472484,
-       -78.253909
+       38.458015,
+       -78.301352
       ],
       [
-       38.472565,
-       -78.253951
+       38.457897,
+       -78.301443
       ],
       [
-       38.472863,
-       -78.254173
+       38.457546,
+       -78.30173
       ],
       [
-       38.472932,
-       -78.254236
+       38.457454,
+       -78.301783
       ],
       [
-       38.473026,
-       -78.254344
+       38.457188,
+       -78.301902
       ],
       [
-       38.473224,
-       -78.254672
+       38.45708,
+       -78.301966
       ],
       [
-       38.473286,
-       -78.254752
+       38.45691,
+       -78.30212
       ],
       [
-       38.473396,
-       -78.254874
+       38.456801,
+       -78.302246
       ],
       [
-       38.473616,
-       -78.255054
+       38.45674,
+       -78.30233
       ],
       [
-       38.473803,
-       -78.255159
+       38.456069,
+       -78.303344
       ],
       [
-       38.473971,
-       -78.255221
+       38.455777,
+       -78.303806
       ],
       [
-       38.474142,
-       -78.255259
+       38.455632,
+       -78.304065
       ],
       [
-       38.474607,
-       -78.255292
+       38.455391,
+       -78.30454
       ],
       [
-       38.47469,
-       -78.255334
+       38.455105,
+       -78.305034
       ],
       [
-       38.474751,
-       -78.255393
+       38.455053,
+       -78.305138
       ],
       [
-       38.474783,
-       -78.255445
+       38.455,
+       -78.305278
       ],
       [
-       38.474845,
-       -78.255627
+       38.454967,
+       -78.305394
       ],
       [
-       38.474961,
-       -78.256087
+       38.454918,
+       -78.305649
       ],
       [
-       38.475014,
-       -78.256419
+       38.454903,
+       -78.305701
       ],
       [
-       38.475039,
-       -78.256758
+       38.454858,
+       -78.305827
       ],
       [
-       38.475041,
-       -78.257505
+       38.454799,
+       -78.305942
       ],
       [
-       38.475056,
-       -78.258253
+       38.454624,
+       -78.306131
       ],
       [
-       38.475077,
-       -78.258438
+       38.454396,
+       -78.306349
       ],
       [
-       38.475133,
-       -78.258686
+       38.454263,
+       -78.306492
       ],
       [
-       38.475164,
-       -78.258766
+       38.45414,
+       -78.30665
       ],
       [
-       38.475243,
-       -78.258909
+       38.453907,
+       -78.306992
       ],
       [
-       38.475836,
-       -78.259644
+       38.453836,
+       -78.307104
       ],
       [
-       38.47592,
-       -78.259734
+       38.453624,
+       -78.307489
       ],
       [
-       38.476202,
-       -78.259947
+       38.453418,
+       -78.30793
       ],
       [
-       38.47651,
-       -78.260232
+       38.453117,
+       -78.308506
       ],
       [
-       38.477085,
-       -78.260796
+       38.452902,
+       -78.30886
       ],
       [
-       38.477909,
-       -78.261548
+       38.452493,
+       -78.309444
       ],
       [
-       38.478223,
-       -78.261805
+       38.452449,
+       -78.309514
       ],
       [
-       38.478309,
-       -78.261885
+       38.452378,
+       -78.30965
       ],
       [
-       38.478484,
-       -78.26208
+       38.45235,
+       -78.309804
       ],
       [
-       38.478934,
-       -78.262782
+       38.452345,
+       -78.309909
       ],
       [
-       38.47898,
-       -78.262876
+       38.452349,
+       -78.310014
       ],
       [
-       38.479012,
-       -78.262975
+       38.452487,
+       -78.311026
       ],
       [
-       38.479031,
-       -78.263078
+       38.452569,
+       -78.311459
       ],
       [
-       38.479044,
-       -78.263396
+       38.452661,
+       -78.311888
       ],
       [
-       38.479085,
-       -78.263632
+       38.452826,
+       -78.312603
       ],
       [
-       38.479118,
-       -78.263748
+       38.453029,
+       -78.313413
       ],
       [
-       38.479221,
-       -78.263985
+       38.453054,
+       -78.313549
       ],
       [
-       38.479384,
-       -78.264313
+       38.453101,
+       -78.313919
       ],
       [
-       38.479699,
-       -78.264878
+       38.453147,
+       -78.314481
       ],
       [
-       38.479856,
-       -78.26515
+       38.453178,
+       -78.314771
       ],
       [
-       38.48006,
-       -78.26546
+       38.453186,
+       -78.314802
       ],
       [
-       38.480168,
-       -78.26561
+       38.453252,
+       -78.314865
       ],
       [
-       38.480226,
-       -78.265676
+       38.453283,
+       -78.314879
       ],
       [
-       38.480419,
-       -78.265828
+       38.453383,
+       -78.314903
       ],
       [
-       38.480737,
-       -78.266144
+       38.453275,
+       -78.315022
       ],
       [
-       38.481081,
-       -78.266453
+       38.453172,
+       -78.315166
       ],
       [
-       38.481252,
-       -78.266632
+       38.452602,
+       -78.316138
       ],
       [
-       38.481353,
-       -78.266759
+       38.45228,
+       -78.316645
       ],
       [
-       38.481508,
-       -78.266993
+       38.452001,
+       -78.316984
       ],
       [
-       38.481669,
-       -78.267287
+       38.451416,
+       -78.317587
       ],
       [
-       38.48214,
-       -78.268099
+       38.451048,
+       -78.318007
       ],
       [
-       38.482236,
-       -78.268241
+       38.450589,
+       -78.318612
       ],
       [
-       38.482406,
-       -78.268458
+       38.450362,
+       -78.318878
       ]
      ],
      "published": null,
      "side": "park",
      "milesFromTrailhead": 1.9,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
-     "title": "Road Condition WXNW4684804-10112026-3 updated",
-     "description": "county: Madison (County)\n                    route: Rt. 600N (Madison County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.47304,
-     "lon": -78.3143,
-     "line": [
-      [
-       38.473036,
-       -78.314304
-      ],
-      [
-       38.473068,
-       -78.314182
-      ],
-      [
-       38.473113,
-       -78.31407
-      ],
-      [
-       38.473151,
-       -78.314018
-      ],
-      [
-       38.473199,
-       -78.313983
-      ],
-      [
-       38.473291,
-       -78.313958
-      ],
-      [
-       38.473556,
-       -78.313968
-      ],
-      [
-       38.473673,
-       -78.313953
-      ],
-      [
-       38.473857,
-       -78.313901
-      ],
-      [
-       38.473957,
-       -78.313851
-      ],
-      [
-       38.474206,
-       -78.313697
-      ],
-      [
-       38.474763,
-       -78.313381
-      ],
-      [
-       38.474972,
-       -78.313272
-      ],
-      [
-       38.475077,
-       -78.313237
-      ],
-      [
-       38.475226,
-       -78.313212
-      ],
-      [
-       38.475441,
-       -78.313208
-      ],
-      [
-       38.475688,
-       -78.313229
-      ],
-      [
-       38.476521,
-       -78.313335
-      ],
-      [
-       38.476924,
-       -78.313351
-      ],
-      [
-       38.477182,
-       -78.313347
-      ],
-      [
-       38.477792,
-       -78.313286
-      ],
-      [
-       38.478049,
-       -78.313233
-      ],
-      [
-       38.478156,
-       -78.313198
-      ],
-      [
-       38.478515,
-       -78.313047
-      ],
-      [
-       38.478596,
-       -78.31298
-      ],
-      [
-       38.478681,
-       -78.312879
-      ],
-      [
-       38.478925,
-       -78.312508
-      ],
-      [
-       38.479033,
-       -78.312378
-      ],
-      [
-       38.479133,
-       -78.312287
-      ],
-      [
-       38.47938,
-       -78.312122
-      ],
-      [
-       38.47948,
-       -78.312038
-      ],
-      [
-       38.479653,
-       -78.311839
-      ],
-      [
-       38.479781,
-       -78.31165
-      ],
-      [
-       38.47986,
-       -78.311573
-      ],
-      [
-       38.479905,
-       -78.311551
-      ],
-      [
-       38.479964,
-       -78.311548
-      ],
-      [
-       38.480002,
-       -78.311562
-      ],
-      [
-       38.48025,
-       -78.311732
-      ],
-      [
-       38.480292,
-       -78.311753
-      ],
-      [
-       38.480394,
-       -78.311774
-      ],
-      [
-       38.480582,
-       -78.31177
-      ],
-      [
-       38.481112,
-       -78.31173
-      ],
-      [
-       38.482003,
-       -78.311714
-      ],
-      [
-       38.482091,
-       -78.311692
-      ],
-      [
-       38.482537,
-       -78.311454
-      ],
-      [
-       38.482681,
-       -78.311335
-      ],
-      [
-       38.482836,
-       -78.311184
-      ],
-      [
-       38.482892,
-       -78.311156
-      ],
-      [
-       38.482926,
-       -78.311156
-      ],
-      [
-       38.482976,
-       -78.311177
-      ],
-      [
-       38.483777,
-       -78.311842
-      ],
-      [
-       38.484124,
-       -78.312113
-      ],
-      [
-       38.484467,
-       -78.312455
-      ],
-      [
-       38.484614,
-       -78.312566
-      ],
-      [
-       38.484696,
-       -78.312615
-      ],
-      [
-       38.4848,
-       -78.31266
-      ],
-      [
-       38.485573,
-       -78.31284
-      ],
-      [
-       38.485665,
-       -78.312881
-      ],
-      [
-       38.485937,
-       -78.313055
-      ],
-      [
-       38.486163,
-       -78.313163
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.0,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
-     "title": "Road Condition WXNW4684804-10112026-4 updated",
-     "description": "county: Madison (County)\n                    route: Rt. 600S (Madison County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.57024,
-     "lon": -78.27799,
-     "line": [
-      [
-       38.570239,
-       -78.277989
-      ],
-      [
-       38.570282,
-       -78.278118
-      ],
-      [
-       38.570342,
-       -78.278377
-      ],
-      [
-       38.570478,
-       -78.279353
-      ],
-      [
-       38.570543,
-       -78.279755
-      ],
-      [
-       38.570656,
-       -78.280335
-      ],
-      [
-       38.570854,
-       -78.281216
-      ],
-      [
-       38.570886,
-       -78.281394
-      ],
-      [
-       38.570912,
-       -78.281618
-      ],
-      [
-       38.570913,
-       -78.282072
-      ],
-      [
-       38.570887,
-       -78.282874
-      ],
-      [
-       38.570852,
-       -78.283202
-      ],
-      [
-       38.570747,
-       -78.28385
-      ],
-      [
-       38.570723,
-       -78.284151
-      ],
-      [
-       38.570717,
-       -78.284563
-      ],
-      [
-       38.570725,
-       -78.284952
-      ],
-      [
-       38.570731,
-       -78.285137
-      ],
-      [
-       38.570754,
-       -78.28541
-      ],
-      [
-       38.570882,
-       -78.286242
-      ],
-      [
-       38.57104,
-       -78.28763
-      ],
-      [
-       38.571145,
-       -78.288193
-      ],
-      [
-       38.571234,
-       -78.288591
-      ],
-      [
-       38.571299,
-       -78.288815
-      ],
-      [
-       38.57136,
-       -78.288986
-      ],
-      [
-       38.571679,
-       -78.289601
-      ],
-      [
-       38.571814,
-       -78.289971
-      ],
-      [
-       38.571879,
-       -78.290226
-      ],
-      [
-       38.571991,
-       -78.291125
-      ],
-      [
-       38.572148,
-       -78.292072
-      ],
-      [
-       38.572216,
-       -78.292551
-      ],
-      [
-       38.572241,
-       -78.292793
-      ],
-      [
-       38.572251,
-       -78.292989
-      ],
-      [
-       38.572251,
-       -78.293279
-      ],
-      [
-       38.572239,
-       -78.293471
-      ],
-      [
-       38.572167,
-       -78.293926
-      ],
-      [
-       38.572159,
-       -78.294021
-      ],
-      [
-       38.572158,
-       -78.294255
-      ],
-      [
-       38.572174,
-       -78.294363
-      ],
-      [
-       38.572194,
-       -78.294433
-      ],
-      [
-       38.572232,
-       -78.294514
-      ],
-      [
-       38.572371,
-       -78.294692
-      ],
-      [
-       38.572518,
-       -78.294835
-      ],
-      [
-       38.572769,
-       -78.295044
-      ],
-      [
-       38.572851,
-       -78.295134
-      ],
-      [
-       38.572904,
-       -78.295211
-      ],
-      [
-       38.572943,
-       -78.295288
-      ],
-      [
-       38.572987,
-       -78.295414
-      ],
-      [
-       38.573015,
-       -78.295526
-      ],
-      [
-       38.573044,
-       -78.295732
-      ],
-      [
-       38.573041,
-       -78.295809
-      ],
-      [
-       38.573019,
-       -78.295918
-      ],
-      [
-       38.572863,
-       -78.29624
-      ],
-      [
-       38.57252,
-       -78.296863
-      ],
-      [
-       38.572217,
-       -78.297382
-      ],
-      [
-       38.572148,
-       -78.297473
-      ],
-      [
-       38.572102,
-       -78.297564
-      ],
-      [
-       38.572075,
-       -78.297641
-      ],
-      [
-       38.572053,
-       -78.297746
-      ],
-      [
-       38.57206,
-       -78.297862
-      ],
-      [
-       38.572046,
-       -78.298005
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.0,
      "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
      "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684804-10112026.xml",
      "tags": [
@@ -20000,510 +19466,250 @@
    "feed": "roadCondition",
    "items": [
     {
-     "title": "Road Condition WXNW4684812-10112026 updated",
-     "description": "county: Rappahannock (County)\n                    route: Rt. 618W (Rappahannock County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.64939,
-     "lon": -78.07442,
-     "line": [
-      [
-       38.649393,
-       -78.074419
-      ],
-      [
-       38.649209,
-       -78.074856
-      ],
-      [
-       38.649132,
-       -78.075084
-      ],
-      [
-       38.64908,
-       -78.07527
-      ],
-      [
-       38.649058,
-       -78.075364
-      ],
-      [
-       38.648947,
-       -78.076198
-      ],
-      [
-       38.64893,
-       -78.076398
-      ],
-      [
-       38.648914,
-       -78.076734
-      ],
-      [
-       38.648911,
-       -78.07707
-      ],
-      [
-       38.648927,
-       -78.077865
-      ],
-      [
-       38.648973,
-       -78.078656
-      ],
-      [
-       38.648969,
-       -78.079097
-      ],
-      [
-       38.648935,
-       -78.079511
-      ],
-      [
-       38.64887,
-       -78.080548
-      ],
-      [
-       38.648792,
-       -78.081476
-      ],
-      [
-       38.648718,
-       -78.082705
-      ],
-      [
-       38.648652,
-       -78.083462
-      ],
-      [
-       38.648513,
-       -78.085574
-      ],
-      [
-       38.648441,
-       -78.086492
-      ],
-      [
-       38.648385,
-       -78.087893
-      ],
-      [
-       38.648383,
-       -78.088366
-      ],
-      [
-       38.648371,
-       -78.088695
-      ],
-      [
-       38.648351,
-       -78.08907
-      ],
-      [
-       38.648329,
-       -78.089158
-      ],
-      [
-       38.648302,
-       -78.089228
-      ],
-      [
-       38.648247,
-       -78.089316
-      ],
-      [
-       38.648215,
-       -78.089354
-      ],
-      [
-       38.648139,
-       -78.089414
-      ],
-      [
-       38.647899,
-       -78.089542
-      ],
-      [
-       38.647498,
-       -78.089719
-      ],
-      [
-       38.64724,
-       -78.089847
-      ],
-      [
-       38.647032,
-       -78.089977
-      ],
-      [
-       38.646885,
-       -78.090104
-      ],
-      [
-       38.646729,
-       -78.090277
-      ],
-      [
-       38.646631,
-       -78.090417
-      ],
-      [
-       38.645955,
-       -78.091503
-      ],
-      [
-       38.645851,
-       -78.091654
-      ],
-      [
-       38.645761,
-       -78.091763
-      ],
-      [
-       38.645386,
-       -78.092122
-      ],
-      [
-       38.644182,
-       -78.093215
-      ],
-      [
-       38.643911,
-       -78.093479
-      ],
-      [
-       38.643579,
-       -78.093838
-      ],
-      [
-       38.643469,
-       -78.093979
-      ],
-      [
-       38.643352,
-       -78.094165
-      ],
-      [
-       38.643222,
-       -78.094435
-      ],
-      [
-       38.643183,
-       -78.094544
-      ],
-      [
-       38.642968,
-       -78.095483
-      ],
-      [
-       38.642881,
-       -78.095764
-      ],
-      [
-       38.642743,
-       -78.096076
-      ],
-      [
-       38.642623,
-       -78.096273
-      ],
-      [
-       38.642504,
-       -78.096424
-      ],
-      [
-       38.642287,
-       -78.096625
-      ],
-      [
-       38.642111,
-       -78.096749
-      ],
-      [
-       38.641989,
-       -78.096819
-      ],
-      [
-       38.641895,
-       -78.096862
-      ],
-      [
-       38.641745,
-       -78.096912
-      ],
-      [
-       38.6415,
-       -78.096941
-      ],
-      [
-       38.641184,
-       -78.096918
-      ],
-      [
-       38.640673,
-       -78.096858
-      ],
-      [
-       38.640461,
-       -78.096859
-      ]
-     ],
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 2.3,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4684812-10112026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
      "title": "Road Condition WXNW4684804-10112026 updated",
      "description": "county: Madison (County)\n                    route: Rt. 642N (Madison County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
-     "lat": 38.47239,
-     "lon": -78.25387,
+     "lat": 38.45808,
+     "lon": -78.30131,
      "line": [
       [
-       38.47239,
-       -78.253874
+       38.458085,
+       -78.301308
       ],
       [
-       38.472484,
-       -78.253909
+       38.458015,
+       -78.301352
       ],
       [
-       38.472565,
-       -78.253951
+       38.457897,
+       -78.301443
       ],
       [
-       38.472863,
-       -78.254173
+       38.457546,
+       -78.30173
       ],
       [
-       38.472932,
-       -78.254236
+       38.457454,
+       -78.301783
       ],
       [
-       38.473026,
-       -78.254344
+       38.457188,
+       -78.301902
       ],
       [
-       38.473224,
-       -78.254672
+       38.45708,
+       -78.301966
       ],
       [
-       38.473286,
-       -78.254752
+       38.45691,
+       -78.30212
       ],
       [
-       38.473396,
-       -78.254874
+       38.456801,
+       -78.302246
       ],
       [
-       38.473616,
-       -78.255054
+       38.45674,
+       -78.30233
       ],
       [
-       38.473803,
-       -78.255159
+       38.456069,
+       -78.303344
       ],
       [
-       38.473971,
-       -78.255221
+       38.455777,
+       -78.303806
       ],
       [
-       38.474142,
-       -78.255259
+       38.455632,
+       -78.304065
       ],
       [
-       38.474607,
-       -78.255292
+       38.455391,
+       -78.30454
       ],
       [
-       38.47469,
-       -78.255334
+       38.455105,
+       -78.305034
       ],
       [
-       38.474751,
-       -78.255393
+       38.455053,
+       -78.305138
       ],
       [
-       38.474783,
-       -78.255445
+       38.455,
+       -78.305278
       ],
       [
-       38.474845,
-       -78.255627
+       38.454967,
+       -78.305394
       ],
       [
-       38.474961,
-       -78.256087
+       38.454918,
+       -78.305649
       ],
       [
-       38.475014,
-       -78.256419
+       38.454903,
+       -78.305701
       ],
       [
-       38.475039,
-       -78.256758
+       38.454858,
+       -78.305827
       ],
       [
-       38.475041,
-       -78.257505
+       38.454799,
+       -78.305942
       ],
       [
-       38.475056,
-       -78.258253
+       38.454624,
+       -78.306131
       ],
       [
-       38.475077,
-       -78.258438
+       38.454396,
+       -78.306349
       ],
       [
-       38.475133,
-       -78.258686
+       38.454263,
+       -78.306492
       ],
       [
-       38.475164,
-       -78.258766
+       38.45414,
+       -78.30665
       ],
       [
-       38.475243,
-       -78.258909
+       38.453907,
+       -78.306992
       ],
       [
-       38.475836,
-       -78.259644
+       38.453836,
+       -78.307104
       ],
       [
-       38.47592,
-       -78.259734
+       38.453624,
+       -78.307489
       ],
       [
-       38.476202,
-       -78.259947
+       38.453418,
+       -78.30793
       ],
       [
-       38.47651,
-       -78.260232
+       38.453117,
+       -78.308506
       ],
       [
-       38.477085,
-       -78.260796
+       38.452902,
+       -78.30886
       ],
       [
-       38.477909,
-       -78.261548
+       38.452493,
+       -78.309444
       ],
       [
-       38.478223,
-       -78.261805
+       38.452449,
+       -78.309514
       ],
       [
-       38.478309,
-       -78.261885
+       38.452378,
+       -78.30965
       ],
       [
-       38.478484,
-       -78.26208
+       38.45235,
+       -78.309804
       ],
       [
-       38.478934,
-       -78.262782
+       38.452345,
+       -78.309909
       ],
       [
-       38.47898,
-       -78.262876
+       38.452349,
+       -78.310014
       ],
       [
-       38.479012,
-       -78.262975
+       38.452487,
+       -78.311026
       ],
       [
-       38.479031,
-       -78.263078
+       38.452569,
+       -78.311459
       ],
       [
-       38.479044,
-       -78.263396
+       38.452661,
+       -78.311888
       ],
       [
-       38.479085,
-       -78.263632
+       38.452826,
+       -78.312603
       ],
       [
-       38.479118,
-       -78.263748
+       38.453029,
+       -78.313413
       ],
       [
-       38.479221,
-       -78.263985
+       38.453054,
+       -78.313549
       ],
       [
-       38.479384,
-       -78.264313
+       38.453101,
+       -78.313919
       ],
       [
-       38.479699,
-       -78.264878
+       38.453147,
+       -78.314481
       ],
       [
-       38.479856,
-       -78.26515
+       38.453178,
+       -78.314771
       ],
       [
-       38.48006,
-       -78.26546
+       38.453186,
+       -78.314802
       ],
       [
-       38.480168,
-       -78.26561
+       38.453252,
+       -78.314865
       ],
       [
-       38.480226,
-       -78.265676
+       38.453283,
+       -78.314879
       ],
       [
-       38.480419,
-       -78.265828
+       38.453383,
+       -78.314903
       ],
       [
-       38.480737,
-       -78.266144
+       38.453275,
+       -78.315022
       ],
       [
-       38.481081,
-       -78.266453
+       38.453172,
+       -78.315166
       ],
       [
-       38.481252,
-       -78.266632
+       38.452602,
+       -78.316138
       ],
       [
-       38.481353,
-       -78.266759
+       38.45228,
+       -78.316645
       ],
       [
-       38.481508,
-       -78.266993
+       38.452001,
+       -78.316984
       ],
       [
-       38.481669,
-       -78.267287
+       38.451416,
+       -78.317587
       ],
       [
-       38.48214,
-       -78.268099
+       38.451048,
+       -78.318007
       ],
       [
-       38.482236,
-       -78.268241
+       38.450589,
+       -78.318612
       ],
       [
-       38.482406,
-       -78.268458
+       38.450362,
+       -78.318878
       ]
      ],
      "published": null,
