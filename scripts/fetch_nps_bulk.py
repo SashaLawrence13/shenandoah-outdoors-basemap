@@ -26,8 +26,13 @@ PAGE = 200
 
 SECOND_SOURCE_PARKS = ["arch", "badl", "bibe", "cany", "care", "crla", "ever", "glac", "grca", "grte",
                        "meve", "mora", "olym", "romo", "sagu", "yell", "yose", "indu", "zion"]
+NEW_PARKS = ["jeff", "havo", "hale", "glba", "thro", "maca", "whsa", "wica", "dena", "lavo", "bisc", "viis", "grsa",
+             "kefj", "cave", "pinn", "pefo", "cong", "blca", "chis", "gumo", "voya", "grba", "wrst", "drto", "noca",
+             "npsa", "katm", "isro", "lacl", "gaar", "kova"]  # Quality's next parks (10-14)
+FULL = ("places", "thingstodo", "campgrounds", "visitorcenters", "alerts", "parks")
 PAIRS = (
-    [("seki", "places"), ("redw", "places"), ("redw", "thingstodo"), ("redw", "campgrounds"),
+    [(p, e) for p in NEW_PARKS for e in FULL]
+    + [("seki", "places"), ("redw", "places"), ("redw", "thingstodo"), ("redw", "campgrounds"),
      ("redw", "visitorcenters"), ("redw", "alerts"), ("redw", "parks")]
     + [(p, e) for p in SECOND_SOURCE_PARKS for e in ("places", "thingstodo")]
 )
