@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-14T17:52:27Z",
+ "fetchedAt": "2026-10-14T18:17:29Z",
  "region": "crla",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 42.8975,
     "lon": -122.1397,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-14 10:00 local"
+    "observed": "2026-10-14 11:00 local"
    },
    {
     "area": "Cleetwood Cove",
@@ -29,10 +29,10 @@
     "lat": 42.9567,
     "lon": -122.0925,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-14 10:00 local"
+    "observed": "2026-10-14 11:00 local"
    },
    {
     "area": "Mazama Village",
@@ -44,10 +44,10 @@
     "lat": 42.8676,
     "lon": -122.1685,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-14 10:00 local"
+    "observed": "2026-10-14 11:00 local"
    },
    {
     "area": "Pinnacles and Lost Creek",
@@ -59,10 +59,10 @@
     "lat": 42.8186,
     "lon": -122.0958,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-14 10:00 local"
+    "observed": "2026-10-14 11:00 local"
    }
   ],
   "forecasts": [
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "brwhaw",
@@ -204,18 +204,6 @@
     "near": "Rim Village"
    },
    {
-    "code": "gcrfin",
-    "name": "Gray-crowned Rosy-Finch",
-    "sci": "Leucosticte tephrocotis",
-    "count": 18,
-    "seen": "2026-10-07 07:22",
-    "place": "Crater Lake NP--The Watchman",
-    "lat": 42.942,
-    "lon": -122.171,
-    "notable": true,
-    "near": "Rim Village"
-   },
-   {
     "code": "hutvir",
     "name": "Hutton's Vireo",
     "sci": "Vireo huttoni",
@@ -226,6 +214,18 @@
     "lon": -121.991,
     "notable": true,
     "near": "Rim Village"
+   },
+   {
+    "code": "amedip",
+    "name": "American Dipper",
+    "sci": "Cinclus mexicanus",
+    "count": 4,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
+    "notable": false,
+    "near": "Mazama Village"
    },
    {
     "code": "amerob",
@@ -300,23 +300,35 @@
     "near": "Rim Village"
    },
    {
-    "code": "casfin",
-    "name": "Cassin's Finch",
-    "sci": "Haemorhous cassinii",
-    "count": 4,
-    "seen": "2026-10-07 07:22",
-    "place": "Crater Lake NP--The Watchman",
-    "lat": 42.942,
-    "lon": -122.171,
+    "code": "gryjay",
+    "name": "Canada Jay",
+    "sci": "Perisoreus canadensis",
+    "count": 5,
+    "seen": "2026-10-13 15:30",
+    "place": "Crater Lake NP--Discovery Point",
+    "lat": 42.92,
+    "lon": -122.162,
     "notable": false,
     "near": "Rim Village"
+   },
+   {
+    "code": "chbchi",
+    "name": "Chestnut-backed Chickadee",
+    "sci": "Poecile rufescens",
+    "count": 2,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
+    "notable": false,
+    "near": "Mazama Village"
    },
    {
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
-    "count": 2,
-    "seen": "2026-10-10 12:24",
+    "count": 1,
+    "seen": "2026-10-13 15:30",
     "place": "Crater Lake NP--Discovery Point",
     "lat": 42.92,
     "lon": -122.162,
@@ -327,13 +339,13 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 5,
-    "seen": "2026-10-12 12:30",
-    "place": "Crater Lake NP--The Watchman",
-    "lat": 42.942,
-    "lon": -122.171,
+    "count": 1,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
     "notable": false,
-    "near": "Rim Village"
+    "near": "Mazama Village"
    },
    {
     "code": "daejun",
@@ -456,6 +468,18 @@
     "near": "Rim Village"
    },
    {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 1,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
+    "notable": false,
+    "near": "Mazama Village"
+   },
+   {
     "code": "moublu",
     "name": "Mountain Bluebird",
     "sci": "Sialia currucoides",
@@ -495,13 +519,13 @@
     "code": "pacwre1",
     "name": "Pacific Wren",
     "sci": "Troglodytes pacificus",
-    "count": 4,
-    "seen": "2026-10-10 07:56",
-    "place": "Wood River Day Use Area",
-    "lat": 42.709,
-    "lon": -121.991,
+    "count": 1,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
     "notable": false,
-    "near": "Rim Village"
+    "near": "Mazama Village"
    },
    {
     "code": "pilwoo",
@@ -627,13 +651,13 @@
     "code": "stejay",
     "name": "Steller's Jay",
     "sci": "Cyanocitta stelleri",
-    "count": 2,
-    "seen": "2026-10-10 13:34",
-    "place": "Wood River Day Use Area",
-    "lat": 42.709,
-    "lon": -121.991,
+    "count": 1,
+    "seen": "2026-10-13 11:30",
+    "place": "Rogue River--Natural Bridge",
+    "lat": 42.889,
+    "lon": -122.465,
     "notable": false,
-    "near": "Rim Village"
+    "near": "Mazama Village"
    },
    {
     "code": "varthr",
@@ -707,7 +731,6 @@
     "notable": false,
     "near": "Rim Village"
    }
-  ],
-  "staleSince": "2026-10-14T17:52:27Z"
+  ]
  }
 }
