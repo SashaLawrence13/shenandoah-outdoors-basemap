@@ -64,6 +64,11 @@ jobs:
           VDOT_WEATHER_LONG_TOKEN: ${{ secrets.VDOT_WEATHER_LONG_TOKEN }}
           TOMORROW_API_KEY: ${{ secrets.TOMORROW_API_KEY }}
         run: python3 scripts/fetch_conditions.py
+      - name: Fetch raw NPS Data API pulls for the app pipeline (weekly per file; park/nps)
+        continue-on-error: true
+        env:
+          NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+        run: python3 scripts/fetch_nps_bulk.py
       - name: Fetch eBird birding hotspots per region (weekly per region; conditions/hotspots)
         continue-on-error: true
         env:
@@ -84,7 +89,7 @@ jobs:
               return d
           changed = False
           # conditions/regions/<id>.json (air and birds) and alerts/regions/<id>.json (park alerts): one small file per region.
-          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json") + glob.glob("conditions/hotspots/*.json") + glob.glob("alerts/regions/*.json"))):
+          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json") + glob.glob("conditions/hotspots/*.json") + glob.glob("park/nps/*/*.json") + glob.glob("alerts/regions/*.json"))):
               if not os.path.exists(path):
                   continue
               new = json.load(open(path))
