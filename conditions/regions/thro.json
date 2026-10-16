@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T04:41:29Z",
+ "fetchedAt": "2026-10-16T11:35:04Z",
  "region": "thro",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 46.9157,
     "lon": -103.5262,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 22:00 local"
+    "observed": "2026-10-16 5:00 local"
    },
    {
     "area": "Painted Canyon",
@@ -29,10 +29,10 @@
     "lat": 46.8955,
     "lon": -103.3818,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 22:00 local"
+    "observed": "2026-10-16 5:00 local"
    },
    {
     "area": "North Unit Visitor Center",
@@ -44,28 +44,13 @@
     "lat": 47.6,
     "lon": -103.2602,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 23:00 local"
+    "observed": "2026-10-16 6:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "South Unit Visitor Center in Medora",
-    "state": "ND",
-    "near": "thro-south",
-    "side": "forest",
-    "region": "thro",
-    "source": "open-meteo",
-    "date": "2026-10-15",
-    "pollutant": "O3",
-    "aqi": 33,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "South Unit Visitor Center in Medora",
     "state": "ND",
@@ -82,13 +67,13 @@
     "discussion": ""
    },
    {
-    "area": "Painted Canyon",
+    "area": "South Unit Visitor Center in Medora",
     "state": "ND",
-    "near": "thro-painted-canyon",
+    "near": "thro-south",
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-15",
+    "date": "2026-10-17",
     "pollutant": "O3",
     "aqi": 33,
     "category": "Good",
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "North Unit Visitor Center",
+    "area": "Painted Canyon",
     "state": "ND",
-    "near": "thro-north",
+    "near": "thro-painted-canyon",
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-15",
-    "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-10-17",
+    "pollutant": "O3",
+    "aqi": 34,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -134,8 +119,23 @@
     "region": "thro",
     "source": "open-meteo",
     "date": "2026-10-16",
-    "pollutant": "O3",
-    "aqi": 33,
+    "pollutant": "PM2.5",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Unit Visitor Center",
+    "state": "ND",
+    "near": "thro-north",
+    "side": "forest",
+    "region": "thro",
+    "source": "open-meteo",
+    "date": "2026-10-17",
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -146,30 +146,6 @@
  "birds": {
   "status": "ok",
   "list": [
-   {
-    "code": "evegro",
-    "name": "Evening Grosbeak",
-    "sci": "Hesperiphona vespertina",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": true,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "fiespa",
-    "name": "Field Sparrow",
-    "sci": "Spizella pusilla",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": true,
-    "near": "South Unit Visitor Center in Medora"
-   },
    {
     "code": "amerob",
     "name": "American Robin",
@@ -219,18 +195,6 @@
     "near": "South Unit Visitor Center in Medora"
    },
    {
-    "code": "comgra",
-    "name": "Common Grackle",
-    "sci": "Quiscalus quiscula",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
@@ -248,54 +212,6 @@
     "sci": "Sturnus vulgaris",
     "count": 5,
     "seen": "2026-10-15 11:54",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "grhowl",
-    "name": "Great Horned Owl",
-    "sci": "Bubo virginianus",
-    "count": 3,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "norfli",
-    "name": "Northern Flicker",
-    "sci": "Colaptes auratus",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "norshr4",
-    "name": "Northern Shrike",
-    "sci": "Lanius borealis",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "pinsis",
-    "name": "Pine Siskin",
-    "sci": "Spinus pinus",
-    "count": 2,
-    "seen": "2026-10-09 06:13",
     "place": "Theodore Roosevelt NP--Painted Canyon",
     "lat": 46.896,
     "lon": -103.382,
@@ -339,30 +255,6 @@
     "near": "South Unit Visitor Center in Medora"
    },
    {
-    "code": "towsol",
-    "name": "Townsend's Solitaire",
-    "sci": "Myadestes townsendi",
-    "count": 2,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "vesspa",
-    "name": "Vesper Sparrow",
-    "sci": "Pooecetes gramineus",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
     "code": "wesmea",
     "name": "Western Meadowlark",
     "sci": "Sturnella neglecta",
@@ -375,50 +267,14 @@
     "near": "South Unit Visitor Center in Medora"
    },
    {
-    "code": "whcspa",
-    "name": "White-crowned Sparrow",
-    "sci": "Zonotrichia leucophrys",
-    "count": 10,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "whtspa",
-    "name": "White-throated Sparrow",
-    "sci": "Zonotrichia albicollis",
-    "count": 1,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 30,
-    "seen": "2026-10-09 08:02",
-    "place": "Theodore Roosevelt NP (South Unit)",
-    "lat": 46.947,
-    "lon": -103.454,
-    "notable": false,
-    "near": "South Unit Visitor Center in Medora"
-   },
-   {
-    "code": "yerwar",
-    "name": "Yellow-rumped Warbler",
-    "sci": "Setophaga coronata",
-    "count": 5,
-    "seen": "2026-10-09 06:13",
-    "place": "Theodore Roosevelt NP--Painted Canyon",
-    "lat": 46.896,
-    "lon": -103.382,
+    "count": 8,
+    "seen": "2026-10-15 16:05",
+    "place": "Theodore Roosevelt Presidential Library",
+    "lat": 46.917,
+    "lon": -103.55,
     "notable": false,
     "near": "South Unit Visitor Center in Medora"
    }

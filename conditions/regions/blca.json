@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T04:41:29Z",
+ "fetchedAt": "2026-10-16T11:35:04Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 38.5427,
     "lon": -107.6866,
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-15 22:00 local"
+    "pollutant": "PM2.5",
+    "aqi": 62,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-16 5:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 38.5866,
     "lon": -107.705,
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-15 22:00 local"
+    "pollutant": "PM2.5",
+    "aqi": 62,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-16 5:00 local"
    }
   ],
   "forecasts": [
@@ -43,11 +43,11 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-15",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-16",
+    "pollutant": "PM2.5",
+    "aqi": 89,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -58,26 +58,11 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "pollutant": "PM2.5",
-    "aqi": 88,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North Rim Ranger Station",
-    "state": "CO",
-    "near": "blca-north-rim",
-    "side": "forest",
-    "region": "blca",
-    "source": "open-meteo",
-    "date": "2026-10-15",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
+    "aqi": 116,
+    "category": "Unhealthy for Sensitive Groups",
+    "level": 3,
     "actionDay": false,
     "discussion": ""
    },
@@ -90,9 +75,24 @@
     "source": "open-meteo",
     "date": "2026-10-16",
     "pollutant": "PM2.5",
-    "aqi": 88,
+    "aqi": 89,
     "category": "Moderate",
     "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Rim Ranger Station",
+    "state": "CO",
+    "near": "blca-north-rim",
+    "side": "forest",
+    "region": "blca",
+    "source": "open-meteo",
+    "date": "2026-10-17",
+    "pollutant": "PM2.5",
+    "aqi": 116,
+    "category": "Unhealthy for Sensitive Groups",
+    "level": 3,
     "actionDay": false,
     "discussion": ""
    }
@@ -303,7 +303,7 @@
     "lat": 38.531,
     "lon": -107.718,
     "notable": false,
-    "near": "South Rim Visitor Center"
+    "near": "North Rim Ranger Station"
    },
    {
     "code": "rethaw",
@@ -351,7 +351,7 @@
     "lat": 38.471,
     "lon": -107.883,
     "notable": false,
-    "near": "South Rim Visitor Center"
+    "near": "North Rim Ranger Station"
    },
    {
     "code": "turvul",

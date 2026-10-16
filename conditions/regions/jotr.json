@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T04:41:29Z",
+ "fetchedAt": "2026-10-16T11:35:04Z",
  "region": "jotr",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 34.1283,
     "lon": -116.0369,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 21:00 local"
+    "observed": "2026-10-16 4:00 local"
    },
    {
     "area": "Hidden Valley",
@@ -29,10 +29,10 @@
     "lat": 34.0126,
     "lon": -116.1685,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 21:00 local"
+    "observed": "2026-10-16 4:00 local"
    },
    {
     "area": "Keys View",
@@ -44,10 +44,10 @@
     "lat": 33.9268,
     "lon": -116.1874,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 21:00 local"
+    "observed": "2026-10-16 4:00 local"
    },
    {
     "area": "Cottonwood Spring",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 33.7375,
     "lon": -115.8106,
-    "pollutant": "O3",
+    "pollutant": "PM10",
     "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-15 21:00 local"
+    "observed": "2026-10-16 4:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hidden Valley",
-    "state": "CA",
-    "near": "jotr-hidden-valley",
-    "side": "forest",
-    "region": "jotr",
-    "source": "open-meteo",
-    "date": "2026-10-15",
-    "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -127,15 +112,15 @@
     "discussion": ""
    },
    {
-    "area": "Keys View",
+    "area": "Hidden Valley",
     "state": "CA",
-    "near": "jotr-keys-view",
+    "near": "jotr-hidden-valley",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-10-15",
+    "date": "2026-10-17",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -157,13 +142,13 @@
     "discussion": ""
    },
    {
-    "area": "Cottonwood Spring",
+    "area": "Keys View",
     "state": "CA",
-    "near": "jotr-cottonwood",
+    "near": "jotr-keys-view",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-10-15",
+    "date": "2026-10-17",
     "pollutant": "O3",
     "aqi": 42,
     "category": "Good",
@@ -180,9 +165,24 @@
     "source": "open-meteo",
     "date": "2026-10-16",
     "pollutant": "PM10",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cottonwood Spring",
+    "state": "CA",
+    "near": "jotr-cottonwood",
+    "side": "forest",
+    "region": "jotr",
+    "source": "open-meteo",
+    "date": "2026-10-17",
+    "pollutant": "PM2.5",
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
@@ -580,12 +580,12 @@
     "name": "Black Phoebe",
     "sci": "Sayornis nigricans",
     "count": 1,
-    "seen": "2026-10-15 08:00",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
+    "seen": "2026-10-13 17:29",
+    "place": "Roadrunner Dunes Golf Course",
+    "lat": 34.17,
+    "lon": -116.04,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "bktgna",
@@ -694,18 +694,6 @@
     "lon": -116.038,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
-   },
-   {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 4,
-    "seen": "2026-10-15 08:00",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
-    "notable": false,
-    "near": "Hidden Valley"
    },
    {
     "code": "comyel",
@@ -819,13 +807,13 @@
     "code": "greroa",
     "name": "Greater Roadrunner",
     "sci": "Geococcyx californianus",
-    "count": 5,
-    "seen": "2026-10-15 08:00",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
+    "count": 1,
+    "seen": "2026-10-12 13:20",
+    "place": "29 Palms Inn",
+    "lat": 34.13,
+    "lon": -116.049,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "herthr",
@@ -987,13 +975,13 @@
     "code": "normoc",
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
-    "count": 7,
-    "seen": "2026-10-15 08:00",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
+    "count": 2,
+    "seen": "2026-10-12 13:20",
+    "place": "29 Palms Inn",
+    "lat": 34.13,
+    "lon": -116.049,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "yelwar1",
@@ -1126,18 +1114,6 @@
     "lon": -116.049,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
-   },
-   {
-    "code": "saypho",
-    "name": "Say's Phoebe",
-    "sci": "Sayornis saya",
-    "count": 1,
-    "seen": "2026-10-15 08:00",
-    "place": "Sky Valley Resort (restricted access)",
-    "lat": 33.901,
-    "lon": -116.364,
-    "notable": false,
-    "near": "Hidden Valley"
    },
    {
     "code": "snoegr",
