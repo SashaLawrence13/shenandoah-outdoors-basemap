@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-16T21:20:47Z",
+ "fetchedAt": "2026-10-17T04:38:34Z",
  "region": "mon",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 17:00 local"
+    "observed": "2026-10-17 0:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -29,10 +29,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 17:00 local"
+    "observed": "2026-10-17 0:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 38.22,
     "lon": -80.26,
-    "pollutant": "O3",
-    "aqi": 45,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 17:00 local"
+    "observed": "2026-10-17 0:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -59,10 +59,10 @@
     "lat": 37.95,
     "lon": -80.25,
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 17:00 local"
+    "observed": "2026-10-17 0:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "pollutant": "O3",
-    "aqi": 33,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Spruce Knob",
-    "state": "WV",
-    "near": "mon-spruce-knob",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-16",
-    "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -127,15 +112,15 @@
     "discussion": ""
    },
    {
-    "area": "Cranberry and Greenbrier",
+    "area": "Spruce Knob",
     "state": "WV",
-    "near": "mon-cranberry",
+    "near": "mon-spruce-knob",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-16",
+    "date": "2026-10-18",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -145,6 +130,36 @@
     "area": "Cranberry and Greenbrier",
     "state": "WV",
     "near": "mon-cranberry",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-17",
+    "pollutant": "O3",
+    "aqi": 34,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-18",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
@@ -163,24 +178,9 @@
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-16",
+    "date": "2026-10-18",
     "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -200,6 +200,18 @@
     "place": "Monongahela NF--Otter Creek Wilderness",
     "lat": 38.991,
     "lon": -79.647,
+    "notable": true,
+    "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "palwar4",
+    "name": "Palm Warbler (Yellow)",
+    "sci": "Setophaga palmarum",
+    "count": 1,
+    "seen": "2026-10-16 07:12",
+    "place": "Allegheny Front Migration Observatory--Red Creek CG",
+    "lat": 39.034,
+    "lon": -79.313,
     "notable": true,
     "near": "Dolly Sods and Canaan"
    },
@@ -252,6 +264,18 @@
     "near": "Cranberry and Greenbrier"
    },
    {
+    "code": "bkcchi",
+    "name": "Black-capped Chickadee",
+    "sci": "Poecile atricapillus",
+    "count": 2,
+    "seen": "2026-10-16 14:47",
+    "place": "Blackwater Falls SP--Harold S. Walters Nature Center",
+    "lat": 39.116,
+    "lon": -79.495,
+    "notable": false,
+    "near": "Dolly Sods and Canaan"
+   },
+   {
     "code": "btbwar",
     "name": "Black-throated Blue Warbler",
     "sci": "Setophaga caerulescens",
@@ -284,6 +308,18 @@
     "place": "Monongahela NF--Otter Creek Wilderness",
     "lat": 38.991,
     "lon": -79.647,
+    "notable": false,
+    "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "blujay",
+    "name": "Blue Jay",
+    "sci": "Cyanocitta cristata",
+    "count": 1,
+    "seen": "2026-10-16 14:47",
+    "place": "Blackwater Falls SP--Harold S. Walters Nature Center",
+    "lat": 39.116,
+    "lon": -79.495,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -507,13 +543,13 @@
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 3,
-    "seen": "2026-10-16 09:42",
-    "place": "Franklin Low Water Bridge",
-    "lat": 38.639,
-    "lon": -79.332,
+    "count": 4,
+    "seen": "2026-10-16 15:21",
+    "place": "Canaan Valley NWR--Freeland Boardwalk Trail",
+    "lat": 39.024,
+    "lon": -79.425,
     "notable": false,
-    "near": "Spruce Knob"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "grycat",
@@ -627,13 +663,13 @@
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 2,
-    "seen": "2026-10-16 09:42",
-    "place": "Franklin Low Water Bridge",
-    "lat": 38.639,
-    "lon": -79.332,
+    "count": 3,
+    "seen": "2026-10-14 15:49",
+    "place": "I-64 Westbound WV Welcome Center",
+    "lat": 37.785,
+    "lon": -80.301,
     "notable": false,
-    "near": "Spruce Knob"
+    "near": "Southern Monongahela"
    },
    {
     "code": "norfli",
@@ -646,6 +682,18 @@
     "lon": -79.332,
     "notable": false,
     "near": "Spruce Knob"
+   },
+   {
+    "code": "norhar2",
+    "name": "Northern Harrier",
+    "sci": "Circus hudsonius",
+    "count": 3,
+    "seen": "2026-10-16 15:21",
+    "place": "Canaan Valley NWR--Freeland Boardwalk Trail",
+    "lat": 39.024,
+    "lon": -79.425,
+    "notable": false,
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "palwar",
@@ -735,13 +783,13 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 3,
-    "seen": "2026-10-10 09:51",
-    "place": "Monongahela NF--Cranberry Glades Boardwalk",
-    "lat": 38.199,
-    "lon": -80.273,
+    "count": 1,
+    "seen": "2026-10-16 15:21",
+    "place": "Canaan Valley NWR--Freeland Boardwalk Trail",
+    "lat": 39.024,
+    "lon": -79.425,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "rufgro",
@@ -795,13 +843,13 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 3,
-    "seen": "2026-10-16 09:42",
-    "place": "Franklin Low Water Bridge",
-    "lat": 38.639,
-    "lon": -79.332,
+    "count": 1,
+    "seen": "2026-10-14 10:57",
+    "place": "Droop Mountain Battlefield State Park WV",
+    "lat": 38.108,
+    "lon": -80.273,
     "notable": false,
-    "near": "Spruce Knob"
+    "near": "Cranberry and Greenbrier"
    },
    {
     "code": "whbnut",
@@ -879,13 +927,13 @@
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
-    "count": 2,
-    "seen": "2026-10-14 12:49",
-    "place": "Humpback Bridge Wayside",
-    "lat": 37.8,
-    "lon": -80.047,
+    "count": 1,
+    "seen": "2026-10-16 15:21",
+    "place": "Canaan Valley NWR--Freeland Boardwalk Trail",
+    "lat": 39.024,
+    "lon": -79.425,
     "notable": false,
-    "near": "Southern Monongahela"
+    "near": "Dolly Sods and Canaan"
    }
   ]
  }
