@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-17T04:38:34Z",
+ "fetchedAt": "2026-10-17T10:55:00Z",
  "region": "arch",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.617,
     "lon": -109.62,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 22:00 local"
+    "observed": "2026-10-17 4:00 local"
    },
    {
     "area": "The Windows Section",
@@ -29,10 +29,10 @@
     "lat": 38.688,
     "lon": -109.54,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 22:00 local"
+    "observed": "2026-10-17 4:00 local"
    },
    {
     "area": "Delicate Arch",
@@ -44,10 +44,10 @@
     "lat": 38.743,
     "lon": -109.52,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 22:00 local"
+    "observed": "2026-10-17 4:00 local"
    },
    {
     "area": "Devils Garden",
@@ -59,10 +59,10 @@
     "lat": 38.783,
     "lon": -109.595,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-16 22:00 local"
+    "observed": "2026-10-17 4:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "arch",
     "source": "open-meteo",
-    "date": "2026-10-16",
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "date": "2026-10-17",
+    "pollutant": "O3",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,23 +88,8 @@
     "side": "forest",
     "region": "arch",
     "source": "open-meteo",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "The Windows Section",
-    "state": "UT",
-    "near": "arch-windows",
-    "side": "forest",
-    "region": "arch",
-    "source": "open-meteo",
-    "date": "2026-10-16",
-    "pollutant": "PM2.5",
     "aqi": 41,
     "category": "Good",
     "level": 1,
@@ -127,14 +112,14 @@
     "discussion": ""
    },
    {
-    "area": "Delicate Arch",
+    "area": "The Windows Section",
     "state": "UT",
-    "near": "arch-delicate-arch",
+    "near": "arch-windows",
     "side": "forest",
     "region": "arch",
     "source": "open-meteo",
-    "date": "2026-10-16",
-    "pollutant": "PM2.5",
+    "date": "2026-10-18",
+    "pollutant": "O3",
     "aqi": 41,
     "category": "Good",
     "level": 1,
@@ -157,14 +142,14 @@
     "discussion": ""
    },
    {
-    "area": "Devils Garden",
+    "area": "Delicate Arch",
     "state": "UT",
-    "near": "arch-devils-garden",
+    "near": "arch-delicate-arch",
     "side": "forest",
     "region": "arch",
     "source": "open-meteo",
-    "date": "2026-10-16",
-    "pollutant": "PM2.5",
+    "date": "2026-10-18",
+    "pollutant": "O3",
     "aqi": 41,
     "category": "Good",
     "level": 1,
@@ -181,6 +166,21 @@
     "date": "2026-10-17",
     "pollutant": "O3",
     "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Devils Garden",
+    "state": "UT",
+    "near": "arch-devils-garden",
+    "side": "forest",
+    "region": "arch",
+    "source": "open-meteo",
+    "date": "2026-10-18",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "blkpho",
@@ -803,6 +803,7 @@
     "notable": false,
     "near": "Visitor center and the Windows road"
    }
-  ]
+  ],
+  "staleSince": "2026-10-17T10:55:00Z"
  }
 }
