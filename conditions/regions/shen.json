@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-17T23:12:07Z",
+ "fetchedAt": "2026-10-18T04:44:20Z",
  "region": "shen",
  "air": {
   "status": "ok",
@@ -17,7 +17,7 @@
     "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 19:00 local"
+    "observed": "2026-10-18 0:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -32,7 +32,7 @@
     "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 19:00 local"
+    "observed": "2026-10-18 0:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -47,25 +47,10 @@
     "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 19:00 local"
+    "observed": "2026-10-18 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Shenandoah NP north",
-    "state": "VA",
-    "near": "park-north",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Shenandoah NP north",
     "state": "VA",
@@ -82,15 +67,15 @@
     "discussion": ""
    },
    {
-    "area": "Shenandoah NP central",
+    "area": "Shenandoah NP north",
     "state": "VA",
-    "near": "park-central",
+    "near": "park-north",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "PM2.5",
-    "aqi": 40,
+    "date": "2026-10-19",
+    "pollutant": "O3",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "Shenandoah NP south",
+    "area": "Shenandoah NP central",
     "state": "VA",
-    "near": "park-south",
+    "near": "park-central",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-17",
+    "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -136,6 +121,21 @@
     "date": "2026-10-18",
     "pollutant": "O3",
     "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP south",
+    "state": "VA",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-19",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -279,6 +279,18 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "amecro",
+    "name": "American Crow",
+    "sci": "Corvus brachyrhynchos",
+    "count": 2,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
+    "notable": false,
+    "near": "Shenandoah NP north"
+   },
+   {
     "code": "amegfi",
     "name": "American Goldfinch",
     "sci": "Spinus tristis",
@@ -291,16 +303,40 @@
     "near": "Shenandoah NP central"
    },
    {
+    "code": "amekes",
+    "name": "American Kestrel",
+    "sci": "Falco sparverius",
+    "count": 1,
+    "seen": "2026-10-17 09:50",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "amepip",
+    "name": "American Pipit",
+    "sci": "Anthus rubescens",
+    "count": 10,
+    "seen": "2026-10-17 16:00",
+    "place": "Cedar Creek & Belle Grove National Historical Park",
+    "lat": 39.022,
+    "lon": -78.304,
+    "notable": false,
+    "near": "Shenandoah NP north"
+   },
+   {
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 14,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 15,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "amewig",
@@ -318,13 +354,13 @@
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
-    "count": 2,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 15,
+    "seen": "2026-10-17 09:50",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "brdowl",
@@ -366,11 +402,11 @@
     "code": "blkvul",
     "name": "Black Vulture",
     "sci": "Coragyps atratus",
-    "count": 2,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 6,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
     "near": "Shenandoah NP north"
    },
@@ -438,13 +474,13 @@
     "code": "blujay",
     "name": "Blue Jay",
     "sci": "Cyanocitta cristata",
-    "count": 3,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 5,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "buhvir",
@@ -498,13 +534,13 @@
     "code": "camwar",
     "name": "Cape May Warbler",
     "sci": "Setophaga tigrina",
-    "count": 2,
-    "seen": "2026-10-15 13:44",
-    "place": "Shenandoah NP--Rose River Trail",
-    "lat": 38.535,
-    "lon": -78.395,
+    "count": 1,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "carchi",
@@ -529,6 +565,18 @@
     "lon": -78.551,
     "notable": false,
     "near": "Shenandoah NP central"
+   },
+   {
+    "code": "cedwax",
+    "name": "Cedar Waxwing",
+    "sci": "Bombycilla cedrorum",
+    "count": 6,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
    },
    {
     "code": "chswar",
@@ -571,10 +619,10 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
     "near": "Shenandoah NP north"
    },
@@ -612,7 +660,7 @@
     "lat": 38.649,
     "lon": -78.318,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "doccor",
@@ -630,37 +678,49 @@
     "code": "dowwoo",
     "name": "Downy Woodpecker",
     "sci": "Dryobates pubescens",
-    "count": 2,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 1,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
-    "count": 1,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 4,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "easmea",
     "name": "Eastern Meadowlark",
     "sci": "Sturnella magna",
-    "count": 1,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 3,
+    "seen": "2026-10-17 14:17",
+    "place": "Cedar Creek & Belle Grove National Historical Park",
+    "lat": 39.022,
+    "lon": -78.304,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
+   },
+   {
+    "code": "easpho",
+    "name": "Eastern Phoebe",
+    "sci": "Sayornis phoebe",
+    "count": 3,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
+    "notable": false,
+    "near": "Shenandoah NP north"
    },
    {
     "code": "eastow",
@@ -672,31 +732,31 @@
     "lat": 38.748,
     "lon": -78.428,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": 12,
-    "seen": "2026-10-16 18:04",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
+    "count": 15,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "fiespa",
     "name": "Field Sparrow",
     "sci": "Spizella pusilla",
-    "count": 2,
-    "seen": "2026-10-16 08:18",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 14,
+    "seen": "2026-10-13 08:36",
+    "place": "Shenandoah NP--Big Meadows",
+    "lat": 38.515,
+    "lon": -78.44,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "fiscro",
@@ -715,12 +775,12 @@
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
     "count": 1,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "seen": "2026-10-17 13:38",
+    "place": "Claudius Crozet Blue Ridge Tunnel Trail (Nelson Co.)",
+    "lat": 38.033,
+    "lon": -78.842,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "grycat",
@@ -739,10 +799,10 @@
     "name": "Great Blue Heron",
     "sci": "Ardea herodias",
     "count": 1,
-    "seen": "2026-10-17 08:47",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
+    "seen": "2026-10-17 12:51",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -774,23 +834,23 @@
     "code": "houfin",
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
-    "count": 4,
-    "seen": "2026-10-16 08:18",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 3,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "houspa",
     "name": "House Sparrow",
     "sci": "Passer domesticus",
-    "count": 4,
-    "seen": "2026-10-17 11:53",
-    "place": "Sperryville River Trail",
-    "lat": 38.658,
-    "lon": -78.222,
+    "count": 1,
+    "seen": "2026-10-17 16:00",
+    "place": "Cedar Creek & Belle Grove National Historical Park",
+    "lat": 39.022,
+    "lon": -78.304,
     "notable": false,
     "near": "Shenandoah NP north"
    },
@@ -859,7 +919,7 @@
     "name": "Merlin",
     "sci": "Falco columbarius",
     "count": 1,
-    "seen": "2026-10-16 11:10",
+    "seen": "2026-10-17 09:50",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -894,32 +954,44 @@
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 2,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 4,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "norfli",
+    "name": "Northern Flicker",
+    "sci": "Colaptes auratus",
+    "count": 1,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
    },
    {
     "code": "norhar2",
     "name": "Northern Harrier",
     "sci": "Circus hudsonius",
     "count": 1,
-    "seen": "2026-10-16 14:09",
-    "place": "Shenandoah NP--Mary's Rock",
-    "lat": 38.649,
-    "lon": -78.318,
+    "seen": "2026-10-17 09:50",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "houwre",
     "name": "Northern House Wren",
     "sci": "Troglodytes aedon",
     "count": 1,
-    "seen": "2026-10-11 15:30",
+    "seen": "2026-10-17 16:00",
     "place": "Smithsonian Conservation Biology Institute (restricted access)",
     "lat": 38.887,
     "lon": -78.164,
@@ -931,12 +1003,12 @@
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
     "count": 1,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "nrwswa",
@@ -951,11 +1023,11 @@
     "near": "Shenandoah NP north"
    },
    {
-    "code": "palwar",
-    "name": "Palm Warbler",
-    "sci": "Setophaga palmarum",
+    "code": "osprey",
+    "name": "Osprey",
+    "sci": "Pandion haliaetus",
     "count": 2,
-    "seen": "2026-10-16 08:55",
+    "seen": "2026-10-17 09:50",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -963,11 +1035,23 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "palwar",
+    "name": "Palm Warbler",
+    "sci": "Setophaga palmarum",
+    "count": 2,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
+    "notable": false,
+    "near": "Shenandoah NP north"
+   },
+   {
     "code": "perfal",
     "name": "Peregrine Falcon",
     "sci": "Falco peregrinus",
-    "count": 5,
-    "seen": "2026-10-16 11:10",
+    "count": 1,
+    "seen": "2026-10-17 09:50",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -979,10 +1063,10 @@
     "name": "Pied-billed Grebe",
     "sci": "Podilymbus podiceps",
     "count": 1,
-    "seen": "2026-10-16 09:36",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
+    "seen": "2026-10-17 12:51",
+    "place": "Invista Pond (private)",
+    "lat": 38.06,
+    "lon": -78.894,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -996,7 +1080,7 @@
     "lat": 38.649,
     "lon": -78.318,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "pinsis",
@@ -1050,13 +1134,13 @@
     "code": "rebwoo",
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
-    "count": 1,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 2,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "rebnut",
@@ -1095,6 +1179,30 @@
     "near": "Shenandoah NP central"
    },
    {
+    "code": "rethaw",
+    "name": "Red-tailed Hawk",
+    "sci": "Buteo jamaicensis",
+    "count": 8,
+    "seen": "2026-10-17 09:50",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "rewbla",
+    "name": "Red-winged Blackbird",
+    "sci": "Agelaius phoeniceus",
+    "count": null,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
     "code": "ribgul",
     "name": "Ring-billed Gull",
     "sci": "Larus delawarensis",
@@ -1110,13 +1218,13 @@
     "code": "rocpig",
     "name": "Rock Pigeon",
     "sci": "Columba livia",
-    "count": 2,
-    "seen": "2026-10-16 08:18",
-    "place": "Strasburg River Walk",
-    "lat": 38.98,
-    "lon": -78.36,
+    "count": 36,
+    "seen": "2026-10-16 10:05",
+    "place": "Shenandoah Riverside Boat Ramp",
+    "lat": 38.48,
+    "lon": -78.624,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "robgro",
@@ -1134,13 +1242,13 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "count": 2,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "savspa",
@@ -1164,19 +1272,19 @@
     "lat": 38.748,
     "lon": -78.428,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "sonspa",
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
-    "count": 3,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 7,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "swathr",
@@ -1194,11 +1302,23 @@
     "code": "swaspa",
     "name": "Swamp Sparrow",
     "sci": "Melospiza georgiana",
-    "count": 2,
-    "seen": "2026-10-15 08:03",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "count": 1,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "tenwar",
+    "name": "Tennessee Warbler",
+    "sci": "Leiothlypis peregrina",
+    "count": 1,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
     "near": "Shenandoah NP north"
    },
@@ -1206,11 +1326,11 @@
     "code": "treswa",
     "name": "Tree Swallow",
     "sci": "Tachycineta bicolor",
-    "count": 5,
-    "seen": "2026-10-16 11:49",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
+    "count": 4,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -1219,12 +1339,24 @@
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
     "count": 2,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "seen": "2026-10-17 16:00",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
+   },
+   {
+    "code": "turvul",
+    "name": "Turkey Vulture",
+    "sci": "Cathartes aura",
+    "count": 3,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
    },
    {
     "code": "whbnut",
@@ -1239,28 +1371,40 @@
     "near": "Shenandoah NP central"
    },
    {
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": 13,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
     "code": "whtspa",
     "name": "White-throated Sparrow",
     "sci": "Zonotrichia albicollis",
     "count": 1,
-    "seen": "2026-10-17 08:37",
-    "place": "Cavalier Road Boat Launch",
-    "lat": 38.748,
-    "lon": -78.428,
+    "seen": "2026-10-17 13:38",
+    "place": "Claudius Crozet Blue Ridge Tunnel Trail (Nelson Co.)",
+    "lat": 38.033,
+    "lon": -78.842,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 9,
-    "seen": "2026-10-17 09:14",
-    "place": "Longs Road",
-    "lat": 38.63,
-    "lon": -78.551,
+    "count": 2,
+    "seen": "2026-10-13 10:45",
+    "place": "Shenandoah NP--Pinnacles Overlook",
+    "lat": 38.623,
+    "lon": -78.323,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "yebsap",
@@ -1271,6 +1415,18 @@
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "yerwar",
+    "name": "Yellow-rumped Warbler",
+    "sci": "Setophaga coronata",
+    "count": 15,
+    "seen": "2026-10-17 17:17",
+    "place": "Lake Shenandoah",
+    "lat": 38.382,
+    "lon": -78.838,
     "notable": false,
     "near": "Shenandoah NP south"
    }
