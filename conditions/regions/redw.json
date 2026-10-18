@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-18T11:20:53Z",
+ "fetchedAt": "2026-10-18T15:58:25Z",
  "region": "redw",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 41.796,
     "lon": -124.087,
     "pollutant": "PM2.5",
-    "aqi": 22,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    },
    {
     "area": "Del Norte Coast and Mill Creek",
@@ -29,10 +29,10 @@
     "lat": 41.7,
     "lon": -124.11,
     "pollutant": "PM2.5",
-    "aqi": 22,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    },
    {
     "area": "Klamath",
@@ -44,10 +44,10 @@
     "lat": 41.56,
     "lon": -124.08,
     "pollutant": "PM2.5",
-    "aqi": 22,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    },
    {
     "area": "Prairie Creek",
@@ -59,10 +59,10 @@
     "lat": 41.364,
     "lon": -124.023,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    },
    {
     "area": "Orick and the coast",
@@ -74,10 +74,10 @@
     "lat": 41.288,
     "lon": -124.09,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    },
    {
     "area": "Redwood Creek and the Bald Hills",
@@ -89,10 +89,10 @@
     "lat": 41.21,
     "lon": -123.99,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 4:00 local"
+    "observed": "2026-10-18 8:00 local"
    }
   ],
   "forecasts": [
@@ -342,18 +342,6 @@
     "near": "Prairie Creek"
    },
    {
-    "code": "clanut",
-    "name": "Clark's Nutcracker",
-    "sci": "Nucifraga columbiana",
-    "count": 1,
-    "seen": "2026-10-11 09:13",
-    "place": "Dead Lake",
-    "lat": 41.784,
-    "lon": -124.227,
-    "notable": true,
-    "near": "Jedediah Smith and the Smith River"
-   },
-   {
     "code": "evegro",
     "name": "Evening Grosbeak",
     "sci": "Hesperiphona vespertina",
@@ -424,6 +412,18 @@
     "lon": -124.148,
     "notable": true,
     "near": "Jedediah Smith and the Smith River"
+   },
+   {
+    "code": "redcro4",
+    "name": "Red Crossbill (Douglas-fir or type 4)",
+    "sci": "Loxia curvirostra",
+    "count": 75,
+    "seen": "2026-10-13 12:54",
+    "place": "Sue-Meg State Park",
+    "lat": 41.136,
+    "lon": -124.156,
+    "notable": true,
+    "near": "Orick and the coast"
    },
    {
     "code": "redcro10",
@@ -1806,18 +1806,6 @@
     "near": "Prairie Creek"
    },
    {
-    "code": "rhiauk",
-    "name": "Rhinoceros Auklet",
-    "sci": "Cerorhinca monocerata",
-    "count": 1,
-    "seen": "2026-10-11 07:39",
-    "place": "Point St. George",
-    "lat": 41.783,
-    "lon": -124.252,
-    "notable": false,
-    "near": "Jedediah Smith and the Smith River"
-   },
-   {
     "code": "ribgul",
     "name": "Ring-billed Gull",
     "sci": "Larus delawarensis",
@@ -1938,18 +1926,6 @@
     "near": "Orick and the coast"
    },
    {
-    "code": "shbdow",
-    "name": "Short-billed Dowitcher",
-    "sci": "Limnodromus griseus",
-    "count": 1,
-    "seen": "2026-10-11 09:54",
-    "place": "Crescent City Harbor",
-    "lat": 41.744,
-    "lon": -124.192,
-    "notable": false,
-    "near": "Jedediah Smith and the Smith River"
-   },
-   {
     "code": "mewgul2",
     "name": "Short-billed Gull",
     "sci": "Larus brachyrhynchus",
@@ -2032,18 +2008,6 @@
     "lon": -124.09,
     "notable": false,
     "near": "Prairie Creek"
-   },
-   {
-    "code": "surfbi",
-    "name": "Surfbird",
-    "sci": "Calidris virgata",
-    "count": 3,
-    "seen": "2026-10-11 07:39",
-    "place": "Point St. George",
-    "lat": 41.783,
-    "lon": -124.252,
-    "notable": false,
-    "near": "Jedediah Smith and the Smith River"
    },
    {
     "code": "swathr",
@@ -2212,30 +2176,6 @@
     "lon": -124.156,
     "notable": false,
     "near": "Orick and the coast"
-   },
-   {
-    "code": "whwsco2",
-    "name": "White-winged Scoter",
-    "sci": "Melanitta deglandi",
-    "count": 4,
-    "seen": "2026-10-11 07:39",
-    "place": "Point St. George",
-    "lat": 41.783,
-    "lon": -124.252,
-    "notable": false,
-    "near": "Jedediah Smith and the Smith River"
-   },
-   {
-    "code": "wilsni1",
-    "name": "Wilson's Snipe",
-    "sci": "Gallinago delicata",
-    "count": 2,
-    "seen": "2026-10-11 09:54",
-    "place": "Crescent City Harbor",
-    "lat": 41.744,
-    "lon": -124.192,
-    "notable": false,
-    "near": "Jedediah Smith and the Smith River"
    },
    {
     "code": "wooduc",
