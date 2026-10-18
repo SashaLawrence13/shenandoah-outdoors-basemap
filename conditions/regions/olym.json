@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-18T04:44:20Z",
+ "fetchedAt": "2026-10-18T11:20:53Z",
  "region": "olym",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 47.969,
     "lon": -123.498,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 21:00 local"
+    "observed": "2026-10-18 4:00 local"
    },
    {
     "area": "Hoh Rain Forest",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 47.86,
     "lon": -123.935,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 21:00 local"
+    "observed": "2026-10-18 4:00 local"
    },
    {
     "area": "Lake Crescent",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 48.05,
     "lon": -123.8,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 21:00 local"
+    "observed": "2026-10-18 4:00 local"
    },
    {
     "area": "Sol Duc",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 47.968,
     "lon": -123.86,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-17 21:00 local"
+    "observed": "2026-10-18 4:00 local"
    },
    {
     "area": "Kalaloch and Ruby Beach (coast)",
@@ -74,28 +74,13 @@
     "lat": 47.71,
     "lon": -124.41,
     "pollutant": "PM2.5",
-    "aqi": 57,
+    "aqi": 58,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-17 21:00 local"
+    "observed": "2026-10-18 4:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Hurricane Ridge",
-    "state": "WA",
-    "near": "olym-hurricane-ridge",
-    "side": "forest",
-    "region": "olym",
-    "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Hurricane Ridge",
     "state": "WA",
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "Hoh Rain Forest",
+    "area": "Hurricane Ridge",
     "state": "WA",
-    "near": "olym-hoh",
+    "near": "olym-hurricane-ridge",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-10-17",
+    "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,37 @@
     "source": "open-meteo",
     "date": "2026-10-18",
     "pollutant": "PM2.5",
-    "aqi": 48,
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hoh Rain Forest",
+    "state": "WA",
+    "near": "olym-hoh",
+    "side": "forest",
+    "region": "olym",
+    "source": "open-meteo",
+    "date": "2026-10-19",
+    "pollutant": "PM2.5",
+    "aqi": 60,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lake Crescent",
+    "state": "WA",
+    "near": "olym-lake-crescent",
+    "side": "forest",
+    "region": "olym",
+    "source": "open-meteo",
+    "date": "2026-10-18",
+    "pollutant": "PM2.5",
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -148,41 +163,11 @@
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lake Crescent",
-    "state": "WA",
-    "near": "olym-lake-crescent",
-    "side": "forest",
-    "region": "olym",
-    "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sol Duc",
-    "state": "WA",
-    "near": "olym-sol-duc",
-    "side": "forest",
-    "region": "olym",
-    "source": "open-meteo",
-    "date": "2026-10-17",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
+    "aqi": 60,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -195,22 +180,22 @@
     "source": "open-meteo",
     "date": "2026-10-18",
     "pollutant": "PM2.5",
-    "aqi": 48,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Kalaloch and Ruby Beach (coast)",
+    "area": "Sol Duc",
     "state": "WA",
-    "near": "olym-ruby-beach",
+    "near": "olym-sol-duc",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-10-17",
+    "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 57,
+    "aqi": 60,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -225,7 +210,22 @@
     "source": "open-meteo",
     "date": "2026-10-18",
     "pollutant": "PM2.5",
-    "aqi": 67,
+    "aqi": 65,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kalaloch and Ruby Beach (coast)",
+    "state": "WA",
+    "near": "olym-ruby-beach",
+    "side": "forest",
+    "region": "olym",
+    "source": "open-meteo",
+    "date": "2026-10-19",
+    "pollutant": "PM2.5",
+    "aqi": 75,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -258,7 +258,7 @@
     "lat": 48.145,
     "lon": -123.567,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "amedip",
@@ -325,12 +325,12 @@
     "name": "American Robin",
     "sci": "Turdus migratorius",
     "count": 1,
-    "seen": "2026-10-17 09:00",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
+    "seen": "2026-10-15 18:17",
+    "place": "Olympic NP--Lake Crescent Lodge grounds and trails",
+    "lat": 48.057,
+    "lon": -123.8,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Hoh Rain Forest"
    },
    {
     "code": "amewig",
@@ -348,13 +348,13 @@
     "code": "annhum",
     "name": "Anna's Hummingbird",
     "sci": "Calypte anna",
-    "count": 3,
-    "seen": "2026-10-17 08:40",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
+    "count": 1,
+    "seen": "2026-10-16 12:09",
+    "place": "Lyre Conservation Area",
+    "lat": 48.15,
+    "lon": -123.826,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "baleag",
@@ -408,13 +408,13 @@
     "code": "blkoys",
     "name": "Black Oystercatcher",
     "sci": "Haematopus bachmani",
-    "count": 18,
-    "seen": "2026-10-17 12:51",
-    "place": "Salt Creek County Park",
-    "lat": 48.163,
-    "lon": -123.697,
+    "count": 20,
+    "seen": "2026-10-13 16:17",
+    "place": "Olympic NP--Beach 4",
+    "lat": 47.652,
+    "lon": -124.388,
     "notable": false,
-    "near": "Lake Crescent"
+    "near": "Kalaloch and Ruby Beach (coast)"
    },
    {
     "code": "blksco2",
@@ -462,7 +462,7 @@
     "lat": 48.145,
     "lon": -123.567,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "bongul",
@@ -585,18 +585,6 @@
     "near": "Hurricane Ridge"
    },
    {
-    "code": "cedwax",
-    "name": "Cedar Waxwing",
-    "sci": "Bombycilla cedrorum",
-    "count": 3,
-    "seen": "2026-10-16 12:26",
-    "place": "Lake Farm Rd pond",
-    "lat": 48.1,
-    "lon": -123.32,
-    "notable": false,
-    "near": "Hurricane Ridge"
-   },
-   {
     "code": "chbchi",
     "name": "Chestnut-backed Chickadee",
     "sci": "Poecile rufescens",
@@ -609,16 +597,28 @@
     "near": "Lake Crescent"
    },
    {
+    "code": "clanut",
+    "name": "Clark's Nutcracker",
+    "sci": "Nucifraga columbiana",
+    "count": 2,
+    "seen": "2026-10-17 10:59",
+    "place": "Olympic NP--Hurricane Hill Trail",
+    "lat": 47.981,
+    "lon": -123.523,
+    "notable": false,
+    "near": "Hurricane Ridge"
+   },
+   {
     "code": "comloo",
     "name": "Common Loon",
     "sci": "Gavia immer",
-    "count": 4,
-    "seen": "2026-10-17 12:51",
-    "place": "Salt Creek County Park",
-    "lat": 48.163,
-    "lon": -123.697,
+    "count": 2,
+    "seen": "2026-10-17 08:40",
+    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
+    "lat": 48.118,
+    "lon": -123.423,
     "notable": false,
-    "near": "Lake Crescent"
+    "near": "Hurricane Ridge"
    },
    {
     "code": "commer",
@@ -678,7 +678,7 @@
     "lat": 48.145,
     "lon": -123.567,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "doccor",
@@ -732,13 +732,13 @@
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": 3,
-    "seen": "2026-10-17 08:40",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
+    "count": 19,
+    "seen": "2026-10-14 14:10",
+    "place": "Olympic NP--Kalaloch",
+    "lat": 47.605,
+    "lon": -124.374,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Kalaloch and Ruby Beach (coast)"
    },
    {
     "code": "evegro",
@@ -804,13 +804,13 @@
     "code": "gocspa",
     "name": "Golden-crowned Sparrow",
     "sci": "Zonotrichia atricapilla",
-    "count": 1,
-    "seen": "2026-10-17 09:00",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
+    "count": 2,
+    "seen": "2026-10-16 07:42",
+    "place": "Lyre Conservation Area",
+    "lat": 48.15,
+    "lon": -123.826,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "grbher3",
@@ -852,13 +852,13 @@
     "code": "harduc",
     "name": "Harlequin Duck",
     "sci": "Histrionicus histrionicus",
-    "count": 2,
-    "seen": "2026-10-17 12:51",
-    "place": "Salt Creek County Park",
-    "lat": 48.163,
-    "lon": -123.697,
+    "count": 4,
+    "seen": "2026-10-17 11:11",
+    "place": "Ediz Hook",
+    "lat": 48.14,
+    "lon": -123.447,
     "notable": false,
-    "near": "Lake Crescent"
+    "near": "Hurricane Ridge"
    },
    {
     "code": "heegul",
@@ -924,13 +924,13 @@
     "code": "houfin",
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
-    "count": 2,
-    "seen": "2026-10-17 09:00",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
+    "count": 6,
+    "seen": "2026-10-16 07:42",
+    "place": "Lyre Conservation Area",
+    "lat": 48.15,
+    "lon": -123.826,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    },
    {
     "code": "houspa",
@@ -1116,25 +1116,25 @@
     "code": "pacwre1",
     "name": "Pacific Wren",
     "sci": "Troglodytes pacificus",
-    "count": 2,
-    "seen": "2026-10-17 12:51",
-    "place": "Salt Creek County Park",
-    "lat": 48.163,
-    "lon": -123.697,
+    "count": 5,
+    "seen": "2026-10-17 10:22",
+    "place": "Olympic NP--Hall of Mosses",
+    "lat": 47.861,
+    "lon": -123.934,
     "notable": false,
-    "near": "Lake Crescent"
+    "near": "Hoh Rain Forest"
    },
    {
     "code": "pelcor",
     "name": "Pelagic Cormorant",
     "sci": "Urile pelagicus",
-    "count": 3,
-    "seen": "2026-10-17 12:51",
-    "place": "Salt Creek County Park",
-    "lat": 48.163,
-    "lon": -123.697,
+    "count": 50,
+    "seen": "2026-10-17 11:11",
+    "place": "Ediz Hook",
+    "lat": 48.14,
+    "lon": -123.447,
     "notable": false,
-    "near": "Lake Crescent"
+    "near": "Hurricane Ridge"
    },
    {
     "code": "pibgre",
@@ -1171,18 +1171,6 @@
     "lon": -123.826,
     "notable": false,
     "near": "Lake Crescent"
-   },
-   {
-    "code": "pinsis",
-    "name": "Pine Siskin",
-    "sci": "Spinus pinus",
-    "count": 25,
-    "seen": "2026-10-17 09:00",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
-    "notable": false,
-    "near": "Hurricane Ridge"
    },
    {
     "code": "purfin",
@@ -1242,7 +1230,7 @@
     "lat": 48.057,
     "lon": -123.8,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Hoh Rain Forest"
    },
    {
     "code": "rengre",
@@ -1279,18 +1267,6 @@
     "lon": -124.378,
     "notable": false,
     "near": "Kalaloch and Ruby Beach (coast)"
-   },
-   {
-    "code": "rewbla",
-    "name": "Red-winged Blackbird",
-    "sci": "Agelaius phoeniceus",
-    "count": 1,
-    "seen": "2026-10-17 09:00",
-    "place": "Olympic Discovery Trail - PA City Pier to Ennis Creek",
-    "lat": 48.118,
-    "lon": -123.423,
-    "notable": false,
-    "near": "Hurricane Ridge"
    },
    {
     "code": "rhiauk",
@@ -1597,12 +1573,12 @@
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
     "count": 1,
-    "seen": "2026-10-16 12:26",
-    "place": "Lake Farm Rd pond",
-    "lat": 48.1,
-    "lon": -123.32,
+    "seen": "2026-10-15 09:42",
+    "place": "Elwha River Mouth",
+    "lat": 48.145,
+    "lon": -123.567,
     "notable": false,
-    "near": "Hurricane Ridge"
+    "near": "Lake Crescent"
    }
   ]
  }
