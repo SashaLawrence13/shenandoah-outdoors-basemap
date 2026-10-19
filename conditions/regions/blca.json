@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T04:52:20Z",
+ "fetchedAt": "2026-10-19T13:34:36Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.5427,
     "lon": -107.6866,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -29,10 +29,10 @@
     "lat": 38.5866,
     "lon": -107.705,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North Rim Ranger Station",
-    "state": "CO",
-    "near": "blca-north-rim",
-    "side": "forest",
-    "region": "blca",
-    "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Rim Ranger Station",
+    "state": "CO",
+    "near": "blca-north-rim",
+    "side": "forest",
+    "region": "blca",
+    "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "O3",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -473,6 +473,7 @@
     "notable": false,
     "near": "South Rim Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-19T13:34:36Z"
  }
 }

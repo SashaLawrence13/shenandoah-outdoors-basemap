@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T04:52:20Z",
+ "fetchedAt": "2026-10-19T13:34:36Z",
  "region": "care",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 38.2877,
     "lon": -111.2461,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "Capitol Gorge and the Waterpocket Fold",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 38.2,
     "lon": -111.17,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "Cathedral Valley",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 38.45,
     "lon": -111.3,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "The south end (Burr Trail)",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 37.9,
     "lon": -111.05,
-    "pollutant": "O3",
-    "aqi": 41,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 42,
+    "date": "2026-10-19",
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,7 +88,7 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "pollutant": "O3",
     "aqi": 38,
     "category": "Good",
@@ -103,9 +103,9 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 42,
+    "date": "2026-10-19",
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -118,7 +118,7 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "pollutant": "O3",
     "aqi": 38,
     "category": "Good",
@@ -133,9 +133,9 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 42,
+    "date": "2026-10-19",
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -145,6 +145,21 @@
     "area": "Cathedral Valley",
     "state": "UT",
     "near": "care-cathedral-valley",
+    "side": "forest",
+    "region": "care",
+    "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "The south end (Burr Trail)",
+    "state": "UT",
+    "near": "care-burr-trail",
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
@@ -163,24 +178,9 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "The south end (Burr Trail)",
-    "state": "UT",
-    "near": "care-burr-trail",
-    "side": "forest",
-    "region": "care",
-    "source": "open-meteo",
-    "date": "2026-10-19",
-    "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "abetow",
@@ -407,6 +407,7 @@
     "notable": false,
     "near": "Fruita and the visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-19T13:34:36Z"
  }
 }

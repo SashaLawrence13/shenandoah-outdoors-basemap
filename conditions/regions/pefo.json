@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T04:52:20Z",
+ "fetchedAt": "2026-10-19T13:34:36Z",
  "region": "pefo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 35.0658,
     "lon": -109.7808,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    },
    {
     "area": "Rainbow Forest Museum",
@@ -29,28 +29,13 @@
     "lat": 34.8152,
     "lon": -109.8658,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Painted Desert Visitor Center",
-    "state": "AZ",
-    "near": "pefo-painted-desert",
-    "side": "forest",
-    "region": "pefo",
-    "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Painted Desert Visitor Center",
     "state": "AZ",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Rainbow Forest Museum",
+    "area": "Painted Desert Visitor Center",
     "state": "AZ",
-    "near": "pefo-rainbow-forest",
+    "near": "pefo-painted-desert",
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Rainbow Forest Museum",
+    "state": "AZ",
+    "near": "pefo-rainbow-forest",
+    "side": "forest",
+    "region": "pefo",
+    "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amerob",
@@ -185,6 +185,7 @@
     "notable": false,
     "near": "Painted Desert Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-19T13:34:36Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T04:52:20Z",
+ "fetchedAt": "2026-10-19T13:34:36Z",
  "region": "meve",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.3277,
     "lon": -108.4899,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "Chapin Mesa",
@@ -29,10 +29,10 @@
     "lat": 37.1953,
     "lon": -108.4856,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "Wetherill Mesa",
@@ -44,10 +44,10 @@
     "lat": 37.2,
     "lon": -108.54,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    },
    {
     "area": "Morefield Campground",
@@ -59,10 +59,10 @@
     "lat": 37.3008,
     "lon": -108.4357,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 22:00 local"
+    "observed": "2026-10-19 7:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "meve",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "meve",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Chapin Mesa",
-    "state": "CO",
-    "near": "meve-chapin-mesa",
-    "side": "forest",
-    "region": "meve",
-    "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Wetherill Mesa",
+    "area": "Chapin Mesa",
     "state": "CO",
-    "near": "meve-wetherill-mesa",
+    "near": "meve-chapin-mesa",
     "side": "forest",
     "region": "meve",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Morefield Campground",
+    "area": "Wetherill Mesa",
     "state": "CO",
-    "near": "meve-morefield",
+    "near": "meve-wetherill-mesa",
     "side": "forest",
     "region": "meve",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Morefield Campground",
+    "state": "CO",
+    "near": "meve-morefield",
+    "side": "forest",
+    "region": "meve",
+    "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "y00475",
@@ -1079,6 +1079,7 @@
     "notable": false,
     "near": "Morefield Campground"
    }
-  ]
+  ],
+  "staleSince": "2026-10-19T13:34:36Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T04:52:20Z",
+ "fetchedAt": "2026-10-19T13:34:36Z",
  "region": "crla",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 42.8975,
     "lon": -122.1397,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    },
    {
     "area": "Cleetwood Cove",
@@ -29,10 +29,10 @@
     "lat": 42.9567,
     "lon": -122.0925,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    },
    {
     "area": "Mazama Village",
@@ -44,10 +44,10 @@
     "lat": 42.8676,
     "lon": -122.1685,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    },
    {
     "area": "Pinnacles and Lost Creek",
@@ -59,10 +59,10 @@
     "lat": 42.8186,
     "lon": -122.0958,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-18 21:00 local"
+    "observed": "2026-10-19 6:00 local"
    }
   ],
   "forecasts": [
@@ -73,11 +73,11 @@
     "side": "forest",
     "region": "crla",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "crla",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "pollutant": "PM2.5",
-    "aqi": 64,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cleetwood Cove",
-    "state": "OR",
-    "near": "crla-cleetwood",
-    "side": "forest",
-    "region": "crla",
-    "source": "open-meteo",
-    "date": "2026-10-18",
-    "pollutant": "PM2.5",
-    "aqi": 55,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 64,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Mazama Village",
+    "area": "Cleetwood Cove",
     "state": "OR",
-    "near": "crla-mazama",
+    "near": "crla-cleetwood",
     "side": "forest",
     "region": "crla",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "PM2.5",
-    "aqi": 55,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 64,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Pinnacles and Lost Creek",
+    "area": "Mazama Village",
     "state": "OR",
-    "near": "crla-pinnacles",
+    "near": "crla-mazama",
     "side": "forest",
     "region": "crla",
     "source": "open-meteo",
-    "date": "2026-10-18",
+    "date": "2026-10-20",
     "pollutant": "PM2.5",
-    "aqi": 55,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-10-19",
     "pollutant": "PM2.5",
-    "aqi": 64,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pinnacles and Lost Creek",
+    "state": "OR",
+    "near": "crla-pinnacles",
+    "side": "forest",
+    "region": "crla",
+    "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "PM2.5",
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "gcrfin",
@@ -743,6 +743,7 @@
     "notable": false,
     "near": "Rim Village"
    }
-  ]
+  ],
+  "staleSince": "2026-10-19T13:34:36Z"
  }
 }
