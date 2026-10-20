@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T19:21:44Z",
+ "fetchedAt": "2026-10-20T23:57:12Z",
  "region": "acad",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 44.3876,
     "lon": -68.2039,
-    "pollutant": "PM2.5",
-    "aqi": 34,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 15:00 local"
+    "observed": "2026-10-20 19:00 local"
    },
    {
     "area": "Cadillac Mountain summit",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 44.3526,
     "lon": -68.2256,
-    "pollutant": "PM2.5",
-    "aqi": 34,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 15:00 local"
+    "observed": "2026-10-20 19:00 local"
    },
    {
     "area": "Seawall and Southwest Harbor (west side)",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 44.2397,
     "lon": -68.3043,
-    "pollutant": "PM2.5",
-    "aqi": 34,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 15:00 local"
+    "observed": "2026-10-20 19:00 local"
    },
    {
     "area": "Schoodic Point",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 44.3339,
     "lon": -68.0603,
-    "pollutant": "PM2.5",
-    "aqi": 32,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 15:00 local"
+    "observed": "2026-10-20 19:00 local"
    },
    {
     "area": "Duck Harbor, Isle au Haut",
@@ -73,11 +73,11 @@
     "source": "open-meteo",
     "lat": 44.0431,
     "lon": -68.6464,
-    "pollutant": "PM2.5",
-    "aqi": 37,
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 15:00 local"
+    "observed": "2026-10-20 19:00 local"
    }
   ],
   "forecasts": [
@@ -210,7 +210,7 @@
     "source": "open-meteo",
     "date": "2026-10-20",
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -333,6 +333,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "osprey",
+    "name": "Osprey",
+    "sci": "Pandion haliaetus",
+    "count": 1,
+    "seen": "2026-10-14 17:40",
+    "place": "Southwest Harbor and Sunset, Deer Isle",
+    "lat": 44.206,
+    "lon": -68.711,
+    "notable": true,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "reevir1",
     "name": "Red-eyed Vireo",
     "sci": "Vireo olivaceus",
@@ -372,25 +384,25 @@
     "code": "ambduc",
     "name": "American Black Duck",
     "sci": "Anas rubripes",
-    "count": 1,
-    "seen": "2026-10-20 08:54",
-    "place": "Northeast Creek, Bar Harbor",
-    "lat": 44.425,
-    "lon": -68.328,
+    "count": 2,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 2,
-    "seen": "2026-10-20 10:40",
-    "place": "Acadia NP--Beech Mountain and Beech Cliff Trails",
-    "lat": 44.315,
-    "lon": -68.343,
+    "count": 4,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "amgplo",
@@ -429,6 +441,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "amhgul1",
+    "name": "American Herring Gull",
+    "sci": "Larus smithsonianus",
+    "count": 30,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "amekes",
     "name": "American Kestrel",
     "sci": "Falco sparverius",
@@ -439,6 +463,18 @@
     "lon": -68.266,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "amepip",
+    "name": "American Pipit",
+    "sci": "Anthus rubescens",
+    "count": 1,
+    "seen": "2026-10-16 15:10",
+    "place": "Acadia NP--Ship Harbor Trail",
+    "lat": 44.232,
+    "lon": -68.326,
+    "notable": false,
+    "near": "Schoodic Point"
    },
    {
     "code": "amerob",
@@ -468,13 +504,13 @@
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
-    "count": 1,
-    "seen": "2026-10-19 15:48",
-    "place": "Acadia NP--Wonderland Trail",
-    "lat": 44.234,
-    "lon": -68.32,
+    "count": 2,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "belkin1",
@@ -487,6 +523,18 @@
     "lon": -68.349,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "blkgui",
+    "name": "Black Guillemot",
+    "sci": "Cepphus grylle",
+    "count": 2,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "blksco2",
@@ -513,16 +561,28 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "bkbcuc",
+    "name": "Black-billed Cuckoo",
+    "sci": "Coccyzus erythropthalmus",
+    "count": 1,
+    "seen": "2026-10-15 14:20",
+    "place": "Petit Manan NWR",
+    "lat": 44.439,
+    "lon": -67.893,
+    "notable": false,
+    "near": "Schoodic Point"
+   },
+   {
     "code": "bkcchi",
     "name": "Black-capped Chickadee",
     "sci": "Poecile atricapillus",
-    "count": 3,
-    "seen": "2026-10-20 10:40",
-    "place": "Acadia NP--Beech Mountain and Beech Cliff Trails",
-    "lat": 44.315,
-    "lon": -68.343,
+    "count": 6,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "bkpwar",
@@ -537,6 +597,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "blujay",
+    "name": "Blue Jay",
+    "sci": "Cyanocitta cristata",
+    "count": 3,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "buhvir",
     "name": "Blue-headed Vireo",
     "sci": "Vireo solitarius",
@@ -547,6 +619,18 @@
     "lon": -68.056,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "bongul",
+    "name": "Bonaparte's Gull",
+    "sci": "Chroicocephalus philadelphia",
+    "count": 1,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "buffle",
@@ -571,6 +655,30 @@
     "lon": -68.349,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "chispa",
+    "name": "Chipping Sparrow",
+    "sci": "Spizella passerina",
+    "count": 1,
+    "seen": "2026-10-19 08:45",
+    "place": "Three Pines Bird Sanctuary, Bar Harbor",
+    "lat": 44.409,
+    "lon": -68.335,
+    "notable": false,
+    "near": "Schoodic Point"
+   },
+   {
+    "code": "comeid",
+    "name": "Common Eider",
+    "sci": "Somateria mollissima",
+    "count": 4,
+    "seen": "2026-10-15 13:14",
+    "place": "Vinalhaven--Lane's Island Preserve (TNC)",
+    "lat": 44.038,
+    "lon": -68.832,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "comgol",
@@ -600,13 +708,13 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-10-20 10:40",
-    "place": "Acadia NP--Beech Mountain and Beech Cliff Trails",
-    "lat": 44.315,
-    "lon": -68.343,
+    "count": 2,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "daejun",
@@ -633,16 +741,28 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "doccor",
+    "name": "Double-crested Cormorant",
+    "sci": "Nannopterum auritum",
+    "count": 1,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "dowwoo",
     "name": "Downy Woodpecker",
     "sci": "Dryobates pubescens",
     "count": 1,
-    "seen": "2026-10-20 10:40",
-    "place": "Acadia NP--Beech Mountain and Beech Cliff Trails",
-    "lat": 44.315,
-    "lon": -68.343,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "dunlin",
@@ -708,13 +828,13 @@
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 1,
-    "seen": "2026-10-20 10:40",
-    "place": "Acadia NP--Beech Mountain and Beech Cliff Trails",
-    "lat": 44.315,
-    "lon": -68.343,
+    "count": 6,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "gbbgul",
@@ -777,6 +897,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "haiwoo",
+    "name": "Hairy Woodpecker",
+    "sci": "Leuconotopicus villosus",
+    "count": 1,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
@@ -821,18 +953,6 @@
     "place": "Bar Harbor--Bar Island Bar",
     "lat": 44.392,
     "lon": -68.21,
-    "notable": false,
-    "near": "Bar Harbor"
-   },
-   {
-    "code": "killde",
-    "name": "Killdeer",
-    "sci": "Charadrius vociferus",
-    "count": 3,
-    "seen": "2026-10-13 17:18",
-    "place": "Bar Harbor Airport, Trenton",
-    "lat": 44.443,
-    "lon": -68.365,
     "notable": false,
     "near": "Bar Harbor"
    },
@@ -889,12 +1009,12 @@
     "name": "Merlin",
     "sci": "Falco columbarius",
     "count": 1,
-    "seen": "2026-10-17 06:20",
-    "place": "Acadia NP--Schoodic Point",
-    "lat": 44.332,
-    "lon": -68.06,
+    "seen": "2026-10-17 13:29",
+    "place": "Petit Manan NWR--Hollingsworth Trail",
+    "lat": 44.432,
+    "lon": -67.893,
     "notable": false,
-    "near": "Bar Harbor"
+    "near": "Schoodic Point"
    },
    {
     "code": "norgan",
@@ -969,6 +1089,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "pinsis",
+    "name": "Pine Siskin",
+    "sci": "Spinus pinus",
+    "count": 3,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "purfin",
     "name": "Purple Finch",
     "sci": "Haemorhous purpureus",
@@ -1003,6 +1135,30 @@
     "lon": -68.32,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "rebnut",
+    "name": "Red-breasted Nuthatch",
+    "sci": "Sitta canadensis",
+    "count": 1,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
+    "code": "ribgul",
+    "name": "Ring-billed Gull",
+    "sci": "Larus delawarensis",
+    "count": 15,
+    "seen": "2026-10-20 11:14",
+    "place": "Carrying Place Preserve (IHT)",
+    "lat": 44.215,
+    "lon": -68.645,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
    },
    {
     "code": "rinduc",
@@ -1101,6 +1257,18 @@
     "near": "Bar Harbor"
    },
    {
+    "code": "sonspa",
+    "name": "Song Sparrow",
+    "sci": "Melospiza melodia",
+    "count": 2,
+    "seen": "2026-10-15 13:14",
+    "place": "Vinalhaven--Lane's Island Preserve (TNC)",
+    "lat": 44.038,
+    "lon": -68.832,
+    "notable": false,
+    "near": "Duck Harbor, Isle au Haut"
+   },
+   {
     "code": "swaspa",
     "name": "Swamp Sparrow",
     "sci": "Melospiza georgiana",
@@ -1123,6 +1291,18 @@
     "lon": -68.343,
     "notable": false,
     "near": "Bar Harbor"
+   },
+   {
+    "code": "whrsan",
+    "name": "White-rumped Sandpiper",
+    "sci": "Calidris fuscicollis",
+    "count": 2,
+    "seen": "2026-10-17 13:29",
+    "place": "Petit Manan NWR--Hollingsworth Trail",
+    "lat": 44.432,
+    "lon": -67.893,
+    "notable": false,
+    "near": "Schoodic Point"
    },
    {
     "code": "wiltur",

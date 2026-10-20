@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T19:21:44Z",
+ "fetchedAt": "2026-10-20T23:57:12Z",
  "region": "bibe",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 29.2711,
     "lon": -103.3016,
-    "pollutant": "PM2.5",
-    "aqi": 26,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 14:00 local"
+    "observed": "2026-10-20 18:00 local"
    },
    {
     "area": "Panther Junction",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 29.3301,
     "lon": -103.2063,
-    "pollutant": "PM2.5",
-    "aqi": 26,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 14:00 local"
+    "observed": "2026-10-20 18:00 local"
    },
    {
     "area": "Rio Grande Village",
@@ -44,10 +44,10 @@
     "lat": 29.1816,
     "lon": -102.9544,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 14:00 local"
+    "observed": "2026-10-20 18:00 local"
    },
    {
     "area": "Santa Elena Canyon",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 29.1664,
     "lon": -103.6113,
-    "pollutant": "PM2.5",
-    "aqi": 25,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 14:00 local"
+    "observed": "2026-10-20 18:00 local"
    }
   ],
   "forecasts": [
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,7 +150,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,8 +189,20 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "carwre",
+    "name": "Carolina Wren",
+    "sci": "Thryothorus ludovicianus",
+    "count": 1,
+    "seen": "2026-10-20 09:53",
+    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
+    "lat": 29.181,
+    "lon": -102.956,
+    "notable": true,
+    "near": "Rio Grande Village"
+   },
    {
     "code": "cogdov",
     "name": "Common Ground Dove",
@@ -204,14 +216,14 @@
     "near": "Chisos Basin"
    },
    {
-    "code": "lesnig",
-    "name": "Lesser Nighthawk",
-    "sci": "Chordeiles acutipennis",
-    "count": 6,
-    "seen": "2026-10-19 18:11",
-    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
-    "lat": 29.181,
-    "lon": -102.956,
+    "code": "wewpew",
+    "name": "Western Wood-Pewee",
+    "sci": "Contopus sordidulus",
+    "count": 1,
+    "seen": "2026-10-20 08:38",
+    "place": "Big Bend NP--Daniels Ranch Rd.",
+    "lat": 29.184,
+    "lon": -102.965,
     "notable": true,
     "near": "Rio Grande Village"
    },
@@ -1139,7 +1151,6 @@
     "notable": false,
     "near": "Santa Elena Canyon"
    }
-  ],
-  "staleSince": "2026-10-20T19:21:44Z"
+  ]
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T19:21:44Z",
+ "fetchedAt": "2026-10-20T23:57:12Z",
  "region": "romo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 40.3122,
     "lon": -105.6454,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 13:00 local"
+    "observed": "2026-10-20 17:00 local"
    },
    {
     "area": "Estes Park side",
@@ -29,10 +29,10 @@
     "lat": 40.3772,
     "lon": -105.5217,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 13:00 local"
+    "observed": "2026-10-20 17:00 local"
    },
    {
     "area": "Grand Lake side",
@@ -44,10 +44,10 @@
     "lat": 40.2551,
     "lon": -105.8176,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 13:00 local"
+    "observed": "2026-10-20 17:00 local"
    },
    {
     "area": "Trail Ridge Road (Alpine Visitor Center)",
@@ -59,10 +59,10 @@
     "lat": 40.431,
     "lon": -105.755,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 13:00 local"
+    "observed": "2026-10-20 17:00 local"
    }
   ],
   "forecasts": [
@@ -135,7 +135,7 @@
     "source": "open-meteo",
     "date": "2026-10-20",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,7 +150,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,8 +189,32 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "osprey",
+    "name": "Osprey",
+    "sci": "Pandion haliaetus",
+    "count": 1,
+    "seen": "2026-10-19 14:11",
+    "place": "Mary's Lake & CG",
+    "lat": 40.347,
+    "lon": -105.532,
+    "notable": true,
+    "near": "Bear Lake"
+   },
+   {
+    "code": "turvul",
+    "name": "Turkey Vulture",
+    "sci": "Cathartes aura",
+    "count": 1,
+    "seen": "2026-10-20 13:00",
+    "place": "Rocky Mountain NP--North Inlet Trail between Cascade Falls and North Inlet Junction",
+    "lat": 40.281,
+    "lon": -105.764,
+    "notable": true,
+    "near": "Bear Lake"
+   },
    {
     "code": "amecro",
     "name": "American Crow",
@@ -286,18 +310,6 @@
     "lon": -105.509,
     "notable": false,
     "near": "Bear Lake"
-   },
-   {
-    "code": "bkbmag1",
-    "name": "Black-billed Magpie",
-    "sci": "Pica hudsonia",
-    "count": 1,
-    "seen": "2026-10-19 13:12",
-    "place": "Rocky Mountain NP--Deer Ridge Junction",
-    "lat": 40.388,
-    "lon": -105.611,
-    "notable": false,
-    "near": "Grand Lake side"
    },
    {
     "code": "bkcchi",
@@ -441,7 +453,7 @@
     "lat": 40.378,
     "lon": -105.509,
     "notable": false,
-    "near": "Bear Lake"
+    "near": "Estes Park side"
    },
    {
     "code": "daejun",
@@ -672,18 +684,6 @@
     "near": "Bear Lake"
    },
    {
-    "code": "osprey",
-    "name": "Osprey",
-    "sci": "Pandion haliaetus",
-    "count": 1,
-    "seen": "2026-10-19 14:11",
-    "place": "Mary's Lake & CG",
-    "lat": 40.347,
-    "lon": -105.532,
-    "notable": false,
-    "near": "Bear Lake"
-   },
-   {
     "code": "pingro",
     "name": "Pine Grosbeak",
     "sci": "Pinicola enucleator",
@@ -873,7 +873,7 @@
     "lat": 40.378,
     "lon": -105.509,
     "notable": false,
-    "near": "Bear Lake"
+    "near": "Estes Park side"
    },
    {
     "code": "towsol",
@@ -947,7 +947,6 @@
     "notable": false,
     "near": "Bear Lake"
    }
-  ],
-  "staleSince": "2026-10-20T19:21:44Z"
+  ]
  }
 }
