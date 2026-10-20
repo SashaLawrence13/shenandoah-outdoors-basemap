@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T08:41:28Z",
+ "fetchedAt": "2026-10-20T14:22:20Z",
  "region": "sagu",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 32.1822,
     "lon": -110.7378,
     "pollutant": "PM2.5",
-    "aqi": 37,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 1:00 local"
+    "observed": "2026-10-20 7:00 local"
    },
    {
     "area": "Tucson Mountain District (west)",
@@ -29,10 +29,10 @@
     "lat": 32.2427,
     "lon": -111.1787,
     "pollutant": "PM2.5",
-    "aqi": 32,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 1:00 local"
+    "observed": "2026-10-20 7:00 local"
    },
    {
     "area": "Rincon high country (Manning Camp)",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 32.2,
     "lon": -110.6,
-    "pollutant": "O3",
-    "aqi": 18,
+    "pollutant": "PM2.5",
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 1:00 local"
+    "observed": "2026-10-20 7:00 local"
    }
   ],
   "forecasts": [
@@ -60,7 +60,7 @@
     "source": "open-meteo",
     "date": "2026-10-20",
     "pollutant": "PM2.5",
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -89,8 +89,8 @@
     "region": "sagu",
     "source": "open-meteo",
     "date": "2026-10-20",
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -104,21 +104,6 @@
     "region": "sagu",
     "source": "open-meteo",
     "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Rincon high country (Manning Camp)",
-    "state": "AZ",
-    "near": "sagu-manning-camp",
-    "side": "forest",
-    "region": "sagu",
-    "source": "open-meteo",
-    "date": "2026-10-20",
     "pollutant": "O3",
     "aqi": 33,
     "category": "Good",
@@ -133,9 +118,24 @@
     "side": "forest",
     "region": "sagu",
     "source": "open-meteo",
+    "date": "2026-10-20",
+    "pollutant": "O3",
+    "aqi": 32,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Rincon high country (Manning Camp)",
+    "state": "AZ",
+    "near": "sagu-manning-camp",
+    "side": "forest",
+    "region": "sagu",
+    "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -495,30 +495,6 @@
     "near": "Tucson Mountain District (west)"
    },
    {
-    "code": "maghum1",
-    "name": "Rivoli's Hummingbird",
-    "sci": "Eugenes fulgens",
-    "count": 1,
-    "seen": "2026-10-18 07:45",
-    "place": "Agua Caliente Park",
-    "lat": 32.281,
-    "lon": -110.73,
-    "notable": true,
-    "near": "Rincon Mountain District (east)"
-   },
-   {
-    "code": "spotow",
-    "name": "Spotted Towhee",
-    "sci": "Pipilo maculatus",
-    "count": 3,
-    "seen": "2026-10-19 11:10",
-    "place": "Mt. Lemmon--Bear Canyon (Cypress, Middle Bear, Chihuahua Pine Picnic Areas)",
-    "lat": 32.373,
-    "lon": -110.691,
-    "notable": true,
-    "near": "Rincon Mountain District (east)"
-   },
-   {
     "code": "towsol",
     "name": "Townsend's Solitaire",
     "sci": "Myadestes townsendi",
@@ -565,18 +541,6 @@
     "lon": -110.866,
     "notable": true,
     "near": "Rincon Mountain District (east)"
-   },
-   {
-    "code": "yetvir",
-    "name": "Yellow-throated Vireo",
-    "sci": "Vireo flavifrons",
-    "count": 1,
-    "seen": "2026-10-13 08:40",
-    "place": "Arthur Pack Regional Park",
-    "lat": 32.373,
-    "lon": -111.054,
-    "notable": true,
-    "near": "Tucson Mountain District (west)"
    },
    {
     "code": "abetow",
@@ -805,18 +769,6 @@
     "lon": -111.138,
     "notable": false,
     "near": "Tucson Mountain District (west)"
-   },
-   {
-    "code": "blugrb1",
-    "name": "Blue Grosbeak",
-    "sci": "Passerina caerulea",
-    "count": 2,
-    "seen": "2026-10-13 07:43",
-    "place": "Tanque Verde Wash--Wentworth Rd.",
-    "lat": 32.24,
-    "lon": -110.721,
-    "notable": false,
-    "near": "Rincon Mountain District (east)"
    },
    {
     "code": "buggna",
@@ -2123,6 +2075,18 @@
     "place": "Sam Lena Park and KERP",
     "lat": 32.181,
     "lon": -110.932,
+    "notable": false,
+    "near": "Rincon Mountain District (east)"
+   },
+   {
+    "code": "spotow",
+    "name": "Spotted Towhee",
+    "sci": "Pipilo maculatus",
+    "count": 3,
+    "seen": "2026-10-19 11:10",
+    "place": "Mt. Lemmon--Bear Canyon (Cypress, Middle Bear, Chihuahua Pine Picnic Areas)",
+    "lat": 32.373,
+    "lon": -110.691,
     "notable": false,
     "near": "Rincon Mountain District (east)"
    },
