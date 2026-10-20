@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T00:25:38Z",
+ "fetchedAt": "2026-10-20T08:41:28Z",
  "region": "shen",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.8,
     "lon": -78.28,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-19 20:00 local"
+    "observed": "2026-10-20 4:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 38.53,
     "lon": -78.44,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-19 20:00 local"
+    "observed": "2026-10-20 4:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -44,28 +44,13 @@
     "lat": 38.2,
     "lon": -78.75,
     "pollutant": "PM2.5",
-    "aqi": 43,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-19 20:00 local"
+    "observed": "2026-10-20 4:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Shenandoah NP north",
-    "state": "VA",
-    "near": "park-north",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-19",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Shenandoah NP north",
     "state": "VA",
@@ -82,15 +67,15 @@
     "discussion": ""
    },
    {
-    "area": "Shenandoah NP central",
+    "area": "Shenandoah NP north",
     "state": "VA",
-    "near": "park-central",
+    "near": "park-north",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-19",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "Shenandoah NP south",
+    "area": "Shenandoah NP central",
     "state": "VA",
-    "near": "park-south",
+    "near": "park-central",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-19",
-    "pollutant": "PM2.5",
-    "aqi": 43,
+    "date": "2026-10-21",
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -136,6 +121,21 @@
     "date": "2026-10-20",
     "pollutant": "O3",
     "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP south",
+    "state": "VA",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-21",
+    "pollutant": "PM2.5",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -409,18 +409,6 @@
     "lon": -78.387,
     "notable": false,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "bkpwar",
-    "name": "Blackpoll Warbler",
-    "sci": "Setophaga striata",
-    "count": 1,
-    "seen": "2026-10-19 08:45",
-    "place": "Shenandoah NP--Loft Mountain Campground",
-    "lat": 38.247,
-    "lon": -78.67,
-    "notable": false,
-    "near": "Shenandoah NP south"
    },
    {
     "code": "blujay",
@@ -726,25 +714,13 @@
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 3,
-    "seen": "2026-10-19 09:15",
-    "place": "Byrom County Park",
-    "lat": 38.221,
-    "lon": -78.65,
-    "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "grycat",
-    "name": "Gray Catbird",
-    "sci": "Dumetella carolinensis",
     "count": 1,
-    "seen": "2026-10-19 08:42",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
+    "seen": "2026-10-18 16:30",
+    "place": "Seven Bends State Park",
+    "lat": 38.866,
+    "lon": -78.486,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "grbher3",
@@ -1023,16 +999,28 @@
     "near": "Shenandoah NP south"
    },
    {
+    "code": "pinsis",
+    "name": "Pine Siskin",
+    "sci": "Spinus pinus",
+    "count": 1,
+    "seen": "2026-10-19 12:39",
+    "place": "Shenandoah NP--Limberlost Trail",
+    "lat": 38.58,
+    "lon": -78.381,
+    "notable": false,
+    "near": "Shenandoah NP central"
+   },
+   {
     "code": "pinwar",
     "name": "Pine Warbler",
     "sci": "Setophaga pinus",
     "count": 2,
-    "seen": "2026-10-18 14:19",
-    "place": "Shenandoah NP--Frazier Discovery Trail",
-    "lat": 38.263,
-    "lon": -78.661,
+    "seen": "2026-10-19 14:52",
+    "place": "Shenandoah NP--Pinnacles Picnic Area",
+    "lat": 38.624,
+    "lon": -78.342,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "rebwoo",
@@ -1206,13 +1194,13 @@
     "code": "tenwar",
     "name": "Tennessee Warbler",
     "sci": "Leiothlypis peregrina",
-    "count": 1,
-    "seen": "2026-10-19 08:42",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
+    "count": 2,
+    "seen": "2026-10-18 09:50",
+    "place": "Smithsonian Conservation Biology Institute (restricted access)",
+    "lat": 38.887,
+    "lon": -78.164,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP north"
    },
    {
     "code": "treswa",
@@ -1249,6 +1237,18 @@
     "lon": -78.164,
     "notable": false,
     "near": "Shenandoah NP north"
+   },
+   {
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": 3,
+    "seen": "2026-10-19 12:39",
+    "place": "Shenandoah NP--Limberlost Trail",
+    "lat": 38.58,
+    "lon": -78.381,
+    "notable": false,
+    "near": "Shenandoah NP central"
    },
    {
     "code": "whcspa",

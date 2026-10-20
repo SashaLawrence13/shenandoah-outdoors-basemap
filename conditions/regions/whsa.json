@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T00:25:38Z",
+ "fetchedAt": "2026-10-20T08:41:28Z",
  "region": "whsa",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.7797,
     "lon": -106.1719,
-    "pollutant": "O3",
-    "aqi": 36,
+    "pollutant": "PM2.5",
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-19 18:00 local"
+    "observed": "2026-10-20 2:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -29,28 +29,13 @@
     "lat": 32.8205,
     "lon": -106.2731,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-19 18:00 local"
+    "observed": "2026-10-20 2:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "White Sands Visitor Center",
-    "state": "NM",
-    "near": "whsa-visitor-center",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-10-19",
-    "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "White Sands Visitor Center",
     "state": "NM",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Alkali Flat trailhead",
+    "area": "White Sands Visitor Center",
     "state": "NM",
-    "near": "whsa-dunes",
+    "near": "whsa-visitor-center",
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-19",
-    "pollutant": "O3",
-    "aqi": 40,
+    "date": "2026-10-21",
+    "pollutant": "PM2.5",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,39 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-10-21",
+    "pollutant": "O3",
+    "aqi": 36,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "error: no list for the region",
-  "list": []
+  "status": "ok",
+  "list": [
+   {
+    "code": "amwpel",
+    "name": "American White Pelican",
+    "sci": "Pelecanus erythrorhynchos",
+    "count": 7,
+    "seen": "2026-10-19 17:32",
+    "place": "Holloman Lakes (Closed indefinitely)",
+    "lat": 32.807,
+    "lon": -106.123,
+    "notable": false,
+    "near": "White Sands Visitor Center"
+   }
+  ]
  }
 }
