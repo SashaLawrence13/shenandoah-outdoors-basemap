@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "cany",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.4586,
     "lon": -109.8192,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "The Needles",
@@ -29,10 +29,10 @@
     "lat": 38.1698,
     "lon": -109.7597,
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "The Maze",
@@ -44,10 +44,10 @@
     "lat": 38.35,
     "lon": -110.2,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,6 +73,21 @@
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "The Needles",
+    "state": "UT",
+    "near": "cany-needles",
+    "side": "forest",
+    "region": "cany",
+    "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
     "aqi": 35,
@@ -88,39 +103,9 @@
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "The Needles",
-    "state": "UT",
-    "near": "cany-needles",
-    "side": "forest",
-    "region": "cany",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "The Maze",
-    "state": "UT",
-    "near": "cany-maze",
-    "side": "forest",
-    "region": "cany",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -136,6 +121,21 @@
     "date": "2026-10-21",
     "pollutant": "O3",
     "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "The Maze",
+    "state": "UT",
+    "near": "cany-maze",
+    "side": "forest",
+    "region": "cany",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amecro",
@@ -155,6 +155,30 @@
     "place": "Dead Horse Point SP--Kayenta Campground",
     "lat": 38.486,
     "lon": -109.741,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "bkcchi",
+    "name": "Black-capped Chickadee",
+    "sci": "Poecile atricapillus",
+    "count": 1,
+    "seen": "2026-10-20 09:02",
+    "place": "Potash Rd.--Dinosaur Tracks",
+    "lat": 38.533,
+    "lon": -109.609,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "canwre",
+    "name": "Canyon Wren",
+    "sci": "Catherpes mexicanus",
+    "count": 1,
+    "seen": "2026-10-20 09:02",
+    "place": "Potash Rd.--Dinosaur Tracks",
+    "lat": 38.533,
+    "lon": -109.609,
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
    },
@@ -171,14 +195,38 @@
     "near": "Island in the Sky (Grand View Point)"
    },
    {
+    "code": "comrav",
+    "name": "Common Raven",
+    "sci": "Corvus corax",
+    "count": 1,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
     "count": 4,
-    "seen": "2026-10-16 18:31",
-    "place": "Canyonlands NP--Orange Cliffs Overlook",
-    "lat": 38.314,
-    "lon": -109.857,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "doccor",
+    "name": "Double-crested Cormorant",
+    "sci": "Nannopterum auritum",
+    "count": 1,
+    "seen": "2026-10-20 08:38",
+    "place": "Potash Road -- General",
+    "lat": 38.594,
+    "lon": -109.596,
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
    },
@@ -243,18 +291,65 @@
     "near": "Island in the Sky (Grand View Point)"
    },
    {
+    "code": "stejay",
+    "name": "Steller's Jay",
+    "sci": "Cyanocitta stelleri",
+    "count": 1,
+    "seen": "2026-10-20 10:17",
+    "place": "Moonflower Canyon",
+    "lat": 38.554,
+    "lon": -109.587,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "wesblu",
+    "name": "Western Bluebird",
+    "sci": "Sialia mexicana",
+    "count": 1,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "wesmea",
+    "name": "Western Meadowlark",
+    "sci": "Sturnella neglecta",
+    "count": 1,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
     "count": 1,
-    "seen": "2026-10-15 08:06",
-    "place": "Canyonlands NP--Murphy TH",
-    "lat": 38.355,
-    "lon": -109.864,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
     "notable": false,
-    "near": "The Needles"
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "wooscj2",
+    "name": "Woodhouse's Scrub-Jay",
+    "sci": "Aphelocoma woodhouseii",
+    "count": 1,
+    "seen": "2026-10-20 13:09",
+    "place": "Canyonlands NP--Visitor Center--Island in the Sky",
+    "lat": 38.46,
+    "lon": -109.821,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }

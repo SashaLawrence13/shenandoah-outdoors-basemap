@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "thro",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 46.9157,
     "lon": -103.5262,
-    "pollutant": "O3",
-    "aqi": 23,
+    "pollutant": "PM2.5",
+    "aqi": 13,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "Painted Canyon",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 46.8955,
     "lon": -103.3818,
-    "pollutant": "O3",
-    "aqi": 24,
+    "pollutant": "PM2.5",
+    "aqi": 17,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "North Unit Visitor Center",
@@ -44,10 +44,10 @@
     "lat": 47.6,
     "lon": -103.2602,
     "pollutant": "PM2.5",
-    "aqi": 35,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 23:00 local"
+    "observed": "2026-10-21 7:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 29,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Painted Canyon",
-    "state": "ND",
-    "near": "thro-painted-canyon",
-    "side": "forest",
-    "region": "thro",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -104,23 +89,23 @@
     "region": "thro",
     "source": "open-meteo",
     "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "North Unit Visitor Center",
+    "area": "Painted Canyon",
     "state": "ND",
-    "near": "thro-north",
+    "near": "thro-painted-canyon",
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "PM2.5",
-    "aqi": 59,
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Unit Visitor Center",
+    "state": "ND",
+    "near": "thro-north",
+    "side": "forest",
+    "region": "thro",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amecro",
@@ -174,11 +174,11 @@
     "code": "amtspa",
     "name": "American Tree Sparrow",
     "sci": "Spizelloides arborea",
-    "count": 1,
-    "seen": "2026-10-16 11:09",
-    "place": "Theodore Roosevelt NP--Scenic Drive (North Unit)",
-    "lat": 47.593,
-    "lon": -103.308,
+    "count": 2,
+    "seen": "2026-10-17 08:00",
+    "place": "Theodore Roosevelt NP (North Unit)",
+    "lat": 47.599,
+    "lon": -103.26,
     "notable": false,
     "near": "North Unit Visitor Center"
    },
@@ -315,6 +315,18 @@
     "near": "South Unit Visitor Center in Medora"
    },
    {
+    "code": "pinsis",
+    "name": "Pine Siskin",
+    "sci": "Spinus pinus",
+    "count": 4,
+    "seen": "2026-10-17 08:00",
+    "place": "Theodore Roosevelt NP (North Unit)",
+    "lat": 47.599,
+    "lon": -103.26,
+    "notable": false,
+    "near": "North Unit Visitor Center"
+   },
+   {
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
@@ -374,7 +386,6 @@
     "notable": false,
     "near": "North Unit Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }

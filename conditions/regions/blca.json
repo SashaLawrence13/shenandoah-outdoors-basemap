@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.5427,
     "lon": -107.6866,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -29,10 +29,10 @@
     "lat": 38.5866,
     "lon": -107.705,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North Rim Ranger Station",
-    "state": "CO",
-    "near": "blca-north-rim",
-    "side": "forest",
-    "region": "blca",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -91,6 +76,21 @@
     "date": "2026-10-21",
     "pollutant": "O3",
     "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Rim Ranger Station",
+    "state": "CO",
+    "near": "blca-north-rim",
+    "side": "forest",
+    "region": "blca",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "brnpel",
@@ -150,18 +150,6 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "belkin1",
-    "name": "Belted Kingfisher",
-    "sci": "Megaceryle alcyon",
-    "count": 1,
-    "seen": "2026-10-20 08:49",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
@@ -198,6 +186,18 @@
     "near": "South Rim Visitor Center"
    },
    {
+    "code": "cangoo",
+    "name": "Canada Goose",
+    "sci": "Branta canadensis",
+    "count": 21,
+    "seen": "2026-10-20 14:26",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
@@ -214,19 +214,19 @@
     "name": "Cooper's Hawk",
     "sci": "Astur cooperii",
     "count": 1,
-    "seen": "2026-10-17 09:56",
-    "place": "Bostwick Park Road",
-    "lat": 38.539,
-    "lon": -107.753,
+    "seen": "2026-10-20 14:26",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
     "notable": false,
-    "near": "North Rim Ranger Station"
+    "near": "South Rim Visitor Center"
    },
    {
-    "code": "eucdov",
-    "name": "Eurasian Collared-Dove",
-    "sci": "Streptopelia decaocto",
-    "count": 10,
-    "seen": "2026-10-19 17:36",
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": null,
+    "seen": "2026-10-20 14:24",
     "place": "Otter Pond area",
     "lat": 38.448,
     "lon": -107.858,
@@ -242,6 +242,30 @@
     "place": "Bostwick Park Road",
     "lat": 38.539,
     "lon": -107.753,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 5,
+    "seen": "2026-10-20 14:26",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "houspa",
+    "name": "House Sparrow",
+    "sci": "Passer domesticus",
+    "count": 7,
+    "seen": "2026-10-20 14:26",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -262,18 +286,6 @@
     "name": "Killdeer",
     "sci": "Charadrius vociferus",
     "count": 4,
-    "seen": "2026-10-20 08:49",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
-    "code": "mallar3",
-    "name": "Mallard",
-    "sci": "Anas platyrhynchos",
-    "count": 2,
     "seen": "2026-10-20 08:49",
     "place": "Otter Pond area",
     "lat": 38.448,
@@ -382,12 +394,12 @@
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
     "count": 1,
-    "seen": "2026-10-17 12:36",
-    "place": "Bostwick Park Road",
-    "lat": 38.539,
-    "lon": -107.753,
+    "seen": "2026-10-20 14:24",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
     "notable": false,
-    "near": "North Rim Ranger Station"
+    "near": "South Rim Visitor Center"
    },
    {
     "code": "towsol",
@@ -438,11 +450,11 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "wooscj2",
-    "name": "Woodhouse's Scrub-Jay",
-    "sci": "Aphelocoma woodhouseii",
-    "count": 1,
-    "seen": "2026-10-20 08:49",
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": 4,
+    "seen": "2026-10-20 14:26",
     "place": "Otter Pond area",
     "lat": 38.448,
     "lon": -107.858,
@@ -461,7 +473,6 @@
     "notable": false,
     "near": "South Rim Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }

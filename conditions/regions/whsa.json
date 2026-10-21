@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "whsa",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.7797,
     "lon": -106.1719,
-    "pollutant": "O3",
-    "aqi": 31,
+    "pollutant": "PM2.5",
+    "aqi": 16,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -29,10 +29,10 @@
     "lat": 32.8205,
     "lon": -106.2731,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 22:00 local"
+    "observed": "2026-10-21 6:00 local"
    }
   ],
   "forecasts": [
@@ -43,7 +43,7 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
     "aqi": 36,
     "category": "Good",
@@ -55,6 +55,21 @@
     "area": "White Sands Visitor Center",
     "state": "NM",
     "near": "whsa-visitor-center",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "PM10",
+    "aqi": 72,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
@@ -73,24 +88,9 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Alkali Flat trailhead",
-    "state": "NM",
-    "near": "whsa-dunes",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 34,
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amwpel",
@@ -112,8 +112,67 @@
     "lon": -106.123,
     "notable": false,
     "near": "White Sands Visitor Center"
+   },
+   {
+    "code": "crithr",
+    "name": "Crissal Thrasher",
+    "sci": "Toxostoma crissale",
+    "count": 1,
+    "seen": "2026-10-20 14:43",
+    "place": "Oliver Lee Memorial SP--Riparian Nature Trail",
+    "lat": 32.749,
+    "lon": -105.913,
+    "notable": false,
+    "near": "White Sands Visitor Center"
+   },
+   {
+    "code": "cubthr",
+    "name": "Curve-billed Thrasher",
+    "sci": "Toxostoma curvirostre",
+    "count": 1,
+    "seen": "2026-10-20 14:43",
+    "place": "Oliver Lee Memorial SP--Riparian Nature Trail",
+    "lat": 32.749,
+    "lon": -105.913,
+    "notable": false,
+    "near": "White Sands Visitor Center"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 3,
+    "seen": "2026-10-20 14:43",
+    "place": "Oliver Lee Memorial SP--Riparian Nature Trail",
+    "lat": 32.749,
+    "lon": -105.913,
+    "notable": false,
+    "near": "White Sands Visitor Center"
+   },
+   {
+    "code": "rocwre",
+    "name": "Rock Wren",
+    "sci": "Salpinctes obsoletus",
+    "count": 1,
+    "seen": "2026-10-20 14:43",
+    "place": "Oliver Lee Memorial SP--Riparian Nature Trail",
+    "lat": 32.749,
+    "lon": -105.913,
+    "notable": false,
+    "near": "White Sands Visitor Center"
+   },
+   {
+    "code": "ruckin",
+    "name": "Ruby-crowned Kinglet",
+    "sci": "Corthylio calendula",
+    "count": 2,
+    "seen": "2026-10-20 14:43",
+    "place": "Oliver Lee Memorial SP--Riparian Nature Trail",
+    "lat": 32.749,
+    "lon": -105.913,
+    "notable": false,
+    "near": "White Sands Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }

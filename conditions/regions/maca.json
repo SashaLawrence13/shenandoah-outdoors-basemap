@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "maca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.187,
     "lon": -86.1011,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 23:00 local"
+    "observed": "2026-10-21 7:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -29,10 +29,10 @@
     "lat": 37.213,
     "lon": -86.133,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 23:00 local"
+    "observed": "2026-10-21 7:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,26 +58,11 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Big Hollow and Maple Springs",
-    "state": "KY",
-    "near": "maca-north",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -90,16 +75,31 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Big Hollow and Maple Springs",
+    "state": "KY",
+    "near": "maca-north",
+    "side": "forest",
+    "region": "maca",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "chswar",
@@ -150,6 +150,18 @@
     "near": "Visitor center"
    },
    {
+    "code": "amerob",
+    "name": "American Robin",
+    "sci": "Turdus migratorius",
+    "count": 2,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
     "code": "belkin1",
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
@@ -162,26 +174,26 @@
     "near": "Visitor center"
    },
    {
-    "code": "blkvul",
-    "name": "Black Vulture",
-    "sci": "Coragyps atratus",
-    "count": 1,
-    "seen": "2026-10-18 07:00",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
-    "notable": false,
-    "near": "Big Hollow and Maple Springs"
-   },
-   {
     "code": "btnwar",
     "name": "Black-throated Green Warbler",
     "sci": "Setophaga virens",
+    "count": 1,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "carchi",
+    "name": "Carolina Chickadee",
+    "sci": "Poecile carolinensis",
     "count": 4,
-    "seen": "2026-10-17 07:14",
-    "place": "Nolin Lake SP",
-    "lat": 37.298,
-    "lon": -86.214,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -190,46 +202,10 @@
     "name": "Carolina Wren",
     "sci": "Thryothorus ludovicianus",
     "count": 2,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
-    "code": "cedwax",
-    "name": "Cedar Waxwing",
-    "sci": "Bombycilla cedrorum",
-    "count": 100,
-    "seen": "2026-10-18 07:00",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
-    "code": "chispa",
-    "name": "Chipping Sparrow",
-    "sci": "Spizella passerina",
-    "count": 6,
-    "seen": "2026-10-18 07:00",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
-    "notable": false,
-    "near": "Big Hollow and Maple Springs"
-   },
-   {
-    "code": "coohaw",
-    "name": "Cooper's Hawk",
-    "sci": "Astur cooperii",
-    "count": 1,
-    "seen": "2026-10-18 07:00",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -246,14 +222,14 @@
     "near": "Visitor center"
    },
    {
-    "code": "easblu",
-    "name": "Eastern Bluebird",
-    "sci": "Sialia sialis",
+    "code": "dowwoo",
+    "name": "Downy Woodpecker",
+    "sci": "Dryobates pubescens",
     "count": 1,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -270,38 +246,14 @@
     "near": "Visitor center"
    },
    {
-    "code": "eastow",
-    "name": "Eastern Towhee",
-    "sci": "Pipilo erythrophthalmus",
-    "count": 1,
-    "seen": "2026-10-18 10:24",
-    "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
-    "lat": 37.178,
-    "lon": -86.11,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
-    "code": "eursta",
-    "name": "European Starling",
-    "sci": "Sturnus vulgaris",
-    "count": 1,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
     "count": 2,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -322,10 +274,10 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-10-18 10:24",
-    "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
-    "lat": 37.178,
-    "lon": -86.11,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -334,10 +286,10 @@
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
     "count": 1,
-    "seen": "2026-10-18 10:24",
-    "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
-    "lat": 37.178,
-    "lon": -86.11,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -354,6 +306,18 @@
     "near": "Visitor center"
    },
    {
+    "code": "norcar",
+    "name": "Northern Cardinal",
+    "sci": "Cardinalis cardinalis",
+    "count": 4,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
     "code": "pinwar",
     "name": "Pine Warbler",
     "sci": "Setophaga pinus",
@@ -362,18 +326,6 @@
     "place": "Nolin Lake SP",
     "lat": 37.298,
     "lon": -86.214,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
-    "code": "rebwoo",
-    "name": "Red-bellied Woodpecker",
-    "sci": "Melanerpes carolinus",
-    "count": 1,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
     "notable": false,
     "near": "Visitor center"
    },
@@ -398,6 +350,18 @@
     "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
     "lat": 37.178,
     "lon": -86.11,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "ruckin",
+    "name": "Ruby-crowned Kinglet",
+    "sci": "Corthylio calendula",
+    "count": 1,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -429,35 +393,23 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 2,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
+    "count": 4,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
    {
-    "code": "turvul",
-    "name": "Turkey Vulture",
-    "sci": "Cathartes aura",
-    "count": 1,
-    "seen": "2026-10-18 07:00",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
-    "notable": false,
-    "near": "Big Hollow and Maple Springs"
-   },
-   {
-    "code": "whbnut",
-    "name": "White-breasted Nuthatch",
-    "sci": "Sitta carolinensis",
-    "count": 2,
-    "seen": "2026-10-20 09:12",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
+    "code": "whtspa",
+    "name": "White-throated Sparrow",
+    "sci": "Zonotrichia albicollis",
+    "count": 4,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    },
@@ -472,6 +424,18 @@
     "lon": -86.102,
     "notable": false,
     "near": "Big Hollow and Maple Springs"
+   },
+   {
+    "code": "winwre3",
+    "name": "Winter Wren",
+    "sci": "Troglodytes hiemalis",
+    "count": 1,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
+    "notable": false,
+    "near": "Visitor center"
    },
    {
     "code": "wooduc",
@@ -489,15 +453,26 @@
     "code": "yebsap",
     "name": "Yellow-bellied Sapsucker",
     "sci": "Sphyrapicus varius",
-    "count": 1,
-    "seen": "2026-10-18 10:24",
-    "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
-    "lat": 37.178,
-    "lon": -86.11,
+    "count": 2,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "yerwar",
+    "name": "Yellow-rumped Warbler",
+    "sci": "Setophaga coronata",
+    "count": 6,
+    "seen": "2026-10-20 13:41",
+    "place": "Mammoth Cave NP--Sloan's Crossing Pond (Edmonson Co.)",
+    "lat": 37.151,
+    "lon": -86.099,
     "notable": false,
     "near": "Visitor center"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }

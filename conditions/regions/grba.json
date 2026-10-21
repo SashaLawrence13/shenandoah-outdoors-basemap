@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T04:59:21Z",
+ "fetchedAt": "2026-10-21T12:01:20Z",
  "region": "grba",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.9857,
     "lon": -114.314,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 21:00 local"
+    "observed": "2026-10-21 5:00 local"
    },
    {
     "area": "Lehman Caves Visitor Center",
@@ -29,10 +29,10 @@
     "lat": 39.0061,
     "lon": -114.2198,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 21:00 local"
+    "observed": "2026-10-21 5:00 local"
    },
    {
     "area": "Baker Creek",
@@ -44,10 +44,10 @@
     "lat": 38.9766,
     "lon": -114.2453,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-20 21:00 local"
+    "observed": "2026-10-21 5:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lehman Caves Visitor Center",
-    "state": "NV",
-    "near": "grba-lehman-caves",
-    "side": "forest",
-    "region": "grba",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "Baker Creek",
+    "area": "Lehman Caves Visitor Center",
     "state": "NV",
-    "near": "grba-baker-creek",
+    "near": "grba-lehman-caves",
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Baker Creek",
+    "state": "NV",
+    "near": "grba-baker-creek",
+    "side": "forest",
+    "region": "grba",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "pygnut",
@@ -156,6 +156,18 @@
     "lat": 39.029,
     "lon": -114.267,
     "notable": true,
+    "near": "Wheeler Peak"
+   },
+   {
+    "code": "amecro",
+    "name": "American Crow",
+    "sci": "Corvus brachyrhynchos",
+    "count": 1,
+    "seen": "2026-10-20 08:24",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
     "near": "Wheeler Peak"
    },
    {
@@ -174,11 +186,11 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 3,
-    "seen": "2026-10-17 15:10",
-    "place": "Great Basin NP--Lower Lehman Creek Campground",
-    "lat": 39.017,
-    "lon": -114.238,
+    "count": 1,
+    "seen": "2026-10-20 11:28",
+    "place": "Great Basin NP--Upper Lehman Campground",
+    "lat": 39.013,
+    "lon": -114.25,
     "notable": false,
     "near": "Wheeler Peak"
    },
@@ -198,13 +210,13 @@
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
-    "count": 2,
-    "seen": "2026-10-17 16:30",
-    "place": "Pruess Reservoir",
-    "lat": 38.885,
-    "lon": -114.014,
+    "count": 4,
+    "seen": "2026-10-20 08:24",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
     "notable": false,
-    "near": "Lehman Caves Visitor Center"
+    "near": "Wheeler Peak"
    },
    {
     "code": "cangoo",
@@ -235,10 +247,10 @@
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
     "count": 1,
-    "seen": "2026-10-17 16:14",
-    "place": "Garrison",
-    "lat": 38.94,
-    "lon": -114.032,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
     "notable": false,
     "near": "Wheeler Peak"
    },
@@ -259,10 +271,10 @@
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
     "count": 1,
-    "seen": "2026-10-14 10:33",
-    "place": "Great Basin NP--Osceola Ditch Trail",
-    "lat": 39.029,
-    "lon": -114.267,
+    "seen": "2026-10-20 11:28",
+    "place": "Great Basin NP--Upper Lehman Campground",
+    "lat": 39.013,
+    "lon": -114.25,
     "notable": false,
     "near": "Wheeler Peak"
    },
@@ -277,6 +289,30 @@
     "lon": -114.014,
     "notable": false,
     "near": "Lehman Caves Visitor Center"
+   },
+   {
+    "code": "haiwoo",
+    "name": "Hairy Woodpecker",
+    "sci": "Leuconotopicus villosus",
+    "count": 1,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
+    "near": "Wheeler Peak"
+   },
+   {
+    "code": "juntit1",
+    "name": "Juniper Titmouse",
+    "sci": "Baeolophus ridgwayi",
+    "count": 1,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
+    "near": "Wheeler Peak"
    },
    {
     "code": "lesgol",
@@ -303,6 +339,18 @@
     "near": "Lehman Caves Visitor Center"
    },
    {
+    "code": "mouchi",
+    "name": "Mountain Chickadee",
+    "sci": "Poecile gambeli",
+    "count": 1,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
+    "near": "Wheeler Peak"
+   },
+   {
     "code": "norhar2",
     "name": "Northern Harrier",
     "sci": "Circus hudsonius",
@@ -313,6 +361,30 @@
     "lon": -114.014,
     "notable": false,
     "near": "Lehman Caves Visitor Center"
+   },
+   {
+    "code": "pacwre1",
+    "name": "Pacific Wren",
+    "sci": "Troglodytes pacificus",
+    "count": 1,
+    "seen": "2026-10-20 10:45",
+    "place": "Great Basin NP--Lower Lehman Creek Campground",
+    "lat": 39.017,
+    "lon": -114.238,
+    "notable": false,
+    "near": "Wheeler Peak"
+   },
+   {
+    "code": "pinsis",
+    "name": "Pine Siskin",
+    "sci": "Spinus pinus",
+    "count": 10,
+    "seen": "2026-10-20 08:24",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
+    "near": "Wheeler Peak"
    },
    {
     "code": "redcro",
@@ -335,6 +407,18 @@
     "place": "Great Basin NP--Osceola Ditch Trail",
     "lat": 39.029,
     "lon": -114.267,
+    "notable": false,
+    "near": "Wheeler Peak"
+   },
+   {
+    "code": "rensap",
+    "name": "Red-naped Sapsucker",
+    "sci": "Sphyrapicus nuchalis",
+    "count": 4,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
     "notable": false,
     "near": "Wheeler Peak"
    },
@@ -402,11 +486,23 @@
     "code": "towsol",
     "name": "Townsend's Solitaire",
     "sci": "Myadestes townsendi",
+    "count": 3,
+    "seen": "2026-10-20 11:28",
+    "place": "Great Basin NP--Upper Lehman Campground",
+    "lat": 39.013,
+    "lon": -114.25,
+    "notable": false,
+    "near": "Wheeler Peak"
+   },
+   {
+    "code": "wesblu",
+    "name": "Western Bluebird",
+    "sci": "Sialia mexicana",
     "count": 1,
-    "seen": "2026-10-17 15:10",
-    "place": "Great Basin NP--Lower Lehman Creek Campground",
-    "lat": 39.017,
-    "lon": -114.238,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
     "notable": false,
     "near": "Wheeler Peak"
    },
@@ -438,13 +534,13 @@
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 4,
-    "seen": "2026-10-15 08:36",
-    "place": "Pruess Reservoir",
-    "lat": 38.885,
-    "lon": -114.014,
+    "count": 1,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
     "notable": false,
-    "near": "Lehman Caves Visitor Center"
+    "near": "Wheeler Peak"
    },
    {
     "code": "wiltur",
@@ -457,8 +553,19 @@
     "lon": -114.032,
     "notable": false,
     "near": "Wheeler Peak"
+   },
+   {
+    "code": "yerwar",
+    "name": "Yellow-rumped Warbler",
+    "sci": "Setophaga coronata",
+    "count": 1,
+    "seen": "2026-10-20 10:09",
+    "place": "Great Basin NP--Lehman Caves Visitor Center and Mountain View Nature Trail",
+    "lat": 39.006,
+    "lon": -114.22,
+    "notable": false,
+    "near": "Wheeler Peak"
    }
-  ],
-  "staleSince": "2026-10-21T04:59:21Z"
+  ]
  }
 }
