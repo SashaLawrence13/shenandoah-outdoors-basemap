@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T17:20:54Z",
+ "fetchedAt": "2026-10-21T21:50:13Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.5427,
     "lon": -107.6866,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 11:00 local"
+    "observed": "2026-10-21 15:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -29,10 +29,10 @@
     "lat": 38.5866,
     "lon": -107.705,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 11:00 local"
+    "observed": "2026-10-21 15:00 local"
    }
   ],
   "forecasts": [
@@ -99,14 +99,26 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "brnpel",
     "name": "Brown Pelican",
     "sci": "Pelecanus occidentalis",
     "count": 1,
-    "seen": "2026-10-20 15:30",
+    "seen": "2026-10-21 09:30",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": true,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "rebmer",
+    "name": "Red-breasted Merganser",
+    "sci": "Mergus serrator",
+    "count": 1,
+    "seen": "2026-10-21 09:30",
     "place": "Otter Pond area",
     "lat": 38.448,
     "lon": -107.858,
@@ -146,6 +158,30 @@
     "place": "Bostwick Park Road",
     "lat": 38.539,
     "lon": -107.753,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "amewig",
+    "name": "American Wigeon",
+    "sci": "Mareca americana",
+    "count": 2,
+    "seen": "2026-10-21 08:25",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "belkin1",
+    "name": "Belted Kingfisher",
+    "sci": "Megaceryle alcyon",
+    "count": 1,
+    "seen": "2026-10-21 08:25",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -222,18 +258,6 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "daejun",
-    "name": "Dark-eyed Junco",
-    "sci": "Junco hyemalis",
-    "count": null,
-    "seen": "2026-10-20 14:24",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "goleag",
     "name": "Golden Eagle",
     "sci": "Aquila chrysaetos",
@@ -246,11 +270,11 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "houfin",
-    "name": "House Finch",
-    "sci": "Haemorhous mexicanus",
-    "count": 5,
-    "seen": "2026-10-20 14:26",
+    "code": "grbher3",
+    "name": "Great Blue Heron",
+    "sci": "Ardea herodias",
+    "count": 1,
+    "seen": "2026-10-21 08:25",
     "place": "Otter Pond area",
     "lat": 38.448,
     "lon": -107.858,
@@ -258,10 +282,10 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "houspa",
-    "name": "House Sparrow",
-    "sci": "Passer domesticus",
-    "count": 7,
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 5,
     "seen": "2026-10-20 14:26",
     "place": "Otter Pond area",
     "lat": 38.448,
@@ -287,6 +311,18 @@
     "sci": "Charadrius vociferus",
     "count": 4,
     "seen": "2026-10-20 08:49",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 12,
+    "seen": "2026-10-21 08:25",
     "place": "Otter Pond area",
     "lat": 38.448,
     "lon": -107.858,
@@ -414,18 +450,6 @@
     "near": "North Rim Ranger Station"
    },
    {
-    "code": "turvul",
-    "name": "Turkey Vulture",
-    "sci": "Cathartes aura",
-    "count": 17,
-    "seen": "2026-10-14 11:25",
-    "place": "Cedar Creek Cemetery",
-    "lat": 38.484,
-    "lon": -107.85,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "wesblu",
     "name": "Western Bluebird",
     "sci": "Sialia mexicana",
@@ -473,7 +497,6 @@
     "notable": false,
     "near": "South Rim Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-21T17:20:54Z"
+  ]
  }
 }

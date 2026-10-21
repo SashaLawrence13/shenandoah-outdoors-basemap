@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T17:20:54Z",
+ "fetchedAt": "2026-10-21T21:50:13Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 19.4295,
     "lon": -155.2575,
-    "pollutant": "PM2.5",
-    "aqi": 30,
+    "pollutant": "O3",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 7:00 local"
+    "observed": "2026-10-21 11:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 7:00 local"
+    "observed": "2026-10-21 11:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 19.4934,
     "lon": -155.3843,
-    "pollutant": "PM2.5",
-    "aqi": 30,
+    "pollutant": "O3",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 7:00 local"
+    "observed": "2026-10-21 11:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "PM2.5",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 7:00 local"
+    "observed": "2026-10-21 11:00 local"
    }
   ],
   "forecasts": [
@@ -74,8 +74,8 @@
     "region": "havo",
     "source": "open-meteo",
     "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 32,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 31,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -134,7 +134,37 @@
     "region": "havo",
     "source": "open-meteo",
     "date": "2026-10-21",
+    "pollutant": "O3",
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mauna Loa Road",
+    "state": "HI",
+    "near": "havo-mauna-loa-road",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-10-22",
     "pollutant": "PM2.5",
+    "aqi": 30,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kahuku",
+    "state": "HI",
+    "near": "havo-kahuku",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-10-21",
+    "pollutant": "O3",
     "aqi": 32,
     "category": "Good",
     "level": 1,
@@ -142,36 +172,6 @@
     "discussion": ""
    },
    {
-    "area": "Mauna Loa Road",
-    "state": "HI",
-    "near": "havo-mauna-loa-road",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "PM2.5",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Kahuku",
-    "state": "HI",
-    "near": "havo-kahuku",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
     "area": "Kahuku",
     "state": "HI",
     "near": "havo-kahuku",
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 36,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "apapan",
@@ -209,18 +209,6 @@
     "sci": "Anous minutus",
     "count": 7,
     "seen": "2026-10-20 17:17",
-    "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
-    "lat": 19.295,
-    "lon": -155.098,
-    "notable": false,
-    "near": "Kīlauea Visitor Center"
-   },
-   {
-    "code": "brnnod",
-    "name": "Brown Noddy",
-    "sci": "Anous stolidus",
-    "count": 1,
-    "seen": "2026-10-14 13:53",
     "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
     "lat": 19.295,
     "lon": -155.098,
@@ -467,7 +455,6 @@
     "notable": false,
     "near": "Kahuku"
    }
-  ],
-  "staleSince": "2026-10-21T17:20:54Z"
+  ]
  }
 }

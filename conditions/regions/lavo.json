@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T17:20:54Z",
+ "fetchedAt": "2026-10-21T21:50:13Z",
  "region": "lavo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 40.4378,
     "lon": -121.5337,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 10:00 local"
+    "observed": "2026-10-21 14:00 local"
    },
    {
     "area": "Manzanita Lake",
@@ -29,10 +29,10 @@
     "lat": 40.5375,
     "lon": -121.5636,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 10:00 local"
+    "observed": "2026-10-21 14:00 local"
    },
    {
     "area": "Butte Lake",
@@ -44,10 +44,10 @@
     "lat": 40.564,
     "lon": -121.302,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 10:00 local"
+    "observed": "2026-10-21 14:00 local"
    },
    {
     "area": "Warner Valley",
@@ -59,10 +59,10 @@
     "lat": 40.4419,
     "lon": -121.3935,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 10:00 local"
+    "observed": "2026-10-21 14:00 local"
    }
   ],
   "forecasts": [
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +135,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,7 +150,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-10-21",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,17 +189,41 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "eurwig",
+    "name": "Eurasian Wigeon",
+    "sci": "Mareca penelope",
+    "count": 1,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
+    "notable": true,
+    "near": "Southwest entrance"
+   },
    {
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
     "count": 2,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
+    "notable": false,
+    "near": "Southwest entrance"
+   },
+   {
+    "code": "amewig",
+    "name": "American Wigeon",
+    "sci": "Mareca americana",
+    "count": 9,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -212,6 +236,18 @@
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
+    "notable": false,
+    "near": "Southwest entrance"
+   },
+   {
+    "code": "belkin1",
+    "name": "Belted Kingfisher",
+    "sci": "Megaceryle alcyon",
+    "count": 1,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -231,11 +267,23 @@
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
-    "count": 4,
-    "seen": "2026-10-18 08:33",
-    "place": "Lassen Volcanic NP--Manzanita Lake",
-    "lat": 40.532,
-    "lon": -121.566,
+    "count": 1,
+    "seen": "2026-10-20 08:05",
+    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
+    "lat": 40.431,
+    "lon": -121.536,
+    "notable": false,
+    "near": "Southwest entrance"
+   },
+   {
+    "code": "cangoo",
+    "name": "Canada Goose",
+    "sci": "Branta canadensis",
+    "count": 3,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -267,11 +315,23 @@
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
-    "count": 2,
-    "seen": "2026-10-19 08:09",
+    "count": 5,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
+    "notable": false,
+    "near": "Butte Lake"
+   },
+   {
+    "code": "commer",
+    "name": "Common Merganser",
+    "sci": "Mergus merganser",
+    "count": 13,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -279,35 +339,23 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 3,
-    "seen": "2026-10-19 08:09",
+    "count": 2,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 12,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
-    "notable": false,
-    "near": "Southwest entrance"
-   },
-   {
-    "code": "evegro",
-    "name": "Evening Grosbeak",
-    "sci": "Hesperiphona vespertina",
-    "count": 2,
-    "seen": "2026-10-14 08:28",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 3,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -351,11 +399,11 @@
     "code": "haiwoo",
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
-    "count": 2,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 1,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -363,59 +411,47 @@
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
-    "count": 3,
-    "seen": "2026-10-19 08:09",
+    "count": 7,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 2,
-    "seen": "2026-10-19 08:09",
+    "count": 3,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 3,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 1,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
    {
-    "code": "pacwre1",
-    "name": "Pacific Wren",
-    "sci": "Troglodytes pacificus",
-    "count": 1,
-    "seen": "2026-10-14 12:06",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
-    "notable": false,
-    "near": "Southwest entrance"
-   },
-   {
-    "code": "perfal",
-    "name": "Peregrine Falcon",
-    "sci": "Falco peregrinus",
-    "count": 1,
-    "seen": "2026-10-14 12:06",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "code": "nswowl",
+    "name": "Northern Saw-whet Owl",
+    "sci": "Aegolius acadicus",
+    "count": 2,
+    "seen": "2026-10-20 06:29",
+    "place": "Lassen Volcanic Scenic Byway--Hwy 89 (TEH Co.) from Hwy 36E to park boundary",
+    "lat": 40.396,
+    "lon": -121.525,
     "notable": false,
     "near": "Southwest entrance"
    },
@@ -429,7 +465,7 @@
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "pygnut",
@@ -456,16 +492,16 @@
     "near": "Southwest entrance"
    },
    {
-    "code": "rethaw",
-    "name": "Red-tailed Hawk",
-    "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-10-14 12:06",
+    "code": "rebnut",
+    "name": "Red-breasted Nuthatch",
+    "sci": "Sitta canadensis",
+    "count": 2,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "rewbla",
@@ -480,23 +516,23 @@
     "near": "Southwest entrance"
    },
    {
-    "code": "ruckin",
-    "name": "Ruby-crowned Kinglet",
-    "sci": "Corthylio calendula",
-    "count": 4,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "code": "rinduc",
+    "name": "Ring-necked Duck",
+    "sci": "Aythya collaris",
+    "count": 2,
+    "seen": "2026-10-21 09:12",
+    "place": "Lassen Volcanic NP--Summit Lake",
+    "lat": 40.491,
+    "lon": -121.424,
     "notable": false,
     "near": "Southwest entrance"
    },
    {
-    "code": "sancra",
-    "name": "Sandhill Crane",
-    "sci": "Antigone canadensis",
-    "count": 210,
-    "seen": "2026-10-14 12:06",
+    "code": "ruckin",
+    "name": "Ruby-crowned Kinglet",
+    "sci": "Corthylio calendula",
+    "count": 16,
+    "seen": "2026-10-20 08:05",
     "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
     "lat": 40.431,
     "lon": -121.536,
@@ -528,6 +564,30 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "stejay",
+    "name": "Steller's Jay",
+    "sci": "Cyanocitta stelleri",
+    "count": 1,
+    "seen": "2026-10-20 08:05",
+    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
+    "lat": 40.431,
+    "lon": -121.536,
+    "notable": false,
+    "near": "Butte Lake"
+   },
+   {
+    "code": "varthr",
+    "name": "Varied Thrush",
+    "sci": "Ixoreus naevius",
+    "count": 3,
+    "seen": "2026-10-20 08:05",
+    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
+    "lat": 40.431,
+    "lon": -121.536,
+    "notable": false,
+    "near": "Southwest entrance"
+   },
+   {
     "code": "wesblu",
     "name": "Western Bluebird",
     "sci": "Sialia mexicana",
@@ -549,19 +609,19 @@
     "lat": 40.532,
     "lon": -121.566,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "whhwoo",
     "name": "White-headed Woodpecker",
     "sci": "Leuconotopicus albolarvatus",
-    "count": 2,
-    "seen": "2026-10-18 08:33",
-    "place": "Lassen Volcanic NP--Manzanita Lake",
-    "lat": 40.532,
-    "lon": -121.566,
+    "count": 1,
+    "seen": "2026-10-20 08:05",
+    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
+    "lat": 40.431,
+    "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    },
    {
     "code": "yerwar",
@@ -573,9 +633,8 @@
     "lat": 40.431,
     "lon": -121.536,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Butte Lake"
    }
-  ],
-  "staleSince": "2026-10-21T17:20:54Z"
+  ]
  }
 }
