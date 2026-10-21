@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-20T23:57:12Z",
+ "fetchedAt": "2026-10-21T04:59:21Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.4646,
     "lon": -80.3349,
     "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-20 19:00 local"
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-21 0:00 local"
    },
    {
     "area": "Elliott Key",
@@ -29,28 +29,13 @@
     "lat": 25.4532,
     "lon": -80.1966,
     "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-20 19:00 local"
+    "observed": "2026-10-21 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Convoy Point",
-    "state": "FL",
-    "near": "bisc-convoy",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-10-20",
-    "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Convoy Point",
     "state": "FL",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Elliott Key",
+    "area": "Convoy Point",
     "state": "FL",
-    "near": "bisc-elliott",
+    "near": "bisc-convoy",
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-10-20",
+    "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 53,
+    "aqi": 56,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 2,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 56,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "aldfly",
@@ -1829,6 +1829,7 @@
     "notable": false,
     "near": "Convoy Point"
    }
-  ]
+  ],
+  "staleSince": "2026-10-21T04:59:21Z"
  }
 }
