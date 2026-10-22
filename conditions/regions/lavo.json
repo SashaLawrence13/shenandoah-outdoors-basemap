@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-22T05:02:19Z",
+ "fetchedAt": "2026-10-22T12:05:05Z",
  "region": "lavo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 40.4378,
     "lon": -121.5337,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Manzanita Lake",
@@ -29,10 +29,10 @@
     "lat": 40.5375,
     "lon": -121.5636,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Butte Lake",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 40.564,
     "lon": -121.302,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Warner Valley",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 40.4419,
     "lon": -121.3935,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "lavo",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 41,
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "lavo",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Manzanita Lake",
-    "state": "CA",
-    "near": "lavo-manzanita",
-    "side": "forest",
-    "region": "lavo",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -119,23 +104,23 @@
     "region": "lavo",
     "source": "open-meteo",
     "date": "2026-10-22",
-    "pollutant": "O3",
-    "aqi": 36,
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Butte Lake",
+    "area": "Manzanita Lake",
     "state": "CA",
-    "near": "lavo-butte-lake",
+    "near": "lavo-manzanita",
     "side": "forest",
     "region": "lavo",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Warner Valley",
+    "area": "Butte Lake",
     "state": "CA",
-    "near": "lavo-warner",
+    "near": "lavo-butte-lake",
     "side": "forest",
     "region": "lavo",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Warner Valley",
+    "state": "CA",
+    "near": "lavo-warner",
+    "side": "forest",
+    "region": "lavo",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "O3",
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,55 +189,79 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "eurwig",
     "name": "Eurasian Wigeon",
     "sci": "Mareca penelope",
     "count": 1,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": true,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
+   },
+   {
+    "code": "ameavo",
+    "name": "American Avocet",
+    "sci": "Recurvirostra americana",
+    "count": 1,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "y00475",
+    "name": "American Coot",
+    "sci": "Fulica americana",
+    "count": 2500,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 2,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "count": 6,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "amewig",
     "name": "American Wigeon",
     "sci": "Mareca americana",
-    "count": 9,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "count": 750,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
     "count": 1,
-    "seen": "2026-10-15 11:14",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "belkin1",
@@ -264,6 +288,18 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "brebla",
+    "name": "Brewer's Blackbird",
+    "sci": "Euphagus cyanocephalus",
+    "count": 22,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
@@ -274,6 +310,42 @@
     "lon": -121.536,
     "notable": false,
     "near": "Southwest entrance"
+   },
+   {
+    "code": "buffle",
+    "name": "Bufflehead",
+    "sci": "Bucephala albeola",
+    "count": 15,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "calgul",
+    "name": "California Gull",
+    "sci": "Larus californicus",
+    "count": 1,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "calqua",
+    "name": "California Quail",
+    "sci": "Callipepla californica",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "cangoo",
@@ -298,6 +370,18 @@
     "lon": -121.566,
     "notable": false,
     "near": "Southwest entrance"
+   },
+   {
+    "code": "canvas",
+    "name": "Canvasback",
+    "sci": "Aythya valisineria",
+    "count": 90,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "casfin",
@@ -327,25 +411,25 @@
     "code": "commer",
     "name": "Common Merganser",
     "sci": "Mergus merganser",
-    "count": 13,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "count": 1,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-10-20 08:05",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 4,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": false,
-    "near": "Butte Lake"
+    "near": "Warner Valley"
    },
    {
     "code": "daejun",
@@ -360,6 +444,54 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "doccor",
+    "name": "Double-crested Cormorant",
+    "sci": "Nannopterum auritum",
+    "count": 65,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "dowwoo",
+    "name": "Downy Woodpecker",
+    "sci": "Dryobates pubescens",
+    "count": 2,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "eargre",
+    "name": "Eared Grebe",
+    "sci": "Podiceps nigricollis",
+    "count": 2,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "eucdov",
+    "name": "Eurasian Collared-Dove",
+    "sci": "Streptopelia decaocto",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "foxspa",
     "name": "Fox Sparrow",
     "sci": "Passerella iliaca",
@@ -370,6 +502,18 @@
     "lon": -121.566,
     "notable": false,
     "near": "Southwest entrance"
+   },
+   {
+    "code": "gadwal",
+    "name": "Gadwall",
+    "sci": "Mareca strepera",
+    "count": 500,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "gockin",
@@ -387,13 +531,49 @@
     "code": "gocspa",
     "name": "Golden-crowned Sparrow",
     "sci": "Zonotrichia atricapilla",
-    "count": 7,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 8,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
+   },
+   {
+    "code": "grbher3",
+    "name": "Great Blue Heron",
+    "sci": "Ardea herodias",
+    "count": 4,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "greegr",
+    "name": "Great Egret",
+    "sci": "Ardea alba",
+    "count": 5,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "gnwtea",
+    "name": "Green-winged Teal",
+    "sci": "Anas crecca",
+    "count": 60,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "haiwoo",
@@ -411,37 +591,145 @@
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
-    "count": 7,
-    "seen": "2026-10-20 08:05",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Butte Lake"
+    "near": "Warner Valley"
+   },
+   {
+    "code": "hoomer",
+    "name": "Hooded Merganser",
+    "sci": "Lophodytes cucullatus",
+    "count": 9,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "killde",
+    "name": "Killdeer",
+    "sci": "Charadrius vociferus",
+    "count": 1,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "lesgol",
+    "name": "Lesser Goldfinch",
+    "sci": "Spinus psaltria",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "lessca",
+    "name": "Lesser Scaup",
+    "sci": "Aythya affinis",
+    "count": 3,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "linspa",
+    "name": "Lincoln's Sparrow",
+    "sci": "Melospiza lincolnii",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "lobdow",
+    "name": "Long-billed Dowitcher",
+    "sci": "Limnodromus scolopaceus",
+    "count": 11,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 90,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "marwre",
+    "name": "Marsh Wren",
+    "sci": "Cistothorus palustris",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 3,
-    "seen": "2026-10-20 08:05",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 2,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Butte Lake"
+    "near": "Warner Valley"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
     "count": 1,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
+   },
+   {
+    "code": "norpin",
+    "name": "Northern Pintail",
+    "sci": "Anas acuta",
+    "count": 300,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "nswowl",
@@ -454,6 +742,42 @@
     "lon": -121.525,
     "notable": false,
     "near": "Southwest entrance"
+   },
+   {
+    "code": "norsho",
+    "name": "Northern Shoveler",
+    "sci": "Spatula clypeata",
+    "count": 350,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "pacwre1",
+    "name": "Pacific Wren",
+    "sci": "Troglodytes pacificus",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "pibgre",
+    "name": "Pied-billed Grebe",
+    "sci": "Podilymbus podiceps",
+    "count": 11,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "pinsis",
@@ -516,40 +840,76 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "redhea",
+    "name": "Redhead",
+    "sci": "Aythya americana",
+    "count": 9,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
+    "code": "ribgul",
+    "name": "Ring-billed Gull",
+    "sci": "Larus delawarensis",
+    "count": 65,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "rinduc",
     "name": "Ring-necked Duck",
     "sci": "Aythya collaris",
-    "count": 2,
-    "seen": "2026-10-21 09:12",
-    "place": "Lassen Volcanic NP--Summit Lake",
-    "lat": 40.491,
-    "lon": -121.424,
+    "count": 6,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 16,
-    "seen": "2026-10-20 08:05",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 9,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
+   },
+   {
+    "code": "rudduc",
+    "name": "Ruddy Duck",
+    "sci": "Oxyura jamaicensis",
+    "count": 120,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "sonspa",
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
-    "count": 1,
-    "seen": "2026-10-18 08:33",
-    "place": "Lassen Volcanic NP--Manzanita Lake",
-    "lat": 40.532,
-    "lon": -121.566,
+    "count": 2,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Southwest entrance"
+    "near": "Warner Valley"
    },
    {
     "code": "soogro1",
@@ -564,16 +924,28 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "spotow",
+    "name": "Spotted Towhee",
+    "sci": "Pipilo maculatus",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "stejay",
     "name": "Steller's Jay",
     "sci": "Cyanocitta stelleri",
-    "count": 1,
-    "seen": "2026-10-20 08:05",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 2,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Butte Lake"
+    "near": "Warner Valley"
    },
    {
     "code": "varthr",
@@ -588,6 +960,18 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "virrai",
+    "name": "Virginia Rail",
+    "sci": "Rallus limicola",
+    "count": 1,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "wesblu",
     "name": "Western Bluebird",
     "sci": "Sialia mexicana",
@@ -600,6 +984,18 @@
     "near": "Southwest entrance"
    },
    {
+    "code": "wesgre",
+    "name": "Western Grebe",
+    "sci": "Aechmophorus occidentalis",
+    "count": 10,
+    "seen": "2026-10-21 14:46",
+    "place": "Lake Almanor--Hwy 36 Causeway",
+    "lat": 40.313,
+    "lon": -121.204,
+    "notable": false,
+    "near": "Warner Valley"
+   },
+   {
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
@@ -610,6 +1006,18 @@
     "lon": -121.566,
     "notable": false,
     "near": "Butte Lake"
+   },
+   {
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": 5,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
+    "notable": false,
+    "near": "Warner Valley"
    },
    {
     "code": "whhwoo",
@@ -627,15 +1035,14 @@
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
-    "count": 2,
-    "seen": "2026-10-19 08:09",
-    "place": "Lassen Volcanic NP--Brokeoff Mountain Trail",
-    "lat": 40.431,
-    "lon": -121.536,
+    "count": 4,
+    "seen": "2026-10-21 16:54",
+    "place": "Chester railroad grade",
+    "lat": 40.305,
+    "lon": -121.22,
     "notable": false,
-    "near": "Butte Lake"
+    "near": "Warner Valley"
    }
-  ],
-  "staleSince": "2026-10-22T05:02:19Z"
+  ]
  }
 }

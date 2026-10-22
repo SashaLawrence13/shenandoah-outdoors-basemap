@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-22T05:02:19Z",
+ "fetchedAt": "2026-10-22T12:05:05Z",
  "region": "noca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 48.6665,
     "lon": -121.2663,
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Colonial Creek and Diablo Lake",
@@ -29,10 +29,10 @@
     "lat": 48.6916,
     "lon": -121.1006,
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Cascade Pass trailhead",
@@ -44,10 +44,10 @@
     "lat": 48.4756,
     "lon": -121.0751,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Stehekin",
@@ -59,10 +59,10 @@
     "lat": 48.3094,
     "lon": -120.6573,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    }
   ],
   "forecasts": [
@@ -73,7 +73,7 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
     "aqi": 41,
     "category": "Good",
@@ -88,9 +88,9 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "O3",
-    "aqi": 42,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -103,7 +103,7 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
     "aqi": 41,
     "category": "Good",
@@ -118,24 +118,9 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cascade Pass trailhead",
-    "state": "WA",
-    "near": "noca-cascade-pass",
-    "side": "forest",
-    "region": "noca",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 40,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,24 +135,24 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Stehekin",
+    "area": "Cascade Pass trailhead",
     "state": "WA",
-    "near": "noca-stehekin",
+    "near": "noca-cascade-pass",
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 43,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Stehekin",
+    "state": "WA",
+    "near": "noca-stehekin",
+    "side": "forest",
+    "region": "noca",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "attwoo1",
@@ -238,6 +238,30 @@
     "lon": -120.82,
     "notable": false,
     "near": "Colonial Creek and Diablo Lake"
+   },
+   {
+    "code": "brdowl",
+    "name": "Barred Owl",
+    "sci": "Strix varia",
+    "count": 1,
+    "seen": "2026-10-19 18:27",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
+   },
+   {
+    "code": "belkin1",
+    "name": "Belted Kingfisher",
+    "sci": "Megaceryle alcyon",
+    "count": 2,
+    "seen": "2026-10-20 09:30",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
    },
    {
     "code": "bkbwoo",
@@ -291,13 +315,13 @@
     "code": "gryjay",
     "name": "Canada Jay",
     "sci": "Perisoreus canadensis",
-    "count": 3,
-    "seen": "2026-10-20 07:58",
-    "place": "Easy Pass",
-    "lat": 48.584,
-    "lon": -120.82,
+    "count": 2,
+    "seen": "2026-10-21 13:03",
+    "place": "Washington Pass (Okanogan Co.)",
+    "lat": 48.526,
+    "lon": -120.647,
     "notable": false,
-    "near": "Colonial Creek and Diablo Lake"
+    "near": "Stehekin"
    },
    {
     "code": "canwre",
@@ -315,25 +339,25 @@
     "code": "chbchi",
     "name": "Chestnut-backed Chickadee",
     "sci": "Poecile rufescens",
-    "count": 3,
-    "seen": "2026-10-20 07:58",
-    "place": "Easy Pass",
-    "lat": 48.584,
-    "lon": -120.82,
+    "count": 1,
+    "seen": "2026-10-20 09:30",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
     "notable": false,
-    "near": "Colonial Creek and Diablo Lake"
+    "near": "Stehekin"
    },
    {
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
-    "count": 1,
-    "seen": "2026-10-20 07:58",
-    "place": "Easy Pass",
-    "lat": 48.584,
-    "lon": -120.82,
+    "count": 2,
+    "seen": "2026-10-21 13:03",
+    "place": "Washington Pass (Okanogan Co.)",
+    "lat": 48.526,
+    "lon": -120.647,
     "notable": false,
-    "near": "Colonial Creek and Diablo Lake"
+    "near": "Stehekin"
    },
    {
     "code": "commer",
@@ -396,6 +420,18 @@
     "near": "Newhalem"
    },
    {
+    "code": "grbher3",
+    "name": "Great Blue Heron",
+    "sci": "Ardea herodias",
+    "count": 1,
+    "seen": "2026-10-19 18:27",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
+   },
+   {
     "code": "haiwoo",
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
@@ -430,6 +466,30 @@
     "lon": -120.82,
     "notable": false,
     "near": "Colonial Creek and Diablo Lake"
+   },
+   {
+    "code": "nopowl",
+    "name": "Northern Pygmy-Owl",
+    "sci": "Glaucidium gnoma",
+    "count": 1,
+    "seen": "2026-10-19 18:27",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
+   },
+   {
+    "code": "nswowl",
+    "name": "Northern Saw-whet Owl",
+    "sci": "Aegolius acadicus",
+    "count": 1,
+    "seen": "2026-10-19 18:27",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
    },
    {
     "code": "pacwre1",
@@ -496,12 +556,12 @@
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
     "count": 1,
-    "seen": "2026-10-15 11:18",
-    "place": "Diablo Lake",
-    "lat": 48.717,
-    "lon": -121.122,
+    "seen": "2026-10-19 17:33",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
     "notable": false,
-    "near": "Newhalem"
+    "near": "Stehekin"
    },
    {
     "code": "varthr",
@@ -526,8 +586,19 @@
     "lon": -120.671,
     "notable": false,
     "near": "Stehekin"
+   },
+   {
+    "code": "wooduc",
+    "name": "Wood Duck",
+    "sci": "Aix sponsa",
+    "count": 1,
+    "seen": "2026-10-20 09:30",
+    "place": "Stehekin--Company Creek Road",
+    "lat": 48.349,
+    "lon": -120.719,
+    "notable": false,
+    "near": "Stehekin"
    }
-  ],
-  "staleSince": "2026-10-22T05:02:19Z"
+  ]
  }
 }

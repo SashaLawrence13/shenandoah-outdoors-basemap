@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-22T05:02:19Z",
+ "fetchedAt": "2026-10-22T12:05:05Z",
  "region": "pefo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 35.0658,
     "lon": -109.7808,
     "pollutant": "O3",
-    "aqi": 28,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    },
    {
     "area": "Rainbow Forest Museum",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 34.8152,
     "lon": -109.8658,
-    "pollutant": "O3",
-    "aqi": 32,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 22:00 local"
+    "observed": "2026-10-22 5:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,7 +73,7 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
     "aqi": 33,
     "category": "Good",
@@ -88,9 +88,9 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,8 +99,32 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "amekes",
+    "name": "American Kestrel",
+    "sci": "Falco sparverius",
+    "count": 2,
+    "seen": "2026-10-21 14:44",
+    "place": "Petrified Forest NP--Nizhoni Point",
+    "lat": 35.069,
+    "lon": -109.795,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "amepip",
+    "name": "American Pipit",
+    "sci": "Anthus rubescens",
+    "count": 2,
+    "seen": "2026-10-21 16:03",
+    "place": "Petrified Forest NP--Crystal Forest",
+    "lat": 34.864,
+    "lon": -109.791,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
    {
     "code": "amerob",
     "name": "American Robin",
@@ -122,6 +146,90 @@
     "place": "Petrified Forest NP--Painted Desert Inn",
     "lat": 35.084,
     "lon": -109.789,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "chispa",
+    "name": "Chipping Sparrow",
+    "sci": "Spizella passerina",
+    "count": 2,
+    "seen": "2026-10-21 15:19",
+    "place": "Petrified Forest NP--Jasper Forest",
+    "lat": 34.888,
+    "lon": -109.807,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "comrav",
+    "name": "Common Raven",
+    "sci": "Corvus corax",
+    "count": 1,
+    "seen": "2026-10-21 16:03",
+    "place": "Petrified Forest NP--Crystal Forest",
+    "lat": 34.864,
+    "lon": -109.791,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 12,
+    "seen": "2026-10-21 15:19",
+    "place": "Petrified Forest NP--Jasper Forest",
+    "lat": 34.888,
+    "lon": -109.807,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "horlar",
+    "name": "Horned Lark",
+    "sci": "Eremophila alpestris",
+    "count": 3,
+    "seen": "2026-10-21 16:03",
+    "place": "Petrified Forest NP--Crystal Forest",
+    "lat": 34.864,
+    "lon": -109.791,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 2,
+    "seen": "2026-10-21 15:19",
+    "place": "Petrified Forest NP--Jasper Forest",
+    "lat": 34.888,
+    "lon": -109.807,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "logshr",
+    "name": "Loggerhead Shrike",
+    "sci": "Lanius ludovicianus",
+    "count": 1,
+    "seen": "2026-10-21 14:44",
+    "place": "Petrified Forest NP--Nizhoni Point",
+    "lat": 35.069,
+    "lon": -109.795,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
+   },
+   {
+    "code": "moublu",
+    "name": "Mountain Bluebird",
+    "sci": "Sialia currucoides",
+    "count": 2,
+    "seen": "2026-10-21 12:53",
+    "place": "Petrified Forest NP--Blue Mesa",
+    "lat": 34.939,
+    "lon": -109.756,
     "notable": false,
     "near": "Painted Desert Visitor Center"
    },
@@ -160,8 +268,19 @@
     "lon": -109.864,
     "notable": false,
     "near": "Rainbow Forest Museum"
+   },
+   {
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": 1,
+    "seen": "2026-10-21 15:19",
+    "place": "Petrified Forest NP--Jasper Forest",
+    "lat": 34.888,
+    "lon": -109.807,
+    "notable": false,
+    "near": "Painted Desert Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-22T05:02:19Z"
+  ]
  }
 }

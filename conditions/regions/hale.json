@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-22T05:02:19Z",
+ "fetchedAt": "2026-10-22T12:05:05Z",
  "region": "hale",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 20.7147,
     "lon": -156.2502,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 19:00 local"
+    "observed": "2026-10-22 2:00 local"
    },
    {
     "area": "Hosmer Grove",
@@ -29,10 +29,10 @@
     "lat": 20.769,
     "lon": -156.235,
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 19:00 local"
+    "observed": "2026-10-22 2:00 local"
    },
    {
     "area": "Kīpahulu Visitor Center",
@@ -44,10 +44,10 @@
     "lat": 20.6617,
     "lon": -156.0447,
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-21 19:00 local"
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-22 2:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,7 +88,37 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hosmer Grove",
+    "state": "HI",
+    "near": "hale-hosmer",
+    "side": "forest",
+    "region": "hale",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kīpahulu Visitor Center",
+    "state": "HI",
+    "near": "hale-kipahulu",
+    "side": "forest",
+    "region": "hale",
+    "source": "open-meteo",
+    "date": "2026-10-22",
     "pollutant": "PM2.5",
     "aqi": 50,
     "category": "Good",
@@ -97,54 +127,24 @@
     "discussion": ""
    },
    {
-    "area": "Hosmer Grove",
+    "area": "Kīpahulu Visitor Center",
     "state": "HI",
-    "near": "hale-hosmer",
+    "near": "hale-kipahulu",
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "PM2.5",
     "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
-   },
-   {
-    "area": "Kīpahulu Visitor Center",
-    "state": "HI",
-    "near": "hale-kipahulu",
-    "side": "forest",
-    "region": "hale",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Kīpahulu Visitor Center",
-    "state": "HI",
-    "near": "hale-kipahulu",
-    "side": "forest",
-    "region": "hale",
-    "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "bkbplo",
@@ -199,7 +199,7 @@
     "name": "African Silverbill",
     "sci": "Euodice cantans",
     "count": 2,
-    "seen": "2026-10-15 08:41",
+    "seen": "2026-10-21 06:19",
     "place": "Kamaʻole Beach Park III",
     "lat": 20.713,
     "lon": -156.446,
@@ -228,7 +228,7 @@
     "lat": 20.768,
     "lon": -156.237,
     "notable": false,
-    "near": "Haleakalā Visitor Center"
+    "near": "Kīpahulu Visitor Center"
    },
    {
     "code": "blknod",
@@ -239,6 +239,30 @@
     "place": "Ke'anae Peninsula",
     "lat": 20.863,
     "lon": -156.144,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "bcnher",
+    "name": "Black-crowned Night Heron",
+    "sci": "Nycticorax nycticorax",
+    "count": 2,
+    "seen": "2026-10-21 08:46",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "bknsti",
+    "name": "Black-necked Stilt",
+    "sci": "Himantopus mexicanus",
+    "count": 50,
+    "seen": "2026-10-21 08:46",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
     "notable": false,
     "near": "Haleakalā Visitor Center"
    },
@@ -267,11 +291,35 @@
     "near": "Kīpahulu Visitor Center"
    },
    {
+    "code": "comwax",
+    "name": "Common Waxbill",
+    "sci": "Estrilda astrild",
+    "count": 3,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "gryfra",
+    "name": "Gray Francolin",
+    "sci": "Ortygornis pondicerianus",
+    "count": 3,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
     "code": "grefri",
     "name": "Great Frigatebird",
     "sci": "Fregata minor",
-    "count": 3,
-    "seen": "2026-10-17 10:24",
+    "count": 1,
+    "seen": "2026-10-21 11:53",
     "place": "Ke'anae Peninsula",
     "lat": 20.863,
     "lon": -156.144,
@@ -287,6 +335,18 @@
     "place": "Haleakala NP--Hosmer Grove",
     "lat": 20.768,
     "lon": -156.237,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "hawcoo",
+    "name": "Hawaiian Coot",
+    "sci": "Fulica alai",
+    "count": 1,
+    "seen": "2026-10-21 08:46",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
     "notable": false,
     "near": "Haleakalā Visitor Center"
    },
@@ -327,6 +387,30 @@
     "near": "Haleakalā Visitor Center"
    },
    {
+    "code": "compea",
+    "name": "Indian Peafowl",
+    "sci": "Pavo cristatus",
+    "count": 1,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "javspa",
+    "name": "Java Sparrow",
+    "sci": "Padda oryzivora",
+    "count": 4,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
     "code": "lobdow",
     "name": "Long-billed Dowitcher",
     "sci": "Limnodromus scolopaceus",
@@ -335,6 +419,18 @@
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "norcar",
+    "name": "Northern Cardinal",
+    "sci": "Cardinalis cardinalis",
+    "count": 2,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
     "notable": false,
     "near": "Haleakalā Visitor Center"
    },
@@ -366,8 +462,8 @@
     "code": "redjun",
     "name": "Red Junglefowl",
     "sci": "Gallus gallus",
-    "count": 2,
-    "seen": "2026-10-17 17:25",
+    "count": 6,
+    "seen": "2026-10-21 06:19",
     "place": "Kamaʻole Beach Park III",
     "lat": 20.713,
     "lon": -156.446,
@@ -423,11 +519,71 @@
     "near": "Haleakalā Visitor Center"
    },
    {
+    "code": "rocpig",
+    "name": "Rock Pigeon",
+    "sci": "Columba livia",
+    "count": 2,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "peflov",
+    "name": "Rosy-faced Lovebird",
+    "sci": "Agapornis roseicollis",
+    "count": 1,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "saffin",
+    "name": "Saffron Finch",
+    "sci": "Sicalis flaveola",
+    "count": 2,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
     "code": "sander",
     "name": "Sanderling",
     "sci": "Calidris alba",
     "count": 4,
     "seen": "2026-10-19 10:24",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "nutman",
+    "name": "Scaly-breasted Munia",
+    "sci": "Lonchura punctulata",
+    "count": 2,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "wantat1",
+    "name": "Wandering Tattler",
+    "sci": "Tringa incana",
+    "count": 3,
+    "seen": "2026-10-21 08:46",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -462,13 +618,13 @@
     "code": "categr1",
     "name": "Western Cattle-Egret",
     "sci": "Ardea ibis",
-    "count": 1,
-    "seen": "2026-10-17 10:24",
-    "place": "Ke'anae Peninsula",
-    "lat": 20.863,
-    "lon": -156.144,
+    "count": 3,
+    "seen": "2026-10-21 08:46",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
     "notable": false,
-    "near": "Kīpahulu Visitor Center"
+    "near": "Haleakalā Visitor Center"
    },
    {
     "code": "whttro",
@@ -481,8 +637,19 @@
     "lon": -156.043,
     "notable": false,
     "near": "Kīpahulu Visitor Center"
+   },
+   {
+    "code": "zebdov",
+    "name": "Zebra Dove",
+    "sci": "Geopelia striata",
+    "count": 3,
+    "seen": "2026-10-21 06:19",
+    "place": "Kamaʻole Beach Park III",
+    "lat": 20.713,
+    "lon": -156.446,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-22T05:02:19Z"
+  ]
  }
 }
