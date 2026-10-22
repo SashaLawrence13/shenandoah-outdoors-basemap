@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "wvsp",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 39.6365,
     "lon": -79.8158,
     "pollutant": "PM2.5",
-    "aqi": 66,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    },
    {
     "area": "Cathedral State Park picnic area",
@@ -29,28 +29,13 @@
     "lat": 39.3255,
     "lon": -79.5385,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Coopers Rock Overlook",
-    "state": "WV",
-    "near": "wvsp-coopers-rock-overlook",
-    "side": "forest",
-    "region": "wvsp",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 69,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Coopers Rock Overlook",
     "state": "WV",
@@ -67,17 +52,17 @@
     "discussion": ""
    },
    {
-    "area": "Cathedral State Park picnic area",
+    "area": "Coopers Rock Overlook",
     "state": "WV",
-    "near": "wvsp-cathedral-picnic",
+    "near": "wvsp-coopers-rock-overlook",
     "side": "forest",
     "region": "wvsp",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 87,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Cathedral State Park picnic area",
+    "state": "WV",
+    "near": "wvsp-cathedral-picnic",
+    "side": "forest",
+    "region": "wvsp",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "barswa",
@@ -881,6 +881,7 @@
     "notable": false,
     "near": "Coopers Rock Overlook"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }

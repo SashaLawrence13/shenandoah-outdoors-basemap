@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "jeff",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 38.6247,
     "lon": -90.1849,
     "pollutant": "PM2.5",
-    "aqi": 57,
+    "aqi": 66,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Gateway Arch",
-    "state": "MO",
-    "near": "jeff-arch",
-    "side": "forest",
-    "region": "jeff",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 64,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Gateway Arch",
     "state": "MO",
@@ -50,11 +35,26 @@
     "level": 2,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Gateway Arch",
+    "state": "MO",
+    "near": "jeff-arch",
+    "side": "forest",
+    "region": "jeff",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 87,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "blkvul",
@@ -1304,6 +1304,7 @@
     "notable": false,
     "near": "Gateway Arch"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }

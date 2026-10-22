@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "voya",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 48.5841,
     "lon": -93.1621,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    },
    {
     "area": "Kabetogama Lake",
@@ -29,10 +29,10 @@
     "lat": 48.4341,
     "lon": -92.8503,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    },
    {
     "area": "Crane Lake and Sand Point Lake",
@@ -44,28 +44,13 @@
     "lat": 48.36,
     "lon": -92.5,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Rainy Lake Visitor Center",
-    "state": "MN",
-    "near": "voya-rainy-lake",
-    "side": "forest",
-    "region": "voya",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Rainy Lake Visitor Center",
     "state": "MN",
@@ -82,17 +67,17 @@
     "discussion": ""
    },
    {
-    "area": "Kabetogama Lake",
+    "area": "Rainy Lake Visitor Center",
     "state": "MN",
-    "near": "voya-kabetogama",
+    "near": "voya-rainy-lake",
     "side": "forest",
     "region": "voya",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "Crane Lake and Sand Point Lake",
+    "area": "Kabetogama Lake",
     "state": "MN",
-    "near": "voya-crane-lake",
+    "near": "voya-kabetogama",
     "side": "forest",
     "region": "voya",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -140,11 +125,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Crane Lake and Sand Point Lake",
+    "state": "MN",
+    "near": "voya-crane-lake",
+    "side": "forest",
+    "region": "voya",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amhgul1",
@@ -206,6 +206,7 @@
     "notable": false,
     "near": "Rainy Lake Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "maca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.187,
     "lon": -86.1011,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -29,10 +29,10 @@
     "lat": 37.213,
     "lon": -86.133,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 16:00 local"
+    "observed": "2026-10-22 0:00 local"
    }
   ],
   "forecasts": [
@@ -43,11 +43,11 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -58,6 +58,21 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Big Hollow and Maple Springs",
+    "state": "KY",
+    "near": "maca-north",
+    "side": "forest",
+    "region": "maca",
+    "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "O3",
     "aqi": 54,
@@ -73,23 +88,8 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Big Hollow and Maple Springs",
-    "state": "KY",
-    "near": "maca-north",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "O3",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
     "aqi": 54,
     "category": "Moderate",
     "level": 2,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "chswar",
@@ -365,6 +365,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }

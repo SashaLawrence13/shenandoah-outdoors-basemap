@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "viis",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 18.3328,
     "lon": -64.7937,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    },
    {
     "area": "Salt Pond Bay",
@@ -29,10 +29,10 @@
     "lat": 18.3121,
     "lon": -64.7079,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 23,
+    "date": "2026-10-22",
+    "pollutant": "PM2.5",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "PM2.5",
-    "aqi": 28,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Salt Pond Bay",
-    "state": "VI",
-    "near": "viis-south-shore",
-    "side": "forest",
-    "region": "viis",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 23,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -91,6 +76,21 @@
     "date": "2026-10-22",
     "pollutant": "PM2.5",
     "aqi": 28,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Salt Pond Bay",
+    "state": "VI",
+    "near": "viis-south-shore",
+    "side": "forest",
+    "region": "viis",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "PM2.5",
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "camwar",
@@ -569,6 +569,7 @@
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }

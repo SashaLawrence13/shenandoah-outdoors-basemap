@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-21T21:50:13Z",
+ "fetchedAt": "2026-10-22T05:02:19Z",
  "region": "ever",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.7583,
     "lon": -80.7648,
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    },
    {
     "area": "Royal Palm (Anhinga and Gumbo Limbo)",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 25.3947,
     "lon": -80.6086,
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "pollutant": "O3",
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    },
    {
     "area": "Flamingo",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 25.1417,
     "lon": -80.9217,
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "pollutant": "O3",
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    },
    {
     "area": "Pa-hay-okee and the pinelands",
@@ -59,10 +59,10 @@
     "lat": 25.4,
     "lon": -80.7,
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-21 17:00 local"
+    "observed": "2026-10-22 1:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "date": "2026-10-22",
+    "pollutant": "O3",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,26 +88,11 @@
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Royal Palm (Anhinga and Gumbo Limbo)",
-    "state": "FL",
-    "near": "ever-royal-palm",
-    "side": "forest",
-    "region": "ever",
-    "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "O3",
-    "aqi": 57,
-    "category": "Moderate",
-    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -127,17 +112,17 @@
     "discussion": ""
    },
    {
-    "area": "Flamingo",
+    "area": "Royal Palm (Anhinga and Gumbo Limbo)",
     "state": "FL",
-    "near": "ever-flamingo",
+    "near": "ever-royal-palm",
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-21",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 57,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Pa-hay-okee and the pinelands",
+    "area": "Flamingo",
     "state": "FL",
-    "near": "ever-pinelands",
+    "near": "ever-flamingo",
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-21",
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "date": "2026-10-23",
+    "pollutant": "O3",
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -181,6 +166,21 @@
     "date": "2026-10-22",
     "pollutant": "O3",
     "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pa-hay-okee and the pinelands",
+    "state": "FL",
+    "near": "ever-pinelands",
+    "side": "forest",
+    "region": "ever",
+    "source": "open-meteo",
+    "date": "2026-10-23",
+    "pollutant": "O3",
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "aldfly",
@@ -1847,6 +1847,7 @@
     "notable": false,
     "near": "Royal Palm (Anhinga and Gumbo Limbo)"
    }
-  ]
+  ],
+  "staleSince": "2026-10-22T05:02:19Z"
  }
 }
