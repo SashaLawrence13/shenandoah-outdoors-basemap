@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-23T17:16:18Z",
+ "fetchedAt": "2026-10-23T21:30:23Z",
  "region": "badl",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Ben Reifel Visitor Center",
@@ -14,10 +14,10 @@
     "lat": 43.7456,
     "lon": -102.2053,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    },
    {
     "area": "Door and Window trails",
@@ -29,10 +29,10 @@
     "lat": 43.7585,
     "lon": -102.1315,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    },
    {
     "area": "Sage Creek (Wilderness Area)",
@@ -44,10 +44,10 @@
     "lat": 43.77,
     "lon": -102.4,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    },
    {
     "area": "Pinnacles Overlook",
@@ -59,10 +59,10 @@
     "lat": 43.6,
     "lon": -102.5,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,9 +88,9 @@
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -103,9 +103,9 @@
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -115,6 +115,21 @@
     "area": "Door and Window trails",
     "state": "SD",
     "near": "badl-door-window",
+    "side": "forest",
+    "region": "badl",
+    "source": "open-meteo",
+    "date": "2026-10-24",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sage Creek (Wilderness Area)",
+    "state": "SD",
+    "near": "badl-sage-creek",
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
@@ -133,39 +148,9 @@
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sage Creek (Wilderness Area)",
-    "state": "SD",
-    "near": "badl-sage-creek",
-    "side": "forest",
-    "region": "badl",
-    "source": "open-meteo",
-    "date": "2026-10-23",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Pinnacles Overlook",
-    "state": "SD",
-    "near": "badl-pinnacles",
-    "side": "forest",
-    "region": "badl",
-    "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,17 +165,31 @@
     "source": "open-meteo",
     "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pinnacles Overlook",
+    "state": "SD",
+    "near": "badl-pinnacles",
+    "side": "forest",
+    "region": "badl",
+    "source": "open-meteo",
+    "date": "2026-10-24",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-23T17:16:18Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -372,6 +371,7 @@
     "notable": false,
     "near": "Ben Reifel Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-23T21:30:23Z"
  }
 }

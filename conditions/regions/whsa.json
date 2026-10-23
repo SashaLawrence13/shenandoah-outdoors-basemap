@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-23T17:16:18Z",
+ "fetchedAt": "2026-10-23T21:30:23Z",
  "region": "whsa",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "White Sands Visitor Center",
@@ -14,10 +14,10 @@
     "lat": 32.7797,
     "lon": -106.1719,
     "pollutant": "PM10",
-    "aqi": 68,
+    "aqi": 58,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 32.8205,
     "lon": -106.2731,
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 23:00 local"
+    "observed": "2026-10-23 15:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "pollutant": "PM10",
-    "aqi": 68,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-23",
-    "pollutant": "PM10",
-    "aqi": 68,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Alkali Flat trailhead",
-    "state": "NM",
-    "near": "whsa-dunes",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-10-22",
+    "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,12 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-10-24",
+    "pollutant": "O3",
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-23T17:16:18Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amwpel",
@@ -174,6 +173,7 @@
     "notable": false,
     "near": "White Sands Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-23T21:30:23Z"
  }
 }

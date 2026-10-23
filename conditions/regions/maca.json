@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-23T17:16:18Z",
+ "fetchedAt": "2026-10-23T21:30:23Z",
  "region": "maca",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Visitor center",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.187,
     "lon": -86.1011,
-    "pollutant": "PM2.5",
-    "aqi": 39,
+    "pollutant": "O3",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-23 0:00 local"
+    "observed": "2026-10-23 16:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 37.213,
     "lon": -86.133,
-    "pollutant": "PM2.5",
-    "aqi": 39,
+    "pollutant": "O3",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-23 0:00 local"
+    "observed": "2026-10-23 16:00 local"
    }
   ],
   "forecasts": [
@@ -45,7 +45,7 @@
     "source": "open-meteo",
     "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -60,9 +60,9 @@
     "source": "open-meteo",
     "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-23",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,17 +90,16 @@
     "source": "open-meteo",
     "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-23T17:16:18Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "chswar",
@@ -582,6 +581,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-23T21:30:23Z"
  }
 }

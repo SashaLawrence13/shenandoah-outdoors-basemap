@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-23T17:16:18Z",
+ "fetchedAt": "2026-10-23T21:30:23Z",
  "region": "glba",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Bartlett Cove",
@@ -14,28 +14,13 @@
     "lat": 58.4547,
     "lon": -135.8824,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 21:00 local"
+    "observed": "2026-10-23 13:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Bartlett Cove",
-    "state": "AK",
-    "near": "glba-bartlett-cove",
-    "side": "forest",
-    "region": "glba",
-    "source": "open-meteo",
-    "date": "2026-10-22",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Bartlett Cove",
     "state": "AK",
@@ -50,12 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Bartlett Cove",
+    "state": "AK",
+    "near": "glba-bartlett-cove",
+    "side": "forest",
+    "region": "glba",
+    "source": "open-meteo",
+    "date": "2026-10-24",
+    "pollutant": "O3",
+    "aqi": 28,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-23T17:16:18Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -201,6 +200,7 @@
     "notable": false,
     "near": "Bartlett Cove"
    }
-  ]
+  ],
+  "staleSince": "2026-10-23T21:30:23Z"
  }
 }
