@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-22T21:44:11Z",
+ "fetchedAt": "2026-10-23T05:01:39Z",
  "region": "mora",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Paradise",
@@ -14,10 +14,10 @@
     "lat": 46.786,
     "lon": -121.735,
     "pollutant": "PM2.5",
-    "aqi": 42,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 10:00 local"
+    "observed": "2026-10-22 22:00 local"
    },
    {
     "area": "Sunrise",
@@ -29,10 +29,10 @@
     "lat": 46.9142,
     "lon": -121.6428,
     "pollutant": "PM2.5",
-    "aqi": 42,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 10:00 local"
+    "observed": "2026-10-22 22:00 local"
    },
    {
     "area": "Longmire",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 46.7506,
     "lon": -121.8127,
-    "pollutant": "O3",
-    "aqi": 23,
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 10:00 local"
+    "observed": "2026-10-22 22:00 local"
    },
    {
     "area": "Ohanapecosh",
@@ -59,10 +59,10 @@
     "lat": 46.7343,
     "lon": -121.5705,
     "pollutant": "PM2.5",
-    "aqi": 42,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 10:00 local"
+    "observed": "2026-10-22 22:00 local"
    },
    {
     "area": "Carbon River and Mowich Lake",
@@ -73,11 +73,11 @@
     "source": "open-meteo",
     "lat": 46.9347,
     "lon": -122,
-    "pollutant": "O3",
-    "aqi": 23,
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-22 10:00 local"
+    "observed": "2026-10-22 22:00 local"
    }
   ],
   "forecasts": [
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-10-23",
     "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 54,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-22",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -225,18 +225,41 @@
     "source": "open-meteo",
     "date": "2026-10-23",
     "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 54,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-22T21:44:11Z"
+  ]
  },
  "birds": {
   "status": "ok",
   "list": [
+   {
+    "code": "norgos",
+    "name": "American Goshawk",
+    "sci": "Astur atricapillus",
+    "count": 1,
+    "seen": "2026-10-17 10:00",
+    "place": "Alta Crystal Resort",
+    "lat": 47.006,
+    "lon": -121.526,
+    "notable": true,
+    "near": "Sunrise"
+   },
+   {
+    "code": "osprey",
+    "name": "Osprey",
+    "sci": "Pandion haliaetus",
+    "count": 1,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
+    "notable": true,
+    "near": "Ohanapecosh"
+   },
    {
     "code": "rnxsap1",
     "name": "Red-naped x Red-breasted Sapsucker (hybrid)",
@@ -277,13 +300,13 @@
     "code": "amedip",
     "name": "American Dipper",
     "sci": "Cinclus mexicanus",
-    "count": 1,
-    "seen": "2026-10-18 12:39",
-    "place": "Union Creek Falls",
-    "lat": 46.937,
-    "lon": -121.362,
+    "count": 4,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Sunrise"
+    "near": "Ohanapecosh"
    },
    {
     "code": "amegfi",
@@ -337,13 +360,13 @@
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
-    "count": 3,
-    "seen": "2026-10-18 10:30",
-    "place": "Northwest Trek Wildlife Park",
-    "lat": 46.915,
-    "lon": -122.276,
+    "count": 1,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Carbon River and Mowich Lake"
+    "near": "Ohanapecosh"
    },
    {
     "code": "belkin1",
@@ -385,13 +408,13 @@
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
-    "count": 2,
-    "seen": "2026-10-19 11:24",
-    "place": "Mt. Rainier NP--Bench Lake",
-    "lat": 46.763,
-    "lon": -121.698,
+    "count": 1,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Paradise"
+    "near": "Ohanapecosh"
    },
    {
     "code": "bushti",
@@ -493,8 +516,8 @@
     "code": "commer",
     "name": "Common Merganser",
     "sci": "Mergus merganser",
-    "count": 24,
-    "seen": "2026-10-18 08:48",
+    "count": 5,
+    "seen": "2026-10-21 10:20",
     "place": "Clear Lake (Yakima Co.)",
     "lat": 46.631,
     "lon": -121.281,
@@ -505,13 +528,13 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": null,
-    "seen": "2026-10-21 09:00",
-    "place": "Chinook Pass (Pierce Co.)",
-    "lat": 46.872,
-    "lon": -121.515,
+    "count": 8,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Paradise"
+    "near": "Ohanapecosh"
    },
    {
     "code": "daejun",
@@ -745,13 +768,13 @@
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
-    "count": 4,
-    "seen": "2026-10-21 08:54",
-    "place": "Orting Foothills Trail River Ave NE Access",
-    "lat": 47.102,
-    "lon": -122.2,
+    "count": 3,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Carbon River and Mowich Lake"
+    "near": "Ohanapecosh"
    },
    {
     "code": "mouchi",
@@ -781,13 +804,13 @@
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 3,
-    "seen": "2026-10-19 10:09",
-    "place": "Bud Blancher trail",
-    "lat": 46.861,
-    "lon": -122.259,
+    "count": 1,
+    "seen": "2026-10-18 14:08",
+    "place": "Masatchee Creek Trailhead",
+    "lat": 46.913,
+    "lon": -121.407,
     "notable": false,
-    "near": "Carbon River and Mowich Lake"
+    "near": "Sunrise"
    },
    {
     "code": "nopowl",
@@ -817,13 +840,13 @@
     "code": "pacwre1",
     "name": "Pacific Wren",
     "sci": "Troglodytes pacificus",
-    "count": 6,
-    "seen": "2026-10-21 08:54",
-    "place": "Orting Foothills Trail River Ave NE Access",
-    "lat": 47.102,
-    "lon": -122.2,
+    "count": 1,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Carbon River and Mowich Lake"
+    "near": "Ohanapecosh"
    },
    {
     "code": "pilwoo",
@@ -853,25 +876,25 @@
     "code": "redcro",
     "name": "Red Crossbill",
     "sci": "Loxia curvirostra",
-    "count": 7,
-    "seen": "2026-10-21 08:54",
-    "place": "Orting Foothills Trail River Ave NE Access",
-    "lat": 47.102,
-    "lon": -122.2,
+    "count": 5,
+    "seen": "2026-10-18 08:48",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Carbon River and Mowich Lake"
+    "near": "Ohanapecosh"
    },
    {
     "code": "rebnut",
     "name": "Red-breasted Nuthatch",
     "sci": "Sitta canadensis",
-    "count": null,
-    "seen": "2026-10-21 09:00",
-    "place": "Chinook Pass (Pierce Co.)",
-    "lat": 46.872,
-    "lon": -121.515,
+    "count": 4,
+    "seen": "2026-10-21 10:20",
+    "place": "Clear Lake (Yakima Co.)",
+    "lat": 46.631,
+    "lon": -121.281,
     "notable": false,
-    "near": "Paradise"
+    "near": "Ohanapecosh"
    },
    {
     "code": "rebsap",
