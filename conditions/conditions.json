@@ -1,128 +1,258 @@
 {
- "fetchedAt": "2026-10-24T20:57:34Z",
+ "fetchedAt": "2026-10-24T23:21:43Z",
  "fires": {
   "status": "ok",
   "sources": {
-   "VIIRS_SNPP_NRT": "ok (0 rows); ok (69 rows); ok (285 rows); ok (0 rows); ok (1389 rows); ok (20 rows)",
-   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (30 rows); ok (283 rows); ok (0 rows); ok (1327 rows); ok (23 rows)",
-   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (46 rows); ok (285 rows); ok (0 rows); ok (1292 rows); ok (25 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (18 rows); ok (36 rows); ok (0 rows); ok (146 rows); ok (12 rows)"
+   "VIIRS_SNPP_NRT": "ok (0 rows); ok (69 rows); ok (304 rows); ok (0 rows); ok (1391 rows); ok (20 rows)",
+   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (30 rows); ok (295 rows); ok (0 rows); ok (1356 rows); ok (23 rows)",
+   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (46 rows); ok (317 rows); ok (0 rows); ok (1292 rows); ok (25 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (18 rows); ok (36 rows); ok (0 rows); ok (147 rows); ok (12 rows)"
   },
   "detections": [
    {
-    "lat": 34.5475,
-    "lon": -92.0243,
-    "detected": "2026-10-24T20:43:00Z",
+    "lat": 39.6531,
+    "lon": -121.7864,
+    "detected": "2026-10-24T21:56:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.07,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 40.5701,
+    "lon": -123.2052,
+    "detected": "2026-10-24T21:56:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.02,
+    "day": true,
+    "region": "redw"
+   },
+   {
+    "lat": 40.5711,
+    "lon": -123.2048,
+    "detected": "2026-10-24T21:56:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.33,
+    "day": true,
+    "region": "redw"
+   },
+   {
+    "lat": 39.4953,
+    "lon": -122.1127,
+    "detected": "2026-10-24T21:36:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 7.39,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 39.4984,
+    "lon": -122.1191,
+    "detected": "2026-10-24T21:36:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 5.74,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 39.6575,
+    "lon": -121.7861,
+    "detected": "2026-10-24T21:36:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 3.6,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 39.7579,
+    "lon": -122.1249,
+    "detected": "2026-10-24T21:36:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 1.86,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 37.2244,
+    "lon": -120.3435,
+    "detected": "2026-10-24T21:36:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 5.75,
+    "day": true,
+    "region": "yose"
+   },
+   {
+    "lat": 32.7101,
+    "lon": -114.7584,
+    "detected": "2026-10-24T21:34:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 5.64,
+    "day": true,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.715,
+    "lon": -114.7627,
+    "detected": "2026-10-24T21:34:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 7.1,
+    "day": true,
+    "region": "jotr"
+   },
+   {
+    "lat": 45.8754,
+    "lon": -122.6211,
+    "detected": "2026-10-24T21:01:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.28,
+    "day": true,
+    "region": "mora"
+   },
+   {
+    "lat": 39.6559,
+    "lon": -121.7838,
+    "detected": "2026-10-24T20:59:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 6.6,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 39.758,
+    "lon": -122.1255,
+    "detected": "2026-10-24T20:59:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 4.74,
+    "day": true,
+    "region": "lavo"
+   },
+   {
+    "lat": 40.7266,
+    "lon": -123.0441,
+    "detected": "2026-10-24T20:59:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.8,
+    "day": true,
+    "region": "redw"
+   },
+   {
+    "lat": 42.684,
+    "lon": -111.5899,
+    "detected": "2026-10-24T20:59:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 15.12,
+    "day": true,
+    "region": "grte"
+   },
+   {
+    "lat": 37.6181,
+    "lon": -120.7291,
+    "detected": "2026-10-24T20:57:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.29,
+    "day": true,
+    "region": "yose"
+   },
+   {
+    "lat": 37.8917,
+    "lon": -121.0097,
+    "detected": "2026-10-24T20:57:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.14,
+    "day": true,
+    "region": "yose"
+   },
+   {
+    "lat": 37.6511,
+    "lon": -121.3165,
+    "detected": "2026-10-24T20:57:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.27,
+    "day": true,
+    "region": "pinn"
+   },
+   {
+    "lat": 34.5478,
+    "lon": -92.0247,
+    "detected": "2026-10-24T20:44:00Z",
     "source": "MODIS",
-    "confidence": "95",
-    "frp": 71.58,
+    "confidence": "73",
+    "frp": 70.32,
     "day": true,
     "region": "hosp"
    },
    {
-    "lat": 34.5522,
-    "lon": -92.0306,
-    "detected": "2026-10-24T20:43:00Z",
+    "lat": 34.5525,
+    "lon": -92.0311,
+    "detected": "2026-10-24T20:44:00Z",
     "source": "MODIS",
-    "confidence": "95",
-    "frp": 60.0,
+    "confidence": "68",
+    "frp": 58.01,
     "day": true,
     "region": "hosp"
    },
    {
-    "lat": 35.5995,
-    "lon": -85.4186,
-    "detected": "2026-10-24T20:43:00Z",
+    "lat": 35.5998,
+    "lon": -85.4189,
+    "detected": "2026-10-24T20:44:00Z",
     "source": "MODIS",
-    "confidence": "95",
-    "frp": 9.36,
+    "confidence": "58",
+    "frp": 9.37,
     "day": true,
     "region": "pn"
    },
    {
-    "lat": 36.9216,
-    "lon": -80.9274,
-    "detected": "2026-10-24T20:43:00Z",
+    "lat": 36.9218,
+    "lon": -80.9276,
+    "detected": "2026-10-24T20:44:00Z",
     "source": "MODIS",
-    "confidence": "95",
+    "confidence": "47",
     "frp": 5.58,
     "day": true,
     "region": "gwnf"
    },
    {
-    "lat": 36.9222,
-    "lon": -82.0065,
-    "detected": "2026-10-24T20:43:00Z",
+    "lat": 36.9224,
+    "lon": -82.0066,
+    "detected": "2026-10-24T20:44:00Z",
     "source": "MODIS",
-    "confidence": "95",
+    "confidence": "48",
     "frp": 5.31,
     "day": true,
     "region": "gwnf"
    },
    {
-    "lat": 47.0066,
-    "lon": -120.5543,
-    "detected": "2026-10-24T20:18:00Z",
+    "lat": 48.7128,
+    "lon": -103.6465,
+    "detected": "2026-10-24T20:19:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
-    "frp": 4.74,
-    "day": true,
-    "region": "mora"
-   },
-   {
-    "lat": 47.6386,
-    "lon": -115.9806,
-    "detected": "2026-10-24T20:18:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 2.98,
-    "day": true,
-    "region": "glac"
-   },
-   {
-    "lat": 48.3345,
-    "lon": -114.5795,
-    "detected": "2026-10-24T20:18:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 5.39,
-    "day": true,
-    "region": "glac"
-   },
-   {
-    "lat": 48.7122,
-    "lon": -103.6473,
-    "detected": "2026-10-24T20:17:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 32.16,
+    "frp": 32.17,
     "day": true,
     "region": "thro"
    },
    {
-    "lat": 42.6849,
-    "lon": -111.5939,
-    "detected": "2026-10-24T20:16:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 6.09,
-    "day": true,
-    "region": "grte"
-   },
-   {
-    "lat": 37.2232,
-    "lon": -120.3428,
-    "detected": "2026-10-24T20:15:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "h",
-    "frp": 13.25,
-    "day": true,
-    "region": "yose"
-   },
-   {
-    "lat": 37.7174,
-    "lon": -120.6793,
-    "detected": "2026-10-24T20:15:00Z",
+    "lat": 37.7183,
+    "lon": -120.678,
+    "detected": "2026-10-24T20:17:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
     "frp": 1.79,
@@ -130,24 +260,54 @@
     "region": "yose"
    },
    {
-    "lat": 37.6526,
-    "lon": -121.3154,
-    "detected": "2026-10-24T20:15:00Z",
+    "lat": 47.0073,
+    "lon": -120.5536,
+    "detected": "2026-10-24T20:17:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
-    "frp": 1.81,
+    "frp": 4.74,
+    "day": true,
+    "region": "mora"
+   },
+   {
+    "lat": 37.6535,
+    "lon": -121.314,
+    "detected": "2026-10-24T20:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.82,
     "day": true,
     "region": "pinn"
    },
    {
-    "lat": 38.2372,
-    "lon": -117.3652,
-    "detected": "2026-10-24T20:15:00Z",
+    "lat": 38.2379,
+    "lon": -117.3644,
+    "detected": "2026-10-24T20:17:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
     "frp": 2.79,
     "day": true,
     "region": "seki"
+   },
+   {
+    "lat": 47.6391,
+    "lon": -115.9802,
+    "detected": "2026-10-24T20:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.99,
+    "day": true,
+    "region": "glac"
+   },
+   {
+    "lat": 48.3351,
+    "lon": -114.5791,
+    "detected": "2026-10-24T20:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 5.4,
+    "day": true,
+    "region": "glac"
    },
    {
     "lat": 34.5529,
@@ -158,16 +318,6 @@
     "frp": 5.63,
     "day": true,
     "region": "hosp"
-   },
-   {
-    "lat": 32.7122,
-    "lon": -114.758,
-    "detected": "2026-10-24T20:13:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 5.39,
-    "day": true,
-    "region": "jotr"
    },
    {
     "lat": 46.4211,
@@ -730,32 +880,12 @@
     "region": "ever"
    },
    {
-    "lat": 41.6623,
-    "lon": -87.4254,
-    "detected": "2026-10-24T18:15:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 7.67,
-    "day": true,
-    "region": "indu"
-   },
-   {
-    "lat": 39.5951,
-    "lon": -78.9492,
-    "detected": "2026-10-24T18:14:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 3.48,
-    "day": true,
-    "region": "wvsp"
-   },
-   {
     "lat": 34.507,
     "lon": -85.3096,
     "detected": "2026-10-24T18:13:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 3.68,
+    "frp": 3.69,
     "day": true,
     "region": "pn"
    },
@@ -775,7 +905,7 @@
     "detected": "2026-10-24T18:13:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 3.28,
+    "frp": 3.29,
     "day": true,
     "region": "vsp"
    },
@@ -790,14 +920,14 @@
     "region": "vsp"
    },
    {
-    "lat": 35.4326,
-    "lon": -78.7805,
+    "lat": 41.6623,
+    "lon": -87.4254,
     "detected": "2026-10-24T18:13:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 7.08,
+    "frp": 8.19,
     "day": true,
-    "region": "blri"
+    "region": "indu"
    },
    {
     "lat": 35.7215,
@@ -805,7 +935,7 @@
     "detected": "2026-10-24T18:13:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 3.09,
+    "frp": 3.1,
     "day": true,
     "region": "blri"
    },
@@ -820,19 +950,39 @@
     "region": "shen"
    },
    {
-    "lat": 34.8466,
-    "lon": -79.7105,
-    "detected": "2026-10-24T18:12:00Z",
+    "lat": 39.5951,
+    "lon": -78.9492,
+    "detected": "2026-10-24T18:13:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 3.95,
+    "frp": 3.48,
+    "day": true,
+    "region": "wvsp"
+   },
+   {
+    "lat": 34.8466,
+    "lon": -79.7105,
+    "detected": "2026-10-24T18:11:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 3.96,
     "day": true,
     "region": "cong"
    },
    {
+    "lat": 35.4326,
+    "lon": -78.7805,
+    "detected": "2026-10-24T18:11:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 7.06,
+    "day": true,
+    "region": "blri"
+   },
+   {
     "lat": 35.393,
     "lon": -77.6216,
-    "detected": "2026-10-24T18:12:00Z",
+    "detected": "2026-10-24T18:11:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
     "frp": 2.0,
@@ -842,7 +992,7 @@
    {
     "lat": 35.5041,
     "lon": -77.6736,
-    "detected": "2026-10-24T18:12:00Z",
+    "detected": "2026-10-24T18:11:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
     "frp": 2.78,
@@ -852,10 +1002,10 @@
    {
     "lat": 35.5573,
     "lon": -77.495,
-    "detected": "2026-10-24T18:12:00Z",
+    "detected": "2026-10-24T18:11:00Z",
     "source": "VIIRS_SNPP",
     "confidence": "n",
-    "frp": 1.63,
+    "frp": 1.64,
     "day": true,
     "region": "vawma"
    },
@@ -870,16 +1020,6 @@
     "region": "acad"
    },
    {
-    "lat": 34.8445,
-    "lon": -80.2358,
-    "detected": "2026-10-24T17:37:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 3.31,
-    "day": true,
-    "region": "pn"
-   },
-   {
     "lat": 37.7134,
     "lon": -120.6774,
     "detected": "2026-10-24T17:37:00Z",
@@ -890,14 +1030,14 @@
     "region": "yose"
    },
    {
-    "lat": 37.6473,
-    "lon": -121.3113,
+    "lat": 34.8445,
+    "lon": -80.2358,
     "detected": "2026-10-24T17:37:00Z",
-    "source": "MODIS",
-    "confidence": "50",
-    "frp": 17.12,
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 3.31,
     "day": true,
-    "region": "pinn"
+    "region": "pn"
    },
    {
     "lat": 37.0728,
@@ -1240,36 +1380,6 @@
     "region": "yose"
    },
    {
-    "lat": 36.7142,
-    "lon": -121.7667,
-    "detected": "2026-10-24T10:15:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.48,
-    "day": false,
-    "region": "pinn"
-   },
-   {
-    "lat": 37.1857,
-    "lon": -121.6776,
-    "detected": "2026-10-24T10:15:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.52,
-    "day": false,
-    "region": "pinn"
-   },
-   {
-    "lat": 37.4557,
-    "lon": -121.9323,
-    "detected": "2026-10-24T10:15:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.62,
-    "day": false,
-    "region": "pinn"
-   },
-   {
     "lat": 32.5263,
     "lon": -116.775,
     "detected": "2026-10-24T10:15:00Z",
@@ -1370,6 +1480,36 @@
     "region": "jotr"
    },
    {
+    "lat": 36.7142,
+    "lon": -121.7667,
+    "detected": "2026-10-24T10:15:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.48,
+    "day": false,
+    "region": "pinn"
+   },
+   {
+    "lat": 37.1857,
+    "lon": -121.6776,
+    "detected": "2026-10-24T10:15:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.52,
+    "day": false,
+    "region": "pinn"
+   },
+   {
+    "lat": 37.4557,
+    "lon": -121.9323,
+    "detected": "2026-10-24T10:15:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.62,
+    "day": false,
+    "region": "pinn"
+   },
+   {
     "lat": 33.613,
     "lon": -117.8236,
     "detected": "2026-10-24T10:15:00Z",
@@ -1460,6 +1600,26 @@
     "region": "chis"
    },
    {
+    "lat": 37.8834,
+    "lon": -121.1852,
+    "detected": "2026-10-24T10:13:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 0.57,
+    "day": false,
+    "region": "yose"
+   },
+   {
+    "lat": 42.6865,
+    "lon": -111.5901,
+    "detected": "2026-10-24T10:13:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 10.75,
+    "day": false,
+    "region": "grte"
+   },
+   {
     "lat": 49.6173,
     "lon": -115.0629,
     "detected": "2026-10-24T10:13:00Z",
@@ -1478,26 +1638,6 @@
     "frp": 5.87,
     "day": false,
     "region": "glac"
-   },
-   {
-    "lat": 42.6865,
-    "lon": -111.5901,
-    "detected": "2026-10-24T10:13:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 10.75,
-    "day": false,
-    "region": "grte"
-   },
-   {
-    "lat": 37.8834,
-    "lon": -121.1852,
-    "detected": "2026-10-24T10:13:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 0.57,
-    "day": false,
-    "region": "yose"
    },
    {
     "lat": 38.9385,
@@ -1630,16 +1770,6 @@
     "region": "jotr"
    },
    {
-    "lat": 46.9729,
-    "lon": -122.2888,
-    "detected": "2026-10-24T09:37:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.71,
-    "day": false,
-    "region": "mora"
-   },
-   {
     "lat": 37.0246,
     "lon": -120.195,
     "detected": "2026-10-24T09:37:00Z",
@@ -1648,6 +1778,36 @@
     "frp": 0.52,
     "day": false,
     "region": "yose"
+   },
+   {
+    "lat": 33.4904,
+    "lon": -117.6156,
+    "detected": "2026-10-24T09:37:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.49,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.8768,
+    "lon": -116.9983,
+    "detected": "2026-10-24T09:37:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.66,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 46.9729,
+    "lon": -122.2888,
+    "detected": "2026-10-24T09:37:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.71,
+    "day": false,
+    "region": "mora"
    },
    {
     "lat": 36.974,
@@ -1678,26 +1838,6 @@
     "frp": 0.41,
     "day": false,
     "region": "seki"
-   },
-   {
-    "lat": 33.4904,
-    "lon": -117.6156,
-    "detected": "2026-10-24T09:37:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.49,
-    "day": false,
-    "region": "jotr"
-   },
-   {
-    "lat": 33.8768,
-    "lon": -116.9983,
-    "detected": "2026-10-24T09:37:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.66,
-    "day": false,
-    "region": "jotr"
    },
    {
     "lat": 33.7743,
@@ -3960,16 +4100,6 @@
     "region": "olym"
    },
    {
-    "lat": 44.2334,
-    "lon": -123.0754,
-    "detected": "2026-10-23T21:55:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 4.65,
-    "day": true,
-    "region": "crla"
-   },
-   {
     "lat": 39.8262,
     "lon": -122.0852,
     "detected": "2026-10-23T21:55:00Z",
@@ -3978,6 +4108,16 @@
     "frp": 4.77,
     "day": true,
     "region": "lavo"
+   },
+   {
+    "lat": 44.2334,
+    "lon": -123.0754,
+    "detected": "2026-10-23T21:55:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 4.65,
+    "day": true,
+    "region": "crla"
    },
    {
     "lat": 37.977,
@@ -4170,26 +4310,6 @@
     "region": "noca"
    },
    {
-    "lat": 43.6194,
-    "lon": -123.556,
-    "detected": "2026-10-23T20:17:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 5.58,
-    "day": true,
-    "region": "crla"
-   },
-   {
-    "lat": 49.32,
-    "lon": -124.8974,
-    "detected": "2026-10-23T20:17:00Z",
-    "source": "VIIRS_SNPP",
-    "confidence": "n",
-    "frp": 5.13,
-    "day": true,
-    "region": "olym"
-   },
-   {
     "lat": 39.8222,
     "lon": -122.0844,
     "detected": "2026-10-23T20:17:00Z",
@@ -4208,6 +4328,26 @@
     "frp": 4.48,
     "day": true,
     "region": "lavo"
+   },
+   {
+    "lat": 43.6194,
+    "lon": -123.556,
+    "detected": "2026-10-23T20:17:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 5.58,
+    "day": true,
+    "region": "crla"
+   },
+   {
+    "lat": 49.32,
+    "lon": -124.8974,
+    "detected": "2026-10-23T20:17:00Z",
+    "source": "VIIRS_SNPP",
+    "confidence": "n",
+    "frp": 5.13,
+    "day": true,
+    "region": "olym"
    },
    {
     "lat": 32.5841,
@@ -8932,7 +9072,7 @@
   "truncated": []
  },
  "air": {
-  "status": "ok",
+  "status": "stale",
   "sources": {
    "airnow": "key refused (HTTP 410), stopped (0 readings; 74 of 340 centers due this run)",
    "open-meteo": "ok (340 of 340 centers)"
@@ -10740,7 +10880,8 @@
     "actionDay": false,
     "discussion": ""
    }
-  ]
+  ],
+  "staleSince": "2026-10-24T23:21:43Z"
  },
  "birds": {
   "status": "ok",
@@ -10792,18 +10933,6 @@
     "lon": -78.32,
     "notable": true,
     "near": "Shenandoah NP north"
-   },
-   {
-    "code": "eawvir1",
-    "name": "Eastern Warbling Vireo",
-    "sci": "Vireo gilvus",
-    "count": 1,
-    "seen": "2026-10-17 17:17",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
-    "notable": true,
-    "near": "Shenandoah NP south"
    },
    {
     "code": "magwar",
@@ -10870,12 +10999,12 @@
     "name": "Spotted Sandpiper",
     "sci": "Actitis macularius",
     "count": 1,
-    "seen": "2026-10-21 07:56",
-    "place": "Lickinghole Creek",
-    "lat": 38.06,
-    "lon": -78.668,
+    "seen": "2026-10-23 09:45",
+    "place": "Grove Hill Boat Ramp",
+    "lat": 38.527,
+    "lon": -78.595,
     "notable": true,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "swathr",
@@ -11860,18 +11989,6 @@
     "place": "Edith J. Carrier Arboretum",
     "lat": 38.43,
     "lon": -78.862,
-    "notable": true,
-    "near": "North River district"
-   },
-   {
-    "code": "eawvir1",
-    "name": "Eastern Warbling Vireo",
-    "sci": "Vireo gilvus",
-    "count": 1,
-    "seen": "2026-10-17 17:17",
-    "place": "Lake Shenandoah",
-    "lat": 38.382,
-    "lon": -78.838,
     "notable": true,
     "near": "North River district"
    },
@@ -13103,18 +13220,6 @@
      "near": "Great Falls and Washington"
     },
     {
-     "code": "gycthr",
-     "name": "Gray-cheeked Thrush",
-     "sci": "Catharus minimus",
-     "count": 2,
-     "seen": "2026-10-18 15:08",
-     "place": "Roundtree Park",
-     "lat": 38.853,
-     "lon": -77.191,
-     "notable": true,
-     "near": "Great Falls and Washington"
-    },
-    {
      "code": "grecor",
      "name": "Great Cormorant",
      "sci": "Phalacrocorax carbo",
@@ -13987,6 +14092,18 @@
      "place": "Loudoun Water Authority",
      "lat": 39.032,
      "lon": -77.443,
+     "notable": false,
+     "near": "Great Falls and Washington"
+    },
+    {
+     "code": "gycthr",
+     "name": "Gray-cheeked Thrush",
+     "sci": "Catharus minimus",
+     "count": 2,
+     "seen": "2026-10-18 15:08",
+     "place": "Roundtree Park",
+     "lat": 38.853,
+     "lon": -77.191,
      "notable": false,
      "near": "Great Falls and Washington"
     },
@@ -15133,18 +15250,6 @@
      "near": "Dolly Sods and Canaan"
     },
     {
-     "code": "gnwtea",
-     "name": "Green-winged Teal",
-     "sci": "Anas crecca",
-     "count": 1,
-     "seen": "2026-10-17 17:38",
-     "place": "Silver Lake",
-     "lat": 39.254,
-     "lon": -79.496,
-     "notable": false,
-     "near": "Dolly Sods and Canaan"
-    },
-    {
      "code": "haiwoo",
      "name": "Hairy Woodpecker",
      "sci": "Leuconotopicus villosus",
@@ -15189,18 +15294,6 @@
      "place": "Silver Lake",
      "lat": 39.254,
      "lon": -79.496,
-     "notable": false,
-     "near": "Dolly Sods and Canaan"
-    },
-    {
-     "code": "mallar3",
-     "name": "Mallard",
-     "sci": "Anas platyrhynchos",
-     "count": 4,
-     "seen": "2026-10-17 18:28",
-     "place": "Canaan Valley NWR--Timberline Rd.",
-     "lat": 39.036,
-     "lon": -79.42,
      "notable": false,
      "near": "Dolly Sods and Canaan"
     },
@@ -15361,18 +15454,6 @@
      "near": "Dolly Sods and Canaan"
     },
     {
-     "code": "rinduc",
-     "name": "Ring-necked Duck",
-     "sci": "Aythya collaris",
-     "count": 1,
-     "seen": "2026-10-17 17:38",
-     "place": "Silver Lake",
-     "lat": 39.254,
-     "lon": -79.496,
-     "notable": false,
-     "near": "Dolly Sods and Canaan"
-    },
-    {
      "code": "rocpig",
      "name": "Rock Pigeon",
      "sci": "Columba livia",
@@ -15494,18 +15575,6 @@
     }
    ],
    "gs": [
-    {
-     "code": "amered",
-     "name": "American Redstart",
-     "sci": "Setophaga ruticilla",
-     "count": 1,
-     "seen": "2026-10-17 16:59",
-     "place": "Great Smoky Mountains NP--Sugarlands Visitors Center",
-     "lat": 35.685,
-     "lon": -83.537,
-     "notable": true,
-     "near": "Sugarlands and Newfound Gap"
-    },
     {
      "code": "bkcchi",
      "name": "Black-capped Chickadee",
@@ -15841,18 +15910,6 @@
      "lon": -83.639,
      "notable": false,
      "near": "Sugarlands and Newfound Gap"
-    },
-    {
-     "code": "chiswi",
-     "name": "Chimney Swift",
-     "sci": "Chaetura pelagica",
-     "count": 6,
-     "seen": "2026-10-17 18:36",
-     "place": "Maryville-Alcoa Greenway--Maryville Section",
-     "lat": 35.758,
-     "lon": -83.967,
-     "notable": false,
-     "near": "Cades Cove"
     },
     {
      "code": "chispa",
@@ -16757,18 +16814,6 @@
    ],
    "nr": [
     {
-     "code": "bkbwar",
-     "name": "Blackburnian Warbler",
-     "sci": "Setophaga fusca",
-     "count": 2,
-     "seen": "2026-10-24 13:38",
-     "place": "New River Gorge NP--Sandstone Falls Trail (Raleigh Co.)",
-     "lat": 37.759,
-     "lon": -80.903,
-     "notable": true,
-     "near": "New River Gorge middle"
-    },
-    {
      "code": "amecro",
      "name": "American Crow",
      "sci": "Corvus brachyrhynchos",
@@ -17105,18 +17150,6 @@
      "near": "New River Gorge north"
     },
     {
-     "code": "osprey",
-     "name": "Osprey",
-     "sci": "Pandion haliaetus",
-     "count": 1,
-     "seen": "2026-10-17 18:39",
-     "place": "Bluestone SP--Mouth of the Bluestone",
-     "lat": 37.612,
-     "lon": -80.917,
-     "notable": false,
-     "near": "New River Gorge south"
-    },
-    {
      "code": "pibgre",
      "name": "Pied-billed Grebe",
      "sci": "Podilymbus podiceps",
@@ -17137,18 +17170,6 @@
      "place": "Fayetteville Town Park",
      "lat": 38.057,
      "lon": -81.094,
-     "notable": false,
-     "near": "New River Gorge north"
-    },
-    {
-     "code": "pinwar",
-     "name": "Pine Warbler",
-     "sci": "Setophaga pinus",
-     "count": 1,
-     "seen": "2026-10-17 17:07",
-     "place": "New River Gorge NP--Timber Ridge Trail",
-     "lat": 38.048,
-     "lon": -81.08,
      "notable": false,
      "near": "New River Gorge north"
     },
@@ -17399,10 +17420,10 @@
      "name": "LeConte's Sparrow",
      "sci": "Ammospiza leconteii",
      "count": 1,
-     "seen": "2026-10-24 12:46",
-     "place": "Warren Wilson College--Farm Fields",
-     "lat": 35.607,
-     "lon": -82.435,
+     "seen": "2026-10-24 15:02",
+     "place": "Warren Wilson College--Swannanoa River Walking Trail",
+     "lat": 35.609,
+     "lon": -82.444,
      "notable": true,
      "near": "Parkway near Asheville"
     },
@@ -17443,11 +17464,23 @@
      "near": "Parkway near Asheville"
     },
     {
+     "code": "perfal",
+     "name": "Peregrine Falcon",
+     "sci": "Falco peregrinus",
+     "count": 2,
+     "seen": "2026-10-24 16:19",
+     "place": "Caesars Head State Park",
+     "lat": 35.106,
+     "lon": -82.628,
+     "notable": true,
+     "near": "Pisgah district near Brevard"
+    },
+    {
      "code": "sedwre1",
      "name": "Sedge Wren",
      "sci": "Cistothorus stellaris",
      "count": 1,
-     "seen": "2026-10-24 08:12",
+     "seen": "2026-10-24 14:50",
      "place": "Warren Wilson College--Farm Fields",
      "lat": 35.607,
      "lon": -82.435,
@@ -18077,18 +18110,6 @@
      "lon": -82.428,
      "notable": false,
      "near": "Mount Mitchell and the Black Mountains"
-    },
-    {
-     "code": "gadwal",
-     "name": "Gadwall",
-     "sci": "Mareca strepera",
-     "count": 1,
-     "seen": "2026-10-17 18:26",
-     "place": "Mills River WTP",
-     "lat": 35.378,
-     "lon": -82.545,
-     "notable": false,
-     "near": "Pisgah district near Brevard"
     },
     {
      "code": "gockin",
@@ -18959,8 +18980,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 1.0,
-    "updated": "2026-10-24T16:56:33-04:00"
+    "windKph": 1.1,
+    "updated": "2026-10-24T19:21:57-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -18968,13 +18989,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 12.4,
-    "surfaceC": 15.4,
+    "airC": 9.8,
+    "surfaceC": 11.4,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 62.0,
+    "humidity": 67.0,
     "windKph": 0.0,
-    "updated": "2026-10-24T16:55:32-04:00"
+    "updated": "2026-10-24T19:21:09-04:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -18982,13 +19003,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 17.3,
+    "airC": 10.4,
     "surfaceC": 13.5,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 39.0,
+    "humidity": 72.0,
     "windKph": 0.0,
-    "updated": "2026-10-24T16:52:45-04:00"
+    "updated": "2026-10-24T19:23:33-04:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -18996,13 +19017,13 @@
     "side": "park",
     "lat": 38.358447,
     "lon": -78.547354,
-    "airC": 12.2,
-    "surfaceC": 18.0,
+    "airC": 5.7,
+    "surfaceC": 12.2,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 40.0,
+    "humidity": 69.0,
     "windKph": 0.0,
-    "updated": "2026-10-24T16:52:20-04:00"
+    "updated": "2026-10-24T19:22:56-04:00"
    },
    {
     "id": "NWRO-ESS-I66-W-00149",
@@ -19010,13 +19031,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 15.7,
-    "surfaceC": 19.7,
+    "airC": 7.9,
+    "surfaceC": 11.0,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 42.0,
+    "humidity": 80.0,
     "windKph": 0.0,
-    "updated": "2026-10-24T16:51:57-04:00"
+    "updated": "2026-10-24T19:22:46-04:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -19024,13 +19045,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 14.1,
-    "surfaceC": 19.7,
+    "airC": 11.3,
+    "surfaceC": 14.3,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 42.0,
-    "windKph": 1.8,
-    "updated": "2026-10-24T16:57:08-04:00"
+    "humidity": 51.0,
+    "windKph": 1.3,
+    "updated": "2026-10-24T19:24:44-04:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -19038,13 +19059,13 @@
     "side": "forest",
     "lat": 38.752109,
     "lon": -78.915896,
-    "airC": 18.7,
-    "surfaceC": 20.6,
+    "airC": 7.9,
+    "surfaceC": 12.5,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 33.0,
-    "windKph": 1.1,
-    "updated": "2026-10-24T16:56:32-04:00"
+    "humidity": 74.0,
+    "windKph": 0.0,
+    "updated": "2026-10-24T19:24:08-04:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00043",
@@ -19052,13 +19073,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 9.8,
-    "surfaceC": 11.7,
+    "airC": 7.1,
+    "surfaceC": 8.6,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 47.0,
-    "windKph": 3.2,
-    "updated": "2026-10-24T16:56:32-04:00"
+    "humidity": 67.0,
+    "windKph": 2.6,
+    "updated": "2026-10-24T19:24:08-04:00"
    }
   ]
  },
@@ -19066,27 +19087,7 @@
   "incidents": {
    "status": "ok",
    "feed": "incidentFiltered",
-   "items": [
-    {
-     "title": "Incident INSW11786462507-10242026 updated",
-     "description": "On I-64 at mile marker 100.4 in Nelson County, motorists can expect delays due to a disabled vehicle. The west right shoulder is closed.",
-     "lat": 38.03415,
-     "lon": -78.85017,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.4,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-INSW11786462507-10242026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-INSW11786462507-10242026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    }
-   ]
+   "items": []
   },
   "events": {
    "status": "ok",
@@ -28332,6 +28333,269 @@
      ],
      "start": "2026-10-27T09:00:00",
      "end": "2026-10-27T15:00:00",
+     "allLanesClosed": false
+    },
+    {
+     "title": "Planned Event WZNW4681593-09302026-4 updated",
+     "description": "On US-211 (Lee Hwy) in the County of Rappahannock from County/City/Town Line: PAGE CL/RAPPAHANNOCK CL to County/City/Town Line: FAUQUIER CL/CULPEPER CL, motorists can expect potential delays in this area from 10/27/26 at 7:00 PM until 10/28/26 at 4:00 AM due to mowing operations. The east left shoulder and right shoulder are alternating closures. The west left shoulder and right shoulder are alternating closures.",
+     "lat": 38.66064,
+     "lon": -78.31967,
+     "line": [
+      [
+       38.660638,
+       -78.319671
+      ],
+      [
+       38.660637,
+       -78.31948
+      ],
+      [
+       38.660659,
+       -78.319203
+      ],
+      [
+       38.660705,
+       -78.31894
+      ],
+      [
+       38.660776,
+       -78.31866
+      ],
+      [
+       38.660874,
+       -78.318422
+      ],
+      [
+       38.661276,
+       -78.31771
+      ],
+      [
+       38.661477,
+       -78.317313
+      ],
+      [
+       38.661557,
+       -78.317121
+      ],
+      [
+       38.661635,
+       -78.316879
+      ],
+      [
+       38.661702,
+       -78.316598
+      ],
+      [
+       38.661754,
+       -78.316315
+      ],
+      [
+       38.661839,
+       -78.315558
+      ],
+      [
+       38.661947,
+       -78.315059
+      ],
+      [
+       38.66203,
+       -78.314332
+      ],
+      [
+       38.66211,
+       -78.313929
+      ],
+      [
+       38.662342,
+       -78.313077
+      ],
+      [
+       38.662524,
+       -78.312478
+      ],
+      [
+       38.662621,
+       -78.312176
+      ],
+      [
+       38.662668,
+       -78.31205
+      ],
+      [
+       38.662787,
+       -78.311819
+      ],
+      [
+       38.662918,
+       -78.31164
+      ],
+      [
+       38.663035,
+       -78.31151
+      ],
+      [
+       38.663162,
+       -78.311404
+      ],
+      [
+       38.663274,
+       -78.311334
+      ],
+      [
+       38.663387,
+       -78.311288
+      ],
+      [
+       38.663595,
+       -78.311228
+      ],
+      [
+       38.663848,
+       -78.311182
+      ],
+      [
+       38.664063,
+       -78.311164
+      ],
+      [
+       38.664198,
+       -78.311135
+      ],
+      [
+       38.664349,
+       -78.311069
+      ],
+      [
+       38.664468,
+       -78.310984
+      ],
+      [
+       38.66452,
+       -78.310935
+      ],
+      [
+       38.664576,
+       -78.310865
+      ],
+      [
+       38.664647,
+       -78.310742
+      ],
+      [
+       38.664706,
+       -78.310588
+      ],
+      [
+       38.664738,
+       -78.310441
+      ],
+      [
+       38.664747,
+       -78.310269
+      ],
+      [
+       38.664736,
+       -78.310164
+      ],
+      [
+       38.664693,
+       -78.309992
+      ],
+      [
+       38.664646,
+       -78.309877
+      ],
+      [
+       38.664601,
+       -78.309793
+      ],
+      [
+       38.664518,
+       -78.309678
+      ],
+      [
+       38.664427,
+       -78.309587
+      ],
+      [
+       38.664332,
+       -78.309524
+      ],
+      [
+       38.664246,
+       -78.309489
+      ],
+      [
+       38.664103,
+       -78.309472
+      ],
+      [
+       38.663568,
+       -78.309533
+      ],
+      [
+       38.663336,
+       -78.309548
+      ],
+      [
+       38.662792,
+       -78.309539
+      ],
+      [
+       38.662625,
+       -78.309557
+      ],
+      [
+       38.662523,
+       -78.309585
+      ],
+      [
+       38.662398,
+       -78.309638
+      ],
+      [
+       38.662257,
+       -78.309722
+      ],
+      [
+       38.662102,
+       -78.309852
+      ],
+      [
+       38.661944,
+       -78.310035
+      ],
+      [
+       38.661859,
+       -78.310168
+      ],
+      [
+       38.661773,
+       -78.31034
+      ],
+      [
+       38.661325,
+       -78.311434
+      ],
+      [
+       38.661253,
+       -78.311532
+      ]
+     ],
+     "published": null,
+     "side": "park",
+     "milesFromTrailhead": 0.0,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-4.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/eventFiltered/detail/current/VATRAFFIC-WZNW4681593-09302026-4.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ],
+     "start": "2026-10-27T19:00:00",
+     "end": "2026-10-28T04:00:00",
      "allLanesClosed": false
     },
     {

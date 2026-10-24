@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-24T20:57:34Z",
+ "fetchedAt": "2026-10-24T23:21:43Z",
  "region": "cave",
  "air": {
-  "status": "ok",
+  "status": "stale",
   "observations": [
    {
     "area": "Visitor center",
@@ -96,11 +96,24 @@
     "actionDay": false,
     "discussion": ""
    }
-  ]
+  ],
+  "staleSince": "2026-10-24T23:21:43Z"
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "naswar",
+    "name": "Nashville Warbler",
+    "sci": "Leiothlypis ruficapilla",
+    "count": 1,
+    "seen": "2026-10-24 10:26",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": true,
+    "near": "Visitor center"
+   },
    {
     "code": "bewwre",
     "name": "Bewick's Wren",
@@ -198,6 +211,18 @@
     "near": "Visitor center"
    },
    {
+    "code": "sagthr",
+    "name": "Sage Thrasher",
+    "sci": "Oreoscoptes montanus",
+    "count": 1,
+    "seen": "2026-10-24 09:36",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
     "code": "saypho",
     "name": "Say's Phoebe",
     "sci": "Sayornis saya",
@@ -221,7 +246,6 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ],
-  "staleSince": "2026-10-24T20:57:34Z"
+  ]
  }
 }
