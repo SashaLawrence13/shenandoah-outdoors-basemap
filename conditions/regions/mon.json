@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-23T21:30:23Z",
+ "fetchedAt": "2026-10-24T04:46:45Z",
  "region": "mon",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-23 17:00 local"
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-24 0:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 38.7,
     "lon": -79.53,
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "pollutant": "O3",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-23 17:00 local"
+    "observed": "2026-10-24 0:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -44,10 +44,10 @@
     "lat": 38.22,
     "lon": -80.26,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-23 17:00 local"
+    "observed": "2026-10-24 0:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -59,28 +59,13 @@
     "lat": 37.95,
     "lon": -80.25,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-23 17:00 local"
+    "observed": "2026-10-24 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Dolly Sods and Canaan",
-    "state": "WV",
-    "near": "mon-dolly-sods",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-10-23",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Dolly Sods and Canaan",
     "state": "WV",
@@ -97,17 +82,17 @@
     "discussion": ""
    },
    {
-    "area": "Spruce Knob",
+    "area": "Dolly Sods and Canaan",
     "state": "WV",
-    "near": "mon-spruce-knob",
+    "near": "mon-dolly-sods",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-23",
+    "date": "2026-10-25",
     "pollutant": "PM2.5",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -127,15 +112,15 @@
     "discussion": ""
    },
    {
-    "area": "Cranberry and Greenbrier",
+    "area": "Spruce Knob",
     "state": "WV",
-    "near": "mon-cranberry",
+    "near": "mon-spruce-knob",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-23",
-    "pollutant": "O3",
-    "aqi": 46,
+    "date": "2026-10-25",
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Southern Monongahela",
+    "area": "Cranberry and Greenbrier",
     "state": "WV",
-    "near": "mon-greenbrier-south",
+    "near": "mon-cranberry",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-10-23",
+    "date": "2026-10-25",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -179,8 +164,23 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-10-24",
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 43,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-10-25",
+    "pollutant": "PM2.5",
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -216,16 +216,28 @@
     "near": "Dolly Sods and Canaan"
    },
    {
+    "code": "vesspa",
+    "name": "Vesper Sparrow",
+    "sci": "Pooecetes gramineus",
+    "count": 2,
+    "seen": "2026-10-22 08:30",
+    "place": "Hogueland Ln.",
+    "lat": 39.018,
+    "lon": -79.184,
+    "notable": true,
+    "near": "Dolly Sods and Canaan"
+   },
+   {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
     "count": 3,
-    "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
+    "seen": "2026-10-22 10:59",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
     "notable": false,
-    "near": "Dolly Sods and Canaan"
+    "near": "Spruce Knob"
    },
    {
     "code": "amekes",
@@ -300,18 +312,6 @@
     "near": "Spruce Knob"
    },
    {
-    "code": "bkcchi",
-    "name": "Black-capped Chickadee",
-    "sci": "Poecile atricapillus",
-    "count": 1,
-    "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
     "code": "btbwar",
     "name": "Black-throated Blue Warbler",
     "sci": "Setophaga caerulescens",
@@ -332,18 +332,6 @@
     "place": "Allegheny Front Migration Observatory--Red Creek CG",
     "lat": 39.034,
     "lon": -79.313,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "blujay",
-    "name": "Blue Jay",
-    "sci": "Cyanocitta cristata",
-    "count": 1,
-    "seen": "2026-10-23 11:06",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -399,13 +387,13 @@
     "code": "carwre",
     "name": "Carolina Wren",
     "sci": "Thryothorus ludovicianus",
-    "count": 1,
-    "seen": "2026-10-23 09:33",
-    "place": "Echo Park",
-    "lat": 38.989,
-    "lon": -79.221,
+    "count": 2,
+    "seen": "2026-10-22 10:59",
+    "place": "Seneca Rocks--Picnic Area and Visitor Center",
+    "lat": 38.835,
+    "lon": -79.373,
     "notable": false,
-    "near": "Dolly Sods and Canaan"
+    "near": "Spruce Knob"
    },
    {
     "code": "chispa",
@@ -424,10 +412,10 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 1,
-    "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
+    "seen": "2026-10-23 12:20",
+    "place": "Dolly Sods Wilderness--Wildlife Trail",
+    "lat": 39.028,
+    "lon": -79.317,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -456,18 +444,6 @@
     "near": "Dolly Sods and Canaan"
    },
    {
-    "code": "easblu",
-    "name": "Eastern Bluebird",
-    "sci": "Sialia sialis",
-    "count": 8,
-    "seen": "2026-10-22 08:30",
-    "place": "Hogueland Ln.",
-    "lat": 39.018,
-    "lon": -79.184,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
     "code": "easmea",
     "name": "Eastern Meadowlark",
     "sci": "Sturnella magna",
@@ -476,18 +452,6 @@
     "place": "Hogueland Ln.",
     "lat": 39.018,
     "lon": -79.184,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "easpho",
-    "name": "Eastern Phoebe",
-    "sci": "Sayornis phoebe",
-    "count": 1,
-    "seen": "2026-10-17 17:38",
-    "place": "Silver Lake",
-    "lat": 39.254,
-    "lon": -79.496,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -644,18 +608,6 @@
     "place": "Allegheny Front Migration Observatory--Red Creek CG",
     "lat": 39.034,
     "lon": -79.313,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "norcar",
-    "name": "Northern Cardinal",
-    "sci": "Cardinalis cardinalis",
-    "count": 1,
-    "seen": "2026-10-23 11:06",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -852,18 +804,6 @@
     "near": "Dolly Sods and Canaan"
    },
    {
-    "code": "tuftit",
-    "name": "Tufted Titmouse",
-    "sci": "Baeolophus bicolor",
-    "count": 3,
-    "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
@@ -876,18 +816,6 @@
     "near": "Dolly Sods and Canaan"
    },
    {
-    "code": "whbnut",
-    "name": "White-breasted Nuthatch",
-    "sci": "Sitta carolinensis",
-    "count": 6,
-    "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
@@ -896,18 +824,6 @@
     "place": "Hogueland Ln.",
     "lat": 39.018,
     "lon": -79.184,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "whtspa",
-    "name": "White-throated Sparrow",
-    "sci": "Zonotrichia albicollis",
-    "count": 1,
-    "seen": "2026-10-23 09:33",
-    "place": "Echo Park",
-    "lat": 38.989,
-    "lon": -79.221,
     "notable": false,
     "near": "Dolly Sods and Canaan"
    },
@@ -929,18 +845,6 @@
     "sci": "Sphyrapicus varius",
     "count": 1,
     "seen": "2026-10-23 10:04",
-    "place": "Monongahela NF--Forest Rt. 19",
-    "lat": 38.989,
-    "lon": -79.295,
-    "notable": false,
-    "near": "Dolly Sods and Canaan"
-   },
-   {
-    "code": "yerwar",
-    "name": "Yellow-rumped Warbler",
-    "sci": "Setophaga coronata",
-    "count": 1,
-    "seen": "2026-10-23 11:06",
     "place": "Monongahela NF--Forest Rt. 19",
     "lat": 38.989,
     "lon": -79.295,
