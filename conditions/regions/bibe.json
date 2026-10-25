@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-25T11:44:24Z",
+ "fetchedAt": "2026-10-25T16:32:37Z",
  "region": "bibe",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 29.2711,
     "lon": -103.3016,
     "pollutant": "PM2.5",
-    "aqi": 32,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 6:00 local"
+    "observed": "2026-10-25 11:00 local"
    },
    {
     "area": "Panther Junction",
@@ -29,10 +29,10 @@
     "lat": 29.3301,
     "lon": -103.2063,
     "pollutant": "PM2.5",
-    "aqi": 32,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 6:00 local"
+    "observed": "2026-10-25 11:00 local"
    },
    {
     "area": "Rio Grande Village",
@@ -44,10 +44,10 @@
     "lat": 29.1816,
     "lon": -102.9544,
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 6:00 local"
+    "observed": "2026-10-25 11:00 local"
    },
    {
     "area": "Santa Elena Canyon",
@@ -59,10 +59,10 @@
     "lat": 29.1664,
     "lon": -103.6113,
     "pollutant": "PM2.5",
-    "aqi": 33,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 6:00 local"
+    "observed": "2026-10-25 11:00 local"
    }
   ],
   "forecasts": [
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "carwre",
@@ -202,6 +202,18 @@
     "lon": -102.956,
     "notable": true,
     "near": "Rio Grande Village"
+   },
+   {
+    "code": "comnig",
+    "name": "Common Nighthawk",
+    "sci": "Chordeiles minor",
+    "count": 1,
+    "seen": "2026-10-21 14:00",
+    "place": "Lajitas (FWTX 37)",
+    "lat": 29.262,
+    "lon": -103.777,
+    "notable": true,
+    "near": "Santa Elena Canyon"
    },
    {
     "code": "hrshaw",
@@ -228,6 +240,18 @@
     "near": "Rio Grande Village"
    },
    {
+    "code": "acowoo",
+    "name": "Acorn Woodpecker",
+    "sci": "Melanerpes formicivorus",
+    "count": 3,
+    "seen": "2026-10-23 16:49",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
+    "notable": false,
+    "near": "Chisos Basin"
+   },
+   {
     "code": "y00475",
     "name": "American Coot",
     "sci": "Fulica americana",
@@ -238,6 +262,18 @@
     "lon": -103.777,
     "notable": false,
     "near": "Santa Elena Canyon"
+   },
+   {
+    "code": "amegfi",
+    "name": "American Goldfinch",
+    "sci": "Spinus tristis",
+    "count": 1,
+    "seen": "2026-10-24 14:31",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
+    "notable": false,
+    "near": "Chisos Basin"
    },
    {
     "code": "amepip",
@@ -279,8 +315,8 @@
     "code": "blkvul",
     "name": "Black Vulture",
     "sci": "Coragyps atratus",
-    "count": 1,
-    "seen": "2026-10-20 09:53",
+    "count": 5,
+    "seen": "2026-10-24 10:19",
     "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
     "lat": 29.181,
     "lon": -102.956,
@@ -298,18 +334,6 @@
     "lon": -102.965,
     "notable": false,
     "near": "Rio Grande Village"
-   },
-   {
-    "code": "bktspa",
-    "name": "Black-throated Sparrow",
-    "sci": "Amphispiza bilineata",
-    "count": 1,
-    "seen": "2026-10-22 09:06",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
-    "notable": false,
-    "near": "Chisos Basin"
    },
    {
     "code": "buggna",
@@ -375,11 +399,23 @@
     "code": "cacwre",
     "name": "Cactus Wren",
     "sci": "Campylorhynchus brunneicapillus",
-    "count": 4,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 2,
+    "seen": "2026-10-23 16:49",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
+    "notable": false,
+    "near": "Chisos Basin"
+   },
+   {
+    "code": "cantow",
+    "name": "Canyon Towhee",
+    "sci": "Melozone fusca",
+    "count": 1,
+    "seen": "2026-10-24 14:31",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -399,11 +435,11 @@
     "code": "chispa",
     "name": "Chipping Sparrow",
     "sci": "Spizella passerina",
-    "count": 1,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 2,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -418,6 +454,18 @@
     "lon": -102.965,
     "notable": false,
     "near": "Rio Grande Village"
+   },
+   {
+    "code": "compoo",
+    "name": "Common Poorwill",
+    "sci": "Phalaenoptilus nuttallii",
+    "count": 1,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
+    "notable": false,
+    "near": "Chisos Basin"
    },
    {
     "code": "comrav",
@@ -459,11 +507,11 @@
     "code": "cubthr",
     "name": "Curve-billed Thrasher",
     "sci": "Toxostoma curvirostre",
-    "count": 2,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 1,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -483,13 +531,13 @@
     "code": "easpho",
     "name": "Eastern Phoebe",
     "sci": "Sayornis phoebe",
-    "count": 1,
-    "seen": "2026-10-21 14:00",
-    "place": "Lajitas (FWTX 37)",
-    "lat": 29.262,
-    "lon": -103.777,
+    "count": 3,
+    "seen": "2026-10-24 10:19",
+    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
+    "lat": 29.181,
+    "lon": -102.956,
     "notable": false,
-    "near": "Santa Elena Canyon"
+    "near": "Rio Grande Village"
    },
    {
     "code": "eucdov",
@@ -544,12 +592,12 @@
     "name": "Greater Roadrunner",
     "sci": "Geococcyx californianus",
     "count": 1,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "seen": "2026-10-24 10:19",
+    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
+    "lat": 29.181,
+    "lon": -102.956,
     "notable": false,
-    "near": "Chisos Basin"
+    "near": "Rio Grande Village"
    },
    {
     "code": "grnher",
@@ -591,13 +639,13 @@
     "code": "houfin",
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
-    "count": 7,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 2,
+    "seen": "2026-10-21 18:39",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
-    "near": "Chisos Basin"
+    "near": "Rio Grande Village"
    },
    {
     "code": "houspa",
@@ -640,12 +688,12 @@
     "name": "Ladder-backed Woodpecker",
     "sci": "Dryobates scalaris",
     "count": 1,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "seen": "2026-10-21 14:00",
+    "place": "Lajitas (FWTX 37)",
+    "lat": 29.262,
+    "lon": -103.777,
     "notable": false,
-    "near": "Chisos Basin"
+    "near": "Santa Elena Canyon"
    },
    {
     "code": "lesgol",
@@ -664,10 +712,10 @@
     "name": "Loggerhead Shrike",
     "sci": "Lanius ludovicianus",
     "count": 1,
-    "seen": "2026-10-21 13:59",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -696,16 +744,28 @@
     "near": "Rio Grande Village"
    },
    {
+    "code": "mexjay4",
+    "name": "Mexican Jay",
+    "sci": "Aphelocoma wollweberi",
+    "count": 3,
+    "seen": "2026-10-24 14:31",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
+    "notable": false,
+    "near": "Chisos Basin"
+   },
+   {
     "code": "moudov",
     "name": "Mourning Dove",
     "sci": "Zenaida macroura",
-    "count": 2,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 4,
+    "seen": "2026-10-19 07:48",
+    "place": "Big Bend NP--Daniels Ranch Rd.",
+    "lat": 29.184,
+    "lon": -102.965,
     "notable": false,
-    "near": "Chisos Basin"
+    "near": "Rio Grande Village"
    },
    {
     "code": "naswar",
@@ -723,35 +783,35 @@
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 1,
-    "seen": "2026-10-21 14:00",
-    "place": "Lajitas (FWTX 37)",
-    "lat": 29.262,
-    "lon": -103.777,
+    "count": 2,
+    "seen": "2026-10-24 10:19",
+    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
+    "lat": 29.181,
+    "lon": -102.956,
     "notable": false,
-    "near": "Santa Elena Canyon"
+    "near": "Rio Grande Village"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 1,
-    "seen": "2026-10-20 08:38",
-    "place": "Big Bend NP--Daniels Ranch Rd.",
-    "lat": 29.184,
-    "lon": -102.965,
+    "count": 2,
+    "seen": "2026-10-23 16:49",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
     "notable": false,
-    "near": "Rio Grande Village"
+    "near": "Chisos Basin"
    },
    {
     "code": "normoc",
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
     "count": 1,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "seen": "2026-10-24 12:39",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -795,13 +855,13 @@
     "code": "pyrrhu",
     "name": "Pyrrhuloxia",
     "sci": "Cardinalis sinuatus",
-    "count": 2,
-    "seen": "2026-10-21 14:00",
-    "place": "Lajitas (FWTX 37)",
-    "lat": 29.262,
-    "lon": -103.777,
+    "count": 1,
+    "seen": "2026-10-24 10:19",
+    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
+    "lat": 29.181,
+    "lon": -102.956,
     "notable": false,
-    "near": "Santa Elena Canyon"
+    "near": "Rio Grande Village"
    },
    {
     "code": "rebnut",
@@ -844,36 +904,24 @@
     "name": "Rock Wren",
     "sci": "Salpinctes obsoletus",
     "count": 1,
-    "seen": "2026-10-21 14:00",
-    "place": "Lajitas (FWTX 37)",
-    "lat": 29.262,
-    "lon": -103.777,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
-    "near": "Santa Elena Canyon"
+    "near": "Chisos Basin"
    },
    {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
     "count": 1,
-    "seen": "2026-10-21 18:39",
+    "seen": "2026-10-24 17:30",
     "place": "Big Bend NP--Dugout Wells",
     "lat": 29.271,
     "lon": -103.135,
     "notable": false,
-    "near": "Rio Grande Village"
-   },
-   {
-    "code": "sancra",
-    "name": "Sandhill Crane",
-    "sci": "Antigone canadensis",
-    "count": 8,
-    "seen": "2026-10-18 08:27",
-    "place": "Lajitas (FWTX 37)",
-    "lat": 29.262,
-    "lon": -103.777,
-    "notable": false,
-    "near": "Santa Elena Canyon"
+    "near": "Chisos Basin"
    },
    {
     "code": "saypho",
@@ -963,13 +1011,13 @@
     "code": "verdin",
     "name": "Verdin",
     "sci": "Auriparus flaviceps",
-    "count": 4,
-    "seen": "2026-10-20 09:53",
-    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
-    "lat": 29.181,
-    "lon": -102.956,
+    "count": 1,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
-    "near": "Rio Grande Village"
+    "near": "Chisos Basin"
    },
    {
     "code": "verfly",
@@ -1012,7 +1060,7 @@
     "name": "Western Screech-Owl",
     "sci": "Megascops kennicottii",
     "count": 1,
-    "seen": "2026-10-21 18:39",
+    "seen": "2026-10-24 17:30",
     "place": "Big Bend NP--Dugout Wells",
     "lat": 29.271,
     "lon": -103.135,
@@ -1047,11 +1095,11 @@
     "code": "whwdov",
     "name": "White-winged Dove",
     "sci": "Zenaida asiatica",
-    "count": 4,
-    "seen": "2026-10-23 12:05",
-    "place": "Big Bend NP--Panther Junction",
-    "lat": 29.328,
-    "lon": -103.206,
+    "count": 2,
+    "seen": "2026-10-24 17:30",
+    "place": "Big Bend NP--Dugout Wells",
+    "lat": 29.271,
+    "lon": -103.135,
     "notable": false,
     "near": "Chisos Basin"
    },
@@ -1072,12 +1120,12 @@
     "name": "Yellow-bellied Sapsucker",
     "sci": "Sphyrapicus varius",
     "count": 1,
-    "seen": "2026-10-20 09:53",
-    "place": "Big Bend NP--Rio Grande Village (FWTX 44)",
-    "lat": 29.181,
-    "lon": -102.956,
+    "seen": "2026-10-24 14:31",
+    "place": "Big Bend NP--Chisos Mountains Lodge area",
+    "lat": 29.27,
+    "lon": -103.3,
     "notable": false,
-    "near": "Rio Grande Village"
+    "near": "Chisos Basin"
    },
    {
     "code": "yehbla",
@@ -1103,7 +1151,6 @@
     "notable": false,
     "near": "Santa Elena Canyon"
    }
-  ],
-  "staleSince": "2026-10-25T11:44:24Z"
+  ]
  }
 }

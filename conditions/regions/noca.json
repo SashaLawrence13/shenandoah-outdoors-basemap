@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-25T11:44:24Z",
+ "fetchedAt": "2026-10-25T16:32:37Z",
  "region": "noca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 48.6665,
     "lon": -121.2663,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 4:00 local"
+    "observed": "2026-10-25 9:00 local"
    },
    {
     "area": "Colonial Creek and Diablo Lake",
@@ -29,10 +29,10 @@
     "lat": 48.6916,
     "lon": -121.1006,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 4:00 local"
+    "observed": "2026-10-25 9:00 local"
    },
    {
     "area": "Cascade Pass trailhead",
@@ -44,10 +44,10 @@
     "lat": 48.4756,
     "lon": -121.0751,
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 4:00 local"
+    "observed": "2026-10-25 9:00 local"
    },
    {
     "area": "Stehekin",
@@ -59,10 +59,10 @@
     "lat": 48.3094,
     "lon": -120.6573,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 4:00 local"
+    "observed": "2026-10-25 9:00 local"
    }
   ],
   "forecasts": [
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "attwoo1",
@@ -212,6 +212,18 @@
     "place": "Easy Pass",
     "lat": 48.584,
     "lon": -120.82,
+    "notable": true,
+    "near": "Colonial Creek and Diablo Lake"
+   },
+   {
+    "code": "mouchi",
+    "name": "Mountain Chickadee",
+    "sci": "Poecile gambeli",
+    "count": 8,
+    "seen": "2026-10-23 15:53",
+    "place": "Jackita Ridge Trail - McMillan Park",
+    "lat": 48.734,
+    "lon": -120.883,
     "notable": true,
     "near": "Colonial Creek and Diablo Lake"
    },
@@ -432,18 +444,6 @@
     "near": "Newhalem"
    },
    {
-    "code": "mouchi",
-    "name": "Mountain Chickadee",
-    "sci": "Poecile gambeli",
-    "count": 1,
-    "seen": "2026-10-20 07:58",
-    "place": "Easy Pass",
-    "lat": 48.584,
-    "lon": -120.82,
-    "notable": false,
-    "near": "Colonial Creek and Diablo Lake"
-   },
-   {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
@@ -623,7 +623,6 @@
     "notable": false,
     "near": "Stehekin"
    }
-  ],
-  "staleSince": "2026-10-25T11:44:24Z"
+  ]
  }
 }
