@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-24T23:21:43Z",
+ "fetchedAt": "2026-10-25T04:54:02Z",
  "region": "havo",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Kīlauea Visitor Center",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 19.4295,
     "lon": -155.2575,
-    "pollutant": "PM2.5",
-    "aqi": 12,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-24 10:00 local"
+    "observed": "2026-10-24 18:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-24 10:00 local"
+    "observed": "2026-10-24 18:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 19.4934,
     "lon": -155.3843,
-    "pollutant": "PM2.5",
-    "aqi": 12,
+    "pollutant": "O3",
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-24 10:00 local"
+    "observed": "2026-10-24 18:00 local"
    },
    {
     "area": "Kahuku",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 19.13,
     "lon": -155.68,
-    "pollutant": "PM2.5",
-    "aqi": 15,
+    "pollutant": "O3",
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-24 10:00 local"
+    "observed": "2026-10-24 18:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-24",
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-25",
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,6 +120,21 @@
     "source": "open-meteo",
     "date": "2026-10-25",
     "pollutant": "O3",
+    "aqi": 23,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mauna Loa Road",
+    "state": "HI",
+    "near": "havo-mauna-loa-road",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-10-24",
+    "pollutant": "O3",
     "aqi": 22,
     "category": "Good",
     "level": 1,
@@ -133,24 +148,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-10-24",
-    "pollutant": "O3",
-    "aqi": 20,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mauna Loa Road",
-    "state": "HI",
-    "near": "havo-mauna-loa-road",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
     "date": "2026-10-25",
     "pollutant": "O3",
-    "aqi": 20,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,17 +180,16 @@
     "source": "open-meteo",
     "date": "2026-10-25",
     "pollutant": "O3",
-    "aqi": 24,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-24T23:21:43Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "hawcre",
@@ -468,6 +467,7 @@
     "notable": false,
     "near": "Kīlauea Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-25T04:54:02Z"
  }
 }
