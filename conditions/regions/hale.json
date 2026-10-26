@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-26T04:57:56Z",
+ "fetchedAt": "2026-10-26T20:35:24Z",
  "region": "hale",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 20.7147,
     "lon": -156.2502,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 18:00 local"
+    "observed": "2026-10-26 10:00 local"
    },
    {
     "area": "Hosmer Grove",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 20.769,
     "lon": -156.235,
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 18:00 local"
+    "observed": "2026-10-26 10:00 local"
    },
    {
     "area": "Kīpahulu Visitor Center",
@@ -44,10 +44,10 @@
     "lat": 20.6617,
     "lon": -156.0447,
     "pollutant": "PM2.5",
-    "aqi": 37,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 18:00 local"
+    "observed": "2026-10-26 10:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "pollutant": "PM2.5",
-    "aqi": 35,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hosmer Grove",
-    "state": "HI",
-    "near": "hale-hosmer",
-    "side": "forest",
-    "region": "hale",
-    "source": "open-meteo",
-    "date": "2026-10-25",
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,22 +90,22 @@
     "source": "open-meteo",
     "date": "2026-10-26",
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Kīpahulu Visitor Center",
+    "area": "Hosmer Grove",
     "state": "HI",
-    "near": "hale-kipahulu",
+    "near": "hale-hosmer",
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-10-25",
+    "date": "2026-10-27",
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-10-26",
     "pollutant": "PM2.5",
-    "aqi": 42,
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kīpahulu Visitor Center",
+    "state": "HI",
+    "near": "hale-kipahulu",
+    "side": "forest",
+    "region": "hale",
+    "source": "open-meteo",
+    "date": "2026-10-27",
+    "pollutant": "PM2.5",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "brnboo",
@@ -530,6 +530,7 @@
     "notable": false,
     "near": "Kīpahulu Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-26T20:35:24Z"
  }
 }

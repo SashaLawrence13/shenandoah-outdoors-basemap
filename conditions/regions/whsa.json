@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-26T04:57:56Z",
+ "fetchedAt": "2026-10-26T20:35:24Z",
  "region": "whsa",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 32.7797,
     "lon": -106.1719,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 22:00 local"
+    "observed": "2026-10-26 14:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -29,28 +29,13 @@
     "lat": 32.8205,
     "lon": -106.2731,
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-25 22:00 local"
+    "observed": "2026-10-26 14:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "White Sands Visitor Center",
-    "state": "NM",
-    "near": "whsa-visitor-center",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-10-25",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "White Sands Visitor Center",
     "state": "NM",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Alkali Flat trailhead",
+    "area": "White Sands Visitor Center",
     "state": "NM",
-    "near": "whsa-dunes",
+    "near": "whsa-visitor-center",
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-25",
+    "date": "2026-10-27",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-10-27",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amekes",
@@ -209,6 +209,7 @@
     "notable": false,
     "near": "White Sands Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-26T20:35:24Z"
  }
 }
