@@ -162,3 +162,44 @@ about 18,000 files, start a second Pages project for the new region
 (one free Pages site per region, decided 2026-09-24) and point a second
 contours source at it rather than adding more files here.
 mossback-tiles is already near its cap; don't add files there.
+
+## Air, fire and state closures (added 2026-10-28)
+
+Three steps of `.github/workflows/alerts.yml`, each a standard-library
+script in `scripts/` with its own refresh window, each keeping the last
+good files on any failure (the step never fails the job) and printing only
+error types, never URLs or keys. None needs a key.
+
+- `fetch_air_national.py` → `conditions/air/index.json` and
+  `conditions/air/<lonIndex>_<latIndex>.json` (2 degree tiles, about 210,
+  0.2 to 11 KB each). EPA AirNow's national file
+  (files.airnowtech.org/airnow/today/reportingarea.dat), downloaded only
+  when the server says it changed (ETag / Last-Modified kept in the
+  index). Preliminary data; attribute "EPA AirNow".
+- `fetch_fire_perimeters.py` → `conditions/fire/<region>.json` for every
+  region in `scripts/conditions_regions.json` (fires or not) plus
+  `conditions/fire/index.json`. NIFC's WFIGS current interagency fire
+  perimeters (public ArcGIS service), one national query, kept per region
+  when a perimeter touches the region's `fireBox`; name, acres,
+  containment, updated time and a simplified outline (outer rings, about
+  300 m). A three-number check (count, latest change, latest perimeter)
+  skips the download when nothing changed. About 70 KB for all regions on
+  2026-10-28, the largest file 14 KB.
+- `fetch_state_alerts.py` → `alerts/regions/{vsp,vawma,wvsp,wvwma}.json`
+  in the NPS region files' shape (`nps: {status, parks, alerts}`). Virginia
+  DCR park pages ("Park Alerts"), Virginia DWR WMA pages ("Important
+  Notices for this WMA"), and for West Virginia, which has no alerts page,
+  the WV State Parks and WVDNR news releases through their public
+  WordPress JSON API (closure words in the title, last 120 days).
+  robots.txt is read every run and honored (WV asks a 10 s crawl delay).
+  Refetched at most every 5.5 hours; about 3 minutes and 60 page requests
+  when it runs. DCR and DWR do not date their notices, so `updated` is the
+  day the job first saw one (`dated: "first-seen"`).
+
+Fire restriction stages: the Forest Service publishes no machine-readable
+restriction stages for the app's national forests (George Washington &
+Jefferson, Monongahela, Pisgah & Nantahala). Those forests post
+restrictions and burn bans as forest orders on their alerts pages, which
+`fetch_alerts.py` and `fetch_alerts_monongahela.py` already read. Only a few
+western forests (Region 2's GMUG and PSICC, for example) publish ArcGIS
+restriction layers. No restrictions step was added.
