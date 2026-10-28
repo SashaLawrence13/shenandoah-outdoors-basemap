@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-28T13:11:01Z",
+ "fetchedAt": "2026-10-28T20:21:42Z",
  "region": "havo",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Kīlauea Visitor Center",
@@ -14,10 +14,10 @@
     "lat": 19.4295,
     "lon": -155.2575,
     "pollutant": "PM2.5",
-    "aqi": 26,
+    "aqi": 16,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-27 19:00 local"
+    "observed": "2026-10-28 10:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "PM2.5",
-    "aqi": 32,
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-27 19:00 local"
+    "observed": "2026-10-28 10:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -44,10 +44,10 @@
     "lat": 19.4934,
     "lon": -155.3843,
     "pollutant": "PM2.5",
-    "aqi": 26,
+    "aqi": 16,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-27 19:00 local"
+    "observed": "2026-10-28 10:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "PM2.5",
-    "aqi": 23,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-27 19:00 local"
+    "observed": "2026-10-28 10:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 26,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "PM2.5",
-    "aqi": 24,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "End of Chain of Craters Road",
-    "state": "HI",
-    "near": "havo-coast",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
-    "date": "2026-10-27",
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "date": "2026-10-29",
+    "pollutant": "O3",
+    "aqi": 9,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Mauna Loa Road",
+    "area": "End of Chain of Craters Road",
     "state": "HI",
-    "near": "havo-mauna-loa-road",
+    "near": "havo-coast",
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-10-27",
+    "date": "2026-10-29",
     "pollutant": "PM2.5",
-    "aqi": 26,
+    "aqi": 13,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 24,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Kahuku",
+    "area": "Mauna Loa Road",
     "state": "HI",
-    "near": "havo-kahuku",
+    "near": "havo-mauna-loa-road",
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-10-27",
-    "pollutant": "PM2.5",
-    "aqi": 29,
+    "date": "2026-10-29",
+    "pollutant": "O3",
+    "aqi": 9,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,14 +165,28 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 20,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kahuku",
+    "state": "HI",
+    "near": "havo-kahuku",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-10-29",
+    "pollutant": "O3",
+    "aqi": 10,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-28T13:11:01Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -431,18 +430,6 @@
     "lon": -155.289,
     "notable": false,
     "near": "Kīlauea Visitor Center"
-   },
-   {
-    "code": "yefcan",
-    "name": "Yellow-fronted Canary",
-    "sci": "Crithagra mozambica",
-    "count": 6,
-    "seen": "2026-10-21 13:24",
-    "place": "Punaluʻu Beach and Pond",
-    "lat": 19.136,
-    "lon": -155.505,
-    "notable": false,
-    "near": "Kahuku"
    },
    {
     "code": "zebdov",

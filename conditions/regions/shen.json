@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-28T13:11:01Z",
+ "fetchedAt": "2026-10-28T20:21:42Z",
  "region": "shen",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Shenandoah NP north",
@@ -14,10 +14,10 @@
     "lat": 38.8,
     "lon": -78.28,
     "pollutant": "PM2.5",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-10-28 1:00 local"
+    "aqi": 68,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-10-28 16:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -29,10 +29,10 @@
     "lat": 38.53,
     "lon": -78.44,
     "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 67,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-28 1:00 local"
+    "observed": "2026-10-28 16:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -44,10 +44,10 @@
     "lat": 38.2,
     "lon": -78.75,
     "pollutant": "PM2.5",
-    "aqi": 53,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-28 1:00 local"
+    "observed": "2026-10-28 16:00 local"
    }
   ],
   "forecasts": [
@@ -60,7 +60,7 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 68,
+    "aqi": 69,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 67,
+    "aqi": 68,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-10-28",
     "pollutant": "PM2.5",
-    "aqi": 76,
+    "aqi": 72,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -135,30 +135,17 @@
     "source": "open-meteo",
     "date": "2026-10-29",
     "pollutant": "PM2.5",
-    "aqi": 76,
+    "aqi": 72,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-28T13:11:01Z"
+  ]
  },
  "birds": {
   "status": "ok",
   "list": [
-   {
-    "code": "btbwar",
-    "name": "Black-throated Blue Warbler",
-    "sci": "Setophaga caerulescens",
-    "count": 1,
-    "seen": "2026-10-21 09:49",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
-    "notable": true,
-    "near": "Shenandoah NP north"
-   },
    {
     "code": "bkpwar",
     "name": "Blackpoll Warbler",
@@ -180,18 +167,6 @@
     "place": "Seven Bends State Park",
     "lat": 38.866,
     "lon": -78.486,
-    "notable": true,
-    "near": "Shenandoah NP north"
-   },
-   {
-    "code": "magwar",
-    "name": "Magnolia Warbler",
-    "sci": "Setophaga magnolia",
-    "count": 1,
-    "seen": "2026-10-21 09:49",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
     "notable": true,
     "near": "Shenandoah NP north"
    },
@@ -224,7 +199,7 @@
     "name": "Snow Bunting",
     "sci": "Plectrophenax nivalis",
     "count": 1,
-    "seen": "2026-10-27 09:47",
+    "seen": "2026-10-28 08:47",
     "place": "Shenandoah NP--Stony Man Overlook",
     "lat": 38.611,
     "lon": -78.364,
@@ -308,10 +283,10 @@
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
     "count": 1,
-    "seen": "2026-10-27 17:05",
-    "place": "Shenandoah NP--Big Meadows",
-    "lat": 38.515,
-    "lon": -78.44,
+    "seen": "2026-10-28 08:05",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
     "notable": false,
     "near": "Shenandoah NP central"
    },
@@ -320,12 +295,12 @@
     "name": "American Goldfinch",
     "sci": "Spinus tristis",
     "count": 1,
-    "seen": "2026-10-27 11:19",
-    "place": "Shenandoah NP--Limberlost Trail",
-    "lat": 38.58,
-    "lon": -78.381,
+    "seen": "2026-10-28 10:19",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "amhgul1",
@@ -355,20 +330,44 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 2,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 26,
+    "seen": "2026-10-28 10:19",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "baleag",
+    "name": "Bald Eagle",
+    "sci": "Haliaeetus leucocephalus",
+    "count": 1,
+    "seen": "2026-10-28 10:19",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
+    "code": "brdowl",
+    "name": "Barred Owl",
+    "sci": "Strix varia",
+    "count": 2,
+    "seen": "2026-10-27 22:33",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
+    "notable": false,
+    "near": "Shenandoah NP central"
    },
    {
     "code": "blkvul",
     "name": "Black Vulture",
     "sci": "Coragyps atratus",
-    "count": 7,
-    "seen": "2026-10-27 12:17",
+    "count": 2,
+    "seen": "2026-10-28 10:19",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -386,18 +385,6 @@
     "lon": -78.803,
     "notable": false,
     "near": "Shenandoah NP south"
-   },
-   {
-    "code": "blujay",
-    "name": "Blue Jay",
-    "sci": "Cyanocitta cristata",
-    "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
-    "notable": false,
-    "near": "Shenandoah NP north"
    },
    {
     "code": "buhvir",
@@ -448,16 +435,40 @@
     "near": "Shenandoah NP north"
    },
    {
+    "code": "carchi",
+    "name": "Carolina Chickadee",
+    "sci": "Poecile carolinensis",
+    "count": 2,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
+    "notable": false,
+    "near": "Shenandoah NP south"
+   },
+   {
     "code": "carwre",
     "name": "Carolina Wren",
     "sci": "Thryothorus ludovicianus",
-    "count": 4,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 1,
+    "seen": "2026-10-28 08:47",
+    "place": "Shenandoah NP--Stony Man Overlook",
+    "lat": 38.611,
+    "lon": -78.364,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
+   },
+   {
+    "code": "cedwax",
+    "name": "Cedar Waxwing",
+    "sci": "Bombycilla cedrorum",
+    "count": 4,
+    "seen": "2026-10-27 12:08",
+    "place": "Shenandoah NP--Hawksbill Summit Trail",
+    "lat": 38.556,
+    "lon": -78.387,
+    "notable": false,
+    "near": "Shenandoah NP central"
    },
    {
     "code": "chispa",
@@ -487,37 +498,37 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 3,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "coohaw",
     "name": "Cooper's Hawk",
     "sci": "Astur cooperii",
-    "count": 3,
-    "seen": "2026-10-27 13:23",
-    "place": "Seven Bends State Park",
-    "lat": 38.866,
-    "lon": -78.486,
+    "count": 1,
+    "seen": "2026-10-28 10:19",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 10,
-    "seen": "2026-10-27 17:05",
-    "place": "Shenandoah NP--Big Meadows",
-    "lat": 38.515,
-    "lon": -78.44,
+    "count": 4,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "doccor",
@@ -535,23 +546,23 @@
     "code": "dowwoo",
     "name": "Downy Woodpecker",
     "sci": "Dryobates pubescens",
-    "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 3,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
-    "count": 10,
-    "seen": "2026-10-27 17:05",
-    "place": "Shenandoah NP--Big Meadows",
-    "lat": 38.515,
-    "lon": -78.44,
+    "count": 1,
+    "seen": "2026-10-28 08:05",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
     "notable": false,
     "near": "Shenandoah NP central"
    },
@@ -583,13 +594,13 @@
     "code": "eastow",
     "name": "Eastern Towhee",
     "sci": "Pipilo erythrophthalmus",
-    "count": 3,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 2,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "eursta",
@@ -643,13 +654,13 @@
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 1,
-    "seen": "2026-10-27 14:10",
-    "place": "Shenandoah NP--Limberlost Trail",
-    "lat": 38.58,
-    "lon": -78.381,
+    "count": 3,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "grycat",
@@ -662,18 +673,6 @@
     "lon": -78.543,
     "notable": false,
     "near": "Shenandoah NP south"
-   },
-   {
-    "code": "grbher3",
-    "name": "Great Blue Heron",
-    "sci": "Ardea herodias",
-    "count": 1,
-    "seen": "2026-10-26 15:02",
-    "place": "Bealers Ferry Pond",
-    "lat": 38.751,
-    "lon": -78.435,
-    "notable": false,
-    "near": "Shenandoah NP north"
    },
    {
     "code": "greegr",
@@ -704,22 +703,22 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-10-27 17:05",
-    "place": "Shenandoah NP--Big Meadows",
-    "lat": 38.515,
-    "lon": -78.44,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "herthr",
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
-    "count": 1,
-    "seen": "2026-10-27 09:36",
-    "place": "Shenandoah NP--Sawmill Ridge Overlook",
-    "lat": 38.106,
-    "lon": -78.784,
+    "count": 4,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -796,40 +795,28 @@
     "near": "Shenandoah NP central"
    },
    {
-    "code": "norbob",
-    "name": "Northern Bobwhite",
-    "sci": "Colinus virginianus",
-    "count": 1,
-    "seen": "2026-10-21 09:39",
-    "place": "Shenandoah NP--Stony Man Trail",
-    "lat": 38.593,
-    "lon": -78.376,
-    "notable": false,
-    "near": "Shenandoah NP central"
-   },
-   {
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 5,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 1,
+    "seen": "2026-10-28 10:17",
+    "place": "Shenandoah NP--Limberlost Trail",
+    "lat": 38.58,
+    "lon": -78.381,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
     "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "norhar2",
@@ -852,18 +839,6 @@
     "place": "Lickinghole Creek",
     "lat": 38.06,
     "lon": -78.668,
-    "notable": false,
-    "near": "Shenandoah NP south"
-   },
-   {
-    "code": "normoc",
-    "name": "Northern Mockingbird",
-    "sci": "Mimus polyglottos",
-    "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -943,13 +918,13 @@
     "code": "pilwoo",
     "name": "Pileated Woodpecker",
     "sci": "Dryocopus pileatus",
-    "count": 1,
-    "seen": "2026-10-27 09:47",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
+    "count": 2,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "pinsis",
@@ -964,40 +939,16 @@
     "near": "Shenandoah NP central"
    },
    {
-    "code": "pinwar",
-    "name": "Pine Warbler",
-    "sci": "Setophaga pinus",
-    "count": 2,
-    "seen": "2026-10-21 09:49",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
-    "notable": false,
-    "near": "Shenandoah NP central"
-   },
-   {
-    "code": "purfin",
-    "name": "Purple Finch",
-    "sci": "Haemorhous purpureus",
-    "count": 2,
-    "seen": "2026-10-27 09:47",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
-    "notable": false,
-    "near": "Shenandoah NP central"
-   },
-   {
     "code": "rebwoo",
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
-    "count": 1,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 8,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "rebnut",
@@ -1015,13 +966,13 @@
     "code": "reshaw",
     "name": "Red-shouldered Hawk",
     "sci": "Buteo lineatus",
-    "count": 2,
-    "seen": "2026-10-27 09:42",
-    "place": "Rockfish Gap Hawk Watch",
-    "lat": 38.03,
-    "lon": -78.858,
+    "count": 1,
+    "seen": "2026-10-28 08:05",
+    "place": "Shenandoah NP--Big Meadows Campground",
+    "lat": 38.527,
+    "lon": -78.437,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "rethaw",
@@ -1075,25 +1026,25 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 2,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
+    "count": 1,
+    "seen": "2026-10-28 10:17",
+    "place": "Shenandoah NP--Limberlost Trail",
+    "lat": 38.58,
+    "lon": -78.381,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "rufgro",
     "name": "Ruffed Grouse",
     "sci": "Bonasa umbellus",
     "count": 1,
-    "seen": "2026-10-27 09:47",
-    "place": "Shenandoah NP--Stony Man Overlook",
-    "lat": 38.611,
-    "lon": -78.364,
+    "seen": "2026-10-27 12:08",
+    "place": "Shenandoah NP--Hawksbill Summit Trail",
+    "lat": 38.556,
+    "lon": -78.387,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "rusbla",
@@ -1111,8 +1062,8 @@
     "code": "shshaw",
     "name": "Sharp-shinned Hawk",
     "sci": "Accipiter striatus",
-    "count": 1,
-    "seen": "2026-10-27 12:17",
+    "count": 3,
+    "seen": "2026-10-28 10:19",
     "place": "Rockfish Gap Hawk Watch",
     "lat": 38.03,
     "lon": -78.858,
@@ -1147,47 +1098,47 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 2,
-    "seen": "2026-10-27 11:27",
-    "place": "Shenandoah NP--Fox Hollow Trail",
-    "lat": 38.874,
-    "lon": -78.203,
+    "count": 3,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
-    "count": 1,
-    "seen": "2026-10-27 14:10",
-    "place": "Shenandoah NP--Limberlost Trail",
-    "lat": 38.58,
-    "lon": -78.381,
+    "count": 4,
+    "seen": "2026-10-28 10:19",
+    "place": "Rockfish Gap Hawk Watch",
+    "lat": 38.03,
+    "lon": -78.858,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
-    "count": 1,
-    "seen": "2026-10-27 14:10",
-    "place": "Shenandoah NP--Limberlost Trail",
-    "lat": 38.58,
-    "lon": -78.381,
+    "count": 6,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP south"
    },
    {
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 1,
-    "seen": "2026-10-26 15:29",
-    "place": "Leonard's Pond",
-    "lat": 38.327,
-    "lon": -78.877,
+    "count": 2,
+    "seen": "2026-10-28 10:21",
+    "place": "Byrom County Park",
+    "lat": 38.221,
+    "lon": -78.65,
     "notable": false,
     "near": "Shenandoah NP south"
    },
@@ -1195,23 +1146,11 @@
     "code": "whtspa",
     "name": "White-throated Sparrow",
     "sci": "Zonotrichia albicollis",
-    "count": 15,
-    "seen": "2026-10-27 17:49",
-    "place": "Northern Virginia 4-H Educational & Conference Center",
-    "lat": 38.859,
-    "lon": -78.172,
-    "notable": false,
-    "near": "Shenandoah NP north"
-   },
-   {
-    "code": "wiltur",
-    "name": "Wild Turkey",
-    "sci": "Meleagris gallopavo",
-    "count": 11,
-    "seen": "2026-10-21 17:45",
-    "place": "Grove Hill Boat Ramp",
-    "lat": 38.527,
-    "lon": -78.595,
+    "count": 1,
+    "seen": "2026-10-28 10:17",
+    "place": "Shenandoah NP--Limberlost Trail",
+    "lat": 38.58,
+    "lon": -78.381,
     "notable": false,
     "near": "Shenandoah NP central"
    },
@@ -1267,13 +1206,13 @@
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
-    "count": 2,
-    "seen": "2026-10-27 17:05",
-    "place": "Shenandoah NP--Big Meadows",
-    "lat": 38.515,
-    "lon": -78.44,
+    "count": 1,
+    "seen": "2026-10-28 08:47",
+    "place": "Shenandoah NP--Stony Man Overlook",
+    "lat": 38.611,
+    "lon": -78.364,
     "notable": false,
-    "near": "Shenandoah NP central"
+    "near": "Shenandoah NP north"
    }
   ]
  }
