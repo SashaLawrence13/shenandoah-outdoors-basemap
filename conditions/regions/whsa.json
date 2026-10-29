@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-29T04:38:35Z",
+ "fetchedAt": "2026-10-29T10:10:32Z",
  "region": "whsa",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.7797,
     "lon": -106.1719,
-    "pollutant": "O3",
-    "aqi": 36,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -29,10 +29,10 @@
     "lat": 32.8205,
     "lon": -106.2731,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "PM2.5",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Alkali Flat trailhead",
-    "state": "NM",
-    "near": "whsa-dunes",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-10-28",
+    "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-10-29",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "bewwre",
@@ -293,6 +293,7 @@
     "notable": false,
     "near": "White Sands Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-29T10:10:32Z"
  }
 }

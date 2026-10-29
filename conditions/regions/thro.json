@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-29T04:38:35Z",
+ "fetchedAt": "2026-10-29T10:10:32Z",
  "region": "thro",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 46.9157,
     "lon": -103.5262,
-    "pollutant": "O3",
-    "aqi": 27,
+    "pollutant": "PM2.5",
+    "aqi": 19,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    },
    {
     "area": "Painted Canyon",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 46.8955,
     "lon": -103.3818,
-    "pollutant": "O3",
-    "aqi": 28,
+    "pollutant": "PM2.5",
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    },
    {
     "area": "North Unit Visitor Center",
@@ -44,10 +44,10 @@
     "lat": 47.6,
     "lon": -103.2602,
     "pollutant": "PM2.5",
-    "aqi": 22,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 23:00 local"
+    "observed": "2026-10-29 5:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "O3",
-    "aqi": 31,
+    "date": "2026-10-29",
+    "pollutant": "PM2.5",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 24,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Painted Canyon",
-    "state": "ND",
-    "near": "thro-painted-canyon",
-    "side": "forest",
-    "region": "thro",
-    "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "O3",
-    "aqi": 31,
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -104,23 +89,23 @@
     "region": "thro",
     "source": "open-meteo",
     "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 23,
+    "pollutant": "PM2.5",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "North Unit Visitor Center",
+    "area": "Painted Canyon",
     "state": "ND",
-    "near": "thro-north",
+    "near": "thro-painted-canyon",
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "O3",
-    "aqi": 25,
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-10-29",
     "pollutant": "PM2.5",
-    "aqi": 66,
+    "aqi": 61,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Unit Visitor Center",
+    "state": "ND",
+    "near": "thro-north",
+    "side": "forest",
+    "region": "thro",
+    "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 61,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "evegro",
@@ -506,6 +506,7 @@
     "notable": false,
     "near": "South Unit Visitor Center in Medora"
    }
-  ]
+  ],
+  "staleSince": "2026-10-29T10:10:32Z"
  }
 }

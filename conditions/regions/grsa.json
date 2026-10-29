@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-29T04:38:35Z",
+ "fetchedAt": "2026-10-29T10:10:32Z",
  "region": "grsa",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.7395,
     "lon": -105.5171,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    },
    {
     "area": "Medano Lake",
@@ -29,28 +29,13 @@
     "lat": 37.8566,
     "lon": -105.4846,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 22:00 local"
+    "observed": "2026-10-29 4:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Dunes Parking Lot",
-    "state": "CO",
-    "near": "grsa-dunes",
-    "side": "forest",
-    "region": "grsa",
-    "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Dunes Parking Lot",
     "state": "CO",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Medano Lake",
+    "area": "Dunes Parking Lot",
     "state": "CO",
-    "near": "grsa-preserve",
+    "near": "grsa-dunes",
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-10-28",
+    "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Medano Lake",
+    "state": "CO",
+    "near": "grsa-preserve",
+    "side": "forest",
+    "region": "grsa",
+    "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amerob",
@@ -281,6 +281,7 @@
     "notable": false,
     "near": "Dunes Parking Lot"
    }
-  ]
+  ],
+  "staleSince": "2026-10-29T10:10:32Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-29T04:38:35Z",
+ "fetchedAt": "2026-10-29T10:10:32Z",
  "region": "pinn",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 36.4813,
     "lon": -121.1817,
-    "pollutant": "O3",
-    "aqi": 44,
+    "pollutant": "PM2.5",
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 21:00 local"
+    "observed": "2026-10-29 3:00 local"
    },
    {
     "area": "Chaparral (West Pinnacles)",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 36.4918,
     "lon": -121.2097,
-    "pollutant": "O3",
-    "aqi": 44,
+    "pollutant": "PM2.5",
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 21:00 local"
+    "observed": "2026-10-29 3:00 local"
    }
   ],
   "forecasts": [
@@ -43,11 +43,11 @@
     "side": "forest",
     "region": "pinn",
     "source": "open-meteo",
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "pollutant": "PM2.5",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "pinn",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "pollutant": "PM2.5",
-    "aqi": 54,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Chaparral (West Pinnacles)",
-    "state": "CA",
-    "near": "pinn-chaparral",
-    "side": "forest",
-    "region": "pinn",
-    "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,16 +75,31 @@
     "source": "open-meteo",
     "date": "2026-10-29",
     "pollutant": "PM2.5",
-    "aqi": 54,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Chaparral (West Pinnacles)",
+    "state": "CA",
+    "near": "pinn-chaparral",
+    "side": "forest",
+    "region": "pinn",
+    "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "moublu",
@@ -1013,6 +1013,7 @@
     "notable": false,
     "near": "Bear Gulch"
    }
-  ]
+  ],
+  "staleSince": "2026-10-29T10:10:32Z"
  }
 }
