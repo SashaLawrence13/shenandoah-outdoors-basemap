@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-10-29T01:02:27Z",
+ "fetchedAt": "2026-10-29T04:38:35Z",
  "region": "isro",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Rock Harbor",
@@ -14,10 +14,10 @@
     "lat": 48.146,
     "lon": -88.486,
     "pollutant": "PM2.5",
-    "aqi": 28,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 18:00 local"
+    "observed": "2026-10-29 0:00 local"
    },
    {
     "area": "Windigo",
@@ -29,10 +29,10 @@
     "lat": 47.912,
     "lon": -89.156,
     "pollutant": "PM2.5",
-    "aqi": 27,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 18:00 local"
+    "observed": "2026-10-29 0:00 local"
    },
    {
     "area": "Island's interior",
@@ -44,28 +44,13 @@
     "lat": 48.03,
     "lon": -88.85,
     "pollutant": "PM2.5",
-    "aqi": 27,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-28 18:00 local"
+    "observed": "2026-10-29 0:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Rock Harbor",
-    "state": "MI",
-    "near": "isro-rock-harbor",
-    "side": "forest",
-    "region": "isro",
-    "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "PM2.5",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Rock Harbor",
     "state": "MI",
@@ -82,15 +67,15 @@
     "discussion": ""
    },
    {
-    "area": "Windigo",
+    "area": "Rock Harbor",
     "state": "MI",
-    "near": "isro-windigo",
+    "near": "isro-rock-harbor",
     "side": "forest",
     "region": "isro",
     "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,14 +97,14 @@
     "discussion": ""
    },
    {
-    "area": "Island's interior",
+    "area": "Windigo",
     "state": "MI",
-    "near": "isro-interior",
+    "near": "isro-windigo",
     "side": "forest",
     "region": "isro",
     "source": "open-meteo",
-    "date": "2026-10-28",
-    "pollutant": "PM2.5",
+    "date": "2026-10-30",
+    "pollutant": "O3",
     "aqi": 36,
     "category": "Good",
     "level": 1,
@@ -140,9 +125,23 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Island's interior",
+    "state": "MI",
+    "near": "isro-interior",
+    "side": "forest",
+    "region": "isro",
+    "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 36,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
-  ],
-  "staleSince": "2026-10-29T01:02:27Z"
+  ]
  },
  "birds": {
   "status": "error: no list for the region",
