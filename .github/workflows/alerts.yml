@@ -84,6 +84,9 @@ jobs:
         continue-on-error: true
         timeout-minutes: 5
         run: python3 scripts/fetch_state_alerts.py
+      - name: Match seasonal road closures in this run's alerts (no key, no requests; alerts/road-closures.json from scripts/road_closures_live.json)
+        continue-on-error: true
+        run: python3 scripts/fetch_road_closures.py
       - name: Fetch Recreation.gov facilities (forest campgrounds)
         env:
           RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
@@ -100,7 +103,7 @@ jobs:
           changed = False
           # conditions/regions/<id>.json (air and birds) and alerts/regions/<id>.json (park and state alerts): one small file per region;
           # conditions/air/<tile>.json (AirNow, 2 degree tiles) and conditions/fire/<id>.json (fire perimeters).
-          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json") + glob.glob("conditions/hotspots/*.json") + glob.glob("park/nps/*/*.json") + glob.glob("alerts/regions/*.json") + glob.glob("conditions/air/*.json") + glob.glob("conditions/fire/*.json"))):
+          for path in ("alerts/alerts.json", "alerts/blri-closures.json", "alerts/monongahela-alerts.json", "alerts/road-closures.json", "park/park.json", "conditions/conditions.json", "ridb/ridb.json") + tuple(sorted(glob.glob("conditions/regions/*.json") + glob.glob("conditions/hotspots/*.json") + glob.glob("park/nps/*/*.json") + glob.glob("alerts/regions/*.json") + glob.glob("conditions/air/*.json") + glob.glob("conditions/fire/*.json"))):
               if not os.path.exists(path):
                   continue
               new = json.load(open(path))
