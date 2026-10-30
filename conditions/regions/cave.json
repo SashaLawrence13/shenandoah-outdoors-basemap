@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T18:04:42Z",
+ "fetchedAt": "2026-10-30T22:28:42Z",
  "region": "cave",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.1754,
     "lon": -104.4442,
-    "pollutant": "PM2.5",
-    "aqi": 30,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    },
    {
     "area": "Slaughter Canyon parking area",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 32.1106,
     "lon": -104.5628,
-    "pollutant": "PM2.5",
-    "aqi": 30,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    }
   ],
   "forecasts": [
@@ -44,8 +44,8 @@
     "region": "cave",
     "source": "open-meteo",
     "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -89,8 +89,8 @@
     "region": "cave",
     "source": "open-meteo",
     "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "comrav",
@@ -593,6 +593,7 @@
     "notable": false,
     "near": "Slaughter Canyon parking area"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T22:28:42Z"
  }
 }

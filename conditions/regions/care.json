@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T18:04:42Z",
+ "fetchedAt": "2026-10-30T22:28:42Z",
  "region": "care",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.2877,
     "lon": -111.2461,
     "pollutant": "PM2.5",
-    "aqi": 23,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    },
    {
     "area": "Capitol Gorge and the Waterpocket Fold",
@@ -29,10 +29,10 @@
     "lat": 38.2,
     "lon": -111.17,
     "pollutant": "PM2.5",
-    "aqi": 23,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    },
    {
     "area": "Cathedral Valley",
@@ -44,10 +44,10 @@
     "lat": 38.45,
     "lon": -111.3,
     "pollutant": "PM2.5",
-    "aqi": 23,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    },
    {
     "area": "The south end (Burr Trail)",
@@ -59,10 +59,10 @@
     "lat": 37.9,
     "lon": -111.05,
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 12:00 local"
+    "observed": "2026-10-30 16:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,21 +90,6 @@
     "source": "open-meteo",
     "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Capitol Gorge and the Waterpocket Fold",
-    "state": "UT",
-    "near": "care-capitol-gorge",
-    "side": "forest",
-    "region": "care",
-    "source": "open-meteo",
-    "date": "2026-10-30",
-    "pollutant": "O3",
     "aqi": 36,
     "category": "Good",
     "level": 1,
@@ -118,22 +103,22 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-31",
+    "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Cathedral Valley",
+    "area": "Capitol Gorge and the Waterpocket Fold",
     "state": "UT",
-    "near": "care-cathedral-valley",
+    "near": "care-capitol-gorge",
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "pollutant": "O3",
     "aqi": 36,
     "category": "Good",
@@ -148,9 +133,24 @@
     "side": "forest",
     "region": "care",
     "source": "open-meteo",
+    "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cathedral Valley",
+    "state": "UT",
+    "near": "care-cathedral-valley",
+    "side": "forest",
+    "region": "care",
+    "source": "open-meteo",
     "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amerob",
@@ -323,6 +323,7 @@
     "notable": false,
     "near": "Fruita and the visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T22:28:42Z"
  }
 }
