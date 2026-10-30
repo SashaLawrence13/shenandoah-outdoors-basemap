@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "grsa",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.7395,
     "lon": -105.5171,
-    "pollutant": "O3",
-    "aqi": 44,
+    "pollutant": "PM2.5",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 19:00 local"
+    "observed": "2026-10-30 4:00 local"
    },
    {
     "area": "Medano Lake",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 37.8566,
     "lon": -105.4846,
-    "pollutant": "O3",
-    "aqi": 45,
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 19:00 local"
+    "observed": "2026-10-30 4:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 44,
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,7 +58,7 @@
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "pollutant": "O3",
     "aqi": 42,
     "category": "Good",
@@ -73,11 +73,11 @@
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -88,9 +88,9 @@
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-10-30",
-    "pollutant": "O3",
-    "aqi": 45,
+    "date": "2026-10-31",
+    "pollutant": "PM2.5",
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -329,6 +329,7 @@
     "notable": false,
     "near": "Dunes Parking Lot"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }

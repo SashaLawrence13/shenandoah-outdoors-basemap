@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "shen",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.8,
     "lon": -78.28,
     "pollutant": "PM2.5",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-29 21:00 local"
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Shenandoah NP central",
@@ -29,10 +29,10 @@
     "lat": 38.53,
     "lon": -78.44,
     "pollutant": "PM2.5",
-    "aqi": 57,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-10-29 21:00 local"
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Shenandoah NP south",
@@ -44,10 +44,10 @@
     "lat": 38.2,
     "lon": -78.75,
     "pollutant": "PM2.5",
-    "aqi": 60,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "pollutant": "PM2.5",
-    "aqi": 71,
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -70,6 +70,21 @@
     "area": "Shenandoah NP north",
     "state": "VA",
     "near": "park-north",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP central",
+    "state": "VA",
+    "near": "park-central",
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
@@ -88,41 +103,11 @@
     "side": "park",
     "region": "shen",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "PM2.5",
-    "aqi": 70,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP central",
-    "state": "VA",
-    "near": "park-central",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-30",
-    "pollutant": "PM2.5",
-    "aqi": 56,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Shenandoah NP south",
-    "state": "VA",
-    "near": "park-south",
-    "side": "park",
-    "region": "shen",
-    "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "PM2.5",
-    "aqi": 74,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -135,9 +120,24 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "PM2.5",
-    "aqi": 58,
+    "aqi": 57,
     "category": "Moderate",
     "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Shenandoah NP south",
+    "state": "VA",
+    "near": "park-south",
+    "side": "park",
+    "region": "shen",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "PM2.5",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
@@ -306,13 +306,13 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 1,
-    "seen": "2026-10-29 12:17",
-    "place": "Shenandoah NP--Moormans River Overlook",
-    "lat": 38.161,
-    "lon": -78.772,
+    "count": 3,
+    "seen": "2026-10-29 09:58",
+    "place": "Shenandoah NP--Big Meadows",
+    "lat": 38.515,
+    "lon": -78.44,
     "notable": false,
-    "near": "Shenandoah NP south"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "baleag",
@@ -720,7 +720,7 @@
     "lat": 38.665,
     "lon": -78.483,
     "notable": false,
-    "near": "Shenandoah NP north"
+    "near": "Shenandoah NP central"
    },
    {
     "code": "moudov",
@@ -733,18 +733,6 @@
     "lon": -78.262,
     "notable": false,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "norcar",
-    "name": "Northern Cardinal",
-    "sci": "Cardinalis cardinalis",
-    "count": 2,
-    "seen": "2026-10-29 11:18",
-    "place": "Luray Caverns Airport",
-    "lat": 38.667,
-    "lon": -78.499,
-    "notable": false,
-    "near": "Shenandoah NP north"
    },
    {
     "code": "norfli",
@@ -1105,18 +1093,6 @@
     "lon": -78.364,
     "notable": false,
     "near": "Shenandoah NP north"
-   },
-   {
-    "code": "wooduc",
-    "name": "Wood Duck",
-    "sci": "Aix sponsa",
-    "count": 2,
-    "seen": "2026-10-25 08:28",
-    "place": "Panorama Farm (private)",
-    "lat": 38.12,
-    "lon": -78.489,
-    "notable": false,
-    "near": "Shenandoah NP south"
    },
    {
     "code": "yerwar",

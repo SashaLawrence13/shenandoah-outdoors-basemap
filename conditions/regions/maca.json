@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "maca",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.187,
     "lon": -86.1011,
-    "pollutant": "O3",
-    "aqi": 48,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 20:00 local"
+    "observed": "2026-10-30 5:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 37.213,
     "lon": -86.133,
-    "pollutant": "O3",
-    "aqi": 48,
+    "pollutant": "PM2.5",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 20:00 local"
+    "observed": "2026-10-30 5:00 local"
    }
   ],
   "forecasts": [
@@ -43,22 +43,7 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Big Hollow and Maple Springs",
-    "state": "KY",
-    "near": "maca-north",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "pollutant": "O3",
     "aqi": 49,
     "category": "Good",
@@ -74,17 +59,32 @@
     "region": "maca",
     "source": "open-meteo",
     "date": "2026-10-30",
+    "pollutant": "O3",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Big Hollow and Maple Springs",
+    "state": "KY",
+    "near": "maca-north",
+    "side": "forest",
+    "region": "maca",
+    "source": "open-meteo",
+    "date": "2026-10-31",
     "pollutant": "PM2.5",
-    "aqi": 62,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 41,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "swathr",
@@ -626,6 +626,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }

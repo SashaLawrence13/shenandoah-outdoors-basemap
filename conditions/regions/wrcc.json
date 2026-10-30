@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "wrcc",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 62.0192,
     "lon": -145.3693,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 17:00 local"
+    "observed": "2026-10-30 2:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Copper Center",
-    "state": "AK",
-    "near": "wrcc-copper-center",
-    "side": "forest",
-    "region": "wrcc",
-    "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Copper Center",
     "state": "AK",
@@ -50,11 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Copper Center",
+    "state": "AK",
+    "near": "wrcc-copper-center",
+    "side": "forest",
+    "region": "wrcc",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "norgos",
@@ -80,6 +80,7 @@
     "notable": false,
     "near": "Copper Center"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }

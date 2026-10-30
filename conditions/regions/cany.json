@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "cany",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.4586,
     "lon": -109.8192,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 19:00 local"
+    "observed": "2026-10-30 4:00 local"
    },
    {
     "area": "The Needles",
@@ -29,10 +29,10 @@
     "lat": 38.1698,
     "lon": -109.7597,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 19:00 local"
+    "observed": "2026-10-30 4:00 local"
    },
    {
     "area": "The Maze",
@@ -44,10 +44,10 @@
     "lat": 38.35,
     "lon": -110.2,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 19:00 local"
+    "observed": "2026-10-30 4:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "The Needles",
-    "state": "UT",
-    "near": "cany-needles",
-    "side": "forest",
-    "region": "cany",
-    "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,20 +90,20 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "The Maze",
+    "area": "The Needles",
     "state": "UT",
-    "near": "cany-maze",
+    "near": "cany-needles",
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "O3",
     "aqi": 39,
     "category": "Good",
@@ -140,11 +125,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "The Maze",
+    "state": "UT",
+    "near": "cany-maze",
+    "side": "forest",
+    "region": "cany",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 37,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "bushti",
@@ -326,6 +326,7 @@
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }

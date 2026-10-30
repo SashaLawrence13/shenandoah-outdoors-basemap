@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "ever",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 25.7583,
     "lon": -80.7648,
-    "pollutant": "O3",
-    "aqi": 35,
+    "pollutant": "PM2.5",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Royal Palm (Anhinga and Gumbo Limbo)",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 25.3947,
     "lon": -80.6086,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Flamingo",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 25.1417,
     "lon": -80.9217,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Pa-hay-okee and the pinelands",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 25.4,
     "lon": -80.7,
-    "pollutant": "O3",
-    "aqi": 35,
+    "pollutant": "PM2.5",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Royal Palm (Anhinga and Gumbo Limbo)",
-    "state": "FL",
-    "near": "ever-royal-palm",
-    "side": "forest",
-    "region": "ever",
-    "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Flamingo",
+    "area": "Royal Palm (Anhinga and Gumbo Limbo)",
     "state": "FL",
-    "near": "ever-flamingo",
+    "near": "ever-royal-palm",
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Pa-hay-okee and the pinelands",
+    "area": "Flamingo",
     "state": "FL",
-    "near": "ever-pinelands",
+    "near": "ever-flamingo",
     "side": "forest",
     "region": "ever",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Pa-hay-okee and the pinelands",
+    "state": "FL",
+    "near": "ever-pinelands",
+    "side": "forest",
+    "region": "ever",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "grefla2",
@@ -2003,6 +2003,7 @@
     "notable": false,
     "near": "Flamingo"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }

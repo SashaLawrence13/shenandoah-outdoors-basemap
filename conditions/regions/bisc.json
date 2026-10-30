@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T01:07:47Z",
+ "fetchedAt": "2026-10-30T10:12:34Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 25.4646,
     "lon": -80.3349,
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    },
    {
     "area": "Elliott Key",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 25.4532,
     "lon": -80.1966,
-    "pollutant": "O3",
-    "aqi": 35,
+    "pollutant": "PM2.5",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-29 21:00 local"
+    "observed": "2026-10-30 6:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "O3",
-    "aqi": 38,
+    "date": "2026-10-30",
+    "pollutant": "PM2.5",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,9 +58,24 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
     "date": "2026-10-30",
     "pollutant": "PM2.5",
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +88,9 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "O3",
     "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Elliott Key",
-    "state": "FL",
-    "near": "bisc-elliott",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-10-30",
-    "pollutant": "O3",
-    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "belvir1",
@@ -2117,6 +2117,7 @@
     "notable": false,
     "near": "Convoy Point"
    }
-  ]
+  ],
+  "staleSince": "2026-10-30T10:12:34Z"
  }
 }
