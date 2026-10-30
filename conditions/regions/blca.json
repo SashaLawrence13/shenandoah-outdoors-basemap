@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T10:12:34Z",
+ "fetchedAt": "2026-10-30T18:04:42Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.5427,
     "lon": -107.6866,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 4:00 local"
+    "observed": "2026-10-30 12:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -29,10 +29,10 @@
     "lat": 38.5866,
     "lon": -107.705,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 4:00 local"
+    "observed": "2026-10-30 12:00 local"
    }
   ],
   "forecasts": [
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "brnpel",
@@ -114,16 +114,28 @@
     "near": "South Rim Visitor Center"
    },
    {
+    "code": "y00475",
+    "name": "American Coot",
+    "sci": "Fulica americana",
+    "count": 2,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
     "count": 1,
-    "seen": "2026-10-28 17:15",
-    "place": "Uncompahgre River at Buckhorn Rd. (Ouray Co.)",
-    "lat": 38.331,
-    "lon": -107.779,
+    "seen": "2026-10-28 16:55",
+    "place": "Taviwach Park",
+    "lat": 38.498,
+    "lon": -107.906,
     "notable": false,
-    "near": "South Rim Visitor Center"
+    "near": "North Rim Ranger Station"
    },
    {
     "code": "amedip",
@@ -150,26 +162,14 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "belkin1",
-    "name": "Belted Kingfisher",
-    "sci": "Megaceryle alcyon",
-    "count": 1,
-    "seen": "2026-10-27 09:54",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
     "count": 1,
-    "seen": "2026-10-28 17:15",
-    "place": "Uncompahgre River at Buckhorn Rd. (Ouray Co.)",
-    "lat": 38.331,
-    "lon": -107.779,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -189,11 +189,11 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 12,
-    "seen": "2026-10-27 09:54",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
+    "count": 28,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -202,12 +202,12 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 1,
-    "seen": "2026-10-28 17:15",
-    "place": "Uncompahgre River at Buckhorn Rd. (Ouray Co.)",
-    "lat": 38.331,
-    "lon": -107.779,
+    "seen": "2026-10-28 16:55",
+    "place": "Taviwach Park",
+    "lat": 38.498,
+    "lon": -107.906,
     "notable": false,
-    "near": "South Rim Visitor Center"
+    "near": "North Rim Ranger Station"
    },
    {
     "code": "coohaw",
@@ -222,14 +222,50 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "eursta",
-    "name": "European Starling",
-    "sci": "Sturnus vulgaris",
-    "count": null,
-    "seen": "2026-10-28 16:55",
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 1,
+    "seen": "2026-10-29 17:43",
     "place": "Taviwach Park",
     "lat": 38.498,
     "lon": -107.906,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "eucdov",
+    "name": "Eurasian Collared-Dove",
+    "sci": "Streptopelia decaocto",
+    "count": 1,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "eursta",
+    "name": "European Starling",
+    "sci": "Sturnus vulgaris",
+    "count": 100,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "gadwal",
+    "name": "Gadwall",
+    "sci": "Mareca strepera",
+    "count": 4,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -238,10 +274,10 @@
     "name": "Great Blue Heron",
     "sci": "Ardea herodias",
     "count": 1,
-    "seen": "2026-10-25 15:45",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -249,8 +285,56 @@
     "code": "gnwtea",
     "name": "Green-winged Teal",
     "sci": "Anas crecca",
-    "count": 7,
-    "seen": "2026-10-24 09:32",
+    "count": 8,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 3,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 2,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "moudov",
+    "name": "Mourning Dove",
+    "sci": "Zenaida macroura",
+    "count": 14,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "norfli",
+    "name": "Northern Flicker",
+    "sci": "Colaptes auratus",
+    "count": 1,
+    "seen": "2026-10-29 17:08",
     "place": "Marine Road Park",
     "lat": 38.483,
     "lon": -107.896,
@@ -270,18 +354,6 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "pibgre",
-    "name": "Pied-billed Grebe",
-    "sci": "Podilymbus podiceps",
-    "count": 2,
-    "seen": "2026-10-27 09:54",
-    "place": "Otter Pond area",
-    "lat": 38.448,
-    "lon": -107.858,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "pinsis",
     "name": "Pine Siskin",
     "sci": "Spinus pinus",
@@ -290,6 +362,18 @@
     "place": "Montrose Riverway Trail--W Main St. to North Trailhead",
     "lat": 38.484,
     "lon": -107.893,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "rewbla",
+    "name": "Red-winged Blackbird",
+    "sci": "Agelaius phoeniceus",
+    "count": 10,
+    "seen": "2026-10-29 17:43",
+    "place": "Taviwach Park",
+    "lat": 38.498,
+    "lon": -107.906,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -333,13 +417,13 @@
     "code": "sonspa",
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
-    "count": 1,
-    "seen": "2026-10-24 09:32",
-    "place": "Marine Road Park",
-    "lat": 38.483,
-    "lon": -107.896,
+    "count": 3,
+    "seen": "2026-10-29 17:43",
+    "place": "Taviwach Park",
+    "lat": 38.498,
+    "lon": -107.906,
     "notable": false,
-    "near": "North Rim Ranger Station"
+    "near": "South Rim Visitor Center"
    },
    {
     "code": "wesmea",
@@ -352,8 +436,31 @@
     "lon": -107.858,
     "notable": false,
     "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": 7,
+    "seen": "2026-10-29 17:43",
+    "place": "Taviwach Park",
+    "lat": 38.498,
+    "lon": -107.906,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "wilsni1",
+    "name": "Wilson's Snipe",
+    "sci": "Gallinago delicata",
+    "count": 1,
+    "seen": "2026-10-29 17:08",
+    "place": "Marine Road Park",
+    "lat": 38.483,
+    "lon": -107.896,
+    "notable": false,
+    "near": "South Rim Visitor Center"
    }
-  ],
-  "staleSince": "2026-10-30T10:12:34Z"
+  ]
  }
 }

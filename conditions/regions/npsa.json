@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T10:12:34Z",
+ "fetchedAt": "2026-10-30T18:04:42Z",
  "region": "npsa",
  "air": {
   "status": "ok",
@@ -17,7 +17,7 @@
     "aqi": 51,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-29 23:00 local"
+    "observed": "2026-10-30 7:00 local"
    },
    {
     "area": "Ofu",
@@ -29,10 +29,10 @@
     "lat": -14.175,
     "lon": -169.67,
     "pollutant": "PM2.5",
-    "aqi": 53,
+    "aqi": 54,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-29 23:00 local"
+    "observed": "2026-10-30 7:00 local"
    },
    {
     "area": "Ta'u",
@@ -47,25 +47,10 @@
     "aqi": 52,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-10-29 23:00 local"
+    "observed": "2026-10-30 7:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Pago Pago (Tutuila)",
-    "state": "AS",
-    "near": "npsa-pago-pago",
-    "side": "forest",
-    "region": "npsa",
-    "source": "open-meteo",
-    "date": "2026-10-29",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Pago Pago (Tutuila)",
     "state": "AS",
@@ -82,15 +67,15 @@
     "discussion": ""
    },
    {
-    "area": "Ofu",
+    "area": "Pago Pago (Tutuila)",
     "state": "AS",
-    "near": "npsa-ofu",
+    "near": "npsa-pago-pago",
     "side": "forest",
     "region": "npsa",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "PM2.5",
-    "aqi": 53,
+    "aqi": 51,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "Ta'u",
+    "area": "Ofu",
     "state": "AS",
-    "near": "npsa-tau",
+    "near": "npsa-ofu",
     "side": "forest",
     "region": "npsa",
     "source": "open-meteo",
-    "date": "2026-10-29",
+    "date": "2026-10-31",
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 47,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -140,11 +125,26 @@
     "level": 2,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Ta'u",
+    "state": "AS",
+    "near": "npsa-tau",
+    "side": "forest",
+    "region": "npsa",
+    "source": "open-meteo",
+    "date": "2026-10-31",
+    "pollutant": "PM2.5",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "bugnod",
@@ -158,7 +158,6 @@
     "notable": false,
     "near": "Pago Pago (Tutuila)"
    }
-  ],
-  "staleSince": "2026-10-30T10:12:34Z"
+  ]
  }
 }
