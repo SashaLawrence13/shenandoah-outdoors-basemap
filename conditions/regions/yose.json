@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T22:28:42Z",
+ "fetchedAt": "2026-10-31T05:55:17Z",
  "region": "yose",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.7459,
     "lon": -119.5936,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 15:00 local"
+    "observed": "2026-10-30 22:00 local"
    },
    {
     "area": "Glacier Point",
@@ -29,10 +29,10 @@
     "lat": 37.7305,
     "lon": -119.5742,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 15:00 local"
+    "observed": "2026-10-30 22:00 local"
    },
    {
     "area": "Tuolumne Meadows",
@@ -44,10 +44,10 @@
     "lat": 37.8745,
     "lon": -119.3586,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 15:00 local"
+    "observed": "2026-10-30 22:00 local"
    },
    {
     "area": "Wawona and Mariposa Grove",
@@ -59,10 +59,10 @@
     "lat": 37.5372,
     "lon": -119.6548,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 15:00 local"
+    "observed": "2026-10-30 22:00 local"
    },
    {
     "area": "Hetch Hetchy",
@@ -74,10 +74,10 @@
     "lat": 37.9475,
     "lon": -119.787,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 15:00 local"
+    "observed": "2026-10-30 22:00 local"
    }
   ],
   "forecasts": [
@@ -234,8 +234,20 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "comyel",
+    "name": "Common Yellowthroat",
+    "sci": "Geothlypis trichas",
+    "count": 1,
+    "seen": "2026-10-29 16:21",
+    "place": "Fish Camp vicinity",
+    "lat": 37.479,
+    "lon": -119.638,
+    "notable": true,
+    "near": "Wawona and Mariposa Grove"
+   },
    {
     "code": "evegro1",
     "name": "Evening Grosbeak (Northwestern or type 1)",
@@ -312,11 +324,11 @@
     "code": "acowoo",
     "name": "Acorn Woodpecker",
     "sci": "Melanerpes formicivorus",
-    "count": 6,
-    "seen": "2026-10-29 11:34",
-    "place": "Yosemite NP--Lower Yosemite Falls Trail",
-    "lat": 37.749,
-    "lon": -119.596,
+    "count": 2,
+    "seen": "2026-10-30 11:56",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -341,18 +353,6 @@
     "place": "Yosemite NP--Sentinel Dome Trail",
     "lat": 37.718,
     "lon": -119.583,
-    "notable": false,
-    "near": "Yosemite Valley"
-   },
-   {
-    "code": "amedip",
-    "name": "American Dipper",
-    "sci": "Cinclus mexicanus",
-    "count": 1,
-    "seen": "2026-10-29 07:39",
-    "place": "Yosemite NP--Wawona Campground",
-    "lat": 37.545,
-    "lon": -119.673,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -444,11 +444,11 @@
     "code": "blkpho",
     "name": "Black Phoebe",
     "sci": "Sayornis nigricans",
-    "count": 2,
-    "seen": "2026-10-29 07:39",
-    "place": "Yosemite NP--Wawona Campground",
-    "lat": 37.545,
-    "lon": -119.673,
+    "count": 1,
+    "seen": "2026-10-30 10:05",
+    "place": "Yosemite NP--El Capitan Meadow",
+    "lat": 37.724,
+    "lon": -119.635,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -516,13 +516,13 @@
     "code": "bushti",
     "name": "Bushtit",
     "sci": "Psaltriparus minimus",
-    "count": 1,
-    "seen": "2026-10-29 07:39",
-    "place": "Yosemite NP--Wawona Campground",
-    "lat": 37.545,
-    "lon": -119.673,
+    "count": 12,
+    "seen": "2026-10-30 11:05",
+    "place": "Mono Basin National Forest Scenic Area Visitor Center",
+    "lat": 37.967,
+    "lon": -119.12,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "cowscj1",
@@ -600,11 +600,11 @@
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
-    "count": 3,
-    "seen": "2026-10-29 12:31",
-    "place": "Yosemite NP--Soda Springs",
-    "lat": 37.879,
-    "lon": -119.368,
+    "count": 1,
+    "seen": "2026-10-30 11:56",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -636,11 +636,11 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 11,
-    "seen": "2026-10-29 11:36",
-    "place": "Yosemite NP--Tenaya Lake",
-    "lat": 37.83,
-    "lon": -119.468,
+    "count": 2,
+    "seen": "2026-10-30 11:56",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -654,7 +654,7 @@
     "lat": 37.879,
     "lon": -119.368,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "dowwoo",
@@ -865,12 +865,12 @@
     "name": "Lesser Goldfinch",
     "sci": "Spinus psaltria",
     "count": 1,
-    "seen": "2026-10-28 13:50",
-    "place": "Yosemite NP--Bridalveil Falls",
-    "lat": 37.717,
-    "lon": -119.65,
+    "seen": "2026-10-30 15:21",
+    "place": "Mono Basin National Forest Scenic Area Visitor Center",
+    "lat": 37.967,
+    "lon": -119.12,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "linspa",
@@ -912,11 +912,11 @@
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 8,
-    "seen": "2026-10-29 12:31",
-    "place": "Yosemite NP--Soda Springs",
-    "lat": 37.879,
-    "lon": -119.368,
+    "count": 2,
+    "seen": "2026-10-30 10:05",
+    "place": "Yosemite NP--El Capitan Meadow",
+    "lat": 37.724,
+    "lon": -119.635,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -954,7 +954,7 @@
     "lat": 37.879,
     "lon": -119.368,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "norhar2",
@@ -1117,10 +1117,10 @@
     "name": "Red-shouldered Hawk",
     "sci": "Buteo lineatus",
     "count": 1,
-    "seen": "2026-10-29 07:39",
-    "place": "Yosemite NP--Wawona Campground",
-    "lat": 37.545,
-    "lon": -119.673,
+    "seen": "2026-10-30 10:05",
+    "place": "Yosemite NP--El Capitan Meadow",
+    "lat": 37.724,
+    "lon": -119.635,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -1128,13 +1128,13 @@
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-10-29 09:32",
-    "place": "Mono Lake County Park",
-    "lat": 38.015,
-    "lon": -119.149,
+    "count": 2,
+    "seen": "2026-10-30 09:16",
+    "place": "Yosemite NP--Tunnel View",
+    "lat": 37.716,
+    "lon": -119.677,
     "notable": false,
-    "near": "Tuolumne Meadows"
+    "near": "Yosemite Valley"
    },
    {
     "code": "rinduc",
@@ -1164,11 +1164,11 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 5,
-    "seen": "2026-10-29 11:34",
-    "place": "Yosemite NP--Lower Yosemite Falls Trail",
-    "lat": 37.749,
-    "lon": -119.596,
+    "count": 1,
+    "seen": "2026-10-30 10:05",
+    "place": "Yosemite NP--El Capitan Meadow",
+    "lat": 37.724,
+    "lon": -119.635,
     "notable": false,
     "near": "Yosemite Valley"
    },
@@ -1183,18 +1183,6 @@
     "lon": -119.134,
     "notable": false,
     "near": "Tuolumne Meadows"
-   },
-   {
-    "code": "shshaw",
-    "name": "Sharp-shinned Hawk",
-    "sci": "Accipiter striatus",
-    "count": 1,
-    "seen": "2026-10-25 14:15",
-    "place": "Yosemite NP--Taft Point Trail",
-    "lat": 37.711,
-    "lon": -119.599,
-    "notable": false,
-    "near": "Yosemite Valley"
    },
    {
     "code": "sonspa",
@@ -1230,7 +1218,7 @@
     "lat": 37.879,
     "lon": -119.368,
     "notable": false,
-    "near": "Yosemite Valley"
+    "near": "Tuolumne Meadows"
    },
    {
     "code": "towwar",
@@ -1305,18 +1293,6 @@
     "near": "Tuolumne Meadows"
    },
    {
-    "code": "wesowl1",
-    "name": "Western Screech-Owl",
-    "sci": "Megascops kennicottii",
-    "count": 1,
-    "seen": "2026-10-23 19:56",
-    "place": "Ackerson Meadow",
-    "lat": 37.835,
-    "lon": -119.847,
-    "notable": false,
-    "near": "Hetch Hetchy"
-   },
-   {
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
@@ -1388,7 +1364,6 @@
     "notable": false,
     "near": "Yosemite Valley"
    }
-  ],
-  "staleSince": "2026-10-30T22:28:42Z"
+  ]
  }
 }

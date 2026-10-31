@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T22:28:42Z",
+ "fetchedAt": "2026-10-31T05:55:17Z",
  "region": "grte",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 43.7513,
     "lon": -110.7244,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Moose",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 43.6536,
     "lon": -110.7189,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Colter Bay",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 43.9033,
     "lon": -110.6406,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Signal Mountain",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 43.8366,
     "lon": -110.6048,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Taggart Lake trailhead",
@@ -73,11 +73,11 @@
     "source": "open-meteo",
     "lat": 43.7075,
     "lon": -110.7364,
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    }
   ],
   "forecasts": [
@@ -234,7 +234,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "bkbplo",
@@ -259,6 +259,18 @@
     "lon": -110.761,
     "notable": false,
     "near": "Moose"
+   },
+   {
+    "code": "amedip",
+    "name": "American Dipper",
+    "sci": "Cinclus mexicanus",
+    "count": 1,
+    "seen": "2026-10-29 17:04",
+    "place": "Grand Teton NP--Leigh & String Lakes",
+    "lat": 43.794,
+    "lon": -110.726,
+    "notable": false,
+    "near": "Jenny Lake"
    },
    {
     "code": "amepip",
@@ -305,6 +317,18 @@
     "place": "National Elk Refuge--Bert's Bench",
     "lat": 43.487,
     "lon": -110.761,
+    "notable": false,
+    "near": "Moose"
+   },
+   {
+    "code": "baleag",
+    "name": "Bald Eagle",
+    "sci": "Haliaeetus leucocephalus",
+    "count": 1,
+    "seen": "2026-10-26 08:00",
+    "place": "Grand Teton NP—Uhl Hill Rd area",
+    "lat": 43.808,
+    "lon": -110.508,
     "notable": false,
     "near": "Moose"
    },
@@ -384,8 +408,8 @@
     "code": "gryjay",
     "name": "Canada Jay",
     "sci": "Perisoreus canadensis",
-    "count": 1,
-    "seen": "2026-10-25 11:41",
+    "count": 2,
+    "seen": "2026-10-26 11:00",
     "place": "Grand Teton NP--Leigh & String Lakes",
     "lat": 43.794,
     "lon": -110.726,
@@ -415,18 +439,6 @@
     "lon": -110.55,
     "notable": false,
     "near": "Jenny Lake"
-   },
-   {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-10-27 12:50",
-    "place": "Flat Creek Wildlife Observation Point and Marshes",
-    "lat": 43.491,
-    "lon": -110.761,
-    "notable": false,
-    "near": "Moose"
    },
    {
     "code": "doccor",
@@ -473,6 +485,18 @@
     "place": "Flat Creek Wildlife Observation Point and Marshes",
     "lat": 43.491,
     "lon": -110.761,
+    "notable": false,
+    "near": "Moose"
+   },
+   {
+    "code": "hoomer",
+    "name": "Hooded Merganser",
+    "sci": "Lophodytes cucullatus",
+    "count": 1,
+    "seen": "2026-10-28 16:35",
+    "place": "Skyline Pond",
+    "lat": 43.488,
+    "lon": -110.829,
     "notable": false,
     "near": "Moose"
    },
@@ -660,11 +684,11 @@
     "code": "tunswa",
     "name": "Tundra Swan",
     "sci": "Cygnus columbianus",
-    "count": 3,
-    "seen": "2026-10-25 23:22",
-    "place": "Grand Teton NP--Moose Community",
-    "lat": 43.658,
-    "lon": -110.717,
+    "count": 2,
+    "seen": "2026-10-28 18:42",
+    "place": "Grand Teton NP--Murie Ranch",
+    "lat": 43.651,
+    "lon": -110.729,
     "notable": false,
     "near": "Jenny Lake"
    },
@@ -692,7 +716,6 @@
     "notable": false,
     "near": "Moose"
    }
-  ],
-  "staleSince": "2026-10-30T22:28:42Z"
+  ]
  }
 }

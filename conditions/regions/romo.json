@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-30T22:28:42Z",
+ "fetchedAt": "2026-10-31T05:55:17Z",
  "region": "romo",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 40.3122,
     "lon": -105.6454,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Estes Park side",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 40.3772,
     "lon": -105.5217,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Grand Lake side",
@@ -44,10 +44,10 @@
     "lat": 40.2551,
     "lon": -105.8176,
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    },
    {
     "area": "Trail Ridge Road (Alpine Visitor Center)",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 40.431,
     "lon": -105.755,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-30 16:00 local"
+    "observed": "2026-10-30 23:00 local"
    }
   ],
   "forecasts": [
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amhgul1",
@@ -236,6 +236,18 @@
     "place": "Shadow Mountain Lake",
     "lat": 40.233,
     "lon": -105.842,
+    "notable": true,
+    "near": "Bear Lake"
+   },
+   {
+    "code": "gresca",
+    "name": "Greater Scaup",
+    "sci": "Aythya marila",
+    "count": 1,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": true,
     "near": "Bear Lake"
    },
@@ -303,11 +315,11 @@
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 1,
-    "seen": "2026-10-28 14:07",
-    "place": "Rocky Mountain NP--Coyote Valley Trail",
-    "lat": 40.345,
-    "lon": -105.861,
+    "count": 3,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -316,10 +328,10 @@
     "name": "American Dipper",
     "sci": "Cinclus mexicanus",
     "count": 1,
-    "seen": "2026-10-26 13:52",
-    "place": "Rocky Mountain NP--Bear Lake area",
-    "lat": 40.314,
-    "lon": -105.647,
+    "seen": "2026-10-30 11:08",
+    "place": "Rocky Mountain NP--Wild Basin area",
+    "lat": 40.208,
+    "lon": -105.567,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -334,18 +346,6 @@
     "lon": -105.982,
     "notable": false,
     "near": "Grand Lake side"
-   },
-   {
-    "code": "amepip",
-    "name": "American Pipit",
-    "sci": "Anthus rubescens",
-    "count": 1,
-    "seen": "2026-10-23 17:29",
-    "place": "Matthews-Reeser Bird Sanctuary",
-    "lat": 40.378,
-    "lon": -105.509,
-    "notable": false,
-    "near": "Bear Lake"
    },
    {
     "code": "amerob",
@@ -387,13 +387,13 @@
     "code": "amewig",
     "name": "American Wigeon",
     "sci": "Mareca americana",
-    "count": 28,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 150,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "baleag",
@@ -412,10 +412,10 @@
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
     "count": 1,
-    "seen": "2026-10-26 10:08",
-    "place": "Matthews-Reeser Bird Sanctuary",
-    "lat": 40.378,
-    "lon": -105.509,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -423,25 +423,25 @@
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
-    "count": 5,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 1,
+    "seen": "2026-10-30 12:39",
+    "place": "Rocky Mountain NP--Hidden Valley",
+    "lat": 40.394,
+    "lon": -105.656,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "bkcchi",
     "name": "Black-capped Chickadee",
     "sci": "Poecile atricapillus",
     "count": 4,
-    "seen": "2026-10-29 12:24",
-    "place": "Round Mountain Trail",
-    "lat": 40.42,
-    "lon": -105.285,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Estes Park side"
+    "near": "Bear Lake"
    },
    {
     "code": "buwtea",
@@ -459,8 +459,8 @@
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
-    "count": 1,
-    "seen": "2026-10-29 12:24",
+    "count": 4,
+    "seen": "2026-10-30 09:45",
     "place": "Round Mountain Trail",
     "lat": 40.42,
     "lon": -105.285,
@@ -519,13 +519,13 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 50,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 75,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "gryjay",
@@ -548,6 +548,18 @@
     "place": "Prospect Mountain (by path or tramway)",
     "lat": 40.359,
     "lon": -105.524,
+    "notable": false,
+    "near": "Bear Lake"
+   },
+   {
+    "code": "comgol",
+    "name": "Common Goldeneye",
+    "sci": "Bucephala clangula",
+    "count": 2,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -580,24 +592,24 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 1,
-    "seen": "2026-10-29 12:24",
-    "place": "Round Mountain Trail",
-    "lat": 40.42,
-    "lon": -105.285,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Estes Park side"
+    "near": "Bear Lake"
    },
    {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 2,
-    "seen": "2026-10-27 12:44",
-    "place": "Rocky Mountain NP--Glacier Gorge/Loch Vale",
-    "lat": 40.298,
-    "lon": -105.64,
+    "count": 3,
+    "seen": "2026-10-30 09:45",
+    "place": "Round Mountain Trail",
+    "lat": 40.42,
+    "lon": -105.285,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Estes Park side"
    },
    {
     "code": "doccor",
@@ -660,16 +672,28 @@
     "near": "Bear Lake"
    },
    {
+    "code": "evegro",
+    "name": "Evening Grosbeak",
+    "sci": "Hesperiphona vespertina",
+    "count": null,
+    "seen": "2026-10-30 09:45",
+    "place": "Round Mountain Trail",
+    "lat": 40.42,
+    "lon": -105.285,
+    "notable": false,
+    "near": "Estes Park side"
+   },
+   {
     "code": "gadwal",
     "name": "Gadwall",
     "sci": "Mareca strepera",
-    "count": 8,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 125,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "goleag",
@@ -724,12 +748,12 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-10-25 09:01",
-    "place": "Rocky Mountain NP--Moraine Park CG",
-    "lat": 40.361,
-    "lon": -105.604,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "horlar",
@@ -744,64 +768,52 @@
     "near": "Grand Lake side"
    },
    {
-    "code": "houspa",
-    "name": "House Sparrow",
-    "sci": "Passer domesticus",
-    "count": 3,
-    "seen": "2026-10-23 16:46",
-    "place": "Rocky Mountain NP--Moraine Park",
-    "lat": 40.355,
-    "lon": -105.605,
-    "notable": false,
-    "near": "Grand Lake side"
-   },
-   {
     "code": "lessca",
     "name": "Lesser Scaup",
     "sci": "Aythya affinis",
-    "count": 1,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 8,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
     "count": 4,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 15,
-    "seen": "2026-10-29 11:37",
-    "place": "Rocky Mountain NP--Wild Basin area",
-    "lat": 40.208,
-    "lon": -105.567,
+    "count": 1,
+    "seen": "2026-10-30 12:39",
+    "place": "Rocky Mountain NP--Hidden Valley",
+    "lat": 40.394,
+    "lon": -105.656,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
     "count": 1,
-    "seen": "2026-10-25 10:44",
-    "place": "Lake Estes",
-    "lat": 40.376,
-    "lon": -105.496,
+    "seen": "2026-10-30 09:45",
+    "place": "Round Mountain Trail",
+    "lat": 40.42,
+    "lon": -105.285,
     "notable": false,
-    "near": "Bear Lake"
+    "near": "Estes Park side"
    },
    {
     "code": "norhar2",
@@ -812,6 +824,18 @@
     "place": "Rocky Mountain NP--Coyote Valley Trail",
     "lat": 40.345,
     "lon": -105.861,
+    "notable": false,
+    "near": "Bear Lake"
+   },
+   {
+    "code": "norpin",
+    "name": "Northern Pintail",
+    "sci": "Anas acuta",
+    "count": 6,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -879,11 +903,11 @@
     "code": "pinsis",
     "name": "Pine Siskin",
     "sci": "Spinus pinus",
-    "count": 3,
-    "seen": "2026-10-26 10:08",
-    "place": "Matthews-Reeser Bird Sanctuary",
-    "lat": 40.378,
-    "lon": -105.509,
+    "count": 1,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -900,14 +924,26 @@
     "near": "Bear Lake"
    },
    {
+    "code": "pygnut",
+    "name": "Pygmy Nuthatch",
+    "sci": "Sitta pygmaea",
+    "count": 8,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
+    "notable": false,
+    "near": "Bear Lake"
+   },
+   {
     "code": "redcro",
     "name": "Red Crossbill",
     "sci": "Loxia curvirostra",
-    "count": 4,
-    "seen": "2026-10-25 08:44",
-    "place": "Estes Park YMCA Camp",
-    "lat": 40.343,
-    "lon": -105.573,
+    "count": 2,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -915,11 +951,11 @@
     "code": "rebnut",
     "name": "Red-breasted Nuthatch",
     "sci": "Sitta canadensis",
-    "count": 2,
-    "seen": "2026-10-26 07:59",
-    "place": "Rocky Mountain NP--Nymph Lake area",
-    "lat": 40.31,
-    "lon": -105.651,
+    "count": 1,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -928,12 +964,12 @@
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
     "count": 1,
-    "seen": "2026-10-24 15:47",
-    "place": "Rocky Mountain NP--Deer Ridge Junction",
-    "lat": 40.388,
-    "lon": -105.611,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "rewbla",
@@ -951,13 +987,13 @@
     "code": "redhea",
     "name": "Redhead",
     "sci": "Aythya americana",
-    "count": 3,
-    "seen": "2026-10-28 13:10",
-    "place": "Windy Gap Reservoir",
-    "lat": 40.109,
-    "lon": -105.982,
+    "count": 14,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
-    "near": "Grand Lake side"
+    "near": "Bear Lake"
    },
    {
     "code": "ribgul",
@@ -975,11 +1011,11 @@
     "code": "rinduc",
     "name": "Ring-necked Duck",
     "sci": "Aythya collaris",
-    "count": 5,
-    "seen": "2026-10-24 10:48",
-    "place": "Rocky Mountain NP--Lily Lake area",
-    "lat": 40.307,
-    "lon": -105.54,
+    "count": 2,
+    "seen": "2026-10-30 10:59",
+    "place": "Pine Beach Picnic Site",
+    "lat": 40.218,
+    "lon": -105.855,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -1035,11 +1071,11 @@
     "code": "stejay",
     "name": "Steller's Jay",
     "sci": "Cyanocitta stelleri",
-    "count": 2,
-    "seen": "2026-10-29 20:44",
-    "place": "Rocky Mountain NP (Larimer Co.) (please use a more specific location)",
-    "lat": 40.357,
-    "lon": -105.684,
+    "count": 1,
+    "seen": "2026-10-30 12:39",
+    "place": "Rocky Mountain NP--Hidden Valley",
+    "lat": 40.394,
+    "lon": -105.656,
     "notable": false,
     "near": "Bear Lake"
    },
@@ -1047,8 +1083,8 @@
     "code": "towsol",
     "name": "Townsend's Solitaire",
     "sci": "Myadestes townsendi",
-    "count": 8,
-    "seen": "2026-10-29 12:24",
+    "count": 5,
+    "seen": "2026-10-30 09:45",
     "place": "Round Mountain Trail",
     "lat": 40.42,
     "lon": -105.285,
@@ -1127,7 +1163,6 @@
     "notable": false,
     "near": "Bear Lake"
    }
-  ],
-  "staleSince": "2026-10-30T22:28:42Z"
+  ]
  }
 }
