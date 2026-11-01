@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T06:22:41Z",
+ "fetchedAt": "2026-11-01T16:07:40Z",
  "region": "gs",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 35.69,
     "lon": -83.45,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 11:00 local"
    },
    {
     "area": "Deep Creek and Fontana",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 35.46,
     "lon": -83.44,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 11:00 local"
    },
    {
     "area": "Cades Cove",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 35.6,
     "lon": -83.81,
-    "pollutant": "O3",
-    "aqi": 26,
+    "pollutant": "PM2.5",
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 11:00 local"
    },
    {
     "area": "Cataloochee and Big Creek",
@@ -59,10 +59,10 @@
     "lat": 35.68,
     "lon": -83.1,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 11:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-11-01",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-11-02",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-11-01",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -115,36 +115,6 @@
     "area": "Deep Creek and Fontana",
     "state": "NC",
     "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-11-02",
-    "pollutant": "O3",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-11-01",
-    "pollutant": "PM2.5",
-    "aqi": 33,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
@@ -157,6 +127,36 @@
     "discussion": ""
    },
    {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-11-01",
+    "pollutant": "O3",
+    "aqi": 32,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-11-02",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Cataloochee and Big Creek",
     "state": "NC",
     "near": "gs-cataloochee",
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-11-01",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-11-02",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -336,18 +336,6 @@
     "near": "Cataloochee and Big Creek"
    },
    {
-    "code": "brdowl",
-    "name": "Barred Owl",
-    "sci": "Strix varia",
-    "count": 1,
-    "seen": "2026-10-25 10:47",
-    "place": "Pistol Creek Wetland Center",
-    "lat": 35.724,
-    "lon": -83.983,
-    "notable": false,
-    "near": "Cades Cove"
-   },
-   {
     "code": "belkin1",
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
@@ -492,18 +480,6 @@
     "near": "Cades Cove"
    },
    {
-    "code": "chispa",
-    "name": "Chipping Sparrow",
-    "sci": "Spizella passerina",
-    "count": 6,
-    "seen": "2026-10-31 11:43",
-    "place": "Ferguson Fields (Kituwah Farm)",
-    "lat": 35.438,
-    "lon": -83.402,
-    "notable": false,
-    "near": "Deep Creek and Fontana"
-   },
-   {
     "code": "comgra",
     "name": "Common Grackle",
     "sci": "Quiscalus quiscula",
@@ -514,18 +490,6 @@
     "lon": -83.967,
     "notable": false,
     "near": "Cades Cove"
-   },
-   {
-    "code": "commer",
-    "name": "Common Merganser",
-    "sci": "Mergus merganser",
-    "count": 9,
-    "seen": "2026-10-25 10:53",
-    "place": "Ferguson Fields (Kituwah Farm)",
-    "lat": 35.438,
-    "lon": -83.402,
-    "notable": false,
-    "near": "Deep Creek and Fontana"
    },
    {
     "code": "comrav",

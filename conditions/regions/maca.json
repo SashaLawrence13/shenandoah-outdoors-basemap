@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T06:22:41Z",
+ "fetchedAt": "2026-11-01T16:07:40Z",
  "region": "maca",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.187,
     "lon": -86.1011,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 10:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -28,45 +28,15 @@
     "source": "open-meteo",
     "lat": 37.213,
     "lon": -86.133,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 1:00 local"
+    "observed": "2026-11-01 10:00 local"
    }
   ],
   "forecasts": [
    {
-    "area": "Visitor center",
-    "state": "KY",
-    "near": "maca-visitor-center",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-11-01",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Visitor center",
-    "state": "KY",
-    "near": "maca-visitor-center",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-11-02",
-    "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
     "area": "Big Hollow and Maple Springs",
     "state": "KY",
     "near": "maca-north",
@@ -74,8 +44,8 @@
     "region": "maca",
     "source": "open-meteo",
     "date": "2026-11-01",
-    "pollutant": "O3",
-    "aqi": 32,
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -89,8 +59,8 @@
     "region": "maca",
     "source": "open-meteo",
     "date": "2026-11-02",
-    "pollutant": "O3",
-    "aqi": 34,
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +69,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "baleag",
@@ -122,18 +92,6 @@
     "place": "Mammoth Cave NP--Mammoth Cave Campground",
     "lat": 37.182,
     "lon": -86.097,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
-    "code": "btnwar",
-    "name": "Black-throated Green Warbler",
-    "sci": "Setophaga virens",
-    "count": 1,
-    "seen": "2026-10-25 08:32",
-    "place": "Mammoth Cave NP--Visitor Center area (Edmonson Co.)",
-    "lat": 37.186,
-    "lon": -86.102,
     "notable": false,
     "near": "Visitor center"
    },
@@ -246,18 +204,6 @@
     "near": "Visitor center"
    },
    {
-    "code": "normoc",
-    "name": "Northern Mockingbird",
-    "sci": "Mimus polyglottos",
-    "count": 2,
-    "seen": "2026-10-25 07:02",
-    "place": "Mammoth Cave NP--Prairie/Barrens Restoration (Barren Co.)",
-    "lat": 37.113,
-    "lon": -86.061,
-    "notable": false,
-    "near": "Big Hollow and Maple Springs"
-   },
-   {
     "code": "pinsis",
     "name": "Pine Siskin",
     "sci": "Spinus pinus",
@@ -306,18 +252,6 @@
     "near": "Visitor center"
    },
    {
-    "code": "tenwar",
-    "name": "Tennessee Warbler",
-    "sci": "Leiothlypis peregrina",
-    "count": 1,
-    "seen": "2026-10-25 11:04",
-    "place": "Mammoth Cave NP--Green River Ferry/Echo River Spring Trail (Edmonson Co.)",
-    "lat": 37.178,
-    "lon": -86.11,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
@@ -341,7 +275,6 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ],
-  "staleSince": "2026-11-01T06:22:41Z"
+  ]
  }
 }
