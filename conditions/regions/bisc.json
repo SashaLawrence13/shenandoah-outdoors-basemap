@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T00:11:41Z",
+ "fetchedAt": "2026-11-01T06:22:41Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.4646,
     "lon": -80.3349,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-31 20:00 local"
+    "observed": "2026-11-01 1:00 local"
    },
    {
     "area": "Elliott Key",
@@ -29,28 +29,13 @@
     "lat": 25.4532,
     "lon": -80.1966,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-31 20:00 local"
+    "observed": "2026-11-01 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Convoy Point",
-    "state": "FL",
-    "near": "bisc-convoy",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Convoy Point",
     "state": "FL",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Elliott Key",
+    "area": "Convoy Point",
     "state": "FL",
-    "near": "bisc-elliott",
+    "near": "bisc-convoy",
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "date": "2026-11-02",
+    "pollutant": "O3",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
+    "date": "2026-11-02",
+    "pollutant": "O3",
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "belvir1",
@@ -1937,6 +1937,7 @@
     "notable": false,
     "near": "Convoy Point"
    }
-  ]
+  ],
+  "staleSince": "2026-11-01T06:22:41Z"
  }
 }

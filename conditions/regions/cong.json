@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T00:11:41Z",
+ "fetchedAt": "2026-11-01T06:22:41Z",
  "region": "cong",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 33.8295,
     "lon": -80.8232,
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-31 20:00 local"
+    "observed": "2026-11-01 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Harry Hampton Visitor Center",
-    "state": "SC",
-    "near": "cong-visitor-center",
-    "side": "forest",
-    "region": "cong",
-    "source": "open-meteo",
-    "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Harry Hampton Visitor Center",
     "state": "SC",
@@ -50,11 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Harry Hampton Visitor Center",
+    "state": "SC",
+    "near": "cong-visitor-center",
+    "side": "forest",
+    "region": "cong",
+    "source": "open-meteo",
+    "date": "2026-11-02",
+    "pollutant": "PM2.5",
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -404,6 +404,7 @@
     "notable": false,
     "near": "Harry Hampton Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-01T06:22:41Z"
  }
 }

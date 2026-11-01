@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-01T00:11:41Z",
+ "fetchedAt": "2026-11-01T06:22:41Z",
  "region": "jeff",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 38.6247,
     "lon": -90.1849,
     "pollutant": "PM2.5",
-    "aqi": 31,
+    "aqi": 22,
     "category": "Good",
     "level": 1,
-    "observed": "2026-10-31 19:00 local"
+    "observed": "2026-11-01 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Gateway Arch",
-    "state": "MO",
-    "near": "jeff-arch",
-    "side": "forest",
-    "region": "jeff",
-    "source": "open-meteo",
-    "date": "2026-10-31",
-    "pollutant": "PM2.5",
-    "aqi": 65,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Gateway Arch",
     "state": "MO",
@@ -50,11 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Gateway Arch",
+    "state": "MO",
+    "near": "jeff-arch",
+    "side": "forest",
+    "region": "jeff",
+    "source": "open-meteo",
+    "date": "2026-11-02",
+    "pollutant": "PM2.5",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "babwar",
@@ -1148,6 +1148,7 @@
     "notable": false,
     "near": "Gateway Arch"
    }
-  ]
+  ],
+  "staleSince": "2026-11-01T06:22:41Z"
  }
 }
