@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-02T06:24:00Z",
+ "fetchedAt": "2026-11-02T19:35:14Z",
  "region": "gs",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Sugarlands and Newfound Gap",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 35.69,
     "lon": -83.45,
-    "pollutant": "PM2.5",
-    "aqi": 23,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 11:00 local"
+    "observed": "2026-11-02 14:00 local"
    },
    {
     "area": "Deep Creek and Fontana",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 35.46,
     "lon": -83.44,
-    "pollutant": "PM2.5",
-    "aqi": 23,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 11:00 local"
+    "observed": "2026-11-02 14:00 local"
    },
    {
     "area": "Cades Cove",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 35.6,
     "lon": -83.81,
-    "pollutant": "PM2.5",
-    "aqi": 24,
+    "pollutant": "O3",
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 11:00 local"
+    "observed": "2026-11-02 14:00 local"
    },
    {
     "area": "Cataloochee and Big Creek",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 35.68,
     "lon": -83.1,
-    "pollutant": "O3",
-    "aqi": 29,
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-01 11:00 local"
+    "observed": "2026-11-02 14:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Deep Creek and Fontana",
-    "state": "NC",
-    "near": "gs-deep-creek",
-    "side": "forest",
-    "region": "gs",
-    "source": "open-meteo",
-    "date": "2026-11-01",
-    "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-11-02",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Cades Cove",
-    "state": "TN",
-    "near": "gs-cades-cove",
+    "area": "Deep Creek and Fontana",
+    "state": "NC",
+    "near": "gs-deep-creek",
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
-    "date": "2026-11-01",
+    "date": "2026-11-03",
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Cataloochee and Big Creek",
-    "state": "NC",
-    "near": "gs-cataloochee",
+    "area": "Cades Cove",
+    "state": "TN",
+    "near": "gs-cades-cove",
     "side": "forest",
     "region": "gs",
     "source": "open-meteo",
-    "date": "2026-11-01",
+    "date": "2026-11-03",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -179,15 +164,29 @@
     "region": "gs",
     "source": "open-meteo",
     "date": "2026-11-02",
+    "pollutant": "PM2.5",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cataloochee and Big Creek",
+    "state": "NC",
+    "near": "gs-cataloochee",
+    "side": "forest",
+    "region": "gs",
+    "source": "open-meteo",
+    "date": "2026-11-03",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-02T06:24:00Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -196,20 +195,20 @@
     "code": "babwar",
     "name": "Bay-breasted Warbler",
     "sci": "Setophaga castanea",
-    "count": 1,
-    "seen": "2026-10-31 09:39",
-    "place": "Maryville-Alcoa Greenway--Alcoa Section",
-    "lat": 35.769,
-    "lon": -83.983,
+    "count": 2,
+    "seen": "2026-11-02 07:30",
+    "place": "Lake Junaluska",
+    "lat": 35.528,
+    "lon": -82.975,
     "notable": true,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "camwar",
     "name": "Cape May Warbler",
     "sci": "Setophaga tigrina",
-    "count": 1,
-    "seen": "2026-10-31 14:09",
+    "count": 3,
+    "seen": "2026-11-02 07:30",
     "place": "Lake Junaluska",
     "lat": 35.528,
     "lon": -82.975,
@@ -232,13 +231,13 @@
     "code": "tenwar",
     "name": "Tennessee Warbler",
     "sci": "Leiothlypis peregrina",
-    "count": 1,
-    "seen": "2026-10-31 17:36",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 3,
+    "seen": "2026-11-02 07:30",
+    "place": "Lake Junaluska",
+    "lat": 35.528,
+    "lon": -82.975,
     "notable": true,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "ambduc",
@@ -253,40 +252,16 @@
     "near": "Cataloochee and Big Creek"
    },
    {
-    "code": "y00475",
-    "name": "American Coot",
-    "sci": "Fulica americana",
-    "count": 9,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
-    "notable": false,
-    "near": "Cataloochee and Big Creek"
-   },
-   {
-    "code": "amecro",
-    "name": "American Crow",
-    "sci": "Corvus brachyrhynchos",
-    "count": 2,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
-    "notable": false,
-    "near": "Cades Cove"
-   },
-   {
     "code": "amegfi",
     "name": "American Goldfinch",
     "sci": "Spinus tristis",
-    "count": 7,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 9,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "amekes",
@@ -328,13 +303,13 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 100,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 1,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "amewig",
@@ -364,13 +339,13 @@
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
-    "count": 2,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 1,
+    "seen": "2026-10-29 10:36",
+    "place": "Great Smoky Mountains NP--Cades Cove--Hyatt Ln.",
+    "lat": 35.597,
+    "lon": -83.824,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "brdowl",
@@ -389,12 +364,12 @@
     "name": "Belted Kingfisher",
     "sci": "Megaceryle alcyon",
     "count": 1,
-    "seen": "2026-10-31 08:30",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "seen": "2026-10-30 08:54",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "blkvul",
@@ -424,13 +399,13 @@
     "code": "blujay",
     "name": "Blue Jay",
     "sci": "Cyanocitta cristata",
-    "count": 4,
-    "seen": "2026-11-01 10:09",
-    "place": "Waynesville Greenway",
-    "lat": 35.5,
-    "lon": -82.981,
+    "count": 5,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "buggna",
@@ -580,25 +555,13 @@
     "code": "carchi",
     "name": "Carolina Chickadee",
     "sci": "Poecile carolinensis",
-    "count": 2,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 4,
+    "seen": "2026-11-01 10:09",
+    "place": "Waynesville Greenway",
+    "lat": 35.5,
+    "lon": -82.981,
     "notable": false,
-    "near": "Cades Cove"
-   },
-   {
-    "code": "carwre",
-    "name": "Carolina Wren",
-    "sci": "Thryothorus ludovicianus",
-    "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
-    "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "cedwax",
@@ -611,18 +574,6 @@
     "lon": -83.537,
     "notable": false,
     "near": "Sugarlands and Newfound Gap"
-   },
-   {
-    "code": "chispa",
-    "name": "Chipping Sparrow",
-    "sci": "Spizella passerina",
-    "count": 2,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
-    "notable": false,
-    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "comgra",
@@ -665,12 +616,12 @@
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "seen": "2026-11-02 08:57",
+    "place": "Townsend Historical Trail",
+    "lat": 35.678,
+    "lon": -83.741,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "comyel",
@@ -700,49 +651,49 @@
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 1,
-    "seen": "2026-11-01 16:41",
-    "place": "Great Smoky Mountains NP--Newfound Gap (Tennessee section)",
-    "lat": 35.611,
-    "lon": -83.425,
+    "count": 2,
+    "seen": "2026-11-02 08:57",
+    "place": "Townsend Historical Trail",
+    "lat": 35.678,
+    "lon": -83.741,
     "notable": false,
-    "near": "Sugarlands and Newfound Gap"
+    "near": "Cades Cove"
    },
    {
     "code": "doccor",
     "name": "Double-crested Cormorant",
     "sci": "Nannopterum auritum",
-    "count": 13,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 1,
+    "seen": "2026-10-28 18:14",
+    "place": "Maryville-Alcoa Greenway--Maryville Section",
+    "lat": 35.758,
+    "lon": -83.967,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "dowwoo",
     "name": "Downy Woodpecker",
     "sci": "Dryobates pubescens",
-    "count": 3,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 1,
+    "seen": "2026-11-02 08:57",
+    "place": "Townsend Historical Trail",
+    "lat": 35.678,
+    "lon": -83.741,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
-    "count": 4,
-    "seen": "2026-11-01 10:09",
-    "place": "Waynesville Greenway",
-    "lat": 35.5,
-    "lon": -82.981,
+    "count": 19,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "eamwre1",
@@ -769,18 +720,6 @@
     "near": "Cataloochee and Big Creek"
    },
    {
-    "code": "easpho",
-    "name": "Eastern Phoebe",
-    "sci": "Sayornis phoebe",
-    "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
-    "notable": false,
-    "near": "Cades Cove"
-   },
-   {
     "code": "easowl1",
     "name": "Eastern Screech-Owl",
     "sci": "Megascops asio",
@@ -796,13 +735,13 @@
     "code": "eastow",
     "name": "Eastern Towhee",
     "sci": "Pipilo erythrophthalmus",
-    "count": 4,
-    "seen": "2026-11-01 10:09",
-    "place": "Waynesville Greenway",
-    "lat": 35.5,
-    "lon": -82.981,
+    "count": 6,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "egygoo",
@@ -832,11 +771,11 @@
     "code": "eursta",
     "name": "European Starling",
     "sci": "Sturnus vulgaris",
-    "count": 250,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 60,
+    "seen": "2026-11-02 08:57",
+    "place": "Townsend Historical Trail",
+    "lat": 35.678,
+    "lon": -83.741,
     "notable": false,
     "near": "Cades Cove"
    },
@@ -844,13 +783,13 @@
     "code": "fiespa",
     "name": "Field Sparrow",
     "sci": "Spizella pusilla",
-    "count": 3,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 2,
+    "seen": "2026-10-31 08:29",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "fiscro",
@@ -904,25 +843,25 @@
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 1,
-    "seen": "2026-11-01 11:20",
-    "place": "Great Smoky Mountains NP--Big Creek",
-    "lat": 35.75,
-    "lon": -83.112,
+    "count": 2,
+    "seen": "2026-10-31 17:00",
+    "place": "Great Smoky Mountains NP--Metcalf Bottoms",
+    "lat": 35.68,
+    "lon": -83.649,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "grycat",
     "name": "Gray Catbird",
     "sci": "Dumetella carolinensis",
-    "count": 2,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "count": 1,
+    "seen": "2026-10-31 09:39",
+    "place": "Maryville-Alcoa Greenway--Alcoa Section",
+    "lat": 35.769,
+    "lon": -83.983,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "gragoo",
@@ -1072,25 +1011,25 @@
     "code": "houfin",
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
-    "count": 7,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 1,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "houspa",
     "name": "House Sparrow",
     "sci": "Passer domesticus",
-    "count": 4,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 1,
+    "seen": "2026-11-01 09:00",
+    "place": "Lake Junaluska",
+    "lat": 35.528,
+    "lon": -82.975,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "compea",
@@ -1153,30 +1092,6 @@
     "near": "Deep Creek and Fontana"
    },
    {
-    "code": "magwar",
-    "name": "Magnolia Warbler",
-    "sci": "Setophaga magnolia",
-    "count": 3,
-    "seen": "2026-10-26 07:39",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
-    "notable": false,
-    "near": "Cataloochee and Big Creek"
-   },
-   {
-    "code": "mallar3",
-    "name": "Mallard",
-    "sci": "Anas platyrhynchos",
-    "count": 50,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
-    "notable": false,
-    "near": "Cades Cove"
-   },
-   {
     "code": "merlin",
     "name": "Merlin",
     "sci": "Falco columbarius",
@@ -1192,13 +1107,13 @@
     "code": "moudov",
     "name": "Mourning Dove",
     "sci": "Zenaida macroura",
-    "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 2,
+    "seen": "2026-11-01 09:00",
+    "place": "Lake Junaluska",
+    "lat": 35.528,
+    "lon": -82.975,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "musduc",
@@ -1240,13 +1155,13 @@
     "code": "norcar",
     "name": "Northern Cardinal",
     "sci": "Cardinalis cardinalis",
-    "count": 3,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 2,
+    "seen": "2026-11-01 11:20",
+    "place": "Great Smoky Mountains NP--Big Creek",
+    "lat": 35.75,
+    "lon": -83.112,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "norfli",
@@ -1259,18 +1174,6 @@
     "lon": -82.975,
     "notable": false,
     "near": "Cataloochee and Big Creek"
-   },
-   {
-    "code": "norhar2",
-    "name": "Northern Harrier",
-    "sci": "Circus hudsonius",
-    "count": 1,
-    "seen": "2026-10-26 08:33",
-    "place": "Ferguson Fields (Kituwah Farm)",
-    "lat": 35.438,
-    "lon": -83.402,
-    "notable": false,
-    "near": "Deep Creek and Fontana"
    },
    {
     "code": "houwre",
@@ -1288,13 +1191,13 @@
     "code": "normoc",
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
-    "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 2,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "norpin",
@@ -1349,12 +1252,12 @@
     "name": "Palm Warbler",
     "sci": "Setophaga palmarum",
     "count": 2,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
+    "seen": "2026-10-29 10:36",
+    "place": "Great Smoky Mountains NP--Cades Cove--Hyatt Ln.",
+    "lat": 35.597,
+    "lon": -83.824,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "perfal",
@@ -1445,30 +1348,18 @@
     "name": "Red-bellied Woodpecker",
     "sci": "Melanerpes carolinus",
     "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "rebmer",
     "name": "Red-breasted Merganser",
     "sci": "Mergus serrator",
     "count": 1,
-    "seen": "2026-11-01 09:00",
-    "place": "Lake Junaluska",
-    "lat": 35.528,
-    "lon": -82.975,
-    "notable": false,
-    "near": "Cataloochee and Big Creek"
-   },
-   {
-    "code": "rebnut",
-    "name": "Red-breasted Nuthatch",
-    "sci": "Sitta canadensis",
-    "count": 5,
     "seen": "2026-11-01 09:00",
     "place": "Lake Junaluska",
     "lat": 35.528,
@@ -1492,13 +1383,13 @@
     "code": "reshaw",
     "name": "Red-shouldered Hawk",
     "sci": "Buteo lineatus",
-    "count": 1,
-    "seen": "2026-11-01 09:19",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 2,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "rethaw",
@@ -1516,13 +1407,13 @@
     "code": "rewbla",
     "name": "Red-winged Blackbird",
     "sci": "Agelaius phoeniceus",
-    "count": 30,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 34,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "redhea",
@@ -1564,13 +1455,13 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 2,
-    "seen": "2026-11-01 10:09",
-    "place": "Waynesville Greenway",
-    "lat": 35.5,
-    "lon": -82.981,
+    "count": 1,
+    "seen": "2026-11-01 09:19",
+    "place": "Maryville-Alcoa Greenway--Maryville Section",
+    "lat": 35.758,
+    "lon": -83.967,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Cades Cove"
    },
    {
     "code": "rudduc",
@@ -1636,25 +1527,25 @@
     "code": "sonspa",
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
-    "count": 5,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 13,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "swaspa",
     "name": "Swamp Sparrow",
     "sci": "Melospiza georgiana",
     "count": 1,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "seen": "2026-11-01 09:00",
+    "place": "Lake Junaluska",
+    "lat": 35.528,
+    "lon": -82.975,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "treswa",
@@ -1672,25 +1563,25 @@
     "code": "tuftit",
     "name": "Tufted Titmouse",
     "sci": "Baeolophus bicolor",
-    "count": 4,
-    "seen": "2026-11-01 10:09",
-    "place": "Waynesville Greenway",
-    "lat": 35.5,
-    "lon": -82.981,
+    "count": 3,
+    "seen": "2026-11-01 08:50",
+    "place": "Ferguson Fields (Kituwah Farm)",
+    "lat": 35.438,
+    "lon": -83.402,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Deep Creek and Fontana"
    },
    {
     "code": "turvul",
     "name": "Turkey Vulture",
     "sci": "Cathartes aura",
     "count": 1,
-    "seen": "2026-10-31 14:49",
-    "place": "Foothills Parkway West--Look Rock Area",
-    "lat": 35.635,
-    "lon": -83.94,
+    "seen": "2026-10-31 11:03",
+    "place": "Lake Junaluska--Boat Ramp",
+    "lat": 35.523,
+    "lon": -82.981,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    },
    {
     "code": "vesspa",
@@ -1708,13 +1599,13 @@
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
-    "count": 1,
-    "seen": "2026-11-01 11:20",
-    "place": "Great Smoky Mountains NP--Big Creek",
-    "lat": 35.75,
-    "lon": -83.112,
+    "count": 2,
+    "seen": "2026-10-30 15:28",
+    "place": "Great Smoky Mountains NP--Metcalf Bottoms",
+    "lat": 35.68,
+    "lon": -83.649,
     "notable": false,
-    "near": "Cataloochee and Big Creek"
+    "near": "Sugarlands and Newfound Gap"
    },
    {
     "code": "whcspa",
@@ -1744,11 +1635,11 @@
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 10,
-    "seen": "2026-10-30 15:28",
-    "place": "Great Smoky Mountains NP--Metcalf Bottoms",
-    "lat": 35.68,
-    "lon": -83.649,
+    "count": 2,
+    "seen": "2026-11-01 14:00",
+    "place": "Great Smoky Mountains NP--Oconaluftee",
+    "lat": 35.515,
+    "lon": -83.303,
     "notable": false,
     "near": "Sugarlands and Newfound Gap"
    },
@@ -1804,13 +1695,13 @@
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
-    "count": 2,
-    "seen": "2026-11-01 16:39",
-    "place": "Maryville-Alcoa Greenway--Maryville Section",
-    "lat": 35.758,
-    "lon": -83.967,
+    "count": 4,
+    "seen": "2026-11-01 10:09",
+    "place": "Waynesville Greenway",
+    "lat": 35.5,
+    "lon": -82.981,
     "notable": false,
-    "near": "Cades Cove"
+    "near": "Cataloochee and Big Creek"
    }
   ]
  }
