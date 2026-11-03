@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-03T02:57:04Z",
+ "fetchedAt": "2026-11-03T11:01:53Z",
  "region": "cave",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.1754,
     "lon": -104.4442,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-02 19:00 local"
+    "observed": "2026-11-03 4:00 local"
    },
    {
     "area": "Slaughter Canyon parking area",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 32.1106,
     "lon": -104.5628,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-02 19:00 local"
+    "observed": "2026-11-03 4:00 local"
    }
   ],
   "forecasts": [
@@ -43,11 +43,11 @@
     "side": "forest",
     "region": "cave",
     "source": "open-meteo",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "cave",
     "source": "open-meteo",
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "pollutant": "PM2.5",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Slaughter Canyon parking area",
-    "state": "NM",
-    "near": "cave-slaughter-canyon",
-    "side": "forest",
-    "region": "cave",
-    "source": "open-meteo",
-    "date": "2026-11-02",
-    "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 53,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -90,16 +75,31 @@
     "source": "open-meteo",
     "date": "2026-11-03",
     "pollutant": "PM2.5",
-    "aqi": 38,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Slaughter Canyon parking area",
+    "state": "NM",
+    "near": "cave-slaughter-canyon",
+    "side": "forest",
+    "region": "cave",
+    "source": "open-meteo",
+    "date": "2026-11-04",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "hutvir",
@@ -677,6 +677,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-03T11:01:53Z"
  }
 }

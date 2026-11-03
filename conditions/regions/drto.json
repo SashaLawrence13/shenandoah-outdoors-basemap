@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-03T02:57:04Z",
+ "fetchedAt": "2026-11-03T11:01:53Z",
  "region": "drto",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 24.6285,
     "lon": -82.8732,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-02 21:00 local"
+    "observed": "2026-11-03 6:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Garden Key",
-    "state": "FL",
-    "near": "drto-garden-key",
-    "side": "forest",
-    "region": "drto",
-    "source": "open-meteo",
-    "date": "2026-11-02",
-    "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Garden Key",
     "state": "FL",
@@ -50,11 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Garden Key",
+    "state": "FL",
+    "near": "drto-garden-key",
+    "side": "forest",
+    "region": "drto",
+    "source": "open-meteo",
+    "date": "2026-11-04",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amhgul1",
@@ -536,6 +536,7 @@
     "notable": false,
     "near": "Garden Key"
    }
-  ]
+  ],
+  "staleSince": "2026-11-03T11:01:53Z"
  }
 }

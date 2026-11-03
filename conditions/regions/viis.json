@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-03T02:57:04Z",
+ "fetchedAt": "2026-11-03T11:01:53Z",
  "region": "viis",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 18.3328,
     "lon": -64.7937,
     "pollutant": "PM2.5",
-    "aqi": 34,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-02 22:00 local"
+    "observed": "2026-11-03 7:00 local"
    },
    {
     "area": "Salt Pond Bay",
@@ -29,10 +29,10 @@
     "lat": 18.3121,
     "lon": -64.7079,
     "pollutant": "PM2.5",
-    "aqi": 34,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-02 22:00 local"
+    "observed": "2026-11-03 7:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "pollutant": "PM2.5",
-    "aqi": 35,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,26 +58,11 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "pollutant": "PM2.5",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Salt Pond Bay",
-    "state": "VI",
-    "near": "viis-south-shore",
-    "side": "forest",
-    "region": "viis",
-    "source": "open-meteo",
-    "date": "2026-11-02",
-    "pollutant": "PM2.5",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -90,16 +75,31 @@
     "source": "open-meteo",
     "date": "2026-11-03",
     "pollutant": "PM2.5",
-    "aqi": 45,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Salt Pond Bay",
+    "state": "VI",
+    "near": "viis-south-shore",
+    "side": "forest",
+    "region": "viis",
+    "source": "open-meteo",
+    "date": "2026-11-04",
+    "pollutant": "PM2.5",
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "grefla2",
@@ -785,6 +785,7 @@
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-03T11:01:53Z"
  }
 }
