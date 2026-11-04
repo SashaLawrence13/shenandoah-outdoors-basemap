@@ -25,7 +25,7 @@ them without an API key.
   "elsewhere".
 Run by .github/workflows/alerts.yml every 3 hours.
 """
-import html, json, os, re, sys, urllib.request
+import html, importlib, json, os, re, sys, urllib.request
 from datetime import datetime, timezone
 
 UA = "Mossback alerts (github.com/SashaLawrence13/shenandoah-outdoors-basemap)"
@@ -247,6 +247,33 @@ def region_file(now, region, nps_out):
                     "alerts": [a for a in (nps_out.get("alerts") or []) if a.get("park") in answered]}}
 
 
+# Forests with their own page parser beside this script; each adds one key to the main file. An app
+# that doesn't know the key ignores it. A forest that has never answered has no key, so its card says
+# "not connected", never "no alerts".
+EXTRA_FORESTS = {"cherokee": "fetch_alerts_cherokee", "danielboone": "fetch_alerts_danielboone"}
+
+
+def extra_forest(module, now):
+    mod = importlib.import_module(module)
+    res = mod.parse(mod.get(mod.URL).decode("utf-8", "ignore"))
+    res["fetchedAt"] = now
+    res["source"] = mod.URL
+    return res
+
+
+def keep_checked_time(new, old):
+    """Same alerts as last run: keep its time for up to a day. The job's publish check ignores only the
+    top fetchedAt, so a new time here on every run would commit every 3 hours."""
+    if not old or not old.get("fetchedAt") or {**old, "fetchedAt": 0} != {**new, "fetchedAt": 0}:
+        return new
+    try:
+        fmt = "%Y-%m-%dT%H:%M:%SZ"
+        age = datetime.strptime(new["fetchedAt"], fmt) - datetime.strptime(old["fetchedAt"], fmt)
+    except (KeyError, TypeError, ValueError):
+        return new
+    return {**new, "fetchedAt": old["fetchedAt"]} if age.total_seconds() < 86400 else new
+
+
 def assemble(now, parts, regions, old_main=None, old_region=None):
     """The main file (every source, every code unless MAIN_FILE_PARKS narrows it) and one file per region
     that has park codes; `old_main` and `old_region(id)` are the last published copies, for stale fallbacks."""
@@ -265,6 +292,13 @@ def assemble(now, parts, regions, old_main=None, old_region=None):
            "regionFiles": sorted(files)}
     for key in ("nps", "forest"):
         stale_part(out, old_main, key, now)
+    for key in EXTRA_FORESTS:
+        if key not in parts:
+            continue
+        out[key] = keep_checked_time(parts[key], (old_main or {}).get(key))
+        stale_part(out, old_main, key, now)
+        if str(out[key].get("status", "")).startswith("error"):
+            del out[key]
     return out, files
 
 
@@ -277,6 +311,11 @@ def main():
         try:
             parts[name] = fn()
         except Exception as e:  # keep the other half if one source fails
+            parts[name] = {"status": f"error: {type(e).__name__}", "alerts": []}
+    for name, module in EXTRA_FORESTS.items():
+        try:
+            parts[name] = extra_forest(module, now)
+        except Exception as e:  # one forest's page must never cost the rest of the file
             parts[name] = {"status": f"error: {type(e).__name__}", "alerts": []}
     regions = []
     try:
