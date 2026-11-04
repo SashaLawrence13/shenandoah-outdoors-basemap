@@ -250,12 +250,13 @@ def region_file(now, region, nps_out):
 # Forests with their own page parser beside this script; each adds one key to the main file. An app
 # that doesn't know the key ignores it. A forest that has never answered has no key, so its card says
 # "not connected", never "no alerts".
-EXTRA_FORESTS = {"cherokee": "fetch_alerts_cherokee", "danielboone": "fetch_alerts_danielboone"}
+EXTRA_FORESTS = {"cherokee": "fetch_alerts_cherokee", "danielboone": "fetch_alerts_danielboone", "pisgah": "fetch_alerts_pisgah"}
 
 
 def extra_forest(module, now):
     mod = importlib.import_module(module)
-    res = mod.parse(mod.get(mod.URL).decode("utf-8", "ignore"))
+    # The Pisgah's older parser fetches its own page.
+    res = mod.pisgah() if hasattr(mod, "pisgah") else mod.parse(mod.get(mod.URL).decode("utf-8", "ignore"))
     res["fetchedAt"] = now
     res["source"] = mod.URL
     return res
