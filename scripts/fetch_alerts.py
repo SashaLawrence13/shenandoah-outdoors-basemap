@@ -128,6 +128,53 @@ def nps_batch(key, codes):
             return alerts
 
 
+SITE_FEED = "https://www.nps.gov/{code}/park-alerts-{code}.json"
+SITE_DATE = "%B, %d %Y %H:%M:%S"  # "January, 05 2027 23:59:00", as the park sites write it
+
+
+def site_date(text):
+    try:
+        return datetime.strptime((text or "").strip(), SITE_DATE).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def site_alerts(code, now, fetch=None):
+    """A park website's own alert feed (nps.gov/<code>/park-alerts-<code>.json): some closures are posted only
+    there, not in the Data API (Codex #79: Badlands' Notch Trail closure). Active ones in their date window only,
+    so an alert drops out when the park ends it or takes it down. Shaped like nps_batch's records."""
+    raw = json.loads((fetch or get)(SITE_FEED.format(code=code)))
+    out = []
+    for a in raw if isinstance(raw, list) else []:
+        if str(a.get("is_active", 1)) not in ("1", "True", "true"):
+            continue
+        start, end = site_date(a.get("start_date")), site_date(a.get("end_date"))
+        if (start and now < start) or (end and now > end):
+            continue
+        out.append({"id": a.get("id"), "park": a.get("site_code") or code, "title": (a.get("title") or "").strip(),
+                    "category": a.get("category"), "description": (a.get("description") or "").strip(),
+                    "url": a.get("url") or None, "updated": (end or start).strftime("%Y-%m-%d") if (end or start) else None,
+                    "until": end.strftime("%Y-%m-%d") if end else None, "source": "park-site"})
+    return out
+
+
+def with_site_alerts(out, now, fetch=None):
+    """Adds each answered park's website alerts that the Data API lacks (by id or title); a park whose feed
+    fails keeps its API alerts as they are."""
+    have = {(a.get("park"), a.get("id")) for a in out.get("alerts") or []} | \
+        {(a.get("park"), (a.get("title") or "").lower()) for a in out.get("alerts") or []}
+    for code in out.get("parks") or []:
+        try:
+            for a in site_alerts(code, now, fetch):
+                if (a["park"], a["id"]) in have or (a["park"], a["title"].lower()) in have:
+                    continue
+                out["alerts"].append(a)
+                have.add((a["park"], a["id"]))
+        except Exception:
+            continue
+    return out
+
+
 def nps(key, codes=None):
     """Alerts for every park code, NPS_BATCH codes a request: `parks` are the codes whose batch answered
     (the app shows a region's "no current alerts" only when its code is there), `errors` the batches that did not."""
@@ -224,7 +271,9 @@ def assemble(now, parts, regions, old_main=None, old_region=None):
 def main():
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     parts = {}
-    for name, fn in (("nps", lambda: nps(os.environ.get("NPS_API_KEY", "").strip())), ("forest", forest)):
+    # The Data API's park alerts, then each answered park's website feed for what the API lacks (Codex #79).
+    nps_with_sites = lambda: with_site_alerts(nps(os.environ.get("NPS_API_KEY", "").strip()), datetime.now(timezone.utc))
+    for name, fn in (("nps", nps_with_sites), ("forest", forest)):
         try:
             parts[name] = fn()
         except Exception as e:  # keep the other half if one source fails
