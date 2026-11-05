@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-05T11:09:46Z",
+ "fetchedAt": "2026-11-05T20:04:39Z",
  "nps": {
   "status": "ok",
   "parks": [
@@ -17,15 +17,6 @@
    "appa"
   ],
   "alerts": [
-   {
-    "id": "00C1C88D-C346-4092-A29D-56F95EC1B4BA",
-    "park": "grsm",
-    "title": "Cades Cove Loop Road, Parson Branch Road & Cherokee Orchard Road are closed",
-    "category": "Park Closure",
-    "description": "Cades Cove Loop Road, Parson Branch Road & Cherokee Orchard Road are closed due to gusty winds and downed trees.",
-    "url": "https://www.nps.gov/grsm/planyourvisit/conditions.htm",
-    "updated": "2026-11-04 00:00:00.0"
-   },
    {
     "id": "4BC384F9-01CD-4503-B397-C3BB9CD0A4B5",
     "park": "grsm",
@@ -288,6 +279,17 @@
     "updated": "2024-09-06 12:47:46.0"
    },
    {
+    "id": "EE9142C1-F172-45BD-A6DF-5E3145AD7612",
+    "park": "shen",
+    "title": "Emergency Phone Line Unavailable",
+    "category": "Caution",
+    "description": "Shenandoah National Park Emergency Phone number (1-800-732-0911) is currently unavailable. For all emergencies, Park visitors can dial 911.",
+    "url": null,
+    "updated": "2026-10-10",
+    "until": null,
+    "source": "park-site"
+   },
+   {
     "id": "12245A18-7A06-441D-AF04-AC317D28D5D2",
     "park": "grsm",
     "title": "Cherokee Orchard Road closed to pedestrian traffic",
@@ -296,17 +298,6 @@
     "url": null,
     "updated": "2026-12-01",
     "until": "2026-12-01",
-    "source": "park-site"
-   },
-   {
-    "id": "22883896-50D9-496D-8AF5-6184DE3BA8F7",
-    "park": "neri",
-    "title": "Cunard Road Closure",
-    "category": "Park Closure",
-    "description": "Cunard Road will be closed to vehicle traffic, starting on November 9 and will reopen in April 2027 due to road construction.",
-    "url": null,
-    "updated": "2027-05-01",
-    "until": "2027-05-01",
     "source": "park-site"
    }
   ]
@@ -667,6 +658,17 @@
   "fireDanger": "Low",
   "alerts": [
    {
+    "slug": "extreme-flooding-ocoee-ranger-district-nov-5",
+    "title": "Extreme flooding - Ocoee Ranger District Nov 5",
+    "level": "critical",
+    "summary": "Avoid the eastern portion of the Ocoee Ranger District. Extreme flooding reported Nov. 5 impacting the Cherokee National Forest in eastern Polk County, TN. Avoid the area.",
+    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/extreme-flooding-ocoee-ranger-district-nov-5",
+    "start": "2026-11-05",
+    "order": null,
+    "scope": "ours",
+    "stale": false
+   },
+   {
     "slug": "campsite-limitations",
     "title": "Campsite limitations",
     "level": "information",
@@ -766,17 +768,6 @@
     "stale": false
    },
    {
-    "slug": "camping-not-permitted-within-300-feet-cherohala-skyway",
-    "title": "Camping not permitted within 300 feet of the Cherohala Skyway",
-    "level": "information",
-    "summary": "Camping restricted along Skyway to beyond 300 yards.",
-    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/camping-not-permitted-within-300-feet-cherohala-skyway",
-    "start": "2026-04-30",
-    "order": "#08-04-04-22-179",
-    "scope": "ours",
-    "stale": false
-   },
-   {
     "slug": "motorboats-restricted-forest-service-lakes",
     "title": "motorboats restricted on Forest Service Lakes",
     "level": "information",
@@ -785,6 +776,17 @@
     "start": "2026-04-30",
     "order": "#08-04-01-03-04-05-22-181",
     "scope": "forestwide",
+    "stale": false
+   },
+   {
+    "slug": "camping-not-permitted-within-300-feet-cherohala-skyway",
+    "title": "Camping not permitted within 300 feet of the Cherohala Skyway",
+    "level": "information",
+    "summary": "Camping restricted along Skyway to beyond 300 yards.",
+    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/camping-not-permitted-within-300-feet-cherohala-skyway",
+    "start": "2026-04-30",
+    "order": "#08-04-04-22-179",
+    "scope": "ours",
     "stale": false
    },
    {
@@ -843,7 +845,7 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-04T11:59:16Z",
+  "fetchedAt": "2026-11-05T20:04:39Z",
   "source": "https://www.fs.usda.gov/r08/cherokee/alerts"
  },
  "danielboone": {
