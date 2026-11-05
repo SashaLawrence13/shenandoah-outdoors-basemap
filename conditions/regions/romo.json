@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-05T01:30:08Z",
+ "fetchedAt": "2026-11-05T11:10:10Z",
  "region": "romo",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 40.3122,
     "lon": -105.6454,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 18:00 local"
+    "observed": "2026-11-05 4:00 local"
    },
    {
     "area": "Estes Park side",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 40.3772,
     "lon": -105.5217,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 18:00 local"
+    "observed": "2026-11-05 4:00 local"
    },
    {
     "area": "Grand Lake side",
@@ -44,10 +44,10 @@
     "lat": 40.2551,
     "lon": -105.8176,
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 18:00 local"
+    "observed": "2026-11-05 4:00 local"
    },
    {
     "area": "Trail Ridge Road (Alpine Visitor Center)",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 40.431,
     "lon": -105.755,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 18:00 local"
+    "observed": "2026-11-05 4:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "romo",
     "source": "open-meteo",
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "romo",
     "source": "open-meteo",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Estes Park side",
-    "state": "CO",
-    "near": "romo-estes-park",
-    "side": "forest",
-    "region": "romo",
-    "source": "open-meteo",
-    "date": "2026-11-04",
-    "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -127,15 +112,15 @@
     "discussion": ""
    },
    {
-    "area": "Grand Lake side",
+    "area": "Estes Park side",
     "state": "CO",
-    "near": "romo-grand-lake",
+    "near": "romo-estes-park",
     "side": "forest",
     "region": "romo",
     "source": "open-meteo",
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Trail Ridge Road (Alpine Visitor Center)",
+    "area": "Grand Lake side",
     "state": "CO",
-    "near": "romo-trail-ridge",
+    "near": "romo-grand-lake",
     "side": "forest",
     "region": "romo",
     "source": "open-meteo",
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -185,11 +170,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Trail Ridge Road (Alpine Visitor Center)",
+    "state": "CO",
+    "near": "romo-trail-ridge",
+    "side": "forest",
+    "region": "romo",
+    "source": "open-meteo",
+    "date": "2026-11-06",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "gresca",
@@ -719,7 +719,6 @@
     "notable": false,
     "near": "Bear Lake"
    }
-  ],
-  "staleSince": "2026-11-05T01:30:08Z"
+  ]
  }
 }

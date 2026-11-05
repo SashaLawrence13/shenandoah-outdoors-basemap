@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-05T01:30:08Z",
+ "fetchedAt": "2026-11-05T11:10:10Z",
  "region": "hale",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 20.7147,
     "lon": -156.2502,
     "pollutant": "PM2.5",
-    "aqi": 30,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 15:00 local"
+    "observed": "2026-11-05 1:00 local"
    },
    {
     "area": "Hosmer Grove",
@@ -29,10 +29,10 @@
     "lat": 20.769,
     "lon": -156.235,
     "pollutant": "PM2.5",
-    "aqi": 30,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 15:00 local"
+    "observed": "2026-11-05 1:00 local"
    },
    {
     "area": "Kīpahulu Visitor Center",
@@ -47,7 +47,7 @@
     "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-04 15:00 local"
+    "observed": "2026-11-05 1:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-11-04",
-    "pollutant": "O3",
-    "aqi": 31,
+    "date": "2026-11-05",
+    "pollutant": "PM2.5",
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "pollutant": "PM2.5",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hosmer Grove",
-    "state": "HI",
-    "near": "hale-hosmer",
-    "side": "forest",
-    "region": "hale",
-    "source": "open-meteo",
-    "date": "2026-11-04",
-    "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,22 +90,22 @@
     "source": "open-meteo",
     "date": "2026-11-05",
     "pollutant": "PM2.5",
-    "aqi": 43,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Kīpahulu Visitor Center",
+    "area": "Hosmer Grove",
     "state": "HI",
-    "near": "hale-kipahulu",
+    "near": "hale-hosmer",
     "side": "forest",
     "region": "hale",
     "source": "open-meteo",
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -134,6 +119,21 @@
     "region": "hale",
     "source": "open-meteo",
     "date": "2026-11-05",
+    "pollutant": "PM2.5",
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kīpahulu Visitor Center",
+    "state": "HI",
+    "near": "hale-kipahulu",
+    "side": "forest",
+    "region": "hale",
+    "source": "open-meteo",
+    "date": "2026-11-06",
     "pollutant": "PM2.5",
     "aqi": 53,
     "category": "Moderate",
@@ -144,8 +144,20 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "semplo",
+    "name": "Semipalmated Plover",
+    "sci": "Charadrius semipalmatus",
+    "count": 1,
+    "seen": "2026-11-04 10:33",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
+    "notable": true,
+    "near": "Haleakalā Visitor Center"
+   },
    {
     "code": "apapan",
     "name": "Apapane",
@@ -186,8 +198,8 @@
     "code": "bknsti",
     "name": "Black-necked Stilt",
     "sci": "Himantopus mexicanus",
-    "count": 25,
-    "seen": "2026-11-02 09:13",
+    "count": 100,
+    "seen": "2026-11-04 10:33",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -219,6 +231,18 @@
     "near": "Haleakalā Visitor Center"
    },
    {
+    "code": "commyn",
+    "name": "Common Myna",
+    "sci": "Acridotheres tristis",
+    "count": 3,
+    "seen": "2026-11-04 10:33",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
     "code": "grefri",
     "name": "Great Frigatebird",
     "sci": "Fregata minor",
@@ -246,8 +270,20 @@
     "code": "hawcoo",
     "name": "Hawaiian Coot",
     "sci": "Fulica alai",
-    "count": 50,
-    "seen": "2026-11-02 09:13",
+    "count": 100,
+    "seen": "2026-11-04 10:33",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
+    "notable": false,
+    "near": "Haleakalā Visitor Center"
+   },
+   {
+    "code": "x00423",
+    "name": "Hawaiian Duck x Mallard (hybrid)",
+    "sci": "Anas wyvilliana x platyrhynchos",
+    "count": 6,
+    "seen": "2026-11-04 10:33",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -259,12 +295,12 @@
     "name": "Hawaiian Goose",
     "sci": "Branta sandvicensis",
     "count": 2,
-    "seen": "2026-11-03 08:58",
-    "place": "Haleakala NP--Hosmer Grove",
-    "lat": 20.768,
-    "lon": -156.237,
+    "seen": "2026-11-04 10:33",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
     "notable": false,
-    "near": "Kīpahulu Visitor Center"
+    "near": "Haleakalā Visitor Center"
    },
    {
     "code": "houfin",
@@ -387,18 +423,6 @@
     "near": "Haleakalā Visitor Center"
    },
    {
-    "code": "pagplo",
-    "name": "Pacific Golden-Plover",
-    "sci": "Pluvialis fulva",
-    "count": null,
-    "seen": "2026-11-03",
-    "place": "Kamaʻole Beach Park III",
-    "lat": 20.713,
-    "lon": -156.446,
-    "notable": false,
-    "near": "Haleakalā Visitor Center"
-   },
-   {
     "code": "redjun",
     "name": "Red Junglefowl",
     "sci": "Gallus gallus",
@@ -474,8 +498,8 @@
     "code": "rudtur",
     "name": "Ruddy Turnstone",
     "sci": "Arenaria interpres",
-    "count": 2,
-    "seen": "2026-11-02 09:13",
+    "count": 21,
+    "seen": "2026-11-04 10:33",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -498,8 +522,8 @@
     "code": "sander",
     "name": "Sanderling",
     "sci": "Calidris alba",
-    "count": 1,
-    "seen": "2026-11-02 09:13",
+    "count": 7,
+    "seen": "2026-11-04 10:33",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -522,8 +546,8 @@
     "code": "wantat1",
     "name": "Wandering Tattler",
     "sci": "Tringa incana",
-    "count": 2,
-    "seen": "2026-10-30 14:53",
+    "count": 7,
+    "seen": "2026-11-04 10:33",
     "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
     "lat": 20.794,
     "lon": -156.472,
@@ -558,13 +582,13 @@
     "code": "categr1",
     "name": "Western Cattle-Egret",
     "sci": "Ardea ibis",
-    "count": null,
-    "seen": "2026-11-03",
-    "place": "Ke'anae Peninsula",
-    "lat": 20.863,
-    "lon": -156.144,
+    "count": 1,
+    "seen": "2026-11-04 10:33",
+    "place": "Keālia Pond NWR--Kanuimanu Aquaculture Ponds",
+    "lat": 20.794,
+    "lon": -156.472,
     "notable": false,
-    "near": "Kīpahulu Visitor Center"
+    "near": "Haleakalā Visitor Center"
    },
    {
     "code": "zebdov",
@@ -578,7 +602,6 @@
     "notable": false,
     "near": "Kīpahulu Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-05T01:30:08Z"
+  ]
  }
 }

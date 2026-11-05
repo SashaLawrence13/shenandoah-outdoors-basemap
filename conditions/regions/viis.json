@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-05T01:30:08Z",
+ "fetchedAt": "2026-11-05T11:10:10Z",
  "region": "viis",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 18.3328,
     "lon": -64.7937,
     "pollutant": "PM2.5",
-    "aqi": 66,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-11-04 21:00 local"
+    "observed": "2026-11-05 7:00 local"
    },
    {
     "area": "Salt Pond Bay",
@@ -29,10 +29,10 @@
     "lat": 18.3121,
     "lon": -64.7079,
     "pollutant": "PM2.5",
-    "aqi": 66,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-11-04 21:00 local"
+    "observed": "2026-11-05 7:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "pollutant": "PM2.5",
-    "aqi": 68,
+    "aqi": 70,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "viis",
     "source": "open-meteo",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "pollutant": "PM2.5",
-    "aqi": 69,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Salt Pond Bay",
-    "state": "VI",
-    "near": "viis-south-shore",
-    "side": "forest",
-    "region": "viis",
-    "source": "open-meteo",
-    "date": "2026-11-04",
-    "pollutant": "PM2.5",
-    "aqi": 68,
+    "aqi": 63,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-11-05",
     "pollutant": "PM2.5",
-    "aqi": 69,
+    "aqi": 70,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Salt Pond Bay",
+    "state": "VI",
+    "near": "viis-south-shore",
+    "side": "forest",
+    "region": "viis",
+    "source": "open-meteo",
+    "date": "2026-11-06",
+    "pollutant": "PM2.5",
+    "aqi": 63,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -99,17 +99,17 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "grefla2",
     "name": "American Flamingo",
     "sci": "Phoenicopterus ruber",
-    "count": 9,
-    "seen": "2026-10-31 11:57",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
+    "count": 3,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": true,
     "near": "Cruz Bay Visitor Center"
    },
@@ -146,6 +146,30 @@
     "place": "Virgin Islands NP--Reef Bay Trail",
     "lat": 18.334,
     "lon": -64.74,
+    "notable": false,
+    "near": "Salt Pond Bay"
+   },
+   {
+    "code": "anchum1",
+    "name": "Antillean Crested Hummingbird",
+    "sci": "Orthorhyncus cristatus",
+    "count": 1,
+    "seen": "2026-11-04 16:20",
+    "place": "Virgin Islands NP--Annaberg Sugar Plantation Ruins",
+    "lat": 18.363,
+    "lon": -64.73,
+    "notable": false,
+    "near": "Salt Pond Bay"
+   },
+   {
+    "code": "banana",
+    "name": "Bananaquit",
+    "sci": "Coereba flaveola",
+    "count": 1,
+    "seen": "2026-11-04 17:22",
+    "place": "Paradise Point",
+    "lat": 18.33,
+    "lon": -64.914,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -213,11 +237,11 @@
     "code": "bknsti",
     "name": "Black-necked Stilt",
     "sci": "Himantopus mexicanus",
-    "count": 4,
-    "seen": "2026-10-29 09:28",
-    "place": "Perseverance Bay",
-    "lat": 18.352,
-    "lon": -64.996,
+    "count": 2,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -249,11 +273,23 @@
     "code": "brnboo",
     "name": "Brown Booby",
     "sci": "Sula leucogaster",
+    "count": 3,
+    "seen": "2026-11-04 14:58",
+    "place": "Virgin Islands NP--Trunk Bay",
+    "lat": 18.353,
+    "lon": -64.768,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
+   },
+   {
+    "code": "brnpel",
+    "name": "Brown Pelican",
+    "sci": "Pelecanus occidentalis",
     "count": 1,
-    "seen": "2026-11-03 09:12",
-    "place": "Magen's Bay",
-    "lat": 18.363,
-    "lon": -64.924,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -282,18 +318,6 @@
     "near": "Cruz Bay Visitor Center"
    },
    {
-    "code": "cogdov",
-    "name": "Common Ground Dove",
-    "sci": "Columbina passerina",
-    "count": 1,
-    "seen": "2026-10-28 17:13",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
-    "notable": false,
-    "near": "Salt Pond Bay"
-   },
-   {
     "code": "comter",
     "name": "Common Tern",
     "sci": "Sterna hirundo",
@@ -310,10 +334,10 @@
     "name": "Eurasian Collared-Dove",
     "sci": "Streptopelia decaocto",
     "count": 1,
-    "seen": "2026-11-01 07:00",
-    "place": "Perseverance Lagoons",
-    "lat": 18.352,
-    "lon": -64.995,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -321,11 +345,11 @@
     "code": "grykin",
     "name": "Gray Kingbird",
     "sci": "Tyrannus dominicensis",
-    "count": 1,
-    "seen": "2026-11-04 08:16",
-    "place": "Virgin Islands NP--Johnny Horn Trail",
-    "lat": 18.356,
-    "lon": -64.715,
+    "count": 10,
+    "seen": "2026-11-04 17:22",
+    "place": "Paradise Point",
+    "lat": 18.33,
+    "lon": -64.914,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -342,18 +366,6 @@
     "near": "Cruz Bay Visitor Center"
    },
    {
-    "code": "greyel",
-    "name": "Greater Yellowlegs",
-    "sci": "Tringa melanoleuca",
-    "count": 1,
-    "seen": "2026-10-28 17:13",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
-    "notable": false,
-    "near": "Cruz Bay Visitor Center"
-   },
-   {
     "code": "grtcar1",
     "name": "Green-throated Carib",
     "sci": "Eulampis holosericeus",
@@ -362,6 +374,18 @@
     "place": "Virgin Islands NP--Reef Bay Trail",
     "lat": 18.334,
     "lon": -64.74,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
+   },
+   {
+    "code": "compea",
+    "name": "Indian Peafowl",
+    "sci": "Pavo cristatus",
+    "count": 3,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -386,6 +410,18 @@
     "place": "Magen's Bay Trail",
     "lat": 18.363,
     "lon": -64.922,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
+   },
+   {
+    "code": "leabul1",
+    "name": "Lesser Antillean Bullfinch",
+    "sci": "Loxigilla noctis",
+    "count": 2,
+    "seen": "2026-11-04 17:22",
+    "place": "Paradise Point",
+    "lat": 18.33,
+    "lon": -64.914,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -418,10 +454,10 @@
     "name": "Merlin",
     "sci": "Falco columbarius",
     "count": 1,
-    "seen": "2026-10-28 17:13",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -434,30 +470,6 @@
     "place": "Virgin Islands NP--Reef Bay Trail",
     "lat": 18.334,
     "lon": -64.74,
-    "notable": false,
-    "near": "Cruz Bay Visitor Center"
-   },
-   {
-    "code": "osprey",
-    "name": "Osprey",
-    "sci": "Pandion haliaetus",
-    "count": 1,
-    "seen": "2026-10-30 11:07",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
-    "notable": false,
-    "near": "Cruz Bay Visitor Center"
-   },
-   {
-    "code": "redjun",
-    "name": "Red Junglefowl",
-    "sci": "Gallus gallus",
-    "count": 1,
-    "seen": "2026-11-04 08:16",
-    "place": "Virgin Islands NP--Johnny Horn Trail",
-    "lat": 18.356,
-    "lon": -64.715,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
    },
@@ -534,6 +546,30 @@
     "near": "Salt Pond Bay"
    },
    {
+    "code": "sora",
+    "name": "Sora",
+    "sci": "Porzana carolina",
+    "count": 1,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
+   },
+   {
+    "code": "sposan",
+    "name": "Spotted Sandpiper",
+    "sci": "Actitis macularius",
+    "count": 1,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
+   },
+   {
     "code": "categr1",
     "name": "Western Cattle-Egret",
     "sci": "Ardea ibis",
@@ -549,13 +585,13 @@
     "code": "whcpin",
     "name": "White-cheeked Pintail",
     "sci": "Anas bahamensis",
-    "count": 1,
-    "seen": "2026-10-31 11:57",
-    "place": "Mangrove Lagoon Marine Preserve",
-    "lat": 18.313,
-    "lon": -64.873,
+    "count": 5,
+    "seen": "2026-11-04 16:49",
+    "place": "Frank Pond",
+    "lat": 18.328,
+    "lon": -64.798,
     "notable": false,
-    "near": "Salt Pond Bay"
+    "near": "Cruz Bay Visitor Center"
    },
    {
     "code": "whcpig2",
@@ -580,8 +616,19 @@
     "lon": -64.856,
     "notable": false,
     "near": "Cruz Bay Visitor Center"
+   },
+   {
+    "code": "zendov",
+    "name": "Zenaida Dove",
+    "sci": "Zenaida aurita",
+    "count": 3,
+    "seen": "2026-11-04 17:22",
+    "place": "Paradise Point",
+    "lat": 18.33,
+    "lon": -64.914,
+    "notable": false,
+    "near": "Cruz Bay Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-05T01:30:08Z"
+  ]
  }
 }
