@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-07T00:58:24Z",
+ "fetchedAt": "2026-11-07T10:25:43Z",
  "region": "blca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.5427,
     "lon": -107.6866,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-06 17:00 local"
+    "observed": "2026-11-07 3:00 local"
    },
    {
     "area": "North Rim Ranger Station",
@@ -29,10 +29,10 @@
     "lat": 38.5866,
     "lon": -107.705,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-06 17:00 local"
+    "observed": "2026-11-07 3:00 local"
    }
   ],
   "forecasts": [
@@ -43,7 +43,7 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "pollutant": "O3",
     "aqi": 45,
     "category": "Good",
@@ -58,22 +58,7 @@
     "side": "forest",
     "region": "blca",
     "source": "open-meteo",
-    "date": "2026-11-07",
-    "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "North Rim Ranger Station",
-    "state": "CO",
-    "near": "blca-north-rim",
-    "side": "forest",
-    "region": "blca",
-    "source": "open-meteo",
-    "date": "2026-11-06",
+    "date": "2026-11-08",
     "pollutant": "O3",
     "aqi": 45,
     "category": "Good",
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-11-07",
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Rim Ranger Station",
+    "state": "CO",
+    "near": "blca-north-rim",
+    "side": "forest",
+    "region": "blca",
+    "source": "open-meteo",
+    "date": "2026-11-08",
+    "pollutant": "O3",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "osprey",
@@ -210,6 +210,18 @@
     "near": "South Rim Visitor Center"
    },
    {
+    "code": "buffle",
+    "name": "Bufflehead",
+    "sci": "Bucephala albeola",
+    "count": 3,
+    "seen": "2026-11-06 12:23",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
     "code": "bushti",
     "name": "Bushtit",
     "sci": "Psaltriparus minimus",
@@ -219,7 +231,7 @@
     "lat": 38.498,
     "lon": -107.906,
     "notable": false,
-    "near": "South Rim Visitor Center"
+    "near": "North Rim Ranger Station"
    },
    {
     "code": "canwre",
@@ -266,6 +278,30 @@
     "place": "Black Canyon of the Gunnison NP--Warner Point Nature Trail",
     "lat": 38.563,
     "lon": -107.743,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 4,
+    "seen": "2026-11-06 12:23",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
+    "notable": false,
+    "near": "South Rim Visitor Center"
+   },
+   {
+    "code": "pibgre",
+    "name": "Pied-billed Grebe",
+    "sci": "Podilymbus podiceps",
+    "count": 2,
+    "seen": "2026-11-06 12:23",
+    "place": "Otter Pond area",
+    "lat": 38.448,
+    "lon": -107.858,
     "notable": false,
     "near": "South Rim Visitor Center"
    },
@@ -354,18 +390,6 @@
     "near": "South Rim Visitor Center"
    },
    {
-    "code": "wooscj2",
-    "name": "Woodhouse's Scrub-Jay",
-    "sci": "Aphelocoma woodhouseii",
-    "count": 1,
-    "seen": "2026-11-05 09:35",
-    "place": "Black Canyon of the Gunnison NP--South Rim",
-    "lat": 38.581,
-    "lon": -107.715,
-    "notable": false,
-    "near": "South Rim Visitor Center"
-   },
-   {
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
@@ -377,7 +401,6 @@
     "notable": false,
     "near": "South Rim Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-07T00:58:24Z"
+  ]
  }
 }
