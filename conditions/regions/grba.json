@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-08T06:17:03Z",
+ "fetchedAt": "2026-11-08T13:40:35Z",
  "region": "grba",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.9857,
     "lon": -114.314,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    },
    {
     "area": "Lehman Caves Visitor Center",
@@ -29,10 +29,10 @@
     "lat": 39.0061,
     "lon": -114.2198,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    },
    {
     "area": "Baker Creek",
@@ -44,10 +44,10 @@
     "lat": 38.9766,
     "lon": -114.2453,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,6 +73,21 @@
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
+    "date": "2026-11-09",
+    "pollutant": "O3",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lehman Caves Visitor Center",
+    "state": "NV",
+    "near": "grba-lehman-caves",
+    "side": "forest",
+    "region": "grba",
+    "source": "open-meteo",
     "date": "2026-11-08",
     "pollutant": "O3",
     "aqi": 43,
@@ -88,39 +103,9 @@
     "side": "forest",
     "region": "grba",
     "source": "open-meteo",
-    "date": "2026-11-07",
+    "date": "2026-11-09",
     "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lehman Caves Visitor Center",
-    "state": "NV",
-    "near": "grba-lehman-caves",
-    "side": "forest",
-    "region": "grba",
-    "source": "open-meteo",
-    "date": "2026-11-08",
-    "pollutant": "O3",
-    "aqi": 42,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Baker Creek",
-    "state": "NV",
-    "near": "grba-baker-creek",
-    "side": "forest",
-    "region": "grba",
-    "source": "open-meteo",
-    "date": "2026-11-07",
-    "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-11-08",
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Baker Creek",
+    "state": "NV",
+    "near": "grba-baker-creek",
+    "side": "forest",
+    "region": "grba",
+    "source": "open-meteo",
+    "date": "2026-11-09",
+    "pollutant": "O3",
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "pacwre1",
@@ -338,6 +338,7 @@
     "notable": false,
     "near": "Wheeler Peak"
    }
-  ]
+  ],
+  "staleSince": "2026-11-08T13:40:35Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-08T06:17:03Z",
+ "fetchedAt": "2026-11-08T13:40:35Z",
  "region": "noca",
  "air": {
   "status": "ok",
@@ -17,7 +17,7 @@
     "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    },
    {
     "area": "Colonial Creek and Diablo Lake",
@@ -32,7 +32,7 @@
     "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    },
    {
     "area": "Cascade Pass trailhead",
@@ -47,7 +47,7 @@
     "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    },
    {
     "area": "Stehekin",
@@ -59,10 +59,10 @@
     "lat": 48.3094,
     "lon": -120.6573,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-07 22:00 local"
+    "observed": "2026-11-08 5:00 local"
    }
   ],
   "forecasts": [
@@ -73,7 +73,7 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "pollutant": "O3",
     "aqi": 37,
     "category": "Good",
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "pollutant": "O3",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Colonial Creek and Diablo Lake",
-    "state": "WA",
-    "near": "noca-diablo",
-    "side": "forest",
-    "region": "noca",
-    "source": "open-meteo",
-    "date": "2026-11-07",
-    "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -127,13 +112,13 @@
     "discussion": ""
    },
    {
-    "area": "Cascade Pass trailhead",
+    "area": "Colonial Creek and Diablo Lake",
     "state": "WA",
-    "near": "noca-cascade-pass",
+    "near": "noca-diablo",
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-07",
+    "date": "2026-11-09",
     "pollutant": "O3",
     "aqi": 35,
     "category": "Good",
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Stehekin",
+    "area": "Cascade Pass trailhead",
     "state": "WA",
-    "near": "noca-stehekin",
+    "near": "noca-cascade-pass",
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-07",
+    "date": "2026-11-09",
     "pollutant": "O3",
-    "aqi": 37,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -185,11 +170,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Stehekin",
+    "state": "WA",
+    "near": "noca-stehekin",
+    "side": "forest",
+    "region": "noca",
+    "source": "open-meteo",
+    "date": "2026-11-09",
+    "pollutant": "O3",
+    "aqi": 35,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amerob",
@@ -347,6 +347,7 @@
     "notable": false,
     "near": "Newhalem"
    }
-  ]
+  ],
+  "staleSince": "2026-11-08T13:40:35Z"
  }
 }
