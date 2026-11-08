@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-08T13:40:35Z",
+ "fetchedAt": "2026-11-08T19:45:22Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 19.4295,
     "lon": -155.2575,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 3:00 local"
+    "observed": "2026-11-08 9:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "PM2.5",
-    "aqi": 36,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 3:00 local"
+    "observed": "2026-11-08 9:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 19.4934,
     "lon": -155.3843,
-    "pollutant": "O3",
-    "aqi": 22,
+    "pollutant": "PM2.5",
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 3:00 local"
+    "observed": "2026-11-08 9:00 local"
    },
    {
     "area": "Kahuku",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 19.13,
     "lon": -155.68,
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 3:00 local"
+    "observed": "2026-11-08 9:00 local"
    }
   ],
   "forecasts": [
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "moudov",
@@ -207,13 +207,13 @@
     "code": "apapan",
     "name": "Apapane",
     "sci": "Himatione sanguinea",
-    "count": 3,
-    "seen": "2026-11-06 17:27",
-    "place": "Hawaiʻi Volcanoes NP--Chain of Craters Road, Puhimau Area Only",
-    "lat": 19.392,
-    "lon": -155.249,
+    "count": 7,
+    "seen": "2026-11-07 14:34",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
-    "near": "End of Chain of Craters Road"
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "blkfra",
@@ -304,34 +304,34 @@
     "name": "Hawaii Amakihi",
     "sci": "Chlorodrepanis virens",
     "count": 2,
-    "seen": "2026-11-06 17:27",
-    "place": "Hawaiʻi Volcanoes NP--Chain of Craters Road, Puhimau Area Only",
-    "lat": 19.392,
-    "lon": -155.249,
+    "seen": "2026-11-07 14:34",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
-    "near": "End of Chain of Craters Road"
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "hawgoo",
     "name": "Hawaiian Goose",
     "sci": "Branta sandvicensis",
-    "count": 4,
-    "seen": "2026-11-05 12:30",
-    "place": "Hawai'i Volcanoes NP--Steam Vents and Sulfur Banks Only",
-    "lat": 19.431,
-    "lon": -155.267,
+    "count": 2,
+    "seen": "2026-11-07 14:34",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
-    "near": "End of Chain of Craters Road"
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "hawhaw",
     "name": "Hawaiian Hawk",
     "sci": "Buteo solitarius",
     "count": 1,
-    "seen": "2026-11-07 12:01",
-    "place": "Hawai'i Volcanoes NP--Steam Vents and Sulfur Banks Only",
-    "lat": 19.431,
-    "lon": -155.267,
+    "seen": "2026-11-07 14:34",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    },
@@ -357,7 +357,7 @@
     "lat": 19.414,
     "lon": -155.239,
     "notable": false,
-    "near": "Kīlauea Visitor Center"
+    "near": "End of Chain of Craters Road"
    },
    {
     "code": "kalphe",
@@ -370,18 +370,6 @@
     "lon": -155.249,
     "notable": false,
     "near": "End of Chain of Craters Road"
-   },
-   {
-    "code": "norpin",
-    "name": "Northern Pintail",
-    "sci": "Anas acuta",
-    "count": 2,
-    "seen": "2026-11-01 13:09",
-    "place": "Honuʻapo (Whittington Beach Park)",
-    "lat": 19.086,
-    "lon": -155.55,
-    "notable": false,
-    "near": "Kahuku"
    },
    {
     "code": "omao",
@@ -444,28 +432,16 @@
     "near": "Kahuku"
    },
    {
-    "code": "wantat1",
-    "name": "Wandering Tattler",
-    "sci": "Tringa incana",
-    "count": 1,
-    "seen": "2026-11-01 13:09",
-    "place": "Honuʻapo (Whittington Beach Park)",
-    "lat": 19.086,
-    "lon": -155.55,
-    "notable": false,
-    "near": "Kahuku"
-   },
-   {
     "code": "warwhe1",
     "name": "Warbling White-eye",
     "sci": "Zosterops japonicus",
     "count": 2,
-    "seen": "2026-11-05 16:00",
-    "place": "Hawaiʻi Volcanoes NP--Kīlauea Iki and Thurston Lava Tube",
-    "lat": 19.414,
-    "lon": -155.239,
+    "seen": "2026-11-07 14:34",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
-    "near": "End of Chain of Craters Road"
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "whttro",
@@ -515,7 +491,6 @@
     "notable": false,
     "near": "Kahuku"
    }
-  ],
-  "staleSince": "2026-11-08T13:40:35Z"
+  ]
  }
 }
