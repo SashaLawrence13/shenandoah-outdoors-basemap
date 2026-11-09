@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T00:59:48Z",
+ "fetchedAt": "2026-11-09T11:47:53Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 19.4295,
     "lon": -155.2575,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 14:00 local"
+    "observed": "2026-11-09 1:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "PM2.5",
-    "aqi": 41,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 14:00 local"
+    "observed": "2026-11-09 1:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -44,10 +44,10 @@
     "lat": 19.4934,
     "lon": -155.3843,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 14:00 local"
+    "observed": "2026-11-09 1:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 14:00 local"
+    "observed": "2026-11-09 1:00 local"
    }
   ],
   "forecasts": [
@@ -73,7 +73,7 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "pollutant": "O3",
     "aqi": 30,
     "category": "Good",
@@ -88,7 +88,7 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "pollutant": "O3",
     "aqi": 30,
     "category": "Good",
@@ -103,9 +103,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "pollutant": "PM2.5",
-    "aqi": 41,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -118,24 +118,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mauna Loa Road",
-    "state": "HI",
-    "near": "havo-mauna-loa-road",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
-    "date": "2026-11-08",
-    "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -157,13 +142,13 @@
     "discussion": ""
    },
    {
-    "area": "Kahuku",
+    "area": "Mauna Loa Road",
     "state": "HI",
-    "near": "havo-kahuku",
+    "near": "havo-mauna-loa-road",
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-10",
     "pollutant": "O3",
     "aqi": 30,
     "category": "Good",
@@ -185,11 +170,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Kahuku",
+    "state": "HI",
+    "near": "havo-kahuku",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-11-10",
+    "pollutant": "PM2.5",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "hawcre",
@@ -503,6 +503,7 @@
     "notable": false,
     "near": "Kahuku"
    }
-  ]
+  ],
+  "staleSince": "2026-11-09T11:47:53Z"
  }
 }

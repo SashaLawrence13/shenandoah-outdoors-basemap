@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T00:59:48Z",
+ "fetchedAt": "2026-11-09T11:47:53Z",
  "region": "sagu",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.1822,
     "lon": -110.7378,
-    "pollutant": "O3",
-    "aqi": 35,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 17:00 local"
+    "observed": "2026-11-09 4:00 local"
    },
    {
     "area": "Tucson Mountain District (west)",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 32.2427,
     "lon": -111.1787,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 17:00 local"
+    "observed": "2026-11-09 4:00 local"
    },
    {
     "area": "Rincon high country (Manning Camp)",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 32.2,
     "lon": -110.6,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 17:00 local"
+    "observed": "2026-11-09 4:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "sagu",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "sagu",
     "source": "open-meteo",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "pollutant": "O3",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Tucson Mountain District (west)",
-    "state": "AZ",
-    "near": "sagu-west",
-    "side": "forest",
-    "region": "sagu",
-    "source": "open-meteo",
-    "date": "2026-11-08",
-    "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "Rincon high country (Manning Camp)",
+    "area": "Tucson Mountain District (west)",
     "state": "AZ",
-    "near": "sagu-manning-camp",
+    "near": "sagu-west",
     "side": "forest",
     "region": "sagu",
     "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-10",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-11-09",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Rincon high country (Manning Camp)",
+    "state": "AZ",
+    "near": "sagu-manning-camp",
+    "side": "forest",
+    "region": "sagu",
+    "source": "open-meteo",
+    "date": "2026-11-10",
+    "pollutant": "O3",
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,7 +144,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "acowoo",
@@ -2258,6 +2258,7 @@
     "notable": false,
     "near": "Rincon Mountain District (east)"
    }
-  ]
+  ],
+  "staleSince": "2026-11-09T11:47:53Z"
  }
 }

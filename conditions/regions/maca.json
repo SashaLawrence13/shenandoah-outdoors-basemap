@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T00:59:48Z",
+ "fetchedAt": "2026-11-09T11:47:53Z",
  "region": "maca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.187,
     "lon": -86.1011,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 18:00 local"
+    "observed": "2026-11-09 5:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -29,10 +29,10 @@
     "lat": 37.213,
     "lon": -86.133,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-08 18:00 local"
+    "observed": "2026-11-09 5:00 local"
    }
   ],
   "forecasts": [
@@ -43,22 +43,7 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-11-08",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Big Hollow and Maple Springs",
-    "state": "KY",
-    "near": "maca-north",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "pollutant": "O3",
     "aqi": 31,
     "category": "Good",
@@ -74,8 +59,23 @@
     "region": "maca",
     "source": "open-meteo",
     "date": "2026-11-09",
+    "pollutant": "O3",
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Big Hollow and Maple Springs",
+    "state": "KY",
+    "near": "maca-north",
+    "side": "forest",
+    "region": "maca",
+    "source": "open-meteo",
+    "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 41,
+    "aqi": 48,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -84,7 +84,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -290,6 +290,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-09T11:47:53Z"
  }
 }
