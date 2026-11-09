@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T11:47:39Z",
+ "fetchedAt": "2026-11-09T22:29:25Z",
  "nps": {
   "status": "ok",
   "parks": [
@@ -17,6 +17,24 @@
    "appa"
   ],
   "alerts": [
+   {
+    "id": "9F23E21C-AE75-4B66-A983-027C6A1B9D28",
+    "park": "gwmp",
+    "title": "Northbound GWMP Lane Closures Between Spout Run and Route 123",
+    "category": "Park Closure",
+    "description": "GW Parkway northbound closures: Spout Run to Route 123, Monday through Thursday, 9:30 a.m. to 2:30 p.m.; for tree maintenance work continues. Follow posted detours and allow extra travel time.",
+    "url": "https://www.nps.gov/gwmp/learn/news/george-washington-memorial-parkway-announces-extended-northbound-and-upcoming-southbound-closures-for-tree-maintenance-between-spout-run-parkway-and-route-123.htm",
+    "updated": "2026-11-09 00:00:00.0"
+   },
+   {
+    "id": "C612A958-DEEC-4BC9-A2E3-45FDC86E1882",
+    "park": "shen",
+    "title": "Prescribed Fire in Big Meadows",
+    "category": "Caution",
+    "description": "Weather permitting, fire personnel plan to conduct a prescribed fire in Big Meadows from 6 a.m. Tuesday, November 10 until 6 p.m. Thursday, November 12. For public safety, Big Meadows and Rapidan Road will be closed to the public for the duration of the prescribed fire operation. Visitors should slow their speeds and turn their headlights on when driving through smoke.",
+    "url": null,
+    "updated": "2026-11-09 00:00:00.0"
+   },
    {
     "id": "2ABEF6EE-83E2-4753-B8F5-A320D235B6FB",
     "park": "neri",
@@ -36,15 +54,6 @@
     "updated": "2026-11-04 00:00:00.0"
    },
    {
-    "id": "0034E567-6FFD-447B-BBA7-29BB233AB509",
-    "park": "gwmp",
-    "title": "Memorial Bridge Closed Monday, November 2, from 1 p.m. to 5 p.m.",
-    "category": "Park Closure",
-    "description": "Memorial Bridge will be closed on Monday November 2 from 1 p.m. to 5 p.m. for an event at the Lincoln Memorial.",
-    "url": null,
-    "updated": "2026-11-02 00:00:00.0"
-   },
-   {
     "id": "945557F5-5C8E-4606-8331-DA7793F266BF",
     "park": "prwi",
     "title": "Visitor Center Closed on Tuesdays, Wednesdays, and Thursdays",
@@ -61,15 +70,6 @@
     "description": "Parking Lot E is closed for construction. The park is currently working to expand this parking area, and the lot will be closed while the expansion is being built. Visitors can still access the Mary Byrd Branch Trail and Quantico Cascades Trail by following trail reroute signs and parking vehicles in Turkey Run parking area. For your safety, please follow all closures and only park in designated parking spots.",
     "url": null,
     "updated": "2026-11-01 00:00:00.0"
-   },
-   {
-    "id": "9F23E21C-AE75-4B66-A983-027C6A1B9D28",
-    "park": "gwmp",
-    "title": "Northbound GWMP Lane Closures Between Spout Run and Route 123",
-    "category": "Park Closure",
-    "description": "GW Parkway northbound closures: Spout Run to Route 123, Monday through Thursday, 9:30 a.m. to 2:30 p.m.; for tree maintenance work continues through Nov. 6. Southbound closures are expected Nov. 9. Follow posted detours and allow extra travel time.",
-    "url": "https://www.nps.gov/gwmp/learn/news/george-washington-memorial-parkway-announces-extended-northbound-and-upcoming-southbound-closures-for-tree-maintenance-between-spout-run-parkway-and-route-123.htm",
-    "updated": "2026-10-22 00:00:00.0"
    },
    {
     "id": "2DC60C7E-23DA-4C5F-915E-5971F1B408F6",
@@ -299,6 +299,17 @@
     "source": "park-site"
    },
    {
+    "id": "0034E567-6FFD-447B-BBA7-29BB233AB509",
+    "park": "gwmp",
+    "title": "Memorial Bridge Closed Monday, November 2, from 1 p.m. to 5 p.m.",
+    "category": "Park Closure",
+    "description": "Memorial Bridge will be closed on Monday November 2 from 1 p.m. to 5 p.m. for an event at the Lincoln Memorial.",
+    "url": null,
+    "updated": null,
+    "until": null,
+    "source": "park-site"
+   },
+   {
     "id": "12245A18-7A06-441D-AF04-AC317D28D5D2",
     "park": "grsm",
     "title": "Cherokee Orchard Road closed to pedestrian traffic",
@@ -314,6 +325,15 @@
  "forest": {
   "status": "ok",
   "alerts": [
+   {
+    "title": "Prescribed Fire Operations Mount Rogers National Recreation Area- Porter and Little Mountain",
+    "level": "caution",
+    "summary": "George Washington and Jefferson National Forest, Mount Rogers National Recreation Area, is planning prescribed fire operations on Little Mountain on November 10th and Porter Mountain on November 11th:Porter Mountain, Wythe County - 383 AcresLittle Mountain, Smyth County - 44 AcresClosures in the…",
+    "url": "https://www.fs.usda.gov/r08/gwj/alerts/prescribed-fire-operations-mount-rogers-national-recreation-area-porter-and-little",
+    "start": "November 9, 2026",
+    "order": null,
+    "scope": "ours"
+   },
    {
     "title": "Glen Alton Day Use Area Closure",
     "level": "information",
@@ -459,21 +479,21 @@
     "scope": "ours"
    },
    {
-    "title": "Target shooting allowed only at designated shooting ranges",
-    "level": "information",
-    "summary": "For public safety, target shooting is allowed only in designated shooting ranges. It is prohibited to discharge a firearm within the George Washington and Jefferson National Forests unless you are target shooting in a designated shooting range or hunting following state hunting laws.",
-    "url": "https://www.fs.usda.gov/r08/gwj/alerts/target-shooting-allowed-only-designated-shooting-ranges",
-    "start": "August 30, 2023",
-    "order": "#08-08-00-23-13",
-    "scope": "forestwide"
-   },
-   {
     "title": "Special regulations apply when visiting wilderness areas",
     "level": "information",
     "summary": "When visiting wilderness areas in the George Washington and Jefferson National Forests, is it prohibited to:Enter the wilderness area in a group larger than ten people.Store personal property in the wilderness area.Disposing of trash anywhere in the wilderness area. (If you pack it in, pack it…",
     "url": "https://www.fs.usda.gov/r08/gwj/alerts/special-regulations-apply-when-visiting-wilderness-areas",
     "start": "August 30, 2023",
     "order": "#08-08-00-23-16",
+    "scope": "forestwide"
+   },
+   {
+    "title": "Target shooting allowed only at designated shooting ranges",
+    "level": "information",
+    "summary": "For public safety, target shooting is allowed only in designated shooting ranges. It is prohibited to discharge a firearm within the George Washington and Jefferson National Forests unless you are target shooting in a designated shooting range or hunting following state hunting laws.",
+    "url": "https://www.fs.usda.gov/r08/gwj/alerts/target-shooting-allowed-only-designated-shooting-ranges",
+    "start": "August 30, 2023",
+    "order": "#08-08-00-23-13",
     "scope": "forestwide"
    },
    {
@@ -667,11 +687,11 @@
   "fireDanger": "Low",
   "alerts": [
    {
-    "slug": "extreme-flooding-ocoee-ranger-district-nov-5",
-    "title": "Extreme flooding - Ocoee Ranger District Nov 5",
+    "slug": "ocoee-river-flooding-damage-nov-5",
+    "title": "Ocoee River Flooding Damage - Nov 5",
     "level": "critical",
-    "summary": "Avoid the eastern portion of the Ocoee Ranger District. Extreme flooding reported Nov. 5 impacting the Cherokee National Forest in eastern Polk County, TN. Avoid the area.",
-    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/extreme-flooding-ocoee-ranger-district-nov-5",
+    "summary": "Extreme flooding was observed in the Ocoee River watershed Nov. 5. on the Ocoee Ranger District. All Forest Service access to the Ocoee River and Parksville Lake is now suspended due to flood related contamination and debris. Thunder Rock Campground is closed due to flood damage.",
+    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/ocoee-river-flooding-damage-nov-5",
     "start": "2026-11-05",
     "order": null,
     "scope": "ours",
@@ -854,7 +874,7 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-09T11:47:39Z",
+  "fetchedAt": "2026-11-09T22:29:25Z",
   "source": "https://www.fs.usda.gov/r08/cherokee/alerts"
  },
  "danielboone": {
@@ -873,12 +893,23 @@
     "stale": false
    },
    {
-    "slug": "barren-fork-horse-camp-surrounding-trails-closed-prescribed-burn-0",
-    "title": "Barren Fork Horse Camp, surrounding trails closed for prescribed burn operations, November 8",
+    "slug": "portion-redbird-crest-trail-redbird-wma-closed-prescribed-burn-november-10",
+    "title": "Portion of Redbird Crest Trail, Redbird WMA closed for prescribed burn, November 10",
     "level": "caution",
-    "summary": "Barren Fork Horse Camp and portions of the surrounding trail system in McCreary County will be closed during planned prescribed burn operations on Sunday, November 8, 2026. Canter Loop Horse Trail, Belgian Horse Trail, Arabian Horse Trail and connecting portions of the Sheltowee Trace National…",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/barren-fork-horse-camp-surrounding-trails-closed-prescribed-burn-0",
-    "start": "2026-11-08",
+    "summary": "A portion of the Redbird Wildlife Management Area in Leslie County will be closed during planned prescribed burn operations on Tuesday, November 10, 2026. Sugar Creek Trailhead and Redbird Crest Trail Sections 4, 5 and 6 will also be closed during operations and may remain closed for several days…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/portion-redbird-crest-trail-redbird-wma-closed-prescribed-burn-november-10",
+    "start": "2026-11-10",
+    "order": null,
+    "scope": "ours",
+    "stale": false
+   },
+   {
+    "slug": "indian-creek-rd-9b-camping-area-closed-prescribed-burn-operations-november",
+    "title": "Indian Creek Rd 9B, camping area closed for prescribed burn operations, November 10",
+    "level": "caution",
+    "summary": "Indian Creek Camping Area and Indian Creek Road 9B in the Red River Gorge in Menifee County will be closed during planned prescribed burn operations in the Bear Wallow Burn Unit on Tuesday, November 10, 2026.See the Southern Region Prescribed Burn Tracker for a map of all the Daniel Boone National…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/indian-creek-rd-9b-camping-area-closed-prescribed-burn-operations-november",
+    "start": "2026-11-10",
     "order": null,
     "scope": "ours",
     "stale": false
@@ -1005,69 +1036,14 @@
     "stale": true
    },
    {
-    "slug": "trail-prohibitions",
-    "title": "Trail Prohibitions",
+    "slug": "metal-detecting-prohibitions-0",
+    "title": "Metal Detecting Prohibitions",
     "level": "information",
-    "summary": "Shortcutting a trail switchback is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/trail-prohibitions",
+    "summary": "The use of metal detectors, electronic apparatuses, or any other devices for the purpose of locating any metal object without a valid permit is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/metal-detecting-prohibitions-0",
     "start": "2015-07-08",
-    "order": "#DB-08-15",
+    "order": "#DB-10-15",
     "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "non-motorized-fishing-area-restrictions",
-    "title": "Non-Motorized Fishing Area Restrictions",
-    "level": "information",
-    "summary": "The use of use of gasoline or diesel-powered motorcraft in non-motorized fishing areas of Cave Run Lake, Carrington Lake, Rebel Trace Lake, Clear Creek Lake, and specified portions of Ramey Creek and Scott Creek is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/non-motorized-fishing-area-restrictions",
-    "start": "2015-07-08",
-    "order": "#11-10-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "climbing-and-rappelling-prohibitions-1",
-    "title": "Climbing and Rappelling Prohibitions",
-    "level": "information",
-    "summary": "Climbing or rappelling within 300 feet of Sky Bridge, Gray’s Arch, Nada Tunnel, or Chimney Top Rock overlooks is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-1",
-    "start": "2015-07-08",
-    "order": "#12-03-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "climbing-and-rappelling-prohibitions-0",
-    "title": "Climbing and Rappelling Prohibitions",
-    "level": "information",
-    "summary": "Climbing or rappelling or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations at Bee Rock Overlook in Laurel County in Kentucky is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-0",
-    "start": "2015-07-08",
-    "order": "#14-06-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "climbing-and-rappelling-prohibitions",
-    "title": "Climbing and Rappelling Prohibitions",
-    "level": "information",
-    "summary": "Climbing, rappelling, or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations in the Natural Arch Scenic Area and Three Forks of Beaver Overlook is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions",
-    "start": "2015-07-08",
-    "order": "#16-05-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "wildcat-branch-closure",
-    "title": "Wildcat Branch Closure",
-    "level": "information",
-    "summary": "Going into or upon National Forest System lands of Wildcat Branch, within the Bee Rock Overlook in Laurel County in Kentucky, is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/wildcat-branch-closure",
-    "start": "2015-07-08",
-    "order": "#14-05-15",
-    "scope": "ours",
     "stale": true
    },
    {
@@ -1078,17 +1054,6 @@
     "url": "https://www.fs.usda.gov/r08/danielboone/alerts/commercial-hauling-prohibitions",
     "start": "2015-07-08",
     "order": "#DB-11-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "metal-detecting-prohibitions-0",
-    "title": "Metal Detecting Prohibitions",
-    "level": "information",
-    "summary": "The use of metal detectors, electronic apparatuses, or any other devices for the purpose of locating any metal object without a valid permit is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/metal-detecting-prohibitions-0",
-    "start": "2015-07-08",
-    "order": "#DB-10-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1104,14 +1069,80 @@
     "stale": true
    },
    {
-    "slug": "white-sulphur-ohv-trail-system",
-    "title": "White Sulphur OHV Trail System",
+    "slug": "trail-prohibitions",
+    "title": "Trail Prohibitions",
     "level": "information",
-    "summary": "1) Motorized use of the White Sulphur OHV Trail System from sunset to sunrise from May 1st to November 30th; 2) Non-motorized use of the White Sulphur OHV Trail System from May 1st to November 30th; 3) Overnight camping within 300 feet of the edge of the White Sulphur OHV Trail System from May 1st…",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
-    "start": "2015-05-11",
-    "order": "#11-04-15",
+    "summary": "Shortcutting a trail switchback is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/trail-prohibitions",
+    "start": "2015-07-08",
+    "order": "#DB-08-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "wildcat-branch-closure",
+    "title": "Wildcat Branch Closure",
+    "level": "information",
+    "summary": "Going into or upon National Forest System lands of Wildcat Branch, within the Bee Rock Overlook in Laurel County in Kentucky, is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/wildcat-branch-closure",
+    "start": "2015-07-08",
+    "order": "#14-05-15",
     "scope": "ours",
+    "stale": true
+   },
+   {
+    "slug": "climbing-and-rappelling-prohibitions",
+    "title": "Climbing and Rappelling Prohibitions",
+    "level": "information",
+    "summary": "Climbing, rappelling, or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations in the Natural Arch Scenic Area and Three Forks of Beaver Overlook is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions",
+    "start": "2015-07-08",
+    "order": "#16-05-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "climbing-and-rappelling-prohibitions-0",
+    "title": "Climbing and Rappelling Prohibitions",
+    "level": "information",
+    "summary": "Climbing or rappelling or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations at Bee Rock Overlook in Laurel County in Kentucky is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-0",
+    "start": "2015-07-08",
+    "order": "#14-06-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "climbing-and-rappelling-prohibitions-1",
+    "title": "Climbing and Rappelling Prohibitions",
+    "level": "information",
+    "summary": "Climbing or rappelling within 300 feet of Sky Bridge, Gray’s Arch, Nada Tunnel, or Chimney Top Rock overlooks is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-1",
+    "start": "2015-07-08",
+    "order": "#12-03-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "non-motorized-fishing-area-restrictions",
+    "title": "Non-Motorized Fishing Area Restrictions",
+    "level": "information",
+    "summary": "The use of use of gasoline or diesel-powered motorcraft in non-motorized fishing areas of Cave Run Lake, Carrington Lake, Rebel Trace Lake, Clear Creek Lake, and specified portions of Ramey Creek and Scott Creek is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/non-motorized-fishing-area-restrictions",
+    "start": "2015-07-08",
+    "order": "#11-10-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "pioneer-weapons-wildlife-management-area-camping-prohibition",
+    "title": "Pioneer Weapons Wildlife Management Area Camping Prohibition",
+    "level": "information",
+    "summary": "Except for designated sites, camping within 300 feet of National Forest System Road 918 in the Pioneer Weapons Wildlife Management Area is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/pioneer-weapons-wildlife-management-area-camping-prohibition",
+    "start": "2015-05-11",
+    "order": "#11-05-15",
+    "scope": "forestwide",
     "stale": true
    },
    {
@@ -1123,6 +1154,17 @@
     "start": "2015-05-11",
     "order": "#11-08-15",
     "scope": "ours",
+    "stale": true
+   },
+   {
+    "slug": "cave-run-lake-highway-801-huntingshooting-prohibitions",
+    "title": "Cave Run Lake, Highway 801 Hunting/Shooting Prohibitions",
+    "level": "information",
+    "summary": "Hunting or discharging a firearm is prohibited between Kentucky Highway 801 South and Cave Run Lake from the Fern Bluff recreation area to Warix Run Boat Ramp, including the waters of Scott Creek Bay east of the idle speed buoy line between Scott Creek Boat Ramp and Twin Knobs Boat Ramp.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/cave-run-lake-highway-801-huntingshooting-prohibitions",
+    "start": "2015-05-11",
+    "order": "#11-07-15",
+    "scope": "forestwide",
     "stale": true
    },
    {
@@ -1159,14 +1201,14 @@
     "stale": true
    },
    {
-    "slug": "beaver-creek-wilderness-prohibitions",
-    "title": "Beaver Creek Wilderness Prohibitions",
+    "slug": "white-sulphur-ohv-trail-system",
+    "title": "White Sulphur OHV Trail System",
     "level": "information",
-    "summary": "Within Beaver Creek Wilderness, possessing horses or other livestock except on trails designated for such use or as specifically permitted through a special use permit is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/beaver-creek-wilderness-prohibitions",
+    "summary": "1) Motorized use of the White Sulphur OHV Trail System from sunset to sunrise from May 1st to November 30th; 2) Non-motorized use of the White Sulphur OHV Trail System from May 1st to November 30th; 3) Overnight camping within 300 feet of the edge of the White Sulphur OHV Trail System from May 1st…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
     "start": "2015-05-11",
-    "order": "#16-04-15",
-    "scope": "forestwide",
+    "order": "#11-04-15",
+    "scope": "ours",
     "stale": true
    },
    {
@@ -1181,24 +1223,13 @@
     "stale": true
    },
    {
-    "slug": "pioneer-weapons-wildlife-management-area-camping-prohibition",
-    "title": "Pioneer Weapons Wildlife Management Area Camping Prohibition",
+    "slug": "beaver-creek-wilderness-prohibitions",
+    "title": "Beaver Creek Wilderness Prohibitions",
     "level": "information",
-    "summary": "Except for designated sites, camping within 300 feet of National Forest System Road 918 in the Pioneer Weapons Wildlife Management Area is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/pioneer-weapons-wildlife-management-area-camping-prohibition",
+    "summary": "Within Beaver Creek Wilderness, possessing horses or other livestock except on trails designated for such use or as specifically permitted through a special use permit is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/beaver-creek-wilderness-prohibitions",
     "start": "2015-05-11",
-    "order": "#11-05-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "cave-run-lake-highway-801-huntingshooting-prohibitions",
-    "title": "Cave Run Lake, Highway 801 Hunting/Shooting Prohibitions",
-    "level": "information",
-    "summary": "Hunting or discharging a firearm is prohibited between Kentucky Highway 801 South and Cave Run Lake from the Fern Bluff recreation area to Warix Run Boat Ramp, including the waters of Scott Creek Bay east of the idle speed buoy line between Scott Creek Boat Ramp and Twin Knobs Boat Ramp.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/cave-run-lake-highway-801-huntingshooting-prohibitions",
-    "start": "2015-05-11",
-    "order": "#11-07-15",
+    "order": "#16-04-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1335,7 +1366,7 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-09T11:47:39Z",
+  "fetchedAt": "2026-11-09T22:29:25Z",
   "source": "https://www.fs.usda.gov/r08/danielboone/alerts"
  },
  "pisgah": {
@@ -1756,7 +1787,7 @@
     "scope": "ours"
    }
   ],
-  "fetchedAt": "2026-11-08T13:40:21Z",
+  "fetchedAt": "2026-11-09T22:29:25Z",
   "source": "https://www.fs.usda.gov/r08/northcarolina/alerts"
  }
 }

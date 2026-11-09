@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T11:47:53Z",
+ "fetchedAt": "2026-11-09T22:29:44Z",
  "region": "cuva",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 41.2646,
     "lon": -81.5461,
-    "pollutant": "PM2.5",
-    "aqi": 25,
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 6:00 local"
+    "observed": "2026-11-09 17:00 local"
    },
    {
     "area": "Brecksville and Station Road",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 41.317,
     "lon": -81.624,
-    "pollutant": "PM2.5",
-    "aqi": 25,
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 6:00 local"
+    "observed": "2026-11-09 17:00 local"
    },
    {
     "area": "Virginia Kendall and the Ledges",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 41.229,
     "lon": -81.526,
-    "pollutant": "PM2.5",
-    "aqi": 25,
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 6:00 local"
+    "observed": "2026-11-09 17:00 local"
    },
    {
     "area": "Hale Farm and the south end",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 41.17,
     "lon": -81.545,
-    "pollutant": "PM2.5",
-    "aqi": 25,
+    "pollutant": "O3",
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 6:00 local"
+    "observed": "2026-11-09 17:00 local"
    }
   ],
   "forecasts": [
@@ -74,8 +74,8 @@
     "region": "cuva",
     "source": "open-meteo",
     "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 39,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +90,22 @@
     "source": "open-meteo",
     "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Brecksville and Station Road",
+    "state": "OH",
+    "near": "cuva-brecksville",
+    "side": "forest",
+    "region": "cuva",
+    "source": "open-meteo",
+    "date": "2026-11-09",
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -103,26 +118,11 @@
     "side": "forest",
     "region": "cuva",
     "source": "open-meteo",
-    "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Brecksville and Station Road",
-    "state": "OH",
-    "near": "cuva-brecksville",
-    "side": "forest",
-    "region": "cuva",
-    "source": "open-meteo",
     "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -134,8 +134,8 @@
     "region": "cuva",
     "source": "open-meteo",
     "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 39,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,9 +150,9 @@
     "source": "open-meteo",
     "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -164,8 +164,8 @@
     "region": "cuva",
     "source": "open-meteo",
     "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 39,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,16 +180,16 @@
     "source": "open-meteo",
     "date": "2026-11-10",
     "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "blkvul",
@@ -1139,6 +1139,7 @@
     "notable": false,
     "near": "Brecksville and Station Road"
    }
-  ]
+  ],
+  "staleSince": "2026-11-09T22:29:44Z"
  }
 }
