@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-09T22:29:44Z",
+ "fetchedAt": "2026-11-10T07:28:48Z",
  "region": "cave",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 32.1754,
     "lon": -104.4442,
     "pollutant": "PM2.5",
-    "aqi": 49,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 15:00 local"
+    "observed": "2026-11-10 0:00 local"
    },
    {
     "area": "Slaughter Canyon parking area",
@@ -29,10 +29,10 @@
     "lat": 32.1106,
     "lon": -104.5628,
     "pollutant": "PM2.5",
-    "aqi": 49,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-09 15:00 local"
+    "observed": "2026-11-10 0:00 local"
    }
   ],
   "forecasts": [
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "cave",
     "source": "open-meteo",
-    "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 50,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Slaughter Canyon parking area",
-    "state": "NM",
-    "near": "cave-slaughter-canyon",
-    "side": "forest",
-    "region": "cave",
-    "source": "open-meteo",
-    "date": "2026-11-09",
-    "pollutant": "PM2.5",
-    "aqi": 50,
+    "date": "2026-11-11",
+    "pollutant": "O3",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,12 +80,51 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Slaughter Canyon parking area",
+    "state": "NM",
+    "near": "cave-slaughter-canyon",
+    "side": "forest",
+    "region": "cave",
+    "source": "open-meteo",
+    "date": "2026-11-11",
+    "pollutant": "O3",
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "amerob",
+    "name": "American Robin",
+    "sci": "Turdus migratorius",
+    "count": 1,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "bewwre",
+    "name": "Bewick's Wren",
+    "sci": "Thryomanes bewickii",
+    "count": 1,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
    {
     "code": "cacwre",
     "name": "Cactus Wren",
@@ -114,26 +138,62 @@
     "near": "Slaughter Canyon parking area"
    },
    {
+    "code": "cantow",
+    "name": "Canyon Towhee",
+    "sci": "Melozone fusca",
+    "count": 1,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
     "code": "canwre",
     "name": "Canyon Wren",
     "sci": "Catherpes mexicanus",
-    "count": null,
-    "seen": "2026-11-07 13:20",
-    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
-    "lat": 31.986,
-    "lon": -104.769,
+    "count": 1,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
     "notable": false,
-    "near": "Slaughter Canyon parking area"
+    "near": "Visitor center"
    },
    {
     "code": "cavswa",
     "name": "Cave Swallow",
     "sci": "Petrochelidon fulva",
-    "count": 20,
-    "seen": "2026-11-04 16:44",
+    "count": 120,
+    "seen": "2026-11-09 16:16",
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "cedwax",
+    "name": "Cedar Waxwing",
+    "sci": "Bombycilla cedrorum",
+    "count": 5,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "coohaw",
+    "name": "Cooper's Hawk",
+    "sci": "Astur cooperii",
+    "count": 1,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
     "notable": false,
     "near": "Visitor center"
    },
@@ -153,11 +213,35 @@
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
-    "count": 1,
-    "seen": "2026-11-05 14:51",
+    "count": 2,
+    "seen": "2026-11-09 11:00",
     "place": "Carlsbad Caverns NP--Rattlesnake Springs",
     "lat": 32.111,
     "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "grhowl",
+    "name": "Great Horned Owl",
+    "sci": "Bubo virginianus",
+    "count": 2,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "herthr",
+    "name": "Hermit Thrush",
+    "sci": "Catharus guttatus",
+    "count": 1,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
     "notable": false,
     "near": "Visitor center"
    },
@@ -167,6 +251,18 @@
     "sci": "Haemorhous mexicanus",
     "count": 1,
     "seen": "2026-11-04 16:44",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "labwoo",
+    "name": "Ladder-backed Woodpecker",
+    "sci": "Dryobates scalaris",
+    "count": 1,
+    "seen": "2026-11-09 16:16",
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
@@ -189,13 +285,13 @@
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": null,
-    "seen": "2026-11-07 13:20",
-    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
-    "lat": 31.986,
-    "lon": -104.769,
+    "count": 3,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
     "notable": false,
-    "near": "Slaughter Canyon parking area"
+    "near": "Visitor center"
    },
    {
     "code": "pinsis",
@@ -214,7 +310,7 @@
     "name": "Pyrrhuloxia",
     "sci": "Cardinalis sinuatus",
     "count": 1,
-    "seen": "2026-11-06 09:38",
+    "seen": "2026-11-09 16:16",
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
@@ -222,26 +318,38 @@
     "near": "Visitor center"
    },
    {
+    "code": "redcro",
+    "name": "Red Crossbill",
+    "sci": "Loxia curvirostra",
+    "count": 2,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
     "code": "rocwre",
     "name": "Rock Wren",
     "sci": "Salpinctes obsoletus",
-    "count": 1,
-    "seen": "2026-11-07 13:20",
-    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
-    "lat": 31.986,
-    "lon": -104.769,
+    "count": 2,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
     "notable": false,
-    "near": "Slaughter Canyon parking area"
+    "near": "Visitor center"
    },
    {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-11-04 16:02",
-    "place": "Carlsbad Caverns NP--Cavern Entrance",
-    "lat": 32.177,
-    "lon": -104.437,
+    "count": 2,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
     "notable": false,
     "near": "Visitor center"
    },
@@ -251,6 +359,18 @@
     "sci": "Aimophila ruficeps",
     "count": 2,
     "seen": "2026-11-04 16:44",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "sagthr",
+    "name": "Sage Thrasher",
+    "sci": "Oreoscoptes montanus",
+    "count": 1,
+    "seen": "2026-11-09 16:16",
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
@@ -274,7 +394,7 @@
     "name": "Say's Phoebe",
     "sci": "Sayornis saya",
     "count": 1,
-    "seen": "2026-11-06 12:09",
+    "seen": "2026-11-09 16:16",
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
@@ -286,19 +406,31 @@
     "name": "Spotted Towhee",
     "sci": "Pipilo maculatus",
     "count": 2,
-    "seen": "2026-11-07 13:20",
-    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
-    "lat": 31.986,
-    "lon": -104.769,
+    "seen": "2026-11-09 16:16",
+    "place": "Carlsbad Caverns NP--Cavern Entrance",
+    "lat": 32.177,
+    "lon": -104.437,
     "notable": false,
-    "near": "Slaughter Canyon parking area"
+    "near": "Visitor center"
+   },
+   {
+    "code": "whcspa",
+    "name": "White-crowned Sparrow",
+    "sci": "Zonotrichia leucophrys",
+    "count": null,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
    },
    {
     "code": "whwdov",
     "name": "White-winged Dove",
     "sci": "Zenaida asiatica",
-    "count": 5,
-    "seen": "2026-11-05 14:51",
+    "count": 2,
+    "seen": "2026-11-09 11:00",
     "place": "Carlsbad Caverns NP--Rattlesnake Springs",
     "lat": 32.111,
     "lon": -104.466,
@@ -321,13 +453,13 @@
     "code": "wooscj2",
     "name": "Woodhouse's Scrub-Jay",
     "sci": "Aphelocoma woodhouseii",
-    "count": 1,
-    "seen": "2026-11-07 13:20",
-    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
-    "lat": 31.986,
-    "lon": -104.769,
+    "count": 2,
+    "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
     "notable": false,
-    "near": "Slaughter Canyon parking area"
+    "near": "Visitor center"
    },
    {
     "code": "yerwar",
@@ -341,7 +473,6 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ],
-  "staleSince": "2026-11-09T22:29:44Z"
+  ]
  }
 }
