@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-10T07:28:33Z",
+ "fetchedAt": "2026-11-10T17:08:05Z",
  "nps": {
   "status": "ok",
   "parks": [
@@ -17,6 +17,15 @@
    "appa"
   ],
   "alerts": [
+   {
+    "id": "4BC384F9-01CD-4503-B397-C3BB9CD0A4B5",
+    "park": "grsm",
+    "title": "Seasonal road closures",
+    "category": "Park Closure",
+    "description": "Heintooga Ridge Road, Parson Branch Road, and Rich Mountain Road are closed for the season.",
+    "url": "https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm",
+    "updated": "2026-11-10 00:00:00.0"
+   },
    {
     "id": "C612A958-DEEC-4BC9-A2E3-45FDC86E1882",
     "park": "shen",
@@ -43,15 +52,6 @@
     "description": "The Arrowhead Bike Trails and Craig Branch Trail will be closed on Tuesday November 10 and Wednesday November 11 for a prescribed burn that is planned for that area. Depending on weather conditions, the closure could extend to Thursday.",
     "url": null,
     "updated": "2026-11-06 00:00:00.0"
-   },
-   {
-    "id": "4BC384F9-01CD-4503-B397-C3BB9CD0A4B5",
-    "park": "grsm",
-    "title": "Seasonal road closures",
-    "category": "Park Closure",
-    "description": "Heintooga Ridge Road is closed for the season.",
-    "url": "https://www.nps.gov/grsm/planyourvisit/seasonalroads.htm",
-    "updated": "2026-11-04 00:00:00.0"
    },
    {
     "id": "945557F5-5C8E-4606-8331-DA7793F266BF",
@@ -288,17 +288,6 @@
     "updated": "2024-09-06 12:47:46.0"
    },
    {
-    "id": "EE9142C1-F172-45BD-A6DF-5E3145AD7612",
-    "park": "shen",
-    "title": "Emergency Phone Line Unavailable",
-    "category": "Caution",
-    "description": "Shenandoah National Park Emergency Phone number (1-800-732-0911) is currently unavailable. For all emergencies, Park visitors can dial 911.",
-    "url": null,
-    "updated": "2026-10-10",
-    "until": null,
-    "source": "park-site"
-   },
-   {
     "id": "0034E567-6FFD-447B-BBA7-29BB233AB509",
     "park": "gwmp",
     "title": "Memorial Bridge Closed Monday, November 2, from 1 p.m. to 5 p.m.",
@@ -319,23 +308,21 @@
     "updated": "2026-12-01",
     "until": "2026-12-01",
     "source": "park-site"
-   },
-   {
-    "id": "22883896-50D9-496D-8AF5-6184DE3BA8F7",
-    "park": "neri",
-    "title": "Cunard Road Closure",
-    "category": "Park Closure",
-    "description": "Cunard Road will be closed to vehicle traffic, starting on November 9 and will reopen in April 2027 due to road construction.",
-    "url": null,
-    "updated": "2027-05-01",
-    "until": "2027-05-01",
-    "source": "park-site"
    }
   ]
  },
  "forest": {
   "status": "ok",
   "alerts": [
+   {
+    "title": "Eastern Divide Ranger District planning five acres of prescribed fire near White Cedar Horse Camp",
+    "level": "information",
+    "summary": "George Washington and Jefferson National Forest, Eastern Divide Ranger District, is planning five acres of prescribed fire operations near White Cedar Horse Camp (Already closed as of 11/1/26).Due to its remote location and minimal fire size, the smoke will not impact any nearby communities. The…",
+    "url": "https://www.fs.usda.gov/r08/gwj/alerts/eastern-divide-ranger-district-planning-five-acres-prescribed-fire-near-white-cedar",
+    "start": "November 10, 2026",
+    "order": null,
+    "scope": "ours"
+   },
    {
     "title": "Prescribed Fire Operations Mount Rogers National Recreation Area- Porter and Little Mountain",
     "level": "caution",
@@ -904,6 +891,17 @@
     "stale": false
    },
    {
+    "slug": "cumberland-district-office-cave-run-lake-closed-november-10",
+    "title": "Cumberland District Office on Cave Run Lake closed, November 10",
+    "level": "information",
+    "summary": "The Cumberland Ranger District Office on Cave Run Lake will be closed Tuesday, November 10, 2026. The office will resume normal operations on Thursday, November 12 (after the Veterans Day holiday).",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/cumberland-district-office-cave-run-lake-closed-november-10",
+    "start": "2026-11-10",
+    "order": null,
+    "scope": "ours",
+    "stale": false
+   },
+   {
     "slug": "portion-redbird-crest-trail-redbird-wma-closed-prescribed-burn-november-10",
     "title": "Portion of Redbird Crest Trail, Redbird WMA closed for prescribed burn, November 10",
     "level": "caution",
@@ -1179,17 +1177,6 @@
     "stale": true
    },
    {
-    "slug": "shallow-flats-wildlife-viewing-area-closure",
-    "title": "Shallow Flats Wildlife Viewing Area Closure",
-    "level": "information",
-    "summary": "1) All entry; 2) discharging a firearm; and 3) hunting, fishing and trapping are prohibited in the described area.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/shallow-flats-wildlife-viewing-area-closure",
-    "start": "2015-05-11",
-    "order": "#11-06-15",
-    "scope": "ours",
-    "stale": true
-   },
-   {
     "slug": "jellico-rock-creek-camping-prohibitions",
     "title": "Jellico & Rock Creek Camping Prohibitions",
     "level": "information",
@@ -1198,6 +1185,17 @@
     "start": "2015-05-11",
     "order": "#16-02-15",
     "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "shallow-flats-wildlife-viewing-area-closure",
+    "title": "Shallow Flats Wildlife Viewing Area Closure",
+    "level": "information",
+    "summary": "1) All entry; 2) discharging a firearm; and 3) hunting, fishing and trapping are prohibited in the described area.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/shallow-flats-wildlife-viewing-area-closure",
+    "start": "2015-05-11",
+    "order": "#11-06-15",
+    "scope": "ours",
     "stale": true
    },
    {
@@ -1377,7 +1375,7 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-09T22:29:25Z",
+  "fetchedAt": "2026-11-10T17:08:05Z",
   "source": "https://www.fs.usda.gov/r08/danielboone/alerts"
  },
  "pisgah": {
