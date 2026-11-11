@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-11T06:44:24Z",
+ "fetchedAt": "2026-11-11T17:15:54Z",
  "region": "yell",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 44.4605,
     "lon": -110.8281,
-    "pollutant": "PM2.5",
-    "aqi": 35,
+    "pollutant": "O3",
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 23:00 local"
+    "observed": "2026-11-11 10:00 local"
    },
    {
     "area": "Canyon Village",
@@ -29,10 +29,10 @@
     "lat": 44.728,
     "lon": -110.496,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 23:00 local"
+    "observed": "2026-11-11 10:00 local"
    },
    {
     "area": "Mammoth Hot Springs",
@@ -44,10 +44,10 @@
     "lat": 44.9769,
     "lon": -110.696,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 23:00 local"
+    "observed": "2026-11-11 10:00 local"
    },
    {
     "area": "Lamar Valley",
@@ -59,10 +59,10 @@
     "lat": 44.897,
     "lon": -110.219,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 23:00 local"
+    "observed": "2026-11-11 10:00 local"
    },
    {
     "area": "Yellowstone Lake",
@@ -77,7 +77,7 @@
     "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 23:00 local"
+    "observed": "2026-11-11 10:00 local"
    }
   ],
   "forecasts": [
@@ -88,9 +88,9 @@
     "side": "forest",
     "region": "yell",
     "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 47,
+    "date": "2026-11-11",
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -103,24 +103,9 @@
     "side": "forest",
     "region": "yell",
     "source": "open-meteo",
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Canyon Village",
-    "state": "WY",
-    "near": "yell-canyon",
-    "side": "forest",
-    "region": "yell",
-    "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -142,15 +127,15 @@
     "discussion": ""
    },
    {
-    "area": "Mammoth Hot Springs",
+    "area": "Canyon Village",
     "state": "WY",
-    "near": "yell-mammoth",
+    "near": "yell-canyon",
     "side": "forest",
     "region": "yell",
     "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "date": "2026-11-12",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -172,15 +157,15 @@
     "discussion": ""
    },
    {
-    "area": "Lamar Valley",
+    "area": "Mammoth Hot Springs",
     "state": "WY",
-    "near": "yell-lamar",
+    "near": "yell-mammoth",
     "side": "forest",
     "region": "yell",
     "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "date": "2026-11-12",
+    "pollutant": "O3",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -202,15 +187,15 @@
     "discussion": ""
    },
    {
-    "area": "Yellowstone Lake",
+    "area": "Lamar Valley",
     "state": "WY",
-    "near": "yell-lake",
+    "near": "yell-lamar",
     "side": "forest",
     "region": "yell",
     "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 43,
+    "date": "2026-11-12",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -230,11 +215,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Yellowstone Lake",
+    "state": "WY",
+    "near": "yell-lake",
+    "side": "forest",
+    "region": "yell",
+    "source": "open-meteo",
+    "date": "2026-11-12",
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amepip",
@@ -333,18 +333,6 @@
     "near": "Old Faithful"
    },
    {
-    "code": "buffle",
-    "name": "Bufflehead",
-    "sci": "Bucephala albeola",
-    "count": 6,
-    "seen": "2026-11-04 11:51",
-    "place": "Yellowstone NP--Mud Volcano",
-    "lat": 44.625,
-    "lon": -110.434,
-    "notable": false,
-    "near": "Canyon Village"
-   },
-   {
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
@@ -355,18 +343,6 @@
     "lon": -110.829,
     "notable": false,
     "near": "Old Faithful"
-   },
-   {
-    "code": "gryjay",
-    "name": "Canada Jay",
-    "sci": "Perisoreus canadensis",
-    "count": 2,
-    "seen": "2026-11-04 10:58",
-    "place": "Yellowstone NP--Beaver Ponds Trail (WY)",
-    "lat": 44.986,
-    "lon": -110.709,
-    "notable": false,
-    "near": "Mammoth Hot Springs"
    },
    {
     "code": "clanut",
@@ -429,18 +405,6 @@
     "near": "Mammoth Hot Springs"
    },
    {
-    "code": "gockin",
-    "name": "Golden-crowned Kinglet",
-    "sci": "Regulus satrapa",
-    "count": 2,
-    "seen": "2026-11-04 10:58",
-    "place": "Yellowstone NP--Beaver Ponds Trail (WY)",
-    "lat": 44.986,
-    "lon": -110.709,
-    "notable": false,
-    "near": "Mammoth Hot Springs"
-   },
-   {
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
@@ -488,7 +452,6 @@
     "notable": false,
     "near": "Mammoth Hot Springs"
    }
-  ],
-  "staleSince": "2026-11-11T06:44:24Z"
+  ]
  }
 }
