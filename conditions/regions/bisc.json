@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-10T23:30:11Z",
+ "fetchedAt": "2026-11-11T06:44:24Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.4646,
     "lon": -80.3349,
     "pollutant": "PM2.5",
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    },
    {
     "area": "Elliott Key",
@@ -29,28 +29,13 @@
     "lat": 25.4532,
     "lon": -80.1966,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Convoy Point",
-    "state": "FL",
-    "near": "bisc-convoy",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Convoy Point",
     "state": "FL",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Elliott Key",
+    "area": "Convoy Point",
     "state": "FL",
-    "near": "bisc-elliott",
+    "near": "bisc-convoy",
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "O3",
-    "aqi": 48,
+    "date": "2026-11-12",
+    "pollutant": "PM2.5",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,11 +80,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
+    "date": "2026-11-12",
+    "pollutant": "PM2.5",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amgplo",
@@ -2141,6 +2141,7 @@
     "notable": false,
     "near": "Convoy Point"
    }
-  ]
+  ],
+  "staleSince": "2026-11-11T06:44:24Z"
  }
 }

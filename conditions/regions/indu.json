@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-10T23:30:11Z",
+ "fetchedAt": "2026-11-11T06:44:24Z",
  "region": "indu",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 41.6475,
     "lon": -87.0519,
     "pollutant": "PM2.5",
-    "aqi": 33,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-11-10 17:00 local"
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-11-11 0:00 local"
    },
    {
     "area": "West Beach",
@@ -29,10 +29,10 @@
     "lat": 41.62,
     "lon": -87.21,
     "pollutant": "PM2.5",
-    "aqi": 33,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-11-10 17:00 local"
+    "aqi": 54,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-11-11 0:00 local"
    },
    {
     "area": "Mount Baldy",
@@ -44,10 +44,10 @@
     "lat": 41.699,
     "lon": -86.935,
     "pollutant": "PM2.5",
-    "aqi": 24,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 17:00 local"
+    "observed": "2026-11-11 0:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "indu",
     "source": "open-meteo",
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 76,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "indu",
     "source": "open-meteo",
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 76,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "West Beach",
-    "state": "IN",
-    "near": "indu-west-beach",
-    "side": "forest",
-    "region": "indu",
-    "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 52,
+    "aqi": 65,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "Mount Baldy",
+    "area": "West Beach",
     "state": "IN",
-    "near": "indu-mount-baldy",
+    "near": "indu-west-beach",
     "side": "forest",
     "region": "indu",
     "source": "open-meteo",
-    "date": "2026-11-10",
+    "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 37,
-    "category": "Good",
-    "level": 1,
+    "aqi": 65,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -140,11 +125,26 @@
     "level": 2,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Mount Baldy",
+    "state": "IN",
+    "near": "indu-mount-baldy",
+    "side": "forest",
+    "region": "indu",
+    "source": "open-meteo",
+    "date": "2026-11-12",
+    "pollutant": "PM2.5",
+    "aqi": 62,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "fragul",
@@ -1454,6 +1454,7 @@
     "notable": false,
     "near": "Dunes Visitor Center and Kemil Beach"
    }
-  ]
+  ],
+  "staleSince": "2026-11-11T06:44:24Z"
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-10T23:30:11Z",
+ "fetchedAt": "2026-11-11T06:44:24Z",
  "region": "cuva",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 41.2646,
     "lon": -81.5461,
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    },
    {
     "area": "Brecksville and Station Road",
@@ -29,10 +29,10 @@
     "lat": 41.317,
     "lon": -81.624,
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    },
    {
     "area": "Virginia Kendall and the Ledges",
@@ -44,10 +44,10 @@
     "lat": 41.229,
     "lon": -81.526,
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    },
    {
     "area": "Hale Farm and the south end",
@@ -59,10 +59,10 @@
     "lat": 41.17,
     "lon": -81.545,
     "pollutant": "PM2.5",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-10 18:00 local"
+    "observed": "2026-11-11 1:00 local"
    }
   ],
   "forecasts": [
@@ -73,11 +73,11 @@
     "side": "forest",
     "region": "cuva",
     "source": "open-meteo",
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
+    "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -88,6 +88,21 @@
     "side": "forest",
     "region": "cuva",
     "source": "open-meteo",
+    "date": "2026-11-12",
+    "pollutant": "PM2.5",
+    "aqi": 56,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Brecksville and Station Road",
+    "state": "OH",
+    "near": "cuva-brecksville",
+    "side": "forest",
+    "region": "cuva",
+    "source": "open-meteo",
     "date": "2026-11-11",
     "pollutant": "PM2.5",
     "aqi": 55,
@@ -103,41 +118,11 @@
     "side": "forest",
     "region": "cuva",
     "source": "open-meteo",
-    "date": "2026-11-10",
+    "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Brecksville and Station Road",
-    "state": "OH",
-    "near": "cuva-brecksville",
-    "side": "forest",
-    "region": "cuva",
-    "source": "open-meteo",
-    "date": "2026-11-11",
-    "pollutant": "PM2.5",
-    "aqi": 55,
+    "aqi": 56,
     "category": "Moderate",
     "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Virginia Kendall and the Ledges",
-    "state": "OH",
-    "near": "cuva-ledges",
-    "side": "forest",
-    "region": "cuva",
-    "source": "open-meteo",
-    "date": "2026-11-10",
-    "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -157,17 +142,17 @@
     "discussion": ""
    },
    {
-    "area": "Hale Farm and the south end",
+    "area": "Virginia Kendall and the Ledges",
     "state": "OH",
-    "near": "cuva-hale",
+    "near": "cuva-ledges",
     "side": "forest",
     "region": "cuva",
     "source": "open-meteo",
-    "date": "2026-11-10",
+    "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
+    "aqi": 56,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -181,6 +166,21 @@
     "date": "2026-11-11",
     "pollutant": "PM2.5",
     "aqi": 55,
+    "category": "Moderate",
+    "level": 2,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hale Farm and the south end",
+    "state": "OH",
+    "near": "cuva-hale",
+    "side": "forest",
+    "region": "cuva",
+    "source": "open-meteo",
+    "date": "2026-11-12",
+    "pollutant": "PM2.5",
+    "aqi": 56,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -191,30 +191,6 @@
  "birds": {
   "status": "ok",
   "list": [
-   {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-11-07 11:08",
-    "place": "Lakefront Reservation--East 55th St. Marina",
-    "lat": 41.533,
-    "lon": -81.65,
-    "notable": true,
-    "near": "Brecksville and Station Road"
-   },
-   {
-    "code": "limpki",
-    "name": "Limpkin",
-    "sci": "Aramus guarauna",
-    "count": 1,
-    "seen": "2026-11-04 16:45",
-    "place": "Columbia Woods Park",
-    "lat": 41.023,
-    "lon": -81.648,
-    "notable": true,
-    "near": "Hale Farm and the south end"
-   },
    {
     "code": "ambduc",
     "name": "American Black Duck",
@@ -243,13 +219,13 @@
     "code": "amhgul1",
     "name": "American Herring Gull",
     "sci": "Larus smithsonianus",
-    "count": 2,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
+    "count": 1,
+    "seen": "2026-11-09 07:59",
+    "place": "Cuyahoga Valley NP--Ira Rd. Beaver Marsh",
+    "lat": 41.184,
+    "lon": -81.583,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "amekes",
@@ -315,13 +291,13 @@
     "code": "baleag",
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
-    "count": 1,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
+    "count": 2,
+    "seen": "2026-11-10 13:22",
+    "place": "Cuyahoga Valley NP--Stanford Rd.",
+    "lat": 41.276,
+    "lon": -81.558,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "brdowl",
@@ -336,30 +312,6 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "belkin1",
-    "name": "Belted Kingfisher",
-    "sci": "Megaceryle alcyon",
-    "count": 1,
-    "seen": "2026-11-10 08:16",
-    "place": "Cuyahoga Valley NP--Virginia Kendall Lake and Trails",
-    "lat": 41.217,
-    "lon": -81.525,
-    "notable": false,
-    "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "blksco2",
-    "name": "Black Scoter",
-    "sci": "Melanitta americana",
-    "count": 5,
-    "seen": "2026-11-07 08:18",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
-    "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
     "code": "buwtea",
     "name": "Blue-winged Teal",
     "sci": "Spatula discors",
@@ -370,18 +322,6 @@
     "lon": -81.476,
     "notable": false,
     "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "bongul",
-    "name": "Bonaparte's Gull",
-    "sci": "Chroicocephalus philadelphia",
-    "count": 1,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
-    "notable": false,
-    "near": "Brecksville and Station Road"
    },
    {
     "code": "brncre",
@@ -411,23 +351,11 @@
     "code": "buffle",
     "name": "Bufflehead",
     "sci": "Bucephala albeola",
-    "count": 1,
-    "seen": "2026-11-09 08:17",
-    "place": "Lake Medina",
-    "lat": 41.142,
-    "lon": -81.825,
-    "notable": false,
-    "near": "Hale Farm and the south end"
-   },
-   {
-    "code": "cangoo",
-    "name": "Canada Goose",
-    "sci": "Branta canadensis",
-    "count": 40,
-    "seen": "2026-11-10 11:21",
-    "place": "Summit Lake",
-    "lat": 41.057,
-    "lon": -81.545,
+    "count": 5,
+    "seen": "2026-11-08 11:44",
+    "place": "Lake Rockwell",
+    "lat": 41.203,
+    "lon": -81.308,
     "notable": false,
     "near": "Boston Mill and Brandywine"
    },
@@ -436,7 +364,7 @@
     "name": "Canvasback",
     "sci": "Aythya valisineria",
     "count": 1,
-    "seen": "2026-11-10 08:16",
+    "seen": "2026-11-10 14:30",
     "place": "Cuyahoga Valley NP--Virginia Kendall Lake and Trails",
     "lat": 41.217,
     "lon": -81.525,
@@ -456,18 +384,6 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "chispa",
-    "name": "Chipping Sparrow",
-    "sci": "Spizella passerina",
-    "count": 1,
-    "seen": "2026-11-05 08:32",
-    "place": "Lakefront Reservation--Gordon Park",
-    "lat": 41.54,
-    "lon": -81.638,
-    "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
     "code": "comgra",
     "name": "Common Grackle",
     "sci": "Quiscalus quiscula",
@@ -478,18 +394,6 @@
     "lon": -81.529,
     "notable": false,
     "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "comloo",
-    "name": "Common Loon",
-    "sci": "Gavia immer",
-    "count": 3,
-    "seen": "2026-11-07 10:06",
-    "place": "Lakefront Reservation--Edgewater Park Perkins Beach Overlook",
-    "lat": 41.489,
-    "lon": -81.751,
-    "notable": false,
-    "near": "Brecksville and Station Road"
    },
    {
     "code": "commer",
@@ -528,6 +432,18 @@
     "near": "Boston Mill and Brandywine"
    },
    {
+    "code": "easblu",
+    "name": "Eastern Bluebird",
+    "sci": "Sialia sialis",
+    "count": 5,
+    "seen": "2026-11-10 13:22",
+    "place": "Cuyahoga Valley NP--Stanford Rd.",
+    "lat": 41.276,
+    "lon": -81.558,
+    "notable": false,
+    "near": "Boston Mill and Brandywine"
+   },
+   {
     "code": "easpho",
     "name": "Eastern Phoebe",
     "sci": "Sayornis phoebe",
@@ -555,13 +471,13 @@
     "code": "eastow",
     "name": "Eastern Towhee",
     "sci": "Pipilo erythrophthalmus",
-    "count": 1,
-    "seen": "2026-11-09 08:38",
-    "place": "Forest Hill Park",
-    "lat": 41.522,
-    "lon": -81.58,
+    "count": 2,
+    "seen": "2026-11-08 07:49",
+    "place": "Summit Bike and Hike Trail--Sagamore Hills",
+    "lat": 41.318,
+    "lon": -81.567,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "eursta",
@@ -684,30 +600,6 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "haiwoo",
-    "name": "Hairy Woodpecker",
-    "sci": "Leuconotopicus villosus",
-    "count": 1,
-    "seen": "2026-11-10 08:46",
-    "place": "Cuyahoga Valley NP--Ira Rd. Beaver Marsh",
-    "lat": 41.184,
-    "lon": -81.583,
-    "notable": false,
-    "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "herthr",
-    "name": "Hermit Thrush",
-    "sci": "Catharus guttatus",
-    "count": 1,
-    "seen": "2026-11-07 15:40",
-    "place": "Seiberling Nature Realm",
-    "lat": 41.139,
-    "lon": -81.576,
-    "notable": false,
-    "near": "Virginia Kendall and the Ledges"
-   },
-   {
     "code": "hoomer",
     "name": "Hooded Merganser",
     "sci": "Lophodytes cucullatus",
@@ -718,18 +610,6 @@
     "lon": -81.545,
     "notable": false,
     "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "horgre",
-    "name": "Horned Grebe",
-    "sci": "Podiceps auritus",
-    "count": 1,
-    "seen": "2026-11-08 11:46",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
-    "notable": false,
-    "near": "Brecksville and Station Road"
    },
    {
     "code": "killde",
@@ -744,119 +624,71 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "lbbgul",
-    "name": "Lesser Black-backed Gull",
-    "sci": "Larus fuscus",
-    "count": 3,
-    "seen": "2026-11-07 11:08",
-    "place": "Lakefront Reservation--East 55th St. Marina",
-    "lat": 41.533,
-    "lon": -81.65,
-    "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
-    "code": "lessca",
-    "name": "Lesser Scaup",
-    "sci": "Aythya affinis",
-    "count": 30,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
-    "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
-    "code": "mallar3",
-    "name": "Mallard",
-    "sci": "Anas platyrhynchos",
-    "count": 3,
-    "seen": "2026-11-10 11:21",
-    "place": "Summit Lake",
-    "lat": 41.057,
-    "lon": -81.545,
-    "notable": false,
-    "near": "Boston Mill and Brandywine"
-   },
-   {
     "code": "merlin",
     "name": "Merlin",
     "sci": "Falco columbarius",
     "count": 1,
-    "seen": "2026-11-07 07:13",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
+    "seen": "2026-11-04 12:59",
+    "place": "Cuyahoga Community College--Western Campus",
+    "lat": 41.368,
+    "lon": -81.768,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "moudov",
     "name": "Mourning Dove",
     "sci": "Zenaida macroura",
     "count": 1,
-    "seen": "2026-11-10 11:00",
-    "place": "Bain Park",
-    "lat": 41.438,
-    "lon": -81.856,
+    "seen": "2026-11-10 08:55",
+    "place": "Cuyahoga Valley NP--Brandywine Falls",
+    "lat": 41.277,
+    "lon": -81.539,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "normoc",
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
     "count": 1,
-    "seen": "2026-11-09 08:38",
-    "place": "Forest Hill Park",
-    "lat": 41.522,
-    "lon": -81.58,
+    "seen": "2026-11-04 08:34",
+    "place": "Northeast Ohio Regional Sewer District 49th St. Outflow",
+    "lat": 41.42,
+    "lon": -81.655,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "norpin",
     "name": "Northern Pintail",
     "sci": "Anas acuta",
-    "count": 15,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
+    "count": 1,
+    "seen": "2026-11-06 10:01",
+    "place": "Cuyahoga Valley NP--Ira Rd. Beaver Marsh",
+    "lat": 41.184,
+    "lon": -81.583,
     "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
-    "code": "norsho",
-    "name": "Northern Shoveler",
-    "sci": "Spatula clypeata",
-    "count": 2,
-    "seen": "2026-11-07 12:33",
-    "place": "Portage Lakes State Park--Turkeyfoot Lake",
-    "lat": 40.971,
-    "lon": -81.543,
-    "notable": false,
-    "near": "Hale Farm and the south end"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "perfal",
     "name": "Peregrine Falcon",
     "sci": "Falco peregrinus",
     "count": 1,
-    "seen": "2026-11-09 12:20",
-    "place": "Cleveland Public Square",
-    "lat": 41.5,
-    "lon": -81.694,
+    "seen": "2026-11-08 12:29",
+    "place": "Cuyahoga Valley NP--Frazee House Towpath Trail North (Cuyahoga Co.)",
+    "lat": 41.352,
+    "lon": -81.593,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "pibgre",
     "name": "Pied-billed Grebe",
     "sci": "Podilymbus podiceps",
-    "count": 3,
-    "seen": "2026-11-10 07:08",
+    "count": 1,
+    "seen": "2026-11-10 14:30",
     "place": "Cuyahoga Valley NP--Virginia Kendall Lake and Trails",
     "lat": 41.217,
     "lon": -81.525,
@@ -900,83 +732,71 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "rebmer",
-    "name": "Red-breasted Merganser",
-    "sci": "Mergus serrator",
-    "count": 40,
-    "seen": "2026-11-09 11:56",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
+    "code": "rebwoo",
+    "name": "Red-bellied Woodpecker",
+    "sci": "Melanerpes carolinus",
+    "count": 3,
+    "seen": "2026-11-10 13:22",
+    "place": "Cuyahoga Valley NP--Stanford Rd.",
+    "lat": 41.276,
+    "lon": -81.558,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "rebnut",
     "name": "Red-breasted Nuthatch",
     "sci": "Sitta canadensis",
     "count": 1,
-    "seen": "2026-11-09 08:38",
-    "place": "Forest Hill Park",
-    "lat": 41.522,
-    "lon": -81.58,
+    "seen": "2026-11-09 07:10",
+    "place": "Shaker Lakes--Horseshoe Lake",
+    "lat": 41.483,
+    "lon": -81.559,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "rehwoo",
     "name": "Red-headed Woodpecker",
     "sci": "Melanerpes erythrocephalus",
-    "count": 5,
-    "seen": "2026-11-09 08:38",
-    "place": "Forest Hill Park",
-    "lat": 41.522,
-    "lon": -81.58,
+    "count": 1,
+    "seen": "2026-11-08 12:29",
+    "place": "Cuyahoga Valley NP--Frazee House Towpath Trail North (Cuyahoga Co.)",
+    "lat": 41.352,
+    "lon": -81.593,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "reshaw",
     "name": "Red-shouldered Hawk",
     "sci": "Buteo lineatus",
     "count": 1,
-    "seen": "2026-11-10 07:00",
-    "place": "Cascade Valley Metro Park--Valley View Area",
-    "lat": 41.122,
-    "lon": -81.529,
+    "seen": "2026-11-10 13:22",
+    "place": "Cuyahoga Valley NP--Stanford Rd.",
+    "lat": 41.276,
+    "lon": -81.558,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-11-10 11:00",
-    "place": "Bain Park",
-    "lat": 41.438,
-    "lon": -81.856,
+    "count": 3,
+    "seen": "2026-11-10 08:10",
+    "place": "Cascade Valley Metro Park--Valley View Area",
+    "lat": 41.122,
+    "lon": -81.529,
     "notable": false,
-    "near": "Brecksville and Station Road"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "redhea",
     "name": "Redhead",
     "sci": "Aythya americana",
-    "count": 2,
-    "seen": "2026-11-09 08:17",
-    "place": "Lake Medina",
-    "lat": 41.142,
-    "lon": -81.825,
-    "notable": false,
-    "near": "Hale Farm and the south end"
-   },
-   {
-    "code": "ribgul",
-    "name": "Ring-billed Gull",
-    "sci": "Larus delawarensis",
-    "count": 2,
-    "seen": "2026-11-10 11:21",
+    "count": 3,
+    "seen": "2026-11-07 09:54",
     "place": "Summit Lake",
     "lat": 41.057,
     "lon": -81.545,
@@ -984,11 +804,11 @@
     "near": "Boston Mill and Brandywine"
    },
    {
-    "code": "rinduc",
-    "name": "Ring-necked Duck",
-    "sci": "Aythya collaris",
-    "count": 12,
-    "seen": "2026-11-09 15:05",
+    "code": "ribgul",
+    "name": "Ring-billed Gull",
+    "sci": "Larus delawarensis",
+    "count": 2,
+    "seen": "2026-11-10 11:21",
     "place": "Summit Lake",
     "lat": 41.057,
     "lon": -81.545,
@@ -1035,25 +855,13 @@
     "code": "rusbla",
     "name": "Rusty Blackbird",
     "sci": "Euphagus carolinus",
-    "count": 16,
-    "seen": "2026-11-07 08:25",
-    "place": "Mogadore Reservoir--East End",
-    "lat": 41.067,
-    "lon": -81.308,
+    "count": 3,
+    "seen": "2026-11-06 07:40",
+    "place": "Trail Lake Park",
+    "lat": 41.205,
+    "lon": -81.372,
     "notable": false,
-    "near": "Hale Farm and the south end"
-   },
-   {
-    "code": "sancra",
-    "name": "Sandhill Crane",
-    "sci": "Antigone canadensis",
-    "count": 4,
-    "seen": "2026-11-05 08:50",
-    "place": "Mogadore Reservoir--East End",
-    "lat": 41.067,
-    "lon": -81.308,
-    "notable": false,
-    "near": "Hale Farm and the south end"
+    "near": "Boston Mill and Brandywine"
    },
    {
     "code": "savspa",
@@ -1066,30 +874,6 @@
     "lon": -81.596,
     "notable": false,
     "near": "Boston Mill and Brandywine"
-   },
-   {
-    "code": "shshaw",
-    "name": "Sharp-shinned Hawk",
-    "sci": "Accipiter striatus",
-    "count": 1,
-    "seen": "2026-11-09 15:50",
-    "place": "Cumberland Park and Public Pool",
-    "lat": 41.513,
-    "lon": -81.57,
-    "notable": false,
-    "near": "Brecksville and Station Road"
-   },
-   {
-    "code": "sursco",
-    "name": "Surf Scoter",
-    "sci": "Melanitta perspicillata",
-    "count": 6,
-    "seen": "2026-11-07 08:29",
-    "place": "Lakewood Park",
-    "lat": 41.495,
-    "lon": -81.797,
-    "notable": false,
-    "near": "Brecksville and Station Road"
    },
    {
     "code": "swaspa",
@@ -1112,6 +896,18 @@
     "place": "Cuyahoga Valley NP--Virginia Kendall Lake and Trails",
     "lat": 41.217,
     "lon": -81.525,
+    "notable": false,
+    "near": "Boston Mill and Brandywine"
+   },
+   {
+    "code": "tuftit",
+    "name": "Tufted Titmouse",
+    "sci": "Baeolophus bicolor",
+    "count": 1,
+    "seen": "2026-11-10 13:22",
+    "place": "Cuyahoga Valley NP--Stanford Rd.",
+    "lat": 41.276,
+    "lon": -81.558,
     "notable": false,
     "near": "Boston Mill and Brandywine"
    },
