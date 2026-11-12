@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-11T17:15:54Z",
+ "fetchedAt": "2026-11-12T00:49:45Z",
  "region": "cave",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 32.1754,
     "lon": -104.4442,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-11 10:00 local"
+    "observed": "2026-11-11 17:00 local"
    },
    {
     "area": "Slaughter Canyon parking area",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 32.1106,
     "lon": -104.5628,
-    "pollutant": "PM2.5",
-    "aqi": 36,
+    "pollutant": "O3",
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-11 10:00 local"
+    "observed": "2026-11-11 17:00 local"
    }
   ],
   "forecasts": [
@@ -60,9 +60,9 @@
     "source": "open-meteo",
     "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -90,17 +90,41 @@
     "source": "open-meteo",
     "date": "2026-11-12",
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "swathr",
+    "name": "Swainson's Thrush",
+    "sci": "Catharus ustulatus",
+    "count": 1,
+    "seen": "2026-11-06 15:49",
+    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
+    "lat": 31.986,
+    "lon": -104.769,
+    "notable": true,
+    "near": "Slaughter Canyon parking area"
+   },
+   {
+    "code": "acowoo",
+    "name": "Acorn Woodpecker",
+    "sci": "Melanerpes formicivorus",
+    "count": 2,
+    "seen": "2026-11-06 15:49",
+    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
+    "lat": 31.986,
+    "lon": -104.769,
+    "notable": false,
+    "near": "Slaughter Canyon parking area"
+   },
    {
     "code": "amerob",
     "name": "American Robin",
@@ -198,18 +222,6 @@
     "near": "Visitor center"
    },
    {
-    "code": "cubthr",
-    "name": "Curve-billed Thrasher",
-    "sci": "Toxostoma curvirostre",
-    "count": 1,
-    "seen": "2026-11-04 16:44",
-    "place": "Carlsbad Caverns NP--Cavern Entrance",
-    "lat": 32.177,
-    "lon": -104.437,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
     "code": "easblu",
     "name": "Eastern Bluebird",
     "sci": "Sialia sialis",
@@ -246,18 +258,6 @@
     "near": "Visitor center"
    },
    {
-    "code": "houfin",
-    "name": "House Finch",
-    "sci": "Haemorhous mexicanus",
-    "count": 1,
-    "seen": "2026-11-04 16:44",
-    "place": "Carlsbad Caverns NP--Cavern Entrance",
-    "lat": 32.177,
-    "lon": -104.437,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
     "code": "labwoo",
     "name": "Ladder-backed Woodpecker",
     "sci": "Dryobates scalaris",
@@ -266,6 +266,18 @@
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "logshr",
+    "name": "Loggerhead Shrike",
+    "sci": "Lanius ludovicianus",
+    "count": 2,
+    "seen": "2026-11-11 09:29",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
     "notable": false,
     "near": "Visitor center"
    },
@@ -287,6 +299,18 @@
     "sci": "Colaptes auratus",
     "count": 3,
     "seen": "2026-11-09 11:00",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "orcwar",
+    "name": "Orange-crowned Warbler",
+    "sci": "Leiothlypis celata",
+    "count": 1,
+    "seen": "2026-11-11 09:29",
     "place": "Carlsbad Caverns NP--Rattlesnake Springs",
     "lat": 32.111,
     "lon": -104.466,
@@ -354,18 +378,6 @@
     "near": "Visitor center"
    },
    {
-    "code": "rucspa",
-    "name": "Rufous-crowned Sparrow",
-    "sci": "Aimophila ruficeps",
-    "count": 2,
-    "seen": "2026-11-04 16:44",
-    "place": "Carlsbad Caverns NP--Cavern Entrance",
-    "lat": 32.177,
-    "lon": -104.437,
-    "notable": false,
-    "near": "Visitor center"
-   },
-   {
     "code": "sagthr",
     "name": "Sage Thrasher",
     "sci": "Oreoscoptes montanus",
@@ -386,6 +398,18 @@
     "place": "Carlsbad Caverns NP--Cavern Entrance",
     "lat": 32.177,
     "lon": -104.437,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "savspa",
+    "name": "Savannah Sparrow",
+    "sci": "Passerculus sandwichensis",
+    "count": 1,
+    "seen": "2026-11-11 10:45",
+    "place": "Black River Recreation Area--Cottonwood Day Use Area",
+    "lat": 32.096,
+    "lon": -104.468,
     "notable": false,
     "near": "Visitor center"
    },
@@ -414,11 +438,47 @@
     "near": "Visitor center"
    },
    {
+    "code": "verfly",
+    "name": "Vermilion Flycatcher",
+    "sci": "Pyrocephalus rubinus",
+    "count": 1,
+    "seen": "2026-11-11 09:29",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "wesblu",
+    "name": "Western Bluebird",
+    "sci": "Sialia mexicana",
+    "count": 3,
+    "seen": "2026-11-11 09:29",
+    "place": "Carlsbad Caverns NP--Rattlesnake Springs",
+    "lat": 32.111,
+    "lon": -104.466,
+    "notable": false,
+    "near": "Visitor center"
+   },
+   {
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": 1,
+    "seen": "2026-11-06 15:49",
+    "place": "Guadalupe Mts. NP--McKittrick Canyon (FWTX 17)",
+    "lat": 31.986,
+    "lon": -104.769,
+    "notable": false,
+    "near": "Slaughter Canyon parking area"
+   },
+   {
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": null,
-    "seen": "2026-11-09 11:00",
+    "count": 2,
+    "seen": "2026-11-11 09:29",
     "place": "Carlsbad Caverns NP--Rattlesnake Springs",
     "lat": 32.111,
     "lon": -104.466,
@@ -473,7 +533,6 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ],
-  "staleSince": "2026-11-11T17:15:54Z"
+  ]
  }
 }
