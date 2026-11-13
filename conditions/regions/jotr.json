@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-13T01:55:54Z",
+ "fetchedAt": "2026-11-13T11:13:08Z",
  "region": "jotr",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Twentynine Palms (Oasis of Mara)",
@@ -14,10 +14,10 @@
     "lat": 34.1283,
     "lon": -116.0369,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    },
    {
     "area": "Hidden Valley",
@@ -29,10 +29,10 @@
     "lat": 34.0126,
     "lon": -116.1685,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    },
    {
     "area": "Keys View",
@@ -44,10 +44,10 @@
     "lat": 33.9268,
     "lon": -116.1874,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    },
    {
     "area": "Cottonwood Spring",
@@ -59,10 +59,10 @@
     "lat": 33.7375,
     "lon": -115.8106,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "pollutant": "O3",
-    "aqi": 47,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hidden Valley",
-    "state": "CA",
-    "near": "jotr-hidden-valley",
-    "side": "forest",
-    "region": "jotr",
-    "source": "open-meteo",
-    "date": "2026-11-12",
-    "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-11-13",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Keys View",
+    "area": "Hidden Valley",
     "state": "CA",
-    "near": "jotr-keys-view",
+    "near": "jotr-hidden-valley",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-12",
+    "date": "2026-11-14",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-11-13",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Cottonwood Spring",
+    "area": "Keys View",
     "state": "CA",
-    "near": "jotr-cottonwood",
+    "near": "jotr-keys-view",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-12",
+    "date": "2026-11-14",
     "pollutant": "O3",
-    "aqi": 47,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -179,15 +164,29 @@
     "region": "jotr",
     "source": "open-meteo",
     "date": "2026-11-13",
+    "pollutant": "O3",
+    "aqi": 43,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cottonwood Spring",
+    "state": "CA",
+    "near": "jotr-cottonwood",
+    "side": "forest",
+    "region": "jotr",
+    "source": "open-meteo",
+    "date": "2026-11-14",
     "pollutant": "PM2.5",
-    "aqi": 45,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-13T01:55:54Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -484,13 +483,13 @@
     "code": "bktspa",
     "name": "Black-throated Sparrow",
     "sci": "Amphispiza bilineata",
-    "count": 8,
-    "seen": "2026-11-08 06:39",
-    "place": "Joshua Tree NP--Cottonwood Campground",
-    "lat": 33.745,
-    "lon": -115.813,
+    "count": 1,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
-    "near": "Cottonwood Spring"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "buggna",
@@ -544,13 +543,13 @@
     "code": "cowscj1",
     "name": "California Scrub-Jay",
     "sci": "Aphelocoma californica",
-    "count": 1,
-    "seen": "2026-11-11 14:59",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 4,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "calthr",
@@ -569,12 +568,12 @@
     "name": "Canyon Wren",
     "sci": "Catherpes mexicanus",
     "count": 1,
-    "seen": "2026-11-10 14:51",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "cedwax",
@@ -640,13 +639,13 @@
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 2,
-    "seen": "2026-11-11 13:20",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 3,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "eucdov",
@@ -928,11 +927,23 @@
     "code": "pinsis",
     "name": "Pine Siskin",
     "sci": "Spinus pinus",
+    "count": 11,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
+    "notable": false,
+    "near": "Twentynine Palms (Oasis of Mara)"
+   },
+   {
+    "code": "prafal",
+    "name": "Prairie Falcon",
+    "sci": "Falco mexicanus",
     "count": 1,
-    "seen": "2026-11-11 07:15",
-    "place": "Knott Sky Park",
-    "lat": 34.128,
-    "lon": -116.083,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
    },
@@ -997,11 +1008,23 @@
     "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
+    "code": "rocwre",
+    "name": "Rock Wren",
+    "sci": "Salpinctes obsoletus",
+    "count": 1,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
+    "notable": false,
+    "near": "Twentynine Palms (Oasis of Mara)"
+   },
+   {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 2,
-    "seen": "2026-11-12 09:58",
+    "count": 1,
+    "seen": "2026-11-12 11:00",
     "place": "Joshua Tree NP--Barker Dam area",
     "lat": 34.031,
     "lon": -116.146,
@@ -1025,12 +1048,12 @@
     "name": "Spotted Towhee",
     "sci": "Pipilo maculatus",
     "count": 1,
-    "seen": "2026-11-11 08:25",
-    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
-    "lat": 33.837,
-    "lon": -116.31,
+    "seen": "2026-11-12 11:00",
+    "place": "Joshua Tree NP--Barker Dam area",
+    "lat": 34.031,
+    "lon": -116.146,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "towsol",

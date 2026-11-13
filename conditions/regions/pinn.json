@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-13T01:55:54Z",
+ "fetchedAt": "2026-11-13T11:13:08Z",
  "region": "pinn",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Bear Gulch",
@@ -14,10 +14,10 @@
     "lat": 36.4813,
     "lon": -121.1817,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    },
    {
     "area": "Chaparral (West Pinnacles)",
@@ -29,10 +29,10 @@
     "lat": 36.4918,
     "lon": -121.2097,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-12 12:00 local"
+    "observed": "2026-11-13 3:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "pinn",
     "source": "open-meteo",
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,22 +58,7 @@
     "side": "forest",
     "region": "pinn",
     "source": "open-meteo",
-    "date": "2026-11-13",
-    "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Chaparral (West Pinnacles)",
-    "state": "CA",
-    "near": "pinn-chaparral",
-    "side": "forest",
-    "region": "pinn",
-    "source": "open-meteo",
-    "date": "2026-11-12",
+    "date": "2026-11-14",
     "pollutant": "O3",
     "aqi": 40,
     "category": "Good",
@@ -90,14 +75,28 @@
     "source": "open-meteo",
     "date": "2026-11-13",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 42,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Chaparral (West Pinnacles)",
+    "state": "CA",
+    "near": "pinn-chaparral",
+    "side": "forest",
+    "region": "pinn",
+    "source": "open-meteo",
+    "date": "2026-11-14",
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-13T01:55:54Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -415,14 +414,26 @@
     "near": "Bear Gulch"
    },
    {
+    "code": "goleag",
+    "name": "Golden Eagle",
+    "sci": "Aquila chrysaetos",
+    "count": 1,
+    "seen": "2026-11-12 07:30",
+    "place": "Shirttail Canyon [Hwy 146 chaparral & oaks from mp 5 to 10]",
+    "lat": 36.438,
+    "lon": -121.225,
+    "notable": false,
+    "near": "Bear Gulch"
+   },
+   {
     "code": "gocspa",
     "name": "Golden-crowned Sparrow",
     "sci": "Zonotrichia atricapilla",
-    "count": 4,
-    "seen": "2026-11-12 07:56",
-    "place": "Pinnacles NP--Juniper Canyon Trail",
-    "lat": 36.487,
-    "lon": -121.205,
+    "count": 1,
+    "seen": "2026-11-12 11:07",
+    "place": "Pinnacles NP--Old Pinnacles Trail",
+    "lat": 36.501,
+    "lon": -121.18,
     "notable": false,
     "near": "Bear Gulch"
    },
@@ -443,10 +454,10 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-11-11 12:25",
-    "place": "Pinnacles NP--Chaparral Trailhead Parking",
-    "lat": 36.491,
-    "lon": -121.209,
+    "seen": "2026-11-12 11:07",
+    "place": "Pinnacles NP--Old Pinnacles Trail",
+    "lat": 36.501,
+    "lon": -121.18,
     "notable": false,
     "near": "Bear Gulch"
    },
@@ -659,10 +670,10 @@
     "name": "Red-breasted Sapsucker",
     "sci": "Sphyrapicus ruber",
     "count": 1,
-    "seen": "2026-11-11 11:30",
-    "place": "Pinnacles NP--Juniper Canyon Trail",
-    "lat": 36.487,
-    "lon": -121.205,
+    "seen": "2026-11-12 11:07",
+    "place": "Pinnacles NP--Old Pinnacles Trail",
+    "lat": 36.501,
+    "lon": -121.18,
     "notable": false,
     "near": "Bear Gulch"
    },
@@ -691,14 +702,26 @@
     "near": "Bear Gulch"
    },
    {
+    "code": "rocpig",
+    "name": "Rock Pigeon",
+    "sci": "Columba livia",
+    "count": 80,
+    "seen": "2026-11-12 07:30",
+    "place": "Shirttail Canyon [Hwy 146 chaparral & oaks from mp 5 to 10]",
+    "lat": 36.438,
+    "lon": -121.225,
+    "notable": false,
+    "near": "Bear Gulch"
+   },
+   {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
     "count": 1,
-    "seen": "2026-11-12 09:11",
-    "place": "Pinnacles NP--High Peaks Trail (steep narrow section)",
-    "lat": 36.484,
-    "lon": -121.198,
+    "seen": "2026-11-12 11:07",
+    "place": "Pinnacles NP--Old Pinnacles Trail",
+    "lat": 36.501,
+    "lon": -121.18,
     "notable": false,
     "near": "Bear Gulch"
    },
@@ -910,11 +933,11 @@
     "code": "yebmag",
     "name": "Yellow-billed Magpie",
     "sci": "Pica nuttalli",
-    "count": 3,
-    "seen": "2026-11-12 07:02",
-    "place": "Hwy 25--south of Little Rabbit Valley",
-    "lat": 36.432,
-    "lon": -121.027,
+    "count": 2,
+    "seen": "2026-11-12 07:30",
+    "place": "Shirttail Canyon [Hwy 146 chaparral & oaks from mp 5 to 10]",
+    "lat": 36.438,
+    "lon": -121.225,
     "notable": false,
     "near": "Bear Gulch"
    },
