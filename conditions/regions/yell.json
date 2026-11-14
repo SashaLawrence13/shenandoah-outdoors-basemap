@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-13T19:51:23Z",
+ "fetchedAt": "2026-11-14T01:29:51Z",
  "region": "yell",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 44.4605,
     "lon": -110.8281,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-13 12:00 local"
+    "observed": "2026-11-13 18:00 local"
    },
    {
     "area": "Canyon Village",
@@ -29,10 +29,10 @@
     "lat": 44.728,
     "lon": -110.496,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-13 12:00 local"
+    "observed": "2026-11-13 18:00 local"
    },
    {
     "area": "Mammoth Hot Springs",
@@ -44,10 +44,10 @@
     "lat": 44.9769,
     "lon": -110.696,
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-13 12:00 local"
+    "observed": "2026-11-13 18:00 local"
    },
    {
     "area": "Lamar Valley",
@@ -59,10 +59,10 @@
     "lat": 44.897,
     "lon": -110.219,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-13 12:00 local"
+    "observed": "2026-11-13 18:00 local"
    },
    {
     "area": "Yellowstone Lake",
@@ -74,10 +74,10 @@
     "lat": 44.56,
     "lon": -110.4,
     "pollutant": "O3",
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-13 12:00 local"
+    "observed": "2026-11-13 18:00 local"
    }
   ],
   "forecasts": [
@@ -225,7 +225,7 @@
     "source": "open-meteo",
     "date": "2026-11-14",
     "pollutant": "O3",
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -234,7 +234,7 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "y00475",
@@ -288,8 +288,8 @@
     "code": "bargol",
     "name": "Barrow's Goldeneye",
     "sci": "Bucephala islandica",
-    "count": 5,
-    "seen": "2026-11-07 16:01",
+    "count": 6,
+    "seen": "2026-11-09 10:34",
     "place": "Yellowstone NP--Trout Lake & Trail",
     "lat": 44.899,
     "lon": -110.125,
@@ -321,16 +321,28 @@
     "near": "Lamar Valley"
    },
    {
+    "code": "cedwax",
+    "name": "Cedar Waxwing",
+    "sci": "Bombycilla cedrorum",
+    "count": 24,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
+    "notable": false,
+    "near": "Canyon Village"
+   },
+   {
     "code": "clanut",
     "name": "Clark's Nutcracker",
     "sci": "Nucifraga columbiana",
-    "count": 1,
-    "seen": "2026-11-08 10:06",
-    "place": "Yellowstone NP--Blacktail Ponds",
-    "lat": 44.953,
-    "lon": -110.603,
+    "count": 4,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
     "notable": false,
-    "near": "Mammoth Hot Springs"
+    "near": "Canyon Village"
    },
    {
     "code": "commer",
@@ -348,13 +360,25 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-11-12 10:31",
-    "place": "Yellowstone NP--Lava Creek Picnic Area",
-    "lat": 44.941,
-    "lon": -110.632,
+    "count": 1,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
     "notable": false,
-    "near": "Mammoth Hot Springs"
+    "near": "Canyon Village"
+   },
+   {
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 2,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
+    "notable": false,
+    "near": "Canyon Village"
    },
    {
     "code": "gadwal",
@@ -381,28 +405,40 @@
     "near": "Mammoth Hot Springs"
    },
    {
+    "code": "haiwoo",
+    "name": "Hairy Woodpecker",
+    "sci": "Leuconotopicus villosus",
+    "count": 1,
+    "seen": "2026-11-10 13:27",
+    "place": "Yellowstone NP--Undine Falls",
+    "lat": 44.944,
+    "lon": -110.64,
+    "notable": false,
+    "near": "Mammoth Hot Springs"
+   },
+   {
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
-    "count": 10,
-    "seen": "2026-11-12 11:37",
-    "place": "Yellowstone NP--N. Entrance Road (MT)",
-    "lat": 45.007,
-    "lon": -110.704,
+    "count": 2,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
     "notable": false,
-    "near": "Mammoth Hot Springs"
+    "near": "Canyon Village"
    },
    {
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
     "count": 2,
-    "seen": "2026-11-12 10:31",
-    "place": "Yellowstone NP--Lava Creek Picnic Area",
-    "lat": 44.941,
-    "lon": -110.632,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
     "notable": false,
-    "near": "Mammoth Hot Springs"
+    "near": "Canyon Village"
    },
    {
     "code": "norfli",
@@ -441,6 +477,30 @@
     "near": "Lamar Valley"
    },
    {
+    "code": "rufgro",
+    "name": "Ruffed Grouse",
+    "sci": "Bonasa umbellus",
+    "count": 1,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
+    "notable": false,
+    "near": "Canyon Village"
+   },
+   {
+    "code": "towsol",
+    "name": "Townsend's Solitaire",
+    "sci": "Myadestes townsendi",
+    "count": 1,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
+    "notable": false,
+    "near": "Canyon Village"
+   },
+   {
     "code": "truswa",
     "name": "Trumpeter Swan",
     "sci": "Cygnus buccinator",
@@ -451,8 +511,19 @@
     "lon": -110.603,
     "notable": false,
     "near": "Mammoth Hot Springs"
+   },
+   {
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": 1,
+    "seen": "2026-11-12 11:39",
+    "place": "Yellowstone NP--Overhanging Cliff pulloff",
+    "lat": 44.897,
+    "lon": -110.39,
+    "notable": false,
+    "near": "Canyon Village"
    }
-  ],
-  "staleSince": "2026-11-13T19:51:23Z"
+  ]
  }
 }
