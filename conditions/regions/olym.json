@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-15T06:53:22Z",
+ "fetchedAt": "2026-11-15T16:32:55Z",
  "region": "olym",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Hurricane Ridge",
@@ -14,10 +14,10 @@
     "lat": 47.969,
     "lon": -123.498,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Hoh Rain Forest",
@@ -29,10 +29,10 @@
     "lat": 47.86,
     "lon": -123.935,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Lake Crescent",
@@ -44,10 +44,10 @@
     "lat": 48.05,
     "lon": -123.8,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Sol Duc",
@@ -59,10 +59,10 @@
     "lat": 47.968,
     "lon": -123.86,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Kalaloch and Ruby Beach (coast)",
@@ -74,28 +74,13 @@
     "lat": 47.71,
     "lon": -124.41,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Hurricane Ridge",
-    "state": "WA",
-    "near": "olym-hurricane-ridge",
-    "side": "forest",
-    "region": "olym",
-    "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Hurricane Ridge",
     "state": "WA",
@@ -112,14 +97,14 @@
     "discussion": ""
    },
    {
-    "area": "Hoh Rain Forest",
+    "area": "Hurricane Ridge",
     "state": "WA",
-    "near": "olym-hoh",
+    "near": "olym-hurricane-ridge",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
+    "date": "2026-11-16",
+    "pollutant": "O3",
     "aqi": 37,
     "category": "Good",
     "level": 1,
@@ -142,14 +127,14 @@
     "discussion": ""
    },
    {
-    "area": "Lake Crescent",
+    "area": "Hoh Rain Forest",
     "state": "WA",
-    "near": "olym-lake-crescent",
+    "near": "olym-hoh",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
+    "date": "2026-11-16",
+    "pollutant": "O3",
     "aqi": 37,
     "category": "Good",
     "level": 1,
@@ -172,14 +157,14 @@
     "discussion": ""
    },
    {
-    "area": "Sol Duc",
+    "area": "Lake Crescent",
     "state": "WA",
-    "near": "olym-sol-duc",
+    "near": "olym-lake-crescent",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
+    "date": "2026-11-16",
+    "pollutant": "O3",
     "aqi": 37,
     "category": "Good",
     "level": 1,
@@ -202,15 +187,15 @@
     "discussion": ""
    },
    {
-    "area": "Kalaloch and Ruby Beach (coast)",
+    "area": "Sol Duc",
     "state": "WA",
-    "near": "olym-ruby-beach",
+    "near": "olym-sol-duc",
     "side": "forest",
     "region": "olym",
     "source": "open-meteo",
-    "date": "2026-11-14",
+    "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -225,14 +210,28 @@
     "source": "open-meteo",
     "date": "2026-11-15",
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 43,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kalaloch and Ruby Beach (coast)",
+    "state": "WA",
+    "near": "olym-ruby-beach",
+    "side": "forest",
+    "region": "olym",
+    "source": "open-meteo",
+    "date": "2026-11-16",
+    "pollutant": "PM2.5",
+    "aqi": 43,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-15T06:53:22Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -562,18 +561,6 @@
     "near": "Hurricane Ridge"
    },
    {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 1,
-    "seen": "2026-11-08 10:52",
-    "place": "Olympic NP--Marymere Falls Trail",
-    "lat": 48.055,
-    "lon": -123.795,
-    "notable": false,
-    "near": "Hoh Rain Forest"
-   },
-   {
     "code": "coohaw",
     "name": "Cooper's Hawk",
     "sci": "Astur cooperii",
@@ -632,18 +619,6 @@
     "lon": -123.546,
     "notable": false,
     "near": "Lake Crescent"
-   },
-   {
-    "code": "evegro",
-    "name": "Evening Grosbeak",
-    "sci": "Hesperiphona vespertina",
-    "count": 2,
-    "seen": "2026-11-08 08:02",
-    "place": "Lake Farm Rd pond",
-    "lat": 48.1,
-    "lon": -123.32,
-    "notable": false,
-    "near": "Hurricane Ridge"
    },
    {
     "code": "foxspa",
@@ -1136,18 +1111,6 @@
     "lon": -123.929,
     "notable": false,
     "near": "Hoh Rain Forest"
-   },
-   {
-    "code": "virrai",
-    "name": "Virginia Rail",
-    "sci": "Rallus limicola",
-    "count": 1,
-    "seen": "2026-11-08 08:02",
-    "place": "Lake Farm Rd pond",
-    "lat": 48.1,
-    "lon": -123.32,
-    "notable": false,
-    "near": "Hurricane Ridge"
    },
    {
     "code": "wesgre",

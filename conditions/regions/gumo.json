@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-15T06:53:22Z",
+ "fetchedAt": "2026-11-15T16:32:55Z",
  "region": "gumo",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Pine Springs",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 31.8966,
     "lon": -104.8281,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 16:00 local"
+    "observed": "2026-11-15 10:00 local"
    },
    {
     "area": "Guadalupe Peak",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 31.8915,
     "lon": -104.8608,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 16:00 local"
+    "observed": "2026-11-15 10:00 local"
    },
    {
     "area": "McKittrick Canyon",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 31.9778,
     "lon": -104.7523,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 16:00 local"
+    "observed": "2026-11-15 10:00 local"
    },
    {
     "area": "Dog Canyon",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 31.9936,
     "lon": -104.8341,
-    "pollutant": "O3",
-    "aqi": 37,
+    "pollutant": "PM2.5",
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 16:00 local"
+    "observed": "2026-11-15 10:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "gumo",
     "source": "open-meteo",
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "gumo",
     "source": "open-meteo",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Guadalupe Peak",
-    "state": "TX",
-    "near": "gumo-guadalupe-peak",
-    "side": "forest",
-    "region": "gumo",
-    "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-11-15",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "McKittrick Canyon",
+    "area": "Guadalupe Peak",
     "state": "TX",
-    "near": "gumo-mckittrick",
+    "near": "gumo-guadalupe-peak",
     "side": "forest",
     "region": "gumo",
     "source": "open-meteo",
-    "date": "2026-11-14",
+    "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,22 +135,22 @@
     "source": "open-meteo",
     "date": "2026-11-15",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Dog Canyon",
+    "area": "McKittrick Canyon",
     "state": "TX",
-    "near": "gumo-dog-canyon",
+    "near": "gumo-mckittrick",
     "side": "forest",
     "region": "gumo",
     "source": "open-meteo",
-    "date": "2026-11-14",
+    "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,14 +165,28 @@
     "source": "open-meteo",
     "date": "2026-11-15",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Dog Canyon",
+    "state": "TX",
+    "near": "gumo-dog-canyon",
+    "side": "forest",
+    "region": "gumo",
+    "source": "open-meteo",
+    "date": "2026-11-16",
+    "pollutant": "O3",
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-15T06:53:22Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -210,18 +209,6 @@
     "sci": "Cyrtonyx montezumae",
     "count": 1,
     "seen": "2026-11-13 11:30",
-    "place": "Guadalupe Mts. NP--Dog Canyon (FWTX 18)",
-    "lat": 31.992,
-    "lon": -104.835,
-    "notable": true,
-    "near": "Pine Springs"
-   },
-   {
-    "code": "wiltur",
-    "name": "Wild Turkey",
-    "sci": "Meleagris gallopavo",
-    "count": 5,
-    "seen": "2026-11-08 06:41",
     "place": "Guadalupe Mts. NP--Dog Canyon (FWTX 18)",
     "lat": 31.992,
     "lon": -104.835,
@@ -273,18 +260,6 @@
     "place": "Guadalupe Mts. NP--Manzanita Spring",
     "lat": 31.91,
     "lon": -104.798,
-    "notable": false,
-    "near": "Pine Springs"
-   },
-   {
-    "code": "bushti",
-    "name": "Bushtit",
-    "sci": "Psaltriparus minimus",
-    "count": 5,
-    "seen": "2026-11-08 06:41",
-    "place": "Guadalupe Mts. NP--Dog Canyon (FWTX 18)",
-    "lat": 31.992,
-    "lon": -104.835,
     "notable": false,
     "near": "Pine Springs"
    },
@@ -453,18 +428,6 @@
     "place": "Guadalupe Mts. NP--Frijole Ranch (FWTX 16)",
     "lat": 31.907,
     "lon": -104.801,
-    "notable": false,
-    "near": "Pine Springs"
-   },
-   {
-    "code": "norcar",
-    "name": "Northern Cardinal",
-    "sci": "Cardinalis cardinalis",
-    "count": 1,
-    "seen": "2026-11-08 09:28",
-    "place": "Guadalupe Mts. NP--Devil's Hall Trail",
-    "lat": 31.907,
-    "lon": -104.848,
     "notable": false,
     "near": "Pine Springs"
    },

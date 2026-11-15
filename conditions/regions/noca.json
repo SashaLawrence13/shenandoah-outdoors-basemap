@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-15T06:53:22Z",
+ "fetchedAt": "2026-11-15T16:32:55Z",
  "region": "noca",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Newhalem",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 48.6665,
     "lon": -121.2663,
-    "pollutant": "PM2.5",
-    "aqi": 65,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-11-14 14:00 local"
+    "pollutant": "O3",
+    "aqi": 29,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Colonial Creek and Diablo Lake",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 48.6916,
     "lon": -121.1006,
-    "pollutant": "PM2.5",
-    "aqi": 65,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-11-14 14:00 local"
+    "pollutant": "O3",
+    "aqi": 29,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Cascade Pass trailhead",
@@ -44,10 +44,10 @@
     "lat": 48.4756,
     "lon": -121.0751,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 27,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    },
    {
     "area": "Stehekin",
@@ -59,10 +59,10 @@
     "lat": 48.3094,
     "lon": -120.6573,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-14 14:00 local"
+    "observed": "2026-11-15 8:00 local"
    }
   ],
   "forecasts": [
@@ -73,11 +73,11 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
-    "aqi": 91,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-15",
+    "pollutant": "O3",
+    "aqi": 36,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -88,6 +88,21 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
+    "date": "2026-11-16",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Colonial Creek and Diablo Lake",
+    "state": "WA",
+    "near": "noca-diablo",
+    "side": "forest",
+    "region": "noca",
+    "source": "open-meteo",
     "date": "2026-11-15",
     "pollutant": "O3",
     "aqi": 36,
@@ -103,18 +118,18 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
-    "aqi": 91,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-16",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Colonial Creek and Diablo Lake",
+    "area": "Cascade Pass trailhead",
     "state": "WA",
-    "near": "noca-diablo",
+    "near": "noca-cascade-pass",
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
@@ -133,41 +148,11 @@
     "side": "forest",
     "region": "noca",
     "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cascade Pass trailhead",
-    "state": "WA",
-    "near": "noca-cascade-pass",
-    "side": "forest",
-    "region": "noca",
-    "source": "open-meteo",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Stehekin",
-    "state": "WA",
-    "near": "noca-stehekin",
-    "side": "forest",
-    "region": "noca",
-    "source": "open-meteo",
-    "date": "2026-11-14",
-    "pollutant": "PM2.5",
-    "aqi": 51,
-    "category": "Moderate",
-    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -181,162 +166,43 @@
     "date": "2026-11-15",
     "pollutant": "O3",
     "aqi": 36,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Stehekin",
+    "state": "WA",
+    "near": "noca-stehekin",
+    "side": "forest",
+    "region": "noca",
+    "source": "open-meteo",
+    "date": "2026-11-16",
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-15T06:53:22Z"
+  ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
-    "code": "amerob",
-    "name": "American Robin",
-    "sci": "Turdus migratorius",
+    "code": "brdowl",
+    "name": "Barred Owl",
+    "sci": "Strix varia",
     "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "bkcchi",
-    "name": "Black-capped Chickadee",
-    "sci": "Poecile atricapillus",
-    "count": 2,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "chbchi",
-    "name": "Chestnut-backed Chickadee",
-    "sci": "Poecile rufescens",
-    "count": 5,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 3,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "gockin",
-    "name": "Golden-crowned Kinglet",
-    "sci": "Regulus satrapa",
-    "count": 5,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "haiwoo",
-    "name": "Hairy Woodpecker",
-    "sci": "Leuconotopicus villosus",
-    "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "pacwre1",
-    "name": "Pacific Wren",
-    "sci": "Nannus pacificus",
-    "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "redcro",
-    "name": "Red Crossbill",
-    "sci": "Loxia curvirostra",
-    "count": 3,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "rethaw",
-    "name": "Red-tailed Hawk",
-    "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "ruckin",
-    "name": "Ruby-crowned Kinglet",
-    "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "rufgro",
-    "name": "Ruffed Grouse",
-    "sci": "Bonasa umbellus",
-    "count": 1,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
-    "notable": false,
-    "near": "Newhalem"
-   },
-   {
-    "code": "stejay",
-    "name": "Steller's Jay",
-    "sci": "Cyanocitta stelleri",
-    "count": 3,
-    "seen": "2026-11-05 10:45",
-    "place": "South Cascade Property (Skagit Land Trust)",
-    "lat": 48.529,
-    "lon": -121.405,
+    "seen": "2026-11-14 18:00",
+    "place": "Goodell Creek CG",
+    "lat": 48.673,
+    "lon": -121.266,
     "notable": false,
     "near": "Newhalem"
    }
-  ],
-  "staleSince": "2026-11-15T06:53:22Z"
+  ]
  }
 }
