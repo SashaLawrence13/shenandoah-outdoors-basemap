@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-15T22:57:18Z",
+ "fetchedAt": "2026-11-16T06:45:46Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 19.4295,
     "lon": -155.2575,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 12:00 local"
+    "observed": "2026-11-15 20:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 19.2944,
     "lon": -155.0868,
-    "pollutant": "O3",
-    "aqi": 30,
+    "pollutant": "PM2.5",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 12:00 local"
+    "observed": "2026-11-15 20:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -44,10 +44,10 @@
     "lat": 19.4934,
     "lon": -155.3843,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 12:00 local"
+    "observed": "2026-11-15 20:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 12:00 local"
+    "observed": "2026-11-15 20:00 local"
    }
   ],
   "forecasts": [
@@ -189,31 +189,19 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
-   {
-    "code": "akiapo",
-    "name": "Akiapolaau",
-    "sci": "Hemignathus wilsoni",
-    "count": 1,
-    "seen": "2026-11-08 13:53",
-    "place": "Pu'u O'o Trail, Kipuka Ainahou section (first 2 miles)",
-    "lat": 19.671,
-    "lon": -155.385,
-    "notable": true,
-    "near": "Mauna Loa Road"
-   },
    {
     "code": "apapan",
     "name": "Apapane",
     "sci": "Himatione sanguinea",
-    "count": 24,
-    "seen": "2026-11-14 10:44",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
+    "count": 8,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kahuku"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "bcnher",
@@ -255,13 +243,13 @@
     "code": "commyn",
     "name": "Common Myna",
     "sci": "Acridotheres tristis",
-    "count": 3,
-    "seen": "2026-11-10 06:21",
-    "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
-    "lat": 19.295,
-    "lon": -155.098,
+    "count": 2,
+    "seen": "2026-11-13 14:10",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kīlauea Visitor Center"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "comwax",
@@ -291,23 +279,35 @@
     "code": "hawama",
     "name": "Hawaii Amakihi",
     "sci": "Chlorodrepanis virens",
-    "count": 13,
-    "seen": "2026-11-14 10:44",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
+    "count": 6,
+    "seen": "2026-11-15 07:26",
+    "place": "Pu'u O'o Trail, Kipuka Ainahou section (first 2 miles)",
+    "lat": 19.671,
+    "lon": -155.385,
     "notable": false,
-    "near": "Kahuku"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "elepai",
     "name": "Hawaii Elepaio",
     "sci": "Chasiempis sandwichensis",
-    "count": 9,
-    "seen": "2026-11-13 07:13",
-    "place": "Pu'u O'o Trail, Kipuka Ainahou section (first 2 miles)",
+    "count": 4,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
     "lat": 19.671,
-    "lon": -155.385,
+    "lon": -155.368,
+    "notable": false,
+    "near": "Mauna Loa Road"
+   },
+   {
+    "code": "hawgoo",
+    "name": "Hawaiian Goose",
+    "sci": "Branta sandvicensis",
+    "count": 2,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
     "near": "Mauna Loa Road"
    },
@@ -351,25 +351,25 @@
     "code": "iiwi",
     "name": "Iiwi",
     "sci": "Drepanis coccinea",
-    "count": 1,
-    "seen": "2026-11-14 10:44",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
+    "count": 2,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kahuku"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "kalphe",
     "name": "Kalij Pheasant",
     "sci": "Lophura leucomelanos",
     "count": 1,
-    "seen": "2026-11-14 07:31",
-    "place": "Hawaiʻi Volcanoes NP--Kīlauea Iki and Thurston Lava Tube",
-    "lat": 19.414,
-    "lon": -155.239,
+    "seen": "2026-11-15 07:22",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kīlauea Visitor Center"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "mallar3",
@@ -411,13 +411,13 @@
     "code": "omao",
     "name": "Omao",
     "sci": "Myadestes obscurus",
-    "count": 3,
-    "seen": "2026-11-14 10:44",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
+    "count": 1,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kahuku"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "pagplo",
@@ -430,18 +430,6 @@
     "lon": -155.253,
     "notable": false,
     "near": "Kīlauea Visitor Center"
-   },
-   {
-    "code": "redava",
-    "name": "Red Avadavat",
-    "sci": "Amandava amandava",
-    "count": 1,
-    "seen": "2026-11-08 12:46",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
-    "notable": false,
-    "near": "Kahuku"
    },
    {
     "code": "redjun",
@@ -460,7 +448,7 @@
     "name": "Red-billed Leiothrix",
     "sci": "Leiothrix lutea",
     "count": 1,
-    "seen": "2026-11-14 06:42",
+    "seen": "2026-11-15 09:47",
     "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
     "lat": 19.671,
     "lon": -155.368,
@@ -507,13 +495,13 @@
     "code": "warwhe1",
     "name": "Warbling White-eye",
     "sci": "Zosterops japonicus",
-    "count": 16,
-    "seen": "2026-11-14 10:44",
-    "place": "Hawaii Volcanoes NP--Glover Trail (Kahuku Unit)",
-    "lat": 19.13,
-    "lon": -155.699,
+    "count": 2,
+    "seen": "2026-11-15 09:47",
+    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
+    "lat": 19.671,
+    "lon": -155.368,
     "notable": false,
-    "near": "Kahuku"
+    "near": "Mauna Loa Road"
    },
    {
     "code": "categr1",
@@ -575,7 +563,6 @@
     "notable": false,
     "near": "Kīlauea Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-15T22:57:18Z"
+  ]
  }
 }
