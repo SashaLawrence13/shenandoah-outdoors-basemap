@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-16T19:41:52Z",
+ "fetchedAt": "2026-11-17T03:58:44Z",
  "region": "mon",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Dolly Sods and Canaan",
@@ -14,10 +14,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "PM2.5",
-    "aqi": 27,
+    "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 1:00 local"
+    "observed": "2026-11-16 22:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -29,10 +29,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 1:00 local"
+    "observed": "2026-11-16 22:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -44,10 +44,10 @@
     "lat": 38.22,
     "lon": -80.26,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 1:00 local"
+    "observed": "2026-11-16 22:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -59,10 +59,10 @@
     "lat": 37.95,
     "lon": -80.25,
     "pollutant": "O3",
-    "aqi": 30,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 1:00 local"
+    "observed": "2026-11-16 22:00 local"
    }
   ],
   "forecasts": [
@@ -74,8 +74,8 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-11-16",
-    "pollutant": "O3",
-    "aqi": 31,
+    "pollutant": "PM2.5",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,9 +90,9 @@
     "source": "open-meteo",
     "date": "2026-11-17",
     "pollutant": "PM2.5",
-    "aqi": 48,
-    "category": "Good",
-    "level": 1,
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-11-16",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-11-17",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -130,36 +130,6 @@
     "area": "Cranberry and Greenbrier",
     "state": "WV",
     "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-11-16",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cranberry and Greenbrier",
-    "state": "WV",
-    "near": "mon-cranberry",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Southern Monongahela",
-    "state": "WV",
-    "near": "mon-greenbrier-south",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
@@ -172,6 +142,36 @@
     "discussion": ""
    },
    {
+    "area": "Cranberry and Greenbrier",
+    "state": "WV",
+    "near": "mon-cranberry",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-11-17",
+    "pollutant": "O3",
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-11-16",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
     "area": "Southern Monongahela",
     "state": "WV",
     "near": "mon-greenbrier-south",
@@ -180,14 +180,13 @@
     "source": "open-meteo",
     "date": "2026-11-17",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-16T19:41:52Z"
+  ]
  },
  "birds": {
   "status": "ok",

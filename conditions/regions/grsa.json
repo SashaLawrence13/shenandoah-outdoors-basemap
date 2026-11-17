@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-16T19:41:52Z",
+ "fetchedAt": "2026-11-17T03:58:44Z",
  "region": "grsa",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Dunes Parking Lot",
@@ -14,10 +14,10 @@
     "lat": 37.7395,
     "lon": -105.5171,
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 23:00 local"
+    "observed": "2026-11-16 20:00 local"
    },
    {
     "area": "Medano Lake",
@@ -29,28 +29,13 @@
     "lat": 37.8566,
     "lon": -105.4846,
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 38,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-15 23:00 local"
+    "observed": "2026-11-16 20:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Dunes Parking Lot",
-    "state": "CO",
-    "near": "grsa-dunes",
-    "side": "forest",
-    "region": "grsa",
-    "source": "open-meteo",
-    "date": "2026-11-15",
-    "pollutant": "O3",
-    "aqi": 39,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Dunes Parking Lot",
     "state": "CO",
@@ -67,15 +52,15 @@
     "discussion": ""
    },
    {
-    "area": "Medano Lake",
+    "area": "Dunes Parking Lot",
     "state": "CO",
-    "near": "grsa-preserve",
+    "near": "grsa-dunes",
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-11-15",
+    "date": "2026-11-17",
     "pollutant": "O3",
-    "aqi": 42,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -95,22 +80,60 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Medano Lake",
+    "state": "CO",
+    "near": "grsa-preserve",
+    "side": "forest",
+    "region": "grsa",
+    "source": "open-meteo",
+    "date": "2026-11-17",
+    "pollutant": "O3",
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-16T19:41:52Z"
+  ]
  },
  "birds": {
   "status": "ok",
   "list": [
    {
+    "code": "amerob",
+    "name": "American Robin",
+    "sci": "Turdus migratorius",
+    "count": 2,
+    "seen": "2026-11-16 11:39",
+    "place": "Great Sand Dunes NP--Piñon Flats CG",
+    "lat": 37.745,
+    "lon": -105.503,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "clanut",
+    "name": "Clark's Nutcracker",
+    "sci": "Nucifraga columbiana",
+    "count": 25,
+    "seen": "2026-11-16 11:39",
+    "place": "Great Sand Dunes NP--Piñon Flats CG",
+    "lat": 37.745,
+    "lon": -105.503,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-11-16 09:08",
-    "place": "Great Sand Dunes Oasis (private)",
-    "lat": 37.692,
-    "lon": -105.548,
+    "seen": "2026-11-16 11:39",
+    "place": "Great Sand Dunes NP--Piñon Flats CG",
+    "lat": 37.745,
+    "lon": -105.503,
     "notable": false,
     "near": "Dunes Parking Lot"
    },
@@ -123,6 +146,54 @@
     "place": "Great Sand Dunes Oasis (private)",
     "lat": 37.692,
     "lon": -105.548,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "goleag",
+    "name": "Golden Eagle",
+    "sci": "Aquila chrysaetos",
+    "count": 1,
+    "seen": "2026-11-16 11:39",
+    "place": "Great Sand Dunes NP--Piñon Flats CG",
+    "lat": 37.745,
+    "lon": -105.503,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "mouchi",
+    "name": "Mountain Chickadee",
+    "sci": "Poecile gambeli",
+    "count": 2,
+    "seen": "2026-11-16 09:50",
+    "place": "Great Sand Dunes NP--Montville Nature Trail",
+    "lat": 37.735,
+    "lon": -105.507,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "stejay",
+    "name": "Steller's Jay",
+    "sci": "Cyanocitta stelleri",
+    "count": 5,
+    "seen": "2026-11-16 09:50",
+    "place": "Great Sand Dunes NP--Montville Nature Trail",
+    "lat": 37.735,
+    "lon": -105.507,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "towsol",
+    "name": "Townsend's Solitaire",
+    "sci": "Myadestes townsendi",
+    "count": 10,
+    "seen": "2026-11-16 11:39",
+    "place": "Great Sand Dunes NP--Piñon Flats CG",
+    "lat": 37.745,
+    "lon": -105.503,
     "notable": false,
     "near": "Dunes Parking Lot"
    },
