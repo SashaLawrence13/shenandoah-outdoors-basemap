@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-17T03:58:44Z",
+ "fetchedAt": "2026-11-17T16:13:32Z",
  "region": "jotr",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 34.1283,
     "lon": -116.0369,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 19:00 local"
+    "observed": "2026-11-17 8:00 local"
    },
    {
     "area": "Hidden Valley",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 34.0126,
     "lon": -116.1685,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 19:00 local"
+    "observed": "2026-11-17 8:00 local"
    },
    {
     "area": "Keys View",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 33.9268,
     "lon": -116.1874,
-    "pollutant": "O3",
-    "aqi": 39,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 19:00 local"
+    "observed": "2026-11-17 8:00 local"
    },
    {
     "area": "Cottonwood Spring",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 33.7375,
     "lon": -115.8106,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-16 19:00 local"
+    "observed": "2026-11-17 8:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,6 +88,21 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
+    "date": "2026-11-18",
+    "pollutant": "O3",
+    "aqi": 44,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hidden Valley",
+    "state": "CA",
+    "near": "jotr-hidden-valley",
+    "side": "forest",
+    "region": "jotr",
+    "source": "open-meteo",
     "date": "2026-11-17",
     "pollutant": "O3",
     "aqi": 44,
@@ -103,18 +118,18 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-16",
+    "date": "2026-11-18",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Hidden Valley",
+    "area": "Keys View",
     "state": "CA",
-    "near": "jotr-hidden-valley",
+    "near": "jotr-keys-view",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
@@ -133,18 +148,18 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-16",
+    "date": "2026-11-18",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Keys View",
+    "area": "Cottonwood Spring",
     "state": "CA",
-    "near": "jotr-keys-view",
+    "near": "jotr-cottonwood",
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
@@ -163,26 +178,11 @@
     "side": "forest",
     "region": "jotr",
     "source": "open-meteo",
-    "date": "2026-11-16",
+    "date": "2026-11-18",
     "pollutant": "PM2.5",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cottonwood Spring",
-    "state": "CA",
-    "near": "jotr-cottonwood",
-    "side": "forest",
-    "region": "jotr",
-    "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "O3",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
@@ -432,6 +432,18 @@
     "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
+    "code": "bktgna",
+    "name": "Black-tailed Gnatcatcher",
+    "sci": "Polioptila melanura",
+    "count": 2,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
+    "notable": false,
+    "near": "Keys View"
+   },
+   {
     "code": "bktspa",
     "name": "Black-throated Sparrow",
     "sci": "Amphispiza bilineata",
@@ -442,6 +454,18 @@
     "lon": -116.172,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
+   },
+   {
+    "code": "buggna",
+    "name": "Blue-gray Gnatcatcher",
+    "sci": "Polioptila caerulea",
+    "count": 1,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
+    "notable": false,
+    "near": "Keys View"
    },
    {
     "code": "brebla",
@@ -543,25 +567,25 @@
     "code": "cedwax",
     "name": "Cedar Waxwing",
     "sci": "Bombycilla cedrorum",
-    "count": 5,
-    "seen": "2026-11-11 14:09",
-    "place": "Knott Sky Park",
-    "lat": 34.128,
-    "lon": -116.083,
+    "count": 15,
+    "seen": "2026-11-16 09:28",
+    "place": "Joshua Tree NP--Cottonwood Spring",
+    "lat": 33.737,
+    "lon": -115.81,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 2,
-    "seen": "2026-11-16 08:41",
-    "place": "Joshua Tree NP--Hidden Valley area",
-    "lat": 34.015,
-    "lon": -116.172,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Keys View"
    },
    {
     "code": "coohaw",
@@ -580,12 +604,12 @@
     "name": "Costa's Hummingbird",
     "sci": "Calypte costae",
     "count": 2,
-    "seen": "2026-11-12 11:40",
-    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
-    "lat": 34.128,
-    "lon": -116.04,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Keys View"
    },
    {
     "code": "daejun",
@@ -675,11 +699,11 @@
     "code": "greegr",
     "name": "Great Egret",
     "sci": "Ardea alba",
-    "count": null,
-    "seen": "2026-11-16 09:44",
-    "place": "Desert Willow Golf Resort",
-    "lat": 33.767,
-    "lon": -116.366,
+    "count": 1,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
     "notable": false,
     "near": "Keys View"
    },
@@ -1036,12 +1060,12 @@
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
     "count": 1,
-    "seen": "2026-11-15 07:58",
-    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
-    "lat": 33.837,
-    "lon": -116.31,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Keys View"
    },
    {
     "code": "saypho",
@@ -1120,12 +1144,12 @@
     "name": "Verdin",
     "sci": "Auriparus flaviceps",
     "count": 2,
-    "seen": "2026-11-16 08:41",
-    "place": "Joshua Tree NP--Hidden Valley area",
-    "lat": 34.015,
-    "lon": -116.172,
+    "seen": "2026-11-16 16:11",
+    "place": "Coachella Valley Preserve--Willis Palms trail and oasis.",
+    "lat": 33.826,
+    "lon": -116.331,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Keys View"
    },
    {
     "code": "verfly",
