@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-18T01:01:19Z",
+ "fetchedAt": "2026-11-18T11:55:28Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 19.4295,
     "lon": -155.2575,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 15:00 local"
+    "observed": "2026-11-18 1:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -29,10 +29,10 @@
     "lat": 19.2944,
     "lon": -155.0868,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 15:00 local"
+    "observed": "2026-11-18 1:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -44,10 +44,10 @@
     "lat": 19.4934,
     "lon": -155.3843,
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 15:00 local"
+    "observed": "2026-11-18 1:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 15:00 local"
+    "observed": "2026-11-18 1:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "pollutant": "PM2.5",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "End of Chain of Craters Road",
-    "state": "HI",
-    "near": "havo-coast",
-    "side": "forest",
-    "region": "havo",
-    "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "PM2.5",
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -127,17 +112,17 @@
     "discussion": ""
    },
    {
-    "area": "Mauna Loa Road",
+    "area": "End of Chain of Craters Road",
     "state": "HI",
-    "near": "havo-mauna-loa-road",
+    "near": "havo-coast",
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-11-19",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -149,7 +134,7 @@
     "region": "havo",
     "source": "open-meteo",
     "date": "2026-11-18",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "aqi": 35,
     "category": "Good",
     "level": 1,
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Kahuku",
+    "area": "Mauna Loa Road",
     "state": "HI",
-    "near": "havo-kahuku",
+    "near": "havo-mauna-loa-road",
     "side": "forest",
     "region": "havo",
     "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "O3",
-    "aqi": 33,
+    "date": "2026-11-19",
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +165,22 @@
     "source": "open-meteo",
     "date": "2026-11-18",
     "pollutant": "PM2.5",
-    "aqi": 41,
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Kahuku",
+    "state": "HI",
+    "near": "havo-kahuku",
+    "side": "forest",
+    "region": "havo",
+    "source": "open-meteo",
+    "date": "2026-11-19",
+    "pollutant": "PM2.5",
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,31 +189,55 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "apapan",
     "name": "Apapane",
     "sci": "Himatione sanguinea",
-    "count": 7,
-    "seen": "2026-11-16 15:28",
-    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
-    "lat": 19.671,
-    "lon": -155.368,
+    "count": 4,
+    "seen": "2026-11-17 08:10",
+    "place": "Hawaiʻi Volcanoes NP--Footprints Trail and West Kaʻū Desert Trails",
+    "lat": 19.353,
+    "lon": -155.351,
     "notable": false,
-    "near": "Mauna Loa Road"
+    "near": "Kīlauea Visitor Center"
+   },
+   {
+    "code": "blknod",
+    "name": "Black Noddy",
+    "sci": "Anous minutus",
+    "count": null,
+    "seen": "2026-11-17 17:03",
+    "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
+    "lat": 19.295,
+    "lon": -155.098,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "commyn",
     "name": "Common Myna",
     "sci": "Acridotheres tristis",
-    "count": 2,
-    "seen": "2026-11-13 14:10",
-    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
-    "lat": 19.671,
-    "lon": -155.368,
+    "count": 3,
+    "seen": "2026-11-17 17:03",
+    "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
+    "lat": 19.295,
+    "lon": -155.098,
     "notable": false,
-    "near": "Mauna Loa Road"
+    "near": "Kīlauea Visitor Center"
+   },
+   {
+    "code": "comwax",
+    "name": "Common Waxbill",
+    "sci": "Estrilda astrild",
+    "count": null,
+    "seen": "2026-11-17 11:49",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
+    "notable": false,
+    "near": "Kahuku"
    },
    {
     "code": "ercfra",
@@ -250,6 +274,18 @@
     "lon": -155.368,
     "notable": false,
     "near": "Mauna Loa Road"
+   },
+   {
+    "code": "hawgoo",
+    "name": "Hawaiian Goose",
+    "sci": "Branta sandvicensis",
+    "count": 2,
+    "seen": "2026-11-17 08:10",
+    "place": "Hawaiʻi Volcanoes NP--Footprints Trail and West Kaʻū Desert Trails",
+    "lat": 19.353,
+    "lon": -155.351,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "hawhaw",
@@ -291,13 +327,13 @@
     "code": "kalphe",
     "name": "Kalij Pheasant",
     "sci": "Lophura leucomelanos",
-    "count": 1,
-    "seen": "2026-11-15 07:22",
-    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
-    "lat": 19.671,
-    "lon": -155.368,
+    "count": 5,
+    "seen": "2026-11-17 08:10",
+    "place": "Hawaiʻi Volcanoes NP--Footprints Trail and West Kaʻū Desert Trails",
+    "lat": 19.353,
+    "lon": -155.351,
     "notable": false,
-    "near": "Mauna Loa Road"
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "norcar",
@@ -327,11 +363,11 @@
     "code": "pagplo",
     "name": "Pacific Golden-Plover",
     "sci": "Pluvialis fulva",
-    "count": 2,
-    "seen": "2026-11-12 16:10",
-    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
-    "lat": 19.407,
-    "lon": -155.253,
+    "count": 1,
+    "seen": "2026-11-17 17:03",
+    "place": "Hawai'i Volcanoes NP--Coastal Chain of Craters Rd. (Hōlei Sea Arch)",
+    "lat": 19.295,
+    "lon": -155.098,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    },
@@ -348,16 +384,52 @@
     "near": "Mauna Loa Road"
    },
    {
+    "code": "saffin",
+    "name": "Saffron Finch",
+    "sci": "Sicalis flaveola",
+    "count": 1,
+    "seen": "2026-11-17 14:50",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
+    "notable": false,
+    "near": "Kahuku"
+   },
+   {
+    "code": "wantat1",
+    "name": "Wandering Tattler",
+    "sci": "Tringa incana",
+    "count": 1,
+    "seen": "2026-11-17 14:50",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
+    "notable": false,
+    "near": "Kahuku"
+   },
+   {
     "code": "warwhe1",
     "name": "Warbling White-eye",
     "sci": "Zosterops japonicus",
-    "count": 2,
-    "seen": "2026-11-16 15:28",
-    "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
-    "lat": 19.671,
-    "lon": -155.368,
+    "count": null,
+    "seen": "2026-11-17 11:49",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
     "notable": false,
-    "near": "Mauna Loa Road"
+    "near": "Kahuku"
+   },
+   {
+    "code": "categr1",
+    "name": "Western Cattle-Egret",
+    "sci": "Ardea ibis",
+    "count": 2,
+    "seen": "2026-11-17 08:10",
+    "place": "Hawaiʻi Volcanoes NP--Footprints Trail and West Kaʻū Desert Trails",
+    "lat": 19.353,
+    "lon": -155.351,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "whttro",
@@ -372,30 +444,41 @@
     "near": "Kīlauea Visitor Center"
    },
    {
+    "code": "yebcar",
+    "name": "Yellow-billed Cardinal",
+    "sci": "Paroaria capitata",
+    "count": null,
+    "seen": "2026-11-17 14:50",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
+    "notable": false,
+    "near": "Kahuku"
+   },
+   {
     "code": "yefcan",
     "name": "Yellow-fronted Canary",
     "sci": "Crithagra mozambica",
-    "count": 6,
-    "seen": "2026-11-13 07:13",
-    "place": "Pu'u O'o Trail, Kipuka Ainahou section (first 2 miles)",
-    "lat": 19.671,
-    "lon": -155.385,
+    "count": null,
+    "seen": "2026-11-17 14:50",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
     "notable": false,
-    "near": "Mauna Loa Road"
+    "near": "Kahuku"
    },
    {
     "code": "zebdov",
     "name": "Zebra Dove",
     "sci": "Geopelia striata",
-    "count": 2,
-    "seen": "2026-11-14 07:31",
-    "place": "Hawaiʻi Volcanoes NP--Kīlauea Iki and Thurston Lava Tube",
-    "lat": 19.414,
-    "lon": -155.239,
+    "count": null,
+    "seen": "2026-11-17 14:50",
+    "place": "Punaluʻu Beach and Pond",
+    "lat": 19.136,
+    "lon": -155.505,
     "notable": false,
-    "near": "Kīlauea Visitor Center"
+    "near": "Kahuku"
    }
-  ],
-  "staleSince": "2026-11-18T01:01:19Z"
+  ]
  }
 }

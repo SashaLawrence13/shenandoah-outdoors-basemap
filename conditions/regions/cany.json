@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-18T01:01:19Z",
+ "fetchedAt": "2026-11-18T11:55:28Z",
  "region": "cany",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.4586,
     "lon": -109.8192,
     "pollutant": "O3",
-    "aqi": 34,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 18:00 local"
+    "observed": "2026-11-18 4:00 local"
    },
    {
     "area": "The Needles",
@@ -32,7 +32,7 @@
     "aqi": 34,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-17 18:00 local"
+    "observed": "2026-11-18 4:00 local"
    },
    {
     "area": "The Maze",
@@ -44,28 +44,13 @@
     "lat": 38.35,
     "lon": -110.2,
     "pollutant": "O3",
-    "aqi": 34,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-11-17 18:00 local"
-   }
-  ],
-  "forecasts": [
-   {
-    "area": "Island in the Sky (Grand View Point)",
-    "state": "UT",
-    "near": "cany-island-in-the-sky",
-    "side": "forest",
-    "region": "cany",
-    "source": "open-meteo",
-    "date": "2026-11-17",
-    "pollutant": "O3",
     "aqi": 36,
     "category": "Good",
     "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
+    "observed": "2026-11-18 4:00 local"
+   }
+  ],
+  "forecasts": [
    {
     "area": "Island in the Sky (Grand View Point)",
     "state": "UT",
@@ -82,13 +67,13 @@
     "discussion": ""
    },
    {
-    "area": "The Needles",
+    "area": "Island in the Sky (Grand View Point)",
     "state": "UT",
-    "near": "cany-needles",
+    "near": "cany-island-in-the-sky",
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-11-17",
+    "date": "2026-11-19",
     "pollutant": "O3",
     "aqi": 34,
     "category": "Good",
@@ -112,15 +97,15 @@
     "discussion": ""
    },
    {
-    "area": "The Maze",
+    "area": "The Needles",
     "state": "UT",
-    "near": "cany-maze",
+    "near": "cany-needles",
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-11-17",
+    "date": "2026-11-19",
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -140,11 +125,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "The Maze",
+    "state": "UT",
+    "near": "cany-maze",
+    "side": "forest",
+    "region": "cany",
+    "source": "open-meteo",
+    "date": "2026-11-19",
+    "pollutant": "O3",
+    "aqi": 34,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amecro",
@@ -195,14 +195,26 @@
     "near": "The Needles"
    },
    {
+    "code": "casfin",
+    "name": "Cassin's Finch",
+    "sci": "Haemorhous cassinii",
+    "count": 1,
+    "seen": "2026-11-13 09:00",
+    "place": "Horsethief CG",
+    "lat": 38.583,
+    "lon": -109.815,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
     "count": 1,
-    "seen": "2026-11-16 14:17",
-    "place": "Arches NP--Visitor Center",
-    "lat": 38.616,
-    "lon": -109.62,
+    "seen": "2026-11-17 11:40",
+    "place": "Dead Horse Point SP--Rim Trail",
+    "lat": 38.471,
+    "lon": -109.739,
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
    },
@@ -241,6 +253,18 @@
     "lon": -109.803,
     "notable": false,
     "near": "The Needles"
+   },
+   {
+    "code": "horlar",
+    "name": "Horned Lark",
+    "sci": "Eremophila alpestris",
+    "count": 2,
+    "seen": "2026-11-13 12:35",
+    "place": "Canyonlands NP--Aztec Butte Trail",
+    "lat": 38.396,
+    "lon": -109.875,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
    },
    {
     "code": "juntit1",
@@ -327,6 +351,18 @@
     "near": "The Needles"
    },
    {
+    "code": "rocwre",
+    "name": "Rock Wren",
+    "sci": "Salpinctes obsoletus",
+    "count": 1,
+    "seen": "2026-11-13 07:40",
+    "place": "Horsethief CG",
+    "lat": 38.583,
+    "lon": -109.815,
+    "notable": false,
+    "near": "Island in the Sky (Grand View Point)"
+   },
+   {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
@@ -362,7 +398,6 @@
     "notable": false,
     "near": "The Needles"
    }
-  ],
-  "staleSince": "2026-11-18T01:01:19Z"
+  ]
  }
 }
