@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-19T02:38:49Z",
+ "fetchedAt": "2026-11-19T11:52:21Z",
  "region": "whsa",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 32.7797,
     "lon": -106.1719,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 20,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-18 19:00 local"
+    "observed": "2026-11-19 4:00 local"
    },
    {
     "area": "Alkali Flat trailhead",
@@ -29,28 +29,13 @@
     "lat": 32.8205,
     "lon": -106.2731,
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-18 19:00 local"
+    "observed": "2026-11-19 4:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "White Sands Visitor Center",
-    "state": "NM",
-    "near": "whsa-visitor-center",
-    "side": "forest",
-    "region": "whsa",
-    "source": "open-meteo",
-    "date": "2026-11-18",
-    "pollutant": "PM2.5",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "White Sands Visitor Center",
     "state": "NM",
@@ -67,17 +52,17 @@
     "discussion": ""
    },
    {
-    "area": "Alkali Flat trailhead",
+    "area": "White Sands Visitor Center",
     "state": "NM",
-    "near": "whsa-dunes",
+    "near": "whsa-visitor-center",
     "side": "forest",
     "region": "whsa",
     "source": "open-meteo",
-    "date": "2026-11-18",
+    "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 44,
-    "category": "Good",
-    "level": 1,
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -90,41 +75,32 @@
     "source": "open-meteo",
     "date": "2026-11-19",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 40,
     "category": "Good",
     "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Alkali Flat trailhead",
+    "state": "NM",
+    "near": "whsa-dunes",
+    "side": "forest",
+    "region": "whsa",
+    "source": "open-meteo",
+    "date": "2026-11-20",
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
-   {
-    "code": "amepip",
-    "name": "American Pipit",
-    "sci": "Anthus rubescens",
-    "count": 2,
-    "seen": "2026-11-11 16:09",
-    "place": "White Sands NP--Loop Drive area",
-    "lat": 32.821,
-    "lon": -106.268,
-    "notable": false,
-    "near": "White Sands Visitor Center"
-   },
-   {
-    "code": "comrav",
-    "name": "Common Raven",
-    "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-11-11 16:09",
-    "place": "White Sands NP--Loop Drive area",
-    "lat": 32.821,
-    "lon": -106.268,
-    "notable": false,
-    "near": "White Sands Visitor Center"
-   },
    {
     "code": "crithr",
     "name": "Crissal Thrasher",
@@ -281,7 +257,6 @@
     "notable": false,
     "near": "White Sands Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-19T02:38:49Z"
+  ]
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-19T02:38:49Z",
+ "fetchedAt": "2026-11-19T11:52:21Z",
  "region": "wica",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 43.5567,
     "lon": -103.4785,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-18 19:00 local"
+    "observed": "2026-11-19 4:00 local"
    },
    {
     "area": "Rankin Ridge",
@@ -29,10 +29,10 @@
     "lat": 43.6227,
     "lon": -103.4859,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 32,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-18 19:00 local"
+    "observed": "2026-11-19 4:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "wica",
     "source": "open-meteo",
-    "date": "2026-11-18",
-    "pollutant": "PM2.5",
-    "aqi": 38,
+    "date": "2026-11-19",
+    "pollutant": "O3",
+    "aqi": 32,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "wica",
     "source": "open-meteo",
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Rankin Ridge",
-    "state": "SD",
-    "near": "wica-north",
-    "side": "forest",
-    "region": "wica",
-    "source": "open-meteo",
-    "date": "2026-11-18",
-    "pollutant": "PM2.5",
-    "aqi": 38,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-11-19",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 32,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Rankin Ridge",
+    "state": "SD",
+    "near": "wica-north",
+    "side": "forest",
+    "region": "wica",
+    "source": "open-meteo",
+    "date": "2026-11-20",
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,14 +99,14 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 1,
-    "seen": "2026-11-17 06:47",
+    "count": 5,
+    "seen": "2026-11-18 16:00",
     "place": "Custer SP--Wildlife Loop",
     "lat": 43.707,
     "lon": -103.341,
@@ -118,10 +118,10 @@
     "name": "Bald Eagle",
     "sci": "Haliaeetus leucocephalus",
     "count": 1,
-    "seen": "2026-11-17 06:47",
-    "place": "Custer SP--Wildlife Loop",
-    "lat": 43.707,
-    "lon": -103.341,
+    "seen": "2026-11-18 07:00",
+    "place": "Wind Cave NP--Visitor Center",
+    "lat": 43.556,
+    "lon": -103.478,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    },
@@ -129,8 +129,8 @@
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
-    "count": 5,
-    "seen": "2026-11-17 06:47",
+    "count": 1,
+    "seen": "2026-11-18 16:00",
     "place": "Custer SP--Wildlife Loop",
     "lat": 43.707,
     "lon": -103.341,
@@ -141,11 +141,11 @@
     "code": "bkcchi",
     "name": "Black-capped Chickadee",
     "sci": "Poecile atricapillus",
-    "count": 1,
-    "seen": "2026-11-17 06:47",
-    "place": "Custer SP--Wildlife Loop",
-    "lat": 43.707,
-    "lon": -103.341,
+    "count": 2,
+    "seen": "2026-11-18 07:00",
+    "place": "Wind Cave NP--Visitor Center",
+    "lat": 43.556,
+    "lon": -103.478,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    },
@@ -177,8 +177,8 @@
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 10,
-    "seen": "2026-11-17 06:47",
+    "count": 15,
+    "seen": "2026-11-18 16:00",
     "place": "Custer SP--Wildlife Loop",
     "lat": 43.707,
     "lon": -103.341,
@@ -198,14 +198,50 @@
     "near": "Wind Cave Visitor Center"
    },
    {
+    "code": "norfli",
+    "name": "Northern Flicker",
+    "sci": "Colaptes auratus",
+    "count": 1,
+    "seen": "2026-11-18 16:00",
+    "place": "Custer SP--Wildlife Loop",
+    "lat": 43.707,
+    "lon": -103.341,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
+    "code": "norhar2",
+    "name": "Northern Harrier",
+    "sci": "Circus hudsonius",
+    "count": 1,
+    "seen": "2026-11-18 07:00",
+    "place": "Wind Cave NP--Visitor Center",
+    "lat": 43.556,
+    "lon": -103.478,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
     "code": "rebnut",
     "name": "Red-breasted Nuthatch",
     "sci": "Sitta canadensis",
     "count": 1,
-    "seen": "2026-11-17 06:47",
+    "seen": "2026-11-18 16:00",
     "place": "Custer SP--Wildlife Loop",
     "lat": 43.707,
     "lon": -103.341,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
+    "code": "rethaw",
+    "name": "Red-tailed Hawk",
+    "sci": "Buteo jamaicensis",
+    "count": 1,
+    "seen": "2026-11-17 11:13",
+    "place": "Wind Cave NP--Elk Mountain Campground",
+    "lat": 43.566,
+    "lon": -103.497,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    },
@@ -222,18 +258,41 @@
     "near": "Wind Cave Visitor Center"
    },
    {
+    "code": "rocpig",
+    "name": "Rock Pigeon",
+    "sci": "Columba livia",
+    "count": 2,
+    "seen": "2026-11-17 09:48",
+    "place": "Wind Cave NP--Visitor Center",
+    "lat": 43.556,
+    "lon": -103.478,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": 1,
+    "seen": "2026-11-18 07:00",
+    "place": "Wind Cave NP--Visitor Center",
+    "lat": 43.556,
+    "lon": -103.478,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 20,
-    "seen": "2026-11-17 06:47",
+    "count": 91,
+    "seen": "2026-11-18 16:00",
     "place": "Custer SP--Wildlife Loop",
     "lat": 43.707,
     "lon": -103.341,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    }
-  ],
-  "staleSince": "2026-11-19T02:38:49Z"
+  ]
  }
 }
