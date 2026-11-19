@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-18T11:55:14Z",
+ "fetchedAt": "2026-11-19T02:38:33Z",
  "nps": {
   "status": "ok",
   "parks": [
@@ -329,17 +329,6 @@
     "url": null,
     "updated": "2026-12-01",
     "until": "2026-12-01",
-    "source": "park-site"
-   },
-   {
-    "id": "22883896-50D9-496D-8AF5-6184DE3BA8F7",
-    "park": "neri",
-    "title": "Cunard Road Closure",
-    "category": "Park Closure",
-    "description": "Cunard Road will be closed to vehicle traffic, starting on November 9 and will reopen in April 2027 due to road construction.",
-    "url": null,
-    "updated": "2027-05-01",
-    "until": "2027-05-01",
     "source": "park-site"
    }
   ]
@@ -727,6 +716,17 @@
   "fireDanger": "Low",
   "alerts": [
    {
+    "slug": "mcfarland-road-work-phase-1-access-interupted",
+    "title": "McFarland Road work Phase 1 (access interupted)",
+    "level": "information",
+    "summary": "A repair project is underway on NFSR 23 also known as McFarland Road. Phase 1 is from Kimsey Mtn Hwy to Route 236. The route will be closed to motorized vehicle traffic during Phase 1.",
+    "url": "https://www.fs.usda.gov/r08/cherokee/alerts/mcfarland-road-work-phase-1-access-interupted",
+    "start": "2026-11-09",
+    "order": null,
+    "scope": "ours-road",
+    "stale": false
+   },
+   {
     "slug": "ocoee-river-flooding-damage-nov-5",
     "title": "Ocoee River Flooding Damage - Nov 5",
     "level": "critical",
@@ -914,13 +914,24 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-18T01:01:00Z",
+  "fetchedAt": "2026-11-19T02:38:33Z",
   "source": "https://www.fs.usda.gov/r08/cherokee/alerts"
  },
  "danielboone": {
   "status": "ok",
   "fireDanger": "Moderate",
   "alerts": [
+   {
+    "slug": "portion-redbird-crest-trail-redbird-wma-closed-prescribed-burn-november-20",
+    "title": "Portion of Redbird Crest Trail, Redbird WMA closed for prescribed burn, November 20",
+    "level": "caution",
+    "summary": "A portion of the Redbird Wildlife Management Area in Leslie County will be closed during planned prescribed burn operations on Friday, November 20, 2026. Redbird Crest Trail Section 7 and Gilbert Creek/Elisha Creek Loop Section 7A will also be closed during operations and may remain closed for…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/portion-redbird-crest-trail-redbird-wma-closed-prescribed-burn-november-20",
+    "start": "2026-11-20",
+    "order": null,
+    "scope": "ours",
+    "stale": false
+   },
    {
     "slug": "national-visitor-use-monitoring-oct-2026-sept-2027",
     "title": "National Visitor Use Monitoring, Oct 2026-Sept 2027",
@@ -1043,68 +1054,24 @@
     "stale": true
    },
    {
-    "slug": "climbing-and-rappelling-prohibitions-0",
-    "title": "Climbing and Rappelling Prohibitions",
+    "slug": "commercial-hauling-prohibitions",
+    "title": "Commercial Hauling Prohibitions",
     "level": "information",
-    "summary": "Climbing or rappelling or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations at Bee Rock Overlook in Laurel County in Kentucky is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-0",
+    "summary": "Using a Forest Service System Road for commercial hauling without first obtaining a permit or authorization is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/commercial-hauling-prohibitions",
     "start": "2015-07-08",
-    "order": "#14-06-15",
+    "order": "#DB-11-15",
     "scope": "forestwide",
     "stale": true
    },
    {
-    "slug": "climbing-and-rappelling-prohibitions-1",
-    "title": "Climbing and Rappelling Prohibitions",
+    "slug": "metal-detecting-prohibitions-0",
+    "title": "Metal Detecting Prohibitions",
     "level": "information",
-    "summary": "Climbing or rappelling within 300 feet of Sky Bridge, Gray’s Arch, Nada Tunnel, or Chimney Top Rock overlooks is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-1",
+    "summary": "The use of metal detectors, electronic apparatuses, or any other devices for the purpose of locating any metal object without a valid permit is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/metal-detecting-prohibitions-0",
     "start": "2015-07-08",
-    "order": "#12-03-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "non-motorized-fishing-area-restrictions",
-    "title": "Non-Motorized Fishing Area Restrictions",
-    "level": "information",
-    "summary": "The use of use of gasoline or diesel-powered motorcraft in non-motorized fishing areas of Cave Run Lake, Carrington Lake, Rebel Trace Lake, Clear Creek Lake, and specified portions of Ramey Creek and Scott Creek is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/non-motorized-fishing-area-restrictions",
-    "start": "2015-07-08",
-    "order": "#11-10-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "climbing-and-rappelling-prohibitions",
-    "title": "Climbing and Rappelling Prohibitions",
-    "level": "information",
-    "summary": "Climbing, rappelling, or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations in the Natural Arch Scenic Area and Three Forks of Beaver Overlook is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions",
-    "start": "2015-07-08",
-    "order": "#16-05-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "wildcat-branch-closure",
-    "title": "Wildcat Branch Closure",
-    "level": "information",
-    "summary": "Going into or upon National Forest System lands of Wildcat Branch, within the Bee Rock Overlook in Laurel County in Kentucky, is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/wildcat-branch-closure",
-    "start": "2015-07-08",
-    "order": "#14-05-15",
-    "scope": "ours",
-    "stale": true
-   },
-   {
-    "slug": "trail-prohibitions",
-    "title": "Trail Prohibitions",
-    "level": "information",
-    "summary": "Shortcutting a trail switchback is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/trail-prohibitions",
-    "start": "2015-07-08",
-    "order": "#DB-08-15",
+    "order": "#DB-10-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1120,25 +1087,80 @@
     "stale": true
    },
    {
-    "slug": "metal-detecting-prohibitions-0",
-    "title": "Metal Detecting Prohibitions",
+    "slug": "trail-prohibitions",
+    "title": "Trail Prohibitions",
     "level": "information",
-    "summary": "The use of metal detectors, electronic apparatuses, or any other devices for the purpose of locating any metal object without a valid permit is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/metal-detecting-prohibitions-0",
+    "summary": "Shortcutting a trail switchback is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/trail-prohibitions",
     "start": "2015-07-08",
-    "order": "#DB-10-15",
+    "order": "#DB-08-15",
     "scope": "forestwide",
     "stale": true
    },
    {
-    "slug": "commercial-hauling-prohibitions",
-    "title": "Commercial Hauling Prohibitions",
+    "slug": "climbing-and-rappelling-prohibitions-1",
+    "title": "Climbing and Rappelling Prohibitions",
     "level": "information",
-    "summary": "Using a Forest Service System Road for commercial hauling without first obtaining a permit or authorization is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/commercial-hauling-prohibitions",
+    "summary": "Climbing or rappelling within 300 feet of Sky Bridge, Gray’s Arch, Nada Tunnel, or Chimney Top Rock overlooks is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-1",
     "start": "2015-07-08",
-    "order": "#DB-11-15",
+    "order": "#12-03-15",
     "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "wildcat-branch-closure",
+    "title": "Wildcat Branch Closure",
+    "level": "information",
+    "summary": "Going into or upon National Forest System lands of Wildcat Branch, within the Bee Rock Overlook in Laurel County in Kentucky, is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/wildcat-branch-closure",
+    "start": "2015-07-08",
+    "order": "#14-05-15",
+    "scope": "ours",
+    "stale": true
+   },
+   {
+    "slug": "climbing-and-rappelling-prohibitions",
+    "title": "Climbing and Rappelling Prohibitions",
+    "level": "information",
+    "summary": "Climbing, rappelling, or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations in the Natural Arch Scenic Area and Three Forks of Beaver Overlook is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions",
+    "start": "2015-07-08",
+    "order": "#16-05-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "climbing-and-rappelling-prohibitions-0",
+    "title": "Climbing and Rappelling Prohibitions",
+    "level": "information",
+    "summary": "Climbing or rappelling or otherwise attempting to ascend or descend from cliffs, arches, or other rock formations at Bee Rock Overlook in Laurel County in Kentucky is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/climbing-and-rappelling-prohibitions-0",
+    "start": "2015-07-08",
+    "order": "#14-06-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "non-motorized-fishing-area-restrictions",
+    "title": "Non-Motorized Fishing Area Restrictions",
+    "level": "information",
+    "summary": "The use of use of gasoline or diesel-powered motorcraft in non-motorized fishing areas of Cave Run Lake, Carrington Lake, Rebel Trace Lake, Clear Creek Lake, and specified portions of Ramey Creek and Scott Creek is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/non-motorized-fishing-area-restrictions",
+    "start": "2015-07-08",
+    "order": "#11-10-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "white-sulphur-ohv-trail-system",
+    "title": "White Sulphur OHV Trail System",
+    "level": "information",
+    "summary": "1) Motorized use of the White Sulphur OHV Trail System from sunset to sunrise from May 1st to November 30th; 2) Non-motorized use of the White Sulphur OHV Trail System from May 1st to November 30th; 3) Overnight camping within 300 feet of the edge of the White Sulphur OHV Trail System from May 1st…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
+    "start": "2015-05-11",
+    "order": "#11-04-15",
+    "scope": "ours",
     "stale": true
    },
    {
@@ -1164,17 +1186,6 @@
     "stale": true
    },
    {
-    "slug": "shallow-flats-wildlife-viewing-area-closure",
-    "title": "Shallow Flats Wildlife Viewing Area Closure",
-    "level": "information",
-    "summary": "1) All entry; 2) discharging a firearm; and 3) hunting, fishing and trapping are prohibited in the described area.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/shallow-flats-wildlife-viewing-area-closure",
-    "start": "2015-05-11",
-    "order": "#11-06-15",
-    "scope": "ours",
-    "stale": true
-   },
-   {
     "slug": "pioneer-weapons-wildlife-management-area-camping-prohibition",
     "title": "Pioneer Weapons Wildlife Management Area Camping Prohibition",
     "level": "information",
@@ -1186,14 +1197,25 @@
     "stale": true
    },
    {
-    "slug": "white-sulphur-ohv-trail-system",
-    "title": "White Sulphur OHV Trail System",
+    "slug": "shallow-flats-wildlife-viewing-area-closure",
+    "title": "Shallow Flats Wildlife Viewing Area Closure",
     "level": "information",
-    "summary": "1) Motorized use of the White Sulphur OHV Trail System from sunset to sunrise from May 1st to November 30th; 2) Non-motorized use of the White Sulphur OHV Trail System from May 1st to November 30th; 3) Overnight camping within 300 feet of the edge of the White Sulphur OHV Trail System from May 1st…",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/white-sulphur-ohv-trail-system",
+    "summary": "1) All entry; 2) discharging a firearm; and 3) hunting, fishing and trapping are prohibited in the described area.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/shallow-flats-wildlife-viewing-area-closure",
     "start": "2015-05-11",
-    "order": "#11-04-15",
+    "order": "#11-06-15",
     "scope": "ours",
+    "stale": true
+   },
+   {
+    "slug": "laurel-river-lake-and-lake-cumberland-camping-prohibitions",
+    "title": "Laurel River Lake and Lake Cumberland Camping Prohibitions",
+    "level": "information",
+    "summary": "1) Camping within 300 feet of the high water line of the portion of Upper Lake Cumberland, from the Mouth of Laurel Boat Ramp upstream on the Laurel River, and from the Sheltowee Trace National Recreation Trail to the administrative boundary between National Forest System and U.S. Army Corps of…",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/laurel-river-lake-and-lake-cumberland-camping-prohibitions",
+    "start": "2015-05-11",
+    "order": "#14-04-15",
+    "scope": "forestwide",
     "stale": true
    },
    {
@@ -1204,17 +1226,6 @@
     "url": "https://www.fs.usda.gov/r08/danielboone/alerts/beaver-creek-wilderness-prohibitions",
     "start": "2015-05-11",
     "order": "#16-04-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
-    "slug": "jellico-rock-creek-camping-prohibitions",
-    "title": "Jellico & Rock Creek Camping Prohibitions",
-    "level": "information",
-    "summary": "Except for designated campsites, camping within 300 feet of National Forest System Road 492 and National Forest System Road 137 is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/jellico-rock-creek-camping-prohibitions",
-    "start": "2015-05-11",
-    "order": "#16-02-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1230,13 +1241,13 @@
     "stale": true
    },
    {
-    "slug": "laurel-river-lake-and-lake-cumberland-camping-prohibitions",
-    "title": "Laurel River Lake and Lake Cumberland Camping Prohibitions",
+    "slug": "jellico-rock-creek-camping-prohibitions",
+    "title": "Jellico & Rock Creek Camping Prohibitions",
     "level": "information",
-    "summary": "1) Camping within 300 feet of the high water line of the portion of Upper Lake Cumberland, from the Mouth of Laurel Boat Ramp upstream on the Laurel River, and from the Sheltowee Trace National Recreation Trail to the administrative boundary between National Forest System and U.S. Army Corps of…",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/laurel-river-lake-and-lake-cumberland-camping-prohibitions",
+    "summary": "Except for designated campsites, camping within 300 feet of National Forest System Road 492 and National Forest System Road 137 is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/jellico-rock-creek-camping-prohibitions",
     "start": "2015-05-11",
-    "order": "#14-04-15",
+    "order": "#16-02-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1340,17 +1351,6 @@
     "stale": true
    },
    {
-    "slug": "red-river-gorge-camping-restrictions",
-    "title": "Red River Gorge Camping Restrictions",
-    "level": "information",
-    "summary": "Except at designated sites, camping within 300 feet of any developed road or trail in the Red River Gorge Geological Area or within 600 feet of Gray’s Arch is prohibited.",
-    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/red-river-gorge-camping-restrictions",
-    "start": "2015-02-24",
-    "order": "#12-01-15",
-    "scope": "forestwide",
-    "stale": true
-   },
-   {
     "slug": "stearns-district-prohibitions",
     "title": "Stearns District Prohibitions",
     "level": "information",
@@ -1358,6 +1358,17 @@
     "url": "https://www.fs.usda.gov/r08/danielboone/alerts/stearns-district-prohibitions",
     "start": "2015-02-24",
     "order": "#16-01-15",
+    "scope": "forestwide",
+    "stale": true
+   },
+   {
+    "slug": "red-river-gorge-camping-restrictions",
+    "title": "Red River Gorge Camping Restrictions",
+    "level": "information",
+    "summary": "Except at designated sites, camping within 300 feet of any developed road or trail in the Red River Gorge Geological Area or within 600 feet of Gray’s Arch is prohibited.",
+    "url": "https://www.fs.usda.gov/r08/danielboone/alerts/red-river-gorge-camping-restrictions",
+    "start": "2015-02-24",
+    "order": "#12-01-15",
     "scope": "forestwide",
     "stale": true
    },
@@ -1373,7 +1384,7 @@
     "stale": true
    }
   ],
-  "fetchedAt": "2026-11-18T11:55:14Z",
+  "fetchedAt": "2026-11-19T02:38:33Z",
   "source": "https://www.fs.usda.gov/r08/danielboone/alerts"
  },
  "pisgah": {
@@ -1385,6 +1396,15 @@
     "summary": "Temporary Closure – Maple Sally Road (NFSR 187), which runs parallel to Wilson Creek, on the Grandfather Ranger District in Pisgah National Forest will be temporarily closed for culvert installation and repairs from December 7, 2026 – March 2027.During this time, crews will replace all culverts…",
     "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/maple-sally-road-closure",
     "start": "December 1, 2026",
+    "order": null,
+    "scope": "ours"
+   },
+   {
+    "title": "Pisgah National Forest Begins Removing Hazardous Fuel Left by Helene via Helicopters",
+    "level": "caution",
+    "summary": "Beginning Thursday, November 19, 2026, the U.S. Forest Service will conduct hazardous fuels reduction operations on Pisgah National Forest in Mitchell County. These operations will help reduce the risk of wildfire to nearby communities following Hurricane Helene. As operations begin, local…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/pisgah-national-forest-begins-removing-hazardous-fuel-left-helene",
+    "start": "November 18, 2026",
     "order": null,
     "scope": "ours"
    },
@@ -1470,24 +1490,6 @@
     "scope": "ours"
    },
    {
-    "title": "Helene Closure Order Roan Mountain Fire Restriction - Appalachian Ranger District",
-    "level": "information",
-    "summary": "The following acts are prohibited on and within the Roan Mountain area as shown on the attached map, which is part of this Order:Building, maintaining, attending, or using a fire, campfire, or stove fire. (Prohibition per 36 C.F.R. § 261.52(a))Fire restrictions apply to all National Forest…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/helene-closure-order-roan-mountain-fire-restriction-appalachian-ranger",
-    "start": "September 11, 2025",
-    "order": "#08‑11‑08‑25‑04",
-    "scope": "ours"
-   },
-   {
-    "title": "Helene Closure Order Ray Mine - Appalachian Ranger District",
-    "level": "information",
-    "summary": "For the protection of public health and safety following Tropical Storm Helene, the following acts are prohibited in the Ray Mine Area on the Appalachian Ranger District of the Pisgah National Forest:Going into or being in the described closure area. Prohibited under…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/helene-closure-order-ray-mine-appalachian-ranger-district",
-    "start": "September 11, 2025",
-    "order": "#08‑11‑08‑25‑09",
-    "scope": "ours"
-   },
-   {
     "title": "Nantahala and Pisgah Cave and Mine Closure Order",
     "level": "information",
     "summary": "It is prohibited to enter a cave in the Pisgah or Nantahala National Forest.",
@@ -1503,6 +1505,24 @@
     "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/helene-closure-order-buzzard-roost-i-40-reconstruction-project-appalachian",
     "start": "September 11, 2025",
     "order": "#08‑11‑04‑25‑03",
+    "scope": "ours"
+   },
+   {
+    "title": "Helene Closure Order Roan Mountain Fire Restriction - Appalachian Ranger District",
+    "level": "information",
+    "summary": "The following acts are prohibited on and within the Roan Mountain area as shown on the attached map, which is part of this Order:Building, maintaining, attending, or using a fire, campfire, or stove fire. (Prohibition per 36 C.F.R. § 261.52(a))Fire restrictions apply to all National Forest…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/helene-closure-order-roan-mountain-fire-restriction-appalachian-ranger",
+    "start": "September 11, 2025",
+    "order": "#08‑11‑08‑25‑04",
+    "scope": "ours"
+   },
+   {
+    "title": "Helene Closure Order Ray Mine - Appalachian Ranger District",
+    "level": "information",
+    "summary": "For the protection of public health and safety following Tropical Storm Helene, the following acts are prohibited in the Ray Mine Area on the Appalachian Ranger District of the Pisgah National Forest:Going into or being in the described closure area. Prohibited under…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/helene-closure-order-ray-mine-appalachian-ranger-district",
+    "start": "September 11, 2025",
+    "order": "#08‑11‑08‑25‑09",
     "scope": "ours"
    },
    {
@@ -1526,17 +1546,8 @@
    {
     "title": "Pisgah Ranger District Dispersed Camping Regulations",
     "level": "information",
-    "summary": "The following act is prohibited within 1000 feet of a road open to public vehicle travel on the Pisgah Ranger District in Buncombe, Haywood, Henderson, and Transylvania Counties in North Carolina.Camping is prohibited in any area not designated as a campsite depicted on the attached map. This…",
+    "summary": "Camping is not permitted within 1,000 feet of a road open to public vehicle travel on the Pisgah Ranger District in Buncombe, Haywood, Henderson, and Transylvania counties in North Carolina.Camping is prohibited in any area not designated as a campsite depicted on the attached map. This closure is…",
     "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/pisgah-ranger-district-dispersed-camping-regulations",
-    "start": "September 11, 2023",
-    "order": "#08-11-07-23-163",
-    "scope": "ours"
-   },
-   {
-    "title": "Pisgah Ranger District Camping Restrictions Closure Order- Pisgah Ranger District",
-    "level": "information",
-    "summary": "Camping is not permitted within 1,000 feet of a road open to public vehicle traffic On the Pisgah Ranger District. Camping is only allowed in areas depicted as a campsite on this map. Other areas on the map would be within 1,000 feet of a roadway on the Pisgah Ranger District, and therefore not…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/pisgah-ranger-district-camping-restrictions-closure-order-pisgah-ranger",
     "start": "September 1, 2023",
     "order": "#08-11-07-23-163",
     "scope": "ours"
@@ -1623,33 +1634,6 @@
     "scope": "ours"
    },
    {
-    "title": "Nantahala River Launch Site Fire Restrictions- Nantahala Ranger District",
-    "level": "information",
-    "summary": "The following act is prohibited on the Nantahala River Launch Site on the Nantahala Ranger District of the Nantahala National Forest: Building, maintaining, attending or using a fire, campfire or stove fire. 36 CFR 261.52 (a)",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/nantahala-river-launch-site-fire-restrictions-nantahala-ranger-district",
-    "start": "January 12, 2016",
-    "order": "# 11-18-09",
-    "scope": "forestwide"
-   },
-   {
-    "title": "Arrowood Glade Alcohol Prohibitions- Nantahala Ranger District",
-    "level": "information",
-    "summary": "The following act is prohibited in the Arrowood Glade Picnic Area, on the Nantahala Ranger District, Nantahala National Forest: Possessing a beverage which is defined as an alcoholic beverage by State law.",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/arrowood-glade-alcohol-prohibitions-nantahala-ranger-district",
-    "start": "January 12, 2016",
-    "order": "# 09-03-04",
-    "scope": "ours"
-   },
-   {
-    "title": "Wayah Bald Prohibitions- Nantahala Ranger District",
-    "level": "information",
-    "summary": "The following acts are prohibited on the Wayah Bald Observation Area and the Wayah Bald Picnic Area on the Nantahala Ranger District of the Nantahala National Forest:Building, maintaining, attending or using a fire or campstove. 36 CFR 261.52(a) Camping. 36 CFR 261.58(c)",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/wayah-bald-prohibitions-nantahala-ranger-district",
-    "start": "January 12, 2016",
-    "order": "# 11-03-04",
-    "scope": "ours"
-   },
-   {
     "title": "Nantahala River Prohibitions- Nantahala Ranger District",
     "level": "information",
     "summary": "The following acts are prohibited on the Nantahala River within the boundaries of the Nantahala National Forest:For public health and safety it is prohibited to enter, ride or float the river without properly wearing a United States Coast Guard approved personal flotation device 36 CFR…",
@@ -1666,6 +1650,24 @@
     "start": "January 12, 2016",
     "order": "# 11-04-04",
     "scope": "forestwide"
+   },
+   {
+    "title": "Nantahala River Launch Site Fire Restrictions- Nantahala Ranger District",
+    "level": "information",
+    "summary": "The following act is prohibited on the Nantahala River Launch Site on the Nantahala Ranger District of the Nantahala National Forest: Building, maintaining, attending or using a fire, campfire or stove fire. 36 CFR 261.52 (a)",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/nantahala-river-launch-site-fire-restrictions-nantahala-ranger-district",
+    "start": "January 12, 2016",
+    "order": "# 11-18-09",
+    "scope": "forestwide"
+   },
+   {
+    "title": "Wayah Bald Prohibitions- Nantahala Ranger District",
+    "level": "information",
+    "summary": "The following acts are prohibited on the Wayah Bald Observation Area and the Wayah Bald Picnic Area on the Nantahala Ranger District of the Nantahala National Forest:Building, maintaining, attending or using a fire or campstove. 36 CFR 261.52(a) Camping. 36 CFR 261.58(c)",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/wayah-bald-prohibitions-nantahala-ranger-district",
+    "start": "January 12, 2016",
+    "order": "# 11-03-04",
+    "scope": "ours"
    },
    {
     "title": "Wilson Lick Ranger Station Prohibitions- Nantahala Ranger District",
@@ -1686,6 +1688,15 @@
     "scope": "ours"
    },
    {
+    "title": "Arrowood Glade Alcohol Prohibitions- Nantahala Ranger District",
+    "level": "information",
+    "summary": "The following act is prohibited in the Arrowood Glade Picnic Area, on the Nantahala Ranger District, Nantahala National Forest: Possessing a beverage which is defined as an alcoholic beverage by State law.",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/arrowood-glade-alcohol-prohibitions-nantahala-ranger-district",
+    "start": "January 12, 2016",
+    "order": "# 09-03-04",
+    "scope": "ours"
+   },
+   {
     "title": "Wayehutta ORV Area Prohibitions - Nantahala Ranger District",
     "level": "information",
     "summary": "The following acts are prohibited in the Wayehutta ORV Parking Area, Jackson County, Nantahala National Forest. Camping or establishing a campsite within 500 feet of the Wayehutta ORV Parking Area. Building and or maintaining a campfire.Possession of an alcoholic beverage as defined by state…",
@@ -1695,30 +1706,12 @@
     "scope": "ours"
    },
    {
-    "title": "Table Rock Mountain, The Chimneys and Woodland Mountain Closure- Grandfather Ranger District",
+    "title": "Brown Mountain Alcohol Restrictions- Grandfather Ranger District",
     "level": "information",
-    "summary": "It is prohibited to go into or be upon the listed areas for the protection of a threatened, endangered, rare, unique or vanishing species of plants in the following areas: Table Rock Mountain The Chimneys Woods Mountain",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/table-rock-mountain-chimneys-and-woodland-mountain-closure-grandfather-0",
+    "summary": "The following acts are prohibited in the Brown Mountain OHV (off Highway vehicle) area on the Grandfather Ranger District of the Pisgah National Forest, and further described on the attached map:Possessing a beverage which is defined as an alcoholic beverage by state law. 36 CFR 261.58(bb).",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/brown-mountain-alcohol-restrictions-grandfather-ranger-district",
     "start": "April 17, 2015",
-    "order": "# 05-06-2005",
-    "scope": "ours"
-   },
-   {
-    "title": "Linville Gorge Wilderness Area Permit Requirement- Grandfather Ranger District",
-    "level": "information",
-    "summary": "The following act is prohibited in the Linville Gorge Wilderness on the Grandfather Ranger District of the Pisgah National Forest:Camping October 3 In weekends and Federal Holidays during the period of May 1** through * without a permit. Remaining in the Linville Gorge Wilderness for more than…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/linville-gorge-wilderness-area-permit-requirement-grandfather-ranger",
-    "start": "April 17, 2015",
-    "order": "# 05-05-2005",
-    "scope": "ours"
-   },
-   {
-    "title": "Linville Gorge Wilderness Area Camping Restrictions- Grandfather Ranger District",
-    "level": "information",
-    "summary": "The following act is prohibited on the Grandfather Ranger District of the Pisgah National Forest, at the following trail heads, along the boundary of the Linville Gorge Wilderness Area and Further described on the attached map:Pine Gap Bynum Bluff Cabin Babel Tower Conley Cave Pinch…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/linville-gorge-wilderness-area-camping-restrictions-grandfather-ranger",
-    "start": "April 17, 2015",
-    "order": "# 05-04-20",
+    "order": "# 04-01-2005",
     "scope": "ours"
    },
    {
@@ -1731,12 +1724,30 @@
     "scope": "ours"
    },
    {
-    "title": "Brown Mountain Alcohol Restrictions- Grandfather Ranger District",
+    "title": "Linville Gorge Wilderness Area Camping Restrictions- Grandfather Ranger District",
     "level": "information",
-    "summary": "The following acts are prohibited in the Brown Mountain OHV (off Highway vehicle) area on the Grandfather Ranger District of the Pisgah National Forest, and further described on the attached map:Possessing a beverage which is defined as an alcoholic beverage by state law. 36 CFR 261.58(bb).",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/brown-mountain-alcohol-restrictions-grandfather-ranger-district",
+    "summary": "The following act is prohibited on the Grandfather Ranger District of the Pisgah National Forest, at the following trail heads, along the boundary of the Linville Gorge Wilderness Area and Further described on the attached map:Pine Gap Bynum Bluff Cabin Babel Tower Conley Cave Pinch…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/linville-gorge-wilderness-area-camping-restrictions-grandfather-ranger",
     "start": "April 17, 2015",
-    "order": "# 04-01-2005",
+    "order": "# 05-04-20",
+    "scope": "ours"
+   },
+   {
+    "title": "Linville Gorge Wilderness Area Permit Requirement- Grandfather Ranger District",
+    "level": "information",
+    "summary": "The following act is prohibited in the Linville Gorge Wilderness on the Grandfather Ranger District of the Pisgah National Forest:Camping October 3 In weekends and Federal Holidays during the period of May 1** through * without a permit. Remaining in the Linville Gorge Wilderness for more than…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/linville-gorge-wilderness-area-permit-requirement-grandfather-ranger",
+    "start": "April 17, 2015",
+    "order": "# 05-05-2005",
+    "scope": "ours"
+   },
+   {
+    "title": "Table Rock Mountain, The Chimneys and Woodland Mountain Closure- Grandfather Ranger District",
+    "level": "information",
+    "summary": "It is prohibited to go into or be upon the listed areas for the protection of a threatened, endangered, rare, unique or vanishing species of plants in the following areas: Table Rock Mountain The Chimneys Woods Mountain",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/table-rock-mountain-chimneys-and-woodland-mountain-closure-grandfather-0",
+    "start": "April 17, 2015",
+    "order": "# 05-06-2005",
     "scope": "ours"
    },
    {
@@ -1758,21 +1769,21 @@
     "scope": "ours"
    },
    {
-    "title": "Pisgah Ranger District Bear Canister Requirement- Pisgah Ranger District",
-    "level": "information",
-    "summary": "Emergency Requirement to Use Bear Resistant Canisters in: Graveyard Fields Vicinity Shining Rock Wilderness Black Balsam Vicinity Sam’s Knob/Flat Laurel Creek Vicinity All persons camping overnight must use bear-resistant canisters for the storage of all food, refuse, and toiletries in…",
-    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/pisgah-ranger-district-bear-canister-requirement-pisgah-ranger-district",
-    "start": "March 19, 2015",
-    "order": "# 08-11-07-15-01",
-    "scope": "ours"
-   },
-   {
     "title": "Graveyard Field Camping Prohibitions- Pisgah Ranger District",
     "level": "information",
     "summary": "Camping is prohibited in the Graveyard Fields Recreation Area vicinity.",
     "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/graveyard-field-camping-prohibitions-pisgah-ranger-district",
     "start": "March 19, 2015",
     "order": "# 08-11-07-15-02",
+    "scope": "ours"
+   },
+   {
+    "title": "Pisgah Ranger District Bear Canister Requirement- Pisgah Ranger District",
+    "level": "information",
+    "summary": "Emergency Requirement to Use Bear Resistant Canisters in: Graveyard Fields Vicinity Shining Rock Wilderness Black Balsam Vicinity Sam’s Knob/Flat Laurel Creek Vicinity All persons camping overnight must use bear-resistant canisters for the storage of all food, refuse, and toiletries in…",
+    "url": "https://www.fs.usda.gov/r08/northcarolina/alerts/pisgah-ranger-district-bear-canister-requirement-pisgah-ranger-district",
+    "start": "March 19, 2015",
+    "order": "# 08-11-07-15-01",
     "scope": "ours"
    },
    {
@@ -1803,7 +1814,7 @@
     "scope": "ours"
    }
   ],
-  "fetchedAt": "2026-11-18T01:01:00Z",
+  "fetchedAt": "2026-11-19T02:38:33Z",
   "source": "https://www.fs.usda.gov/r08/northcarolina/alerts"
  }
 }
