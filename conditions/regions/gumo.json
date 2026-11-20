@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-19T20:46:55Z",
+ "fetchedAt": "2026-11-20T02:23:52Z",
  "region": "gumo",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 31.8966,
     "lon": -104.8281,
-    "pollutant": "PM2.5",
-    "aqi": 29,
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 14:00 local"
+    "observed": "2026-11-19 20:00 local"
    },
    {
     "area": "Guadalupe Peak",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 31.8915,
     "lon": -104.8608,
-    "pollutant": "PM2.5",
-    "aqi": 29,
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 14:00 local"
+    "observed": "2026-11-19 20:00 local"
    },
    {
     "area": "McKittrick Canyon",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 31.9778,
     "lon": -104.7523,
-    "pollutant": "PM2.5",
-    "aqi": 29,
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 14:00 local"
+    "observed": "2026-11-19 20:00 local"
    },
    {
     "area": "Dog Canyon",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 31.9936,
     "lon": -104.8341,
-    "pollutant": "PM2.5",
-    "aqi": 29,
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 14:00 local"
+    "observed": "2026-11-19 20:00 local"
    }
   ],
   "forecasts": [
@@ -74,8 +74,8 @@
     "region": "gumo",
     "source": "open-meteo",
     "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,22 +90,7 @@
     "source": "open-meteo",
     "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Guadalupe Peak",
-    "state": "TX",
-    "near": "gumo-guadalupe-peak",
-    "side": "forest",
-    "region": "gumo",
-    "source": "open-meteo",
-    "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -118,11 +103,26 @@
     "side": "forest",
     "region": "gumo",
     "source": "open-meteo",
+    "date": "2026-11-19",
+    "pollutant": "O3",
+    "aqi": 37,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Guadalupe Peak",
+    "state": "TX",
+    "near": "gumo-guadalupe-peak",
+    "side": "forest",
+    "region": "gumo",
+    "source": "open-meteo",
     "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -134,8 +134,8 @@
     "region": "gumo",
     "source": "open-meteo",
     "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -150,9 +150,9 @@
     "source": "open-meteo",
     "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -164,8 +164,8 @@
     "region": "gumo",
     "source": "open-meteo",
     "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 41,
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,16 +180,16 @@
     "source": "open-meteo",
     "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "clanut",
@@ -803,6 +803,7 @@
     "notable": false,
     "near": "Pine Springs"
    }
-  ]
+  ],
+  "staleSince": "2026-11-20T02:23:52Z"
  }
 }
