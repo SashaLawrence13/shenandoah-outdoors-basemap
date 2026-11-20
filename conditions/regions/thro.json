@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T02:23:52Z",
+ "fetchedAt": "2026-11-20T11:53:57Z",
  "region": "thro",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 46.9157,
     "lon": -103.5262,
     "pollutant": "O3",
-    "aqi": 21,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 19:00 local"
+    "observed": "2026-11-20 4:00 local"
    },
    {
     "area": "Painted Canyon",
@@ -29,10 +29,10 @@
     "lat": 46.8955,
     "lon": -103.3818,
     "pollutant": "O3",
-    "aqi": 21,
+    "aqi": 16,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 19:00 local"
+    "observed": "2026-11-20 4:00 local"
    },
    {
     "area": "North Unit Visitor Center",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 47.6,
     "lon": -103.2602,
-    "pollutant": "O3",
-    "aqi": 19,
+    "pollutant": "PM2.5",
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 20:00 local"
+    "observed": "2026-11-20 5:00 local"
    }
   ],
   "forecasts": [
@@ -58,9 +58,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 19,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -73,24 +73,9 @@
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "pollutant": "O3",
-    "aqi": 17,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Painted Canyon",
-    "state": "ND",
-    "near": "thro-painted-canyon",
-    "side": "forest",
-    "region": "thro",
-    "source": "open-meteo",
-    "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 28,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "North Unit Visitor Center",
+    "area": "Painted Canyon",
     "state": "ND",
-    "near": "thro-north",
+    "near": "thro-painted-canyon",
     "side": "forest",
     "region": "thro",
     "source": "open-meteo",
-    "date": "2026-11-19",
-    "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-21",
+    "pollutant": "O3",
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -135,7 +120,22 @@
     "source": "open-meteo",
     "date": "2026-11-20",
     "pollutant": "PM2.5",
-    "aqi": 40,
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "North Unit Visitor Center",
+    "state": "ND",
+    "near": "thro-north",
+    "side": "forest",
+    "region": "thro",
+    "source": "open-meteo",
+    "date": "2026-11-21",
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -144,29 +144,41 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "amegfi",
+    "name": "American Goldfinch",
+    "sci": "Spinus tristis",
+    "count": 1,
+    "seen": "2026-11-19 13:03",
+    "place": "Theodore Roosevelt NP--Old East Entrance Trail",
+    "lat": 46.913,
+    "lon": -103.429,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
    {
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 8,
-    "seen": "2026-11-19 08:14",
-    "place": "Theodore Roosevelt NP--Scenic Drive (North Unit)",
-    "lat": 47.593,
-    "lon": -103.308,
+    "count": 1,
+    "seen": "2026-11-19 12:35",
+    "place": "Theodore Roosevelt NP--Ridgeline Trail",
+    "lat": 46.922,
+    "lon": -103.463,
     "notable": false,
-    "near": "North Unit Visitor Center"
+    "near": "South Unit Visitor Center in Medora"
    },
    {
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
-    "count": 3,
-    "seen": "2026-11-13 08:05",
-    "place": "Theodore Roosevelt NP--Prairie Dog Metropolis",
-    "lat": 46.931,
-    "lon": -103.514,
+    "count": 2,
+    "seen": "2026-11-19 12:06",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
     "notable": false,
     "near": "South Unit Visitor Center in Medora"
    },
@@ -175,12 +187,12 @@
     "name": "Black-capped Chickadee",
     "sci": "Poecile atricapillus",
     "count": 2,
-    "seen": "2026-11-19 08:14",
-    "place": "Theodore Roosevelt NP--Scenic Drive (North Unit)",
-    "lat": 47.593,
-    "lon": -103.308,
+    "seen": "2026-11-19 12:35",
+    "place": "Theodore Roosevelt NP--Ridgeline Trail",
+    "lat": 46.922,
+    "lon": -103.463,
     "notable": false,
-    "near": "North Unit Visitor Center"
+    "near": "South Unit Visitor Center in Medora"
    },
    {
     "code": "bohwax",
@@ -191,6 +203,78 @@
     "place": "Theodore Roosevelt NP--Scenic Drive (North Unit)",
     "lat": 47.593,
     "lon": -103.308,
+    "notable": false,
+    "near": "North Unit Visitor Center"
+   },
+   {
+    "code": "cacgoo1",
+    "name": "Cackling Goose",
+    "sci": "Branta hutchinsii",
+    "count": 1,
+    "seen": "2026-11-19 11:42",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "cedwax",
+    "name": "Cedar Waxwing",
+    "sci": "Bombycilla cedrorum",
+    "count": 20,
+    "seen": "2026-11-19 11:42",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 2,
+    "seen": "2026-11-19 12:35",
+    "place": "Theodore Roosevelt NP--Ridgeline Trail",
+    "lat": 46.922,
+    "lon": -103.463,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "grhowl",
+    "name": "Great Horned Owl",
+    "sci": "Bubo virginianus",
+    "count": 1,
+    "seen": "2026-11-19 11:42",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "gwfgoo",
+    "name": "Greater White-fronted Goose",
+    "sci": "Anser albifrons",
+    "count": 1,
+    "seen": "2026-11-19 11:42",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "gnwtea",
+    "name": "Green-winged Teal",
+    "sci": "Anas crecca",
+    "count": 2,
+    "seen": "2026-11-19 10:50",
+    "place": "Theodore Roosevelt NP--Little Mo Nature Trail",
+    "lat": 47.594,
+    "lon": -103.332,
     "notable": false,
     "near": "North Unit Visitor Center"
    },
@@ -211,12 +295,24 @@
     "name": "Northern Shrike",
     "sci": "Lanius borealis",
     "count": 1,
-    "seen": "2026-11-19 10:09",
-    "place": "Theodore Roosevelt NP--Bentonitic Clay Overlook",
-    "lat": 47.624,
-    "lon": -103.38,
+    "seen": "2026-11-19 14:11",
+    "place": "Theodore Roosevelt NP--Peaceful Valley Ranch",
+    "lat": 46.959,
+    "lon": -103.504,
     "notable": false,
-    "near": "North Unit Visitor Center"
+    "near": "South Unit Visitor Center in Medora"
+   },
+   {
+    "code": "rinphe1",
+    "name": "Ring-necked Pheasant",
+    "sci": "Phasianus colchicus",
+    "count": 4,
+    "seen": "2026-11-19 11:42",
+    "place": "Theodore Roosevelt NP--Scenic Loop Drive",
+    "lat": 46.986,
+    "lon": -103.449,
+    "notable": false,
+    "near": "South Unit Visitor Center in Medora"
    },
    {
     "code": "rolhaw",
@@ -234,15 +330,14 @@
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 32,
-    "seen": "2026-11-13 09:37",
-    "place": "Theodore Roosevelt NP--Peaceful Valley Ranch",
-    "lat": 46.959,
-    "lon": -103.504,
+    "count": 7,
+    "seen": "2026-11-19 13:03",
+    "place": "Theodore Roosevelt NP--Old East Entrance Trail",
+    "lat": 46.913,
+    "lon": -103.429,
     "notable": false,
     "near": "South Unit Visitor Center in Medora"
    }
-  ],
-  "staleSince": "2026-11-20T02:23:52Z"
+  ]
  }
 }

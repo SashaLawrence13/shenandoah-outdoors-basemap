@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-20T02:23:52Z",
+ "fetchedAt": "2026-11-20T11:53:57Z",
  "region": "drto",
  "air": {
   "status": "ok",
@@ -14,28 +14,13 @@
     "lat": 24.6285,
     "lon": -82.8732,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-19 21:00 local"
+    "observed": "2026-11-20 6:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Garden Key",
-    "state": "FL",
-    "near": "drto-garden-key",
-    "side": "forest",
-    "region": "drto",
-    "source": "open-meteo",
-    "date": "2026-11-19",
-    "pollutant": "O3",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Garden Key",
     "state": "FL",
@@ -50,11 +35,26 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Garden Key",
+    "state": "FL",
+    "near": "drto-garden-key",
+    "side": "forest",
+    "region": "drto",
+    "source": "open-meteo",
+    "date": "2026-11-21",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "ameavo",
@@ -169,7 +169,7 @@
     "name": "Hudsonian Whimbrel",
     "sci": "Numenius hudsonicus",
     "count": 1,
-    "seen": "2026-11-14 07:19",
+    "seen": "2026-11-19 13:30",
     "place": "Dry Tortugas NP--Bush Key",
     "lat": 24.628,
     "lon": -82.866,
@@ -336,11 +336,11 @@
     "code": "amekes",
     "name": "American Kestrel",
     "sci": "Falco sparverius",
-    "count": 2,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 3,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -420,11 +420,11 @@
     "code": "brnpel",
     "name": "Brown Pelican",
     "sci": "Pelecanus occidentalis",
-    "count": 1,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 10,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -468,8 +468,8 @@
     "code": "laugul",
     "name": "Laughing Gull",
     "sci": "Leucophaeus atricilla",
-    "count": 100,
-    "seen": "2026-11-15 15:21",
+    "count": 45,
+    "seen": "2026-11-19 10:35",
     "place": "Dry Tortugas NP--Garden Key",
     "lat": 24.628,
     "lon": -82.873,
@@ -477,14 +477,26 @@
     "near": "Garden Key"
    },
    {
+    "code": "leasan",
+    "name": "Least Sandpiper",
+    "sci": "Calidris minutilla",
+    "count": 1,
+    "seen": "2026-11-19 13:30",
+    "place": "Dry Tortugas NP--Bush Key",
+    "lat": 24.628,
+    "lon": -82.866,
+    "notable": false,
+    "near": "Garden Key"
+   },
+   {
     "code": "magfri",
     "name": "Magnificent Frigatebird",
     "sci": "Fregata magnificens",
-    "count": 100,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": null,
+    "seen": "2026-11-19 13:30",
+    "place": "Dry Tortugas NP--Bush Key",
+    "lat": 24.628,
+    "lon": -82.866,
     "notable": false,
     "near": "Garden Key"
    },
@@ -517,7 +529,7 @@
     "name": "Mourning Dove",
     "sci": "Zenaida macroura",
     "count": 1,
-    "seen": "2026-11-13 10:30",
+    "seen": "2026-11-19 10:35",
     "place": "Dry Tortugas NP--Garden Key",
     "lat": 24.628,
     "lon": -82.873,
@@ -528,11 +540,11 @@
     "code": "norgan",
     "name": "Northern Gannet",
     "sci": "Morus bassanus",
-    "count": 4,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 2,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -601,10 +613,10 @@
     "name": "Rock Pigeon",
     "sci": "Columba livia",
     "count": 1,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -612,11 +624,11 @@
     "code": "royter1",
     "name": "Royal Tern",
     "sci": "Thalasseus maximus",
-    "count": 9,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 5,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -624,11 +636,11 @@
     "code": "rudtur",
     "name": "Ruddy Turnstone",
     "sci": "Arenaria interpres",
-    "count": 20,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 13,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -672,11 +684,11 @@
     "code": "categr1",
     "name": "Western Cattle-Egret",
     "sci": "Ardea ibis",
-    "count": 1,
-    "seen": "2026-11-17 10:38",
-    "place": "Dry Tortugas NP (Please consider using more specific locations)",
-    "lat": 24.634,
-    "lon": -82.87,
+    "count": 2,
+    "seen": "2026-11-19 10:35",
+    "place": "Dry Tortugas NP--Garden Key",
+    "lat": 24.628,
+    "lon": -82.873,
     "notable": false,
     "near": "Garden Key"
    },
@@ -704,7 +716,6 @@
     "notable": false,
     "near": "Garden Key"
    }
-  ],
-  "staleSince": "2026-11-20T02:23:52Z"
+  ]
  }
 }
