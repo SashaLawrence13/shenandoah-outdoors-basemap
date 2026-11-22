@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-22T01:24:57Z",
+ "fetchedAt": "2026-11-22T11:39:10Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.4646,
     "lon": -80.3349,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 35,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-21 20:00 local"
+    "observed": "2026-11-22 6:00 local"
    },
    {
     "area": "Elliott Key",
@@ -29,10 +29,10 @@
     "lat": 25.4532,
     "lon": -80.1966,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-21 20:00 local"
+    "observed": "2026-11-22 6:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-11-21",
-    "pollutant": "PM2.5",
-    "aqi": 40,
+    "date": "2026-11-22",
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 35,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Elliott Key",
-    "state": "FL",
-    "near": "bisc-elliott",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-11-21",
-    "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +75,22 @@
     "source": "open-meteo",
     "date": "2026-11-22",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
+    "date": "2026-11-23",
+    "pollutant": "O3",
+    "aqi": 41,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -101,18 +101,6 @@
  "birds": {
   "status": "ok",
   "list": [
-   {
-    "code": "brnboo",
-    "name": "Brown Booby",
-    "sci": "Sula leucogaster",
-    "count": 2,
-    "seen": "2026-11-21 12:40",
-    "place": "Biscayne NP--Elliott Key",
-    "lat": 25.452,
-    "lon": -80.194,
-    "notable": true,
-    "near": "Convoy Point"
-   },
    {
     "code": "bulori",
     "name": "Bullock's Oriole",
@@ -417,11 +405,11 @@
     "code": "bawwar",
     "name": "Black-and-white Warbler",
     "sci": "Mniotilta varia",
-    "count": 2,
-    "seen": "2026-11-21 08:46",
-    "place": "Biscayne NP--Dante Fascell Visitor Center",
-    "lat": 25.464,
-    "lon": -80.335,
+    "count": 1,
+    "seen": "2026-11-21 10:36",
+    "place": "Black Point Park and Marina",
+    "lat": 25.54,
+    "lon": -80.327,
     "notable": false,
     "near": "Convoy Point"
    },
@@ -537,7 +525,7 @@
     "code": "buwtea",
     "name": "Blue-winged Teal",
     "sci": "Spatula discors",
-    "count": 13,
+    "count": 18,
     "seen": "2026-11-21 13:35",
     "place": "Dump Marsh West",
     "lat": 25.538,
@@ -894,6 +882,18 @@
     "near": "Convoy Point"
    },
    {
+    "code": "grhowl",
+    "name": "Great Horned Owl",
+    "sci": "Bubo virginianus",
+    "count": 1,
+    "seen": "2026-11-21 19:13",
+    "place": "Biscayne NP--Dante Fascell Visitor Center",
+    "lat": 25.464,
+    "lon": -80.335,
+    "notable": false,
+    "near": "Convoy Point"
+   },
+   {
     "code": "greyel",
     "name": "Greater Yellowlegs",
     "sci": "Tringa melanoleuca",
@@ -921,7 +921,7 @@
     "code": "gnwtea",
     "name": "Green-winged Teal",
     "sci": "Anas crecca",
-    "count": 2,
+    "count": 8,
     "seen": "2026-11-21 13:35",
     "place": "Dump Marsh West",
     "lat": 25.538,
@@ -1131,7 +1131,7 @@
     "lat": 25.538,
     "lon": -80.356,
     "notable": false,
-    "near": "Convoy Point"
+    "near": "Elliott Key"
    },
    {
     "code": "motduc",
@@ -1155,7 +1155,7 @@
     "lat": 25.554,
     "lon": -80.346,
     "notable": false,
-    "near": "Convoy Point"
+    "near": "Elliott Key"
    },
    {
     "code": "musduc",
@@ -1245,7 +1245,7 @@
     "code": "norpin",
     "name": "Northern Pintail",
     "sci": "Anas acuta",
-    "count": 3,
+    "count": 11,
     "seen": "2026-11-21 13:35",
     "place": "Dump Marsh West",
     "lat": 25.538,
@@ -1542,18 +1542,6 @@
     "near": "Convoy Point"
    },
    {
-    "code": "sancra",
-    "name": "Sandhill Crane",
-    "sci": "Antigone canadensis",
-    "count": 17,
-    "seen": "2026-11-20 15:54",
-    "place": "L31W Canal (north of SR9336)",
-    "lat": 25.399,
-    "lon": -80.573,
-    "notable": false,
-    "near": "Convoy Point"
-   },
-   {
     "code": "savspa",
     "name": "Savannah Sparrow",
     "sci": "Passerculus sandwichensis",
@@ -1683,7 +1671,7 @@
     "lat": 25.535,
     "lon": -80.343,
     "notable": false,
-    "near": "Convoy Point"
+    "near": "Elliott Key"
    },
    {
     "code": "swaspa",
@@ -1894,10 +1882,10 @@
     "name": "Yellow-crowned Night Heron",
     "sci": "Nyctanassa violacea",
     "count": 1,
-    "seen": "2026-11-21 08:46",
-    "place": "Biscayne NP--Dante Fascell Visitor Center",
-    "lat": 25.464,
-    "lon": -80.335,
+    "seen": "2026-11-21 10:36",
+    "place": "Black Point Park and Marina",
+    "lat": 25.54,
+    "lon": -80.327,
     "notable": false,
     "near": "Convoy Point"
    },
@@ -1910,6 +1898,18 @@
     "place": "Southern Glades Trail (C111 Canal outside ENP)",
     "lat": 25.403,
     "lon": -80.559,
+    "notable": false,
+    "near": "Convoy Point"
+   },
+   {
+    "code": "yetvir",
+    "name": "Yellow-throated Vireo",
+    "sci": "Vireo flavifrons",
+    "count": 1,
+    "seen": "2026-11-21 07:31",
+    "place": "Biscayne NP--Dante Fascell Visitor Center",
+    "lat": 25.464,
+    "lon": -80.335,
     "notable": false,
     "near": "Convoy Point"
    },
