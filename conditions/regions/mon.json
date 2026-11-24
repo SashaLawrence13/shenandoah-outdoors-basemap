@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-23T13:10:44Z",
+ "fetchedAt": "2026-11-24T02:18:51Z",
  "region": "mon",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Dolly Sods and Canaan",
@@ -14,10 +14,10 @@
     "lat": 39.07,
     "lon": -79.38,
     "pollutant": "PM2.5",
-    "aqi": 58,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-11-22 20:00 local"
+    "aqi": 27,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-11-23 21:00 local"
    },
    {
     "area": "Spruce Knob",
@@ -29,10 +29,10 @@
     "lat": 38.7,
     "lon": -79.53,
     "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 20:00 local"
+    "observed": "2026-11-23 21:00 local"
    },
    {
     "area": "Cranberry and Greenbrier",
@@ -44,10 +44,10 @@
     "lat": 38.22,
     "lon": -80.26,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 20:00 local"
+    "observed": "2026-11-23 21:00 local"
    },
    {
     "area": "Southern Monongahela",
@@ -59,10 +59,10 @@
     "lat": 37.95,
     "lon": -80.25,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 24,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 20:00 local"
+    "observed": "2026-11-23 21:00 local"
    }
   ],
   "forecasts": [
@@ -73,9 +73,9 @@
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "pollutant": "PM2.5",
-    "aqi": 59,
+    "aqi": 58,
     "category": "Moderate",
     "level": 2,
     "actionDay": false,
@@ -88,24 +88,9 @@
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-11-23",
-    "pollutant": "PM2.5",
-    "aqi": 56,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Spruce Knob",
-    "state": "WV",
-    "near": "mon-spruce-knob",
-    "side": "forest",
-    "region": "mon",
-    "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-24",
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -120,22 +105,22 @@
     "source": "open-meteo",
     "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 35,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    },
    {
-    "area": "Cranberry and Greenbrier",
+    "area": "Spruce Knob",
     "state": "WV",
-    "near": "mon-cranberry",
+    "near": "mon-spruce-knob",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-24",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -157,15 +142,15 @@
     "discussion": ""
    },
    {
-    "area": "Southern Monongahela",
+    "area": "Cranberry and Greenbrier",
     "state": "WV",
-    "near": "mon-greenbrier-south",
+    "near": "mon-cranberry",
     "side": "forest",
     "region": "mon",
     "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-24",
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -179,15 +164,29 @@
     "region": "mon",
     "source": "open-meteo",
     "date": "2026-11-23",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "aqi": 33,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Southern Monongahela",
+    "state": "WV",
+    "near": "mon-greenbrier-south",
+    "side": "forest",
+    "region": "mon",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "O3",
+    "aqi": 29,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-23T13:10:44Z"
+  ]
  },
  "birds": {
   "status": "ok",
@@ -208,35 +207,35 @@
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 1,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "count": 2,
+    "seen": "2026-11-23 14:36",
+    "place": "Hardscrabble Road (Route 644)",
+    "lat": 38.526,
+    "lon": -79.57,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Spruce Knob"
    },
    {
     "code": "amegfi",
     "name": "American Goldfinch",
     "sci": "Spinus tristis",
-    "count": 5,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "count": 2,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "amekes",
     "name": "American Kestrel",
     "sci": "Falco sparverius",
-    "count": 2,
-    "seen": "2026-11-20 15:33",
-    "place": "Wimer Mountain Road (Route 640)",
-    "lat": 38.524,
-    "lon": -79.539,
+    "count": 1,
+    "seen": "2026-11-23 14:36",
+    "place": "Hardscrabble Road (Route 644)",
+    "lat": 38.526,
+    "lon": -79.57,
     "notable": false,
     "near": "Spruce Knob"
    },
@@ -245,12 +244,12 @@
     "name": "American Robin",
     "sci": "Turdus migratorius",
     "count": 2,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "baleag",
@@ -280,13 +279,13 @@
     "code": "bkcchi",
     "name": "Black-capped Chickadee",
     "sci": "Poecile atricapillus",
-    "count": 2,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "count": 4,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "blujay",
@@ -340,13 +339,25 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 30,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "count": 7,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
+   },
+   {
+    "code": "carwre",
+    "name": "Carolina Wren",
+    "sci": "Thryothorus ludovicianus",
+    "count": 1,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
+    "notable": false,
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "comrav",
@@ -409,16 +420,28 @@
     "near": "Cranberry and Greenbrier"
    },
    {
+    "code": "eursta",
+    "name": "European Starling",
+    "sci": "Sturnus vulgaris",
+    "count": 150,
+    "seen": "2026-11-23 14:36",
+    "place": "Hardscrabble Road (Route 644)",
+    "lat": 38.526,
+    "lon": -79.57,
+    "notable": false,
+    "near": "Spruce Knob"
+   },
+   {
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 2,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "count": 4,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "grbher3",
@@ -449,12 +472,12 @@
     "name": "Hairy Woodpecker",
     "sci": "Leuconotopicus villosus",
     "count": 1,
-    "seen": "2026-11-22 15:14",
-    "place": "Pocahontas/Greenbrier County line, Brownstown Rd.",
-    "lat": 38.046,
-    "lon": -80.25,
+    "seen": "2026-11-23 11:43",
+    "place": "Blackwater Falls SP--Pase Point",
+    "lat": 39.112,
+    "lon": -79.515,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Dolly Sods and Canaan"
    },
    {
     "code": "hoomer",
@@ -515,6 +538,18 @@
     "lon": -80.25,
     "notable": false,
     "near": "Cranberry and Greenbrier"
+   },
+   {
+    "code": "normoc",
+    "name": "Northern Mockingbird",
+    "sci": "Mimus polyglottos",
+    "count": 3,
+    "seen": "2026-11-23 14:36",
+    "place": "Hardscrabble Road (Route 644)",
+    "lat": 38.526,
+    "lon": -79.57,
+    "notable": false,
+    "near": "Spruce Knob"
    },
    {
     "code": "pibgre",
@@ -592,13 +627,13 @@
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
-    "count": 1,
-    "seen": "2026-11-18 11:03",
-    "place": "Highland Scenic Hwy--Red Lick Overlook",
-    "lat": 38.309,
-    "lon": -80.138,
+    "count": 3,
+    "seen": "2026-11-23 14:36",
+    "place": "Hardscrabble Road (Route 644)",
+    "lat": 38.526,
+    "lon": -79.57,
     "notable": false,
-    "near": "Cranberry and Greenbrier"
+    "near": "Spruce Knob"
    },
    {
     "code": "rinduc",

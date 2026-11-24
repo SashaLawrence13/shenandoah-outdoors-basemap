@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-23T13:10:44Z",
+ "fetchedAt": "2026-11-24T02:18:51Z",
  "region": "wica",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Wind Cave Visitor Center",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 43.5567,
     "lon": -103.4785,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 18:00 local"
+    "observed": "2026-11-23 19:00 local"
    },
    {
     "area": "Rankin Ridge",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 43.6227,
     "lon": -103.4859,
-    "pollutant": "O3",
-    "aqi": 40,
+    "pollutant": "PM2.5",
+    "aqi": 25,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 18:00 local"
+    "observed": "2026-11-23 19:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "wica",
     "source": "open-meteo",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 31,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "wica",
     "source": "open-meteo",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "pollutant": "O3",
-    "aqi": 32,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Rankin Ridge",
-    "state": "SD",
-    "near": "wica-north",
-    "side": "forest",
-    "region": "wica",
-    "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,17 +75,31 @@
     "source": "open-meteo",
     "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 32,
+    "aqi": 31,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Rankin Ridge",
+    "state": "SD",
+    "near": "wica-north",
+    "side": "forest",
+    "region": "wica",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "O3",
+    "aqi": 36,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-23T13:10:44Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -390,6 +389,7 @@
     "notable": false,
     "near": "Wind Cave Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-24T02:18:51Z"
  }
 }

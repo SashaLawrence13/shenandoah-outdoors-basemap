@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-23T13:10:44Z",
+ "fetchedAt": "2026-11-24T02:18:51Z",
  "region": "seki",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Giant Forest",
@@ -14,10 +14,10 @@
     "lat": 36.5651,
     "lon": -118.7683,
     "pollutant": "PM2.5",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-11-23 18:00 local"
    },
    {
     "area": "Lodgepole",
@@ -29,10 +29,10 @@
     "lat": 36.6047,
     "lon": -118.7202,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "observed": "2026-11-23 18:00 local"
    },
    {
     "area": "Grant Grove",
@@ -44,10 +44,10 @@
     "lat": 36.7405,
     "lon": -118.9688,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "observed": "2026-11-23 18:00 local"
    },
    {
     "area": "Cedar Grove",
@@ -59,10 +59,10 @@
     "lat": 36.7898,
     "lon": -118.6713,
     "pollutant": "O3",
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "observed": "2026-11-23 18:00 local"
    },
    {
     "area": "Mineral King",
@@ -73,11 +73,11 @@
     "source": "open-meteo",
     "lat": 36.4504,
     "lon": -118.5973,
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "aqi": 49,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "observed": "2026-11-23 18:00 local"
    },
    {
     "area": "Hospital Rock and the foothills",
@@ -89,10 +89,10 @@
     "lat": 36.5212,
     "lon": -118.7713,
     "pollutant": "PM2.5",
-    "aqi": 40,
-    "category": "Good",
-    "level": 1,
-    "observed": "2026-11-22 17:00 local"
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
+    "observed": "2026-11-23 18:00 local"
    }
   ],
   "forecasts": [
@@ -103,11 +103,11 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-11-23",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -118,101 +118,116 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "PM2.5",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lodgepole",
+    "state": "CA",
+    "near": "seki-lodgepole",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-23",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Lodgepole",
+    "state": "CA",
+    "near": "seki-lodgepole",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Grant Grove",
+    "state": "CA",
+    "near": "seki-grant-grove",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-23",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Grant Grove",
+    "state": "CA",
+    "near": "seki-grant-grove",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cedar Grove",
+    "state": "CA",
+    "near": "seki-cedar-grove",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-23",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Cedar Grove",
+    "state": "CA",
+    "near": "seki-cedar-grove",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "O3",
+    "aqi": 46,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Mineral King",
+    "state": "CA",
+    "near": "seki-mineral-king",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
     "date": "2026-11-23",
     "pollutant": "PM2.5",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lodgepole",
-    "state": "CA",
-    "near": "seki-lodgepole",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Lodgepole",
-    "state": "CA",
-    "near": "seki-lodgepole",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-23",
-    "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Grant Grove",
-    "state": "CA",
-    "near": "seki-grant-grove",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Grant Grove",
-    "state": "CA",
-    "near": "seki-grant-grove",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-23",
-    "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cedar Grove",
-    "state": "CA",
-    "near": "seki-cedar-grove",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 45,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Cedar Grove",
-    "state": "CA",
-    "near": "seki-cedar-grove",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-23",
-    "pollutant": "O3",
-    "aqi": 46,
-    "category": "Good",
-    "level": 1,
+    "aqi": 51,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -223,22 +238,7 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 49,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Mineral King",
-    "state": "CA",
-    "near": "seki-mineral-king",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "pollutant": "O3",
     "aqi": 47,
     "category": "Good",
@@ -253,11 +253,11 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 43,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-11-23",
+    "pollutant": "PM2.5",
+    "aqi": 53,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    },
@@ -268,19 +268,18 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "pollutant": "PM2.5",
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-23T13:10:44Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "y00475",
@@ -858,6 +857,7 @@
     "notable": false,
     "near": "Giant Forest"
    }
-  ]
+  ],
+  "staleSince": "2026-11-24T02:18:51Z"
  }
 }

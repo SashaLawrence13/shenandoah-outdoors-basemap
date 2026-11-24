@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-23T13:10:44Z",
+ "fetchedAt": "2026-11-24T02:18:51Z",
  "region": "maca",
  "air": {
-  "status": "stale",
+  "status": "ok",
   "observations": [
    {
     "area": "Visitor center",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 37.187,
     "lon": -86.1011,
-    "pollutant": "O3",
-    "aqi": 36,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 19:00 local"
+    "observed": "2026-11-23 20:00 local"
    },
    {
     "area": "Big Hollow and Maple Springs",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 37.213,
     "lon": -86.133,
-    "pollutant": "O3",
-    "aqi": 36,
+    "pollutant": "PM2.5",
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-22 19:00 local"
+    "observed": "2026-11-23 20:00 local"
    }
   ],
   "forecasts": [
@@ -43,39 +43,9 @@
     "side": "forest",
     "region": "maca",
     "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 36,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Visitor center",
-    "state": "KY",
-    "near": "maca-visitor-center",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
     "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 27,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Big Hollow and Maple Springs",
-    "state": "KY",
-    "near": "maca-north",
-    "side": "forest",
-    "region": "maca",
-    "source": "open-meteo",
-    "date": "2026-11-22",
-    "pollutant": "O3",
-    "aqi": 36,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,17 +60,31 @@
     "source": "open-meteo",
     "date": "2026-11-23",
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 29,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Big Hollow and Maple Springs",
+    "state": "KY",
+    "near": "maca-north",
+    "side": "forest",
+    "region": "maca",
+    "source": "open-meteo",
+    "date": "2026-11-24",
+    "pollutant": "PM2.5",
+    "aqi": 28,
     "category": "Good",
     "level": 1,
     "actionDay": false,
     "discussion": ""
    }
-  ],
-  "staleSince": "2026-11-23T13:10:44Z"
+  ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amecro",
@@ -462,6 +446,7 @@
     "notable": false,
     "near": "Visitor center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-24T02:18:51Z"
  }
 }
