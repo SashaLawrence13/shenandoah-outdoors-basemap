@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-24T23:56:52Z",
+ "fetchedAt": "2026-11-25T08:49:59Z",
  "region": "havo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 19.4295,
     "lon": -155.2575,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-24 13:00 local"
+    "observed": "2026-11-24 22:00 local"
    },
    {
     "area": "End of Chain of Craters Road",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 19.2944,
     "lon": -155.0868,
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-24 13:00 local"
+    "observed": "2026-11-24 22:00 local"
    },
    {
     "area": "Mauna Loa Road",
@@ -44,10 +44,10 @@
     "lat": 19.4934,
     "lon": -155.3843,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 28,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-24 13:00 local"
+    "observed": "2026-11-24 22:00 local"
    },
    {
     "area": "Kahuku",
@@ -59,10 +59,10 @@
     "lat": 19.13,
     "lon": -155.68,
     "pollutant": "O3",
-    "aqi": 29,
+    "aqi": 30,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-24 13:00 local"
+    "observed": "2026-11-24 22:00 local"
    }
   ],
   "forecasts": [
@@ -192,14 +192,26 @@
   "status": "ok",
   "list": [
    {
-    "code": "comwax",
-    "name": "Common Waxbill",
-    "sci": "Estrilda astrild",
-    "count": 2,
-    "seen": "2026-11-20 15:31",
+    "code": "apapan",
+    "name": "Apapane",
+    "sci": "Himatione sanguinea",
+    "count": 12,
+    "seen": "2026-11-24 14:17",
     "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
     "lat": 19.407,
     "lon": -155.253,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
+   },
+   {
+    "code": "comwax",
+    "name": "Common Waxbill",
+    "sci": "Estrilda astrild",
+    "count": 3,
+    "seen": "2026-11-24 12:46",
+    "place": "Hawaiʻi Volcanoes NP--Kīlauea Iki and Thurston Lava Tube",
+    "lat": 19.414,
+    "lon": -155.239,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    },
@@ -213,7 +225,7 @@
     "lat": 19.407,
     "lon": -155.253,
     "notable": false,
-    "near": "Kīlauea Visitor Center"
+    "near": "End of Chain of Craters Road"
    },
    {
     "code": "skylar",
@@ -226,6 +238,18 @@
     "lon": -155.466,
     "notable": false,
     "near": "Mauna Loa Road"
+   },
+   {
+    "code": "hawama",
+    "name": "Hawaii Amakihi",
+    "sci": "Chlorodrepanis virens",
+    "count": 5,
+    "seen": "2026-11-24 14:17",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "elepai",
@@ -243,11 +267,11 @@
     "code": "hawgoo",
     "name": "Hawaiian Goose",
     "sci": "Branta sandvicensis",
-    "count": 1,
-    "seen": "2026-11-23 17:17",
-    "place": "Hawai'i Volcanoes NP--Jaggar Museum Area",
-    "lat": 19.42,
-    "lon": -155.289,
+    "count": 3,
+    "seen": "2026-11-24 14:17",
+    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
+    "lat": 19.407,
+    "lon": -155.253,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    },
@@ -256,10 +280,10 @@
     "name": "Hawaiian Hawk",
     "sci": "Buteo solitarius",
     "count": 1,
-    "seen": "2026-11-23 10:44",
-    "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
-    "lat": 19.407,
-    "lon": -155.253,
+    "seen": "2026-11-24 12:46",
+    "place": "Hawaiʻi Volcanoes NP--Kīlauea Iki and Thurston Lava Tube",
+    "lat": 19.414,
+    "lon": -155.239,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    },
@@ -268,24 +292,12 @@
     "name": "Iiwi",
     "sci": "Drepanis coccinea",
     "count": 5,
-    "seen": "2026-11-23 07:29",
+    "seen": "2026-11-24 13:11",
     "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
     "lat": 19.671,
     "lon": -155.368,
     "notable": false,
     "near": "Mauna Loa Road"
-   },
-   {
-    "code": "kalphe",
-    "name": "Kalij Pheasant",
-    "sci": "Lophura leucomelanos",
-    "count": 2,
-    "seen": "2026-11-23 17:58",
-    "place": "Hawai'i Volcanoes NP--Jaggar Museum Area",
-    "lat": 19.42,
-    "lon": -155.289,
-    "notable": false,
-    "near": "Kīlauea Visitor Center"
    },
    {
     "code": "norcar",
@@ -303,8 +315,8 @@
     "code": "omao",
     "name": "Omao",
     "sci": "Myadestes obscurus",
-    "count": 10,
-    "seen": "2026-11-23 07:29",
+    "count": 6,
+    "seen": "2026-11-24 13:11",
     "place": "Kaulana Manu Nature Trail (\"Kīpuka 21\")",
     "lat": 19.671,
     "lon": -155.368,
@@ -336,14 +348,26 @@
     "near": "Kīlauea Visitor Center"
    },
    {
-    "code": "zebdov",
-    "name": "Zebra Dove",
-    "sci": "Geopelia striata",
-    "count": 1,
-    "seen": "2026-11-23 10:44",
+    "code": "warwhe1",
+    "name": "Warbling White-eye",
+    "sci": "Zosterops japonicus",
+    "count": 5,
+    "seen": "2026-11-24 14:17",
     "place": "Hawaiʻi Volcanoes NP--Devastation Trail",
     "lat": 19.407,
     "lon": -155.253,
+    "notable": false,
+    "near": "Kīlauea Visitor Center"
+   },
+   {
+    "code": "yebcar",
+    "name": "Yellow-billed Cardinal",
+    "sci": "Paroaria capitata",
+    "count": 1,
+    "seen": "2026-11-24 11:34",
+    "place": "Hawai'i Volcanoes NP--Visitor Center and Volcano House",
+    "lat": 19.43,
+    "lon": -155.258,
     "notable": false,
     "near": "Kīlauea Visitor Center"
    }
