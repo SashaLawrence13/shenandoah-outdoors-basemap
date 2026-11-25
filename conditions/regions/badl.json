@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T08:49:59Z",
+ "fetchedAt": "2026-11-25T19:25:23Z",
  "region": "badl",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 43.7456,
     "lon": -102.2053,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 1:00 local"
+    "observed": "2026-11-25 12:00 local"
    },
    {
     "area": "Door and Window trails",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 43.7585,
     "lon": -102.1315,
-    "pollutant": "PM2.5",
-    "aqi": 24,
+    "pollutant": "O3",
+    "aqi": 14,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 1:00 local"
+    "observed": "2026-11-25 12:00 local"
    },
    {
     "area": "Sage Creek (Wilderness Area)",
@@ -44,10 +44,10 @@
     "lat": 43.77,
     "lon": -102.4,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 1:00 local"
+    "observed": "2026-11-25 12:00 local"
    },
    {
     "area": "Pinnacles Overlook",
@@ -59,10 +59,10 @@
     "lat": 43.6,
     "lon": -102.5,
     "pollutant": "PM2.5",
-    "aqi": 21,
+    "aqi": 15,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 1:00 local"
+    "observed": "2026-11-25 12:00 local"
    }
   ],
   "forecasts": [
@@ -75,7 +75,7 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -90,7 +90,7 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -115,6 +115,36 @@
     "area": "Door and Window trails",
     "state": "SD",
     "near": "badl-door-window",
+    "side": "forest",
+    "region": "badl",
+    "source": "open-meteo",
+    "date": "2026-11-26",
+    "pollutant": "O3",
+    "aqi": 25,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sage Creek (Wilderness Area)",
+    "state": "SD",
+    "near": "badl-sage-creek",
+    "side": "forest",
+    "region": "badl",
+    "source": "open-meteo",
+    "date": "2026-11-25",
+    "pollutant": "O3",
+    "aqi": 29,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Sage Creek (Wilderness Area)",
+    "state": "SD",
+    "near": "badl-sage-creek",
     "side": "forest",
     "region": "badl",
     "source": "open-meteo",
@@ -127,36 +157,6 @@
     "discussion": ""
    },
    {
-    "area": "Sage Creek (Wilderness Area)",
-    "state": "SD",
-    "near": "badl-sage-creek",
-    "side": "forest",
-    "region": "badl",
-    "source": "open-meteo",
-    "date": "2026-11-25",
-    "pollutant": "O3",
-    "aqi": 31,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Sage Creek (Wilderness Area)",
-    "state": "SD",
-    "near": "badl-sage-creek",
-    "side": "forest",
-    "region": "badl",
-    "source": "open-meteo",
-    "date": "2026-11-26",
-    "pollutant": "O3",
-    "aqi": 27,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
     "area": "Pinnacles Overlook",
     "state": "SD",
     "near": "badl-pinnacles",
@@ -165,7 +165,7 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "O3",
-    "aqi": 31,
+    "aqi": 29,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "O3",
-    "aqi": 27,
+    "aqi": 26,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -189,7 +189,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "sancra",
@@ -419,6 +419,7 @@
     "notable": false,
     "near": "Ben Reifel Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-25T19:25:23Z"
  }
 }

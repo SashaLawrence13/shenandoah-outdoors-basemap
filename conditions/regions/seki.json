@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T08:49:59Z",
+ "fetchedAt": "2026-11-25T19:25:23Z",
  "region": "seki",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 36.5651,
     "lon": -118.7683,
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    },
    {
     "area": "Lodgepole",
@@ -29,10 +29,10 @@
     "lat": 36.6047,
     "lon": -118.7202,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    },
    {
     "area": "Grant Grove",
@@ -44,10 +44,10 @@
     "lat": 36.7405,
     "lon": -118.9688,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    },
    {
     "area": "Cedar Grove",
@@ -59,10 +59,10 @@
     "lat": 36.7898,
     "lon": -118.6713,
     "pollutant": "O3",
-    "aqi": 38,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    },
    {
     "area": "Mineral King",
@@ -74,10 +74,10 @@
     "lat": 36.4504,
     "lon": -118.5973,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 43,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    },
    {
     "area": "Hospital Rock and the foothills",
@@ -89,10 +89,10 @@
     "lat": 36.5212,
     "lon": -118.7713,
     "pollutant": "PM2.5",
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 0:00 local"
+    "observed": "2026-11-25 11:00 local"
    }
   ],
   "forecasts": [
@@ -105,9 +105,9 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 49,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -120,7 +120,7 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -240,6 +240,21 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "O3",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Hospital Rock and the foothills",
+    "state": "CA",
+    "near": "seki-foothills",
+    "side": "forest",
+    "region": "seki",
+    "source": "open-meteo",
+    "date": "2026-11-25",
+    "pollutant": "PM2.5",
     "aqi": 49,
     "category": "Good",
     "level": 1,
@@ -253,24 +268,9 @@
     "side": "forest",
     "region": "seki",
     "source": "open-meteo",
-    "date": "2026-11-25",
-    "pollutant": "PM2.5",
-    "aqi": 52,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Hospital Rock and the foothills",
-    "state": "CA",
-    "near": "seki-foothills",
-    "side": "forest",
-    "region": "seki",
-    "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "PM2.5",
-    "aqi": 50,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -279,7 +279,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "y00475",
@@ -893,6 +893,7 @@
     "notable": false,
     "near": "Giant Forest"
    }
-  ]
+  ],
+  "staleSince": "2026-11-25T19:25:23Z"
  }
 }
