@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-26T03:38:22Z",
+ "fetchedAt": "2026-11-26T17:03:50Z",
  "region": "pefo",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 35.0658,
     "lon": -109.7808,
     "pollutant": "O3",
-    "aqi": 39,
+    "aqi": 21,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 20:00 local"
+    "observed": "2026-11-26 10:00 local"
    },
    {
     "area": "Rainbow Forest Museum",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 34.8152,
     "lon": -109.8658,
-    "pollutant": "O3",
-    "aqi": 35,
+    "pollutant": "PM2.5",
+    "aqi": 42,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 20:00 local"
+    "observed": "2026-11-26 10:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -58,24 +58,9 @@
     "side": "forest",
     "region": "pefo",
     "source": "open-meteo",
-    "date": "2026-11-26",
-    "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Rainbow Forest Museum",
-    "state": "AZ",
-    "near": "pefo-rainbow-forest",
-    "side": "forest",
-    "region": "pefo",
-    "source": "open-meteo",
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "pollutant": "PM2.5",
-    "aqi": 36,
+    "aqi": 50,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -89,8 +74,23 @@
     "region": "pefo",
     "source": "open-meteo",
     "date": "2026-11-26",
-    "pollutant": "O3",
-    "aqi": 31,
+    "pollutant": "PM2.5",
+    "aqi": 45,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Rainbow Forest Museum",
+    "state": "AZ",
+    "near": "pefo-rainbow-forest",
+    "side": "forest",
+    "region": "pefo",
+    "source": "open-meteo",
+    "date": "2026-11-27",
+    "pollutant": "PM2.5",
+    "aqi": 49,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -99,7 +99,7 @@
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "daejun",
@@ -137,6 +137,7 @@
     "notable": false,
     "near": "Painted Desert Visitor Center"
    }
-  ]
+  ],
+  "staleSince": "2026-11-26T17:03:50Z"
  }
 }

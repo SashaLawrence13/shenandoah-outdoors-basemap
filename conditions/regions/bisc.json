@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-26T03:38:22Z",
+ "fetchedAt": "2026-11-26T17:03:50Z",
  "region": "bisc",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 25.4646,
     "lon": -80.3349,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 22:00 local"
+    "observed": "2026-11-26 12:00 local"
    },
    {
     "area": "Elliott Key",
@@ -29,10 +29,10 @@
     "lat": 25.4532,
     "lon": -80.1966,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 36,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 22:00 local"
+    "observed": "2026-11-26 12:00 local"
    }
   ],
   "forecasts": [
@@ -43,9 +43,9 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-11-25",
-    "pollutant": "PM2.5",
-    "aqi": 44,
+    "date": "2026-11-26",
+    "pollutant": "O3",
+    "aqi": 37,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -55,6 +55,21 @@
     "area": "Convoy Point",
     "state": "FL",
     "near": "bisc-convoy",
+    "side": "forest",
+    "region": "bisc",
+    "source": "open-meteo",
+    "date": "2026-11-27",
+    "pollutant": "PM2.5",
+    "aqi": 48,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
+   },
+   {
+    "area": "Elliott Key",
+    "state": "FL",
+    "near": "bisc-elliott",
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
@@ -73,33 +88,18 @@
     "side": "forest",
     "region": "bisc",
     "source": "open-meteo",
-    "date": "2026-11-25",
-    "pollutant": "O3",
-    "aqi": 38,
-    "category": "Good",
-    "level": 1,
-    "actionDay": false,
-    "discussion": ""
-   },
-   {
-    "area": "Elliott Key",
-    "state": "FL",
-    "near": "bisc-elliott",
-    "side": "forest",
-    "region": "bisc",
-    "source": "open-meteo",
-    "date": "2026-11-26",
-    "pollutant": "O3",
-    "aqi": 41,
-    "category": "Good",
-    "level": 1,
+    "date": "2026-11-27",
+    "pollutant": "PM2.5",
+    "aqi": 52,
+    "category": "Moderate",
+    "level": 2,
     "actionDay": false,
     "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "ok",
+  "status": "stale",
   "list": [
    {
     "code": "amepip",
@@ -1769,6 +1769,7 @@
     "notable": false,
     "near": "Convoy Point"
    }
-  ]
+  ],
+  "staleSince": "2026-11-26T17:03:50Z"
  }
 }
