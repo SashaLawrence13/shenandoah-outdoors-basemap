@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T19:25:23Z",
+ "fetchedAt": "2026-11-26T03:38:22Z",
  "region": "seki",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 36.5651,
     "lon": -118.7683,
     "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Lodgepole",
@@ -29,10 +29,10 @@
     "lat": 36.6047,
     "lon": -118.7202,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Grant Grove",
@@ -44,10 +44,10 @@
     "lat": 36.7405,
     "lon": -118.9688,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Cedar Grove",
@@ -59,10 +59,10 @@
     "lat": 36.7898,
     "lon": -118.6713,
     "pollutant": "O3",
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Mineral King",
@@ -74,10 +74,10 @@
     "lat": 36.4504,
     "lon": -118.5973,
     "pollutant": "O3",
-    "aqi": 43,
+    "aqi": 47,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Hospital Rock and the foothills",
@@ -89,10 +89,10 @@
     "lat": 36.5212,
     "lon": -118.7713,
     "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    }
   ],
   "forecasts": [
@@ -105,7 +105,7 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "PM2.5",
-    "aqi": 49,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -119,8 +119,8 @@
     "region": "seki",
     "source": "open-meteo",
     "date": "2026-11-26",
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -255,7 +255,7 @@
     "source": "open-meteo",
     "date": "2026-11-25",
     "pollutant": "PM2.5",
-    "aqi": 49,
+    "aqi": 45,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -269,8 +269,8 @@
     "region": "seki",
     "source": "open-meteo",
     "date": "2026-11-26",
-    "pollutant": "PM2.5",
-    "aqi": 45,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -279,29 +279,41 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "acowoo",
+    "name": "Acorn Woodpecker",
+    "sci": "Melanerpes formicivorus",
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
+    "notable": false,
+    "near": "Giant Forest"
+   },
    {
     "code": "y00475",
     "name": "American Coot",
     "sci": "Fulica americana",
-    "count": 50,
-    "seen": "2026-11-23 10:52",
-    "place": "Hume Lake",
-    "lat": 36.791,
-    "lon": -118.907,
+    "count": 6,
+    "seen": "2026-11-25 11:55",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
     "notable": false,
-    "near": "Grant Grove"
+    "near": "Hospital Rock and the foothills"
    },
    {
     "code": "amecro",
     "name": "American Crow",
     "sci": "Corvus brachyrhynchos",
-    "count": 1,
-    "seen": "2026-11-23 13:49",
-    "place": "Kings Canyon NP--Grant Grove Village",
-    "lat": 36.74,
-    "lon": -118.963,
+    "count": 2,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
     "notable": false,
     "near": "Grant Grove"
    },
@@ -318,16 +330,16 @@
     "near": "Giant Forest"
    },
    {
-    "code": "amwpel",
-    "name": "American White Pelican",
-    "sci": "Pelecanus erythrorhynchos",
-    "count": 1,
-    "seen": "2026-11-19 15:55",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
+    "code": "amekes",
+    "name": "American Kestrel",
+    "sci": "Falco sparverius",
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
     "notable": false,
-    "near": "Hospital Rock and the foothills"
+    "near": "Giant Forest"
    },
    {
     "code": "amewig",
@@ -335,18 +347,6 @@
     "sci": "Mareca americana",
     "count": 14,
     "seen": "2026-11-19 15:55",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
-    "code": "baleag",
-    "name": "Bald Eagle",
-    "sci": "Haliaeetus leucocephalus",
-    "count": 1,
-    "seen": "2026-11-18 16:19",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -378,6 +378,18 @@
     "near": "Giant Forest"
    },
    {
+    "code": "blkpho",
+    "name": "Black Phoebe",
+    "sci": "Sayornis nigricans",
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
+    "notable": false,
+    "near": "Giant Forest"
+   },
+   {
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
@@ -393,25 +405,49 @@
     "code": "buffle",
     "name": "Bufflehead",
     "sci": "Bucephala albeola",
-    "count": 25,
-    "seen": "2026-11-23 10:52",
-    "place": "Hume Lake",
-    "lat": 36.791,
-    "lon": -118.907,
-    "notable": false,
-    "near": "Grant Grove"
-   },
-   {
-    "code": "calgul",
-    "name": "California Gull",
-    "sci": "Larus californicus",
-    "count": 8,
-    "seen": "2026-11-19 15:55",
+    "count": 6,
+    "seen": "2026-11-25 11:55",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
     "notable": false,
     "near": "Hospital Rock and the foothills"
+   },
+   {
+    "code": "calgul",
+    "name": "California Gull",
+    "sci": "Larus californicus",
+    "count": 4,
+    "seen": "2026-11-25 09:19",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
+    "notable": false,
+    "near": "Hospital Rock and the foothills"
+   },
+   {
+    "code": "calqua",
+    "name": "California Quail",
+    "sci": "Callipepla californica",
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
+    "notable": false,
+    "near": "Giant Forest"
+   },
+   {
+    "code": "cowscj1",
+    "name": "California Scrub-Jay",
+    "sci": "Aphelocoma californica",
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
+    "notable": false,
+    "near": "Giant Forest"
    },
    {
     "code": "caltow",
@@ -429,8 +465,20 @@
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 30,
-    "seen": "2026-11-18 16:19",
+    "count": 6,
+    "seen": "2026-11-25 11:55",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
+    "notable": false,
+    "near": "Hospital Rock and the foothills"
+   },
+   {
+    "code": "clagre",
+    "name": "Clark's Grebe",
+    "sci": "Aechmophorus clarkii",
+    "count": 8,
+    "seen": "2026-11-25 11:55",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -441,8 +489,8 @@
     "code": "commer",
     "name": "Common Merganser",
     "sci": "Mergus merganser",
-    "count": 5,
-    "seen": "2026-11-18 16:19",
+    "count": 16,
+    "seen": "2026-11-25 09:19",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -453,13 +501,37 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-11-24 11:01",
-    "place": "Sequoia NP--General Sherman Tree Trail",
-    "lat": 36.585,
-    "lon": -118.75,
+    "count": 4,
+    "seen": "2026-11-25 09:19",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
     "notable": false,
-    "near": "Cedar Grove"
+    "near": "Hospital Rock and the foothills"
+   },
+   {
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 2,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
+    "notable": false,
+    "near": "Grant Grove"
+   },
+   {
+    "code": "doccor",
+    "name": "Double-crested Cormorant",
+    "sci": "Nannopterum auritum",
+    "count": 20,
+    "seen": "2026-11-25 11:55",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
+    "notable": false,
+    "near": "Hospital Rock and the foothills"
    },
    {
     "code": "gadwal",
@@ -474,28 +546,16 @@
     "near": "Hospital Rock and the foothills"
    },
    {
-    "code": "goleag",
-    "name": "Golden Eagle",
-    "sci": "Aquila chrysaetos",
-    "count": 1,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 8,
-    "seen": "2026-11-24 12:23",
-    "place": "Sequoia NP--Giant Forest (Museum/Beetle Rock/Big Trees Trail)",
-    "lat": 36.566,
-    "lon": -118.773,
+    "count": 10,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
     "notable": false,
-    "near": "Giant Forest"
+    "near": "Grant Grove"
    },
    {
     "code": "gocspa",
@@ -526,19 +586,7 @@
     "name": "Great Egret",
     "sci": "Ardea alba",
     "count": 1,
-    "seen": "2026-11-23 10:52",
-    "place": "Hume Lake",
-    "lat": 36.791,
-    "lon": -118.907,
-    "notable": false,
-    "near": "Grant Grove"
-   },
-   {
-    "code": "gnwtea",
-    "name": "Green-winged Teal",
-    "sci": "Anas crecca",
-    "count": 21,
-    "seen": "2026-11-18 16:19",
+    "seen": "2026-11-25 11:55",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -558,23 +606,11 @@
     "near": "Giant Forest"
    },
    {
-    "code": "lewwoo",
-    "name": "Lewis's Woodpecker",
-    "sci": "Melanerpes lewis",
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
     "count": 2,
-    "seen": "2026-11-18 09:27",
-    "place": "Sequoia Riverlands Trust--Homer Ranch Preserve",
-    "lat": 36.47,
-    "lon": -119.025,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
-    "code": "linspa",
-    "name": "Lincoln's Sparrow",
-    "sci": "Melospiza lincolnii",
-    "count": 1,
-    "seen": "2026-11-18 16:19",
+    "seen": "2026-11-25 09:19",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -585,25 +621,25 @@
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
-    "count": 50,
-    "seen": "2026-11-23 10:52",
-    "place": "Hume Lake",
-    "lat": 36.791,
-    "lon": -118.907,
+    "count": 6,
+    "seen": "2026-11-25 11:55",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
     "notable": false,
-    "near": "Grant Grove"
+    "near": "Hospital Rock and the foothills"
    },
    {
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 1,
-    "seen": "2026-11-24 12:23",
-    "place": "Sequoia NP--Giant Forest (Museum/Beetle Rock/Big Trees Trail)",
-    "lat": 36.566,
-    "lon": -118.773,
+    "count": 20,
+    "seen": "2026-11-25 09:13",
+    "place": "Kings Canyon NP - General Grant Tree Trail",
+    "lat": 36.747,
+    "lon": -118.973,
     "notable": false,
-    "near": "Giant Forest"
+    "near": "Grant Grove"
    },
    {
     "code": "moudov",
@@ -618,14 +654,26 @@
     "near": "Giant Forest"
    },
    {
+    "code": "musduc",
+    "name": "Muscovy Duck",
+    "sci": "Cairina moschata",
+    "count": 1,
+    "seen": "2026-11-25 11:55",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
+    "notable": false,
+    "near": "Hospital Rock and the foothills"
+   },
+   {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
-    "count": 1,
-    "seen": "2026-11-22 08:23",
-    "place": "Sequoia NP--Marble Falls Trail",
-    "lat": 36.522,
-    "lon": -118.799,
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
     "notable": false,
     "near": "Giant Forest"
    },
@@ -645,37 +693,13 @@
     "code": "oaktit",
     "name": "Oak Titmouse",
     "sci": "Baeolophus inornatus",
-    "count": 1,
-    "seen": "2026-11-24 12:23",
-    "place": "Sequoia NP--Giant Forest (Museum/Beetle Rock/Big Trees Trail)",
-    "lat": 36.566,
-    "lon": -118.773,
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
     "notable": false,
     "near": "Giant Forest"
-   },
-   {
-    "code": "osprey",
-    "name": "Osprey",
-    "sci": "Pandion haliaetus",
-    "count": 1,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
-    "code": "pibgre",
-    "name": "Pied-billed Grebe",
-    "sci": "Podilymbus podiceps",
-    "count": 2,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
    },
    {
     "code": "pilwoo",
@@ -702,6 +726,18 @@
     "near": "Hospital Rock and the foothills"
    },
    {
+    "code": "rebnut",
+    "name": "Red-breasted Nuthatch",
+    "sci": "Sitta canadensis",
+    "count": 3,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
+    "notable": false,
+    "near": "Grant Grove"
+   },
+   {
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
@@ -714,23 +750,11 @@
     "near": "Grant Grove"
    },
    {
-    "code": "ribgul",
-    "name": "Ring-billed Gull",
-    "sci": "Larus delawarensis",
-    "count": 3,
-    "seen": "2026-11-19 15:55",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
     "code": "rocwre",
     "name": "Rock Wren",
     "sci": "Salpinctes obsoletus",
-    "count": 6,
-    "seen": "2026-11-19 15:55",
+    "count": 1,
+    "seen": "2026-11-25 09:19",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -741,25 +765,13 @@
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
-    "count": 1,
-    "seen": "2026-11-23 10:52",
-    "place": "Hume Lake",
-    "lat": 36.791,
-    "lon": -118.907,
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
     "notable": false,
-    "near": "Cedar Grove"
-   },
-   {
-    "code": "rudduc",
-    "name": "Ruddy Duck",
-    "sci": "Oxyura jamaicensis",
-    "count": 1,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
+    "near": "Giant Forest"
    },
    {
     "code": "rucspa",
@@ -786,47 +798,35 @@
     "near": "Hospital Rock and the foothills"
    },
    {
-    "code": "sposan",
-    "name": "Spotted Sandpiper",
-    "sci": "Actitis macularius",
-    "count": 1,
-    "seen": "2026-11-19 15:55",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
-    "code": "turvul",
-    "name": "Turkey Vulture",
-    "sci": "Cathartes aura",
-    "count": 3,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
-    "code": "wesblu",
-    "name": "Western Bluebird",
-    "sci": "Sialia mexicana",
+    "code": "saypho",
+    "name": "Say's Phoebe",
+    "sci": "Sayornis saya",
     "count": 2,
-    "seen": "2026-11-18 16:19",
+    "seen": "2026-11-25 09:19",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
     "notable": false,
     "near": "Hospital Rock and the foothills"
+   },
+   {
+    "code": "stejay",
+    "name": "Steller's Jay",
+    "sci": "Cyanocitta stelleri",
+    "count": 2,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
+    "notable": false,
+    "near": "Grant Grove"
    },
    {
     "code": "wesgre",
     "name": "Western Grebe",
     "sci": "Aechmophorus occidentalis",
-    "count": 4,
-    "seen": "2026-11-19 15:55",
+    "count": 16,
+    "seen": "2026-11-25 11:55",
     "place": "Lake Kaweah",
     "lat": 36.407,
     "lon": -118.983,
@@ -837,11 +837,11 @@
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
-    "count": 1,
-    "seen": "2026-11-24 12:23",
-    "place": "Sequoia NP--Giant Forest (Museum/Beetle Rock/Big Trees Trail)",
-    "lat": 36.566,
-    "lon": -118.773,
+    "count": null,
+    "seen": "2026-11-25 06:59",
+    "place": "Case Mountain Recreation Area BLM--Skyline Trail",
+    "lat": 36.453,
+    "lon": -118.87,
     "notable": false,
     "near": "Giant Forest"
    },
@@ -850,12 +850,24 @@
     "name": "White-headed Woodpecker",
     "sci": "Leuconotopicus albolarvatus",
     "count": 2,
-    "seen": "2026-11-24 12:23",
-    "place": "Sequoia NP--Giant Forest (Museum/Beetle Rock/Big Trees Trail)",
-    "lat": 36.566,
-    "lon": -118.773,
+    "seen": "2026-11-25 10:41",
+    "place": "Kings Canyon NP--Big Stump Grove",
+    "lat": 36.721,
+    "lon": -118.971,
     "notable": false,
-    "near": "Giant Forest"
+    "near": "Grant Grove"
+   },
+   {
+    "code": "whtswi",
+    "name": "White-throated Swift",
+    "sci": "Aeronautes saxatalis",
+    "count": 4,
+    "seen": "2026-11-25 09:19",
+    "place": "Lake Kaweah",
+    "lat": 36.407,
+    "lon": -118.983,
+    "notable": false,
+    "near": "Hospital Rock and the foothills"
    },
    {
     "code": "wilsap",
@@ -870,18 +882,6 @@
     "near": "Grant Grove"
    },
    {
-    "code": "wooduc",
-    "name": "Wood Duck",
-    "sci": "Aix sponsa",
-    "count": 4,
-    "seen": "2026-11-18 16:19",
-    "place": "Lake Kaweah",
-    "lat": 36.407,
-    "lon": -118.983,
-    "notable": false,
-    "near": "Hospital Rock and the foothills"
-   },
-   {
     "code": "wrenti",
     "name": "Wrentit",
     "sci": "Chamaea fasciata",
@@ -893,7 +893,6 @@
     "notable": false,
     "near": "Giant Forest"
    }
-  ],
-  "staleSince": "2026-11-25T19:25:23Z"
+  ]
  }
 }

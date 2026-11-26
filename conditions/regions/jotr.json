@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T19:25:23Z",
+ "fetchedAt": "2026-11-26T03:38:22Z",
  "region": "jotr",
  "air": {
   "status": "ok",
@@ -13,11 +13,11 @@
     "source": "open-meteo",
     "lat": 34.1283,
     "lon": -116.0369,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Hidden Valley",
@@ -28,11 +28,11 @@
     "source": "open-meteo",
     "lat": 34.0126,
     "lon": -116.1685,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Keys View",
@@ -43,11 +43,11 @@
     "source": "open-meteo",
     "lat": 33.9268,
     "lon": -116.1874,
-    "pollutant": "PM2.5",
-    "aqi": 33,
+    "pollutant": "O3",
+    "aqi": 40,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    },
    {
     "area": "Cottonwood Spring",
@@ -59,10 +59,10 @@
     "lat": 33.7375,
     "lon": -115.8106,
     "pollutant": "PM2.5",
-    "aqi": 48,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 11:00 local"
+    "observed": "2026-11-25 19:00 local"
    }
   ],
   "forecasts": [
@@ -180,7 +180,7 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "PM2.5",
-    "aqi": 47,
+    "aqi": 46,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -192,28 +192,16 @@
   "status": "ok",
   "list": [
    {
-    "code": "brbhum",
-    "name": "Broad-billed Hummingbird",
-    "sci": "Cynanthus latirostris",
-    "count": 1,
-    "seen": "2026-11-18 15:49",
-    "place": "Chiriaco Summit",
-    "lat": 33.661,
-    "lon": -115.721,
-    "notable": true,
-    "near": "Cottonwood Spring"
-   },
-   {
     "code": "cowscj1",
     "name": "California Scrub-Jay",
     "sci": "Aphelocoma californica",
     "count": 4,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "seen": "2026-11-25 08:10",
+    "place": "Joshua Tree NP--Hidden Valley area",
+    "lat": 34.015,
+    "lon": -116.172,
     "notable": true,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "calthr",
@@ -226,6 +214,18 @@
     "lon": -116.391,
     "notable": true,
     "near": "Hidden Valley"
+   },
+   {
+    "code": "caltow",
+    "name": "California Towhee",
+    "sci": "Melozone crissalis",
+    "count": 1,
+    "seen": "2026-11-25 09:35",
+    "place": "Joshua Tree NP--Fortynine Palms Oasis",
+    "lat": 34.106,
+    "lon": -116.105,
+    "notable": true,
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "casfin",
@@ -340,12 +340,12 @@
     "name": "American Kestrel",
     "sci": "Falco sparverius",
     "count": 1,
-    "seen": "2026-11-24 14:27",
-    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
-    "lat": 34.128,
-    "lon": -116.04,
+    "seen": "2026-11-25 15:11",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Hidden Valley"
    },
    {
     "code": "amepip",
@@ -363,8 +363,8 @@
     "code": "amerob",
     "name": "American Robin",
     "sci": "Turdus migratorius",
-    "count": 2,
-    "seen": "2026-11-22 11:27",
+    "count": 3,
+    "seen": "2026-11-25 15:11",
     "place": "Coachella Valley Preserve, Thousand Palms Oasis",
     "lat": 33.837,
     "lon": -116.31,
@@ -387,13 +387,13 @@
     "code": "annhum",
     "name": "Anna's Hummingbird",
     "sci": "Calypte anna",
-    "count": null,
-    "seen": "2026-11-24 14:32",
-    "place": "Joshua Tree NP--Lost Palms Oasis",
-    "lat": 33.713,
-    "lon": -115.763,
+    "count": 1,
+    "seen": "2026-11-25 13:30",
+    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
+    "lat": 34.128,
+    "lon": -116.04,
     "notable": false,
-    "near": "Cottonwood Spring"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "bewwre",
@@ -411,23 +411,23 @@
     "code": "blkpho",
     "name": "Black Phoebe",
     "sci": "Sayornis nigricans",
-    "count": 4,
-    "seen": "2026-11-24 10:03",
-    "place": "Marriott's Shadow Ridge Golf Club",
-    "lat": 33.779,
-    "lon": -116.382,
+    "count": 1,
+    "seen": "2026-11-25 08:31",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
-    "near": "Keys View"
+    "near": "Hidden Valley"
    },
    {
     "code": "bktgna",
     "name": "Black-tailed Gnatcatcher",
     "sci": "Polioptila melanura",
-    "count": 7,
-    "seen": "2026-11-24 07:18",
-    "place": "Joshua Tree NP--Cottonwood Campground",
-    "lat": 33.745,
-    "lon": -115.813,
+    "count": 4,
+    "seen": "2026-11-25 09:02",
+    "place": "Joshua Tree NP--Cottonwood Spring",
+    "lat": 33.737,
+    "lon": -115.81,
     "notable": false,
     "near": "Cottonwood Spring"
    },
@@ -435,13 +435,13 @@
     "code": "bktspa",
     "name": "Black-throated Sparrow",
     "sci": "Amphispiza bilineata",
-    "count": 1,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 12,
+    "seen": "2026-11-24 14:32",
+    "place": "Joshua Tree NP--Lost Palms Oasis",
+    "lat": 33.713,
+    "lon": -115.763,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "buggna",
@@ -484,24 +484,12 @@
     "name": "Cactus Wren",
     "sci": "Campylorhynchus brunneicapillus",
     "count": 2,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "seen": "2026-11-25 13:30",
+    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
+    "lat": 34.128,
+    "lon": -116.04,
     "notable": false,
-    "near": "Hidden Valley"
-   },
-   {
-    "code": "caltow",
-    "name": "California Towhee",
-    "sci": "Melozone crissalis",
-    "count": 2,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
-    "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "cangoo",
@@ -567,11 +555,11 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 50,
+    "seen": "2026-11-25 15:11",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
     "near": "Hidden Valley"
    },
@@ -615,13 +603,13 @@
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 2,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 3,
+    "seen": "2026-11-25 08:10",
+    "place": "Joshua Tree NP--Hidden Valley area",
+    "lat": 34.015,
+    "lon": -116.172,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "eucdov",
@@ -636,23 +624,11 @@
     "near": "Hidden Valley"
    },
    {
-    "code": "eursta",
-    "name": "European Starling",
-    "sci": "Sturnus vulgaris",
-    "count": 2,
-    "seen": "2026-11-18 15:49",
-    "place": "Chiriaco Summit",
-    "lat": 33.661,
-    "lon": -115.721,
-    "notable": false,
-    "near": "Cottonwood Spring"
-   },
-   {
     "code": "gamqua",
     "name": "Gambel's Quail",
     "sci": "Callipepla gambelii",
-    "count": 4,
-    "seen": "2026-11-24 14:27",
+    "count": 17,
+    "seen": "2026-11-25 13:30",
     "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
     "lat": 34.128,
     "lon": -116.04,
@@ -700,12 +676,12 @@
     "name": "Hermit Thrush",
     "sci": "Catharus guttatus",
     "count": 1,
-    "seen": "2026-11-21 13:40",
-    "place": "Joshua Tree NP--Barker Dam area",
-    "lat": 34.031,
-    "lon": -116.146,
+    "seen": "2026-11-25 08:31",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Hidden Valley"
    },
    {
     "code": "horlar",
@@ -724,10 +700,10 @@
     "name": "House Finch",
     "sci": "Haemorhous mexicanus",
     "count": 4,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "seen": "2026-11-25 08:31",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
     "near": "Hidden Valley"
    },
@@ -759,13 +735,13 @@
     "code": "labwoo",
     "name": "Ladder-backed Woodpecker",
     "sci": "Dryobates scalaris",
-    "count": 1,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 2,
+    "seen": "2026-11-25 10:05",
+    "place": "Joshua Tree NP--Maze Loop Trail",
+    "lat": 34.081,
+    "lon": -116.242,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "larspa",
@@ -868,12 +844,12 @@
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
     "count": 1,
-    "seen": "2026-11-24 13:49",
-    "place": "Joshua Tree NP--Ryan Campground & Ryan Ranch",
-    "lat": 33.983,
-    "lon": -116.154,
+    "seen": "2026-11-25 09:02",
+    "place": "Joshua Tree NP--Cottonwood Spring",
+    "lat": 33.737,
+    "lon": -115.81,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "houwre",
@@ -892,12 +868,12 @@
     "name": "Northern Mockingbird",
     "sci": "Mimus polyglottos",
     "count": 1,
-    "seen": "2026-11-24 14:27",
-    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
-    "lat": 34.128,
-    "lon": -116.04,
+    "seen": "2026-11-25 15:11",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Hidden Valley"
    },
    {
     "code": "oaktit",
@@ -927,11 +903,11 @@
     "code": "phaino",
     "name": "Phainopepla",
     "sci": "Phainopepla nitens",
-    "count": 1,
-    "seen": "2026-11-24 14:40",
-    "place": "Joshua Tree NP--Skull Rock",
-    "lat": 33.997,
-    "lon": -116.061,
+    "count": 3,
+    "seen": "2026-11-25 13:30",
+    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
+    "lat": 34.128,
+    "lon": -116.04,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
    },
@@ -1035,23 +1011,23 @@
     "code": "rocwre",
     "name": "Rock Wren",
     "sci": "Salpinctes obsoletus",
-    "count": 1,
-    "seen": "2026-11-24 13:49",
-    "place": "Joshua Tree NP--Ryan Campground & Ryan Ranch",
-    "lat": 33.983,
-    "lon": -116.154,
+    "count": 2,
+    "seen": "2026-11-24 07:18",
+    "place": "Joshua Tree NP--Cottonwood Campground",
+    "lat": 33.745,
+    "lon": -115.813,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Cottonwood Spring"
    },
    {
     "code": "ruckin",
     "name": "Ruby-crowned Kinglet",
     "sci": "Corthylio calendula",
     "count": 2,
-    "seen": "2026-11-24 13:49",
-    "place": "Joshua Tree NP--Ryan Campground & Ryan Ranch",
-    "lat": 33.983,
-    "lon": -116.154,
+    "seen": "2026-11-25 13:30",
+    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
+    "lat": 34.128,
+    "lon": -116.04,
     "notable": false,
     "near": "Twentynine Palms (Oasis of Mara)"
    },
@@ -1132,12 +1108,12 @@
     "name": "Verdin",
     "sci": "Auriparus flaviceps",
     "count": 1,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "seen": "2026-11-25 13:30",
+    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
+    "lat": 34.128,
+    "lon": -116.04,
     "notable": false,
-    "near": "Hidden Valley"
+    "near": "Twentynine Palms (Oasis of Mara)"
    },
    {
     "code": "verfly",
@@ -1164,6 +1140,18 @@
     "near": "Hidden Valley"
    },
    {
+    "code": "marwre1",
+    "name": "Western Marsh Wren",
+    "sci": "Cistothorus paludicola",
+    "count": 1,
+    "seen": "2026-11-25 08:31",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
+    "notable": false,
+    "near": "Hidden Valley"
+   },
+   {
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
@@ -1179,11 +1167,11 @@
     "code": "whcspa",
     "name": "White-crowned Sparrow",
     "sci": "Zonotrichia leucophrys",
-    "count": 5,
-    "seen": "2026-11-25 06:58",
-    "place": "Joshua Tree NP--Black Rock Campground",
-    "lat": 34.074,
-    "lon": -116.391,
+    "count": 15,
+    "seen": "2026-11-25 15:11",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
     "near": "Hidden Valley"
    },
@@ -1192,7 +1180,7 @@
     "name": "White-winged Dove",
     "sci": "Zenaida asiatica",
     "count": 2,
-    "seen": "2026-11-22 11:27",
+    "seen": "2026-11-25 08:31",
     "place": "Coachella Valley Preserve, Thousand Palms Oasis",
     "lat": 33.837,
     "lon": -116.31,
@@ -1203,13 +1191,13 @@
     "code": "yerwar",
     "name": "Yellow-rumped Warbler",
     "sci": "Setophaga coronata",
-    "count": 5,
-    "seen": "2026-11-24 14:27",
-    "place": "Joshua Tree NP--Oasis of Mara Nature Trail",
-    "lat": 34.128,
-    "lon": -116.04,
+    "count": 10,
+    "seen": "2026-11-25 15:11",
+    "place": "Coachella Valley Preserve, Thousand Palms Oasis",
+    "lat": 33.837,
+    "lon": -116.31,
     "notable": false,
-    "near": "Twentynine Palms (Oasis of Mara)"
+    "near": "Hidden Valley"
    }
   ]
  }

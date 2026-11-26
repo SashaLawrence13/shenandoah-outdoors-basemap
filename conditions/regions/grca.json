@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-25T19:25:23Z",
+ "fetchedAt": "2026-11-26T03:38:22Z",
  "region": "grca",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 36.0544,
     "lon": -112.1401,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 12:00 local"
+    "observed": "2026-11-25 20:00 local"
    },
    {
     "area": "North Rim (Bright Angel Point)",
@@ -29,10 +29,10 @@
     "lat": 36.195,
     "lon": -112.053,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 12:00 local"
+    "observed": "2026-11-25 20:00 local"
    },
    {
     "area": "Desert View",
@@ -44,10 +44,10 @@
     "lat": 36.044,
     "lon": -111.827,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 12:00 local"
+    "observed": "2026-11-25 20:00 local"
    },
    {
     "area": "Phantom Ranch (inner canyon)",
@@ -59,10 +59,10 @@
     "lat": 36.107,
     "lon": -112.096,
     "pollutant": "O3",
-    "aqi": 26,
+    "aqi": 41,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-25 12:00 local"
+    "observed": "2026-11-25 20:00 local"
    }
   ],
   "forecasts": [
@@ -189,8 +189,20 @@
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "amecro",
+    "name": "American Crow",
+    "sci": "Corvus brachyrhynchos",
+    "count": 2,
+    "seen": "2026-11-25 13:44",
+    "place": "Grand Canyon NP--Mather Point",
+    "lat": 36.061,
+    "lon": -112.108,
+    "notable": false,
+    "near": "Grand Canyon Village (South Rim)"
+   },
    {
     "code": "bushti",
     "name": "Bushtit",
@@ -231,11 +243,11 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 2,
-    "seen": "2026-11-24 16:37",
-    "place": "Grand Canyon NP--Powell Point",
-    "lat": 36.073,
-    "lon": -112.151,
+    "count": 6,
+    "seen": "2026-11-25 13:44",
+    "place": "Grand Canyon NP--Mather Point",
+    "lat": 36.061,
+    "lon": -112.108,
     "notable": false,
     "near": "Grand Canyon Village (South Rim)"
    },
@@ -244,10 +256,10 @@
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
     "count": 3,
-    "seen": "2026-11-24 15:05",
-    "place": "Grand Canyon NP--Bright Angel Lodge",
-    "lat": 36.057,
-    "lon": -112.141,
+    "seen": "2026-11-24 15:28",
+    "place": "Grand Canyon NP--Mather Point",
+    "lat": 36.061,
+    "lon": -112.108,
     "notable": false,
     "near": "Grand Canyon Village (South Rim)"
    },
@@ -324,6 +336,18 @@
     "near": "Grand Canyon Village (South Rim)"
    },
    {
+    "code": "redcro",
+    "name": "Red Crossbill",
+    "sci": "Loxia curvirostra",
+    "count": 3,
+    "seen": "2026-11-25 08:17",
+    "place": "Ten-X Campground",
+    "lat": 35.935,
+    "lon": -112.126,
+    "notable": false,
+    "near": "Grand Canyon Village (South Rim)"
+   },
+   {
     "code": "rethaw",
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
@@ -336,14 +360,50 @@
     "near": "Grand Canyon Village (South Rim)"
    },
    {
+    "code": "ruckin",
+    "name": "Ruby-crowned Kinglet",
+    "sci": "Corthylio calendula",
+    "count": 1,
+    "seen": "2026-11-24 15:28",
+    "place": "Grand Canyon NP--Mather Point",
+    "lat": 36.061,
+    "lon": -112.108,
+    "notable": false,
+    "near": "Grand Canyon Village (South Rim)"
+   },
+   {
+    "code": "stejay",
+    "name": "Steller's Jay",
+    "sci": "Cyanocitta stelleri",
+    "count": 1,
+    "seen": "2026-11-25 12:34",
+    "place": "Grand Canyon NP--South Kaibab Trailhead",
+    "lat": 36.053,
+    "lon": -112.084,
+    "notable": false,
+    "near": "Grand Canyon Village (South Rim)"
+   },
+   {
+    "code": "wesblu",
+    "name": "Western Bluebird",
+    "sci": "Sialia mexicana",
+    "count": 1,
+    "seen": "2026-11-25 13:44",
+    "place": "Grand Canyon NP--Mather Point",
+    "lat": 36.061,
+    "lon": -112.108,
+    "notable": false,
+    "near": "Grand Canyon Village (South Rim)"
+   },
+   {
     "code": "whbnut",
     "name": "White-breasted Nuthatch",
     "sci": "Sitta carolinensis",
     "count": 1,
-    "seen": "2026-11-24 16:37",
-    "place": "Grand Canyon NP--Powell Point",
-    "lat": 36.073,
-    "lon": -112.151,
+    "seen": "2026-11-25 08:17",
+    "place": "Ten-X Campground",
+    "lat": 35.935,
+    "lon": -112.126,
     "notable": false,
     "near": "Grand Canyon Village (South Rim)"
    },
@@ -352,14 +412,13 @@
     "name": "Woodhouse's Scrub-Jay",
     "sci": "Aphelocoma woodhouseii",
     "count": 1,
-    "seen": "2026-11-24 16:37",
-    "place": "Grand Canyon NP--Powell Point",
-    "lat": 36.073,
-    "lon": -112.151,
+    "seen": "2026-11-25 12:34",
+    "place": "Grand Canyon NP--South Kaibab Trailhead",
+    "lat": 36.053,
+    "lon": -112.084,
     "notable": false,
     "near": "Grand Canyon Village (South Rim)"
    }
-  ],
-  "staleSince": "2026-11-25T19:25:23Z"
+  ]
  }
 }
