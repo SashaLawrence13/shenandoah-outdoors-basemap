@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-26T17:03:50Z",
+ "fetchedAt": "2026-11-27T01:47:17Z",
  "region": "zion",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.1889,
     "lon": -112.9986,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-26 10:00 local"
+    "observed": "2026-11-26 18:00 local"
    },
    {
     "area": "Zion Canyon (The Grotto)",
@@ -29,10 +29,10 @@
     "lat": 37.259,
     "lon": -112.9482,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-26 10:00 local"
+    "observed": "2026-11-26 18:00 local"
    },
    {
     "area": "Kolob Terrace (Lava Point)",
@@ -44,10 +44,10 @@
     "lat": 37.385,
     "lon": -113.039,
     "pollutant": "O3",
-    "aqi": 33,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-26 10:00 local"
+    "observed": "2026-11-26 18:00 local"
    },
    {
     "area": "Kolob Canyons",
@@ -58,11 +58,11 @@
     "source": "open-meteo",
     "lat": 37.4575,
     "lon": -113.224,
-    "pollutant": "O3",
-    "aqi": 42,
+    "pollutant": "PM2.5",
+    "aqi": 46,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-26 10:00 local"
+    "observed": "2026-11-26 18:00 local"
    }
   ],
   "forecasts": [
@@ -135,7 +135,7 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 39,
     "category": "Good",
     "level": 1,
     "actionDay": false,
@@ -149,7 +149,7 @@
     "region": "zion",
     "source": "open-meteo",
     "date": "2026-11-27",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "aqi": 43,
     "category": "Good",
     "level": 1,
@@ -165,9 +165,9 @@
     "source": "open-meteo",
     "date": "2026-11-26",
     "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -180,9 +180,9 @@
     "source": "open-meteo",
     "date": "2026-11-27",
     "pollutant": "PM2.5",
-    "aqi": 53,
-    "category": "Moderate",
-    "level": 2,
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    }
@@ -255,13 +255,13 @@
     "code": "brncre",
     "name": "Brown Creeper",
     "sci": "Certhia americana",
-    "count": 5,
-    "seen": "2026-11-25 12:39",
-    "place": "Zion NP--Taylor Creek Trail",
-    "lat": 37.464,
-    "lon": -113.191,
+    "count": 1,
+    "seen": "2026-11-26 09:00",
+    "place": "Zion NP--Big Bend",
+    "lat": 37.273,
+    "lon": -112.946,
     "notable": false,
-    "near": "Kolob Terrace (Lava Point)"
+    "near": "Springdale"
    },
    {
     "code": "buffle",
@@ -279,13 +279,13 @@
     "code": "bushti",
     "name": "Bushtit",
     "sci": "Psaltriparus minimus",
-    "count": 5,
-    "seen": "2026-11-25 12:11",
-    "place": "Zion NP--Emerald Pools Trail",
-    "lat": 37.255,
-    "lon": -112.961,
+    "count": 3,
+    "seen": "2026-11-25 11:28",
+    "place": "Zion NP--Taylor Creek Trail",
+    "lat": 37.464,
+    "lon": -113.191,
     "notable": false,
-    "near": "Springdale"
+    "near": "Kolob Canyons"
    },
    {
     "code": "calcon",
@@ -351,13 +351,25 @@
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 8,
-    "seen": "2026-11-25 12:39",
-    "place": "Zion NP--Taylor Creek Trail",
-    "lat": 37.464,
-    "lon": -113.191,
+    "count": 1,
+    "seen": "2026-11-26 13:56",
+    "place": "Chekshani Cliffs & Camp Creek",
+    "lat": 37.502,
+    "lon": -113.199,
     "notable": false,
-    "near": "Kolob Canyons"
+    "near": "Kolob Terrace (Lava Point)"
+   },
+   {
+    "code": "daejun",
+    "name": "Dark-eyed Junco",
+    "sci": "Junco hyemalis",
+    "count": 1,
+    "seen": "2026-11-26 13:56",
+    "place": "Chekshani Cliffs & Camp Creek",
+    "lat": 37.502,
+    "lon": -113.199,
+    "notable": false,
+    "near": "Kolob Terrace (Lava Point)"
    },
    {
     "code": "dowwoo",
@@ -372,28 +384,16 @@
     "near": "Springdale"
    },
    {
-    "code": "goleag",
-    "name": "Golden Eagle",
-    "sci": "Aquila chrysaetos",
-    "count": 1,
-    "seen": "2026-11-21 11:19",
-    "place": "Zion NP--Big Bend",
-    "lat": 37.273,
-    "lon": -112.946,
-    "notable": false,
-    "near": "Springdale"
-   },
-   {
     "code": "gockin",
     "name": "Golden-crowned Kinglet",
     "sci": "Regulus satrapa",
-    "count": 6,
-    "seen": "2026-11-25 12:39",
-    "place": "Zion NP--Taylor Creek Trail",
-    "lat": 37.464,
-    "lon": -113.191,
+    "count": 3,
+    "seen": "2026-11-26 11:30",
+    "place": "Zion NP--Riverside Walk",
+    "lat": 37.29,
+    "lon": -112.947,
     "notable": false,
-    "near": "Kolob Terrace (Lava Point)"
+    "near": "Springdale"
    },
    {
     "code": "haiwoo",
@@ -456,6 +456,18 @@
     "near": "Springdale"
    },
    {
+    "code": "juntit1",
+    "name": "Juniper Titmouse",
+    "sci": "Baeolophus ridgwayi",
+    "count": 1,
+    "seen": "2026-11-26 14:16",
+    "place": "Zion Ponderosa Ranch Resort",
+    "lat": 37.271,
+    "lon": -112.876,
+    "notable": false,
+    "near": "Springdale"
+   },
+   {
     "code": "lesgol",
     "name": "Lesser Goldfinch",
     "sci": "Spinus psaltria",
@@ -495,11 +507,11 @@
     "code": "mouchi",
     "name": "Mountain Chickadee",
     "sci": "Poecile gambeli",
-    "count": 5,
-    "seen": "2026-11-25 14:28",
-    "place": "Zion NP--Riverside Walk",
-    "lat": 37.29,
-    "lon": -112.947,
+    "count": 2,
+    "seen": "2026-11-26 14:16",
+    "place": "Zion Ponderosa Ranch Resort",
+    "lat": 37.271,
+    "lon": -112.876,
     "notable": false,
     "near": "Springdale"
    },
@@ -512,18 +524,6 @@
     "place": "Zion Lodge",
     "lat": 37.25,
     "lon": -112.957,
-    "notable": false,
-    "near": "Springdale"
-   },
-   {
-    "code": "norfli",
-    "name": "Northern Flicker",
-    "sci": "Colaptes auratus",
-    "count": 1,
-    "seen": "2026-11-24 09:38",
-    "place": "Autocamp Zion (restricted access)",
-    "lat": 37.196,
-    "lon": -113.164,
     "notable": false,
     "near": "Springdale"
    },
@@ -568,10 +568,10 @@
     "name": "Red-tailed Hawk",
     "sci": "Buteo jamaicensis",
     "count": 1,
-    "seen": "2026-11-24 14:48",
-    "place": "Zion NP--Pa'rus Trail",
-    "lat": 37.212,
-    "lon": -112.977,
+    "seen": "2026-11-26 09:00",
+    "place": "Zion NP--Big Bend",
+    "lat": 37.273,
+    "lon": -112.946,
     "notable": false,
     "near": "Springdale"
    },
@@ -604,10 +604,10 @@
     "name": "Song Sparrow",
     "sci": "Melospiza melodia",
     "count": 1,
-    "seen": "2026-11-21 13:14",
-    "place": "George Barker River Park",
-    "lat": 37.177,
-    "lon": -113.009,
+    "seen": "2026-11-26 11:30",
+    "place": "Zion NP--Riverside Walk",
+    "lat": 37.29,
+    "lon": -112.947,
     "notable": false,
     "near": "Springdale"
    },
@@ -615,13 +615,13 @@
     "code": "stejay",
     "name": "Steller's Jay",
     "sci": "Cyanocitta stelleri",
-    "count": 1,
-    "seen": "2026-11-25 14:28",
-    "place": "Zion NP--Riverside Walk",
-    "lat": 37.29,
-    "lon": -112.947,
+    "count": 3,
+    "seen": "2026-11-26 13:56",
+    "place": "Chekshani Cliffs & Camp Creek",
+    "lat": 37.502,
+    "lon": -113.199,
     "notable": false,
-    "near": "Springdale"
+    "near": "Kolob Terrace (Lava Point)"
    },
    {
     "code": "towsol",
@@ -636,14 +636,14 @@
     "near": "Springdale"
    },
    {
-    "code": "wesblu",
-    "name": "Western Bluebird",
-    "sci": "Sialia mexicana",
-    "count": 1,
-    "seen": "2026-11-24 14:48",
-    "place": "Zion NP--Pa'rus Trail",
-    "lat": 37.212,
-    "lon": -112.977,
+    "code": "whbnut",
+    "name": "White-breasted Nuthatch",
+    "sci": "Sitta carolinensis",
+    "count": 3,
+    "seen": "2026-11-26 14:16",
+    "place": "Zion Ponderosa Ranch Resort",
+    "lat": 37.271,
+    "lon": -112.876,
     "notable": false,
     "near": "Springdale"
    },
@@ -663,11 +663,11 @@
     "code": "wiltur",
     "name": "Wild Turkey",
     "sci": "Meleagris gallopavo",
-    "count": 5,
-    "seen": "2026-11-25 12:11",
-    "place": "Zion NP--Emerald Pools Trail",
-    "lat": 37.255,
-    "lon": -112.961,
+    "count": 19,
+    "seen": "2026-11-26 09:00",
+    "place": "Zion NP--Big Bend",
+    "lat": 37.273,
+    "lon": -112.946,
     "notable": false,
     "near": "Springdale"
    },
@@ -675,13 +675,13 @@
     "code": "wooscj2",
     "name": "Woodhouse's Scrub-Jay",
     "sci": "Aphelocoma woodhouseii",
-    "count": 1,
-    "seen": "2026-11-25 13:30",
-    "place": "Belly of the Dragon Trail",
-    "lat": 37.211,
-    "lon": -112.685,
+    "count": 4,
+    "seen": "2026-11-26 13:56",
+    "place": "Chekshani Cliffs & Camp Creek",
+    "lat": 37.502,
+    "lon": -113.199,
     "notable": false,
-    "near": "Zion Canyon (The Grotto)"
+    "near": "Kolob Canyons"
    }
   ]
  }
