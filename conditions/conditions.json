@@ -1,14 +1,1094 @@
 {
- "fetchedAt": "2026-11-27T01:47:17Z",
+ "fetchedAt": "2026-11-27T12:43:56Z",
  "fires": {
   "status": "ok",
   "sources": {
    "VIIRS_SNPP_NRT": "ok (0 rows); ok (0 rows); ok (0 rows); ok (0 rows); ok (0 rows); ok (0 rows)",
-   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (34 rows); ok (156 rows); ok (0 rows); ok (59 rows); ok (16 rows)",
-   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (46 rows); ok (154 rows); ok (0 rows); ok (87 rows); ok (7 rows)",
-   "MODIS_NRT": "ok (0 rows); ok (7 rows); ok (5 rows); ok (0 rows); ok (4 rows); ok (0 rows)"
+   "VIIRS_NOAA20_NRT": "ok (0 rows); ok (68 rows); ok (268 rows); ok (0 rows); ok (70 rows); ok (20 rows)",
+   "VIIRS_NOAA21_NRT": "ok (0 rows); ok (64 rows); ok (255 rows); ok (0 rows); ok (108 rows); ok (8 rows)",
+   "MODIS_NRT": "ok (0 rows); ok (7 rows); ok (6 rows); ok (0 rows); ok (4 rows); ok (0 rows)"
   },
   "detections": [
+   {
+    "lat": 19.3983,
+    "lon": -155.2794,
+    "detected": "2026-11-27T12:27:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.7,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4044,
+    "lon": -155.2627,
+    "detected": "2026-11-27T12:27:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.41,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4042,
+    "lon": -155.2735,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.55,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4067,
+    "lon": -155.2924,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.76,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4072,
+    "lon": -155.296,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.76,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4083,
+    "lon": -155.2729,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.55,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4088,
+    "lon": -155.2767,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.52,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4114,
+    "lon": -155.2647,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.74,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4158,
+    "lon": -155.2689,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 3.81,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 19.4168,
+    "lon": -155.2765,
+    "detected": "2026-11-27T11:44:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 6.54,
+    "day": false,
+    "region": "havo"
+   },
+   {
+    "lat": 34.6084,
+    "lon": -117.3337,
+    "detected": "2026-11-27T10:41:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.79,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 37.453,
+    "lon": -121.9313,
+    "detected": "2026-11-27T10:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.85,
+    "day": false,
+    "region": "pinn"
+   },
+   {
+    "lat": 37.9458,
+    "lon": -121.2793,
+    "detected": "2026-11-27T10:40:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.7,
+    "day": false,
+    "region": "yose"
+   },
+   {
+    "lat": 32.5395,
+    "lon": -114.9335,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.38,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.5404,
+    "lon": -114.9376,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.57,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.601,
+    "lon": -117.0142,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.39,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.8574,
+    "lon": -117.1472,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.88,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.8576,
+    "lon": -117.0298,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.4911,
+    "lon": -117.6181,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.55,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.7166,
+    "lon": -117.7093,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.61,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.7942,
+    "lon": -117.4751,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.49,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.8783,
+    "lon": -117.0002,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.39,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.9558,
+    "lon": -117.1231,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.7,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 34.1444,
+    "lon": -117.4296,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.54,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 34.356,
+    "lon": -116.8533,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.11,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 34.6098,
+    "lon": -117.3361,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.31,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 34.6223,
+    "lon": -117.1019,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.04,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 37.184,
+    "lon": -121.6812,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.48,
+    "day": false,
+    "region": "pinn"
+   },
+   {
+    "lat": 37.4565,
+    "lon": -121.9347,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.76,
+    "day": false,
+    "region": "pinn"
+   },
+   {
+    "lat": 37.8855,
+    "lon": -121.1875,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.41,
+    "day": false,
+    "region": "yose"
+   },
+   {
+    "lat": 33.2855,
+    "lon": -111.59,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.06,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.421,
+    "lon": -110.865,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 5.55,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 33.6134,
+    "lon": -117.8244,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.03,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.7929,
+    "lon": -118.3509,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.28,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.8203,
+    "lon": -118.2443,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.39,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.8536,
+    "lon": -118.3323,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.67,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.9326,
+    "lon": -117.841,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.8,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.0363,
+    "lon": -118.1057,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.59,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.0428,
+    "lon": -117.8237,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.47,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.1169,
+    "lon": -117.924,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.52,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.1544,
+    "lon": -118.1939,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.14,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.2435,
+    "lon": -118.3814,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.66,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.2908,
+    "lon": -118.797,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.81,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.3353,
+    "lon": -118.5199,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.2,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.4317,
+    "lon": -118.6454,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.13,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.4351,
+    "lon": -118.6446,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.13,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 35.4515,
+    "lon": -118.9862,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.72,
+    "day": false,
+    "region": "seki"
+   },
+   {
+    "lat": 35.4543,
+    "lon": -119.0032,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.75,
+    "day": false,
+    "region": "seki"
+   },
+   {
+    "lat": 35.5781,
+    "lon": -119.4228,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.85,
+    "day": false,
+    "region": "seki"
+   },
+   {
+    "lat": 35.8195,
+    "lon": -119.1866,
+    "detected": "2026-11-27T09:58:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.63,
+    "day": false,
+    "region": "seki"
+   },
+   {
+    "lat": 47.4593,
+    "lon": -103.1746,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.73,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 47.4753,
+    "lon": -103.2124,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.58,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 47.5769,
+    "lon": -103.1441,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.45,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 47.9188,
+    "lon": -103.1088,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.8,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.0067,
+    "lon": -102.7931,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.67,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.5744,
+    "lon": -103.3585,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.14,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.6335,
+    "lon": -102.3967,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.37,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.6336,
+    "lon": -102.395,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.37,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 49.0367,
+    "lon": -115.8619,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "glac"
+   },
+   {
+    "lat": 49.5081,
+    "lon": -115.875,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.72,
+    "day": false,
+    "region": "glac"
+   },
+   {
+    "lat": 49.5275,
+    "lon": -115.8902,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.1,
+    "day": false,
+    "region": "glac"
+   },
+   {
+    "lat": 49.5283,
+    "lon": -115.8954,
+    "detected": "2026-11-27T09:53:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.06,
+    "day": false,
+    "region": "glac"
+   },
+   {
+    "lat": 32.5284,
+    "lon": -116.7801,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.5333,
+    "lon": -116.8863,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.05,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.565,
+    "lon": -116.623,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 3.25,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 32.8453,
+    "lon": -115.3546,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.89,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 31.2646,
+    "lon": -103.0863,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.62,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.2742,
+    "lon": -103.1543,
+    "detected": "2026-11-27T09:02:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.91,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 33.7144,
+    "lon": -117.7144,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.7,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.7923,
+    "lon": -117.4734,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.41,
+    "day": false,
+    "region": "jotr"
+   },
+   {
+    "lat": 33.7787,
+    "lon": -118.2392,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.89,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.8205,
+    "lon": -118.2458,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.1,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 33.8551,
+    "lon": -118.3332,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.1,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.1555,
+    "lon": -118.1946,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.96,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 34.3334,
+    "lon": -118.5186,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.01,
+    "day": false,
+    "region": "chis"
+   },
+   {
+    "lat": 32.6393,
+    "lon": -103.9644,
+    "detected": "2026-11-27T09:00:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.93,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 47.5004,
+    "lon": -103.0622,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.69,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 47.6458,
+    "lon": -104.1111,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.45,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.114,
+    "lon": -104.3833,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.54,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.2126,
+    "lon": -104.3332,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.71,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.2164,
+    "lon": -104.359,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.39,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 49.0013,
+    "lon": -93.5925,
+    "detected": "2026-11-27T08:56:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.87,
+    "day": false,
+    "region": "voya"
+   },
+   {
+    "lat": 33.4204,
+    "lon": -110.8719,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.15,
+    "day": false,
+    "region": "sagu"
+   },
+   {
+    "lat": 31.2685,
+    "lon": -103.0881,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.44,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.2753,
+    "lon": -103.1565,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.67,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.4982,
+    "lon": -103.5327,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.5004,
+    "lon": -103.1362,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.94,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.5427,
+    "lon": -103.1604,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.59,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.7774,
+    "lon": -103.5079,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.89,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 32.0245,
+    "lon": -103.7147,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.62,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 32.0681,
+    "lon": -104.0478,
+    "detected": "2026-11-27T08:17:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.08,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 33.0161,
+    "lon": -79.8826,
+    "detected": "2026-11-27T08:16:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.46,
+    "day": false,
+    "region": "cong"
+   },
+   {
+    "lat": 33.0078,
+    "lon": -79.8809,
+    "detected": "2026-11-27T08:15:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.02,
+    "day": false,
+    "region": "cong"
+   },
+   {
+    "lat": 33.0162,
+    "lon": -79.885,
+    "detected": "2026-11-27T08:15:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.47,
+    "day": false,
+    "region": "cong"
+   },
+   {
+    "lat": 48.5758,
+    "lon": -103.3639,
+    "detected": "2026-11-27T08:13:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.78,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.6372,
+    "lon": -103.3138,
+    "detected": "2026-11-27T08:13:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.63,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.7194,
+    "lon": -103.6666,
+    "detected": "2026-11-27T08:13:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.85,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 48.7198,
+    "lon": -103.6648,
+    "detected": "2026-11-27T08:13:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.84,
+    "day": false,
+    "region": "thro"
+   },
+   {
+    "lat": 49.0029,
+    "lon": -93.5959,
+    "detected": "2026-11-27T08:11:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.41,
+    "day": false,
+    "region": "voya"
+   },
+   {
+    "lat": 35.1757,
+    "lon": -81.7129,
+    "detected": "2026-11-27T07:18:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.11,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.5023,
+    "lon": -80.3282,
+    "detected": "2026-11-27T07:18:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.84,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.4896,
+    "lon": -79.8933,
+    "detected": "2026-11-27T07:18:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 8.75,
+    "day": false,
+    "region": "blri"
+   },
+   {
+    "lat": 33.004,
+    "lon": -79.8798,
+    "detected": "2026-11-27T06:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.77,
+    "day": false,
+    "region": "cong"
+   },
+   {
+    "lat": 33.0149,
+    "lon": -79.8891,
+    "detected": "2026-11-27T06:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.6,
+    "day": false,
+    "region": "cong"
+   },
+   {
+    "lat": 35.1772,
+    "lon": -81.7173,
+    "detected": "2026-11-27T06:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.05,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.242,
+    "lon": -80.5022,
+    "detected": "2026-11-27T06:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.29,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 35.5067,
+    "lon": -80.333,
+    "detected": "2026-11-27T06:35:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.37,
+    "day": false,
+    "region": "pn"
+   },
+   {
+    "lat": 39.9658,
+    "lon": -76.5994,
+    "detected": "2026-11-27T06:33:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.95,
+    "day": false,
+    "region": "pot"
+   },
    {
     "lat": 49.0015,
     "lon": -93.6089,
@@ -30,26 +1110,6 @@
     "region": "voya"
    },
    {
-    "lat": 49.4449,
-    "lon": -120.192,
-    "detected": "2026-11-26T21:40:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 10.28,
-    "day": true,
-    "region": "noca"
-   },
-   {
-    "lat": 49.4453,
-    "lon": -120.1983,
-    "detected": "2026-11-26T21:40:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 8.74,
-    "day": true,
-    "region": "noca"
-   },
-   {
     "lat": 49.4454,
     "lon": -120.1908,
     "detected": "2026-11-26T21:40:00Z",
@@ -60,8 +1120,18 @@
     "region": "noca"
    },
    {
-    "lat": 49.5475,
-    "lon": -120.1491,
+    "lat": 49.4459,
+    "lon": -120.1971,
+    "detected": "2026-11-26T21:40:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 8.67,
+    "day": true,
+    "region": "noca"
+   },
+   {
+    "lat": 49.5481,
+    "lon": -120.1476,
     "detected": "2026-11-26T21:40:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
@@ -70,28 +1140,28 @@
     "region": "noca"
    },
    {
-    "lat": 49.552,
-    "lon": -120.1589,
+    "lat": 49.5526,
+    "lon": -120.1575,
     "detected": "2026-11-26T21:40:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
-    "frp": 17.25,
+    "frp": 17.26,
     "day": true,
     "region": "noca"
    },
    {
-    "lat": 49.5987,
-    "lon": -120.1281,
+    "lat": 49.5992,
+    "lon": -120.1265,
     "detected": "2026-11-26T21:40:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
-    "frp": 59.88,
+    "frp": 59.89,
     "day": true,
     "region": "noca"
    },
    {
-    "lat": 49.7682,
-    "lon": -119.9409,
+    "lat": 49.7687,
+    "lon": -119.9394,
     "detected": "2026-11-26T21:40:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
@@ -100,12 +1170,12 @@
     "region": "noca"
    },
    {
-    "lat": 49.7737,
-    "lon": -119.9307,
+    "lat": 49.7741,
+    "lon": -119.9336,
     "detected": "2026-11-26T21:40:00Z",
     "source": "VIIRS_NOAA20",
     "confidence": "n",
-    "frp": 9.16,
+    "frp": 6.97,
     "day": true,
     "region": "noca"
    },
@@ -220,16 +1290,6 @@
     "region": "jotr"
    },
    {
-    "lat": 32.1861,
-    "lon": -103.4561,
-    "detected": "2026-11-26T20:38:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 2.47,
-    "day": true,
-    "region": "cave"
-   },
-   {
     "lat": 34.3359,
     "lon": -118.5215,
     "detected": "2026-11-26T20:38:00Z",
@@ -240,13 +1300,23 @@
     "region": "chis"
    },
    {
-    "lat": 49.4316,
-    "lon": -91.2409,
-    "detected": "2026-11-26T20:21:00Z",
+    "lat": 32.1861,
+    "lon": -103.4561,
+    "detected": "2026-11-26T20:38:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 2.47,
+    "day": true,
+    "region": "cave"
+   },
+   {
+    "lat": 49.4318,
+    "lon": -91.2417,
+    "detected": "2026-11-26T20:23:00Z",
     "source": "MODIS",
-    "confidence": "95",
-    "frp": 62.19,
-    "day": false,
+    "confidence": "52",
+    "frp": 61.23,
+    "day": true,
     "region": "voya"
    },
    {
@@ -760,6 +1830,16 @@
     "region": "jotr"
    },
    {
+    "lat": 36.5945,
+    "lon": -120.782,
+    "detected": "2026-11-26T10:15:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.04,
+    "day": false,
+    "region": "pinn"
+   },
+   {
     "lat": 33.6131,
     "lon": -117.8233,
     "detected": "2026-11-26T10:15:00Z",
@@ -820,16 +1900,6 @@
     "region": "chis"
    },
    {
-    "lat": 36.5945,
-    "lon": -120.782,
-    "detected": "2026-11-26T10:15:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 1.04,
-    "day": false,
-    "region": "pinn"
-   },
-   {
     "lat": 41.8934,
     "lon": -122.6439,
     "detected": "2026-11-26T10:15:00Z",
@@ -880,6 +1950,16 @@
     "region": "crla"
    },
    {
+    "lat": 48.6351,
+    "lon": -103.3131,
+    "detected": "2026-11-26T10:10:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.7,
+    "day": false,
+    "region": "thro"
+   },
+   {
     "lat": 49.5136,
     "lon": -115.8732,
     "detected": "2026-11-26T10:10:00Z",
@@ -898,16 +1978,6 @@
     "frp": 1.38,
     "day": false,
     "region": "glac"
-   },
-   {
-    "lat": 48.6351,
-    "lon": -103.3131,
-    "detected": "2026-11-26T10:10:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.7,
-    "day": false,
-    "region": "thro"
    },
    {
     "lat": 32.5995,
@@ -1010,54 +2080,14 @@
     "region": "jotr"
    },
    {
-    "lat": 31.216,
-    "lon": -103.4017,
+    "lat": 33.2812,
+    "lon": -111.5894,
     "detected": "2026-11-26T09:19:00Z",
     "source": "VIIRS_NOAA21",
     "confidence": "n",
-    "frp": 0.62,
+    "frp": 1.34,
     "day": false,
-    "region": "cave"
-   },
-   {
-    "lat": 31.2302,
-    "lon": -103.3931,
-    "detected": "2026-11-26T09:19:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 1.7,
-    "day": false,
-    "region": "cave"
-   },
-   {
-    "lat": 31.2657,
-    "lon": -103.3936,
-    "detected": "2026-11-26T09:19:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.65,
-    "day": false,
-    "region": "cave"
-   },
-   {
-    "lat": 31.7763,
-    "lon": -103.6288,
-    "detected": "2026-11-26T09:19:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 0.78,
-    "day": false,
-    "region": "cave"
-   },
-   {
-    "lat": 32.3955,
-    "lon": -103.6496,
-    "detected": "2026-11-26T09:19:00Z",
-    "source": "VIIRS_NOAA21",
-    "confidence": "n",
-    "frp": 1.14,
-    "day": false,
-    "region": "cave"
+    "region": "sagu"
    },
    {
     "lat": 33.7366,
@@ -1110,14 +2140,54 @@
     "region": "chis"
    },
    {
-    "lat": 33.2812,
-    "lon": -111.5894,
+    "lat": 31.216,
+    "lon": -103.4017,
     "detected": "2026-11-26T09:19:00Z",
     "source": "VIIRS_NOAA21",
     "confidence": "n",
-    "frp": 1.34,
+    "frp": 0.62,
     "day": false,
-    "region": "sagu"
+    "region": "cave"
+   },
+   {
+    "lat": 31.2302,
+    "lon": -103.3931,
+    "detected": "2026-11-26T09:19:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.7,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.2657,
+    "lon": -103.3936,
+    "detected": "2026-11-26T09:19:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.65,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 31.7763,
+    "lon": -103.6288,
+    "detected": "2026-11-26T09:19:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 0.78,
+    "day": false,
+    "region": "cave"
+   },
+   {
+    "lat": 32.3955,
+    "lon": -103.6496,
+    "detected": "2026-11-26T09:19:00Z",
+    "source": "VIIRS_NOAA21",
+    "confidence": "n",
+    "frp": 1.14,
+    "day": false,
+    "region": "cave"
    },
    {
     "lat": 35.2699,
@@ -1240,6 +2310,16 @@
     "region": "jotr"
    },
    {
+    "lat": 33.4187,
+    "lon": -110.8657,
+    "detected": "2026-11-26T08:37:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.55,
+    "day": false,
+    "region": "sagu"
+   },
+   {
     "lat": 31.1893,
     "lon": -103.458,
     "detected": "2026-11-26T08:37:00Z",
@@ -1360,16 +2440,6 @@
     "region": "cave"
    },
    {
-    "lat": 33.4187,
-    "lon": -110.8657,
-    "detected": "2026-11-26T08:37:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 2.55,
-    "day": false,
-    "region": "sagu"
-   },
-   {
     "lat": 36.4103,
     "lon": -112.0973,
     "detected": "2026-11-26T08:37:00Z",
@@ -1420,46 +2490,6 @@
     "region": "yell"
    },
    {
-    "lat": 49.4029,
-    "lon": -91.333,
-    "detected": "2026-11-26T08:32:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 1.42,
-    "day": false,
-    "region": "voya"
-   },
-   {
-    "lat": 49.4141,
-    "lon": -91.3161,
-    "detected": "2026-11-26T08:32:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.85,
-    "day": false,
-    "region": "voya"
-   },
-   {
-    "lat": 49.4595,
-    "lon": -91.3486,
-    "detected": "2026-11-26T08:32:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 0.74,
-    "day": false,
-    "region": "voya"
-   },
-   {
-    "lat": 49.4753,
-    "lon": -91.2211,
-    "detected": "2026-11-26T08:32:00Z",
-    "source": "VIIRS_NOAA20",
-    "confidence": "n",
-    "frp": 2.17,
-    "day": false,
-    "region": "voya"
-   },
-   {
     "lat": 47.4733,
     "lon": -103.2146,
     "detected": "2026-11-26T08:32:00Z",
@@ -1508,6 +2538,46 @@
     "frp": 0.53,
     "day": false,
     "region": "thro"
+   },
+   {
+    "lat": 49.4029,
+    "lon": -91.333,
+    "detected": "2026-11-26T08:32:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 1.42,
+    "day": false,
+    "region": "voya"
+   },
+   {
+    "lat": 49.4141,
+    "lon": -91.3161,
+    "detected": "2026-11-26T08:32:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.85,
+    "day": false,
+    "region": "voya"
+   },
+   {
+    "lat": 49.4595,
+    "lon": -91.3486,
+    "detected": "2026-11-26T08:32:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 0.74,
+    "day": false,
+    "region": "voya"
+   },
+   {
+    "lat": 49.4753,
+    "lon": -91.2211,
+    "detected": "2026-11-26T08:32:00Z",
+    "source": "VIIRS_NOAA20",
+    "confidence": "n",
+    "frp": 2.17,
+    "day": false,
+    "region": "voya"
    },
    {
     "lat": 31.2766,
@@ -2172,7 +3242,7 @@
   "truncated": []
  },
  "air": {
-  "status": "ok",
+  "status": "stale",
   "sources": {
    "airnow": "key refused (HTTP 410), stopped (0 readings; 74 of 340 centers due this run)",
    "open-meteo": "ok (340 of 340 centers)"
@@ -3980,7 +5050,8 @@
     "actionDay": false,
     "discussion": ""
    }
-  ]
+  ],
+  "staleSince": "2026-11-27T12:43:56Z"
  },
  "birds": {
   "status": "ok",
@@ -4032,18 +5103,6 @@
     "lon": -78.437,
     "notable": true,
     "near": "Shenandoah NP central"
-   },
-   {
-    "code": "whevir",
-    "name": "White-eyed Vireo",
-    "sci": "Vireo griseus",
-    "count": 1,
-    "seen": "2026-11-20 07:25",
-    "place": "Smithsonian Conservation Biology Institute (restricted access)",
-    "lat": 38.887,
-    "lon": -78.164,
-    "notable": true,
-    "near": "Shenandoah NP north"
    },
    {
     "code": "amecro",
@@ -6143,12 +7202,12 @@
      "name": "Brown Creeper",
      "sci": "Certhia americana",
      "count": 1,
-     "seen": "2026-11-26 09:16",
-     "place": "Great Falls Park",
-     "lat": 38.994,
-     "lon": -77.255,
+     "seen": "2026-11-22 13:38",
+     "place": "Rocky Gap SP",
+     "lat": 39.702,
+     "lon": -78.652,
      "notable": false,
-     "near": "Great Falls and Washington"
+     "near": "C&O Canal at Cumberland"
     },
     {
      "code": "brnthr",
@@ -6886,13 +7945,13 @@
      "code": "rewbla",
      "name": "Red-winged Blackbird",
      "sci": "Agelaius phoeniceus",
-     "count": 1,
-     "seen": "2026-11-25 15:07",
-     "place": "Hughes Hollow - McKee Beshers WMA",
-     "lat": 39.08,
-     "lon": -77.404,
+     "count": 4,
+     "seen": "2026-11-25 11:11",
+     "place": "Aquia Landing Park",
+     "lat": 38.389,
+     "lon": -77.316,
      "notable": false,
-     "near": "Great Falls and Washington"
+     "near": "Prince William Forest"
     },
     {
      "code": "redhea",
@@ -8561,7 +9620,7 @@
      "name": "American White Pelican",
      "sci": "Pelecanus erythrorhynchos",
      "count": 1,
-     "seen": "2026-11-26 15:58",
+     "seen": "2026-11-26 16:25",
      "place": "Summersville Lake--Roadside Park",
      "lat": 38.221,
      "lon": -80.895,
@@ -8809,6 +9868,18 @@
      "near": "New River Gorge middle"
     },
     {
+     "code": "gadwal",
+     "name": "Gadwall",
+     "sci": "Mareca strepera",
+     "count": 3,
+     "seen": "2026-11-26 10:25",
+     "place": "Summersville Lake--Roadside Park",
+     "lat": 38.221,
+     "lon": -80.895,
+     "notable": false,
+     "near": "New River Gorge north"
+    },
+    {
      "code": "gockin",
      "name": "Golden-crowned Kinglet",
      "sci": "Regulus satrapa",
@@ -8825,10 +9896,10 @@
      "name": "Great Blue Heron",
      "sci": "Ardea herodias",
      "count": 1,
-     "seen": "2026-11-26 11:14",
-     "place": "Summersville Lake SP--Pirate's Cove Trail",
-     "lat": 38.243,
-     "lon": -80.853,
+     "seen": "2026-11-26 16:25",
+     "place": "Summersville Lake--Roadside Park",
+     "lat": 38.221,
+     "lon": -80.895,
      "notable": false,
      "near": "New River Gorge north"
     },
@@ -8873,7 +9944,7 @@
      "name": "Horned Grebe",
      "sci": "Podiceps auritus",
      "count": 1,
-     "seen": "2026-11-26 15:58",
+     "seen": "2026-11-26 16:25",
      "place": "Summersville Lake--Roadside Park",
      "lat": 38.221,
      "lon": -80.895,
@@ -8891,6 +9962,18 @@
      "lon": -80.883,
      "notable": false,
      "near": "New River Gorge south"
+    },
+    {
+     "code": "mallar3",
+     "name": "Mallard",
+     "sci": "Anas platyrhynchos",
+     "count": 21,
+     "seen": "2026-11-26 16:25",
+     "place": "Summersville Lake--Roadside Park",
+     "lat": 38.221,
+     "lon": -80.895,
+     "notable": false,
+     "near": "New River Gorge north"
     },
     {
      "code": "moudov",
@@ -8980,7 +10063,7 @@
      "code": "rebmer",
      "name": "Red-breasted Merganser",
      "sci": "Mergus serrator",
-     "count": 5,
+     "count": 3,
      "seen": "2026-11-26 10:25",
      "place": "Summersville Lake--Roadside Park",
      "lat": 38.221,
@@ -10291,8 +11374,8 @@
     "visibilityM": null,
     "precipRate": 0.0,
     "humidity": 0.0,
-    "windKph": 0.6,
-    "updated": "2026-11-26T20:42:40-05:00"
+    "windKph": 0.5,
+    "updated": "2026-11-27T07:42:41-05:00"
    },
    {
     "id": "NWRO-ESS-US211-E-00042",
@@ -10300,13 +11383,13 @@
     "side": "forest",
     "lat": 38.64275,
     "lon": -78.611683,
-    "airC": 5.0,
-    "surfaceC": 5.2,
+    "airC": 3.8,
+    "surfaceC": 2.9,
     "visibilityM": null,
     "precipRate": 0.0,
-    "humidity": 0.0,
-    "windKph": 0.0,
-    "updated": "2026-11-26T20:41:16-05:00"
+    "humidity": 86.0,
+    "windKph": 0.3,
+    "updated": "2026-11-27T07:45:41-05:00"
    },
    {
     "id": "NWRO-ESS-I81-N-01830",
@@ -10314,13 +11397,13 @@
     "side": "forest",
     "lat": 37.70669,
     "lon": -79.46077,
-    "airC": 7.0,
+    "airC": 5.0,
     "surfaceC": 7.3,
-    "visibilityM": 1801.0,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 98.0,
+    "humidity": 68.0,
     "windKph": 0.0,
-    "updated": "2026-11-26T20:41:28-05:00"
+    "updated": "2026-11-27T07:45:41-05:00"
    },
    {
     "id": "NWRO-ESS-US33-W-00455",
@@ -10342,13 +11425,13 @@
     "side": "park",
     "lat": 38.912208,
     "lon": -78.075139,
-    "airC": 5.8,
-    "surfaceC": 6.1,
+    "airC": 6.4,
+    "surfaceC": 5.8,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 0.0,
+    "humidity": 92.0,
     "windKph": 0.0,
-    "updated": "2026-11-26T20:41:29-05:00"
+    "updated": "2026-11-27T07:45:42-05:00"
    },
    {
     "id": "NWRO-ESS-I64-W-01011",
@@ -10356,13 +11439,13 @@
     "side": "park",
     "lat": 38.0382,
     "lon": -78.83838,
-    "airC": 5.5,
-    "surfaceC": 6.7,
+    "airC": 4.7,
+    "surfaceC": 5.2,
     "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 98.0,
-    "windKph": 0.9,
-    "updated": "2026-11-26T20:44:48-05:00"
+    "humidity": 80.0,
+    "windKph": 0.8,
+    "updated": "2026-11-27T07:45:53-05:00"
    },
    {
     "id": "NWRO-ESS-SR259-Bergton",
@@ -10384,13 +11467,13 @@
     "side": "park",
     "lat": 38.660684,
     "lon": -78.318726,
-    "airC": 4.9,
-    "surfaceC": 5.1,
-    "visibilityM": 1109.0,
+    "airC": 2.7,
+    "surfaceC": 2.4,
+    "visibilityM": 2000.0,
     "precipRate": 0.0,
-    "humidity": 100.0,
-    "windKph": 2.4,
-    "updated": "2026-11-26T20:45:12-05:00"
+    "humidity": 80.0,
+    "windKph": 6.8,
+    "updated": "2026-11-27T07:46:17-05:00"
    }
   ]
  },
@@ -10399,44 +11482,6 @@
    "status": "ok",
    "feed": "incidentFiltered",
    "items": [
-    {
-     "title": "Incident WXNW11915843839-11262026 updated",
-     "description": "On I-64 East at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
-     "lat": 38.03244,
-     "lon": -78.8589,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.1,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11915843839-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11915843839-11262026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
-    {
-     "title": "Incident WXNW11915846484-11262026 updated",
-     "description": "On I-64 West at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
-     "lat": 38.03265,
-     "lon": -78.85894,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.1,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11915846484-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentFiltered/detail/current/VATRAFFIC-WXNW11915846484-11262026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
     {
      "title": "Incident WXSW11917123274-11262026 updated",
      "description": "On Rt. 687 in Nelson County, in the vicinity of North Fork Rd, motorists can expect delays due to weather. All east lanes are closed. All west lanes are closed.",
@@ -10464,7 +11509,7 @@
    "items": [
     {
      "title": "Planned Event WZNW4701756-11262026-1 updated",
-     "description": "On US-340 (E Side Hwy) in the County of Augusta from Crimora Mine Rd; New Hope And Crimora Rd; Rt. 612E/W (Augusta County) to Thorofare Rd; Rt. 628N/S (Augusta County), motorists can expect potential delays in this area from 11/26/26 at 4:24 PM until 11/26/26 at 10:00 PM due to maintenance activities. All north lanes are alternating closures. All south lanes are alternating closures.",
+     "description": "On US-340 (E Side Hwy) in the County of Augusta from Crimora Mine Rd; New Hope And Crimora Rd; Rt. 612E/W (Augusta County) to Thorofare Rd; Rt. 628N/S (Augusta County), motorists can expect potential delays in this area from 11/26/26 at 4:24 PM until 11/27/26 at 8:00 AM due to maintenance activities. All north lanes are closed. All south lanes are closed.",
      "lat": 38.15374,
      "lon": -78.84249,
      "line": [
@@ -10622,8 +11667,8 @@
       "title"
      ],
      "start": "2026-11-26T16:24:00",
-     "end": "2026-11-26T22:00:00",
-     "allLanesClosed": false
+     "end": "2026-11-27T08:00:00",
+     "allLanesClosed": true
     }
    ]
   },
@@ -10632,268 +11677,8 @@
    "feed": "roadCondition",
    "items": [
     {
-     "title": "Road Condition WXSW4701601-11262026-9 updated",
-     "description": "county: Altavista (Town)\n                    route: Rt. 687W (Nelson County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Storm\n                    message:",
-     "lat": 37.85728,
-     "lon": -79.04583,
-     "line": [
-      [
-       37.857285,
-       -79.045834
-      ],
-      [
-       37.857608,
-       -79.045736
-      ],
-      [
-       37.857995,
-       -79.045639
-      ],
-      [
-       37.858441,
-       -79.045497
-      ],
-      [
-       37.858699,
-       -79.045464
-      ],
-      [
-       37.858946,
-       -79.045452
-      ],
-      [
-       37.859245,
-       -79.045413
-      ],
-      [
-       37.859766,
-       -79.04532
-      ],
-      [
-       37.860299,
-       -79.045179
-      ],
-      [
-       37.861111,
-       -79.044926
-      ],
-      [
-       37.861313,
-       -79.044886
-      ],
-      [
-       37.861429,
-       -79.04488
-      ],
-      [
-       37.861712,
-       -79.044899
-      ],
-      [
-       37.862,
-       -79.044971
-      ],
-      [
-       37.862155,
-       -79.045034
-      ],
-      [
-       37.862276,
-       -79.045097
-      ],
-      [
-       37.863146,
-       -79.045626
-      ],
-      [
-       37.863328,
-       -79.045701
-      ],
-      [
-       37.86347,
-       -79.04573
-      ],
-      [
-       37.863543,
-       -79.045734
-      ],
-      [
-       37.863744,
-       -79.045723
-      ],
-      [
-       37.863867,
-       -79.04569
-      ],
-      [
-       37.863987,
-       -79.045639
-      ],
-      [
-       37.864171,
-       -79.04553
-      ],
-      [
-       37.864368,
-       -79.045463
-      ],
-      [
-       37.86487,
-       -79.045378
-      ],
-      [
-       37.865575,
-       -79.04521
-      ],
-      [
-       37.865789,
-       -79.045178
-      ],
-      [
-       37.866092,
-       -79.045167
-      ],
-      [
-       37.866642,
-       -79.045197
-      ],
-      [
-       37.866793,
-       -79.045216
-      ],
-      [
-       37.867196,
-       -79.045507
-      ],
-      [
-       37.867288,
-       -79.045558
-      ],
-      [
-       37.867337,
-       -79.045571
-      ],
-      [
-       37.867378,
-       -79.045564
-      ],
-      [
-       37.867601,
-       -79.045455
-      ],
-      [
-       37.868131,
-       -79.04523
-      ],
-      [
-       37.868243,
-       -79.045196
-      ],
-      [
-       37.868302,
-       -79.045186
-      ],
-      [
-       37.868468,
-       -79.045186
-      ],
-      [
-       37.868817,
-       -79.045247
-      ],
-      [
-       37.868903,
-       -79.045295
-      ],
-      [
-       37.869034,
-       -79.045402
-      ],
-      [
-       37.869121,
-       -79.045488
-      ],
-      [
-       37.869155,
-       -79.04554
-      ],
-      [
-       37.869196,
-       -79.04561
-      ],
-      [
-       37.869263,
-       -79.045791
-      ],
-      [
-       37.869521,
-       -79.046243
-      ],
-      [
-       37.869569,
-       -79.046413
-      ],
-      [
-       37.86959,
-       -79.046601
-      ],
-      [
-       37.869567,
-       -79.047297
-      ],
-      [
-       37.869555,
-       -79.047386
-      ],
-      [
-       37.869517,
-       -79.047541
-      ],
-      [
-       37.869434,
-       -79.047764
-      ],
-      [
-       37.869398,
-       -79.047884
-      ],
-      [
-       37.869388,
-       -79.047954
-      ],
-      [
-       37.869402,
-       -79.04831
-      ],
-      [
-       37.869421,
-       -79.04846
-      ],
-      [
-       37.869468,
-       -79.048682
-      ],
-      [
-       37.869488,
-       -79.048823
-      ]
-     ],
-     "published": null,
-     "side": "parkway",
-     "milesFromTrailhead": 0.6,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701601-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701601-11262026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "line",
-      "link",
-      "title"
-     ]
-    },
-    {
-     "title": "Road Condition WXSW4701601-11262026-10 updated",
-     "description": "county: Altavista (Town)\n                    route: Rt. 687E (Nelson County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Storm\n                    message:",
+     "title": "Road Condition WXSW4701779-11262026-3 updated",
+     "description": "county: Nelson (County)\n                    route: Rt. 687E (Nelson County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Storm\n                    message:",
      "lat": 37.87665,
      "lon": -79.12871,
      "line": [
@@ -11141,8 +11926,788 @@
      "published": null,
      "side": "parkway",
      "milesFromTrailhead": 0.6,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701601-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701601-11262026.xml",
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701779-11262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701779-11262026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ]
+    },
+    {
+     "title": "Road Condition WXSW4701779-11262026-4 updated",
+     "description": "county: Nelson (County)\n                    route: Rt. 687W (Nelson County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Storm\n                    message:",
+     "lat": 37.85728,
+     "lon": -79.04583,
+     "line": [
+      [
+       37.857285,
+       -79.045834
+      ],
+      [
+       37.857608,
+       -79.045736
+      ],
+      [
+       37.857995,
+       -79.045639
+      ],
+      [
+       37.858441,
+       -79.045497
+      ],
+      [
+       37.858699,
+       -79.045464
+      ],
+      [
+       37.858946,
+       -79.045452
+      ],
+      [
+       37.859245,
+       -79.045413
+      ],
+      [
+       37.859766,
+       -79.04532
+      ],
+      [
+       37.860299,
+       -79.045179
+      ],
+      [
+       37.861111,
+       -79.044926
+      ],
+      [
+       37.861313,
+       -79.044886
+      ],
+      [
+       37.861429,
+       -79.04488
+      ],
+      [
+       37.861712,
+       -79.044899
+      ],
+      [
+       37.862,
+       -79.044971
+      ],
+      [
+       37.862155,
+       -79.045034
+      ],
+      [
+       37.862276,
+       -79.045097
+      ],
+      [
+       37.863146,
+       -79.045626
+      ],
+      [
+       37.863328,
+       -79.045701
+      ],
+      [
+       37.86347,
+       -79.04573
+      ],
+      [
+       37.863543,
+       -79.045734
+      ],
+      [
+       37.863744,
+       -79.045723
+      ],
+      [
+       37.863867,
+       -79.04569
+      ],
+      [
+       37.863987,
+       -79.045639
+      ],
+      [
+       37.864171,
+       -79.04553
+      ],
+      [
+       37.864368,
+       -79.045463
+      ],
+      [
+       37.86487,
+       -79.045378
+      ],
+      [
+       37.865575,
+       -79.04521
+      ],
+      [
+       37.865789,
+       -79.045178
+      ],
+      [
+       37.866092,
+       -79.045167
+      ],
+      [
+       37.866642,
+       -79.045197
+      ],
+      [
+       37.866793,
+       -79.045216
+      ],
+      [
+       37.867196,
+       -79.045507
+      ],
+      [
+       37.867288,
+       -79.045558
+      ],
+      [
+       37.867337,
+       -79.045571
+      ],
+      [
+       37.867378,
+       -79.045564
+      ],
+      [
+       37.867601,
+       -79.045455
+      ],
+      [
+       37.868131,
+       -79.04523
+      ],
+      [
+       37.868243,
+       -79.045196
+      ],
+      [
+       37.868302,
+       -79.045186
+      ],
+      [
+       37.868468,
+       -79.045186
+      ],
+      [
+       37.868817,
+       -79.045247
+      ],
+      [
+       37.868903,
+       -79.045295
+      ],
+      [
+       37.869034,
+       -79.045402
+      ],
+      [
+       37.869121,
+       -79.045488
+      ],
+      [
+       37.869155,
+       -79.04554
+      ],
+      [
+       37.869196,
+       -79.04561
+      ],
+      [
+       37.869263,
+       -79.045791
+      ],
+      [
+       37.869521,
+       -79.046243
+      ],
+      [
+       37.869569,
+       -79.046413
+      ],
+      [
+       37.86959,
+       -79.046601
+      ],
+      [
+       37.869567,
+       -79.047297
+      ],
+      [
+       37.869555,
+       -79.047386
+      ],
+      [
+       37.869517,
+       -79.047541
+      ],
+      [
+       37.869434,
+       -79.047764
+      ],
+      [
+       37.869398,
+       -79.047884
+      ],
+      [
+       37.869388,
+       -79.047954
+      ],
+      [
+       37.869402,
+       -79.04831
+      ],
+      [
+       37.869421,
+       -79.04846
+      ],
+      [
+       37.869468,
+       -79.048682
+      ],
+      [
+       37.869488,
+       -79.048823
+      ]
+     ],
+     "published": null,
+     "side": "parkway",
+     "milesFromTrailhead": 0.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701779-11262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXSW4701779-11262026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ]
+    },
+    {
+     "title": "Road Condition WXNW4701778-11262026-1 updated",
+     "description": "county: Shenandoah (County)\n                    route: Rt. 678N (Shenandoah County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
+     "lat": 38.79705,
+     "lon": -78.46429,
+     "line": [
+      [
+       38.797051,
+       -78.464286
+      ],
+      [
+       38.797354,
+       -78.463933
+      ],
+      [
+       38.797533,
+       -78.463767
+      ],
+      [
+       38.797756,
+       -78.463616
+      ],
+      [
+       38.798024,
+       -78.463497
+      ],
+      [
+       38.79821,
+       -78.46345
+      ],
+      [
+       38.798399,
+       -78.463428
+      ],
+      [
+       38.79966,
+       -78.463447
+      ],
+      [
+       38.799811,
+       -78.463419
+      ],
+      [
+       38.799956,
+       -78.463357
+      ],
+      [
+       38.800052,
+       -78.463292
+      ],
+      [
+       38.800141,
+       -78.463212
+      ],
+      [
+       38.80048,
+       -78.462794
+      ],
+      [
+       38.800604,
+       -78.462665
+      ],
+      [
+       38.800799,
+       -78.462489
+      ],
+      [
+       38.801607,
+       -78.461965
+      ],
+      [
+       38.801961,
+       -78.46172
+      ],
+      [
+       38.802443,
+       -78.461343
+      ],
+      [
+       38.802605,
+       -78.461181
+      ],
+      [
+       38.802788,
+       -78.46097
+      ],
+      [
+       38.803009,
+       -78.460659
+      ],
+      [
+       38.80318,
+       -78.460363
+      ],
+      [
+       38.803328,
+       -78.460047
+      ],
+      [
+       38.803402,
+       -78.459859
+      ],
+      [
+       38.803849,
+       -78.458527
+      ],
+      [
+       38.803966,
+       -78.45807
+      ],
+      [
+       38.804081,
+       -78.457502
+      ],
+      [
+       38.804176,
+       -78.457175
+      ],
+      [
+       38.804287,
+       -78.456903
+      ],
+      [
+       38.804399,
+       -78.456684
+      ],
+      [
+       38.804528,
+       -78.45648
+      ],
+      [
+       38.804647,
+       -78.456323
+      ],
+      [
+       38.804844,
+       -78.456122
+      ],
+      [
+       38.80505,
+       -78.455936
+      ],
+      [
+       38.805263,
+       -78.455766
+      ],
+      [
+       38.805484,
+       -78.45561
+      ],
+      [
+       38.80562,
+       -78.455525
+      ],
+      [
+       38.80642,
+       -78.455112
+      ],
+      [
+       38.806795,
+       -78.454894
+      ],
+      [
+       38.807773,
+       -78.454247
+      ],
+      [
+       38.807978,
+       -78.454088
+      ],
+      [
+       38.808157,
+       -78.453973
+      ],
+      [
+       38.808417,
+       -78.453841
+      ],
+      [
+       38.808687,
+       -78.453744
+      ],
+      [
+       38.8094,
+       -78.453603
+      ],
+      [
+       38.809562,
+       -78.453553
+      ],
+      [
+       38.809692,
+       -78.453492
+      ],
+      [
+       38.809817,
+       -78.453415
+      ],
+      [
+       38.809935,
+       -78.453321
+      ],
+      [
+       38.810045,
+       -78.453213
+      ],
+      [
+       38.81049,
+       -78.452669
+      ],
+      [
+       38.811367,
+       -78.451391
+      ],
+      [
+       38.811494,
+       -78.451189
+      ],
+      [
+       38.81166,
+       -78.450961
+      ],
+      [
+       38.811841,
+       -78.450753
+      ],
+      [
+       38.812775,
+       -78.449776
+      ],
+      [
+       38.812902,
+       -78.449623
+      ],
+      [
+       38.813041,
+       -78.449423
+      ],
+      [
+       38.813201,
+       -78.44913
+      ],
+      [
+       38.813343,
+       -78.448773
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ]
+    },
+    {
+     "title": "Road Condition WXNW4701778-11262026-2 updated",
+     "description": "county: Shenandoah (County)\n                    route: Rt. 678S (Shenandoah County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
+     "lat": 38.82666,
+     "lon": -78.43265,
+     "line": [
+      [
+       38.826661,
+       -78.432653
+      ],
+      [
+       38.826516,
+       -78.432606
+      ],
+      [
+       38.826387,
+       -78.432586
+      ],
+      [
+       38.826226,
+       -78.432615
+      ],
+      [
+       38.826093,
+       -78.432677
+      ],
+      [
+       38.825955,
+       -78.432786
+      ],
+      [
+       38.825211,
+       -78.433586
+      ],
+      [
+       38.823885,
+       -78.435214
+      ],
+      [
+       38.822762,
+       -78.436797
+      ],
+      [
+       38.822076,
+       -78.437838
+      ],
+      [
+       38.821724,
+       -78.43832
+      ],
+      [
+       38.820272,
+       -78.440146
+      ],
+      [
+       38.819835,
+       -78.440665
+      ],
+      [
+       38.818861,
+       -78.441723
+      ],
+      [
+       38.818253,
+       -78.442357
+      ],
+      [
+       38.818057,
+       -78.442518
+      ],
+      [
+       38.81791,
+       -78.442603
+      ],
+      [
+       38.817775,
+       -78.44266
+      ],
+      [
+       38.817366,
+       -78.442769
+      ],
+      [
+       38.817195,
+       -78.442856
+      ],
+      [
+       38.81708,
+       -78.442937
+      ],
+      [
+       38.816548,
+       -78.443459
+      ],
+      [
+       38.815943,
+       -78.444026
+      ],
+      [
+       38.815764,
+       -78.444222
+      ],
+      [
+       38.814296,
+       -78.4462
+      ],
+      [
+       38.813961,
+       -78.446703
+      ],
+      [
+       38.81388,
+       -78.446845
+      ],
+      [
+       38.813799,
+       -78.447028
+      ],
+      [
+       38.813735,
+       -78.447222
+      ],
+      [
+       38.813343,
+       -78.448773
+      ],
+      [
+       38.813201,
+       -78.44913
+      ],
+      [
+       38.813041,
+       -78.449423
+      ],
+      [
+       38.812902,
+       -78.449623
+      ],
+      [
+       38.812775,
+       -78.449776
+      ],
+      [
+       38.811841,
+       -78.450753
+      ],
+      [
+       38.81166,
+       -78.450961
+      ],
+      [
+       38.811494,
+       -78.451189
+      ],
+      [
+       38.811367,
+       -78.451391
+      ],
+      [
+       38.81049,
+       -78.452669
+      ],
+      [
+       38.810045,
+       -78.453213
+      ],
+      [
+       38.809935,
+       -78.453321
+      ],
+      [
+       38.809817,
+       -78.453415
+      ],
+      [
+       38.809692,
+       -78.453492
+      ],
+      [
+       38.809562,
+       -78.453553
+      ],
+      [
+       38.8094,
+       -78.453603
+      ],
+      [
+       38.808687,
+       -78.453744
+      ],
+      [
+       38.808417,
+       -78.453841
+      ],
+      [
+       38.808157,
+       -78.453973
+      ],
+      [
+       38.807978,
+       -78.454088
+      ],
+      [
+       38.807773,
+       -78.454247
+      ],
+      [
+       38.806795,
+       -78.454894
+      ],
+      [
+       38.80642,
+       -78.455112
+      ],
+      [
+       38.80562,
+       -78.455525
+      ],
+      [
+       38.805484,
+       -78.45561
+      ],
+      [
+       38.805263,
+       -78.455766
+      ],
+      [
+       38.80505,
+       -78.455936
+      ],
+      [
+       38.804844,
+       -78.456122
+      ],
+      [
+       38.804647,
+       -78.456323
+      ],
+      [
+       38.804528,
+       -78.45648
+      ],
+      [
+       38.804399,
+       -78.456684
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
      "tags": [
       "description",
       "guid",
@@ -11734,44 +13299,6 @@
    "feed": "incidentUnfiltered",
    "items": [
     {
-     "title": "Road Condition WXNW11915843839-11262026 updated",
-     "description": "On I-64 East at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
-     "lat": 38.03244,
-     "lon": -78.8589,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.1,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11915843839-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11915843839-11262026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
-    {
-     "title": "Road Condition WXNW11915846484-11262026 updated",
-     "description": "On I-64 West at mile marker 99.9 in Augusta County, motorists can expect delays due to fog.",
-     "lat": 38.03265,
-     "lon": -78.85894,
-     "line": null,
-     "published": null,
-     "side": "park",
-     "milesFromTrailhead": 0.1,
-     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11915846484-11262026.xml",
-     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/incidentUnfiltered/detail/current/VATRAFFIC-WXNW11915846484-11262026.xml",
-     "tags": [
-      "description",
-      "guid",
-      "link",
-      "point",
-      "title"
-     ]
-    },
-    {
      "title": "Road Condition WXSW11917123274-11262026 updated",
      "description": "On Rt. 687 in Nelson County, in the vicinity of North Fork Rd, motorists can expect delays due to weather. All east lanes are closed. All west lanes are closed.",
      "lat": 37.88528,
@@ -11796,6 +13323,266 @@
    "status": "ok",
    "feed": "roadCondition",
    "items": [
+    {
+     "title": "Road Condition WXNW4701778-11262026 updated",
+     "description": "county: Shenandoah (County)\n                    route: Rt. 678N (Shenandoah County)\n                    pavementCondition: impassable\n                    roadStatus: Closed\n                    category: Weather\n                    type: Flood\n                    message:",
+     "lat": 38.79705,
+     "lon": -78.46429,
+     "line": [
+      [
+       38.797051,
+       -78.464286
+      ],
+      [
+       38.797354,
+       -78.463933
+      ],
+      [
+       38.797533,
+       -78.463767
+      ],
+      [
+       38.797756,
+       -78.463616
+      ],
+      [
+       38.798024,
+       -78.463497
+      ],
+      [
+       38.79821,
+       -78.46345
+      ],
+      [
+       38.798399,
+       -78.463428
+      ],
+      [
+       38.79966,
+       -78.463447
+      ],
+      [
+       38.799811,
+       -78.463419
+      ],
+      [
+       38.799956,
+       -78.463357
+      ],
+      [
+       38.800052,
+       -78.463292
+      ],
+      [
+       38.800141,
+       -78.463212
+      ],
+      [
+       38.80048,
+       -78.462794
+      ],
+      [
+       38.800604,
+       -78.462665
+      ],
+      [
+       38.800799,
+       -78.462489
+      ],
+      [
+       38.801607,
+       -78.461965
+      ],
+      [
+       38.801961,
+       -78.46172
+      ],
+      [
+       38.802443,
+       -78.461343
+      ],
+      [
+       38.802605,
+       -78.461181
+      ],
+      [
+       38.802788,
+       -78.46097
+      ],
+      [
+       38.803009,
+       -78.460659
+      ],
+      [
+       38.80318,
+       -78.460363
+      ],
+      [
+       38.803328,
+       -78.460047
+      ],
+      [
+       38.803402,
+       -78.459859
+      ],
+      [
+       38.803849,
+       -78.458527
+      ],
+      [
+       38.803966,
+       -78.45807
+      ],
+      [
+       38.804081,
+       -78.457502
+      ],
+      [
+       38.804176,
+       -78.457175
+      ],
+      [
+       38.804287,
+       -78.456903
+      ],
+      [
+       38.804399,
+       -78.456684
+      ],
+      [
+       38.804528,
+       -78.45648
+      ],
+      [
+       38.804647,
+       -78.456323
+      ],
+      [
+       38.804844,
+       -78.456122
+      ],
+      [
+       38.80505,
+       -78.455936
+      ],
+      [
+       38.805263,
+       -78.455766
+      ],
+      [
+       38.805484,
+       -78.45561
+      ],
+      [
+       38.80562,
+       -78.455525
+      ],
+      [
+       38.80642,
+       -78.455112
+      ],
+      [
+       38.806795,
+       -78.454894
+      ],
+      [
+       38.807773,
+       -78.454247
+      ],
+      [
+       38.807978,
+       -78.454088
+      ],
+      [
+       38.808157,
+       -78.453973
+      ],
+      [
+       38.808417,
+       -78.453841
+      ],
+      [
+       38.808687,
+       -78.453744
+      ],
+      [
+       38.8094,
+       -78.453603
+      ],
+      [
+       38.809562,
+       -78.453553
+      ],
+      [
+       38.809692,
+       -78.453492
+      ],
+      [
+       38.809817,
+       -78.453415
+      ],
+      [
+       38.809935,
+       -78.453321
+      ],
+      [
+       38.810045,
+       -78.453213
+      ],
+      [
+       38.81049,
+       -78.452669
+      ],
+      [
+       38.811367,
+       -78.451391
+      ],
+      [
+       38.811494,
+       -78.451189
+      ],
+      [
+       38.81166,
+       -78.450961
+      ],
+      [
+       38.811841,
+       -78.450753
+      ],
+      [
+       38.812775,
+       -78.449776
+      ],
+      [
+       38.812902,
+       -78.449623
+      ],
+      [
+       38.813041,
+       -78.449423
+      ],
+      [
+       38.813201,
+       -78.44913
+      ],
+      [
+       38.813343,
+       -78.448773
+      ]
+     ],
+     "published": null,
+     "side": "forest",
+     "milesFromTrailhead": 2.6,
+     "id": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
+     "link": "https://data.511-atis-ttrip-prod.iteriscloud.com/smarterRoads/roadCondition/detail/current/VATRAFFIC-WXNW4701778-11262026.xml",
+     "tags": [
+      "description",
+      "guid",
+      "line",
+      "link",
+      "title"
+     ]
+    },
     {
      "title": "Road Condition WXSW4701620-11262026 updated",
      "description": "county: Botetourt (County)\n                    route: Rt. 614N (Botetourt County)\n                    pavementCondition: passable\n                    roadStatus: Open\n                    category: Weather\n                    type: Flood\n                    message:",

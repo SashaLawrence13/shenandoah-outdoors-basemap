@@ -1,8 +1,8 @@
 {
- "fetchedAt": "2026-11-27T01:47:17Z",
+ "fetchedAt": "2026-11-27T12:43:56Z",
  "region": "wica",
  "air": {
-  "status": "ok",
+  "status": "stale",
   "observations": [
    {
     "area": "Wind Cave Visitor Center",
@@ -96,11 +96,36 @@
     "actionDay": false,
     "discussion": ""
    }
-  ]
+  ],
+  "staleSince": "2026-11-27T12:43:56Z"
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "bkbwoo",
+    "name": "Black-backed Woodpecker",
+    "sci": "Picoides arcticus",
+    "count": 1,
+    "seen": "2026-11-26 14:08",
+    "place": "Custer SP--Center Lake",
+    "lat": 43.801,
+    "lon": -103.417,
+    "notable": true,
+    "near": "Rankin Ridge"
+   },
+   {
+    "code": "rudduc",
+    "name": "Ruddy Duck",
+    "sci": "Oxyura jamaicensis",
+    "count": 1,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
+    "notable": true,
+    "near": "Wind Cave Visitor Center"
+   },
    {
     "code": "spotow",
     "name": "Spotted Towhee",
@@ -174,6 +199,18 @@
     "near": "Wind Cave Visitor Center"
    },
    {
+    "code": "belkin1",
+    "name": "Belted Kingfisher",
+    "sci": "Megaceryle alcyon",
+    "count": 1,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
+    "notable": false,
+    "near": "Wind Cave Visitor Center"
+   },
+   {
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
@@ -198,64 +235,40 @@
     "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "blujay",
-    "name": "Blue Jay",
-    "sci": "Cyanocitta cristata",
-    "count": 1,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
-    "notable": false,
-    "near": "Rankin Ridge"
-   },
-   {
-    "code": "brncre",
-    "name": "Brown Creeper",
-    "sci": "Certhia americana",
-    "count": 1,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
-    "notable": false,
-    "near": "Rankin Ridge"
-   },
-   {
     "code": "cangoo",
     "name": "Canada Goose",
     "sci": "Branta canadensis",
-    "count": 10,
-    "seen": "2026-11-19 07:00",
-    "place": "Barnes Canyon - Custer State Park",
-    "lat": 43.74,
-    "lon": -103.378,
+    "count": 6,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "gryjay",
-    "name": "Canada Jay",
-    "sci": "Perisoreus canadensis",
+    "code": "comgol",
+    "name": "Common Goldeneye",
+    "sci": "Bucephala clangula",
     "count": 1,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
     "notable": false,
-    "near": "Rankin Ridge"
+    "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "cedwax",
-    "name": "Cedar Waxwing",
-    "sci": "Bombycilla cedrorum",
-    "count": 1,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
+    "code": "commer",
+    "name": "Common Merganser",
+    "sci": "Mergus merganser",
+    "count": 3,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
     "notable": false,
-    "near": "Rankin Ridge"
+    "near": "Wind Cave Visitor Center"
    },
    {
     "code": "daejun",
@@ -294,30 +307,6 @@
     "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "gockin",
-    "name": "Golden-crowned Kinglet",
-    "sci": "Regulus satrapa",
-    "count": 6,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
-    "notable": false,
-    "near": "Rankin Ridge"
-   },
-   {
-    "code": "grhowl",
-    "name": "Great Horned Owl",
-    "sci": "Bubo virginianus",
-    "count": 1,
-    "seen": "2026-11-19 02:00",
-    "place": "Custer SP--French Creek (East)",
-    "lat": 43.713,
-    "lon": -103.354,
-    "notable": false,
-    "near": "Wind Cave Visitor Center"
-   },
-   {
     "code": "hoomer",
     "name": "Hooded Merganser",
     "sci": "Lophodytes cucullatus",
@@ -333,11 +322,11 @@
     "code": "mallar3",
     "name": "Mallard",
     "sci": "Anas platyrhynchos",
-    "count": 12,
-    "seen": "2026-11-24 13:28",
-    "place": "Hidden Valley Rd. pond",
-    "lat": 43.365,
-    "lon": -103.343,
+    "count": 1,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
     "notable": false,
     "near": "Wind Cave Visitor Center"
    },
@@ -354,16 +343,16 @@
     "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "prafal",
-    "name": "Prairie Falcon",
-    "sci": "Falco mexicanus",
-    "count": 1,
-    "seen": "2026-11-19 10:00",
-    "place": "Custer SP--Cathedral Spires Tr.",
-    "lat": 43.843,
-    "lon": -103.535,
+    "code": "redhea",
+    "name": "Redhead",
+    "sci": "Aythya americana",
+    "count": 3,
+    "seen": "2026-11-26 16:05",
+    "place": "Custer SP--Stockade Lake",
+    "lat": 43.773,
+    "lon": -103.517,
     "notable": false,
-    "near": "Rankin Ridge"
+    "near": "Wind Cave Visitor Center"
    },
    {
     "code": "rinduc",
@@ -390,18 +379,17 @@
     "near": "Wind Cave Visitor Center"
    },
    {
-    "code": "wiltur",
-    "name": "Wild Turkey",
-    "sci": "Meleagris gallopavo",
-    "count": 22,
-    "seen": "2026-11-19 07:00",
-    "place": "Barnes Canyon - Custer State Park",
-    "lat": 43.74,
-    "lon": -103.378,
+    "code": "wesgre",
+    "name": "Western Grebe",
+    "sci": "Aechmophorus occidentalis",
+    "count": 1,
+    "seen": "2026-11-26 14:08",
+    "place": "Custer SP--Center Lake",
+    "lat": 43.801,
+    "lon": -103.417,
     "notable": false,
-    "near": "Wind Cave Visitor Center"
+    "near": "Rankin Ridge"
    }
-  ],
-  "staleSince": "2026-11-27T01:47:17Z"
+  ]
  }
 }
