@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-27T23:31:36Z",
+ "fetchedAt": "2026-11-28T08:01:51Z",
  "region": "grsa",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 37.7395,
     "lon": -105.5171,
     "pollutant": "PM2.5",
-    "aqi": 56,
-    "category": "Moderate",
-    "level": 2,
-    "observed": "2026-11-27 16:00 local"
+    "aqi": 50,
+    "category": "Good",
+    "level": 1,
+    "observed": "2026-11-28 1:00 local"
    },
    {
     "area": "Medano Lake",
@@ -29,28 +29,13 @@
     "lat": 37.8566,
     "lon": -105.4846,
     "pollutant": "PM2.5",
-    "aqi": 61,
+    "aqi": 54,
     "category": "Moderate",
     "level": 2,
-    "observed": "2026-11-27 16:00 local"
+    "observed": "2026-11-28 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Dunes Parking Lot",
-    "state": "CO",
-    "near": "grsa-dunes",
-    "side": "forest",
-    "region": "grsa",
-    "source": "open-meteo",
-    "date": "2026-11-27",
-    "pollutant": "PM2.5",
-    "aqi": 63,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Dunes Parking Lot",
     "state": "CO",
@@ -67,17 +52,17 @@
     "discussion": ""
    },
    {
-    "area": "Medano Lake",
+    "area": "Dunes Parking Lot",
     "state": "CO",
-    "near": "grsa-preserve",
+    "near": "grsa-dunes",
     "side": "forest",
     "region": "grsa",
     "source": "open-meteo",
-    "date": "2026-11-27",
-    "pollutant": "PM2.5",
-    "aqi": 68,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-29",
+    "pollutant": "O3",
+    "aqi": 39,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -95,11 +80,26 @@
     "level": 2,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "Medano Lake",
+    "state": "CO",
+    "near": "grsa-preserve",
+    "side": "forest",
+    "region": "grsa",
+    "source": "open-meteo",
+    "date": "2026-11-29",
+    "pollutant": "O3",
+    "aqi": 40,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
    {
     "code": "evegro4",
@@ -111,6 +111,18 @@
     "lat": 37.621,
     "lon": -105.56,
     "notable": true,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "amecro",
+    "name": "American Crow",
+    "sci": "Corvus brachyrhynchos",
+    "count": 45,
+    "seen": "2026-11-25 12:31",
+    "place": "Great Sand Dunes NP--Visitor Center area",
+    "lat": 37.733,
+    "lon": -105.512,
+    "notable": false,
     "near": "Dunes Parking Lot"
    },
    {
@@ -141,11 +153,11 @@
     "code": "bkbmag1",
     "name": "Black-billed Magpie",
     "sci": "Pica hudsonia",
-    "count": 3,
-    "seen": "2026-11-23 10:59",
-    "place": "Great Sand Dunes NP (Alamosa Co.)",
-    "lat": 37.739,
-    "lon": -105.516,
+    "count": 1,
+    "seen": "2026-11-25 12:31",
+    "place": "Great Sand Dunes NP--Visitor Center area",
+    "lat": 37.733,
+    "lon": -105.512,
     "notable": false,
     "near": "Dunes Parking Lot"
    },
@@ -158,6 +170,18 @@
     "place": "Zapata Falls and CG",
     "lat": 37.621,
     "lon": -105.56,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "bushti",
+    "name": "Bushtit",
+    "sci": "Psaltriparus minimus",
+    "count": 10,
+    "seen": "2026-11-25 12:31",
+    "place": "Great Sand Dunes NP--Visitor Center area",
+    "lat": 37.733,
+    "lon": -105.512,
     "notable": false,
     "near": "Dunes Parking Lot"
    },
@@ -206,6 +230,18 @@
     "place": "Great Sand Dunes NP--Montville Nature Trail",
     "lat": 37.735,
     "lon": -105.507,
+    "notable": false,
+    "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "houfin",
+    "name": "House Finch",
+    "sci": "Haemorhous mexicanus",
+    "count": 12,
+    "seen": "2026-11-25 12:31",
+    "place": "Great Sand Dunes NP--Visitor Center area",
+    "lat": 37.733,
+    "lon": -105.512,
     "notable": false,
     "near": "Dunes Parking Lot"
    },
@@ -292,8 +328,19 @@
     "lon": -105.507,
     "notable": false,
     "near": "Dunes Parking Lot"
+   },
+   {
+    "code": "wooscj2",
+    "name": "Woodhouse's Scrub-Jay",
+    "sci": "Aphelocoma woodhouseii",
+    "count": 3,
+    "seen": "2026-11-25 12:31",
+    "place": "Great Sand Dunes NP--Visitor Center area",
+    "lat": 37.733,
+    "lon": -105.512,
+    "notable": false,
+    "near": "Dunes Parking Lot"
    }
-  ],
-  "staleSince": "2026-11-27T23:31:36Z"
+  ]
  }
 }

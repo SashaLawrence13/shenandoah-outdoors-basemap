@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-27T23:31:36Z",
+ "fetchedAt": "2026-11-28T08:01:51Z",
  "region": "cany",
  "air": {
   "status": "ok",
@@ -14,10 +14,10 @@
     "lat": 38.4586,
     "lon": -109.8192,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-27 16:00 local"
+    "observed": "2026-11-28 1:00 local"
    },
    {
     "area": "The Needles",
@@ -29,10 +29,10 @@
     "lat": 38.1698,
     "lon": -109.7597,
     "pollutant": "O3",
-    "aqi": 40,
+    "aqi": 33,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-27 16:00 local"
+    "observed": "2026-11-28 1:00 local"
    },
    {
     "area": "The Maze",
@@ -44,28 +44,13 @@
     "lat": 38.35,
     "lon": -110.2,
     "pollutant": "O3",
-    "aqi": 25,
+    "aqi": 23,
     "category": "Good",
     "level": 1,
-    "observed": "2026-11-27 16:00 local"
+    "observed": "2026-11-28 1:00 local"
    }
   ],
   "forecasts": [
-   {
-    "area": "Island in the Sky (Grand View Point)",
-    "state": "UT",
-    "near": "cany-island-in-the-sky",
-    "side": "forest",
-    "region": "cany",
-    "source": "open-meteo",
-    "date": "2026-11-27",
-    "pollutant": "PM2.5",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
-    "actionDay": false,
-    "discussion": ""
-   },
    {
     "area": "Island in the Sky (Grand View Point)",
     "state": "UT",
@@ -82,17 +67,17 @@
     "discussion": ""
    },
    {
-    "area": "The Needles",
+    "area": "Island in the Sky (Grand View Point)",
     "state": "UT",
-    "near": "cany-needles",
+    "near": "cany-island-in-the-sky",
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-11-27",
-    "pollutant": "PM2.5",
-    "aqi": 54,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-29",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -112,17 +97,17 @@
     "discussion": ""
    },
    {
-    "area": "The Maze",
+    "area": "The Needles",
     "state": "UT",
-    "near": "cany-maze",
+    "near": "cany-needles",
     "side": "forest",
     "region": "cany",
     "source": "open-meteo",
-    "date": "2026-11-27",
-    "pollutant": "PM2.5",
-    "aqi": 55,
-    "category": "Moderate",
-    "level": 2,
+    "date": "2026-11-29",
+    "pollutant": "O3",
+    "aqi": 38,
+    "category": "Good",
+    "level": 1,
     "actionDay": false,
     "discussion": ""
    },
@@ -140,12 +125,39 @@
     "level": 1,
     "actionDay": false,
     "discussion": ""
+   },
+   {
+    "area": "The Maze",
+    "state": "UT",
+    "near": "cany-maze",
+    "side": "forest",
+    "region": "cany",
+    "source": "open-meteo",
+    "date": "2026-11-29",
+    "pollutant": "O3",
+    "aqi": 33,
+    "category": "Good",
+    "level": 1,
+    "actionDay": false,
+    "discussion": ""
    }
   ]
  },
  "birds": {
-  "status": "stale",
+  "status": "ok",
   "list": [
+   {
+    "code": "bkrfin",
+    "name": "Black Rosy-Finch",
+    "sci": "Leucosticte atrata",
+    "count": 14,
+    "seen": "2026-11-27 08:27",
+    "place": "Canyonlands NP--Maze District",
+    "lat": 38.208,
+    "lon": -109.957,
+    "notable": false,
+    "near": "The Needles"
+   },
    {
     "code": "brncre",
     "name": "Brown Creeper",
@@ -183,28 +195,52 @@
     "near": "Island in the Sky (Grand View Point)"
    },
    {
+    "code": "comgol",
+    "name": "Common Goldeneye",
+    "sci": "Bucephala clangula",
+    "count": 1,
+    "seen": "2026-11-27 12:02",
+    "place": "Indian Creek Reservoir",
+    "lat": 38.078,
+    "lon": -109.565,
+    "notable": false,
+    "near": "The Needles"
+   },
+   {
     "code": "comrav",
     "name": "Common Raven",
     "sci": "Corvus corax",
-    "count": 8,
-    "seen": "2026-11-26 14:34",
-    "place": "White Rim Overlook Trailhead",
-    "lat": 38.323,
-    "lon": -109.85,
+    "count": 1,
+    "seen": "2026-11-27 15:58",
+    "place": "Canyonlands NP--Cave Spring Trail",
+    "lat": 38.157,
+    "lon": -109.752,
     "notable": false,
-    "near": "Island in the Sky (Grand View Point)"
+    "near": "The Needles"
    },
    {
     "code": "daejun",
     "name": "Dark-eyed Junco",
     "sci": "Junco hyemalis",
-    "count": 1,
-    "seen": "2026-11-23 14:47",
-    "place": "Canyonlands NP--Grand View Point Overlook",
-    "lat": 38.311,
-    "lon": -109.857,
+    "count": 3,
+    "seen": "2026-11-27 15:58",
+    "place": "Canyonlands NP--Cave Spring Trail",
+    "lat": 38.157,
+    "lon": -109.752,
     "notable": false,
-    "near": "Island in the Sky (Grand View Point)"
+    "near": "The Needles"
+   },
+   {
+    "code": "eargre",
+    "name": "Eared Grebe",
+    "sci": "Podiceps nigricollis",
+    "count": 1,
+    "seen": "2026-11-27 12:02",
+    "place": "Indian Creek Reservoir",
+    "lat": 38.078,
+    "lon": -109.565,
+    "notable": false,
+    "near": "The Needles"
    },
    {
     "code": "juntit1",
@@ -219,6 +255,18 @@
     "near": "Island in the Sky (Grand View Point)"
    },
    {
+    "code": "mallar3",
+    "name": "Mallard",
+    "sci": "Anas platyrhynchos",
+    "count": 6,
+    "seen": "2026-11-27 12:02",
+    "place": "Indian Creek Reservoir",
+    "lat": 38.078,
+    "lon": -109.565,
+    "notable": false,
+    "near": "The Needles"
+   },
+   {
     "code": "norfli",
     "name": "Northern Flicker",
     "sci": "Colaptes auratus",
@@ -229,6 +277,18 @@
     "lon": -109.619,
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
+   },
+   {
+    "code": "pinsis",
+    "name": "Pine Siskin",
+    "sci": "Spinus pinus",
+    "count": 2,
+    "seen": "2026-11-27 08:27",
+    "place": "Canyonlands NP--Maze District",
+    "lat": 38.208,
+    "lon": -109.957,
+    "notable": false,
+    "near": "The Needles"
    },
    {
     "code": "pinjay",
@@ -243,6 +303,30 @@
     "near": "Island in the Sky (Grand View Point)"
    },
    {
+    "code": "rinduc",
+    "name": "Ring-necked Duck",
+    "sci": "Aythya collaris",
+    "count": 100,
+    "seen": "2026-11-27 12:02",
+    "place": "Indian Creek Reservoir",
+    "lat": 38.078,
+    "lon": -109.565,
+    "notable": false,
+    "near": "The Needles"
+   },
+   {
+    "code": "sonspa",
+    "name": "Song Sparrow",
+    "sci": "Melospiza melodia",
+    "count": 1,
+    "seen": "2026-11-27 15:58",
+    "place": "Canyonlands NP--Cave Spring Trail",
+    "lat": 38.157,
+    "lon": -109.752,
+    "notable": false,
+    "near": "The Needles"
+   },
+   {
     "code": "wooscj2",
     "name": "Woodhouse's Scrub-Jay",
     "sci": "Aphelocoma woodhouseii",
@@ -254,7 +338,6 @@
     "notable": false,
     "near": "Island in the Sky (Grand View Point)"
    }
-  ],
-  "staleSince": "2026-11-27T23:31:36Z"
+  ]
  }
 }
